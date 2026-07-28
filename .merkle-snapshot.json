@@ -1,0 +1,292 @@
+{
+  "rootHash": "11748d4aaf885df3789fc53833d46b3b9c43e8280ebd98d174f162aa468c55d4",
+  "timestamp": 1785221832876,
+  "fileCount": 16,
+  "files": [
+    {
+      "path": "windows\\runner\\flutter_window.cpp",
+      "hash": "c9d0a66f5bb26ab0ec4daa7fcff9f0cb2a1c764c7d14169f2d8fb757229f4fb0",
+      "size": 2193,
+      "modified": 1785221595828.5703
+    },
+    {
+      "path": "windows\\runner\\flutter_window.h",
+      "hash": "4ff12fe579eb26f9a5abae5228c49e342de0e9970c3a96d021b455be09249208",
+      "size": 961,
+      "modified": 1785221595831.5718
+    },
+    {
+      "path": "windows\\runner\\main.cpp",
+      "hash": "d0524e2ca1bd0430f824c00e49d55c131d0127f1b32c72a3ff08675f8b6640ef",
+      "size": 1305,
+      "modified": 1785221595834.5806
+    },
+    {
+      "path": "windows\\runner\\resource.h",
+      "hash": "a7389b40a04da64b6c4a9dd79721ecb00ac9b06735afbb878e8e9fb0bb0ba163",
+      "size": 448,
+      "modified": 1785221595835.5708
+    },
+    {
+      "path": "windows\\runner\\utils.cpp",
+      "hash": "e76b7d5457702db03d335d7e52420f32511e099f01c3031b6ae819f7c669238a",
+      "size": 1862,
+      "modified": 1785221595845.1272
+    },
+    {
+      "path": "windows\\runner\\utils.h",
+      "hash": "a873af8df8682189c8c178c2b074b3620f521a4578ae930a67d0e6b9871d9d4d",
+      "size": 691,
+      "modified": 1785221595848.1055
+    },
+    {
+      "path": "windows\\runner\\win32_window.cpp",
+      "hash": "0cef88c6370cd8c4eb792104720e2dd1454cd7022db4b404a79ae6eb0db0e3b2",
+      "size": 8822,
+      "modified": 1785221595850.0935
+    },
+    {
+      "path": "windows\\runner\\win32_window.h",
+      "hash": "a2ac2bea355274ae5b6d34356111d36adc482812291f7d586d6f99ea5fb6a33d",
+      "size": 3624,
+      "modified": 1785221595852.0945
+    },
+    {
+      "path": "windows\\flutter\\generated_plugin_registrant.cc",
+      "hash": "2942f532a54f267a5429bb504efceae3bac5f099009fe86ca2bc62eb9d069215",
+      "size": 164,
+      "modified": 1785221596308.1309
+    },
+    {
+      "path": "windows\\flutter\\generated_plugin_registrant.h",
+      "hash": "0fed69724ef35c409778ecc025a4caf5fd70db2c5404dae38f1168ae9b21ae5c",
+      "size": 302,
+      "modified": 1785221596306.9067
+    },
+    {
+      "path": "linux\\runner\\main.cc",
+      "hash": "b0ee9b67fcc6ea89920322707b2297e9fc5d4e2bfae76537aa32ba9b9ddddbfe",
+      "size": 186,
+      "modified": 1785221595788.0442
+    },
+    {
+      "path": "linux\\runner\\my_application.cc",
+      "hash": "a3647a2e92e492c67c45a837960aa5379dc3e97eace2be011877fde12909b6a7",
+      "size": 5605,
+      "modified": 1785221595791.036
+    },
+    {
+      "path": "linux\\runner\\my_application.h",
+      "hash": "7b3768725f9843dfc46248571c13d36fdf96ded57a146acbb44a1ad7edb9af91",
+      "size": 472,
+      "modified": 1785221595792.0374
+    },
+    {
+      "path": "linux\\flutter\\generated_plugin_registrant.cc",
+      "hash": "3c56f36ae653fa8e35cc72d5012d79d2706fc5cdf608cac4c98c32a6bfb19e83",
+      "size": 161,
+      "modified": 1785221596302.909
+    },
+    {
+      "path": "linux\\flutter\\generated_plugin_registrant.h",
+      "hash": "4b3e7b30d2f9a2369b7a476bc3686366290499eaabb09dadd7d3b0a69049ab2a",
+      "size": 303,
+      "modified": 1785221596299.907
+    },
+    {
+      "path": "android\\app\\src\\main\\java\\io\\flutter\\plugins\\GeneratedPluginRegistrant.java",
+      "hash": "8da89ad235a1555920fa96a35eba74b7e6c4328b6f46115c69069e35b22a9041",
+      "size": 516,
+      "modified": 1785221596297.9082
+    }
+  ],
+  "tree": {
+    "hash": "11748d4aaf885df3789fc53833d46b3b9c43e8280ebd98d174f162aa468c55d4",
+    "left": {
+      "hash": "392e2af856b2a888a7ea95dfa1a27b2dcf3f335ffb279afdd1b17da5cea5aedf",
+      "left": {
+        "hash": "14a14adbb36867341fbff301bd8c0ac3225804ed407efe4c3ac7f1b5444b507c",
+        "left": {
+          "hash": "5572672acbb7fa918b892af7567e5242376197c2b3df58893dbb21ad5b623299",
+          "left": {
+            "hash": "8da89ad235a1555920fa96a35eba74b7e6c4328b6f46115c69069e35b22a9041",
+            "file": {
+              "path": "android\\app\\src\\main\\java\\io\\flutter\\plugins\\GeneratedPluginRegistrant.java",
+              "hash": "8da89ad235a1555920fa96a35eba74b7e6c4328b6f46115c69069e35b22a9041",
+              "size": 516,
+              "modified": 1785221596297.9082
+            }
+          },
+          "right": {
+            "hash": "3c56f36ae653fa8e35cc72d5012d79d2706fc5cdf608cac4c98c32a6bfb19e83",
+            "file": {
+              "path": "linux\\flutter\\generated_plugin_registrant.cc",
+              "hash": "3c56f36ae653fa8e35cc72d5012d79d2706fc5cdf608cac4c98c32a6bfb19e83",
+              "size": 161,
+              "modified": 1785221596302.909
+            }
+          }
+        },
+        "right": {
+          "hash": "919c2e76c82135d9ec675e034beba68faf689ce6be31e1c0c1ec46f4d783a613",
+          "left": {
+            "hash": "4b3e7b30d2f9a2369b7a476bc3686366290499eaabb09dadd7d3b0a69049ab2a",
+            "file": {
+              "path": "linux\\flutter\\generated_plugin_registrant.h",
+              "hash": "4b3e7b30d2f9a2369b7a476bc3686366290499eaabb09dadd7d3b0a69049ab2a",
+              "size": 303,
+              "modified": 1785221596299.907
+            }
+          },
+          "right": {
+            "hash": "b0ee9b67fcc6ea89920322707b2297e9fc5d4e2bfae76537aa32ba9b9ddddbfe",
+            "file": {
+              "path": "linux\\runner\\main.cc",
+              "hash": "b0ee9b67fcc6ea89920322707b2297e9fc5d4e2bfae76537aa32ba9b9ddddbfe",
+              "size": 186,
+              "modified": 1785221595788.0442
+            }
+          }
+        }
+      },
+      "right": {
+        "hash": "6d8384e81bb4601e3d67214f7719637c53a8887bf0f2ddc020eab6ea2edc9064",
+        "left": {
+          "hash": "355ce4855d1fb67e98d3cc2fe29d2228d6ae125147011a9a8ab9ae2d18802cf7",
+          "left": {
+            "hash": "a3647a2e92e492c67c45a837960aa5379dc3e97eace2be011877fde12909b6a7",
+            "file": {
+              "path": "linux\\runner\\my_application.cc",
+              "hash": "a3647a2e92e492c67c45a837960aa5379dc3e97eace2be011877fde12909b6a7",
+              "size": 5605,
+              "modified": 1785221595791.036
+            }
+          },
+          "right": {
+            "hash": "7b3768725f9843dfc46248571c13d36fdf96ded57a146acbb44a1ad7edb9af91",
+            "file": {
+              "path": "linux\\runner\\my_application.h",
+              "hash": "7b3768725f9843dfc46248571c13d36fdf96ded57a146acbb44a1ad7edb9af91",
+              "size": 472,
+              "modified": 1785221595792.0374
+            }
+          }
+        },
+        "right": {
+          "hash": "192db2ce722a3e3e07c67a6af849e82871696642c328011539e7a62ef42b1110",
+          "left": {
+            "hash": "2942f532a54f267a5429bb504efceae3bac5f099009fe86ca2bc62eb9d069215",
+            "file": {
+              "path": "windows\\flutter\\generated_plugin_registrant.cc",
+              "hash": "2942f532a54f267a5429bb504efceae3bac5f099009fe86ca2bc62eb9d069215",
+              "size": 164,
+              "modified": 1785221596308.1309
+            }
+          },
+          "right": {
+            "hash": "0fed69724ef35c409778ecc025a4caf5fd70db2c5404dae38f1168ae9b21ae5c",
+            "file": {
+              "path": "windows\\flutter\\generated_plugin_registrant.h",
+              "hash": "0fed69724ef35c409778ecc025a4caf5fd70db2c5404dae38f1168ae9b21ae5c",
+              "size": 302,
+              "modified": 1785221596306.9067
+            }
+          }
+        }
+      }
+    },
+    "right": {
+      "hash": "89283a81813d8cc8298eb82be04aab46832f7f62dd8d662ebcd08abf598e8abf",
+      "left": {
+        "hash": "6de7f6773a1df7fcc8d382eedd24907ef3f7f624a69f65804f0fe6a199d376d6",
+        "left": {
+          "hash": "5b4de70a6bfbf0eca06c33088656835c011d8a908a3644a6b19ccaf70c3f8249",
+          "left": {
+            "hash": "c9d0a66f5bb26ab0ec4daa7fcff9f0cb2a1c764c7d14169f2d8fb757229f4fb0",
+            "file": {
+              "path": "windows\\runner\\flutter_window.cpp",
+              "hash": "c9d0a66f5bb26ab0ec4daa7fcff9f0cb2a1c764c7d14169f2d8fb757229f4fb0",
+              "size": 2193,
+              "modified": 1785221595828.5703
+            }
+          },
+          "right": {
+            "hash": "4ff12fe579eb26f9a5abae5228c49e342de0e9970c3a96d021b455be09249208",
+            "file": {
+              "path": "windows\\runner\\flutter_window.h",
+              "hash": "4ff12fe579eb26f9a5abae5228c49e342de0e9970c3a96d021b455be09249208",
+              "size": 961,
+              "modified": 1785221595831.5718
+            }
+          }
+        },
+        "right": {
+          "hash": "5153711c11c3b3ef5f22c4e8e281ec71f40ca57a07eda381dd7aa1c49591bbf4",
+          "left": {
+            "hash": "d0524e2ca1bd0430f824c00e49d55c131d0127f1b32c72a3ff08675f8b6640ef",
+            "file": {
+              "path": "windows\\runner\\main.cpp",
+              "hash": "d0524e2ca1bd0430f824c00e49d55c131d0127f1b32c72a3ff08675f8b6640ef",
+              "size": 1305,
+              "modified": 1785221595834.5806
+            }
+          },
+          "right": {
+            "hash": "a7389b40a04da64b6c4a9dd79721ecb00ac9b06735afbb878e8e9fb0bb0ba163",
+            "file": {
+              "path": "windows\\runner\\resource.h",
+              "hash": "a7389b40a04da64b6c4a9dd79721ecb00ac9b06735afbb878e8e9fb0bb0ba163",
+              "size": 448,
+              "modified": 1785221595835.5708
+            }
+          }
+        }
+      },
+      "right": {
+        "hash": "3f2d88c528318ae53873b07a84a91f53a0fae9a8ac46e2a506c815604e3d0ae9",
+        "left": {
+          "hash": "706c1117a87c3cb9b841b71f4dbd6f8790f034addf1fa8e959156fcb30301d2f",
+          "left": {
+            "hash": "e76b7d5457702db03d335d7e52420f32511e099f01c3031b6ae819f7c669238a",
+            "file": {
+              "path": "windows\\runner\\utils.cpp",
+              "hash": "e76b7d5457702db03d335d7e52420f32511e099f01c3031b6ae819f7c669238a",
+              "size": 1862,
+              "modified": 1785221595845.1272
+            }
+          },
+          "right": {
+            "hash": "a873af8df8682189c8c178c2b074b3620f521a4578ae930a67d0e6b9871d9d4d",
+            "file": {
+              "path": "windows\\runner\\utils.h",
+              "hash": "a873af8df8682189c8c178c2b074b3620f521a4578ae930a67d0e6b9871d9d4d",
+              "size": 691,
+              "modified": 1785221595848.1055
+            }
+          }
+        },
+        "right": {
+          "hash": "46a97f8becb478403ee52f70b174ab5d05baa268f5d6210a9cf212f48f53dc34",
+          "left": {
+            "hash": "0cef88c6370cd8c4eb792104720e2dd1454cd7022db4b404a79ae6eb0db0e3b2",
+            "file": {
+              "path": "windows\\runner\\win32_window.cpp",
+              "hash": "0cef88c6370cd8c4eb792104720e2dd1454cd7022db4b404a79ae6eb0db0e3b2",
+              "size": 8822,
+              "modified": 1785221595850.0935
+            }
+          },
+          "right": {
+            "hash": "a2ac2bea355274ae5b6d34356111d36adc482812291f7d586d6f99ea5fb6a33d",
+            "file": {
+              "path": "windows\\runner\\win32_window.h",
+              "hash": "a2ac2bea355274ae5b6d34356111d36adc482812291f7d586d6f99ea5fb6a33d",
+              "size": 3624,
+              "modified": 1785221595852.0945
+            }
+          }
+        }
+      }
+    }
+  }
+}
