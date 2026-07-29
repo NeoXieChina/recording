@@ -5,7 +5,7 @@ class AppConstants {
 
   /// 数据库相关常量
   static const String databaseName = 'item_manager.db';
-  static const int databaseVersion = 3;
+  static const int databaseVersion = 4;
 
   /// 图片存储相关常量
   static const String imageDirectory = 'item_images';
@@ -58,6 +58,9 @@ class AppConstants {
   /// 价格格式
   static const String currencySymbol = '¥';
   static const int priceDecimalDigits = 2;
+  
+  /// 可用货币符号
+  static const List<String> currencySymbols = ['¥', '\$', '€', '£', '₹', '₽'];
 
   /// 验证规则
   static const int maxNameLength = 100;

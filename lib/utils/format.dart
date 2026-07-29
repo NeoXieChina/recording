@@ -44,18 +44,27 @@ class FormatUtils {
   }
 
   /// 格式化价格
-  static String formatPrice(double price) {
+  static String formatPrice(double price, {String? currencySymbol}) {
+    if (currencySymbol != null) {
+      return NumberFormat.currency(
+        symbol: currencySymbol,
+        decimalDigits: AppConstants.priceDecimalDigits,
+      ).format(price);
+    }
     return _priceFormat.format(price);
   }
 
   /// 解析价格字符串
-  static double? parsePrice(String priceString) {
+  static double? parsePrice(String priceString, {String? currencySymbol}) {
     try {
       // 移除货币符号和千位分隔符
-      final cleanString = priceString
-          .replaceAll(AppConstants.currencySymbol, '')
-          .replaceAll(',', '')
-          .trim();
+      String cleanString = priceString;
+      if (currencySymbol != null) {
+        cleanString = cleanString.replaceAll(currencySymbol, '');
+      } else {
+        cleanString = cleanString.replaceAll(AppConstants.currencySymbol, '');
+      }
+      cleanString = cleanString.replaceAll(',', '').trim();
       return double.parse(cleanString);
     } catch (e) {
       return null;
@@ -73,9 +82,9 @@ class FormatUtils {
   }
 
   /// 格式化总价
-  static String formatTotalPrice(double unitPrice, int quantity) {
+  static String formatTotalPrice(double unitPrice, int quantity, {String? currencySymbol}) {
     final totalPrice = calculateTotalPrice(unitPrice, quantity);
-    return formatPrice(totalPrice);
+    return formatPrice(totalPrice, currencySymbol: currencySymbol);
   }
 
   /// 格式化剩余天数

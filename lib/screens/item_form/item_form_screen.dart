@@ -361,25 +361,61 @@ class ItemFormScreen extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 16),
-        _buildNumberInputWithButtons(
-          context: context,
-          label: '单价',
-          errorText: provider.unitPriceError,
-          icon: Icons.attach_money,
-          value: provider.unitPrice,
-          onChanged: (value) {
-            final newValue = value.toDouble();
-            if (newValue >= 0) {
-              provider.setUnitPrice(newValue);
-            }
-          },
-          step: 1,
-          isInteger: false,
+        Row(
+          children: [
+            Expanded(
+              flex: 3,
+              child: _buildNumberInputWithButtons(
+                context: context,
+                label: '单价',
+                errorText: provider.unitPriceError,
+                icon: Icons.attach_money,
+                value: provider.unitPrice,
+                onChanged: (value) {
+                  final newValue = value.toDouble();
+                  if (newValue >= 0) {
+                    provider.setUnitPrice(newValue);
+                  }
+                },
+                step: 1,
+                isInteger: false,
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              flex: 2,
+              child: DropdownButtonFormField<String>(
+                isExpanded: true,
+                initialValue: provider.currencySymbol,
+                decoration: InputDecoration(
+                  labelText: '货币',
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+                ),
+                items: AppConstants.currencySymbols.map((symbol) {
+                  return DropdownMenuItem(
+                    value: symbol,
+                    child: Text(
+                      symbol,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  );
+                }).toList(),
+                onChanged: (value) {
+                  if (value != null) {
+                    provider.setCurrencySymbol(value);
+                  }
+                },
+              ),
+            ),
+          ],
         ),
         const SizedBox(height: 8),
         Center(
           child: Text(
-            '总价：${FormatUtils.formatPrice(provider.totalPrice)}',
+            '总价：${FormatUtils.formatPrice(provider.totalPrice, currencySymbol: provider.currencySymbol)}',
             style: Theme.of(context).textTheme.titleMedium?.copyWith(
               color: Theme.of(context).colorScheme.primary,
               fontWeight: FontWeight.bold,
@@ -447,119 +483,29 @@ class ItemFormScreen extends StatelessWidget {
     final dateLabel = isConsumable ? '有效期' : '保修到期日';
     final dateIcon = isConsumable ? Icons.event : Icons.verified_user;
     
-    // 判断是否处于自动计算模式
-    final isAutoCalcMode = !provider.useManualDateEntry && 
-        ((provider.usePurchaseDateForCalculation || provider.useProductionDateForCalculation) &&
-        (provider.shelfLifeMonths != null || provider.shelfLifeDays != null) &&
-        ((provider.usePurchaseDateForCalculation && provider.purchaseDate != null) ||
-         (provider.useProductionDateForCalculation && provider.productionDate != null)));
-    
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        // 计算方式选择
-        Text('日期计算方式', style: Theme.of(context).textTheme.titleMedium),
-        const SizedBox(height: 8),
-        SegmentedButton<bool>(
-          segments: const [
-            ButtonSegment(
-              value: false,
-              label: Text('自动计算'),
-              icon: Icon(Icons.calculate),
-            ),
-            ButtonSegment(
-              value: true,
-              label: Text('手动输入'),
-              icon: Icon(Icons.edit_calendar),
-            ),
-          ],
-          selected: {provider.useManualDateEntry},
-          onSelectionChanged: (s) => provider.setUseManualDateEntry(s.first),
+        // 基准日期选择
+        _buildDatePicker(
+          context: context,
+          label: isConsumable ? '生产日期' : '购买日期',
+          icon: isConsumable ? Icons.factory : Icons.shopping_cart,
+          date: isConsumable ? provider.productionDate : provider.purchaseDate,
+          errorText: null,
+          onPicked: isConsumable ? provider.setProductionDate : provider.setPurchaseDate,
+          showClearButton: true,
         ),
         const SizedBox(height: 16),
 
-        if (!provider.useManualDateEntry) ...[
-          // 自动计算部分
-          Text('自动计算设置', style: Theme.of(context).textTheme.titleMedium),
-          const SizedBox(height: 8),
-          
-          // 基准日期选择
-          _buildDatePicker(
-            context: context,
-            label: isConsumable ? '生产日期' : '购买日期',
-            icon: isConsumable ? Icons.factory : Icons.shopping_cart,
-            date: isConsumable ? provider.productionDate : provider.purchaseDate,
-            errorText: null,
-            onPicked: isConsumable ? provider.setProductionDate : provider.setPurchaseDate,
-            showClearButton: true,
-          ),
-          const SizedBox(height: 12),
-          
-          // 启用自动计算开关
-          Row(
-            children: [
-              Checkbox(
-                value: isConsumable 
-                    ? provider.useProductionDateForCalculation 
-                    : provider.usePurchaseDateForCalculation,
-                onChanged: (value) {
-                  if (isConsumable) {
-                    provider.setUseProductionDateForCalculation(value ?? false);
-                  } else {
-                    provider.setUsePurchaseDateForCalculation(value ?? false);
-                  }
-                },
-              ),
-              const SizedBox(width: 8),
-              Expanded(
-                child: Text(
-                  isConsumable 
-                      ? '使用生产日期自动计算有效期' 
-                      : '使用购买日期自动计算保修期',
-                  style: Theme.of(context).textTheme.bodyMedium,
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 16),
+        // 保质期输入
+        _buildShelfLifeInputWithUnit(
+          context: context,
+          provider: provider,
+        ),
+        const SizedBox(height: 12),
 
-          // 保质期输入
-          _buildShelfLifeInputWithUnit(
-            context: context,
-            provider: provider,
-          ),
-          const SizedBox(height: 12),
-          
-          // 自动计算提示
-          if (isAutoCalcMode)
-            Container(
-              padding: const EdgeInsets.all(12),
-              decoration: BoxDecoration(
-                color: Colors.green.withAlpha(25), // 近似于0.1不透明度
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(color: Colors.green.withAlpha(76)), // 近似于0.3不透明度
-              ),
-              child: Row(
-                children: [
-                  Icon(Icons.info, size: 16, color: Colors.green),
-                  const SizedBox(width: 8),
-                  Expanded(
-                    child: Text(
-                      isConsumable
-                          ? '系统将根据生产日期和保质期自动计算有效期'
-                          : '系统将根据购买日期和保质期自动计算保修期',
-                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: Colors.green,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          const SizedBox(height: 16),
-        ],
-
-        // 最终日期显示
+        // 最终日期显示（自动计算，只读）
         _buildDatePicker(
           context: context,
           label: dateLabel,
@@ -567,19 +513,20 @@ class ItemFormScreen extends StatelessWidget {
           date: isConsumable ? provider.expiryDate : provider.warrantyDate,
           errorText: provider.dateError,
           onPicked: isConsumable ? provider.setExpiryDate : provider.setWarrantyDate,
-          readOnly: isAutoCalcMode,
-          showClearButton: !isAutoCalcMode,
+          readOnly: true, // 总是只读，因为自动计算
+          showClearButton: false, // 不显示清除按钮
           minDate: isConsumable ? provider.productionDate : provider.purchaseDate,
         ),
         
-        // 模式说明
-        if (provider.useManualDateEntry)
+        // 自动计算提示
+        if (isConsumable ? provider.productionDate != null : provider.purchaseDate != null)
           Padding(
             padding: const EdgeInsets.only(top: 8),
             child: Text(
-              '手动输入模式：直接选择${isConsumable ? '有效期' : '保修到期日'}',
+              '根据${isConsumable ? '生产日期' : '购买日期'}和保质期自动计算',
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                color: Theme.of(context).colorScheme.secondary,
+                color: Colors.green,
+                fontStyle: FontStyle.italic,
               ),
             ),
           ),

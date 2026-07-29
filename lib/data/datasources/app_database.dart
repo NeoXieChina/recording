@@ -40,6 +40,7 @@ class AppDatabase {
         quantity INTEGER NOT NULL,
         unit TEXT NOT NULL,
         unitPrice REAL NOT NULL,
+        currencySymbol TEXT NOT NULL DEFAULT '¥',
         expiryDate INTEGER,
         warrantyDate INTEGER,
         imagePaths TEXT NOT NULL DEFAULT '',
@@ -87,6 +88,12 @@ class AppDatabase {
       // 版本2升级到版本3：添加存储地点字段
       await db.execute('''
         ALTER TABLE items ADD COLUMN storageLocation TEXT NOT NULL DEFAULT ''
+      ''');
+    }
+    if (oldVersion < 4) {
+      // 版本3升级到版本4：添加货币符号字段
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN currencySymbol TEXT NOT NULL DEFAULT '¥'
       ''');
     }
   }

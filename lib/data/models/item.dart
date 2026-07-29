@@ -1,4 +1,5 @@
 import 'package:uuid/uuid.dart';
+import 'package:recording/constants.dart';
 
 enum ItemType { consumable, durable }
 
@@ -10,6 +11,7 @@ class Item {
   final int quantity;
   final String unit;
   final double unitPrice;
+  final String currencySymbol;
 
   double get totalPrice => unitPrice * quantity;
   final DateTime? expiryDate;
@@ -34,6 +36,7 @@ class Item {
     this.quantity = 1,
     this.unit = '个',
     this.unitPrice = 0.0,
+    this.currencySymbol = AppConstants.currencySymbol,
     this.expiryDate,
     this.warrantyDate,
     this.purchaseDate,
@@ -58,6 +61,7 @@ class Item {
     int? quantity,
     String? unit,
     double? unitPrice,
+    String? currencySymbol,
     DateTime? expiryDate,
     DateTime? warrantyDate,
     DateTime? purchaseDate,
@@ -78,6 +82,7 @@ class Item {
       quantity: quantity ?? this.quantity,
       unit: unit ?? this.unit,
       unitPrice: unitPrice ?? this.unitPrice,
+      currencySymbol: currencySymbol ?? this.currencySymbol,
       expiryDate: expiryDate ?? this.expiryDate,
       warrantyDate: warrantyDate ?? this.warrantyDate,
       purchaseDate: purchaseDate ?? this.purchaseDate,
@@ -106,6 +111,7 @@ class Item {
       'quantity': quantity,
       'unit': unit,
       'unitPrice': unitPrice,
+      'currencySymbol': currencySymbol,
       'expiryDate': expiryDate?.millisecondsSinceEpoch,
       'warrantyDate': warrantyDate?.millisecondsSinceEpoch,
       'purchaseDate': purchaseDate?.millisecondsSinceEpoch,
@@ -133,6 +139,7 @@ class Item {
       quantity: map['quantity'] as int,
       unit: map['unit'] as String,
       unitPrice: (map['unitPrice'] as num).toDouble(),
+      currencySymbol: (map['currencySymbol'] as String?) ?? AppConstants.currencySymbol,
       expiryDate: map['expiryDate'] != null
           ? DateTime.fromMillisecondsSinceEpoch(map['expiryDate'] as int)
           : null,

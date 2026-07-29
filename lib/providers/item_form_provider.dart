@@ -18,6 +18,7 @@ class ItemFormProvider extends ChangeNotifier {
   int quantity = 1;
   String unit = '个';
   double unitPrice = 0.0;
+  String currencySymbol = AppConstants.currencySymbol;
   DateTime? expiryDate;
   DateTime? warrantyDate;
   DateTime? purchaseDate;
@@ -83,95 +84,52 @@ class ItemFormProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void setExpiryDate(DateTime? value) {
-    expiryDate = value;
-    dateError = null;
-    // 用户手动选择日期，设置为手动输入模式
-    if (value != null) {
-      useManualDateEntry = true;
-      usePurchaseDateForCalculation = false;
-      useProductionDateForCalculation = false;
-    }
+  void setCurrencySymbol(String value) {
+    currencySymbol = value;
     notifyListeners();
   }
 
+  void setExpiryDate(DateTime? value) {
+    // 现在只允许自动计算，不允许手动设置有效期
+    // 保留方法但不做任何操作，因为有效期由系统自动计算
+  }
+
   void setWarrantyDate(DateTime? value) {
-    warrantyDate = value;
-    dateError = null;
-    // 用户手动选择日期，设置为手动输入模式
-    if (value != null) {
-      useManualDateEntry = true;
-      usePurchaseDateForCalculation = false;
-      useProductionDateForCalculation = false;
-    }
-    notifyListeners();
+    // 现在只允许自动计算，不允许手动设置保修期
+    // 保留方法但不做任何操作，因为保修期由系统自动计算
   }
 
   void setPurchaseDate(DateTime? value) {
     purchaseDate = value;
-    if (value != null && (usePurchaseDateForCalculation || useProductionDateForCalculation)) {
-      useManualDateEntry = false;
-    }
+    // 总是自动计算
+    usePurchaseDateForCalculation = value != null;
+    useProductionDateForCalculation = false;
     _calculateExpiryOrWarrantyDate();
     notifyListeners();
   }
 
   void setProductionDate(DateTime? value) {
     productionDate = value;
-    if (value != null && (usePurchaseDateForCalculation || useProductionDateForCalculation)) {
-      useManualDateEntry = false;
-    }
+    // 总是自动计算
+    useProductionDateForCalculation = value != null;
+    usePurchaseDateForCalculation = false;
     _calculateExpiryOrWarrantyDate();
     notifyListeners();
   }
 
   void setShelfLifeMonths(int? value) {
     shelfLifeMonths = value;
-    if (value != null && (usePurchaseDateForCalculation || useProductionDateForCalculation)) {
-      useManualDateEntry = false;
-    }
     _calculateExpiryOrWarrantyDate();
     notifyListeners();
   }
 
   void setShelfLifeDays(int? value) {
     shelfLifeDays = value;
-    if (value != null && (usePurchaseDateForCalculation || useProductionDateForCalculation)) {
-      useManualDateEntry = false;
-    }
     _calculateExpiryOrWarrantyDate();
     notifyListeners();
   }
 
-  void setUsePurchaseDateForCalculation(bool value) {
-    usePurchaseDateForCalculation = value;
-    if (value) {
-      useProductionDateForCalculation = false;
-      useManualDateEntry = false;
-    }
-    _calculateExpiryOrWarrantyDate();
-    notifyListeners();
-  }
 
-  void setUseProductionDateForCalculation(bool value) {
-    useProductionDateForCalculation = value;
-    if (value) {
-      usePurchaseDateForCalculation = false;
-      useManualDateEntry = false;
-    }
-    _calculateExpiryOrWarrantyDate();
-    notifyListeners();
-  }
-
-  void setUseManualDateEntry(bool value) {
-    useManualDateEntry = value;
-    // 如果切换到手动输入，清除自动计算标志
-    if (value) {
-      usePurchaseDateForCalculation = false;
-      useProductionDateForCalculation = false;
-    }
-    notifyListeners();
-  }
 
   void setStorageLocation(String value) {
     storageLocation = value;
@@ -224,15 +182,18 @@ class ItemFormProvider extends ChangeNotifier {
     quantity = item.quantity;
     unit = item.unit;
     unitPrice = item.unitPrice;
+    currencySymbol = item.currencySymbol;
     expiryDate = item.expiryDate;
     warrantyDate = item.warrantyDate;
     purchaseDate = item.purchaseDate;
     productionDate = item.productionDate;
     shelfLifeMonths = item.shelfLifeMonths;
     shelfLifeDays = item.shelfLifeDays;
-    usePurchaseDateForCalculation = item.usePurchaseDateForCalculation;
-    useProductionDateForCalculation = item.useProductionDateForCalculation;
-    useManualDateEntry = !item.usePurchaseDateForCalculation && !item.useProductionDateForCalculation;
+    // 自动设置计算标志
+    usePurchaseDateForCalculation = item.itemType == ItemType.durable && item.purchaseDate != null;
+    useProductionDateForCalculation = item.itemType == ItemType.consumable && item.productionDate != null;
+    // 不再使用手动输入模式
+    useManualDateEntry = false;
     storageLocation = item.storageLocation;
     imagePaths = List.from(item.imagePaths);
     notes = item.notes;
@@ -248,6 +209,7 @@ class ItemFormProvider extends ChangeNotifier {
     quantity = 1;
     unit = '个';
     unitPrice = 0.0;
+    currencySymbol = AppConstants.currencySymbol;
     expiryDate = null;
     warrantyDate = null;
     purchaseDate = null;
@@ -300,33 +262,17 @@ class ItemFormProvider extends ChangeNotifier {
     }
 
     if (itemType == ItemType.consumable) {
-      if (useManualDateEntry) {
-        // 手动输入模式：检查是否选择了有效期
-        if (expiryDate == null) {
-          dateError = '请选择有效期';
-          isValid = false;
-        }
-      } else {
-        // 自动计算模式：检查是否有足够的计算信息
-        if (expiryDate == null && !_canCalculateExpiryDate()) {
-          dateError = '请设置购买/生产日期和保质期来自动计算有效期';
-          isValid = false;
-        }
+      // 总是自动计算模式：检查是否有足够的计算信息
+      if (expiryDate == null && !_canCalculateExpiryDate()) {
+        dateError = '请设置生产日期和保质期来自动计算有效期';
+        isValid = false;
       }
     }
     if (itemType == ItemType.durable) {
-      if (useManualDateEntry) {
-        // 手动输入模式：检查是否选择了保修期
-        if (warrantyDate == null) {
-          dateError = '请选择保修期';
-          isValid = false;
-        }
-      } else {
-        // 自动计算模式：检查是否有足够的计算信息
-        if (warrantyDate == null && !_canCalculateWarrantyDate()) {
-          dateError = '请设置购买/生产日期和保质期来自动计算保修期';
-          isValid = false;
-        }
+      // 总是自动计算模式：检查是否有足够的计算信息
+      if (warrantyDate == null && !_canCalculateWarrantyDate()) {
+        dateError = '请设置购买日期和保质期来自动计算保修期';
+        isValid = false;
       }
     }
 
@@ -349,6 +295,7 @@ class ItemFormProvider extends ChangeNotifier {
         quantity: quantity,
         unit: unit,
         unitPrice: unitPrice,
+        currencySymbol: currencySymbol,
         expiryDate: expiryDate,
         warrantyDate: warrantyDate,
         purchaseDate: purchaseDate,
