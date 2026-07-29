@@ -400,14 +400,14 @@ class _ItemListScreenState extends State<ItemListScreen> {
         ? Theme.of(context).colorScheme.tertiary
         : Theme.of(context).colorScheme.outline;
     final isWarranty = item.itemType == ItemType.durable;
-    return Text(
-      FormatUtils.formatRemainingDays(date, isWarranty: isWarranty),
-      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-        color: color,
-        fontSize: 12,
-        fontWeight: FontWeight.w700,
-      ),
-    );
+     return Text(
+       FormatUtils.formatRemainingDays(date, isWarranty: isWarranty),
+       style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+         color: color,
+         fontSize: 16,
+         fontWeight: FontWeight.w900,
+       ),
+     );
   }
 
   void _confirmDelete(Item item, ItemListProvider provider) {
@@ -613,56 +613,68 @@ class _ItemListScreenState extends State<ItemListScreen> {
                   ],
                 ),
               ),
-              ListTile(
-                leading: Icon(
-                  Icons.all_inbox,
-                  color: currentLocationFilter == null
-                      ? Theme.of(context).colorScheme.primary
-                      : Theme.of(context).colorScheme.onSurfaceVariant,
-                ),
-                title: Text(
-                  '全部地点',
-                  style: TextStyle(
-                    fontWeight: currentLocationFilter == null
-                        ? FontWeight.bold
-                        : FontWeight.normal,
-                    color: currentLocationFilter == null
-                        ? Theme.of(context).colorScheme.primary
-                        : null,
-                  ),
-                ),
-                selected: currentLocationFilter == null,
-                onTap: () {
-                  provider.setFilterLocation(null);
-                  Navigator.pop(context);
-                },
-              ),
-              ...locations.map(
-                (location) => ListTile(
-                  leading: Icon(
-                    Icons.place,
-                    color: currentLocationFilter == location
-                        ? Theme.of(context).colorScheme.primary
-                        : Theme.of(context).colorScheme.onSurfaceVariant,
-                  ),
-                  title: Text(
-                    location,
-                    style: TextStyle(
-                      fontWeight: currentLocationFilter == location
-                          ? FontWeight.bold
-                          : FontWeight.normal,
-                      color: currentLocationFilter == location
-                          ? Theme.of(context).colorScheme.primary
-                          : null,
-                    ),
-                  ),
-                  selected: currentLocationFilter == location,
-                  onTap: () {
-                    provider.setFilterLocation(location);
-                    Navigator.pop(context);
-                  },
-                ),
-              ),
+               ListTile(
+                 leading: Icon(
+                   Icons.all_inbox,
+                   color: currentLocationFilter == null
+                       ? Theme.of(context).colorScheme.primary
+                       : Theme.of(context).colorScheme.onSurfaceVariant,
+                 ),
+                 title: Text(
+                   '全部地点',
+                   style: TextStyle(
+                     fontWeight: currentLocationFilter == null
+                         ? FontWeight.bold
+                         : FontWeight.normal,
+                     color: currentLocationFilter == null
+                         ? Theme.of(context).colorScheme.primary
+                         : null,
+                   ),
+                 ),
+                 trailing: currentLocationFilter == null
+                     ? Icon(
+                         Icons.check,
+                         color: Theme.of(context).colorScheme.primary,
+                       )
+                     : null,
+                 selected: currentLocationFilter == null,
+                 onTap: () {
+                   provider.setFilterLocation(null);
+                   Navigator.pop(context);
+                 },
+               ),
+               ...locations.map(
+                 (location) => ListTile(
+                   leading: Icon(
+                     Icons.place,
+                     color: currentLocationFilter == location
+                         ? Theme.of(context).colorScheme.primary
+                         : Theme.of(context).colorScheme.onSurfaceVariant,
+                   ),
+                   title: Text(
+                     location,
+                     style: TextStyle(
+                       fontWeight: currentLocationFilter == location
+                           ? FontWeight.bold
+                           : FontWeight.normal,
+                       color: currentLocationFilter == location
+                           ? Theme.of(context).colorScheme.primary
+                           : null,
+                     ),
+                   ),
+                   trailing: currentLocationFilter == location
+                       ? Icon(
+                           Icons.check,
+                           color: Theme.of(context).colorScheme.primary,
+                         )
+                       : null,
+                   selected: currentLocationFilter == location,
+                   onTap: () {
+                     provider.setFilterLocation(location);
+                     Navigator.pop(context);
+                   },
+                 ),
+               ),
               if (locations.isEmpty) ...[
                 const Padding(
                   padding: EdgeInsets.all(16.0),
