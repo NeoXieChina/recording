@@ -17,6 +17,8 @@ class ItemListScreen extends StatefulWidget {
 }
 
 class _ItemListScreenState extends State<ItemListScreen> {
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+
   @override
   void initState() {
     super.initState();
@@ -30,11 +32,81 @@ class _ItemListScreenState extends State<ItemListScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: _scaffoldKey,
+      drawer: _buildLocationDrawer(),
       body: CustomScrollView(
         slivers: [
           SliverAppBar.large(
-            title: const Text('我的物品'),
+            title: Consumer<ItemListProvider>(
+              builder: (context, provider, _) {
+                final location = provider.filterLocation;
+                final type = provider.filterType;
+                
+                if (location != null && location.isNotEmpty) {
+                  return Row(
+                    children: [
+                      Icon(
+                        Icons.place,
+                        size: 20,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          location,
+                          style: Theme.of(context).textTheme.titleLarge,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  );
+                } else if (type != null) {
+                  final typeName = type == ItemType.consumable ? '消耗品' : '耐用品';
+                  return Row(
+                    children: [
+                      Icon(
+                        type == ItemType.consumable ? Icons.local_grocery_store : Icons.construction,
+                        size: 20,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          typeName,
+                          style: Theme.of(context).textTheme.titleLarge,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  );
+                }
+                return const Text('我的物品');
+              },
+            ),
+            leading: IconButton(
+              icon: const Icon(Icons.menu),
+              onPressed: () => _scaffoldKey.currentState?.openDrawer(),
+            ),
             actions: [
+              Consumer<ItemListProvider>(
+                builder: (context, provider, _) {
+                  final hasLocationFilter = provider.filterLocation != null && provider.filterLocation!.isNotEmpty;
+                  final hasTypeFilter = provider.filterType != null;
+                  if (hasLocationFilter || hasTypeFilter) {
+                    return IconButton(
+                      icon: const Icon(Icons.clear),
+                      onPressed: () {
+                        provider.setFilterLocation(null);
+                        provider.setFilterType(null);
+                      },
+                      tooltip: '清除所有筛选',
+                    );
+                  }
+                  return const SizedBox.shrink();
+                },
+              ),
               IconButton(
                 icon: const Icon(Icons.settings),
                 onPressed: () => Navigator.push(
@@ -45,7 +117,6 @@ class _ItemListScreenState extends State<ItemListScreen> {
             ],
           ),
           SliverToBoxAdapter(child: _buildSearchBar()),
-          SliverToBoxAdapter(child: _buildCategoryFilter()),
           Consumer<ItemListProvider>(
             builder: (context, provider, _) {
               if (provider.isLoading) {
@@ -124,40 +195,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
     );
   }
 
-  Widget _buildCategoryFilter() {
-    return Consumer<ItemListProvider>(
-      builder: (context, provider, _) {
-        return Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-          child: SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
-            child: Row(
-              children: [
-                _buildFilterChip('全部', null, provider),
-                const SizedBox(width: 8),
-                _buildFilterChip('消耗品', ItemType.consumable, provider),
-                const SizedBox(width: 8),
-                _buildFilterChip('耐用品', ItemType.durable, provider),
-              ],
-            ),
-          ),
-        );
-      },
-    );
-  }
 
-  Widget _buildFilterChip(
-    String label,
-    ItemType? type,
-    ItemListProvider provider,
-  ) {
-    final isSelected = provider.filterType == type;
-    return FilterChip(
-      label: Text(label),
-      selected: isSelected,
-      onSelected: (_) => provider.setFilterType(isSelected ? null : type),
-    );
-  }
 
   Widget _buildItemCard(Item item, ItemListProvider provider) {
     final cs = Theme.of(context).colorScheme;
@@ -343,6 +381,219 @@ class _ItemListScreenState extends State<ItemListScreen> {
             child: const Text('删除'),
           ),
         ],
+      ),
+    );
+  }
+
+  Widget _buildLocationDrawer() {
+    return Drawer(
+      child: Consumer<ItemListProvider>(
+        builder: (context, provider, _) {
+          final locations = provider.getLocations();
+          final currentLocationFilter = provider.filterLocation;
+          final currentTypeFilter = provider.filterType;
+          
+          return ListView(
+            padding: EdgeInsets.zero,
+            children: [
+              DrawerHeader(
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.primaryContainer,
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Icon(
+                      Icons.filter_alt,
+                      size: 40,
+                      color: Theme.of(context).colorScheme.onPrimaryContainer,
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      '筛选选项',
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        color: Theme.of(context).colorScheme.onPrimaryContainer,
+                      ),
+                    ),
+                    Text(
+                      '按类型和地点筛选物品',
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Theme.of(context).colorScheme.onPrimaryContainer,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              
+              // 物品类型筛选部分
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+                child: Text(
+                  '物品类型',
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    color: Theme.of(context).colorScheme.primary,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+              Column(
+                children: [
+                  ListTile(
+                    leading: Radio<ItemType?>(
+                      value: null,
+                      groupValue: currentTypeFilter,
+                      onChanged: (ItemType? value) {
+                        provider.setFilterType(value);
+                        Navigator.pop(context);
+                      },
+                    ),
+                    title: const Text('全部'),
+                    trailing: const Icon(Icons.all_inbox),
+                    onTap: () {
+                      provider.setFilterType(null);
+                      Navigator.pop(context);
+                    },
+                  ),
+                  ListTile(
+                    leading: Radio<ItemType?>(
+                      value: ItemType.consumable,
+                      groupValue: currentTypeFilter,
+                      onChanged: (ItemType? value) {
+                        provider.setFilterType(value);
+                        Navigator.pop(context);
+                      },
+                    ),
+                    title: const Text('消耗品'),
+                    trailing: const Icon(Icons.local_grocery_store),
+                    onTap: () {
+                      provider.setFilterType(ItemType.consumable);
+                      Navigator.pop(context);
+                    },
+                  ),
+                  ListTile(
+                    leading: Radio<ItemType?>(
+                      value: ItemType.durable,
+                      groupValue: currentTypeFilter,
+                      onChanged: (ItemType? value) {
+                        provider.setFilterType(value);
+                        Navigator.pop(context);
+                      },
+                    ),
+                    title: const Text('耐用品'),
+                    trailing: const Icon(Icons.construction),
+                    onTap: () {
+                      provider.setFilterType(ItemType.durable);
+                      Navigator.pop(context);
+                    },
+                  ),
+                ],
+              ),
+              
+              const Divider(height: 1),
+              
+              // 地点筛选部分
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.location_on,
+                      size: 20,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      '存储地点',
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.primary,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const Spacer(),
+                    Text(
+                      '${locations.length} 个地点',
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Theme.of(context).colorScheme.outline,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              ListTile(
+                leading: Icon(
+                  Icons.all_inbox,
+                  color: currentLocationFilter == null
+                      ? Theme.of(context).colorScheme.primary
+                      : Theme.of(context).colorScheme.onSurfaceVariant,
+                ),
+                title: Text(
+                  '全部地点',
+                  style: TextStyle(
+                    fontWeight: currentLocationFilter == null ? FontWeight.bold : FontWeight.normal,
+                    color: currentLocationFilter == null
+                        ? Theme.of(context).colorScheme.primary
+                        : null,
+                  ),
+                ),
+                selected: currentLocationFilter == null,
+                onTap: () {
+                  provider.setFilterLocation(null);
+                  Navigator.pop(context);
+                },
+              ),
+              ...locations.map((location) => ListTile(
+                leading: Icon(
+                  Icons.place,
+                  color: currentLocationFilter == location
+                      ? Theme.of(context).colorScheme.primary
+                      : Theme.of(context).colorScheme.onSurfaceVariant,
+                ),
+                title: Text(
+                  location,
+                  style: TextStyle(
+                    fontWeight: currentLocationFilter == location ? FontWeight.bold : FontWeight.normal,
+                    color: currentLocationFilter == location
+                        ? Theme.of(context).colorScheme.primary
+                        : null,
+                  ),
+                ),
+                selected: currentLocationFilter == location,
+                onTap: () {
+                  provider.setFilterLocation(location);
+                  Navigator.pop(context);
+                },
+              )),
+              if (locations.isEmpty) ...[
+                const Padding(
+                  padding: EdgeInsets.all(16.0),
+                  child: Text(
+                    '暂无地点数据',
+                    style: TextStyle(color: Colors.grey),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ],
+              
+              // 清除筛选按钮
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: FilledButton.icon(
+                  onPressed: () {
+                    provider.setFilterType(null);
+                    provider.setFilterLocation(null);
+                    Navigator.pop(context);
+                  },
+                  icon: const Icon(Icons.clear_all),
+                  label: const Text('清除所有筛选'),
+                  style: FilledButton.styleFrom(
+                    minimumSize: const Size(double.infinity, 48),
+                  ),
+                ),
+              ),
+            ],
+          );
+        },
       ),
     );
   }

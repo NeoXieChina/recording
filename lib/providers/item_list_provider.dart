@@ -11,6 +11,7 @@ class ItemListProvider extends ChangeNotifier {
 
   String _searchQuery = '';
   ItemType? _filterType;
+  String? _filterLocation;
   bool _isLoading = false;
   String? _error;
 
@@ -19,17 +20,23 @@ class ItemListProvider extends ChangeNotifier {
   String? get error => _error;
 
   ItemType? get filterType => _filterType;
+  
+  String? get filterLocation => _filterLocation;
 
   List<Item> get _filteredItems {
     var result = _items;
     if (_filterType != null) {
       result = result.where((i) => i.itemType == _filterType).toList();
     }
+    if (_filterLocation != null && _filterLocation!.isNotEmpty) {
+      result = result.where((i) => i.storageLocation == _filterLocation).toList();
+    }
     if (_searchQuery.isNotEmpty) {
       final query = _searchQuery.toLowerCase();
       result = result.where((i) {
         return i.name.toLowerCase().contains(query) ||
             i.category.toLowerCase().contains(query) ||
+            i.storageLocation.toLowerCase().contains(query) ||
             (i.notes?.toLowerCase().contains(query) ?? false);
       }).toList();
     }
@@ -58,6 +65,11 @@ class ItemListProvider extends ChangeNotifier {
 
   void setFilterType(ItemType? type) {
     _filterType = type;
+    notifyListeners();
+  }
+
+  void setFilterLocation(String? location) {
+    _filterLocation = location;
     notifyListeners();
   }
 
@@ -99,5 +111,16 @@ class ItemListProvider extends ChangeNotifier {
 
   Future<void> refresh() async {
     await loadItems();
+  }
+
+  /// 获取所有物品的唯一地点列表
+  List<String> getLocations() {
+    final locations = _items
+        .map((item) => item.storageLocation)
+        .where((location) => location.isNotEmpty)
+        .toSet()
+        .toList()
+      ..sort();
+    return locations;
   }
 }
