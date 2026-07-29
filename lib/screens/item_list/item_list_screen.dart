@@ -102,10 +102,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton.extended(
+      floatingActionButton: FloatingActionButton(
         onPressed: () => _navigateToAdd(),
-        icon: const Icon(Icons.add),
-        label: const Text('添加物品'),
+        child: const Icon(Icons.add),
       ),
     );
   }
