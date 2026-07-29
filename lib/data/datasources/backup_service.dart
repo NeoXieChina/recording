@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:archive/archive.dart';
+import 'package:flutter/foundation.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:recording/constants.dart';
 import 'package:recording/data/datasources/app_database.dart';
@@ -16,7 +17,7 @@ class BackupService {
 
   final AppDatabase _db = AppDatabase();
 
-  Future<String> exportBackup() async {
+  Future<Uint8List> exportBackupToBytes() async {
     final items = await _db.getItems();
     final reminders = await _db.getAllReminders();
 
@@ -32,10 +33,11 @@ class BackupService {
 
     final appDir = await getApplicationDocumentsDirectory();
     final imageDir = Directory('${appDir.path}/${AppConstants.imageDirectory}');
-    if (imageDir.existsSync()) {
-      for (final file in imageDir.listSync()) {
+    if (await imageDir.exists()) {
+      final files = await imageDir.list().toList();
+      for (final file in files) {
         if (file is File) {
-          final bytes = file.readAsBytesSync();
+          final bytes = await file.readAsBytes();
           final relativePath = file.path.replaceFirst('${imageDir.path}/', '');
           archive.addFile(
             ArchiveFile('images/$relativePath', bytes.length, bytes),
@@ -44,37 +46,53 @@ class BackupService {
       }
     }
 
-    final backupDir = Directory(
-      '${appDir.path}/${AppConstants.backupDirectory}',
-    );
-    if (!backupDir.existsSync()) {
-      backupDir.createSync(recursive: true);
+    // 在单独的isolate中执行ZIP编码以避免阻塞UI
+    final zipData = await compute(_encodeArchive, archive);
+    if (zipData.isEmpty) {
+      throw Exception('备份数据为空');
     }
 
-    final timestamp = DateTime.now()
-        .toIso8601String()
-        .replaceAll(':', '-')
-        .replaceAll('.', '-');
-    final backupPath =
-        '${backupDir.path}/backup_$timestamp${AppConstants.backupFileExtension}';
+    return Uint8List.fromList(zipData);
+  }
 
-    final zipData = ZipEncoder().encode(archive);
-    if (zipData.isNotEmpty) {
-      final backupFile = File(backupPath);
-      backupFile.writeAsBytesSync(zipData);
+  Future<String> exportBackup({String? savePath}) async {
+    final zipData = await exportBackupToBytes();
+
+    final appDir = await getApplicationDocumentsDirectory();
+    
+    String backupPath;
+    if (savePath != null) {
+      backupPath = savePath;
+    } else {
+      final backupDir = Directory(
+        '${appDir.path}/${AppConstants.backupDirectory}',
+      );
+      if (!(await backupDir.exists())) {
+        await backupDir.create(recursive: true);
+      }
+
+      final timestamp = DateTime.now()
+          .toIso8601String()
+          .replaceAll(':', '-')
+          .replaceAll('.', '-');
+      backupPath =
+          '${backupDir.path}/backup_$timestamp.zip';
     }
+
+    final backupFile = File(backupPath);
+    await backupFile.writeAsBytes(zipData);
 
     return backupPath;
   }
 
   Future<int> importBackup(String zipPath) async {
     final zipFile = File(zipPath);
-    if (!zipFile.existsSync()) {
+    if (!(await zipFile.exists())) {
       throw Exception('备份文件不存在');
     }
 
-    final zipBytes = zipFile.readAsBytesSync();
-    final archive = ZipDecoder().decodeBytes(zipBytes);
+    final zipBytes = await zipFile.readAsBytes();
+    final archive = await compute(_decodeArchive, zipBytes);
 
     final appDir = await getApplicationDocumentsDirectory();
 
@@ -89,8 +107,8 @@ class BackupService {
           final imagePath =
               '${appDir.path}/${AppConstants.imageDirectory}/${file.name.replaceFirst('images/', '')}';
           final imageFile = File(imagePath);
-          imageFile.parent.createSync(recursive: true);
-          imageFile.writeAsBytesSync(data);
+          await imageFile.parent.create(recursive: true);
+          await imageFile.writeAsBytes(data);
         }
       }
     }
@@ -244,5 +262,15 @@ class BackupService {
       pos++;
     }
     return pos;
+  }
+
+  // 在isolate中执行ZIP编码的静态函数
+  static List<int> _encodeArchive(Archive archive) {
+    return ZipEncoder().encode(archive);
+  }
+
+  // 在isolate中执行ZIP解码的静态函数
+  static Archive _decodeArchive(List<int> zipBytes) {
+    return ZipDecoder().decodeBytes(zipBytes);
   }
 }

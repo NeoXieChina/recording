@@ -15,7 +15,7 @@ class AppConstants {
 
   /// 备份相关常量
   static const String backupDirectory = 'backups';
-  static const String backupFileExtension = '.itembackup';
+  static const String backupFileExtension = '.zip';
   static const String backupMetadataFile = 'metadata.json';
 
   /// 通知相关常量

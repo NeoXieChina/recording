@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:recording/constants.dart';
@@ -225,12 +228,37 @@ class SettingsScreen extends StatelessWidget {
   ) async {
     provider.setExporting(true);
     try {
-      final backupPath = await BackupService().exportBackup();
+      // 先获取备份数据
+      final backupData = await BackupService().exportBackupToBytes();
+      
+      // 获取下载目录作为默认初始目录
+      Directory? downloadsDir;
+      try {
+        downloadsDir = await getDownloadsDirectory();
+      } catch (e) {
+        // 忽略错误，使用null
+      }
+
+      // 让用户选择保存位置
+      final savePath = await FilePicker.saveFile(
+        dialogTitle: '保存备份文件',
+        fileName: 'backup_${DateTime.now().toIso8601String().replaceAll(':', '-').replaceAll('.', '-')}.zip',
+        allowedExtensions: ['zip'],
+        type: FileType.custom,
+        initialDirectory: downloadsDir?.path,
+        bytes: backupData,
+      );
+      
+      if (savePath == null) {
+        provider.setExporting(false);
+        return; // 用户取消了
+      }
+      
       provider.setExporting(false);
       if (context.mounted) {
         ScaffoldMessenger.of(
           context,
-        ).showSnackBar(SnackBar(content: Text('备份导出成功：$backupPath')));
+        ).showSnackBar(SnackBar(content: Text('备份导出成功：$savePath')));
       }
     } catch (e) {
       provider.setExporting(false);
@@ -249,7 +277,7 @@ class SettingsScreen extends StatelessWidget {
     try {
       final result = await FilePicker.pickFiles(
         type: FileType.custom,
-        allowedExtensions: ['itembackup', 'zip'],
+        allowedExtensions: ['zip', 'itembackup'],
       );
       if (result == null || result.files.isEmpty) return;
 
