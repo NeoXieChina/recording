@@ -440,48 +440,84 @@ class _ItemListScreenState extends State<ItemListScreen> {
               Column(
                 children: [
                   ListTile(
-                    leading: Radio<ItemType?>(
-                      value: null,
-                      groupValue: currentTypeFilter,
-                      onChanged: (ItemType? value) {
-                        provider.setFilterType(value);
-                        Navigator.pop(context);
-                      },
+                    leading: Icon(
+                      Icons.all_inbox,
+                      color: currentTypeFilter == null
+                          ? Theme.of(context).colorScheme.primary
+                          : Theme.of(context).colorScheme.onSurfaceVariant,
                     ),
-                    title: const Text('全部'),
-                    trailing: const Icon(Icons.all_inbox),
+                    title: Text(
+                      '全部',
+                      style: TextStyle(
+                        fontWeight: currentTypeFilter == null ? FontWeight.bold : FontWeight.normal,
+                        color: currentTypeFilter == null
+                            ? Theme.of(context).colorScheme.primary
+                            : null,
+                      ),
+                    ),
+                    trailing: currentTypeFilter == null
+                        ? Icon(
+                            Icons.check,
+                            color: Theme.of(context).colorScheme.primary,
+                          )
+                        : null,
+                    selected: currentTypeFilter == null,
                     onTap: () {
                       provider.setFilterType(null);
                       Navigator.pop(context);
                     },
                   ),
                   ListTile(
-                    leading: Radio<ItemType?>(
-                      value: ItemType.consumable,
-                      groupValue: currentTypeFilter,
-                      onChanged: (ItemType? value) {
-                        provider.setFilterType(value);
-                        Navigator.pop(context);
-                      },
+                    leading: Icon(
+                      Icons.local_grocery_store,
+                      color: currentTypeFilter == ItemType.consumable
+                          ? Theme.of(context).colorScheme.primary
+                          : Theme.of(context).colorScheme.onSurfaceVariant,
                     ),
-                    title: const Text('消耗品'),
-                    trailing: const Icon(Icons.local_grocery_store),
+                    title: Text(
+                      '消耗品',
+                      style: TextStyle(
+                        fontWeight: currentTypeFilter == ItemType.consumable ? FontWeight.bold : FontWeight.normal,
+                        color: currentTypeFilter == ItemType.consumable
+                            ? Theme.of(context).colorScheme.primary
+                            : null,
+                      ),
+                    ),
+                    trailing: currentTypeFilter == ItemType.consumable
+                        ? Icon(
+                            Icons.check,
+                            color: Theme.of(context).colorScheme.primary,
+                          )
+                        : null,
+                    selected: currentTypeFilter == ItemType.consumable,
                     onTap: () {
                       provider.setFilterType(ItemType.consumable);
                       Navigator.pop(context);
                     },
                   ),
                   ListTile(
-                    leading: Radio<ItemType?>(
-                      value: ItemType.durable,
-                      groupValue: currentTypeFilter,
-                      onChanged: (ItemType? value) {
-                        provider.setFilterType(value);
-                        Navigator.pop(context);
-                      },
+                    leading: Icon(
+                      Icons.construction,
+                      color: currentTypeFilter == ItemType.durable
+                          ? Theme.of(context).colorScheme.primary
+                          : Theme.of(context).colorScheme.onSurfaceVariant,
                     ),
-                    title: const Text('耐用品'),
-                    trailing: const Icon(Icons.construction),
+                    title: Text(
+                      '耐用品',
+                      style: TextStyle(
+                        fontWeight: currentTypeFilter == ItemType.durable ? FontWeight.bold : FontWeight.normal,
+                        color: currentTypeFilter == ItemType.durable
+                            ? Theme.of(context).colorScheme.primary
+                            : null,
+                      ),
+                    ),
+                    trailing: currentTypeFilter == ItemType.durable
+                        ? Icon(
+                            Icons.check,
+                            color: Theme.of(context).colorScheme.primary,
+                          )
+                        : null,
+                    selected: currentTypeFilter == ItemType.durable,
                     onTap: () {
                       provider.setFilterType(ItemType.durable);
                       Navigator.pop(context);
