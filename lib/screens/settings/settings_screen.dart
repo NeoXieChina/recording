@@ -139,9 +139,9 @@ class SettingsScreen extends StatelessWidget {
                       title: const Text('日历同步'),
                       subtitle: const Text('开启后将请求日历权限'),
                       value: provider.calendarSync,
-                      onChanged: (v) {
+                      onChanged: (v) async {
                         if (v) {
-                          _requestCalendarPermission(context, provider);
+                          await _requestCalendarPermission(context, provider);
                         } else {
                           provider.setCalendarSync(false);
                         }
@@ -258,10 +258,42 @@ class SettingsScreen extends StatelessWidget {
     }
   }
 
-  void _requestCalendarPermission(
+  Future<void> _requestCalendarPermission(
     BuildContext context,
     SettingsProvider provider,
-  ) {
-    provider.setCalendarSync(true);
+  ) async {
+    final result = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('日历权限请求'),
+        content: const Text('需要访问日历权限来同步物品提醒。是否允许？'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: const Text('取消'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: const Text('允许'),
+          ),
+        ],
+      ),
+    );
+
+    if (result == true) {
+      provider.setCalendarSync(true);
+      // 在实际应用中，这里应该调用平台特定的权限API
+      // 例如：await Permission.calendar.request();
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('日历权限已请求，请检查系统设置'),
+            duration: Duration(seconds: 2),
+          ),
+        );
+      }
+    } else {
+      provider.setCalendarSync(false);
+    }
   }
 }

@@ -22,7 +22,12 @@ class AppDatabase {
     final dbPath = await getDatabasesPath();
     final path = p.join(dbPath, AppConstants.databaseName);
 
-    return openDatabase(path, version: 1, onCreate: _onCreate);
+    return openDatabase(
+      path,
+      version: AppConstants.databaseVersion,
+      onCreate: _onCreate,
+      onUpgrade: _onUpgrade,
+    );
   }
 
   Future<void> _onCreate(Database db, int version) async {
@@ -54,6 +59,36 @@ class AppDatabase {
         FOREIGN KEY (itemId) REFERENCES items (id) ON DELETE CASCADE
       )
     ''');
+  }
+
+  Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
+    if (oldVersion < 2) {
+      // 版本1升级到版本2：添加新字段
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN purchaseDate INTEGER
+      ''');
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN productionDate INTEGER
+      ''');
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN shelfLifeMonths INTEGER
+      ''');
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN shelfLifeDays INTEGER
+      ''');
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN usePurchaseDateForCalculation INTEGER NOT NULL DEFAULT 0
+      ''');
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN useProductionDateForCalculation INTEGER NOT NULL DEFAULT 0
+      ''');
+    }
+    if (oldVersion < 3) {
+      // 版本2升级到版本3：添加存储地点字段
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN storageLocation TEXT NOT NULL DEFAULT ''
+      ''');
+    }
   }
 
   Future<List<Item>> getItems() async {

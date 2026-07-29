@@ -14,6 +14,13 @@ class Item {
   double get totalPrice => unitPrice * quantity;
   final DateTime? expiryDate;
   final DateTime? warrantyDate;
+  final DateTime? purchaseDate;
+  final DateTime? productionDate;
+  final int? shelfLifeMonths;
+  final int? shelfLifeDays;
+  final bool usePurchaseDateForCalculation;
+  final bool useProductionDateForCalculation;
+  final String storageLocation;
   final List<String> imagePaths;
   final String? notes;
   final DateTime createdAt;
@@ -29,6 +36,13 @@ class Item {
     this.unitPrice = 0.0,
     this.expiryDate,
     this.warrantyDate,
+    this.purchaseDate,
+    this.productionDate,
+    this.shelfLifeMonths,
+    this.shelfLifeDays,
+    this.usePurchaseDateForCalculation = false,
+    this.useProductionDateForCalculation = false,
+    this.storageLocation = '',
     this.imagePaths = const [],
     this.notes,
     DateTime? createdAt,
@@ -46,6 +60,13 @@ class Item {
     double? unitPrice,
     DateTime? expiryDate,
     DateTime? warrantyDate,
+    DateTime? purchaseDate,
+    DateTime? productionDate,
+    int? shelfLifeMonths,
+    int? shelfLifeDays,
+    bool? usePurchaseDateForCalculation,
+    bool? useProductionDateForCalculation,
+    String? storageLocation,
     List<String>? imagePaths,
     String? notes,
   }) {
@@ -59,6 +80,16 @@ class Item {
       unitPrice: unitPrice ?? this.unitPrice,
       expiryDate: expiryDate ?? this.expiryDate,
       warrantyDate: warrantyDate ?? this.warrantyDate,
+      purchaseDate: purchaseDate ?? this.purchaseDate,
+      productionDate: productionDate ?? this.productionDate,
+      shelfLifeMonths: shelfLifeMonths ?? this.shelfLifeMonths,
+      shelfLifeDays: shelfLifeDays ?? this.shelfLifeDays,
+      usePurchaseDateForCalculation:
+          usePurchaseDateForCalculation ?? this.usePurchaseDateForCalculation,
+      useProductionDateForCalculation:
+          useProductionDateForCalculation ??
+          this.useProductionDateForCalculation,
+      storageLocation: storageLocation ?? this.storageLocation,
       imagePaths: imagePaths ?? this.imagePaths,
       notes: notes ?? this.notes,
       createdAt: createdAt,
@@ -77,6 +108,15 @@ class Item {
       'unitPrice': unitPrice,
       'expiryDate': expiryDate?.millisecondsSinceEpoch,
       'warrantyDate': warrantyDate?.millisecondsSinceEpoch,
+      'purchaseDate': purchaseDate?.millisecondsSinceEpoch,
+      'productionDate': productionDate?.millisecondsSinceEpoch,
+      'shelfLifeMonths': shelfLifeMonths,
+      'shelfLifeDays': shelfLifeDays,
+      'usePurchaseDateForCalculation': usePurchaseDateForCalculation ? 1 : 0,
+      'useProductionDateForCalculation': useProductionDateForCalculation
+          ? 1
+          : 0,
+      'storageLocation': storageLocation,
       'imagePaths': imagePaths.join(';'),
       'notes': notes,
       'createdAt': createdAt.millisecondsSinceEpoch,
@@ -99,6 +139,19 @@ class Item {
       warrantyDate: map['warrantyDate'] != null
           ? DateTime.fromMillisecondsSinceEpoch(map['warrantyDate'] as int)
           : null,
+      purchaseDate: map['purchaseDate'] != null
+          ? DateTime.fromMillisecondsSinceEpoch(map['purchaseDate'] as int)
+          : null,
+      productionDate: map['productionDate'] != null
+          ? DateTime.fromMillisecondsSinceEpoch(map['productionDate'] as int)
+          : null,
+      shelfLifeMonths: map['shelfLifeMonths'] as int?,
+      shelfLifeDays: map['shelfLifeDays'] as int?,
+      usePurchaseDateForCalculation:
+          (map['usePurchaseDateForCalculation'] as int?) == 1,
+      useProductionDateForCalculation:
+          (map['useProductionDateForCalculation'] as int?) == 1,
+      storageLocation: map['storageLocation'] as String? ?? '',
       imagePaths: (map['imagePaths'] as String).isNotEmpty
           ? (map['imagePaths'] as String).split(';')
           : [],

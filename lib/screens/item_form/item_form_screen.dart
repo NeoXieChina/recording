@@ -48,6 +48,263 @@ class ItemFormScreen extends StatelessWidget {
     );
   }
 
+  Widget _buildCategoryInput({
+    required BuildContext context,
+    required String value,
+    required ValueChanged<String> onChanged,
+  }) {
+    final predefinedCategories = AppConstants.itemCategories;
+    final hasCustomCategory =
+        !predefinedCategories.contains(value) && value.isNotEmpty;
+
+    return DropdownButtonFormField<String>(
+      isExpanded: true,
+      initialValue: hasCustomCategory ? 'custom' : value,
+      decoration: InputDecoration(
+        labelText: '物品分类',
+        prefixIcon: const Icon(Icons.category),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+      ),
+      items: [
+        ...predefinedCategories.map(
+          (c) => DropdownMenuItem(
+            value: c,
+            child: Text(
+              c,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+        ),
+        const DropdownMenuItem(
+          value: 'custom',
+          child: Text(
+            '自定义分类',
+            overflow: TextOverflow.ellipsis,
+          ),
+        ),
+      ],
+      onChanged: (v) {
+        if (v != null) {
+          if (v == 'custom') {
+            // 显示自定义输入对话框
+            _showCustomCategoryDialog(context, value, onChanged);
+          } else {
+            onChanged(v);
+          }
+        }
+      },
+    );
+  }
+
+  void _showCustomCategoryDialog(
+    BuildContext context,
+    String currentValue,
+    ValueChanged<String> onChanged,
+  ) {
+    final controller = TextEditingController(text: currentValue);
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('自定义分类'),
+        content: TextField(
+          controller: controller,
+          decoration: const InputDecoration(hintText: '请输入分类名称'),
+          autofocus: true,
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('取消'),
+          ),
+          TextButton(
+            onPressed: () {
+              final newValue = controller.text.trim();
+              if (newValue.isNotEmpty) {
+                onChanged(newValue);
+              }
+              Navigator.pop(context);
+            },
+            child: const Text('确定'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildUnitInput({
+    required BuildContext context,
+    required String value,
+    required ValueChanged<String> onChanged,
+  }) {
+    final predefinedUnits = const [
+      '个',
+      '件',
+      '箱',
+      '包',
+      '瓶',
+      '盒',
+      '套',
+      'kg',
+      'g',
+      'L',
+      'ml',
+      'm',
+      'cm',
+    ];
+    final hasCustomUnit = !predefinedUnits.contains(value) && value.isNotEmpty;
+
+    return DropdownButtonFormField<String>(
+      isExpanded: true,
+      initialValue: hasCustomUnit ? 'custom' : value,
+      decoration: InputDecoration(
+        labelText: '单位',
+        border: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+        ),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+      ),
+      items: [
+        ...predefinedUnits.map((u) => DropdownMenuItem(
+          value: u,
+          child: Text(
+            u,
+            overflow: TextOverflow.ellipsis,
+          ),
+        )),
+        const DropdownMenuItem(
+          value: 'custom',
+          child: Text(
+            '自定义',
+            overflow: TextOverflow.ellipsis,
+          ),
+        ),
+      ],
+      onChanged: (v) {
+        if (v != null) {
+          if (v == 'custom') {
+            // 显示自定义输入对话框
+            _showCustomUnitDialog(context, value, onChanged);
+          } else {
+            onChanged(v);
+          }
+        }
+      },
+    );
+  }
+
+  void _showCustomUnitDialog(
+    BuildContext context,
+    String currentValue,
+    ValueChanged<String> onChanged,
+  ) {
+    final controller = TextEditingController(text: currentValue);
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('自定义单位'),
+        content: TextField(
+          controller: controller,
+          decoration: const InputDecoration(hintText: '请输入单位'),
+          autofocus: true,
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('取消'),
+          ),
+          TextButton(
+            onPressed: () {
+              final newValue = controller.text.trim();
+              if (newValue.isNotEmpty) {
+                onChanged(newValue);
+              }
+              Navigator.pop(context);
+            },
+            child: const Text('确定'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildNumberInputWithButtons({
+    required BuildContext context,
+    required String label,
+    required String? errorText,
+    required IconData icon,
+    required num? value,
+    required ValueChanged<num> onChanged,
+    required double step,
+    bool isInteger = true,
+  }) {
+    final displayValue = value ?? 0;
+    final controller = TextEditingController(text: displayValue.toString());
+    
+    void updateValue(num newValue) {
+      if (newValue >= 0) {
+        onChanged(newValue);
+        controller.text = newValue.toString();
+      }
+    }
+    
+    return TextField(
+      controller: controller,
+      decoration: InputDecoration(
+        labelText: label,
+        errorText: errorText,
+        prefixIcon: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            IconButton(
+              icon: const Icon(Icons.remove, size: 18),
+              onPressed: () {
+                final newValue = isInteger
+                    ? displayValue.toInt() - step.toInt()
+                    : displayValue - step;
+                updateValue(newValue);
+              },
+              style: IconButton.styleFrom(
+                tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                padding: const EdgeInsets.all(4),
+                minimumSize: const Size(32, 32),
+              ),
+            ),
+            Icon(icon, size: 20),
+            const SizedBox(width: 4),
+          ],
+        ),
+        suffixIcon: IconButton(
+          icon: const Icon(Icons.add, size: 18),
+          onPressed: () {
+            final newValue = isInteger
+                ? displayValue.toInt() + step.toInt()
+                : displayValue + step;
+            updateValue(newValue);
+          },
+          style: IconButton.styleFrom(
+            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+            padding: const EdgeInsets.all(4),
+            minimumSize: const Size(32, 32),
+          ),
+        ),
+        border: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+        ),
+      ),
+      keyboardType: TextInputType.numberWithOptions(decimal: !isInteger),
+      onChanged: (v) {
+        if (isInteger) {
+          final n = int.tryParse(v);
+          if (n != null && n >= 0) onChanged(n);
+        } else {
+          final n = double.tryParse(v);
+          if (n != null && n >= 0) onChanged(n);
+        }
+      },
+    );
+  }
+
   Widget _buildBasicInfoSection(
     BuildContext context,
     ItemFormProvider provider,
@@ -72,92 +329,52 @@ class ItemFormScreen extends StatelessWidget {
             ),
         ),
         const SizedBox(height: 16),
-        DropdownButtonFormField<String>(
-          initialValue: provider.category,
-          decoration: InputDecoration(
-            labelText: '物品分类',
-            prefixIcon: const Icon(Icons.category),
-            border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-          ),
-          items: AppConstants.itemCategories
-              .map((c) => DropdownMenuItem(value: c, child: Text(c)))
-              .toList(),
-          onChanged: (v) {
-            if (v != null) provider.setCategory(v);
-          },
+        _buildCategoryInput(
+          context: context,
+          value: provider.category,
+          onChanged: provider.setCategory,
         ),
         const SizedBox(height: 16),
         Row(
           children: [
             Expanded(
-              child: TextField(
-                decoration: InputDecoration(
-                  labelText: '数量',
-                  errorText: provider.quantityError,
-                  prefixIcon: const Icon(Icons.numbers),
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                ),
-                keyboardType: TextInputType.number,
-                onChanged: (v) {
-                  final n = int.tryParse(v);
-                  if (n != null) provider.setQuantity(n);
-                },
-                controller: TextEditingController(
-                  text: provider.quantity.toString(),
-                ),
+              child: _buildNumberInputWithButtons(
+                context: context,
+                label: '数量',
+                errorText: provider.quantityError,
+                icon: Icons.numbers,
+                value: provider.quantity,
+                onChanged: (value) => provider.setQuantity(value.toInt()),
+                step: 1,
+                isInteger: true,
               ),
             ),
             const SizedBox(width: 16),
             SizedBox(
-              width: 80,
-              child: DropdownButtonFormField<String>(
-                initialValue: provider.unit,
-                decoration: InputDecoration(
-                  labelText: '单位',
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                ),
-                items: const ['个', '件', '箱', '包', '瓶', '盒', '套', 'kg', 'g', 'L']
-                    .map((u) => DropdownMenuItem(value: u, child: Text(u)))
-                    .toList(),
-                onChanged: (v) {
-                  if (v != null) provider.setUnit(v);
-                },
+              width: 120,
+              child: _buildUnitInput(
+                context: context,
+                value: provider.unit,
+                onChanged: provider.setUnit,
               ),
             ),
           ],
         ),
         const SizedBox(height: 16),
-        Row(
-          children: [
-            Expanded(
-              child: TextField(
-                decoration: InputDecoration(
-                  labelText: '单价',
-                  errorText: provider.unitPriceError,
-                  prefixIcon: const Icon(Icons.attach_money),
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                ),
-                keyboardType: const TextInputType.numberWithOptions(
-                  decimal: true,
-                ),
-                onChanged: (v) {
-                  final n = double.tryParse(v);
-                  if (n != null) provider.setUnitPrice(n);
-                },
-                controller: TextEditingController(
-                  text: provider.unitPrice == 0
-                      ? ''
-                      : provider.unitPrice.toStringAsFixed(2),
-                ),
-              ),
-            ),
-          ],
+        _buildNumberInputWithButtons(
+          context: context,
+          label: '单价',
+          errorText: provider.unitPriceError,
+          icon: Icons.attach_money,
+          value: provider.unitPrice,
+          onChanged: (value) {
+            final newValue = value.toDouble();
+            if (newValue >= 0) {
+              provider.setUnitPrice(newValue);
+            }
+          },
+          step: 1,
+          isInteger: false,
         ),
         const SizedBox(height: 8),
         Center(
@@ -168,6 +385,20 @@ class ItemFormScreen extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
+        ),
+        const SizedBox(height: 16),
+        TextField(
+          decoration: InputDecoration(
+            labelText: '存储地点',
+            hintText: '请输入物品存储地点（如：厨房柜子、书房抽屉）',
+            prefixIcon: const Icon(Icons.location_on),
+            border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+          ),
+          onChanged: provider.setStorageLocation,
+          controller: TextEditingController(text: provider.storageLocation)
+            ..selection = TextSelection.fromPosition(
+              TextPosition(offset: provider.storageLocation.length),
+            ),
         ),
       ],
     );
@@ -199,25 +430,159 @@ class ItemFormScreen extends StatelessWidget {
           onSelectionChanged: (s) => provider.setItemType(s.first),
         ),
         const SizedBox(height: 16),
-        if (provider.itemType == ItemType.consumable) ...[
+        _buildDateAndShelfLifeSection(
+          context: context,
+          provider: provider,
+          isConsumable: provider.itemType == ItemType.consumable,
+        ),
+      ],
+    );
+  }
+
+  Widget _buildDateAndShelfLifeSection({
+    required BuildContext context,
+    required ItemFormProvider provider,
+    required bool isConsumable,
+  }) {
+    final dateLabel = isConsumable ? '有效期' : '保修到期日';
+    final dateIcon = isConsumable ? Icons.event : Icons.verified_user;
+    
+    // 判断是否处于自动计算模式
+    final isAutoCalcMode = !provider.useManualDateEntry && 
+        ((provider.usePurchaseDateForCalculation || provider.useProductionDateForCalculation) &&
+        (provider.shelfLifeMonths != null || provider.shelfLifeDays != null) &&
+        ((provider.usePurchaseDateForCalculation && provider.purchaseDate != null) ||
+         (provider.useProductionDateForCalculation && provider.productionDate != null)));
+    
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        // 计算方式选择
+        Text('日期计算方式', style: Theme.of(context).textTheme.titleMedium),
+        const SizedBox(height: 8),
+        SegmentedButton<bool>(
+          segments: const [
+            ButtonSegment(
+              value: false,
+              label: Text('自动计算'),
+              icon: Icon(Icons.calculate),
+            ),
+            ButtonSegment(
+              value: true,
+              label: Text('手动输入'),
+              icon: Icon(Icons.edit_calendar),
+            ),
+          ],
+          selected: {provider.useManualDateEntry},
+          onSelectionChanged: (s) => provider.setUseManualDateEntry(s.first),
+        ),
+        const SizedBox(height: 16),
+
+        if (!provider.useManualDateEntry) ...[
+          // 自动计算部分
+          Text('自动计算设置', style: Theme.of(context).textTheme.titleMedium),
+          const SizedBox(height: 8),
+          
+          // 基准日期选择
           _buildDatePicker(
             context: context,
-            label: '有效期',
-            icon: Icons.event,
-            date: provider.expiryDate,
-            errorText: provider.dateError,
-            onPicked: provider.setExpiryDate,
+            label: isConsumable ? '生产日期' : '购买日期',
+            icon: isConsumable ? Icons.factory : Icons.shopping_cart,
+            date: isConsumable ? provider.productionDate : provider.purchaseDate,
+            errorText: null,
+            onPicked: isConsumable ? provider.setProductionDate : provider.setPurchaseDate,
+            showClearButton: true,
           ),
-        ] else ...[
-          _buildDatePicker(
+          const SizedBox(height: 12),
+          
+          // 启用自动计算开关
+          Row(
+            children: [
+              Checkbox(
+                value: isConsumable 
+                    ? provider.useProductionDateForCalculation 
+                    : provider.usePurchaseDateForCalculation,
+                onChanged: (value) {
+                  if (isConsumable) {
+                    provider.setUseProductionDateForCalculation(value ?? false);
+                  } else {
+                    provider.setUsePurchaseDateForCalculation(value ?? false);
+                  }
+                },
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  isConsumable 
+                      ? '使用生产日期自动计算有效期' 
+                      : '使用购买日期自动计算保修期',
+                  style: Theme.of(context).textTheme.bodyMedium,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 16),
+
+          // 保质期输入
+          _buildShelfLifeInputWithUnit(
             context: context,
-            label: '保修到期日',
-            icon: Icons.verified_user,
-            date: provider.warrantyDate,
-            errorText: provider.dateError,
-            onPicked: provider.setWarrantyDate,
+            provider: provider,
           ),
+          const SizedBox(height: 12),
+          
+          // 自动计算提示
+          if (isAutoCalcMode)
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: Colors.green.withAlpha(25), // 近似于0.1不透明度
+                borderRadius: BorderRadius.circular(8),
+                border: Border.all(color: Colors.green.withAlpha(76)), // 近似于0.3不透明度
+              ),
+              child: Row(
+                children: [
+                  Icon(Icons.info, size: 16, color: Colors.green),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      isConsumable
+                          ? '系统将根据生产日期和保质期自动计算有效期'
+                          : '系统将根据购买日期和保质期自动计算保修期',
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Colors.green,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          const SizedBox(height: 16),
         ],
+
+        // 最终日期显示
+        _buildDatePicker(
+          context: context,
+          label: dateLabel,
+          icon: dateIcon,
+          date: isConsumable ? provider.expiryDate : provider.warrantyDate,
+          errorText: provider.dateError,
+          onPicked: isConsumable ? provider.setExpiryDate : provider.setWarrantyDate,
+          readOnly: isAutoCalcMode,
+          showClearButton: !isAutoCalcMode,
+          minDate: isConsumable ? provider.productionDate : provider.purchaseDate,
+        ),
+        
+        // 模式说明
+        if (provider.useManualDateEntry)
+          Padding(
+            padding: const EdgeInsets.only(top: 8),
+            child: Text(
+              '手动输入模式：直接选择${isConsumable ? '有效期' : '保修到期日'}',
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                color: Theme.of(context).colorScheme.secondary,
+              ),
+            ),
+          ),
       ],
     );
   }
@@ -229,38 +594,116 @@ class ItemFormScreen extends StatelessWidget {
     required DateTime? date,
     required String? errorText,
     required ValueChanged<DateTime?> onPicked,
+    bool readOnly = false,
+    bool showClearButton = true,
+    DateTime? minDate,
   }) {
+    final currentDate = date ?? DateTime.now();
+    
+    void adjustDate(int days) {
+      final newDate = currentDate.add(Duration(days: days));
+      if (minDate != null && newDate.isBefore(minDate)) {
+        return; // 不能早于最小日期
+      }
+      onPicked(newDate);
+    }
+    
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         InkWell(
-          onTap: () async {
-            final picked = await showDatePicker(
-              context: context,
-              initialDate: date ?? DateTime.now(),
-              firstDate: DateTime(2000),
-              lastDate: DateTime(2100),
-            );
-            onPicked(picked);
-          },
+          onTap: readOnly
+              ? null
+              : () async {
+                   final picked = await showDatePicker(
+                    context: context,
+                    initialDate: currentDate,
+                    firstDate: minDate ?? DateTime(2000),
+                    lastDate: DateTime(2100),
+                  );
+                  onPicked(picked);
+                },
           borderRadius: BorderRadius.circular(12),
           child: InputDecorator(
             decoration: InputDecoration(
               labelText: label,
-              prefixIcon: Icon(icon),
+              prefixIcon: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (!readOnly) ...[
+                    IconButton(
+                      icon: const Icon(Icons.chevron_left, size: 20),
+                      onPressed: () => adjustDate(-1),
+                      style: IconButton.styleFrom(
+                        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                        padding: const EdgeInsets.all(4),
+                        minimumSize: const Size(32, 32),
+                      ),
+                    ),
+                    const SizedBox(width: 4),
+                  ],
+                  Icon(icon, size: 20),
+                  if (!readOnly) ...[
+                    const SizedBox(width: 4),
+                    IconButton(
+                      icon: const Icon(Icons.chevron_right, size: 20),
+                      onPressed: () => adjustDate(1),
+                      style: IconButton.styleFrom(
+                        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                        padding: const EdgeInsets.all(4),
+                        minimumSize: const Size(32, 32),
+                      ),
+                    ),
+                  ],
+                ],
+              ),
               errorText: errorText,
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12),
               ),
+              suffixIcon: showClearButton && date != null && !readOnly
+                  ? IconButton(
+                      icon: const Icon(Icons.clear, size: 16),
+                      onPressed: () => onPicked(null),
+                      padding: EdgeInsets.zero,
+                      constraints: const BoxConstraints(
+                        minWidth: 24,
+                        minHeight: 24,
+                      ),
+                    )
+                  : null,
             ),
-            child: Text(
-              date != null ? FormatUtils.formatDate(date) : '请选择日期',
-              style: date != null
-                  ? null
-                  : TextStyle(color: Theme.of(context).hintColor),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Expanded(
+                  child: Text(
+                    FormatUtils.formatDate(currentDate),
+                    style: TextStyle(
+                      color: date != null 
+                          ? null 
+                          : Theme.of(context).hintColor,
+                    ),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+                if (readOnly && date != null)
+                  const Icon(Icons.calculate, size: 16, color: Colors.green),
+              ],
             ),
           ),
         ),
+        if (readOnly && date != null)
+          Padding(
+            padding: const EdgeInsets.only(top: 4),
+            child: Text(
+              '自动计算',
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                    color: Colors.green,
+                    fontStyle: FontStyle.italic,
+                  ),
+            ),
+          ),
       ],
     );
   }
@@ -347,6 +790,165 @@ class ItemFormScreen extends StatelessWidget {
       ],
     );
   }
+
+  Widget _buildShelfLifeInputWithUnit({
+    required BuildContext context,
+    required ItemFormProvider provider,
+  }) {
+    // 从存储的月数和天数计算年、月、日
+    final totalMonths = provider.shelfLifeMonths ?? 0;
+    final days = provider.shelfLifeDays ?? 0;
+    
+    // 计算年、月（1年=12个月）
+    final years = totalMonths ~/ 12;
+    final remainingMonths = totalMonths % 12;
+    
+    return StatefulBuilder(
+      builder: (context, setState) {
+        // 本地状态和控制器
+        int inputYears = years;
+        int inputMonths = remainingMonths;
+        int inputDays = days;
+        
+        final yearController = TextEditingController(text: inputYears.toString());
+        final monthController = TextEditingController(text: inputMonths.toString());
+        final dayController = TextEditingController(text: inputDays.toString());
+        
+        // 更新Provider的值
+        void updateProvider() {
+          final totalMonths = inputYears * 12 + inputMonths;
+          provider.setShelfLifeMonths(totalMonths);
+          provider.setShelfLifeDays(inputDays);
+        }
+        
+        // 更新所有控制器的文本
+        void updateControllers() {
+          yearController.text = inputYears.toString();
+          monthController.text = inputMonths.toString();
+          dayController.text = inputDays.toString();
+        }
+        
+        // 处理年输入变化
+        void handleYearChange(String value) {
+          final intValue = int.tryParse(value) ?? 0;
+          if (intValue >= 0) {
+            setState(() {
+              inputYears = intValue;
+            });
+            updateProvider();
+            updateControllers();
+          }
+        }
+        
+        // 处理月输入变化
+        void handleMonthChange(String value) {
+          final intValue = int.tryParse(value) ?? 0;
+          if (intValue >= 0) {
+            setState(() {
+              inputMonths = intValue;
+              // 如果月数超过11，自动转换为年
+              if (inputMonths >= 12) {
+                inputYears += inputMonths ~/ 12;
+                inputMonths = inputMonths % 12;
+              }
+            });
+            updateProvider();
+            updateControllers();
+          }
+        }
+        
+        // 处理天输入变化
+        void handleDayChange(String value) {
+          final intValue = int.tryParse(value) ?? 0;
+          if (intValue >= 0) {
+            setState(() {
+              inputDays = intValue;
+              // 如果天数超过29，自动转换为月（按30天/月）
+              if (inputDays >= 30) {
+                final additionalMonths = inputDays ~/ 30;
+                final remainingDays = inputDays % 30;
+                
+                // 先加到月数
+                inputMonths += additionalMonths;
+                inputDays = remainingDays;
+                
+                // 检查月数是否需要转换为年
+                if (inputMonths >= 12) {
+                  inputYears += inputMonths ~/ 12;
+                  inputMonths = inputMonths % 12;
+                }
+              }
+            });
+            updateProvider();
+            updateControllers();
+          }
+        }
+        
+        // 构建简单的数字输入框
+        Widget buildSimpleNumberInput({
+          required String label,
+          required TextEditingController controller,
+          required ValueChanged<String> onChanged,
+        }) {
+          return TextField(
+            controller: controller,
+            decoration: InputDecoration(
+              labelText: label,
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+              contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+            ),
+            keyboardType: TextInputType.number,
+            onChanged: onChanged,
+            onEditingComplete: () {
+              // 离开输入框时触发换算
+              final value = controller.text;
+              onChanged(value);
+            },
+          );
+        }
+        
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // 年、月、天输入
+            Row(
+              children: [
+                Expanded(
+                  child: buildSimpleNumberInput(
+                    label: '年',
+                    controller: yearController,
+                    onChanged: handleYearChange,
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: buildSimpleNumberInput(
+                    label: '月',
+                    controller: monthController,
+                    onChanged: handleMonthChange,
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: buildSimpleNumberInput(
+                    label: '天',
+                    controller: dayController,
+                    onChanged: handleDayChange,
+                  ),
+                ),
+              ],
+            ),
+            
+
+          ],
+        );
+      },
+    );
+  }
+  
+
 
   Widget _buildSaveButton(BuildContext context, ItemFormProvider provider) {
     return SizedBox(

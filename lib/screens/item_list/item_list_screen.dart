@@ -184,7 +184,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
         child: Card(
           clipBehavior: Clip.antiAlias,
           child: InkWell(
-            onTap: () { _navigateToEdit(item); },
+            onTap: () {
+              _navigateToEdit(item);
+            },
             child: Padding(
               padding: const EdgeInsets.all(16),
               child: Row(

@@ -5,7 +5,7 @@ class AppConstants {
 
   /// 数据库相关常量
   static const String databaseName = 'item_manager.db';
-  static const int databaseVersion = 1;
+  static const int databaseVersion = 3;
 
   /// 图片存储相关常量
   static const String imageDirectory = 'item_images';
