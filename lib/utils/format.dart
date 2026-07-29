@@ -88,7 +88,8 @@ class FormatUtils {
   }
 
   /// 格式化剩余天数
-  static String formatRemainingDays(DateTime targetDate) {
+  /// [isWarranty] 是否为保修日期（true: 过保, false: 到期）
+  static String formatRemainingDays(DateTime targetDate, {bool isWarranty = false}) {
     final now = DateTime.now();
     final today = DateTime(now.year, now.month, now.day);
     final target = DateTime(targetDate.year, targetDate.month, targetDate.day);
@@ -96,16 +97,18 @@ class FormatUtils {
     final difference = target.difference(today);
     final days = difference.inDays;
 
+    final suffix = isWarranty ? '过保' : '到期';
+
     if (days == 0) {
-      return '今天到期';
+      return '今天$suffix';
     } else if (days == 1) {
-      return '明天到期';
+      return '明天$suffix';
     } else if (days == -1) {
-      return '昨天已到期';
+      return '昨天已$suffix';
     } else if (days < 0) {
-      return '已过期${-days}天';
+      return '已${isWarranty ? '过保' : '过期'}${-days}天';
     } else {
-      return '剩余$days天';
+      return '剩余$days天$suffix';
     }
   }
 

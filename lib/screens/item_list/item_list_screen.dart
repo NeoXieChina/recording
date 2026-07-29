@@ -41,7 +41,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
               builder: (context, provider, _) {
                 final location = provider.filterLocation;
                 final type = provider.filterType;
-                
+
                 if (location != null && location.isNotEmpty) {
                   return Row(
                     children: [
@@ -66,7 +66,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                   return Row(
                     children: [
                       Icon(
-                        type == ItemType.consumable ? Icons.local_grocery_store : Icons.construction,
+                        type == ItemType.consumable
+                            ? Icons.local_grocery_store
+                            : Icons.construction,
                         size: 20,
                         color: Theme.of(context).colorScheme.primary,
                       ),
@@ -92,7 +94,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
             actions: [
               Consumer<ItemListProvider>(
                 builder: (context, provider, _) {
-                  final hasLocationFilter = provider.filterLocation != null && provider.filterLocation!.isNotEmpty;
+                  final hasLocationFilter =
+                      provider.filterLocation != null &&
+                      provider.filterLocation!.isNotEmpty;
                   final hasTypeFilter = provider.filterType != null;
                   if (hasLocationFilter || hasTypeFilter) {
                     return IconButton(
@@ -195,90 +199,126 @@ class _ItemListScreenState extends State<ItemListScreen> {
     );
   }
 
-
-
   Widget _buildItemCard(Item item, ItemListProvider provider) {
     final cs = Theme.of(context).colorScheme;
     final isWarning = item.isExpiringSoon || item.isWarrantyExpiringSoon;
     final isDanger = item.isExpired || item.isWarrantyExpired;
 
     return Padding(
-      padding: const EdgeInsets.only(bottom: 12),
+      padding: const EdgeInsets.only(bottom: 8),
       child: Slidable(
         endActionPane: ActionPane(
           motion: const ScrollMotion(),
-          extentRatio: 0.25,
+           extentRatio: 0.18,
           children: [
-            SlidableAction(
-              onPressed: (_) => _confirmDelete(item, provider),
-              backgroundColor: cs.error,
-              foregroundColor: cs.onError,
-              icon: Icons.delete,
-              label: '删除',
-              borderRadius: BorderRadius.circular(12),
-            ),
+                  Center(
+                    child: Container(
+                      width: 56,
+                      height: 56,
+                      decoration: BoxDecoration(
+                        color: cs.error,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                       child: GestureDetector(
+                         onTap: () => _confirmDelete(item, provider),
+                         child: Center(
+                           child: Icon(Icons.delete, color: cs.onError, size: 24),
+                         ),
+                       ),
+                    ),
+                  ),
           ],
         ),
         child: Card(
           clipBehavior: Clip.antiAlias,
+          margin: const EdgeInsets.symmetric(horizontal: 8),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
           child: InkWell(
             onTap: () {
               _navigateToEdit(item);
             },
-            child: Padding(
-              padding: const EdgeInsets.all(16),
+            borderRadius: BorderRadius.circular(12),
+            child: IntrinsicHeight(
               child: Row(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  // 左侧图片区域 - 固定宽度正方形
                   _buildThumbnail(item),
-                  const SizedBox(width: 16),
+                  // 右侧内容区域
                   Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
-                          children: [
-                            Expanded(
-                              child: Text(
-                                item.name,
-                                style: Theme.of(context).textTheme.titleSmall,
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
+                    child: Padding(
+                      padding: const EdgeInsets.all(12),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Row(
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  item.name,
+                                  style: Theme.of(context).textTheme.titleMedium
+                                      ?.copyWith(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.w700,
+                                        color: Theme.of(
+                                          context,
+                                        ).colorScheme.primary,
+                                      ),
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
                               ),
-                            ),
-                            _buildTypeChip(item),
-                          ],
-                        ),
-                        const SizedBox(height: 4),
-                        Text(
-                          item.category,
-                          style: Theme.of(
-                            context,
-                          ).textTheme.bodySmall?.copyWith(color: cs.outline),
-                        ),
-                        const SizedBox(height: 8),
-                        Row(
-                          children: [
-                            Text(
-                              '${item.quantity}${item.unit}',
-                              style: Theme.of(context).textTheme.bodyMedium,
-                            ),
-                            const Spacer(),
-                            Text(
-                              FormatUtils.formatPrice(item.totalPrice),
-                              style: Theme.of(context).textTheme.titleSmall
-                                  ?.copyWith(
-                                    color: cs.primary,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                            ),
-                          ],
-                        ),
-                        if (item.expiryDate != null ||
-                            item.warrantyDate != null) ...[
+                              _buildTypeChip(item),
+                            ],
+                          ),
                           const SizedBox(height: 4),
-                          _buildDateStatus(item, isWarning, isDanger),
+                          Row(
+                            children: [
+                              Text(
+                                item.category,
+                                style: Theme.of(context).textTheme.bodySmall
+                                    ?.copyWith(color: cs.outline, fontSize: 12),
+                              ),
+                              const Spacer(),
+                              Text(
+                                '${item.quantity}${item.unit}',
+                                style: Theme.of(context).textTheme.bodySmall
+                                    ?.copyWith(color: cs.outline, fontSize: 12),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 6),
+                          Row(
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  FormatUtils.formatPrice(item.totalPrice),
+                                  style: Theme.of(context).textTheme.titleSmall
+                                      ?.copyWith(
+                                        color: cs.primary,
+                                        fontWeight: FontWeight.w700,
+                                        fontSize: 14,
+                                      ),
+                                ),
+                              ),
+                              if (item.expiryDate != null ||
+                                  item.warrantyDate != null) ...[
+                                const SizedBox(width: 8),
+                                Expanded(
+                                  child: _buildDateStatus(
+                                    item,
+                                    isWarning,
+                                    isDanger,
+                                  ),
+                                ),
+                              ],
+                            ],
+                          ),
                         ],
-                      ],
+                      ),
                     ),
                   ),
                 ],
@@ -291,33 +331,38 @@ class _ItemListScreenState extends State<ItemListScreen> {
   }
 
   Widget _buildThumbnail(Item item) {
-    if (item.imagePaths.isNotEmpty &&
-        File(item.imagePaths.first).existsSync()) {
-      return ClipRRect(
-        borderRadius: BorderRadius.circular(8),
-        child: Image.file(
-          File(item.imagePaths.first),
-          width: 56,
-          height: 56,
-          fit: BoxFit.cover,
-          errorBuilder: (_, _, _) => _defaultThumb(),
+    return SizedBox(
+      width: 100,
+      height: 100,
+      child: ClipRRect(
+        borderRadius: const BorderRadius.only(
+          topLeft: Radius.circular(8),
+          bottomLeft: Radius.circular(8),
         ),
-      );
-    }
-    return _defaultThumb();
+        child:
+            item.imagePaths.isNotEmpty &&
+                File(item.imagePaths.first).existsSync()
+            ? Image.file(
+                File(item.imagePaths.first),
+                fit: BoxFit.cover,
+                width: double.infinity,
+                height: double.infinity,
+                errorBuilder: (_, _, _) => _defaultThumb(),
+              )
+            : _defaultThumb(),
+      ),
+    );
   }
 
   Widget _defaultThumb() {
     return Container(
-      width: 56,
-      height: 56,
-      decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.surfaceContainerHighest,
-        borderRadius: BorderRadius.circular(8),
-      ),
-      child: Icon(
-        Icons.inventory_2_outlined,
-        color: Theme.of(context).colorScheme.outline,
+      color: Theme.of(context).colorScheme.surfaceContainerHighest,
+      child: Center(
+        child: Icon(
+          Icons.inventory_2_outlined,
+          size: 48,
+          color: Theme.of(context).colorScheme.outline,
+        ),
       ),
     );
   }
@@ -325,16 +370,17 @@ class _ItemListScreenState extends State<ItemListScreen> {
   Widget _buildTypeChip(Item item) {
     final isC = item.itemType == ItemType.consumable;
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
       decoration: BoxDecoration(
         color: isC
             ? Theme.of(context).colorScheme.tertiaryContainer
             : Theme.of(context).colorScheme.secondaryContainer,
-        borderRadius: BorderRadius.circular(8),
+        borderRadius: BorderRadius.circular(6),
       ),
       child: Text(
         isC ? '消耗品' : '耐用品',
         style: Theme.of(context).textTheme.labelSmall?.copyWith(
+          fontSize: 10,
           color: isC
               ? Theme.of(context).colorScheme.onTertiaryContainer
               : Theme.of(context).colorScheme.onSecondaryContainer,
@@ -353,9 +399,14 @@ class _ItemListScreenState extends State<ItemListScreen> {
         : isWarning
         ? Theme.of(context).colorScheme.tertiary
         : Theme.of(context).colorScheme.outline;
+    final isWarranty = item.itemType == ItemType.durable;
     return Text(
-      FormatUtils.formatRemainingDays(date),
-      style: Theme.of(context).textTheme.bodySmall?.copyWith(color: color),
+      FormatUtils.formatRemainingDays(date, isWarranty: isWarranty),
+      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+        color: color,
+        fontSize: 12,
+        fontWeight: FontWeight.w700,
+      ),
     );
   }
 
@@ -392,7 +443,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
           final locations = provider.getLocations();
           final currentLocationFilter = provider.filterLocation;
           final currentTypeFilter = provider.filterType;
-          
+
           return ListView(
             padding: EdgeInsets.zero,
             children: [
@@ -425,7 +476,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                   ],
                 ),
               ),
-              
+
               // 物品类型筛选部分
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
@@ -449,7 +500,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                     title: Text(
                       '全部',
                       style: TextStyle(
-                        fontWeight: currentTypeFilter == null ? FontWeight.bold : FontWeight.normal,
+                        fontWeight: currentTypeFilter == null
+                            ? FontWeight.bold
+                            : FontWeight.normal,
                         color: currentTypeFilter == null
                             ? Theme.of(context).colorScheme.primary
                             : null,
@@ -477,7 +530,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                     title: Text(
                       '消耗品',
                       style: TextStyle(
-                        fontWeight: currentTypeFilter == ItemType.consumable ? FontWeight.bold : FontWeight.normal,
+                        fontWeight: currentTypeFilter == ItemType.consumable
+                            ? FontWeight.bold
+                            : FontWeight.normal,
                         color: currentTypeFilter == ItemType.consumable
                             ? Theme.of(context).colorScheme.primary
                             : null,
@@ -505,7 +560,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                     title: Text(
                       '耐用品',
                       style: TextStyle(
-                        fontWeight: currentTypeFilter == ItemType.durable ? FontWeight.bold : FontWeight.normal,
+                        fontWeight: currentTypeFilter == ItemType.durable
+                            ? FontWeight.bold
+                            : FontWeight.normal,
                         color: currentTypeFilter == ItemType.durable
                             ? Theme.of(context).colorScheme.primary
                             : null,
@@ -525,9 +582,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                   ),
                 ],
               ),
-              
+
               const Divider(height: 1),
-              
+
               // 地点筛选部分
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
@@ -566,7 +623,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                 title: Text(
                   '全部地点',
                   style: TextStyle(
-                    fontWeight: currentLocationFilter == null ? FontWeight.bold : FontWeight.normal,
+                    fontWeight: currentLocationFilter == null
+                        ? FontWeight.bold
+                        : FontWeight.normal,
                     color: currentLocationFilter == null
                         ? Theme.of(context).colorScheme.primary
                         : null,
@@ -578,28 +637,32 @@ class _ItemListScreenState extends State<ItemListScreen> {
                   Navigator.pop(context);
                 },
               ),
-              ...locations.map((location) => ListTile(
-                leading: Icon(
-                  Icons.place,
-                  color: currentLocationFilter == location
-                      ? Theme.of(context).colorScheme.primary
-                      : Theme.of(context).colorScheme.onSurfaceVariant,
-                ),
-                title: Text(
-                  location,
-                  style: TextStyle(
-                    fontWeight: currentLocationFilter == location ? FontWeight.bold : FontWeight.normal,
+              ...locations.map(
+                (location) => ListTile(
+                  leading: Icon(
+                    Icons.place,
                     color: currentLocationFilter == location
                         ? Theme.of(context).colorScheme.primary
-                        : null,
+                        : Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
+                  title: Text(
+                    location,
+                    style: TextStyle(
+                      fontWeight: currentLocationFilter == location
+                          ? FontWeight.bold
+                          : FontWeight.normal,
+                      color: currentLocationFilter == location
+                          ? Theme.of(context).colorScheme.primary
+                          : null,
+                    ),
+                  ),
+                  selected: currentLocationFilter == location,
+                  onTap: () {
+                    provider.setFilterLocation(location);
+                    Navigator.pop(context);
+                  },
                 ),
-                selected: currentLocationFilter == location,
-                onTap: () {
-                  provider.setFilterLocation(location);
-                  Navigator.pop(context);
-                },
-              )),
+              ),
               if (locations.isEmpty) ...[
                 const Padding(
                   padding: EdgeInsets.all(16.0),
@@ -610,7 +673,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                   ),
                 ),
               ],
-              
+
               // 清除筛选按钮
               Padding(
                 padding: const EdgeInsets.all(16.0),

@@ -15,32 +15,37 @@
 ## 调试说明
 
 ### 模拟数据
+
 应用在首次安装时会自动插入20条模拟数据，便于测试和演示。如需禁用，请修改 `lib/main.dart` 中的 `enableMockData` 常量为 `false`。
 
 ### 数据库问题解决
+
 如果遇到数据库表结构错误，请参考 [DEBUG_NOTES.md](DEBUG_NOTES.md) 中的解决方案。
 
 ## 开发设置
 
 ### 环境要求
+
 - Flutter 3.10.8+
 - Dart 3.0.0+
 - Android SDK / iOS开发环境
 
 ### 运行应用
+
 ```bash
 flutter pub get
 flutter run
 ```
 
 ### 构建发布版
+
 ```bash
 flutter build apk --release
 ```
 
 ## 项目结构
 
-```
+``` text
 lib/
 ├── data/
 │   ├── datasources/      # 数据源（数据库、备份服务）
@@ -61,6 +66,7 @@ lib/
 ## 依赖项
 
 主要依赖：
+
 - `provider`：状态管理
 - `sqflite`：本地数据库
 - `file_picker`：文件选择器
