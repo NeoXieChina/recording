@@ -59,7 +59,7 @@ class BackupService {
     final zipData = await exportBackupToBytes();
 
     final appDir = await getApplicationDocumentsDirectory();
-    
+
     String backupPath;
     if (savePath != null) {
       backupPath = savePath;
@@ -75,8 +75,7 @@ class BackupService {
           .toIso8601String()
           .replaceAll(':', '-')
           .replaceAll('.', '-');
-      backupPath =
-          '${backupDir.path}/backup_$timestamp.zip';
+      backupPath = '${backupDir.path}/backup_$timestamp.zip';
     }
 
     final backupFile = File(backupPath);

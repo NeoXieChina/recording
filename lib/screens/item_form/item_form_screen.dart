@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:recording/constants.dart';
 import 'package:recording/data/models/item.dart';
 import 'package:recording/providers/item_form_provider.dart';
+import 'package:recording/providers/item_list_provider.dart';
 import 'package:recording/utils/format.dart';
 
 class ItemFormScreen extends StatelessWidget {
@@ -53,46 +54,54 @@ class ItemFormScreen extends StatelessWidget {
     required String value,
     required ValueChanged<String> onChanged,
   }) {
-    final predefinedCategories = AppConstants.itemCategories;
-    final hasCustomCategory =
-        !predefinedCategories.contains(value) && value.isNotEmpty;
+    return Consumer<ItemListProvider>(
+      builder: (context, itemListProvider, _) {
+        final predefinedCategories = AppConstants.itemCategories;
+        final customCategories = itemListProvider.getCategories();
+        final allCategories = <String>{}
+          ..addAll(predefinedCategories)
+          ..addAll(customCategories)
+          ..removeWhere((c) => c.isEmpty);
+        
+        final hasCustomCategory =
+            !allCategories.contains(value) && value.isNotEmpty;
 
-    return DropdownButtonFormField<String>(
-      isExpanded: true,
-      initialValue: hasCustomCategory ? 'custom' : value,
-      decoration: InputDecoration(
-        labelText: '物品分类',
-        prefixIcon: const Icon(Icons.category),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-        contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
-      ),
-      items: [
-        ...predefinedCategories.map(
-          (c) => DropdownMenuItem(
-            value: c,
-            child: Text(
-              c,
-              overflow: TextOverflow.ellipsis,
+        return _buildStyledDropdownButtonFormField<String>(
+          context: context,
+          label: '物品分类',
+          value: hasCustomCategory ? 'custom' : value,
+          items: [
+            ...allCategories.map(
+              (c) => DropdownMenuItem(
+                value: c,
+                child: Text(c, overflow: TextOverflow.ellipsis),
+              ),
             ),
-          ),
-        ),
-        const DropdownMenuItem(
-          value: 'custom',
-          child: Text(
-            '自定义分类',
-            overflow: TextOverflow.ellipsis,
-          ),
-        ),
-      ],
-      onChanged: (v) {
-        if (v != null) {
-          if (v == 'custom') {
-            // 显示自定义输入对话框
-            _showCustomCategoryDialog(context, value, onChanged);
-          } else {
-            onChanged(v);
-          }
-        }
+            const DropdownMenuItem(
+              value: 'custom',
+              child: Text('自定义分类', overflow: TextOverflow.ellipsis),
+            ),
+          ],
+          onChanged: (v) {
+            if (v != null) {
+              if (v == 'custom') {
+                // 显示自定义输入对话框
+                _showCustomCategoryDialog(context, value, (newCategory) {
+                  if (newCategory.isNotEmpty) {
+                    // 添加到自定义分类列表
+                    itemListProvider.addCustomCategory(newCategory);
+                    // 更新表单值
+                    onChanged(newCategory);
+                  }
+                });
+              } else {
+                onChanged(v);
+              }
+            }
+          },
+          icon: Icons.category,
+          width: double.infinity,
+        );
       },
     );
   }
@@ -137,58 +146,67 @@ class ItemFormScreen extends StatelessWidget {
     required String value,
     required ValueChanged<String> onChanged,
   }) {
-    final predefinedUnits = const [
-      '个',
-      '件',
-      '箱',
-      '包',
-      '瓶',
-      '盒',
-      '套',
-      'kg',
-      'g',
-      'L',
-      'ml',
-      'm',
-      'cm',
-    ];
-    final hasCustomUnit = !predefinedUnits.contains(value) && value.isNotEmpty;
+    return Consumer<ItemListProvider>(
+      builder: (context, itemListProvider, _) {
+        final predefinedUnits = const [
+          '个',
+          '件',
+          '箱',
+          '包',
+          '瓶',
+          '盒',
+          '套',
+          'kg',
+          'g',
+          'L',
+          'ml',
+          'm',
+          'cm',
+        ];
+        final customUnits = itemListProvider.getUnits();
+        final allUnits = <String>{}
+          ..addAll(predefinedUnits)
+          ..addAll(customUnits)
+          ..removeWhere((u) => u.isEmpty);
+        
+        final hasCustomUnit = !allUnits.contains(value) && value.isNotEmpty;
 
-    return DropdownButtonFormField<String>(
-      isExpanded: true,
-      initialValue: hasCustomUnit ? 'custom' : value,
-      decoration: InputDecoration(
-        labelText: '单位',
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
-        contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
-      ),
-      items: [
-        ...predefinedUnits.map((u) => DropdownMenuItem(
-          value: u,
-          child: Text(
-            u,
-            overflow: TextOverflow.ellipsis,
-          ),
-        )),
-        const DropdownMenuItem(
-          value: 'custom',
-          child: Text(
-            '自定义',
-            overflow: TextOverflow.ellipsis,
-          ),
-        ),
-      ],
-      onChanged: (v) {
-        if (v != null) {
-          if (v == 'custom') {
-            // 显示自定义输入对话框
-            _showCustomUnitDialog(context, value, onChanged);
-          } else {
-            onChanged(v);
-          }
-        }
+        return _buildStyledDropdownButtonFormField<String>(
+          context: context,
+          label: '单位',
+          value: hasCustomUnit ? 'custom' : value,
+          items: [
+            ...allUnits.map(
+              (u) => DropdownMenuItem(
+                value: u,
+                child: Text(u, overflow: TextOverflow.ellipsis),
+              ),
+            ),
+            const DropdownMenuItem(
+              value: 'custom',
+              child: Text('自定义', overflow: TextOverflow.ellipsis),
+            ),
+          ],
+          onChanged: (v) {
+            if (v != null) {
+              if (v == 'custom') {
+                // 显示自定义输入对话框
+                _showCustomUnitDialog(context, value, (newUnit) {
+                  if (newUnit.isNotEmpty) {
+                    // 添加到自定义单位列表
+                    itemListProvider.addCustomUnit(newUnit);
+                    // 更新表单值
+                    onChanged(newUnit);
+                  }
+                });
+              } else {
+                onChanged(v);
+              }
+            }
+          },
+          icon: null,
+          width: 120,
+        );
       },
     );
   }
@@ -228,6 +246,41 @@ class ItemFormScreen extends StatelessWidget {
     );
   }
 
+  void _showCustomLocationDialog(
+    BuildContext context,
+    String currentValue,
+    ValueChanged<String> onChanged,
+  ) {
+    final controller = TextEditingController(text: currentValue);
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('自定义地点'),
+        content: TextField(
+          controller: controller,
+          decoration: const InputDecoration(hintText: '请输入存储地点'),
+          autofocus: true,
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('取消'),
+          ),
+          TextButton(
+            onPressed: () {
+              final newValue = controller.text.trim();
+              if (newValue.isNotEmpty) {
+                onChanged(newValue);
+              }
+              Navigator.pop(context);
+            },
+            child: const Text('确定'),
+          ),
+        ],
+      ),
+    );
+  }
+
   Widget _buildNumberInputWithButtons({
     required BuildContext context,
     required String label,
@@ -240,14 +293,14 @@ class ItemFormScreen extends StatelessWidget {
   }) {
     final displayValue = value ?? 0;
     final controller = TextEditingController(text: displayValue.toString());
-    
+
     void updateValue(num newValue) {
       if (newValue >= 0) {
         onChanged(newValue);
         controller.text = newValue.toString();
       }
     }
-    
+
     return TextField(
       controller: controller,
       decoration: InputDecoration(
@@ -270,7 +323,6 @@ class ItemFormScreen extends StatelessWidget {
                 minimumSize: const Size(32, 32),
               ),
             ),
-            Icon(icon, size: 20),
             const SizedBox(width: 4),
           ],
         ),
@@ -288,9 +340,7 @@ class ItemFormScreen extends StatelessWidget {
             minimumSize: const Size(32, 32),
           ),
         ),
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
       ),
       keyboardType: TextInputType.numberWithOptions(decimal: !isInteger),
       onChanged: (v) {
@@ -364,7 +414,6 @@ class ItemFormScreen extends StatelessWidget {
         Row(
           children: [
             Expanded(
-              flex: 3,
               child: _buildNumberInputWithButtons(
                 context: context,
                 label: '单价',
@@ -382,25 +431,16 @@ class ItemFormScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(width: 12),
-            Expanded(
-              flex: 2,
-              child: DropdownButtonFormField<String>(
-                isExpanded: true,
-                initialValue: provider.currencySymbol,
-                decoration: InputDecoration(
-                  labelText: '货币',
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
-                ),
+            SizedBox(
+              width: 120,
+              child: _buildStyledDropdownButtonFormField<String>(
+                context: context,
+                label: '货币',
+                value: provider.currencySymbol,
                 items: AppConstants.currencySymbols.map((symbol) {
                   return DropdownMenuItem(
                     value: symbol,
-                    child: Text(
-                      symbol,
-                      overflow: TextOverflow.ellipsis,
-                    ),
+                    child: Text(symbol, overflow: TextOverflow.ellipsis),
                   );
                 }).toList(),
                 onChanged: (value) {
@@ -408,6 +448,8 @@ class ItemFormScreen extends StatelessWidget {
                     provider.setCurrencySymbol(value);
                   }
                 },
+                icon: null,
+                width: 120,
               ),
             ),
           ],
@@ -423,18 +465,56 @@ class ItemFormScreen extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 16),
-        TextField(
-          decoration: InputDecoration(
-            labelText: '存储地点',
-            hintText: '请输入物品存储地点（如：厨房柜子、书房抽屉）',
-            prefixIcon: const Icon(Icons.location_on),
-            border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-          ),
-          onChanged: provider.setStorageLocation,
-          controller: TextEditingController(text: provider.storageLocation)
-            ..selection = TextSelection.fromPosition(
-              TextPosition(offset: provider.storageLocation.length),
-            ),
+        Consumer<ItemListProvider>(
+          builder: (context, itemListProvider, _) {
+            final locations = itemListProvider.getLocations();
+            final hasCustomLocation = provider.storageLocation.isNotEmpty &&
+                !locations.contains(provider.storageLocation);
+
+            return _buildStyledDropdownButtonFormField<String>(
+              context: context,
+              label: '存储地点',
+              value: hasCustomLocation ? 'custom' : provider.storageLocation,
+              items: [
+                ...locations.map(
+                  (location) => DropdownMenuItem(
+                    value: location,
+                    child: Text(location, overflow: TextOverflow.ellipsis),
+                  ),
+                ),
+                const DropdownMenuItem(
+                  value: 'custom',
+                  child: Text(
+                    '自定义地点',
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+              ],
+              onChanged: (value) {
+                if (value != null) {
+                  if (value == 'custom') {
+                    // 显示自定义地点输入对话框
+                    _showCustomLocationDialog(
+                      context,
+                      provider.storageLocation,
+                      (newLocation) {
+                        if (newLocation.isNotEmpty) {
+                          // 添加到自定义地点列表
+                          itemListProvider.addCustomLocation(newLocation);
+                          // 更新表单值
+                          provider.setStorageLocation(newLocation);
+                        }
+                      },
+                    );
+                  } else {
+                    provider.setStorageLocation(value);
+                  }
+                }
+              },
+              icon: Icons.location_on,
+              width: double.infinity,
+            );
+          },
         ),
       ],
     );
@@ -482,7 +562,7 @@ class ItemFormScreen extends StatelessWidget {
   }) {
     final dateLabel = isConsumable ? '有效期' : '保修到期日';
     final dateIcon = isConsumable ? Icons.event : Icons.verified_user;
-    
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -493,16 +573,15 @@ class ItemFormScreen extends StatelessWidget {
           icon: isConsumable ? Icons.factory : Icons.shopping_cart,
           date: isConsumable ? provider.productionDate : provider.purchaseDate,
           errorText: null,
-          onPicked: isConsumable ? provider.setProductionDate : provider.setPurchaseDate,
+          onPicked: isConsumable
+              ? provider.setProductionDate
+              : provider.setPurchaseDate,
           showClearButton: true,
         ),
         const SizedBox(height: 16),
 
         // 保质期输入
-        _buildShelfLifeInputWithUnit(
-          context: context,
-          provider: provider,
-        ),
+        _buildShelfLifeInputWithUnit(context: context, provider: provider),
         const SizedBox(height: 12),
 
         // 最终日期显示（自动计算，只读）
@@ -512,14 +591,20 @@ class ItemFormScreen extends StatelessWidget {
           icon: dateIcon,
           date: isConsumable ? provider.expiryDate : provider.warrantyDate,
           errorText: provider.dateError,
-          onPicked: isConsumable ? provider.setExpiryDate : provider.setWarrantyDate,
+          onPicked: isConsumable
+              ? provider.setExpiryDate
+              : provider.setWarrantyDate,
           readOnly: true, // 总是只读，因为自动计算
           showClearButton: false, // 不显示清除按钮
-          minDate: isConsumable ? provider.productionDate : provider.purchaseDate,
+          minDate: isConsumable
+              ? provider.productionDate
+              : provider.purchaseDate,
         ),
-        
+
         // 自动计算提示
-        if (isConsumable ? provider.productionDate != null : provider.purchaseDate != null)
+        if (isConsumable
+            ? provider.productionDate != null
+            : provider.purchaseDate != null)
           Padding(
             padding: const EdgeInsets.only(top: 8),
             child: Text(
@@ -546,7 +631,7 @@ class ItemFormScreen extends StatelessWidget {
     DateTime? minDate,
   }) {
     final currentDate = date ?? DateTime.now();
-    
+
     void adjustDate(int days) {
       final newDate = currentDate.add(Duration(days: days));
       if (minDate != null && newDate.isBefore(minDate)) {
@@ -554,7 +639,7 @@ class ItemFormScreen extends StatelessWidget {
       }
       onPicked(newDate);
     }
-    
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -562,7 +647,7 @@ class ItemFormScreen extends StatelessWidget {
           onTap: readOnly
               ? null
               : () async {
-                   final picked = await showDatePicker(
+                  final picked = await showDatePicker(
                     context: context,
                     initialDate: currentDate,
                     firstDate: minDate ?? DateTime(2000),
@@ -627,9 +712,7 @@ class ItemFormScreen extends StatelessWidget {
                   child: Text(
                     FormatUtils.formatDate(currentDate),
                     style: TextStyle(
-                      color: date != null 
-                          ? null 
-                          : Theme.of(context).hintColor,
+                      color: date != null ? null : Theme.of(context).hintColor,
                     ),
                     overflow: TextOverflow.ellipsis,
                   ),
@@ -646,9 +729,9 @@ class ItemFormScreen extends StatelessWidget {
             child: Text(
               '自动计算',
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Colors.green,
-                    fontStyle: FontStyle.italic,
-                  ),
+                color: Colors.green,
+                fontStyle: FontStyle.italic,
+              ),
             ),
           ),
       ],
@@ -745,36 +828,40 @@ class ItemFormScreen extends StatelessWidget {
     // 从存储的月数和天数计算年、月、日
     final totalMonths = provider.shelfLifeMonths ?? 0;
     final days = provider.shelfLifeDays ?? 0;
-    
+
     // 计算年、月（1年=12个月）
     final years = totalMonths ~/ 12;
     final remainingMonths = totalMonths % 12;
-    
+
     return StatefulBuilder(
       builder: (context, setState) {
         // 本地状态和控制器
         int inputYears = years;
         int inputMonths = remainingMonths;
         int inputDays = days;
-        
-        final yearController = TextEditingController(text: inputYears.toString());
-        final monthController = TextEditingController(text: inputMonths.toString());
+
+        final yearController = TextEditingController(
+          text: inputYears.toString(),
+        );
+        final monthController = TextEditingController(
+          text: inputMonths.toString(),
+        );
         final dayController = TextEditingController(text: inputDays.toString());
-        
+
         // 更新Provider的值
         void updateProvider() {
           final totalMonths = inputYears * 12 + inputMonths;
           provider.setShelfLifeMonths(totalMonths);
           provider.setShelfLifeDays(inputDays);
         }
-        
+
         // 更新所有控制器的文本
         void updateControllers() {
           yearController.text = inputYears.toString();
           monthController.text = inputMonths.toString();
           dayController.text = inputDays.toString();
         }
-        
+
         // 处理年输入变化
         void handleYearChange(String value) {
           final intValue = int.tryParse(value) ?? 0;
@@ -786,7 +873,7 @@ class ItemFormScreen extends StatelessWidget {
             updateControllers();
           }
         }
-        
+
         // 处理月输入变化
         void handleMonthChange(String value) {
           final intValue = int.tryParse(value) ?? 0;
@@ -803,7 +890,7 @@ class ItemFormScreen extends StatelessWidget {
             updateControllers();
           }
         }
-        
+
         // 处理天输入变化
         void handleDayChange(String value) {
           final intValue = int.tryParse(value) ?? 0;
@@ -814,11 +901,11 @@ class ItemFormScreen extends StatelessWidget {
               if (inputDays >= 30) {
                 final additionalMonths = inputDays ~/ 30;
                 final remainingDays = inputDays % 30;
-                
+
                 // 先加到月数
                 inputMonths += additionalMonths;
                 inputDays = remainingDays;
-                
+
                 // 检查月数是否需要转换为年
                 if (inputMonths >= 12) {
                   inputYears += inputMonths ~/ 12;
@@ -830,7 +917,7 @@ class ItemFormScreen extends StatelessWidget {
             updateControllers();
           }
         }
-        
+
         // 构建简单的数字输入框
         Widget buildSimpleNumberInput({
           required String label,
@@ -844,7 +931,10 @@ class ItemFormScreen extends StatelessWidget {
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12),
               ),
-              contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+              contentPadding: const EdgeInsets.symmetric(
+                horizontal: 12,
+                vertical: 16,
+              ),
             ),
             keyboardType: TextInputType.number,
             onChanged: onChanged,
@@ -855,7 +945,7 @@ class ItemFormScreen extends StatelessWidget {
             },
           );
         }
-        
+
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -887,15 +977,11 @@ class ItemFormScreen extends StatelessWidget {
                 ),
               ],
             ),
-            
-
           ],
         );
       },
     );
   }
-  
-
 
   Widget _buildSaveButton(BuildContext context, ItemFormProvider provider) {
     return SizedBox(
@@ -927,6 +1013,160 @@ class ItemFormScreen extends StatelessWidget {
                 child: CircularProgressIndicator(strokeWidth: 2),
               )
             : const Text('保存'),
+      ),
+    );
+  }
+
+  Widget _buildStyledDropdownButtonFormField<T>({
+    required BuildContext context,
+    required String label,
+    required T? value,
+    required List<DropdownMenuItem<T>> items,
+    required void Function(T?) onChanged,
+    IconData? icon,
+    double? width,
+  }) {
+    // 查找选中的项目
+    Widget? selectedChild;
+    String? selectedText;
+
+    for (final item in items) {
+      if (item.value == value) {
+        selectedChild = item.child;
+        if (selectedChild is Text) {
+          selectedText = selectedChild.data;
+        }
+        break;
+      }
+    }
+
+    if (selectedChild == null && items.isNotEmpty) {
+      selectedChild = items.first.child;
+      if (selectedChild is Text) {
+        selectedText = selectedChild.data;
+      }
+    }
+
+    // 使用 GlobalKey 获取正确的 RenderBox
+    final GlobalKey inkWellKey = GlobalKey();
+
+    return Container(
+      width: width,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(12),
+        boxShadow: [
+          BoxShadow(
+            color: Color.fromRGBO(0, 0, 0, 0.1),
+            blurRadius: 4,
+            offset: const Offset(0, 2),
+          ),
+        ],
+      ),
+      child: InkWell(
+        key: inkWellKey,
+        onTap: () {
+          // 使用当前上下文获取 RenderBox 和 MediaQuery
+          final BuildContext? currentContext = inkWellKey.currentContext;
+          if (currentContext == null) return;
+
+          final RenderBox renderBox =
+              currentContext.findRenderObject() as RenderBox;
+          final position = renderBox.localToGlobal(Offset.zero);
+          final size = renderBox.size;
+
+          // 计算菜单宽度：使用输入框宽度减去图标宽度和左右内边距，限制在80-300之间
+          final inputWidth = size.width;
+          final leftPadding = 12.0; // contentPadding.horizontal
+          final iconWidth = icon != null ? 48.0 : 0.0; // 图标区域宽度
+          final menuWidth = inputWidth.isFinite
+              ? (inputWidth - iconWidth - leftPadding * 2).clamp(80.0, 300.0)
+              : 300.0;
+
+          // 创建弹出菜单项，宽度与菜单匹配
+          final menuItems = items.map((item) {
+            return PopupMenuItem<T>(
+              value: item.value,
+              height: 48,
+              child: SizedBox(width: menuWidth, child: item.child),
+            );
+          }).toList();
+
+          // 获取屏幕尺寸
+          final screenSize = MediaQuery.of(currentContext).size;
+
+          // 计算内容区域的左侧偏移量
+          // 对于有图标的输入框（地点、分类），左侧从图标右侧开始
+          // 对于没有图标的输入框（单位、货币），左侧从边框内侧开始
+          final contentLeft = position.dx + iconWidth + leftPadding;
+          
+          // 计算菜单右侧位置
+          final menuRight = contentLeft + menuWidth;
+          
+          // 检查下方是否有足够空间显示菜单
+          final availableSpaceBelow = screenSize.height - (position.dy + size.height);
+          final maxMenuHeight = 240.0; // 最大菜单高度
+          final itemCount = menuItems.length;
+          final menuHeight = (itemCount * 48.0).clamp(0.0, maxMenuHeight);
+          final showBelow = availableSpaceBelow >= menuHeight;
+          
+          // 计算菜单位置
+          final menuTop = showBelow
+              ? position.dy + size.height  // 显示在输入框下方
+              : position.dy - menuHeight;  // 显示在输入框上方
+          
+          final menuBottom = showBelow
+              ? screenSize.height  // 菜单可以向下扩展到屏幕底部
+              : position.dy;       // 菜单顶部到输入框顶部
+
+          showMenu<T>(
+            context: currentContext,
+            position: RelativeRect.fromLTRB(
+              contentLeft,
+              menuTop,
+              menuRight,
+              menuBottom,
+            ),
+            constraints: BoxConstraints(
+              maxHeight: 240, // 5 * 48 = 240，最多显示5项
+              minWidth: 80, // 最小宽度
+              maxWidth: menuWidth, // 宽度与输入框匹配
+            ),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+            elevation: 4,
+            items: menuItems,
+          ).then((selectedValue) {
+            if (selectedValue != null) {
+              onChanged(selectedValue);
+            }
+          });
+        },
+        borderRadius: BorderRadius.circular(12),
+        child: InputDecorator(
+          decoration: InputDecoration(
+            labelText: label,
+            prefixIcon: icon != null ? Icon(icon) : null,
+            suffixIcon: Icon(Icons.arrow_drop_down),
+            border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+            filled: true,
+            fillColor: Theme.of(context).colorScheme.surface,
+            contentPadding: const EdgeInsets.symmetric(horizontal: 12),
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Expanded(
+                child:
+                    selectedChild ??
+                    Text(
+                      selectedText ?? label,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

@@ -1,5 +1,5 @@
-import 'package:uuid/uuid.dart';
 import 'package:recording/constants.dart';
+import 'package:uuid/uuid.dart';
 
 enum ItemType { consumable, durable }
 
@@ -139,7 +139,8 @@ class Item {
       quantity: map['quantity'] as int,
       unit: map['unit'] as String,
       unitPrice: (map['unitPrice'] as num).toDouble(),
-      currencySymbol: (map['currencySymbol'] as String?) ?? AppConstants.currencySymbol,
+      currencySymbol:
+          (map['currencySymbol'] as String?) ?? AppConstants.currencySymbol,
       expiryDate: map['expiryDate'] != null
           ? DateTime.fromMillisecondsSinceEpoch(map['expiryDate'] as int)
           : null,

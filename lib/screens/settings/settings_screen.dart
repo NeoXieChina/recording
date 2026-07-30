@@ -140,36 +140,36 @@ class SettingsScreen extends StatelessWidget {
               builder: (context, provider, _) {
                 return Column(
                   children: [
-                     SwitchListTile(
-                       title: const Text('日历同步'),
-                       subtitle: const Text('开启后将请求日历权限'),
-                       value: provider.calendarSync,
-                       onChanged: (v) async {
-                         if (v) {
-                           await _requestCalendarPermission(context, provider);
-                         } else {
-                           provider.setCalendarSync(false);
-                         }
-                       },
-                       secondary: const Icon(Icons.calendar_today),
-                     ),
-                     const SizedBox(height: 8),
-                     SizedBox(
-                       width: double.infinity,
-                       child: OutlinedButton.icon(
-                         onPressed: () => _addTestCalendarEvent(context),
-                         icon: const Icon(Icons.add_alert),
-                         label: const Text('添加测试日历事件'),
-                         style: OutlinedButton.styleFrom(
-                           shape: RoundedRectangleBorder(
-                             borderRadius: BorderRadius.circular(12),
-                           ),
-                           padding: const EdgeInsets.symmetric(vertical: 12),
-                         ),
-                       ),
-                     ),
-                     const SizedBox(height: 8),
-                     ListTile(
+                    SwitchListTile(
+                      title: const Text('日历同步'),
+                      subtitle: const Text('开启后将请求日历权限'),
+                      value: provider.calendarSync,
+                      onChanged: (v) async {
+                        if (v) {
+                          await _requestCalendarPermission(context, provider);
+                        } else {
+                          provider.setCalendarSync(false);
+                        }
+                      },
+                      secondary: const Icon(Icons.calendar_today),
+                    ),
+                    const SizedBox(height: 8),
+                    SizedBox(
+                      width: double.infinity,
+                      child: OutlinedButton.icon(
+                        onPressed: () => _addTestCalendarEvent(context),
+                        icon: const Icon(Icons.add_alert),
+                        label: const Text('添加测试日历事件'),
+                        style: OutlinedButton.styleFrom(
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    ListTile(
                       leading: const Icon(Icons.timer),
                       title: const Text('提前提醒天数'),
                       trailing: DropdownButton<int>(
@@ -230,7 +230,7 @@ class SettingsScreen extends StatelessWidget {
     try {
       // 先获取备份数据
       final backupData = await BackupService().exportBackupToBytes();
-      
+
       // 获取下载目录作为默认初始目录
       Directory? downloadsDir;
       try {
@@ -242,18 +242,19 @@ class SettingsScreen extends StatelessWidget {
       // 让用户选择保存位置
       final savePath = await FilePicker.saveFile(
         dialogTitle: '保存备份文件',
-        fileName: 'backup_${DateTime.now().toIso8601String().replaceAll(':', '-').replaceAll('.', '-')}.zip',
+        fileName:
+            'backup_${DateTime.now().toIso8601String().replaceAll(':', '-').replaceAll('.', '-')}.zip',
         allowedExtensions: ['zip'],
         type: FileType.custom,
         initialDirectory: downloadsDir?.path,
         bytes: backupData,
       );
-      
+
       if (savePath == null) {
         provider.setExporting(false);
         return; // 用户取消了
       }
-      
+
       provider.setExporting(false);
       if (context.mounted) {
         ScaffoldMessenger.of(
@@ -308,7 +309,7 @@ class SettingsScreen extends StatelessWidget {
     SettingsProvider provider,
   ) async {
     if (!context.mounted) return;
-    
+
     // 检查当前权限状态
     final status = await Permission.calendarFullAccess.status;
     if (status.isGranted) {
@@ -365,10 +366,10 @@ class SettingsScreen extends StatelessWidget {
             );
             return;
           }
-          
+
           // 给系统一点时间处理日历创建
           await Future.delayed(const Duration(milliseconds: 500));
-          
+
           // 再次检查是否有日历账户
           hasAccount = await CalendarService.hasCalendarAccount();
           if (!hasAccount) {
@@ -390,11 +391,17 @@ class SettingsScreen extends StatelessWidget {
             );
           }
         }
-        
+
         provider.setCalendarSync(true);
         // 添加测试日历事件
         final now = DateTime.now();
-        final startTime = DateTime(now.year, now.month, now.day, now.hour, now.minute + 5);
+        final startTime = DateTime(
+          now.year,
+          now.month,
+          now.day,
+          now.hour,
+          now.minute + 5,
+        );
         final endTime = startTime.add(const Duration(hours: 1));
         final success = await CalendarService.addEvent(
           title: '测试日历事件',
@@ -468,7 +475,7 @@ class SettingsScreen extends StatelessWidget {
 
   Future<void> _addTestCalendarEvent(BuildContext context) async {
     if (!context.mounted) return;
-    
+
     // 检查日历权限
     final status = await Permission.calendarFullAccess.status;
     if (!status.isGranted) {
@@ -486,7 +493,7 @@ class SettingsScreen extends StatelessWidget {
         return;
       }
     }
-    
+
     // 检查是否有日历账户
     var hasAccount = await CalendarService.hasCalendarAccount();
     if (!hasAccount) {
@@ -503,10 +510,10 @@ class SettingsScreen extends StatelessWidget {
         }
         return;
       }
-      
+
       // 给系统一点时间处理日历创建
       await Future.delayed(const Duration(milliseconds: 500));
-      
+
       // 再次检查是否有日历账户
       hasAccount = await CalendarService.hasCalendarAccount();
       if (!hasAccount) {
@@ -531,9 +538,15 @@ class SettingsScreen extends StatelessWidget {
 
     // 添加测试日历事件
     final now = DateTime.now();
-    final startTime = DateTime(now.year, now.month, now.day, now.hour, now.minute + 10);
+    final startTime = DateTime(
+      now.year,
+      now.month,
+      now.day,
+      now.hour,
+      now.minute + 10,
+    );
     final endTime = startTime.add(const Duration(hours: 1));
-    
+
     final success = await CalendarService.addEvent(
       title: '物品提醒测试事件',
       description: '这是一个测试事件，用于验证日历功能是否正常工作',
@@ -542,9 +555,9 @@ class SettingsScreen extends StatelessWidget {
       endTime: endTime,
       reminderMinutes: 5,
     );
-    
+
     if (!context.mounted) return;
-    
+
     if (success) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(

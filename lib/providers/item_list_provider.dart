@@ -6,6 +6,9 @@ class ItemListProvider extends ChangeNotifier {
   final AppDatabase _db = AppDatabase();
 
   List<Item> _items = [];
+  final Set<String> _customLocations = {};
+  final Set<String> _customCategories = {};
+  final Set<String> _customUnits = {};
 
   List<Item> get items => _filteredItems;
 
@@ -20,7 +23,7 @@ class ItemListProvider extends ChangeNotifier {
   String? get error => _error;
 
   ItemType? get filterType => _filterType;
-  
+
   String? get filterLocation => _filterLocation;
 
   List<Item> get _filteredItems {
@@ -29,7 +32,9 @@ class ItemListProvider extends ChangeNotifier {
       result = result.where((i) => i.itemType == _filterType).toList();
     }
     if (_filterLocation != null && _filterLocation!.isNotEmpty) {
-      result = result.where((i) => i.storageLocation == _filterLocation).toList();
+      result = result
+          .where((i) => i.storageLocation == _filterLocation)
+          .toList();
     }
     if (_searchQuery.isNotEmpty) {
       final query = _searchQuery.toLowerCase();
@@ -113,14 +118,57 @@ class ItemListProvider extends ChangeNotifier {
     await loadItems();
   }
 
-  /// 获取所有物品的唯一地点列表
+  /// 获取所有物品的唯一地点列表，包括自定义地点
   List<String> getLocations() {
-    final locations = _items
+    final locations = <String>{};
+    locations.addAll(_items
         .map((item) => item.storageLocation)
-        .where((location) => location.isNotEmpty)
-        .toSet()
-        .toList()
-      ..sort();
-    return locations;
+        .where((location) => location.isNotEmpty));
+    locations.addAll(_customLocations);
+    return locations.toList()..sort();
+  }
+
+  /// 添加自定义地点
+  void addCustomLocation(String location) {
+    if (location.isNotEmpty && !_customLocations.contains(location)) {
+      _customLocations.add(location);
+      notifyListeners();
+    }
+  }
+
+  /// 获取所有物品的唯一分类列表，包括自定义分类
+  List<String> getCategories() {
+    final categories = <String>{};
+    categories.addAll(_items
+        .map((item) => item.category)
+        .where((category) => category.isNotEmpty));
+    categories.addAll(_customCategories);
+    return categories.toList()..sort();
+  }
+
+  /// 添加自定义分类
+  void addCustomCategory(String category) {
+    if (category.isNotEmpty && !_customCategories.contains(category)) {
+      _customCategories.add(category);
+      notifyListeners();
+    }
+  }
+
+  /// 获取所有物品的唯一单位列表，包括自定义单位
+  List<String> getUnits() {
+    final units = <String>{};
+    units.addAll(_items
+        .map((item) => item.unit)
+        .where((unit) => unit.isNotEmpty));
+    units.addAll(_customUnits);
+    return units.toList()..sort();
+  }
+
+  /// 添加自定义单位
+  void addCustomUnit(String unit) {
+    if (unit.isNotEmpty && !_customUnits.contains(unit)) {
+      _customUnits.add(unit);
+      notifyListeners();
+    }
   }
 }

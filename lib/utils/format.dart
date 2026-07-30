@@ -82,14 +82,21 @@ class FormatUtils {
   }
 
   /// 格式化总价
-  static String formatTotalPrice(double unitPrice, int quantity, {String? currencySymbol}) {
+  static String formatTotalPrice(
+    double unitPrice,
+    int quantity, {
+    String? currencySymbol,
+  }) {
     final totalPrice = calculateTotalPrice(unitPrice, quantity);
     return formatPrice(totalPrice, currencySymbol: currencySymbol);
   }
 
   /// 格式化剩余天数
   /// [isWarranty] 是否为保修日期（true: 过保, false: 到期）
-  static String formatRemainingDays(DateTime targetDate, {bool isWarranty = false}) {
+  static String formatRemainingDays(
+    DateTime targetDate, {
+    bool isWarranty = false,
+  }) {
     final now = DateTime.now();
     final today = DateTime(now.year, now.month, now.day);
     final target = DateTime(targetDate.year, targetDate.month, targetDate.day);

@@ -129,8 +129,6 @@ class ItemFormProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-
-
   void setStorageLocation(String value) {
     storageLocation = value;
     notifyListeners();
@@ -190,8 +188,10 @@ class ItemFormProvider extends ChangeNotifier {
     shelfLifeMonths = item.shelfLifeMonths;
     shelfLifeDays = item.shelfLifeDays;
     // 自动设置计算标志
-    usePurchaseDateForCalculation = item.itemType == ItemType.durable && item.purchaseDate != null;
-    useProductionDateForCalculation = item.itemType == ItemType.consumable && item.productionDate != null;
+    usePurchaseDateForCalculation =
+        item.itemType == ItemType.durable && item.purchaseDate != null;
+    useProductionDateForCalculation =
+        item.itemType == ItemType.consumable && item.productionDate != null;
     // 不再使用手动输入模式
     useManualDateEntry = false;
     storageLocation = item.storageLocation;

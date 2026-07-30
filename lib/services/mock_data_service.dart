@@ -1,25 +1,26 @@
 import 'dart:io';
 import 'dart:math';
-import 'package:path/path.dart' as p;
-import 'package:sqflite/sqflite.dart';
+
 import 'package:flutter/foundation.dart';
+import 'package:path/path.dart' as p;
+import 'package:recording/constants.dart';
 import 'package:recording/data/datasources/app_database.dart';
 import 'package:recording/data/models/item.dart';
-import 'package:recording/constants.dart';
+import 'package:sqflite/sqflite.dart';
 
 /// 模拟数据服务
-/// 
+///
 /// 此服务用于在应用安装后初始化测试数据，便于调试和演示。
-/// 
+///
 /// 使用说明：
 /// 1. 在 lib/main.dart 中将 enableMockData 设置为 true 启用模拟数据
 /// 2. 应用首次启动时会自动插入20条模拟数据
 /// 3. 模拟数据包括消耗品和耐用品，涵盖各种分类和存储地点
-/// 
+///
 /// 上线前移除步骤：
 /// 1. 将 lib/main.dart 中的 enableMockData 常量改为 false
 /// 2. 或直接删除模拟数据初始化代码
-/// 
+///
 /// 注意：模拟数据仅在数据库为空时插入，不会覆盖现有数据。
 
 /// 模拟数据服务，用于在调试模式下初始化测试数据
@@ -31,20 +32,101 @@ class MockDataService {
   /// 生成随机中文名称
   String _generateRandomChineseName() {
     final List<String> adjectives = [
-      '新鲜', '优质', '经典', '时尚', '实用', '智能', '便携', '高效', '环保', '健康',
-      '美味', '营养', '精致', '耐用', '舒适', '安全', '快速', '经济', '豪华', '简约'
+      '新鲜',
+      '优质',
+      '经典',
+      '时尚',
+      '实用',
+      '智能',
+      '便携',
+      '高效',
+      '环保',
+      '健康',
+      '美味',
+      '营养',
+      '精致',
+      '耐用',
+      '舒适',
+      '安全',
+      '快速',
+      '经济',
+      '豪华',
+      '简约',
     ];
-    
+
     final List<String> nouns = [
-      '大米', '牛奶', '面包', '鸡蛋', '苹果', '香蕉', '橙子', '咖啡', '茶叶', '巧克力',
-      '洗发水', '沐浴露', '牙膏', '纸巾', '洗衣液', '洗洁精', '面膜', '口红', '香水', '护肤品',
-      '感冒药', '创可贴', '维生素', '止痛药', '消毒水', '体温计', '口罩', '棉签', '药膏', '眼药水',
-      '手机', '耳机', '充电器', '键盘', '鼠标', '平板', '笔记本', '显示器', '路由器', '摄像头',
-      '沙发', '椅子', '桌子', '床', '衣柜', '书架', '灯具', '地毯', '窗帘', '装饰画',
-      'T恤', '牛仔裤', '外套', '鞋子', '帽子', '围巾', '手套', '袜子', '内衣', '睡衣',
-      '小说', '教材', '杂志', '漫画', '词典', '笔记本', '钢笔', '铅笔', '橡皮', '尺子'
+      '大米',
+      '牛奶',
+      '面包',
+      '鸡蛋',
+      '苹果',
+      '香蕉',
+      '橙子',
+      '咖啡',
+      '茶叶',
+      '巧克力',
+      '洗发水',
+      '沐浴露',
+      '牙膏',
+      '纸巾',
+      '洗衣液',
+      '洗洁精',
+      '面膜',
+      '口红',
+      '香水',
+      '护肤品',
+      '感冒药',
+      '创可贴',
+      '维生素',
+      '止痛药',
+      '消毒水',
+      '体温计',
+      '口罩',
+      '棉签',
+      '药膏',
+      '眼药水',
+      '手机',
+      '耳机',
+      '充电器',
+      '键盘',
+      '鼠标',
+      '平板',
+      '笔记本',
+      '显示器',
+      '路由器',
+      '摄像头',
+      '沙发',
+      '椅子',
+      '桌子',
+      '床',
+      '衣柜',
+      '书架',
+      '灯具',
+      '地毯',
+      '窗帘',
+      '装饰画',
+      'T恤',
+      '牛仔裤',
+      '外套',
+      '鞋子',
+      '帽子',
+      '围巾',
+      '手套',
+      '袜子',
+      '内衣',
+      '睡衣',
+      '小说',
+      '教材',
+      '杂志',
+      '漫画',
+      '词典',
+      '笔记本',
+      '钢笔',
+      '铅笔',
+      '橡皮',
+      '尺子',
     ];
-    
+
     final random = Random();
     final adjective = adjectives[random.nextInt(adjectives.length)];
     final noun = nouns[random.nextInt(nouns.length)];
@@ -73,9 +155,9 @@ class MockDataService {
       '玄关鞋柜',
       '洗衣房',
       '阁楼',
-      '花园工具房'
+      '花园工具房',
     ];
-    
+
     final random = Random();
     return locations[random.nextInt(locations.length)];
   }
@@ -102,9 +184,9 @@ class MockDataService {
       '急救用品，注意有效期',
       '电子产品，防潮防尘',
       '衣物类，注意季节更换',
-      '食品类，注意保鲜'
+      '食品类，注意保鲜',
     ];
-    
+
     final random = Random();
     // 70%的概率添加备注
     if (random.nextDouble() < 0.7) {
@@ -136,48 +218,57 @@ class MockDataService {
 
     // 消耗品类物品
     for (int i = 0; i < 12; i++) {
-      final category = AppConstants.itemCategories[random.nextInt(AppConstants.itemCategories.length)];
+      final category = AppConstants
+          .itemCategories[random.nextInt(AppConstants.itemCategories.length)];
       final purchaseDate = _generateRandomPastDate();
       final expiryDate = _generateRandomFutureDate(1, 180); // 1-180天内过期
-      
-      items.add(Item(
-        name: _generateRandomChineseName(),
-        category: category,
-        itemType: ItemType.consumable,
-        quantity: 1 + random.nextInt(10), // 1-10个
-        unit: ['个', '瓶', '包', '盒', '袋', '件'][random.nextInt(6)],
-        unitPrice: (10 + random.nextInt(200)).toDouble(), // 10-210元
-        currencySymbol: AppConstants.currencySymbol,
-        expiryDate: expiryDate,
-        purchaseDate: purchaseDate,
-        storageLocation: _generateRandomLocation(),
-        notes: _generateRandomNotes(),
-        createdAt: purchaseDate,
-        updatedAt: now,
-      ));
+
+      items.add(
+        Item(
+          name: _generateRandomChineseName(),
+          category: category,
+          itemType: ItemType.consumable,
+          quantity: 1 + random.nextInt(10),
+          // 1-10个
+          unit: ['个', '瓶', '包', '盒', '袋', '件'][random.nextInt(6)],
+          unitPrice: (10 + random.nextInt(200)).toDouble(),
+          // 10-210元
+          currencySymbol: AppConstants.currencySymbol,
+          expiryDate: expiryDate,
+          purchaseDate: purchaseDate,
+          storageLocation: _generateRandomLocation(),
+          notes: _generateRandomNotes(),
+          createdAt: purchaseDate,
+          updatedAt: now,
+        ),
+      );
     }
 
     // 耐用品类物品
     for (int i = 0; i < 8; i++) {
-      final category = AppConstants.itemCategories[random.nextInt(AppConstants.itemCategories.length)];
+      final category = AppConstants
+          .itemCategories[random.nextInt(AppConstants.itemCategories.length)];
       final purchaseDate = _generateRandomPastDate();
       final warrantyDate = _generateRandomFutureDate(30, 730); // 30-730天内保修到期
-      
-      items.add(Item(
-        name: _generateRandomChineseName(),
-        category: category,
-        itemType: ItemType.durable,
-        quantity: 1,
-        unit: '个',
-        unitPrice: (100 + random.nextInt(2000)).toDouble(), // 100-2100元
-        currencySymbol: AppConstants.currencySymbol,
-        warrantyDate: warrantyDate,
-        purchaseDate: purchaseDate,
-        storageLocation: _generateRandomLocation(),
-        notes: _generateRandomNotes(),
-        createdAt: purchaseDate,
-        updatedAt: now,
-      ));
+
+      items.add(
+        Item(
+          name: _generateRandomChineseName(),
+          category: category,
+          itemType: ItemType.durable,
+          quantity: 1,
+          unit: '个',
+          unitPrice: (100 + random.nextInt(2000)).toDouble(),
+          // 100-2100元
+          currencySymbol: AppConstants.currencySymbol,
+          warrantyDate: warrantyDate,
+          purchaseDate: purchaseDate,
+          storageLocation: _generateRandomLocation(),
+          notes: _generateRandomNotes(),
+          createdAt: purchaseDate,
+          updatedAt: now,
+        ),
+      );
     }
 
     return items;
@@ -188,15 +279,15 @@ class MockDataService {
     try {
       // 检查数据库中是否有数据
       final itemCount = await _db.getItemCount();
-      
+
       // 如果数据库为空，则插入模拟数据
       if (itemCount == 0) {
         final mockItems = _generateMockItems();
-        
+
         for (final item in mockItems) {
           await _db.insertItem(item);
         }
-        
+
         debugPrint('✅ 已成功初始化 ${mockItems.length} 条模拟数据');
       } else {
         debugPrint('📊 数据库已有 $itemCount 条数据，跳过模拟数据初始化');

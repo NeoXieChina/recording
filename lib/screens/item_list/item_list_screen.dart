@@ -209,24 +209,24 @@ class _ItemListScreenState extends State<ItemListScreen> {
       child: Slidable(
         endActionPane: ActionPane(
           motion: const ScrollMotion(),
-           extentRatio: 0.18,
+          extentRatio: 0.18,
           children: [
-                  Center(
-                    child: Container(
-                      width: 56,
-                      height: 56,
-                      decoration: BoxDecoration(
-                        color: cs.error,
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                       child: GestureDetector(
-                         onTap: () => _confirmDelete(item, provider),
-                         child: Center(
-                           child: Icon(Icons.delete, color: cs.onError, size: 24),
-                         ),
-                       ),
-                    ),
+            Center(
+              child: Container(
+                width: 56,
+                height: 56,
+                decoration: BoxDecoration(
+                  color: cs.error,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: GestureDetector(
+                  onTap: () => _confirmDelete(item, provider),
+                  child: Center(
+                    child: Icon(Icons.delete, color: cs.onError, size: 24),
                   ),
+                ),
+              ),
+            ),
           ],
         ),
         child: Card(
@@ -257,57 +257,106 @@ class _ItemListScreenState extends State<ItemListScreen> {
                           Row(
                             children: [
                               Expanded(
-                                child: Text(
-                                  item.name,
-                                  style: Theme.of(context).textTheme.titleMedium
-                                      ?.copyWith(
-                                        fontSize: 16,
-                                        fontWeight: FontWeight.w700,
+                                child: Row(
+                                  children: [
+                                    Expanded(
+                                      child: Text(
+                                        item.name,
+                                        style: Theme.of(context)
+                                            .textTheme
+                                            .titleMedium
+                                            ?.copyWith(
+                                              fontSize: 16,
+                                              fontWeight: FontWeight.w700,
+                                              color: Theme.of(
+                                                context,
+                                              ).colorScheme.primary,
+                                            ),
+                                        maxLines: 1,
+                                        overflow: TextOverflow.ellipsis,
+                                      ),
+                                    ),
+                                    const SizedBox(width: 8),
+                                    Container(
+                                      padding: const EdgeInsets.symmetric(
+                                        horizontal: 8,
+                                        vertical: 2,
+                                      ),
+                                      decoration: BoxDecoration(
                                         color: Theme.of(
                                           context,
-                                        ).colorScheme.primary,
+                                        ).colorScheme.surfaceContainerHighest,
+                                        borderRadius: BorderRadius.circular(12),
+                                        border: Border.all(
+                                          color: Theme.of(
+                                            context,
+                                          ).colorScheme.outline,
+                                          width: 1,
+                                        ),
                                       ),
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
+                                      child: Text(
+                                        item.category,
+                                        style: Theme.of(context)
+                                            .textTheme
+                                            .labelSmall
+                                            ?.copyWith(
+                                              color: Theme.of(
+                                                context,
+                                              ).colorScheme.onSurfaceVariant,
+                                              fontSize: 10,
+                                            ),
+                                      ),
+                                    ),
+                                  ],
                                 ),
                               ),
+                              const SizedBox(width: 8),
                               _buildTypeChip(item),
                             ],
                           ),
                           const SizedBox(height: 4),
                           Row(
                             children: [
-                              Text(
-                                item.category,
-                                style: Theme.of(context).textTheme.bodySmall
-                                    ?.copyWith(color: cs.outline, fontSize: 12),
-                              ),
-                              const Spacer(),
-                              Text(
-                                '${item.quantity}${item.unit}',
-                                style: Theme.of(context).textTheme.bodySmall
-                                    ?.copyWith(color: cs.outline, fontSize: 12),
+                              Expanded(
+                                child: Align(
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(
+                                    '${item.quantity}${item.unit}',
+                                    style: Theme.of(context).textTheme.bodySmall
+                                        ?.copyWith(
+                                          color: cs.outline,
+                                          fontSize: 12,
+                                        ),
+                                  ),
+                                ),
                               ),
                             ],
                           ),
                           const SizedBox(height: 6),
                           Row(
+                            crossAxisAlignment: CrossAxisAlignment.end,
                             children: [
                               Expanded(
-                                child: Text(
-                                  FormatUtils.formatPrice(item.totalPrice),
-                                  style: Theme.of(context).textTheme.titleSmall
-                                      ?.copyWith(
-                                        color: cs.primary,
-                                        fontWeight: FontWeight.w700,
-                                        fontSize: 14,
-                                      ),
+                                child: Align(
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(
+                                    FormatUtils.formatPrice(item.totalPrice),
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .titleSmall
+                                        ?.copyWith(
+                                          color: cs.primary,
+                                          fontWeight: FontWeight.w700,
+                                          fontSize: 14,
+                                        ),
+                                  ),
                                 ),
                               ),
                               if (item.expiryDate != null ||
                                   item.warrantyDate != null) ...[
                                 const SizedBox(width: 8),
-                                Expanded(
+                                Align(
+                                  alignment: Alignment.bottomRight,
                                   child: _buildDateStatus(
                                     item,
                                     isWarning,
@@ -400,14 +449,63 @@ class _ItemListScreenState extends State<ItemListScreen> {
         ? Theme.of(context).colorScheme.tertiary
         : Theme.of(context).colorScheme.outline;
     final isWarranty = item.itemType == ItemType.durable;
-     return Text(
-       FormatUtils.formatRemainingDays(date, isWarranty: isWarranty),
-       style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-         color: color,
-         fontSize: 16,
-         fontWeight: FontWeight.w900,
-       ),
-     );
+    final text = FormatUtils.formatRemainingDays(date, isWarranty: isWarranty);
+
+    // 使用更鲜艳的颜色
+    Color vibrantColor = isDanger
+        ? Colors.redAccent
+        : isWarning
+        ? Colors.orangeAccent
+        : Colors.blueAccent;
+
+    // 使用正则表达式匹配数字
+    final RegExp digitRegExp = RegExp(r'\d+');
+    final match = digitRegExp.firstMatch(text);
+
+    if (match != null) {
+      final numberStart = match.start;
+      final numberEnd = match.end;
+      final numberText = match.group(0)!;
+      final beforeNumber = text.substring(0, numberStart);
+      final afterNumber = text.substring(numberEnd);
+
+      final baseStyle =
+          Theme.of(context).textTheme.bodyMedium?.copyWith(
+            color: color,
+            fontSize: 8,
+            fontWeight: FontWeight.w700,
+          ) ??
+          TextStyle(color: color, fontSize: 8, fontWeight: FontWeight.w700);
+
+      return RichText(
+        text: TextSpan(
+          style: baseStyle,
+          children: [
+            TextSpan(text: beforeNumber),
+            TextSpan(
+              text: numberText,
+              style: TextStyle(
+                color: vibrantColor,
+                fontSize: 21,
+                fontWeight: FontWeight.w900,
+              ),
+            ),
+            TextSpan(text: afterNumber),
+          ],
+        ),
+      );
+    } else {
+      // 如果没有数字，返回普通文本
+      final baseStyle =
+          Theme.of(context).textTheme.bodyMedium?.copyWith(
+            color: color,
+            fontSize: 8,
+            fontWeight: FontWeight.w700,
+          ) ??
+          TextStyle(color: color, fontSize: 8, fontWeight: FontWeight.w700);
+
+      return Text(text, style: baseStyle);
+    }
   }
 
   void _confirmDelete(Item item, ItemListProvider provider) {
@@ -613,68 +711,68 @@ class _ItemListScreenState extends State<ItemListScreen> {
                   ],
                 ),
               ),
-               ListTile(
-                 leading: Icon(
-                   Icons.all_inbox,
-                   color: currentLocationFilter == null
-                       ? Theme.of(context).colorScheme.primary
-                       : Theme.of(context).colorScheme.onSurfaceVariant,
-                 ),
-                 title: Text(
-                   '全部地点',
-                   style: TextStyle(
-                     fontWeight: currentLocationFilter == null
-                         ? FontWeight.bold
-                         : FontWeight.normal,
-                     color: currentLocationFilter == null
-                         ? Theme.of(context).colorScheme.primary
-                         : null,
-                   ),
-                 ),
-                 trailing: currentLocationFilter == null
-                     ? Icon(
-                         Icons.check,
-                         color: Theme.of(context).colorScheme.primary,
-                       )
-                     : null,
-                 selected: currentLocationFilter == null,
-                 onTap: () {
-                   provider.setFilterLocation(null);
-                   Navigator.pop(context);
-                 },
-               ),
-               ...locations.map(
-                 (location) => ListTile(
-                   leading: Icon(
-                     Icons.place,
-                     color: currentLocationFilter == location
-                         ? Theme.of(context).colorScheme.primary
-                         : Theme.of(context).colorScheme.onSurfaceVariant,
-                   ),
-                   title: Text(
-                     location,
-                     style: TextStyle(
-                       fontWeight: currentLocationFilter == location
-                           ? FontWeight.bold
-                           : FontWeight.normal,
-                       color: currentLocationFilter == location
-                           ? Theme.of(context).colorScheme.primary
-                           : null,
-                     ),
-                   ),
-                   trailing: currentLocationFilter == location
-                       ? Icon(
-                           Icons.check,
-                           color: Theme.of(context).colorScheme.primary,
-                         )
-                       : null,
-                   selected: currentLocationFilter == location,
-                   onTap: () {
-                     provider.setFilterLocation(location);
-                     Navigator.pop(context);
-                   },
-                 ),
-               ),
+              ListTile(
+                leading: Icon(
+                  Icons.all_inbox,
+                  color: currentLocationFilter == null
+                      ? Theme.of(context).colorScheme.primary
+                      : Theme.of(context).colorScheme.onSurfaceVariant,
+                ),
+                title: Text(
+                  '全部地点',
+                  style: TextStyle(
+                    fontWeight: currentLocationFilter == null
+                        ? FontWeight.bold
+                        : FontWeight.normal,
+                    color: currentLocationFilter == null
+                        ? Theme.of(context).colorScheme.primary
+                        : null,
+                  ),
+                ),
+                trailing: currentLocationFilter == null
+                    ? Icon(
+                        Icons.check,
+                        color: Theme.of(context).colorScheme.primary,
+                      )
+                    : null,
+                selected: currentLocationFilter == null,
+                onTap: () {
+                  provider.setFilterLocation(null);
+                  Navigator.pop(context);
+                },
+              ),
+              ...locations.map(
+                (location) => ListTile(
+                  leading: Icon(
+                    Icons.place,
+                    color: currentLocationFilter == location
+                        ? Theme.of(context).colorScheme.primary
+                        : Theme.of(context).colorScheme.onSurfaceVariant,
+                  ),
+                  title: Text(
+                    location,
+                    style: TextStyle(
+                      fontWeight: currentLocationFilter == location
+                          ? FontWeight.bold
+                          : FontWeight.normal,
+                      color: currentLocationFilter == location
+                          ? Theme.of(context).colorScheme.primary
+                          : null,
+                    ),
+                  ),
+                  trailing: currentLocationFilter == location
+                      ? Icon(
+                          Icons.check,
+                          color: Theme.of(context).colorScheme.primary,
+                        )
+                      : null,
+                  selected: currentLocationFilter == location,
+                  onTap: () {
+                    provider.setFilterLocation(location);
+                    Navigator.pop(context);
+                  },
+                ),
+              ),
               if (locations.isEmpty) ...[
                 const Padding(
                   padding: EdgeInsets.all(16.0),

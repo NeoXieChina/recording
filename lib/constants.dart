@@ -58,7 +58,7 @@ class AppConstants {
   /// 价格格式
   static const String currencySymbol = '¥';
   static const int priceDecimalDigits = 2;
-  
+
   /// 可用货币符号
   static const List<String> currencySymbols = ['¥', '\$', '€', '£', '₹', '₽'];
 

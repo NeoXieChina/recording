@@ -4,10 +4,10 @@ import 'package:recording/data/datasources/app_database.dart';
 import 'package:recording/services/mock_data_service.dart';
 
 /// 调试模式标志 - 控制是否启用模拟数据
-/// 
+///
 /// 设置为 true：应用首次启动时自动插入20条模拟数据，便于调试和演示
 /// 设置为 false：禁用模拟数据，适用于生产环境
-/// 
+///
 /// 上线前请务必将此标志设为 false
 const bool enableMockData = true;
 
@@ -18,7 +18,7 @@ const bool resetDatabaseOnStart = false;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   // 开发工具：重置数据库（仅在需要时启用）
   if (resetDatabaseOnStart && enableMockData) {
     try {
@@ -30,7 +30,7 @@ void main() async {
       debugPrint('❌ 重置数据库时出错: $e');
     }
   }
-  
+
   // 初始化模拟数据（仅在调试模式启用）
   if (enableMockData) {
     try {
@@ -46,6 +46,6 @@ void main() async {
       debugPrint('3. 或将 resetDatabaseOnStart 设为 true 后重新运行');
     }
   }
-  
+
   runApp(const App());
 }
