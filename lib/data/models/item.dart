@@ -23,6 +23,7 @@ class Item {
   final bool usePurchaseDateForCalculation;
   final bool useProductionDateForCalculation;
   final String storageLocation;
+  final String? barcode;
   final List<String> imagePaths;
   final String? notes;
   final DateTime createdAt;
@@ -46,6 +47,7 @@ class Item {
     this.usePurchaseDateForCalculation = false,
     this.useProductionDateForCalculation = false,
     this.storageLocation = '',
+    this.barcode,
     this.imagePaths = const [],
     this.notes,
     DateTime? createdAt,
@@ -71,6 +73,7 @@ class Item {
     bool? usePurchaseDateForCalculation,
     bool? useProductionDateForCalculation,
     String? storageLocation,
+    String? barcode,
     List<String>? imagePaths,
     String? notes,
   }) {
@@ -95,6 +98,7 @@ class Item {
           useProductionDateForCalculation ??
           this.useProductionDateForCalculation,
       storageLocation: storageLocation ?? this.storageLocation,
+      barcode: barcode ?? this.barcode,
       imagePaths: imagePaths ?? this.imagePaths,
       notes: notes ?? this.notes,
       createdAt: createdAt,
@@ -123,6 +127,7 @@ class Item {
           ? 1
           : 0,
       'storageLocation': storageLocation,
+      'barcode': barcode,
       'imagePaths': imagePaths.join(';'),
       'notes': notes,
       'createdAt': createdAt.millisecondsSinceEpoch,
@@ -160,6 +165,7 @@ class Item {
       useProductionDateForCalculation:
           (map['useProductionDateForCalculation'] as int?) == 1,
       storageLocation: map['storageLocation'] as String? ?? '',
+      barcode: map['barcode'] as String?,
       imagePaths: (map['imagePaths'] as String).isNotEmpty
           ? (map['imagePaths'] as String).split(';')
           : [],

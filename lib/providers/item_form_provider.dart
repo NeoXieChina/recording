@@ -29,6 +29,7 @@ class ItemFormProvider extends ChangeNotifier {
   bool useProductionDateForCalculation = false;
   bool useManualDateEntry = false; // true表示手动输入最终日期，false表示自动计算
   String storageLocation = '';
+  String barcode = '';
   List<String> imagePaths = [];
   String? notes;
 
@@ -134,6 +135,11 @@ class ItemFormProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void setBarcode(String value) {
+    barcode = value;
+    notifyListeners();
+  }
+
   void setNotes(String? value) {
     notes = value;
     notifyListeners();
@@ -195,6 +201,7 @@ class ItemFormProvider extends ChangeNotifier {
     // 不再使用手动输入模式
     useManualDateEntry = false;
     storageLocation = item.storageLocation;
+    barcode = item.barcode ?? '';
     imagePaths = List.from(item.imagePaths);
     notes = item.notes;
     clearErrors();
@@ -220,6 +227,7 @@ class ItemFormProvider extends ChangeNotifier {
     useProductionDateForCalculation = false;
     useManualDateEntry = false;
     storageLocation = '';
+    barcode = '';
     imagePaths = [];
     notes = null;
     clearErrors();
@@ -305,6 +313,7 @@ class ItemFormProvider extends ChangeNotifier {
         usePurchaseDateForCalculation: usePurchaseDateForCalculation,
         useProductionDateForCalculation: useProductionDateForCalculation,
         storageLocation: storageLocation,
+        barcode: barcode.trim().isNotEmpty ? barcode.trim() : null,
         imagePaths: imagePaths,
         notes: notes?.trim().isNotEmpty == true ? notes!.trim() : null,
       );

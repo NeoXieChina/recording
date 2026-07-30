@@ -50,6 +50,7 @@ class AppDatabase {
         usePurchaseDateForCalculation INTEGER NOT NULL DEFAULT 0,
         useProductionDateForCalculation INTEGER NOT NULL DEFAULT 0,
         storageLocation TEXT NOT NULL DEFAULT '',
+        barcode TEXT,
         imagePaths TEXT NOT NULL DEFAULT '',
         notes TEXT,
         createdAt INTEGER NOT NULL,
@@ -101,6 +102,12 @@ class AppDatabase {
       // 版本3升级到版本4：添加货币符号字段
       await db.execute('''
         ALTER TABLE items ADD COLUMN currencySymbol TEXT NOT NULL DEFAULT '¥'
+      ''');
+    }
+    if (oldVersion < 5) {
+      // 版本4升级到版本5：添加条码字段
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN barcode TEXT
       ''');
     }
   }

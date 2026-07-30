@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:provider/provider.dart';
 import 'package:recording/constants.dart';
 import 'package:recording/data/models/item.dart';
@@ -355,6 +356,97 @@ class ItemFormScreen extends StatelessWidget {
     );
   }
 
+  Widget _buildBarcodeInput({
+    required BuildContext context,
+    required String value,
+    required ValueChanged<String> onChanged,
+  }) {
+    final controller = TextEditingController(text: value);
+    
+    Future<void> _scanBarcode() async {
+      bool scanned = false;
+      
+      final result = await Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (context) => Scaffold(
+            appBar: AppBar(
+              title: const Text('扫码'),
+              backgroundColor: Theme.of(context).colorScheme.primary,
+              foregroundColor: Theme.of(context).colorScheme.onPrimary,
+              actions: [
+                IconButton(
+                  icon: const Icon(Icons.close),
+                  onPressed: () => Navigator.pop(context),
+                ),
+              ],
+            ),
+            body: Stack(
+              children: [
+                MobileScanner(
+                  controller: MobileScannerController(
+                    formats: [BarcodeFormat.all],
+                    returnImage: false,
+                  ),
+                  onDetect: (capture) {
+                    if (!scanned) {
+                      scanned = true;
+                      final barcodes = capture.barcodes;
+                      if (barcodes.isNotEmpty) {
+                        final barcode = barcodes.first.rawValue;
+                        if (barcode != null) {
+                          Navigator.pop(context, barcode);
+                        }
+                      }
+                    }
+                  },
+                ),
+                Positioned(
+                  bottom: 16,
+                  left: 0,
+                  right: 0,
+                  child: Container(
+                    padding: const EdgeInsets.all(16),
+                    child: Text(
+                      '将条码放入框内扫描',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        backgroundColor: Colors.black54,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+      
+      if (result != null && result is String) {
+        controller.text = result;
+        onChanged(result);
+      }
+    }
+    
+    return TextField(
+      controller: controller,
+      decoration: InputDecoration(
+        labelText: '条码',
+        hintText: '请输入条码或扫码',
+        prefixIcon: const Icon(Icons.qr_code),
+        suffixIcon: IconButton(
+          icon: const Icon(Icons.camera_alt),
+          onPressed: _scanBarcode,
+        ),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+      ),
+      onChanged: onChanged,
+      keyboardType: TextInputType.text,
+    );
+  }
+
   Widget _buildBasicInfoSection(
     BuildContext context,
     ItemFormProvider provider,
@@ -377,6 +469,12 @@ class ItemFormScreen extends StatelessWidget {
             ..selection = TextSelection.fromPosition(
               TextPosition(offset: provider.name.length),
             ),
+        ),
+        const SizedBox(height: 16),
+        _buildBarcodeInput(
+          context: context,
+          value: provider.barcode,
+          onChanged: provider.setBarcode,
         ),
         const SizedBox(height: 16),
         _buildCategoryInput(
