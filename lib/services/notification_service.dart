@@ -4,6 +4,7 @@ import 'dart:io' if (dart.library.io) 'dart:io' as io;
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:recording/constants.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
@@ -123,10 +124,13 @@ class NotificationService {
         return result ?? false;
       } else if (io.Platform.isAndroid) {
         // Android 13+需要请求通知权限
-        // 注意：requestPermission方法可能不可用，使用替代方案
-        // 对于Android，通常不需要显式请求权限（除了Android 13+）
-        // 返回true表示假设有权限
-        return true;
+        final status = await Permission.notification.status;
+        if (status.isGranted) {
+          return true;
+        }
+        // 请求权限
+        final result = await Permission.notification.request();
+        return result.isGranted;
       }
     } else {
       // Web平台权限请求
@@ -142,6 +146,12 @@ class NotificationService {
   Future<bool> areNotificationsEnabled() async {
     if (!kIsWeb) {
       if (io.Platform.isAndroid) {
+        // 检查通知权限
+        final status = await Permission.notification.status;
+        if (!status.isGranted) {
+          return false;
+        }
+        // 检查系统通知是否启用
         final result = await _notificationsPlugin
             .resolvePlatformSpecificImplementation<
               AndroidFlutterLocalNotificationsPlugin

@@ -13,12 +13,57 @@ class AlertService {
 
   final NotificationService _notificationService = NotificationService();
   bool _isInitialized = false;
+  bool _localAlertsEnabled = false;
+  bool _calendarSyncEnabled = false;
+
+  bool get localAlertsEnabled => _localAlertsEnabled;
+  bool get calendarSyncEnabled => _calendarSyncEnabled;
 
   Future<void> initialize() async {
     if (_isInitialized) return;
     await _notificationService.initialize();
     await Workmanager().initialize(callbackDispatcher);
     _isInitialized = true;
+  }
+
+  /// 启用本地提醒
+  Future<bool> enableLocalAlerts() async {
+    if (!_isInitialized) await initialize();
+    // 请求通知权限
+    final granted = await _notificationService.requestPermissions();
+    if (!granted) {
+      return false;
+    }
+    _localAlertsEnabled = true;
+    await _updateDailyCheckRegistration();
+    return true;
+  }
+
+  /// 禁用本地提醒
+  Future<void> disableLocalAlerts() async {
+    _localAlertsEnabled = false;
+    await _updateDailyCheckRegistration();
+  }
+
+  /// 启用日历同步
+  Future<void> enableCalendarSync() async {
+    _calendarSyncEnabled = true;
+    await _updateDailyCheckRegistration();
+  }
+
+  /// 禁用日历同步
+  Future<void> disableCalendarSync() async {
+    _calendarSyncEnabled = false;
+    await _updateDailyCheckRegistration();
+  }
+
+  /// 根据当前状态更新每日检查任务注册
+  Future<void> _updateDailyCheckRegistration() async {
+    if (_localAlertsEnabled || _calendarSyncEnabled) {
+      await registerDailyCheck();
+    } else {
+      await cancelDailyCheck();
+    }
   }
 
   @pragma('vm:entry-point')
@@ -126,4 +171,6 @@ class AlertService {
       constraints: Constraints(networkType: NetworkType.notRequired),
     );
   }
+
+
 }

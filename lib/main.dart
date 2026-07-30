@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:recording/app.dart';
 import 'package:recording/data/datasources/app_database.dart';
+import 'package:recording/services/alert_service.dart';
 import 'package:recording/services/mock_data_service.dart';
 
 /// 调试模式标志 - 控制是否启用模拟数据
@@ -45,6 +46,13 @@ void main() async {
       debugPrint('2. 或清除应用数据');
       debugPrint('3. 或将 resetDatabaseOnStart 设为 true 后重新运行');
     }
+  }
+
+  // 初始化提醒服务
+  try {
+    await AlertService().initialize();
+  } catch (e) {
+    debugPrint('提醒服务初始化失败: $e');
   }
 
   runApp(const App());

@@ -9,6 +9,7 @@ import 'package:recording/constants.dart';
 import 'package:recording/data/datasources/backup_service.dart';
 import 'package:recording/providers/settings_provider.dart';
 import 'package:recording/services/calendar_service.dart';
+import 'package:recording/services/notification_service.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -152,6 +153,53 @@ class SettingsScreen extends StatelessWidget {
                         }
                       },
                       secondary: const Icon(Icons.calendar_today),
+                    ),
+                    const SizedBox(height: 8),
+                    SwitchListTile(
+                      title: const Text('本地提醒'),
+                      subtitle: const Text('开启后接收应用内过期提醒'),
+                      value: provider.localAlertsEnabled,
+                      onChanged: (v) async {
+                        try {
+                          await provider.setLocalAlertsEnabled(v);
+                          if (v && !provider.localAlertsEnabled) {
+                            // 权限被拒绝，开关被重置为false
+                            if (context.mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(
+                                  content: Text('需要通知权限才能启用本地提醒'),
+                                  duration: Duration(seconds: 2),
+                                ),
+                              );
+                            }
+                          }
+                        } catch (e) {
+                          if (context.mounted) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              SnackBar(
+                                content: Text('操作失败: $e'),
+                                duration: const Duration(seconds: 2),
+                              ),
+                            );
+                          }
+                        }
+                      },
+                      secondary: const Icon(Icons.notifications),
+                    ),
+                    const SizedBox(height: 8),
+                    SizedBox(
+                      width: double.infinity,
+                      child: OutlinedButton.icon(
+                        onPressed: () => _sendTestNotification(context),
+                        icon: const Icon(Icons.notification_add),
+                        label: const Text('发送测试通知'),
+                        style: OutlinedButton.styleFrom(
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                        ),
+                      ),
                     ),
                     const SizedBox(height: 8),
                     SizedBox(
@@ -570,6 +618,46 @@ class SettingsScreen extends StatelessWidget {
         const SnackBar(
           content: Text('添加测试事件失败。请检查日历权限和系统日历设置'),
           duration: Duration(seconds: 3),
+        ),
+      );
+    }
+  }
+
+  Future<void> _sendTestNotification(BuildContext context) async {
+    if (!context.mounted) return;
+
+    // 检查通知权限
+    final notificationService = NotificationService();
+    final enabled = await notificationService.areNotificationsEnabled();
+    if (!enabled) {
+      // 请求权限
+      final granted = await notificationService.requestPermissions();
+      if (!granted) {
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('需要通知权限才能发送测试通知'),
+              duration: Duration(seconds: 2),
+            ),
+          );
+        }
+        return;
+      }
+    }
+
+    // 发送测试通知
+    await notificationService.showInstantNotification(
+      title: '测试通知',
+      body: '这是一个测试通知，用于验证本地提醒功能',
+      payload: 'test_notification',
+      id: 9999,
+    );
+
+    if (context.mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('测试通知已发送'),
+          duration: Duration(seconds: 2),
         ),
       );
     }

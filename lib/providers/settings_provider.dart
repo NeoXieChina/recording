@@ -8,6 +8,7 @@ class SettingsProvider extends ChangeNotifier {
   bool _isExporting = false;
   bool _isImporting = false;
   double _importProgress = 0.0;
+  bool _localAlertsEnabled = false;
 
   bool get calendarSync => _calendarSync;
 
@@ -19,12 +20,28 @@ class SettingsProvider extends ChangeNotifier {
 
   double get importProgress => _importProgress;
 
+  bool get localAlertsEnabled => _localAlertsEnabled;
+
   void setCalendarSync(bool value) {
     _calendarSync = value;
     if (value) {
-      AlertService().registerDailyCheck();
+      AlertService().enableCalendarSync();
     } else {
-      AlertService().cancelDailyCheck();
+      AlertService().disableCalendarSync();
+    }
+    notifyListeners();
+  }
+
+  Future<void> setLocalAlertsEnabled(bool value) async {
+    _localAlertsEnabled = value;
+    if (value) {
+      final granted = await AlertService().enableLocalAlerts();
+      if (!granted) {
+        // 权限被拒绝，重置开关状态
+        _localAlertsEnabled = false;
+      }
+    } else {
+      await AlertService().disableLocalAlerts();
     }
     notifyListeners();
   }
@@ -51,6 +68,8 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> initAlertSettings() async {
     final isEnabled = await AlertService().areAlertsEnabled();
     _calendarSync = isEnabled;
+    // 从AlertService加载本地提醒状态
+    _localAlertsEnabled = AlertService().localAlertsEnabled;
     notifyListeners();
   }
 }
