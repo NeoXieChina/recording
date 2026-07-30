@@ -171,4 +171,34 @@ class ItemListProvider extends ChangeNotifier {
       notifyListeners();
     }
   }
+
+  /// 根据条码查找物品
+  Future<Item?> getItemByBarcode(String barcode) async {
+    try {
+      return await _db.getItemByBarcode(barcode);
+    } catch (e) {
+      _error = e.toString();
+      notifyListeners();
+      return null;
+    }
+  }
+
+  /// 更新物品数量
+  Future<void> updateItemQuantity(String itemId, int additionalQuantity) async {
+    try {
+      final itemIndex = _items.indexWhere((i) => i.id == itemId);
+      if (itemIndex != -1) {
+        final item = _items[itemIndex];
+        final updatedItem = item.copyWith(
+          quantity: item.quantity + additionalQuantity,
+        );
+        await _db.updateItem(updatedItem);
+        _items[itemIndex] = updatedItem;
+        notifyListeners();
+      }
+    } catch (e) {
+      _error = e.toString();
+      notifyListeners();
+    }
+  }
 }

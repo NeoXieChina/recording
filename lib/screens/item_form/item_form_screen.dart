@@ -11,15 +11,21 @@ import 'package:recording/utils/format.dart';
 
 class ItemFormScreen extends StatelessWidget {
   final Item? item;
+  final String? initialBarcode;
 
-  const ItemFormScreen({super.key, this.item});
+  const ItemFormScreen({super.key, this.item, this.initialBarcode});
 
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
       create: (_) {
         final provider = ItemFormProvider();
-        if (item != null) provider.loadItem(item!);
+        if (item != null) {
+          provider.loadItem(item!);
+        } else if (initialBarcode != null &&
+            initialBarcode!.trim().isNotEmpty) {
+          provider.setBarcode(initialBarcode!.trim());
+        }
         return provider;
       },
       child: Consumer<ItemFormProvider>(
@@ -63,7 +69,7 @@ class ItemFormScreen extends StatelessWidget {
           ..addAll(predefinedCategories)
           ..addAll(customCategories)
           ..removeWhere((c) => c.isEmpty);
-        
+
         final hasCustomCategory =
             !allCategories.contains(value) && value.isNotEmpty;
 
@@ -169,7 +175,7 @@ class ItemFormScreen extends StatelessWidget {
           ..addAll(predefinedUnits)
           ..addAll(customUnits)
           ..removeWhere((u) => u.isEmpty);
-        
+
         final hasCustomUnit = !allUnits.contains(value) && value.isNotEmpty;
 
         return _buildStyledDropdownButtonFormField<String>(
@@ -311,7 +317,7 @@ class ItemFormScreen extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             IconButton(
-              icon: const Icon(Icons.remove, size: 18),
+              icon: const Icon(Icons.chevron_left, size: 18),
               onPressed: () {
                 final newValue = isInteger
                     ? displayValue.toInt() - step.toInt()
@@ -328,7 +334,7 @@ class ItemFormScreen extends StatelessWidget {
           ],
         ),
         suffixIcon: IconButton(
-          icon: const Icon(Icons.add, size: 18),
+          icon: const Icon(Icons.chevron_right, size: 18),
           onPressed: () {
             final newValue = isInteger
                 ? displayValue.toInt() + step.toInt()
@@ -342,6 +348,7 @@ class ItemFormScreen extends StatelessWidget {
           ),
         ),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 12),
       ),
       keyboardType: TextInputType.numberWithOptions(decimal: !isInteger),
       onChanged: (v) {
@@ -362,10 +369,10 @@ class ItemFormScreen extends StatelessWidget {
     required ValueChanged<String> onChanged,
   }) {
     final controller = TextEditingController(text: value);
-    
-    Future<void> _scanBarcode() async {
+
+    Future<void> scanBarcode() async {
       bool scanned = false;
-      
+
       final result = await Navigator.of(context).push(
         MaterialPageRoute(
           builder: (context) => Scaffold(
@@ -423,13 +430,13 @@ class ItemFormScreen extends StatelessWidget {
           ),
         ),
       );
-      
+
       if (result != null && result is String) {
         controller.text = result;
         onChanged(result);
       }
     }
-    
+
     return TextField(
       controller: controller,
       decoration: InputDecoration(
@@ -438,9 +445,10 @@ class ItemFormScreen extends StatelessWidget {
         prefixIcon: const Icon(Icons.qr_code),
         suffixIcon: IconButton(
           icon: const Icon(Icons.camera_alt),
-          onPressed: _scanBarcode,
+          onPressed: scanBarcode,
         ),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 12),
       ),
       onChanged: onChanged,
       keyboardType: TextInputType.text,
@@ -463,6 +471,7 @@ class ItemFormScreen extends StatelessWidget {
             errorText: provider.nameError,
             prefixIcon: const Icon(Icons.label),
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+            contentPadding: const EdgeInsets.symmetric(horizontal: 12),
           ),
           onChanged: provider.setName,
           controller: TextEditingController(text: provider.name)
@@ -528,7 +537,7 @@ class ItemFormScreen extends StatelessWidget {
                 isInteger: false,
               ),
             ),
-            const SizedBox(width: 12),
+            const SizedBox(width: 16),
             SizedBox(
               width: 120,
               child: _buildStyledDropdownButtonFormField<String>(
@@ -566,7 +575,8 @@ class ItemFormScreen extends StatelessWidget {
         Consumer<ItemListProvider>(
           builder: (context, itemListProvider, _) {
             final locations = itemListProvider.getLocations();
-            final hasCustomLocation = provider.storageLocation.isNotEmpty &&
+            final hasCustomLocation =
+                provider.storageLocation.isNotEmpty &&
                 !locations.contains(provider.storageLocation);
 
             return _buildStyledDropdownButtonFormField<String>(
@@ -582,10 +592,7 @@ class ItemFormScreen extends StatelessWidget {
                 ),
                 const DropdownMenuItem(
                   value: 'custom',
-                  child: Text(
-                    '自定义地点',
-                    overflow: TextOverflow.ellipsis,
-                  ),
+                  child: Text('自定义地点', overflow: TextOverflow.ellipsis),
                 ),
               ],
               onChanged: (value) {
@@ -760,24 +767,13 @@ class ItemFormScreen extends StatelessWidget {
               prefixIcon: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
+                  const SizedBox(width: 8), // 添加左边距
+                  Icon(icon, size: 20),
                   if (!readOnly) ...[
+                    const SizedBox(width: 8),
                     IconButton(
                       icon: const Icon(Icons.chevron_left, size: 20),
                       onPressed: () => adjustDate(-1),
-                      style: IconButton.styleFrom(
-                        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                        padding: const EdgeInsets.all(4),
-                        minimumSize: const Size(32, 32),
-                      ),
-                    ),
-                    const SizedBox(width: 4),
-                  ],
-                  Icon(icon, size: 20),
-                  if (!readOnly) ...[
-                    const SizedBox(width: 4),
-                    IconButton(
-                      icon: const Icon(Icons.chevron_right, size: 20),
-                      onPressed: () => adjustDate(1),
                       style: IconButton.styleFrom(
                         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
                         padding: const EdgeInsets.all(4),
@@ -791,33 +787,29 @@ class ItemFormScreen extends StatelessWidget {
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12),
               ),
-              suffixIcon: showClearButton && date != null && !readOnly
+              suffixIcon: !readOnly
                   ? IconButton(
-                      icon: const Icon(Icons.clear, size: 16),
-                      onPressed: () => onPicked(null),
-                      padding: EdgeInsets.zero,
-                      constraints: const BoxConstraints(
-                        minWidth: 24,
-                        minHeight: 24,
+                      icon: const Icon(Icons.chevron_right, size: 20),
+                      onPressed: () => adjustDate(1),
+                      style: IconButton.styleFrom(
+                        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                        padding: const EdgeInsets.all(4),
+                        minimumSize: const Size(32, 32),
                       ),
                     )
+                  : date != null
+                  ? const Icon(Icons.calculate, size: 16, color: Colors.green)
                   : null,
+              contentPadding: const EdgeInsets.symmetric(
+                horizontal: 12,
+              ), // 添加水平内边距
             ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Expanded(
-                  child: Text(
-                    FormatUtils.formatDate(currentDate),
-                    style: TextStyle(
-                      color: date != null ? null : Theme.of(context).hintColor,
-                    ),
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ),
-                if (readOnly && date != null)
-                  const Icon(Icons.calculate, size: 16, color: Colors.green),
-              ],
+            child: Text(
+              FormatUtils.formatDate(currentDate),
+              style: TextStyle(
+                color: date != null ? null : Theme.of(context).hintColor,
+              ),
+              overflow: TextOverflow.ellipsis,
             ),
           ),
         ),
@@ -849,11 +841,43 @@ class ItemFormScreen extends StatelessWidget {
             ...provider.imagePaths.asMap().entries.map(
               (e) => _buildImageItem(context, e.value, e.key, provider),
             ),
-            ActionChip(
-              avatar: const Icon(Icons.add_photo_alternate),
-              label: const Text('添加图片'),
-              onPressed: provider.pickImages,
-            ),
+              GestureDetector(
+                onTap: provider.pickImages,
+                child: SizedBox(
+                  width: 80,
+                  height: 80,
+                  child: Stack(
+                    children: [
+                      // 背景
+                      Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(8),
+                          color: Theme.of(context).colorScheme.surface,
+                        ),
+                      ),
+                       // 虚线边框
+                      CustomPaint(
+                        painter: _DashedBorderPainter(
+                          color: Theme.of(context).colorScheme.outline,
+                          strokeWidth: 1,
+                          borderRadius: 8,
+                          dashWidth: 4,
+                          dashSpace: 4,
+                        ),
+                        size: const Size(80, 80),
+                      ),
+                      // 加号图标
+                      Center(
+                        child: Icon(
+                          Icons.add,
+                          size: 32,
+                          color: Theme.of(context).colorScheme.primary,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
           ],
         ),
       ],
@@ -1148,18 +1172,8 @@ class ItemFormScreen extends StatelessWidget {
     // 使用 GlobalKey 获取正确的 RenderBox
     final GlobalKey inkWellKey = GlobalKey();
 
-    return Container(
+    return SizedBox(
       width: width,
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(12),
-        boxShadow: [
-          BoxShadow(
-            color: Color.fromRGBO(0, 0, 0, 0.1),
-            blurRadius: 4,
-            offset: const Offset(0, 2),
-          ),
-        ],
-      ),
       child: InkWell(
         key: inkWellKey,
         onTap: () {
@@ -1196,25 +1210,29 @@ class ItemFormScreen extends StatelessWidget {
           // 对于有图标的输入框（地点、分类），左侧从图标右侧开始
           // 对于没有图标的输入框（单位、货币），左侧从边框内侧开始
           final contentLeft = position.dx + iconWidth + leftPadding;
-          
+
           // 计算菜单右侧位置
           final menuRight = contentLeft + menuWidth;
-          
+
           // 检查下方是否有足够空间显示菜单
-          final availableSpaceBelow = screenSize.height - (position.dy + size.height);
+          final availableSpaceBelow =
+              screenSize.height - (position.dy + size.height);
           final maxMenuHeight = 240.0; // 最大菜单高度
           final itemCount = menuItems.length;
           final menuHeight = (itemCount * 48.0).clamp(0.0, maxMenuHeight);
           final showBelow = availableSpaceBelow >= menuHeight;
-          
+
           // 计算菜单位置
           final menuTop = showBelow
-              ? position.dy + size.height  // 显示在输入框下方
-              : position.dy - menuHeight;  // 显示在输入框上方
-          
+              ? position.dy +
+                    size
+                        .height // 显示在输入框下方
+              : position.dy - menuHeight; // 显示在输入框上方
+
           final menuBottom = showBelow
-              ? screenSize.height  // 菜单可以向下扩展到屏幕底部
-              : position.dy;       // 菜单顶部到输入框顶部
+              ? screenSize
+                    .height // 菜单可以向下扩展到屏幕底部
+              : position.dy; // 菜单顶部到输入框顶部
 
           showMenu<T>(
             context: currentContext,
@@ -1247,8 +1265,6 @@ class ItemFormScreen extends StatelessWidget {
             prefixIcon: icon != null ? Icon(icon) : null,
             suffixIcon: Icon(Icons.arrow_drop_down),
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-            filled: true,
-            fillColor: Theme.of(context).colorScheme.surface,
             contentPadding: const EdgeInsets.symmetric(horizontal: 12),
           ),
           child: Row(
@@ -1268,4 +1284,59 @@ class ItemFormScreen extends StatelessWidget {
       ),
     );
   }
+}
+
+class _DashedBorderPainter extends CustomPainter {
+  final Color color;
+  final double strokeWidth;
+  final double borderRadius;
+  final double dashWidth;
+  final double dashSpace;
+
+  _DashedBorderPainter({
+    required this.color,
+    this.strokeWidth = 1,
+    this.borderRadius = 0,
+    this.dashWidth = 4,
+    this.dashSpace = 4,
+  });
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = Paint()
+      ..color = color
+      ..strokeWidth = strokeWidth
+      ..style = PaintingStyle.stroke
+      ..strokeCap = StrokeCap.square;
+
+    final rect = Rect.fromLTWH(
+      strokeWidth / 2,
+      strokeWidth / 2,
+      size.width - strokeWidth,
+      size.height - strokeWidth,
+    );
+
+    final rrect = RRect.fromRectAndRadius(rect, Radius.circular(borderRadius));
+
+    // 绘制虚线边框
+    final path = Path()..addRRect(rrect);
+    final metrics = path.computeMetrics();
+    
+    for (final metric in metrics) {
+      double distance = 0;
+      while (distance < metric.length) {
+        final start = metric.getTangentForOffset(distance)?.position ?? Offset.zero;
+        final end = metric.getTangentForOffset(distance + dashWidth)?.position ?? Offset.zero;
+        
+        if (distance + dashWidth <= metric.length) {
+          canvas.drawLine(start, end, paint);
+        }
+        
+        distance += dashWidth + dashSpace;
+      }
+    }
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) => true;
 }

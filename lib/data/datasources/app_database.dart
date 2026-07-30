@@ -125,6 +125,13 @@ class AppDatabase {
     return Item.fromMap(maps.first);
   }
 
+  Future<Item?> getItemByBarcode(String barcode) async {
+    final db = await database;
+    final maps = await db.query('items', where: 'barcode = ?', whereArgs: [barcode]);
+    if (maps.isEmpty) return null;
+    return Item.fromMap(maps.first);
+  }
+
   Future<Item> insertItem(Item item) async {
     final db = await database;
     await db.insert('items', item.toMap());

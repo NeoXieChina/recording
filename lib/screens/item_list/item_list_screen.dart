@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
+import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:provider/provider.dart';
 import 'package:recording/data/models/item.dart';
 import 'package:recording/providers/item_list_provider.dart';
@@ -110,6 +111,11 @@ class _ItemListScreenState extends State<ItemListScreen> {
                   }
                   return const SizedBox.shrink();
                 },
+              ),
+              IconButton(
+                icon: const Icon(Icons.qr_code_scanner),
+                onPressed: _scanBarcode,
+                tooltip: '扫码入库',
               ),
               IconButton(
                 icon: const Icon(Icons.settings),
@@ -805,6 +811,174 @@ class _ItemListScreenState extends State<ItemListScreen> {
         },
       ),
     );
+  }
+
+  Future<void> _scanBarcode() async {
+    bool scanned = false;
+    final provider = context.read<ItemListProvider>();
+    
+    final barcodeResult = await Navigator.of(context).push<String>(
+      MaterialPageRoute(
+        builder: (context) => Scaffold(
+          appBar: AppBar(
+            title: const Text('扫码入库'),
+            backgroundColor: Theme.of(context).colorScheme.primary,
+            foregroundColor: Theme.of(context).colorScheme.onPrimary,
+            actions: [
+              IconButton(
+                icon: const Icon(Icons.close),
+                onPressed: () => Navigator.pop(context),
+              ),
+            ],
+          ),
+          body: Stack(
+            children: [
+              MobileScanner(
+                controller: MobileScannerController(
+                  formats: [BarcodeFormat.all],
+                  returnImage: false,
+                ),
+                onDetect: (capture) {
+                  if (!scanned) {
+                    scanned = true;
+                    final barcodes = capture.barcodes;
+                    if (barcodes.isNotEmpty) {
+                      final barcode = barcodes.first.rawValue;
+                      if (barcode != null) {
+                        Navigator.pop(context, barcode);
+                      }
+                    }
+                  }
+                },
+              ),
+              Positioned(
+                bottom: 16,
+                left: 0,
+                right: 0,
+                child: Container(
+                  padding: const EdgeInsets.all(16),
+                  child: Text(
+                    '将条码放入框内扫描',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      backgroundColor: Colors.black54,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+    
+    if (barcodeResult == null || barcodeResult.isEmpty) {
+      return; // 用户取消了扫描
+    }
+    
+    final existingItem = await provider.getItemByBarcode(barcodeResult);
+    
+    if (existingItem != null) {
+      if (!mounted) return;
+      // 条码已存在，询问用户是否相同商品入库
+      final isSameItem = await showDialog<bool>(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('商品已存在'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('条码：$barcodeResult'),
+              const SizedBox(height: 8),
+              Text('名称：${existingItem.name}'),
+              Text('分类：${existingItem.category}'),
+              Text('当前数量：${existingItem.quantity}${existingItem.unit}'),
+              const SizedBox(height: 16),
+              const Text('是否相同商品入库？'),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context, false),
+              child: const Text('否，继续扫码'),
+            ),
+            FilledButton(
+              onPressed: () => Navigator.pop(context, true),
+              child: const Text('是，相同商品'),
+            ),
+          ],
+        ),
+      );
+      
+      if (isSameItem == true) {
+        if (!mounted) return;
+        // 询问入库数量
+        final quantityController = TextEditingController(text: '1');
+        final quantity = await showDialog<int>(
+          context: context,
+          builder: (context) => AlertDialog(
+            title: const Text('入库数量'),
+            content: TextField(
+              controller: quantityController,
+              decoration: const InputDecoration(
+                labelText: '数量',
+                hintText: '请输入入库数量',
+              ),
+              keyboardType: TextInputType.number,
+              autofocus: true,
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: const Text('取消'),
+              ),
+              FilledButton(
+                onPressed: () {
+                  final quantity = int.tryParse(quantityController.text.trim());
+                  if (quantity != null && quantity > 0) {
+                    Navigator.pop(context, quantity);
+                  }
+                },
+                child: const Text('确定'),
+              ),
+            ],
+          ),
+        );
+        
+        if (quantity != null && quantity > 0) {
+          await provider.updateItemQuantity(existingItem.id, quantity);
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text('已增加 ${existingItem.name} $quantity${existingItem.unit}'),
+                duration: const Duration(seconds: 2),
+              ),
+            );
+          }
+        }
+      } else {
+        // 用户选择"否，继续扫码"，重新扫描
+        _scanBarcode();
+      }
+    } else {
+      if (!mounted) return;
+      // 新商品，跳转到添加页面并预填条码
+      await Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (_) => ItemFormScreen(initialBarcode: barcodeResult),
+        ),
+      ).then((_) {
+        // 返回后刷新列表
+        if (mounted) {
+          provider.refresh();
+        }
+      });
+    }
   }
 
   Future<void> _navigateToAdd() async {
