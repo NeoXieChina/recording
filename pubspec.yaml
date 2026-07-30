@@ -61,6 +61,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  icons_launcher: ^3.1.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -102,3 +103,34 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+icons_launcher:
+  image_path: 'assets/appicon.png'
+  platforms:
+    android:
+      enable: true
+      image_path: 'assets/appicon.png'
+      # notification_image: "assets/ic_foreground.png"
+      # adaptive_background_color: '#ffffff'
+      # adaptive_background_image: 'assets/ic_background.png'
+      # adaptive_foreground_image: 'assets/ic_foreground.png'
+      # adaptive_round_image: 'assets/ic_logo_round.png'
+      # adaptive_monochrome_image: 'assets/ic_black_white.png'
+    ios:
+      enable: true
+      image_path: 'assets/appicon.png'
+      # # For iOS 18+ (support dark and tinted)
+      # dark_path: "assets/ic_logo_rectangle_dark.png"
+      # tinted_path: "assets/ic_logo_rectangle_tinted.png"
+    web:
+      enable: true
+      image_path: 'assets/appicon.png'
+      favicon_path: 'assets/appicon.png'
+    macos:
+      enable: false
+      image_path: 'assets/appicon.png'
+    windows:
+      enable: false
+      image_path: 'assets/appicon.png'
+    linux:
+      enable: false
+      image_path: 'assets/appicon.png'
