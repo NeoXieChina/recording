@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
+import 'package:intl/intl.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:provider/provider.dart';
 import 'package:recording/data/models/item.dart';
@@ -19,6 +20,10 @@ class ItemListScreen extends StatefulWidget {
 
 class _ItemListScreenState extends State<ItemListScreen> {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+  bool _typeExpanded = false;
+  bool _locationExpanded = false;
+  bool _dateExpanded = false;
+  bool _priceExpanded = false;
 
   @override
   void initState() {
@@ -42,6 +47,13 @@ class _ItemListScreenState extends State<ItemListScreen> {
               builder: (context, provider, _) {
                 final location = provider.filterLocation;
                 final type = provider.filterType;
+                final category = provider.filterCategory;
+                final dateRange = provider.dateRange;
+                final hasPriceFilter =
+                    provider.minUnitPrice != null ||
+                    provider.maxUnitPrice != null ||
+                    provider.minTotalPrice != null ||
+                    provider.maxTotalPrice != null;
 
                 if (location != null && location.isNotEmpty) {
                   return Row(
@@ -84,7 +96,65 @@ class _ItemListScreenState extends State<ItemListScreen> {
                       ),
                     ],
                   );
+                } else if (category != null && category.isNotEmpty) {
+                  return Row(
+                    children: [
+                      Icon(
+                        Icons.category,
+                        size: 20,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          category,
+                          style: Theme.of(context).textTheme.titleLarge,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  );
+                } else if (dateRange != null) {
+                  return Row(
+                    children: [
+                      Icon(
+                        Icons.date_range,
+                        size: 20,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          '日期范围筛选',
+                          style: Theme.of(context).textTheme.titleLarge,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  );
+                } else if (hasPriceFilter) {
+                  return Row(
+                    children: [
+                      Icon(
+                        Icons.attach_money,
+                        size: 20,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          '价格范围筛选',
+                          style: Theme.of(context).textTheme.titleLarge,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  );
                 }
+
                 return const Text('我的物品');
               },
             ),
@@ -93,18 +163,334 @@ class _ItemListScreenState extends State<ItemListScreen> {
               onPressed: () => _scaffoldKey.currentState?.openDrawer(),
             ),
             actions: [
+              // 排序按钮
+              Consumer<ItemListProvider>(
+                builder: (context, provider, _) {
+                  // 根据排序字段选择图标
+                  IconData getSortIcon() {
+                    switch (provider.sortField) {
+                      case 'name':
+                        return Icons.sort_by_alpha;
+                      case 'date':
+                        return Icons.calendar_today;
+                      case 'price':
+                        return Icons.attach_money;
+                      case 'quantity':
+                        return Icons.format_list_numbered;
+                      case 'totalPrice':
+                        return Icons.money;
+                      default:
+                        return Icons.sort;
+                    }
+                  }
+
+                  return PopupMenuButton<String>(
+                    icon: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(
+                          getSortIcon(),
+                          color: Theme.of(context).colorScheme.primary,
+                        ),
+                        const SizedBox(width: 2),
+                        Icon(
+                          provider.sortAscending
+                              ? Icons.arrow_upward
+                              : Icons.arrow_downward,
+                          size: 14,
+                          color: Theme.of(context).colorScheme.primary,
+                        ),
+                      ],
+                    ),
+                    tooltip: '排序',
+                    onSelected: (value) {
+                      final parts = value.split('_');
+                      final field = parts[0];
+                      final ascending = parts[1] == 'asc';
+                      provider.setSort(field, ascending);
+                    },
+                    itemBuilder: (context) => [
+                      PopupMenuItem<String>(
+                        value: 'name_asc',
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.sort_by_alpha,
+                              size: 20,
+                              color:
+                                  provider.sortField == 'name' &&
+                                      provider.sortAscending
+                                  ? Theme.of(context).colorScheme.primary
+                                  : null,
+                            ),
+                            const SizedBox(width: 8),
+                            Text('名称升序'),
+                            if (provider.sortField == 'name' &&
+                                provider.sortAscending)
+                              Icon(
+                                Icons.check,
+                                size: 16,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                          ],
+                        ),
+                      ),
+                      PopupMenuItem<String>(
+                        value: 'name_desc',
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.sort_by_alpha,
+                              size: 20,
+                              color:
+                                  provider.sortField == 'name' &&
+                                      !provider.sortAscending
+                                  ? Theme.of(context).colorScheme.primary
+                                  : null,
+                            ),
+                            const SizedBox(width: 8),
+                            Text('名称降序'),
+                            if (provider.sortField == 'name' &&
+                                !provider.sortAscending)
+                              Icon(
+                                Icons.check,
+                                size: 16,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                          ],
+                        ),
+                      ),
+                      const PopupMenuDivider(),
+                      PopupMenuItem<String>(
+                        value: 'date_asc',
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.calendar_today,
+                              size: 20,
+                              color:
+                                  provider.sortField == 'date' &&
+                                      provider.sortAscending
+                                  ? Theme.of(context).colorScheme.primary
+                                  : null,
+                            ),
+                            const SizedBox(width: 8),
+                            Text('日期升序'),
+                            if (provider.sortField == 'date' &&
+                                provider.sortAscending)
+                              Icon(
+                                Icons.check,
+                                size: 16,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                          ],
+                        ),
+                      ),
+                      PopupMenuItem<String>(
+                        value: 'date_desc',
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.calendar_today,
+                              size: 20,
+                              color:
+                                  provider.sortField == 'date' &&
+                                      !provider.sortAscending
+                                  ? Theme.of(context).colorScheme.primary
+                                  : null,
+                            ),
+                            const SizedBox(width: 8),
+                            Text('日期降序'),
+                            if (provider.sortField == 'date' &&
+                                !provider.sortAscending)
+                              Icon(
+                                Icons.check,
+                                size: 16,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                          ],
+                        ),
+                      ),
+                      const PopupMenuDivider(),
+                      PopupMenuItem<String>(
+                        value: 'price_asc',
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.attach_money,
+                              size: 20,
+                              color:
+                                  provider.sortField == 'price' &&
+                                      provider.sortAscending
+                                  ? Theme.of(context).colorScheme.primary
+                                  : null,
+                            ),
+                            const SizedBox(width: 8),
+                            Text('单价升序'),
+                            if (provider.sortField == 'price' &&
+                                provider.sortAscending)
+                              Icon(
+                                Icons.check,
+                                size: 16,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                          ],
+                        ),
+                      ),
+                      PopupMenuItem<String>(
+                        value: 'price_desc',
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.attach_money,
+                              size: 20,
+                              color:
+                                  provider.sortField == 'price' &&
+                                      !provider.sortAscending
+                                  ? Theme.of(context).colorScheme.primary
+                                  : null,
+                            ),
+                            const SizedBox(width: 8),
+                            Text('单价降序'),
+                            if (provider.sortField == 'price' &&
+                                !provider.sortAscending)
+                              Icon(
+                                Icons.check,
+                                size: 16,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                          ],
+                        ),
+                      ),
+                      PopupMenuItem<String>(
+                        value: 'quantity_asc',
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.format_list_numbered,
+                              size: 20,
+                              color:
+                                  provider.sortField == 'quantity' &&
+                                      provider.sortAscending
+                                  ? Theme.of(context).colorScheme.primary
+                                  : null,
+                            ),
+                            const SizedBox(width: 8),
+                            Text('数量升序'),
+                            if (provider.sortField == 'quantity' &&
+                                provider.sortAscending)
+                              Icon(
+                                Icons.check,
+                                size: 16,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                          ],
+                        ),
+                      ),
+                      PopupMenuItem<String>(
+                        value: 'quantity_desc',
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.format_list_numbered,
+                              size: 20,
+                              color:
+                                  provider.sortField == 'quantity' &&
+                                      !provider.sortAscending
+                                  ? Theme.of(context).colorScheme.primary
+                                  : null,
+                            ),
+                            const SizedBox(width: 8),
+                            Text('数量降序'),
+                            if (provider.sortField == 'quantity' &&
+                                !provider.sortAscending)
+                              Icon(
+                                Icons.check,
+                                size: 16,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                          ],
+                        ),
+                      ),
+                      PopupMenuItem<String>(
+                        value: 'totalPrice_asc',
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.money,
+                              size: 20,
+                              color:
+                                  provider.sortField == 'totalPrice' &&
+                                      provider.sortAscending
+                                  ? Theme.of(context).colorScheme.primary
+                                  : null,
+                            ),
+                            const SizedBox(width: 8),
+                            Text('总价升序'),
+                            if (provider.sortField == 'totalPrice' &&
+                                provider.sortAscending)
+                              Icon(
+                                Icons.check,
+                                size: 16,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                          ],
+                        ),
+                      ),
+                      PopupMenuItem<String>(
+                        value: 'totalPrice_desc',
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.money,
+                              size: 20,
+                              color:
+                                  provider.sortField == 'totalPrice' &&
+                                      !provider.sortAscending
+                                  ? Theme.of(context).colorScheme.primary
+                                  : null,
+                            ),
+                            const SizedBox(width: 8),
+                            Text('总价降序'),
+                            if (provider.sortField == 'totalPrice' &&
+                                !provider.sortAscending)
+                              Icon(
+                                Icons.check,
+                                size: 16,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  );
+                },
+              ),
+              // 清除筛选按钮
               Consumer<ItemListProvider>(
                 builder: (context, provider, _) {
                   final hasLocationFilter =
                       provider.filterLocation != null &&
                       provider.filterLocation!.isNotEmpty;
                   final hasTypeFilter = provider.filterType != null;
-                  if (hasLocationFilter || hasTypeFilter) {
+                  final hasCategoryFilter =
+                      provider.filterCategory != null &&
+                      provider.filterCategory!.isNotEmpty;
+                  final hasDateFilter = provider.dateRange != null;
+                  final hasPriceFilter =
+                      provider.minUnitPrice != null ||
+                      provider.maxUnitPrice != null ||
+                      provider.minTotalPrice != null ||
+                      provider.maxTotalPrice != null;
+                  if (hasLocationFilter ||
+                      hasTypeFilter ||
+                      hasCategoryFilter ||
+                      hasDateFilter ||
+                      hasPriceFilter) {
                     return IconButton(
                       icon: const Icon(Icons.clear),
                       onPressed: () {
-                        provider.setFilterLocation(null);
-                        provider.setFilterType(null);
+                        provider.clearAllFilters();
                       },
                       tooltip: '清除所有筛选',
                     );
@@ -540,13 +926,18 @@ class _ItemListScreenState extends State<ItemListScreen> {
     );
   }
 
+  String _formatDate(DateTime date) {
+    return DateFormat('yyyy-MM-dd').format(date);
+  }
+
   Widget _buildLocationDrawer() {
     return Drawer(
       child: Consumer<ItemListProvider>(
         builder: (context, provider, _) {
           final locations = provider.getLocations();
+          final categories = provider.getCategories();
           final currentLocationFilter = provider.filterLocation;
-          final currentTypeFilter = provider.filterType;
+          final currentCategoryFilter = provider.filterCategory;
 
           return ListView(
             padding: EdgeInsets.zero,
@@ -572,7 +963,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                       ),
                     ),
                     Text(
-                      '按类型和地点筛选物品',
+                      '按类型、分类和地点筛选物品',
                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
                         color: Theme.of(context).colorScheme.onPrimaryContainer,
                       ),
@@ -582,117 +973,134 @@ class _ItemListScreenState extends State<ItemListScreen> {
               ),
 
               // 物品类型筛选部分
-              Padding(
-                padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
-                child: Text(
-                  '物品类型',
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    color: Theme.of(context).colorScheme.primary,
-                    fontWeight: FontWeight.bold,
-                  ),
+              ExpansionTile(
+                initiallyExpanded: _typeExpanded,
+                onExpansionChanged: (expanded) {
+                  setState(() {
+                    _typeExpanded = expanded;
+                  });
+                },
+                tilePadding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 8,
                 ),
-              ),
-              Column(
+                childrenPadding: const EdgeInsets.only(bottom: 8),
+                shape: const RoundedRectangleBorder(),
+                title: Row(
+                  children: [
+                    Icon(
+                      Icons.category,
+                      size: 20,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      '物品分类',
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.primary,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const Spacer(),
+                    Text(
+                      '${categories.length} 个分类',
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Theme.of(context).colorScheme.outline,
+                      ),
+                    ),
+                  ],
+                ),
                 children: [
                   ListTile(
                     leading: Icon(
                       Icons.all_inbox,
-                      color: currentTypeFilter == null
+                      color: currentCategoryFilter == null
                           ? Theme.of(context).colorScheme.primary
                           : Theme.of(context).colorScheme.onSurfaceVariant,
                     ),
                     title: Text(
-                      '全部',
+                      '全部分类',
                       style: TextStyle(
-                        fontWeight: currentTypeFilter == null
+                        fontWeight: currentCategoryFilter == null
                             ? FontWeight.bold
                             : FontWeight.normal,
-                        color: currentTypeFilter == null
+                        color: currentCategoryFilter == null
                             ? Theme.of(context).colorScheme.primary
                             : null,
                       ),
                     ),
-                    trailing: currentTypeFilter == null
+                    trailing: currentCategoryFilter == null
                         ? Icon(
                             Icons.check,
                             color: Theme.of(context).colorScheme.primary,
                           )
                         : null,
-                    selected: currentTypeFilter == null,
+                    selected: currentCategoryFilter == null,
                     onTap: () {
-                      provider.setFilterType(null);
+                      provider.setFilterCategory(null);
                       Navigator.pop(context);
                     },
                   ),
-                  ListTile(
-                    leading: Icon(
-                      Icons.local_grocery_store,
-                      color: currentTypeFilter == ItemType.consumable
-                          ? Theme.of(context).colorScheme.primary
-                          : Theme.of(context).colorScheme.onSurfaceVariant,
-                    ),
-                    title: Text(
-                      '消耗品',
-                      style: TextStyle(
-                        fontWeight: currentTypeFilter == ItemType.consumable
-                            ? FontWeight.bold
-                            : FontWeight.normal,
-                        color: currentTypeFilter == ItemType.consumable
+                  ...categories.map(
+                    (category) => ListTile(
+                      leading: Icon(
+                        Icons.category,
+                        color: currentCategoryFilter == category
                             ? Theme.of(context).colorScheme.primary
-                            : null,
+                            : Theme.of(context).colorScheme.onSurfaceVariant,
+                      ),
+                      title: Text(
+                        category,
+                        style: TextStyle(
+                          fontWeight: currentCategoryFilter == category
+                              ? FontWeight.bold
+                              : FontWeight.normal,
+                          color: currentCategoryFilter == category
+                              ? Theme.of(context).colorScheme.primary
+                              : null,
+                        ),
+                      ),
+                      trailing: currentCategoryFilter == category
+                          ? Icon(
+                              Icons.check,
+                              color: Theme.of(context).colorScheme.primary,
+                            )
+                          : null,
+                      selected: currentCategoryFilter == category,
+                      onTap: () {
+                        provider.setFilterCategory(category);
+                        Navigator.pop(context);
+                      },
+                    ),
+                  ),
+                  if (categories.isEmpty) ...[
+                    const Padding(
+                      padding: EdgeInsets.all(16.0),
+                      child: Text(
+                        '暂无分类数据',
+                        style: TextStyle(color: Colors.grey),
+                        textAlign: TextAlign.center,
                       ),
                     ),
-                    trailing: currentTypeFilter == ItemType.consumable
-                        ? Icon(
-                            Icons.check,
-                            color: Theme.of(context).colorScheme.primary,
-                          )
-                        : null,
-                    selected: currentTypeFilter == ItemType.consumable,
-                    onTap: () {
-                      provider.setFilterType(ItemType.consumable);
-                      Navigator.pop(context);
-                    },
-                  ),
-                  ListTile(
-                    leading: Icon(
-                      Icons.construction,
-                      color: currentTypeFilter == ItemType.durable
-                          ? Theme.of(context).colorScheme.primary
-                          : Theme.of(context).colorScheme.onSurfaceVariant,
-                    ),
-                    title: Text(
-                      '耐用品',
-                      style: TextStyle(
-                        fontWeight: currentTypeFilter == ItemType.durable
-                            ? FontWeight.bold
-                            : FontWeight.normal,
-                        color: currentTypeFilter == ItemType.durable
-                            ? Theme.of(context).colorScheme.primary
-                            : null,
-                      ),
-                    ),
-                    trailing: currentTypeFilter == ItemType.durable
-                        ? Icon(
-                            Icons.check,
-                            color: Theme.of(context).colorScheme.primary,
-                          )
-                        : null,
-                    selected: currentTypeFilter == ItemType.durable,
-                    onTap: () {
-                      provider.setFilterType(ItemType.durable);
-                      Navigator.pop(context);
-                    },
-                  ),
+                  ],
                 ],
               ),
 
-              const Divider(height: 1),
-
               // 地点筛选部分
-              Padding(
-                padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
-                child: Row(
+              ExpansionTile(
+                initiallyExpanded: _locationExpanded,
+                onExpansionChanged: (expanded) {
+                  setState(() {
+                    _locationExpanded = expanded;
+                  });
+                },
+                tilePadding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 8,
+                ),
+                childrenPadding: const EdgeInsets.only(bottom: 8),
+                shape: const RoundedRectangleBorder(),
+                title: Row(
                   children: [
                     Icon(
                       Icons.location_on,
@@ -716,87 +1124,408 @@ class _ItemListScreenState extends State<ItemListScreen> {
                     ),
                   ],
                 ),
-              ),
-              ListTile(
-                leading: Icon(
-                  Icons.all_inbox,
-                  color: currentLocationFilter == null
-                      ? Theme.of(context).colorScheme.primary
-                      : Theme.of(context).colorScheme.onSurfaceVariant,
-                ),
-                title: Text(
-                  '全部地点',
-                  style: TextStyle(
-                    fontWeight: currentLocationFilter == null
-                        ? FontWeight.bold
-                        : FontWeight.normal,
-                    color: currentLocationFilter == null
-                        ? Theme.of(context).colorScheme.primary
-                        : null,
-                  ),
-                ),
-                trailing: currentLocationFilter == null
-                    ? Icon(
-                        Icons.check,
-                        color: Theme.of(context).colorScheme.primary,
-                      )
-                    : null,
-                selected: currentLocationFilter == null,
-                onTap: () {
-                  provider.setFilterLocation(null);
-                  Navigator.pop(context);
-                },
-              ),
-              ...locations.map(
-                (location) => ListTile(
-                  leading: Icon(
-                    Icons.place,
-                    color: currentLocationFilter == location
-                        ? Theme.of(context).colorScheme.primary
-                        : Theme.of(context).colorScheme.onSurfaceVariant,
-                  ),
-                  title: Text(
-                    location,
-                    style: TextStyle(
-                      fontWeight: currentLocationFilter == location
-                          ? FontWeight.bold
-                          : FontWeight.normal,
-                      color: currentLocationFilter == location
+                children: [
+                  ListTile(
+                    leading: Icon(
+                      Icons.all_inbox,
+                      color: currentLocationFilter == null
                           ? Theme.of(context).colorScheme.primary
+                          : Theme.of(context).colorScheme.onSurfaceVariant,
+                    ),
+                    title: Text(
+                      '全部地点',
+                      style: TextStyle(
+                        fontWeight: currentLocationFilter == null
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                        color: currentLocationFilter == null
+                            ? Theme.of(context).colorScheme.primary
+                            : null,
+                      ),
+                    ),
+                    trailing: currentLocationFilter == null
+                        ? Icon(
+                            Icons.check,
+                            color: Theme.of(context).colorScheme.primary,
+                          )
+                        : null,
+                    selected: currentLocationFilter == null,
+                    onTap: () {
+                      provider.setFilterLocation(null);
+                      Navigator.pop(context);
+                    },
+                  ),
+                  ...locations.map(
+                    (location) => ListTile(
+                      leading: Icon(
+                        Icons.place,
+                        color: currentLocationFilter == location
+                            ? Theme.of(context).colorScheme.primary
+                            : Theme.of(context).colorScheme.onSurfaceVariant,
+                      ),
+                      title: Text(
+                        location,
+                        style: TextStyle(
+                          fontWeight: currentLocationFilter == location
+                              ? FontWeight.bold
+                              : FontWeight.normal,
+                          color: currentLocationFilter == location
+                              ? Theme.of(context).colorScheme.primary
+                              : null,
+                        ),
+                      ),
+                      trailing: currentLocationFilter == location
+                          ? Icon(
+                              Icons.check,
+                              color: Theme.of(context).colorScheme.primary,
+                            )
                           : null,
+                      selected: currentLocationFilter == location,
+                      onTap: () {
+                        provider.setFilterLocation(location);
+                        Navigator.pop(context);
+                      },
                     ),
                   ),
-                  trailing: currentLocationFilter == location
-                      ? Icon(
-                          Icons.check,
-                          color: Theme.of(context).colorScheme.primary,
-                        )
-                      : null,
-                  selected: currentLocationFilter == location,
-                  onTap: () {
-                    provider.setFilterLocation(location);
-                    Navigator.pop(context);
-                  },
-                ),
+                  if (locations.isEmpty) ...[
+                    const Padding(
+                      padding: EdgeInsets.all(16.0),
+                      child: Text(
+                        '暂无地点数据',
+                        style: TextStyle(color: Colors.grey),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ],
+                ],
               ),
-              if (locations.isEmpty) ...[
-                const Padding(
-                  padding: EdgeInsets.all(16.0),
-                  child: Text(
-                    '暂无地点数据',
-                    style: TextStyle(color: Colors.grey),
-                    textAlign: TextAlign.center,
-                  ),
+
+              // 日期范围筛选部分
+              ExpansionTile(
+                initiallyExpanded: _dateExpanded,
+                onExpansionChanged: (expanded) {
+                  setState(() {
+                    _dateExpanded = expanded;
+                  });
+                },
+                tilePadding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 8,
                 ),
-              ],
+                childrenPadding: const EdgeInsets.only(bottom: 8),
+                shape: const RoundedRectangleBorder(),
+                title: Row(
+                  children: [
+                    Icon(
+                      Icons.calendar_today,
+                      size: 20,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      '日期范围',
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.primary,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+                children: [
+                  ListTile(
+                    leading: Icon(
+                      Icons.date_range,
+                      color: Theme.of(context).colorScheme.onSurfaceVariant,
+                    ),
+                    title: Text(
+                      provider.dateRange == null
+                          ? '选择日期范围'
+                          : '${_formatDate(provider.dateRange!.start)} - ${_formatDate(provider.dateRange!.end)}',
+                      style: TextStyle(
+                        color: provider.dateRange == null
+                            ? Theme.of(context).colorScheme.onSurfaceVariant
+                            : Theme.of(context).colorScheme.primary,
+                      ),
+                    ),
+                    trailing: provider.dateRange != null
+                        ? IconButton(
+                            icon: Icon(
+                              Icons.clear,
+                              color: Theme.of(context).colorScheme.error,
+                            ),
+                            onPressed: () {
+                              provider.setDateRange(null);
+                            },
+                          )
+                        : null,
+                    onTap: () async {
+                      final now = DateTime.now();
+                      final initialDateRange =
+                          provider.dateRange ??
+                          DateTimeRange(
+                            start: now,
+                            end: now.add(const Duration(days: 30)),
+                          );
+                      final pickedRange = await showDateRangePicker(
+                        context: context,
+                        firstDate: DateTime(2000),
+                        lastDate: DateTime(2100),
+                        initialDateRange: initialDateRange,
+                      );
+                      if (pickedRange != null) {
+                        provider.setDateRange(pickedRange);
+                      }
+                    },
+                  ),
+                ],
+              ),
+
+              // 价格范围筛选部分
+              ExpansionTile(
+                initiallyExpanded: _priceExpanded,
+                onExpansionChanged: (expanded) {
+                  setState(() {
+                    _priceExpanded = expanded;
+                  });
+                },
+                tilePadding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 8,
+                ),
+                childrenPadding: const EdgeInsets.only(bottom: 8),
+                shape: const RoundedRectangleBorder(),
+                title: Row(
+                  children: [
+                    Icon(
+                      Icons.attach_money,
+                      size: 20,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      '价格范围',
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.primary,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+                children: [
+                  // 单价范围
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16.0,
+                      vertical: 8.0,
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          '单价范围',
+                          style: Theme.of(context).textTheme.bodyMedium
+                              ?.copyWith(fontWeight: FontWeight.bold),
+                        ),
+                        const SizedBox(height: 8),
+                        Row(
+                          children: [
+                            Expanded(
+                              child: TextField(
+                                controller: TextEditingController(
+                                  text:
+                                      provider.minUnitPrice?.toStringAsFixed(
+                                        2,
+                                      ) ??
+                                      '',
+                                ),
+                                decoration: InputDecoration(
+                                  hintText: '最低单价',
+                                  prefixText: '¥',
+                                  border: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  contentPadding: const EdgeInsets.symmetric(
+                                    horizontal: 12,
+                                    vertical: 12,
+                                  ),
+                                ),
+                                keyboardType: TextInputType.numberWithOptions(
+                                  decimal: true,
+                                ),
+                                onChanged: (value) {
+                                  final min = double.tryParse(value);
+                                  provider.setUnitPriceRange(
+                                    min,
+                                    provider.maxUnitPrice,
+                                  );
+                                },
+                              ),
+                            ),
+                            const SizedBox(width: 8),
+                            Text(
+                              '~',
+                              style: Theme.of(context).textTheme.bodyLarge,
+                            ),
+                            const SizedBox(width: 8),
+                            Expanded(
+                              child: TextField(
+                                controller: TextEditingController(
+                                  text:
+                                      provider.maxUnitPrice?.toStringAsFixed(
+                                        2,
+                                      ) ??
+                                      '',
+                                ),
+                                decoration: InputDecoration(
+                                  hintText: '最高单价',
+                                  prefixText: '¥',
+                                  border: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  contentPadding: const EdgeInsets.symmetric(
+                                    horizontal: 12,
+                                    vertical: 12,
+                                  ),
+                                ),
+                                keyboardType: TextInputType.numberWithOptions(
+                                  decimal: true,
+                                ),
+                                onChanged: (value) {
+                                  final max = double.tryParse(value);
+                                  provider.setUnitPriceRange(
+                                    provider.minUnitPrice,
+                                    max,
+                                  );
+                                },
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                  // 总价范围
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16.0,
+                      vertical: 8.0,
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          '总价范围',
+                          style: Theme.of(context).textTheme.bodyMedium
+                              ?.copyWith(fontWeight: FontWeight.bold),
+                        ),
+                        const SizedBox(height: 8),
+                        Row(
+                          children: [
+                            Expanded(
+                              child: TextField(
+                                controller: TextEditingController(
+                                  text:
+                                      provider.minTotalPrice?.toStringAsFixed(
+                                        2,
+                                      ) ??
+                                      '',
+                                ),
+                                decoration: InputDecoration(
+                                  hintText: '最低总价',
+                                  prefixText: '¥',
+                                  border: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  contentPadding: const EdgeInsets.symmetric(
+                                    horizontal: 12,
+                                    vertical: 12,
+                                  ),
+                                ),
+                                keyboardType: TextInputType.numberWithOptions(
+                                  decimal: true,
+                                ),
+                                onChanged: (value) {
+                                  final min = double.tryParse(value);
+                                  provider.setTotalPriceRange(
+                                    min,
+                                    provider.maxTotalPrice,
+                                  );
+                                },
+                              ),
+                            ),
+                            const SizedBox(width: 8),
+                            Text(
+                              '~',
+                              style: Theme.of(context).textTheme.bodyLarge,
+                            ),
+                            const SizedBox(width: 8),
+                            Expanded(
+                              child: TextField(
+                                controller: TextEditingController(
+                                  text:
+                                      provider.maxTotalPrice?.toStringAsFixed(
+                                        2,
+                                      ) ??
+                                      '',
+                                ),
+                                decoration: InputDecoration(
+                                  hintText: '最高总价',
+                                  prefixText: '¥',
+                                  border: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  contentPadding: const EdgeInsets.symmetric(
+                                    horizontal: 12,
+                                    vertical: 12,
+                                  ),
+                                ),
+                                keyboardType: TextInputType.numberWithOptions(
+                                  decimal: true,
+                                ),
+                                onChanged: (value) {
+                                  final max = double.tryParse(value);
+                                  provider.setTotalPriceRange(
+                                    provider.minTotalPrice,
+                                    max,
+                                  );
+                                },
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                  // 清除价格筛选按钮
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16.0,
+                      vertical: 8.0,
+                    ),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: OutlinedButton.icon(
+                            onPressed: () {
+                              provider.setUnitPriceRange(null, null);
+                              provider.setTotalPriceRange(null, null);
+                            },
+                            icon: const Icon(Icons.clear_all, size: 16),
+                            label: const Text('清除价格筛选'),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
 
               // 清除筛选按钮
               Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: FilledButton.icon(
                   onPressed: () {
-                    provider.setFilterType(null);
-                    provider.setFilterLocation(null);
+                    provider.clearAllFilters();
                     Navigator.pop(context);
                   },
                   icon: const Icon(Icons.clear_all),
@@ -816,7 +1545,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
   Future<void> _scanBarcode() async {
     bool scanned = false;
     final provider = context.read<ItemListProvider>();
-    
+
     final barcodeResult = await Navigator.of(context).push<String>(
       MaterialPageRoute(
         builder: (context) => Scaffold(
@@ -874,13 +1603,13 @@ class _ItemListScreenState extends State<ItemListScreen> {
         ),
       ),
     );
-    
+
     if (barcodeResult == null || barcodeResult.isEmpty) {
       return; // 用户取消了扫描
     }
-    
+
     final existingItem = await provider.getItemByBarcode(barcodeResult);
-    
+
     if (existingItem != null) {
       if (!mounted) return;
       // 条码已存在，询问用户是否相同商品入库
@@ -913,7 +1642,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
           ],
         ),
       );
-      
+
       if (isSameItem == true) {
         if (!mounted) return;
         // 询问入库数量
@@ -948,13 +1677,15 @@ class _ItemListScreenState extends State<ItemListScreen> {
             ],
           ),
         );
-        
+
         if (quantity != null && quantity > 0) {
           await provider.updateItemQuantity(existingItem.id, quantity);
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
-                content: Text('已增加 ${existingItem.name} $quantity${existingItem.unit}'),
+                content: Text(
+                  '已增加 ${existingItem.name} $quantity${existingItem.unit}',
+                ),
                 duration: const Duration(seconds: 2),
               ),
             );

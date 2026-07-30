@@ -15,6 +15,14 @@ class ItemListProvider extends ChangeNotifier {
   String _searchQuery = '';
   ItemType? _filterType;
   String? _filterLocation;
+  String? _filterCategory;
+  DateTimeRange? _dateRange;
+  double? _minUnitPrice;
+  double? _maxUnitPrice;
+  double? _minTotalPrice;
+  double? _maxTotalPrice;
+  String _sortField = 'name'; // name, date, price, quantity, totalPrice
+  bool _sortAscending = true;
   bool _isLoading = false;
   String? _error;
 
@@ -26,6 +34,16 @@ class ItemListProvider extends ChangeNotifier {
 
   String? get filterLocation => _filterLocation;
 
+  String? get filterCategory => _filterCategory;
+
+  DateTimeRange? get dateRange => _dateRange;
+  double? get minUnitPrice => _minUnitPrice;
+  double? get maxUnitPrice => _maxUnitPrice;
+  double? get minTotalPrice => _minTotalPrice;
+  double? get maxTotalPrice => _maxTotalPrice;
+  String get sortField => _sortField;
+  bool get sortAscending => _sortAscending;
+
   List<Item> get _filteredItems {
     var result = _items;
     if (_filterType != null) {
@@ -36,6 +54,44 @@ class ItemListProvider extends ChangeNotifier {
           .where((i) => i.storageLocation == _filterLocation)
           .toList();
     }
+    if (_filterCategory != null && _filterCategory!.isNotEmpty) {
+      result = result
+          .where((i) => i.category == _filterCategory)
+          .toList();
+    }
+    // 日期范围筛选（同时检查过期日期和保修日期）
+    if (_dateRange != null) {
+      result = result.where((i) {
+        // 检查过期日期是否在范围内
+        final expiryInRange = i.expiryDate != null &&
+            i.expiryDate!.isAfter(_dateRange!.start) &&
+            i.expiryDate!.isBefore(_dateRange!.end);
+        // 检查保修日期是否在范围内
+        final warrantyInRange = i.warrantyDate != null &&
+            i.warrantyDate!.isAfter(_dateRange!.start) &&
+            i.warrantyDate!.isBefore(_dateRange!.end);
+        // 只要有一个日期在范围内就保留
+        return expiryInRange || warrantyInRange;
+      }).toList();
+    }
+    // 单价范围筛选
+    if (_minUnitPrice != null || _maxUnitPrice != null) {
+      result = result.where((i) {
+        final price = i.unitPrice;
+        if (_minUnitPrice != null && price < _minUnitPrice!) return false;
+        if (_maxUnitPrice != null && price > _maxUnitPrice!) return false;
+        return true;
+      }).toList();
+    }
+    // 总价范围筛选
+    if (_minTotalPrice != null || _maxTotalPrice != null) {
+      result = result.where((i) {
+        final totalPrice = i.quantity * i.unitPrice;
+        if (_minTotalPrice != null && totalPrice < _minTotalPrice!) return false;
+        if (_maxTotalPrice != null && totalPrice > _maxTotalPrice!) return false;
+        return true;
+      }).toList();
+    }
     if (_searchQuery.isNotEmpty) {
       final query = _searchQuery.toLowerCase();
       result = result.where((i) {
@@ -45,6 +101,66 @@ class ItemListProvider extends ChangeNotifier {
             (i.notes?.toLowerCase().contains(query) ?? false);
       }).toList();
     }
+    
+    // 排序逻辑
+    result.sort((a, b) {
+      int compare = 0;
+      switch (_sortField) {
+        case 'name':
+          compare = a.name.compareTo(b.name);
+          break;
+        case 'date':
+          // 按日期排序：优先按过期日期，相同时按保修日期
+          // 处理过期日期
+          if (a.expiryDate == null && b.expiryDate == null) {
+            // 两者都没有过期日期，比较保修日期
+            if (a.warrantyDate == null && b.warrantyDate == null) {
+              compare = 0;
+            } else if (a.warrantyDate == null) {
+              compare = 1;
+            } else if (b.warrantyDate == null) {
+              compare = -1;
+            } else {
+              compare = a.warrantyDate!.compareTo(b.warrantyDate!);
+            }
+          } else if (a.expiryDate == null) {
+            compare = 1; // a没有过期日期，放在后面
+          } else if (b.expiryDate == null) {
+            compare = -1; // b没有过期日期，放在后面
+          } else {
+            // 两者都有过期日期，比较过期日期
+            compare = a.expiryDate!.compareTo(b.expiryDate!);
+            // 如果过期日期相同，比较保修日期
+            if (compare == 0) {
+              if (a.warrantyDate == null && b.warrantyDate == null) {
+                compare = 0;
+              } else if (a.warrantyDate == null) {
+                compare = 1;
+              } else if (b.warrantyDate == null) {
+                compare = -1;
+              } else {
+                compare = a.warrantyDate!.compareTo(b.warrantyDate!);
+              }
+            }
+          }
+          break;
+        case 'price':
+          compare = a.unitPrice.compareTo(b.unitPrice);
+          break;
+        case 'quantity':
+          compare = a.quantity.compareTo(b.quantity);
+          break;
+        case 'totalPrice':
+          final totalPriceA = a.quantity * a.unitPrice;
+          final totalPriceB = b.quantity * b.unitPrice;
+          compare = totalPriceA.compareTo(totalPriceB);
+          break;
+        default:
+          compare = a.name.compareTo(b.name);
+      }
+      return _sortAscending ? compare : -compare;
+    });
+    
     return result;
   }
 
@@ -75,6 +191,46 @@ class ItemListProvider extends ChangeNotifier {
 
   void setFilterLocation(String? location) {
     _filterLocation = location;
+    notifyListeners();
+  }
+
+  void setFilterCategory(String? category) {
+    _filterCategory = category;
+    notifyListeners();
+  }
+
+  void setDateRange(DateTimeRange? range) {
+    _dateRange = range;
+    notifyListeners();
+  }
+
+  void setUnitPriceRange(double? min, double? max) {
+    _minUnitPrice = min;
+    _maxUnitPrice = max;
+    notifyListeners();
+  }
+
+  void setTotalPriceRange(double? min, double? max) {
+    _minTotalPrice = min;
+    _maxTotalPrice = max;
+    notifyListeners();
+  }
+
+  void setSort(String field, bool ascending) {
+    _sortField = field;
+    _sortAscending = ascending;
+    notifyListeners();
+  }
+
+  void clearAllFilters() {
+    _filterType = null;
+    _filterLocation = null;
+    _filterCategory = null;
+    _dateRange = null;
+    _minUnitPrice = null;
+    _maxUnitPrice = null;
+    _minTotalPrice = null;
+    _maxTotalPrice = null;
     notifyListeners();
   }
 
