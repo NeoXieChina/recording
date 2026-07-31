@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 class CalendarService {
   static const MethodChannel _channel = MethodChannel(
-    'com.example.recording/calendar',
+    'com.leosoft.cwfc/calendar',
   );
 
   /// 检查是否有可用的日历账户

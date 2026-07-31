@@ -14,6 +14,195 @@ class AlertsSettingsScreen extends StatefulWidget {
 }
 
 class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
+  // 显示自定义天数输入对话框
+  void _showCustomDaysDialog(BuildContext context, SettingsProvider provider) {
+    final controller = TextEditingController(text: provider.alertDays.toString());
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('自定义提醒天数'),
+        content: TextField(
+          controller: controller,
+          decoration: const InputDecoration(
+            hintText: '请输入提醒天数',
+            labelText: '天数',
+          ),
+          keyboardType: TextInputType.number,
+          autofocus: true,
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('取消'),
+          ),
+          TextButton(
+            onPressed: () {
+              final text = controller.text.trim();
+              if (text.isEmpty) {
+                Navigator.pop(context);
+                return;
+              }
+              final days = int.tryParse(text);
+              if (days != null && days >= AppConstants.minAlertDays && days <= AppConstants.maxAlertDays) {
+                provider.setAlertDays(days);
+                Navigator.pop(context);
+              } else {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text('请输入${AppConstants.minAlertDays}-${AppConstants.maxAlertDays}之间的数字'),
+                  ),
+                );
+                // 不关闭对话框，让用户继续编辑
+              }
+            },
+            child: const Text('确定'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  // 构建提醒天数选择器
+  Widget _buildAlertDaysSelector(BuildContext context, SettingsProvider provider) {
+    return GestureDetector(
+      onTap: () {
+        final RenderBox renderBox = context.findRenderObject() as RenderBox;
+        final position = renderBox.localToGlobal(Offset.zero);
+        final size = renderBox.size;
+        
+        // 创建预置天数选项（1-30天）
+        final predefinedDays = List<int>.generate(
+          30, // 预置1-30天
+          (i) => i + 1,
+        );
+        
+        // 创建菜单项
+        final menuItems = <PopupMenuItem<int>>[];
+        
+        // 计算菜单宽度，限制在120-150之间
+        final menuWidth = size.width.clamp(120, 150).toDouble();
+        
+        // 获取当前值
+        final currentValue = provider.alertDays;
+        
+        // 创建所有要显示的天数选项
+        final daysToShow = <int>{};
+        
+        // 添加预置天数（1-30天）
+        daysToShow.addAll(predefinedDays);
+        
+        // 如果当前值不在1-30范围内，也添加到菜单中
+        if (currentValue >= AppConstants.minAlertDays && 
+            currentValue <= AppConstants.maxAlertDays &&
+            !predefinedDays.contains(currentValue)) {
+          daysToShow.add(currentValue);
+        }
+        
+        // 排序并添加到菜单
+        final sortedDays = daysToShow.toList()..sort();
+        
+        // 添加天数选项
+        for (final days in sortedDays) {
+          menuItems.add(PopupMenuItem(
+            value: days,
+            height: 48,
+            child: SizedBox(
+              width: double.infinity, // 填充菜单宽度
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text('$days天'),
+                  if (provider.alertDays == days)
+                    Icon(Icons.check, color: Theme.of(context).colorScheme.primary, size: 20),
+                ],
+              ),
+            ),
+          ));
+        }
+        
+        // 添加自定义选项
+        menuItems.add(PopupMenuItem(
+          value: -1, // 使用-1表示自定义
+          height: 48,
+          child: SizedBox(
+            width: double.infinity, // 填充菜单宽度
+            child: Row(
+              children: [
+                const Icon(Icons.add, size: 18),
+                const SizedBox(width: 8),
+                const Text('自定义'),
+              ],
+            ),
+          ),
+        ));
+        
+        final maxMenuHeight = 240.0; // 5 * 48 = 240，最多显示5项
+        
+        // 获取屏幕尺寸
+        final screenSize = MediaQuery.of(context).size;
+        
+        // 检查下方是否有足够空间显示菜单
+        final availableSpaceBelow = screenSize.height - (position.dy + size.height);
+        final itemCount = menuItems.length;
+        final menuHeight = (itemCount * 48.0).clamp(0.0, maxMenuHeight);
+        final showBelow = availableSpaceBelow >= menuHeight;
+        
+        // 计算菜单位置
+        final menuTop = showBelow
+            ? position.dy + size.height // 显示在输入框下方
+            : position.dy - menuHeight; // 显示在输入框上方
+        
+        final menuBottom = showBelow
+            ? screenSize.height // 菜单可以向下扩展到屏幕底部
+            : position.dy; // 菜单顶部到输入框顶部
+        
+        showMenu<int>(
+          context: context,
+          position: RelativeRect.fromLTRB(
+            position.dx,
+            menuTop,
+            position.dx + menuWidth,
+            menuBottom,
+          ),
+          constraints: BoxConstraints(
+            maxHeight: maxMenuHeight,
+            minWidth: menuWidth,
+            maxWidth: menuWidth,
+          ),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
+          elevation: 4,
+          items: menuItems,
+        ).then((selectedValue) {
+          if (selectedValue == -1) {
+            // 自定义选项
+            if (context.mounted) {
+              _showCustomDaysDialog(context, provider);
+            }
+          } else if (selectedValue != null) {
+            provider.setAlertDays(selectedValue);
+          }
+        });
+      },
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+        decoration: BoxDecoration(
+          border: Border.all(color: Theme.of(context).colorScheme.outline),
+          borderRadius: BorderRadius.circular(8),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text('${provider.alertDays}天'),
+            const SizedBox(width: 8),
+            const Icon(Icons.arrow_drop_down, size: 20),
+          ],
+        ),
+      ),
+    );
+  }
+
   Future<void> _requestCalendarPermission(
     BuildContext context,
     SettingsProvider provider,
@@ -333,19 +522,29 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                             },
                           ),
                           const SizedBox(height: 8),
-                          SizedBox(
-                            width: double.infinity,
-                            child: OutlinedButton(
-                              onPressed: () => _addTestCalendarEvent(context),
-                              style: OutlinedButton.styleFrom(
-                                 shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(25),
-                                ),
-                                padding: const EdgeInsets.symmetric(vertical: 12),
-                              ),
-                              child: const Text('添加测试日历事件'),
-                            ),
-                          ),
+                           SizedBox(
+                             width: double.infinity,
+                             child: OutlinedButton(
+                               onPressed: provider.calendarSync ? () => _addTestCalendarEvent(context) : null,
+                               style: OutlinedButton.styleFrom(
+                                  shape: RoundedRectangleBorder(
+                                   borderRadius: BorderRadius.circular(25),
+                                 ),
+                                 padding: const EdgeInsets.symmetric(vertical: 12),
+                               ),
+                               child: const Text('添加测试日历事件'),
+                             ),
+                           ),
+                           if (!provider.calendarSync)
+                             Padding(
+                               padding: const EdgeInsets.only(top: 4),
+                               child: Text(
+                                 '请先开启"日历同步"开关',
+                                 style: theme.textTheme.bodySmall?.copyWith(
+                                   color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                                 ),
+                               ),
+                             ),
                           const SizedBox(height: 24),
                           
                           // App提醒设置部分
@@ -387,19 +586,29 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                             },
                           ),
                           const SizedBox(height: 8),
-                          SizedBox(
-                            width: double.infinity,
-                            child: OutlinedButton(
-                              onPressed: () => _sendTestNotification(context),
-                              style: OutlinedButton.styleFrom(
-                                 shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(25),
-                                ),
-                                padding: const EdgeInsets.symmetric(vertical: 12),
-                              ),
-                              child: const Text('发送测试通知'),
-                            ),
-                          ),
+                           SizedBox(
+                             width: double.infinity,
+                             child: OutlinedButton(
+                               onPressed: provider.localAlertsEnabled ? () => _sendTestNotification(context) : null,
+                               style: OutlinedButton.styleFrom(
+                                  shape: RoundedRectangleBorder(
+                                   borderRadius: BorderRadius.circular(25),
+                                 ),
+                                 padding: const EdgeInsets.symmetric(vertical: 12),
+                               ),
+                               child: const Text('发送测试通知'),
+                             ),
+                           ),
+                           if (!provider.localAlertsEnabled)
+                             Padding(
+                               padding: const EdgeInsets.only(top: 4),
+                               child: Text(
+                                 '请先开启"本地提醒"开关',
+                                 style: theme.textTheme.bodySmall?.copyWith(
+                                   color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                                 ),
+                               ),
+                             ),
                           const SizedBox(height: 24),
                           
                           // 提醒天数设置部分
@@ -413,19 +622,7 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                           ListTile(
                             title: const Text('提前提醒天数'),
                             subtitle: const Text('设置提前多少天提醒物品过期或保修到期'),
-                            trailing: DropdownButton<int>(
-                              value: provider.alertDays,
-                              items: List.generate(
-                                AppConstants.maxAlertDays,
-                                (i) => DropdownMenuItem(
-                                  value: i + 1,
-                                  child: Text('${i + 1}天'),
-                                ),
-                              ),
-                              onChanged: (v) {
-                                if (v != null) provider.setAlertDays(v);
-                              },
-                            ),
+                            trailing: _buildAlertDaysSelector(context, provider),
                           ),
                         ],
                       );

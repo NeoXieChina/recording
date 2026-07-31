@@ -4,12 +4,13 @@ import 'package:flutter/material.dart';
 class AppTheme {
   /// 获取Material Design 3主题
   static ThemeData get lightTheme {
+    final colorScheme = ColorScheme.fromSeed(
+      seedColor: Color(0xFF2E5A58),
+      brightness: Brightness.light,
+    );
     return ThemeData(
       useMaterial3: true,
-      colorScheme: ColorScheme.fromSeed(
-        seedColor: Colors.blue,
-        brightness: Brightness.light,
-      ),
+      colorScheme: colorScheme,
       appBarTheme: const AppBarTheme(
         centerTitle: true,
         elevation: 2,
@@ -35,8 +36,8 @@ class AppTheme {
       ),
        elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.blue.shade100,
-          foregroundColor: Colors.black87,
+          backgroundColor: colorScheme.primary.withAlpha(51),
+          foregroundColor: colorScheme.onPrimary,
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(25),
@@ -46,14 +47,14 @@ class AppTheme {
       ),
       textButtonTheme: TextButtonThemeData(
         style: TextButton.styleFrom(
-          foregroundColor: Colors.black87,
+          foregroundColor: colorScheme.onSurface,
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
         ),
       ),
       outlinedButtonTheme: OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
-          foregroundColor: Colors.black87,
+          foregroundColor: colorScheme.onSurface,
           side: BorderSide(color: Colors.grey.shade400),
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
           shape: RoundedRectangleBorder(
@@ -61,21 +62,21 @@ class AppTheme {
           ),
         ),
       ),
-      floatingActionButtonTheme: const FloatingActionButtonThemeData(
-        backgroundColor: Colors.blue,
-        foregroundColor: Colors.white,
+      floatingActionButtonTheme: FloatingActionButtonThemeData(
+        backgroundColor: colorScheme.primary,
+        foregroundColor: colorScheme.onPrimary,
         elevation: 4,
-        largeSizeConstraints: BoxConstraints.tightFor(width: 72, height: 72),
+        largeSizeConstraints: const BoxConstraints.tightFor(width: 72, height: 72),
       ),
       chipTheme: ChipThemeData(
-        backgroundColor: Colors.blue.shade50,
-        selectedColor: Colors.blue,
-        labelStyle: const TextStyle(
-          color: Colors.black87,
+        backgroundColor: colorScheme.primaryContainer,
+        selectedColor: colorScheme.primary,
+        labelStyle: TextStyle(
+          color: colorScheme.onPrimaryContainer,
           fontWeight: FontWeight.w500,
         ),
-        secondaryLabelStyle: const TextStyle(
-          color: Colors.white,
+        secondaryLabelStyle: TextStyle(
+          color: colorScheme.onPrimary,
           fontWeight: FontWeight.w500,
         ),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
@@ -91,12 +92,13 @@ class AppTheme {
 
   /// 获取暗色主题
   static ThemeData get darkTheme {
+    final colorScheme = ColorScheme.fromSeed(
+      seedColor: Color(0xFF1A1A1A),
+      brightness: Brightness.dark,
+    );
     return ThemeData(
       useMaterial3: true,
-      colorScheme: ColorScheme.fromSeed(
-        seedColor: Colors.blue,
-        brightness: Brightness.dark,
-      ),
+      colorScheme: colorScheme,
       appBarTheme: const AppBarTheme(
         centerTitle: true,
         elevation: 2,
@@ -122,8 +124,8 @@ class AppTheme {
       ),
        elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.blue.shade900,
-          foregroundColor: Colors.white70,
+          backgroundColor: colorScheme.primary.withAlpha(51),
+          foregroundColor: colorScheme.onPrimary,
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(25),
@@ -133,14 +135,14 @@ class AppTheme {
       ),
       textButtonTheme: TextButtonThemeData(
         style: TextButton.styleFrom(
-          foregroundColor: Colors.white70,
+          foregroundColor: colorScheme.onSurface,
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
         ),
       ),
       outlinedButtonTheme: OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
-          foregroundColor: Colors.white70,
+          foregroundColor: colorScheme.onSurface,
           side: BorderSide(color: Colors.grey.shade600),
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
           shape: RoundedRectangleBorder(
@@ -149,8 +151,8 @@ class AppTheme {
         ),
       ),
       floatingActionButtonTheme: FloatingActionButtonThemeData(
-        backgroundColor: const Color(0xFF1976D2),
-        foregroundColor: Colors.white,
+        backgroundColor: colorScheme.primary,
+        foregroundColor: colorScheme.onPrimary,
         elevation: 4,
         largeSizeConstraints: const BoxConstraints.tightFor(
           width: 72,
@@ -158,14 +160,14 @@ class AppTheme {
         ),
       ),
       chipTheme: ChipThemeData(
-        backgroundColor: Colors.blue.shade900,
-        selectedColor: Colors.blue.shade700,
-        labelStyle: const TextStyle(
-          color: Colors.white70,
+        backgroundColor: colorScheme.primaryContainer,
+        selectedColor: colorScheme.primary,
+        labelStyle: TextStyle(
+          color: colorScheme.onPrimaryContainer,
           fontWeight: FontWeight.w500,
         ),
-        secondaryLabelStyle: const TextStyle(
-          color: Colors.white,
+        secondaryLabelStyle: TextStyle(
+          color: colorScheme.onPrimary,
           fontWeight: FontWeight.w500,
         ),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),

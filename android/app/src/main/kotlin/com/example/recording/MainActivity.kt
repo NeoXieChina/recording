@@ -1,4 +1,4 @@
-package com.example.recording
+package com.leosoft.cwfc
 
 import android.os.Build
 import androidx.annotation.NonNull
@@ -7,7 +7,7 @@ import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
 
 class MainActivity : FlutterActivity() {
-    private val CHANNEL = "com.example.recording/calendar"
+    private val CHANNEL = "com.leosoft.cwfc/calendar"
 
     override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)

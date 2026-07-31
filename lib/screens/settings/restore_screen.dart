@@ -1,5 +1,7 @@
+import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:recording/data/datasources/backup_service.dart';
 import 'package:recording/providers/settings_provider.dart';
@@ -20,16 +22,22 @@ class _RestoreScreenState extends State<RestoreScreen> {
     final result = await FilePicker.pickFiles(
       type: FileType.custom,
       allowedExtensions: ['zip', 'itembackup'],
+      withData: true, // 始终获取文件字节数据
     );
 
     if (result == null || result.files.isEmpty) return;
 
-    final filePath = result.files.single.path;
-    if (filePath == null) return;
+    final file = result.files.single;
+    if (file.bytes == null) return;
 
+    // 将字节写入临时文件（避免SAF URI路径问题）
+    final tempDir = await getTemporaryDirectory();
+    final tempFile = File('${tempDir.path}/backup_${DateTime.now().millisecondsSinceEpoch}.zip');
+    await tempFile.writeAsBytes(file.bytes!);
+    
     if (!currentContext.mounted) return;
     setState(() {
-      _selectedBackupFilePath = filePath;
+      _selectedBackupFilePath = tempFile.path;
     });
   }
 

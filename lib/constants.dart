@@ -1,7 +1,7 @@
 /// 应用常量定义
 class AppConstants {
   /// 应用名称
-  static const String appName = '智能物品管理';
+  static const String appName = '藏物方寸';
 
   /// 数据库相关常量
   static const String databaseName = 'item_manager.db';
@@ -25,7 +25,7 @@ class AppConstants {
 
   /// 预警设置
   static const int defaultAlertDays = 7; // 默认提前7天预警
-  static const int maxAlertDays = 30; // 最大提前30天预警
+  static const int maxAlertDays = 180; // 最大提前180天预警
   static const int minAlertDays = 1; // 最小提前1天预警
 
   /// 物品分类

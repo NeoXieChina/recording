@@ -348,9 +348,14 @@ class ItemFormScreen extends StatelessWidget {
           ),
         ),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-        contentPadding: const EdgeInsets.symmetric(horizontal: 12),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+        isDense: true,
       ),
       keyboardType: TextInputType.numberWithOptions(decimal: !isInteger),
+      textAlign: TextAlign.center,
+      style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+        fontSize: 16,
+      ),
       onChanged: (v) {
         if (isInteger) {
           final n = int.tryParse(v);
@@ -448,10 +453,15 @@ class ItemFormScreen extends StatelessWidget {
           onPressed: scanBarcode,
         ),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-        contentPadding: const EdgeInsets.symmetric(horizontal: 12),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+        isDense: true,
       ),
       onChanged: onChanged,
       keyboardType: TextInputType.text,
+      textAlign: TextAlign.center,
+      style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+        fontSize: 16,
+      ),
     );
   }
 
@@ -471,13 +481,18 @@ class ItemFormScreen extends StatelessWidget {
             errorText: provider.nameError,
             prefixIcon: const Icon(Icons.label),
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-            contentPadding: const EdgeInsets.symmetric(horizontal: 12),
+            contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+            isDense: true,
           ),
           onChanged: provider.setName,
           controller: TextEditingController(text: provider.name)
             ..selection = TextSelection.fromPosition(
               TextPosition(offset: provider.name.length),
             ),
+          textAlign: TextAlign.center,
+          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+            fontSize: 16,
+          ),
         ),
         const SizedBox(height: 16),
         _buildBarcodeInput(
@@ -804,13 +819,17 @@ class ItemFormScreen extends StatelessWidget {
                   : null,
               contentPadding: const EdgeInsets.symmetric(
                 horizontal: 12,
-              ), // 添加水平内边距
+                vertical: 16,
+              ), // 统一内边距
+              isDense: true,
             ),
             child: Text(
               FormatUtils.formatDate(currentDate),
-              style: TextStyle(
+              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                fontSize: 16,
                 color: date != null ? null : Theme.of(context).hintColor,
               ),
+              textAlign: TextAlign.center,
               overflow: TextOverflow.ellipsis,
             ),
           ),
@@ -843,43 +862,45 @@ class ItemFormScreen extends StatelessWidget {
             ...provider.imagePaths.asMap().entries.map(
               (e) => _buildImageItem(context, e.value, e.key, provider),
             ),
-            GestureDetector(
-              onTap: provider.pickImages,
-              child: SizedBox(
-                width: 80,
-                height: 80,
-                child: Stack(
-                  children: [
-                    // 背景
-                    Container(
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8),
-                        color: Theme.of(context).colorScheme.surface,
+            // 如果没有图片，显示添加按钮
+            if (provider.imagePaths.isEmpty)
+              GestureDetector(
+                onTap: provider.pickImages,
+                child: SizedBox(
+                  width: 80,
+                  height: 80,
+                  child: Stack(
+                    children: [
+                      // 背景
+                      Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(8),
+                          color: Theme.of(context).colorScheme.surface,
+                        ),
                       ),
-                    ),
-                    // 虚线边框
-                    CustomPaint(
-                      painter: _DashedBorderPainter(
-                        color: Theme.of(context).colorScheme.outline,
-                        strokeWidth: 1,
-                        borderRadius: 8,
-                        dashWidth: 4,
-                        dashSpace: 4,
+                      // 虚线边框
+                      CustomPaint(
+                        painter: _DashedBorderPainter(
+                          color: Theme.of(context).colorScheme.outline,
+                          strokeWidth: 1,
+                          borderRadius: 8,
+                          dashWidth: 4,
+                          dashSpace: 4,
+                        ),
+                        size: const Size(80, 80),
                       ),
-                      size: const Size(80, 80),
-                    ),
-                    // 加号图标
-                    Center(
-                      child: Icon(
-                        Icons.add,
-                        size: 32,
-                        color: Theme.of(context).colorScheme.primary,
+                      // 加号图标
+                      Center(
+                        child: Icon(
+                          Icons.add,
+                          size: 32,
+                          color: Theme.of(context).colorScheme.primary,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
-            ),
           ],
         ),
       ],
@@ -931,8 +952,9 @@ class ItemFormScreen extends StatelessWidget {
         TextField(
           decoration: InputDecoration(
             hintText: '添加备注信息（选填）',
-            prefixIcon: const Icon(Icons.notes),
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+            contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+            isDense: true,
           ),
           maxLines: 3,
           onChanged: provider.setNotes,
@@ -940,6 +962,9 @@ class ItemFormScreen extends StatelessWidget {
             ..selection = TextSelection.fromPosition(
               TextPosition(offset: (provider.notes ?? '').length),
             ),
+          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+            fontSize: 16,
+          ),
         ),
       ],
     );
@@ -1059,6 +1084,7 @@ class ItemFormScreen extends StatelessWidget {
                 horizontal: 12,
                 vertical: 16,
               ),
+              isDense: true,
             ),
             keyboardType: TextInputType.number,
             onChanged: onChanged,
@@ -1067,6 +1093,10 @@ class ItemFormScreen extends StatelessWidget {
               final value = controller.text;
               onChanged(value);
             },
+            textAlign: TextAlign.center,
+            style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+              fontSize: 16,
+            ),
           );
         }
 
@@ -1267,18 +1297,26 @@ class ItemFormScreen extends StatelessWidget {
             prefixIcon: icon != null ? Icon(icon) : null,
             suffixIcon: Icon(Icons.arrow_drop_down),
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-            contentPadding: const EdgeInsets.symmetric(horizontal: 12),
+            contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+            isDense: true,
           ),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Expanded(
-                child:
-                    selectedChild ??
-                    Text(
-                      selectedText ?? label,
-                      overflow: TextOverflow.ellipsis,
-                    ),
+                child: selectedChild != null
+                    ? Align(
+                        alignment: Alignment.center,
+                        child: selectedChild,
+                      )
+                    : Text(
+                        selectedText ?? label,
+                        overflow: TextOverflow.ellipsis,
+                        textAlign: TextAlign.center,
+                        style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                          fontSize: 16,
+                        ),
+                      ),
               ),
             ],
           ),

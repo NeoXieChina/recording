@@ -54,7 +54,7 @@ class NotificationService {
     if (!kIsWeb && io.Platform.isWindows) {
       windowsInitializationSettings = WindowsInitializationSettings(
         appName: AppConstants.appName,
-        appUserModelId: 'com.example.recording',
+        appUserModelId: 'com.leosoft.cwfc',
         guid: _uuid.v4(),
       );
     }

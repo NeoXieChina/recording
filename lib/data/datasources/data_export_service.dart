@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
 
@@ -76,6 +77,50 @@ class DataExportService {
     }
   }
 
+  String _decodeWithFallback(List<int> bytes) {
+    if (bytes.isEmpty) {
+      return '';
+    }
+
+    // 首先检查并移除UTF-8 BOM (EF BB BF)
+    List<int> contentBytes = bytes;
+    if (bytes.length >= 3 && bytes[0] == 0xEF && bytes[1] == 0xBB && bytes[2] == 0xBF) {
+      contentBytes = bytes.sublist(3);
+    }
+
+    // 尝试不同的编码
+    final encodings = <Encoding>[
+      utf8,
+      latin1,
+    ];
+
+    // 尝试添加中文编码（如果可用）
+    final gbk = Encoding.getByName('gbk');
+    final gb2312 = Encoding.getByName('gb2312');
+    final big5 = Encoding.getByName('big5');
+    
+    if (gbk != null) encodings.add(gbk);
+    if (gb2312 != null) encodings.add(gb2312);
+    if (big5 != null) encodings.add(big5);
+
+    for (final encoding in encodings) {
+      try {
+        return encoding.decode(contentBytes);
+      } catch (e) {
+        // 继续尝试下一个编码
+        continue;
+      }
+    }
+
+    // 如果所有编码都失败，尝试使用utf8解码并忽略无效字符
+    try {
+      return utf8.decode(contentBytes, allowMalformed: true);
+    } catch (e) {
+      // 最后尝试使用latin1（不会抛出异常）
+      return latin1.decode(contentBytes);
+    }
+  }
+
   Future<int> importData(
     String filePath,
     ExportFormat format, {
@@ -83,10 +128,24 @@ class DataExportService {
   }) async {
     final file = File(filePath);
     if (!(await file.exists())) {
-      throw Exception('文件不存在');
+      throw Exception('文件不存在: $filePath');
     }
 
-    final content = await file.readAsString();
+    // 检查文件大小
+    final fileSize = await file.length();
+    if (fileSize == 0) {
+      throw Exception('文件为空: $filePath');
+    }
+
+    // 读取文件字节
+    final bytes = await file.readAsBytes();
+    // 使用多种编码尝试解码
+    final content = _decodeWithFallback(bytes);
+    
+    // 检查解码后的内容是否为空
+    if (content.isEmpty) {
+      throw Exception('文件内容解码后为空，可能是编码不匹配');
+    }
     List<Item> items = [];
     List<Reminder> reminders = [];
 

@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:recording/data/datasources/backup_service.dart';
@@ -25,13 +24,14 @@ class _BackupScreenState extends State<BackupScreen> {
 
       if (!currentContext.mounted) return;
 
+      // 直接使用FilePicker保存文件，它会处理Android SAF URI
       final savePath = await FilePicker.saveFile(
         dialogTitle: '备份全部数据',
         fileName:
             'backup_${DateTime.now().toIso8601String().replaceAll(':', '-').replaceAll('.', '-')}.zip',
         allowedExtensions: ['zip'],
         type: FileType.custom,
-        bytes: bytes,
+        bytes: bytes, // FilePicker会处理文件保存
       );
 
       if (savePath == null) {
@@ -41,10 +41,6 @@ class _BackupScreenState extends State<BackupScreen> {
         });
         return;
       }
-
-      // 将字节写入文件
-      final file = File(savePath);
-      await file.writeAsBytes(bytes);
 
       if (!currentContext.mounted) return;
 
@@ -75,19 +71,16 @@ class _BackupScreenState extends State<BackupScreen> {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-           SliverAppBar.large(
-             title: Text(
-               '备份数据',
-                 style: theme.textTheme.titleLarge,
-             ),
-             leading: IconButton(
-               icon: const Icon(Icons.arrow_back),
-               onPressed: () => Navigator.of(context).pop(),
-             ),
-             centerTitle: false,
-             elevation: 0,
-             pinned: true,
-           ),
+          SliverAppBar.large(
+            title: Text('备份数据', style: theme.textTheme.titleLarge),
+            leading: IconButton(
+              icon: const Icon(Icons.arrow_back),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+            centerTitle: false,
+            elevation: 0,
+            pinned: true,
+          ),
           SliverPadding(
             padding: const EdgeInsets.all(24),
             sliver: SliverToBoxAdapter(
@@ -109,7 +102,7 @@ class _BackupScreenState extends State<BackupScreen> {
                     child: ElevatedButton(
                       onPressed: _isExporting ? null : _backupAllData,
                       style: ElevatedButton.styleFrom(
-                         shape: RoundedRectangleBorder(
+                        shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(25),
                         ),
                       ),

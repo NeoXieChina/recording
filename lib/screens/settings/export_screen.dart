@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:recording/data/datasources/data_export_service.dart';
@@ -27,13 +26,14 @@ class _ExportScreenState extends State<ExportScreen> {
       if (!currentContext.mounted) return;
 
       final fileExtension = _getFileExtension(_selectedExportFormat);
+      
+      // 直接使用FilePicker保存文件，它会处理Android SAF URI
       final savePath = await FilePicker.saveFile(
         dialogTitle: '导出数据',
-        fileName:
-            'export_${DateTime.now().toIso8601String().replaceAll(':', '-').replaceAll('.', '-')}.$fileExtension',
+        fileName: 'export_${DateTime.now().toIso8601String().replaceAll(':', '-').replaceAll('.', '-')}.$fileExtension',
         allowedExtensions: [fileExtension],
         type: FileType.custom,
-        bytes: bytes,
+        bytes: bytes, // FilePicker会处理文件保存
       );
 
       if (savePath == null) {
@@ -43,9 +43,6 @@ class _ExportScreenState extends State<ExportScreen> {
         });
         return;
       }
-
-      final file = File(savePath);
-      await file.writeAsBytes(bytes);
 
       if (!currentContext.mounted) return;
 
@@ -68,6 +65,9 @@ class _ExportScreenState extends State<ExportScreen> {
       ).showSnackBar(SnackBar(content: Text('导出失败：$e')));
     }
   }
+
+      // 将临时文件复制到用户选择的位置
+
 
   String _getFileExtension(ExportFormat format) {
     switch (format) {
@@ -94,27 +94,24 @@ class _ExportScreenState extends State<ExportScreen> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    
+
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-           SliverAppBar.large(
-             title: Text(
-               '导出数据',
-                 style: theme.textTheme.titleLarge,
-             ),
-             leading: IconButton(
-               icon: const Icon(Icons.arrow_back),
-               onPressed: () => Navigator.of(context).pop(),
-             ),
-             centerTitle: false,
-             elevation: 0,
-             pinned: true,
+          SliverAppBar.large(
+            title: Text('导出数据', style: theme.textTheme.titleLarge),
+            leading: IconButton(
+              icon: const Icon(Icons.arrow_back),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+            centerTitle: false,
+            elevation: 0,
+            pinned: true,
           ),
           SliverPadding(
             padding: const EdgeInsets.all(24),
             sliver: SliverToBoxAdapter(
-               child: Column(
+              child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SegmentedButton<ExportFormat>(
@@ -142,8 +139,8 @@ class _ExportScreenState extends State<ExportScreen> {
                     height: 56,
                     child: ElevatedButton(
                       onPressed: _isExporting ? null : _exportData,
-                       style: ElevatedButton.styleFrom(
-                         shape: RoundedRectangleBorder(
+                      style: ElevatedButton.styleFrom(
+                        shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(25),
                         ),
                       ),
@@ -151,9 +148,7 @@ class _ExportScreenState extends State<ExportScreen> {
                           ? const SizedBox(
                               width: 24,
                               height: 24,
-                              child: CircularProgressIndicator(
-                                strokeWidth: 3,
-                              ),
+                              child: CircularProgressIndicator(strokeWidth: 3),
                             )
                           : const Text(
                               '导出数据',

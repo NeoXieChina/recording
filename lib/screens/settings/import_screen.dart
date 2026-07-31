@@ -1,5 +1,7 @@
+import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:recording/data/datasources/data_export_service.dart';
 
 class ImportScreen extends StatefulWidget {
@@ -61,13 +63,23 @@ class _ImportScreenState extends State<ImportScreen> {
       final result = await FilePicker.pickFiles(
         type: FileType.custom,
         allowedExtensions: [_getFileExtension(_selectedImportFormat!)],
+        withData: true, // 始终获取文件字节数据
       );
 
       if (result == null || result.files.isEmpty) return;
 
+      final file = result.files.single;
+      if (file.bytes == null) return;
+
+      // 将字节写入临时文件（避免SAF URI路径问题）
+      final tempDir = await getTemporaryDirectory();
+      final tempFile = File('${tempDir.path}/import_${DateTime.now().millisecondsSinceEpoch}.${_getFileExtension(_selectedImportFormat!)}');
+      await tempFile.writeAsBytes(file.bytes!);
+      final filePath = tempFile.path;
+
       if (!currentContext.mounted) return;
       setState(() {
-        _importFilePath = result.files.single.path;
+        _importFilePath = filePath;
       });
     }
 
@@ -243,11 +255,21 @@ class _ImportScreenState extends State<ImportScreen> {
                               allowedExtensions: [
                                 _getFileExtension(_selectedImportFormat!),
                               ],
+                              withData: true, // 始终获取文件字节数据
                             );
 
                             if (result != null && result.files.isNotEmpty) {
+                              final file = result.files.single;
+                              if (file.bytes == null) return;
+                              
+                              // 将字节写入临时文件（避免SAF URI路径问题）
+                              final tempDir = await getTemporaryDirectory();
+                              final tempFile = File('${tempDir.path}/import_${DateTime.now().millisecondsSinceEpoch}.${_getFileExtension(_selectedImportFormat!)}');
+                              await tempFile.writeAsBytes(file.bytes!);
+                              final filePath = tempFile.path;
+                              
                               setState(() {
-                                _importFilePath = result.files.single.path;
+                                _importFilePath = filePath;
                               });
                             }
                           },

@@ -1,11 +1,11 @@
 {
-  "name": "recording",
-  "short_name": "recording",
+  "name": "藏物方寸",
+  "short_name": "藏物方寸",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0175C2",
   "theme_color": "#0175C2",
-  "description": "A new Flutter project.",
+  "description": "智能物品管理应用",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [

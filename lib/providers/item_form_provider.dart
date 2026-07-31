@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:image/image.dart' as img;
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:recording/constants.dart';
@@ -152,19 +153,81 @@ class ItemFormProvider extends ChangeNotifier {
     );
     if (images.isEmpty) return;
 
+    // 只取第一张图片，限制最多1张
+    final xFile = images.first;
+
     final appDir = await getApplicationDocumentsDirectory();
     final imageDir = Directory('${appDir.path}/${AppConstants.imageDirectory}');
     if (!imageDir.existsSync()) {
       imageDir.createSync(recursive: true);
     }
 
-    for (final xFile in images) {
-      final fileName =
-          '${DateTime.now().millisecondsSinceEpoch}_${p.basename(xFile.path)}';
-      final destPath = '${imageDir.path}/$fileName';
-      await File(xFile.path).copy(destPath);
-      imagePaths.add(destPath);
+    // 如果已有图片，先删除旧图片
+    if (imagePaths.isNotEmpty) {
+      for (final path in imagePaths) {
+        final file = File(path);
+        if (file.existsSync()) file.deleteSync();
+      }
+      imagePaths.clear();
     }
+
+    final fileName =
+        '${DateTime.now().millisecondsSinceEpoch}_${p.basename(xFile.path)}';
+    final destPath = '${imageDir.path}/$fileName';
+
+    try {
+      // 读取原始图片
+      final originalBytes = await File(xFile.path).readAsBytes();
+      final originalImage = img.decodeImage(originalBytes);
+      
+      if (originalImage != null) {
+        // 计算缩放尺寸，保持宽高比，限制最大尺寸为720p（1280x720）
+        final maxWidth = AppConstants.imageMaxWidth;
+        final maxHeight = AppConstants.imageMaxHeight;
+        
+        int targetWidth = originalImage.width;
+        int targetHeight = originalImage.height;
+        
+        // 如果图片宽度超过最大宽度，按比例缩放
+        if (targetWidth > maxWidth) {
+          final ratio = maxWidth / targetWidth;
+          targetWidth = maxWidth;
+          targetHeight = (targetHeight * ratio).round();
+        }
+        
+        // 如果缩放后高度超过最大高度，再次按比例缩放
+        if (targetHeight > maxHeight) {
+          final ratio = maxHeight / targetHeight;
+          targetHeight = maxHeight;
+          targetWidth = (targetWidth * ratio).round();
+        }
+        
+        // 如果图片尺寸已经小于最大尺寸，保持原尺寸
+        if (targetWidth < originalImage.width || targetHeight < originalImage.height) {
+          final resizedImage = img.copyResize(
+            originalImage,
+            width: targetWidth,
+            height: targetHeight,
+            maintainAspect: true,
+          );
+          
+          // 保存为JPEG格式，使用指定质量
+          final compressedBytes = img.encodeJpg(resizedImage, quality: AppConstants.imageQuality);
+          await File(destPath).writeAsBytes(compressedBytes);
+        } else {
+          // 图片尺寸已经合适，直接复制
+          await File(xFile.path).copy(destPath);
+        }
+      } else {
+        // 图片解码失败，直接复制原始文件
+        await File(xFile.path).copy(destPath);
+      }
+    } catch (e) {
+      // 处理过程中出现错误，直接复制原始文件
+      await File(xFile.path).copy(destPath);
+    }
+
+    imagePaths.add(destPath);
     notifyListeners();
   }
 
