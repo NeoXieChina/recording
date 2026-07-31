@@ -43,23 +43,20 @@ class AboutScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    
+
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-           SliverAppBar.large(
-             title: Text(
-               '关于',
-                 style: theme.textTheme.titleLarge,
-             ),
-             leading: IconButton(
-               icon: const Icon(Icons.arrow_back),
-               onPressed: () => Navigator.of(context).pop(),
-             ),
-             centerTitle: false,
-             elevation: 0,
-             pinned: true,
-           ),
+          SliverAppBar.large(
+            title: Text('关于', style: theme.textTheme.titleLarge),
+            leading: IconButton(
+              icon: const Icon(Icons.arrow_back),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+            centerTitle: false,
+            elevation: 0,
+            pinned: true,
+          ),
           SliverPadding(
             padding: const EdgeInsets.all(24),
             sliver: SliverToBoxAdapter(
@@ -69,7 +66,9 @@ class AboutScreen extends StatelessWidget {
                   Text(
                     '应用信息',
                     style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                      color: theme.colorScheme.onSurface.withAlpha(
+                        (0.6 * 255).round(),
+                      ),
                     ),
                   ),
                   const SizedBox(height: 8),
@@ -93,7 +92,9 @@ class AboutScreen extends StatelessWidget {
                         Text(
                           AppConstants.appName,
                           style: theme.textTheme.bodySmall?.copyWith(
-                            color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                            color: theme.colorScheme.onSurface.withAlpha(
+                              (0.6 * 255).round(),
+                            ),
                           ),
                         ),
                         const SizedBox(height: 12),
@@ -107,7 +108,9 @@ class AboutScreen extends StatelessWidget {
                         Text(
                           '1.0.0',
                           style: theme.textTheme.bodySmall?.copyWith(
-                            color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                            color: theme.colorScheme.onSurface.withAlpha(
+                              (0.6 * 255).round(),
+                            ),
                           ),
                         ),
                         const SizedBox(height: 12),
@@ -119,9 +122,11 @@ class AboutScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 4),
                         Text(
-                          '智能物品管理团队',
+                          '雷欧',
                           style: theme.textTheme.bodySmall?.copyWith(
-                            color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                            color: theme.colorScheme.onSurface.withAlpha(
+                              (0.6 * 255).round(),
+                            ),
                           ),
                         ),
                       ],
@@ -131,7 +136,9 @@ class AboutScreen extends StatelessWidget {
                   Text(
                     '设备信息',
                     style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                      color: theme.colorScheme.onSurface.withAlpha(
+                        (0.6 * 255).round(),
+                      ),
                     ),
                   ),
                   const SizedBox(height: 8),
@@ -155,7 +162,9 @@ class AboutScreen extends StatelessWidget {
                         Text(
                           Platform.operatingSystem,
                           style: theme.textTheme.bodySmall?.copyWith(
-                            color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                            color: theme.colorScheme.onSurface.withAlpha(
+                              (0.6 * 255).round(),
+                            ),
                           ),
                         ),
                         const SizedBox(height: 12),
@@ -169,7 +178,9 @@ class AboutScreen extends StatelessWidget {
                         Text(
                           Platform.operatingSystemVersion,
                           style: theme.textTheme.bodySmall?.copyWith(
-                            color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                            color: theme.colorScheme.onSurface.withAlpha(
+                              (0.6 * 255).round(),
+                            ),
                           ),
                         ),
                         const SizedBox(height: 12),
@@ -183,25 +194,23 @@ class AboutScreen extends StatelessWidget {
                         Text(
                           Platform.version,
                           style: theme.textTheme.bodySmall?.copyWith(
-                            color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
-                          ),
-                        ),
-                        const SizedBox(height: 12),
-                        Text(
-                          '设备型号',
-                          style: theme.textTheme.bodyMedium?.copyWith(
-                            fontWeight: FontWeight.w500,
+                            color: theme.colorScheme.onSurface.withAlpha(
+                              (0.6 * 255).round(),
+                            ),
                           ),
                         ),
                         const SizedBox(height: 4),
                         FutureBuilder<Map<String, String>>(
                           future: _getDeviceInfo(),
                           builder: (context, snapshot) {
-                            if (snapshot.connectionState == ConnectionState.waiting) {
+                            if (snapshot.connectionState ==
+                                ConnectionState.waiting) {
                               return Text(
                                 '加载中...',
                                 style: theme.textTheme.bodySmall?.copyWith(
-                                  color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                                  color: theme.colorScheme.onSurface.withAlpha(
+                                    (0.6 * 255).round(),
+                                  ),
                                 ),
                               );
                             }
@@ -209,7 +218,9 @@ class AboutScreen extends StatelessWidget {
                               return Text(
                                 '无法获取设备信息',
                                 style: theme.textTheme.bodySmall?.copyWith(
-                                  color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                                  color: theme.colorScheme.onSurface.withAlpha(
+                                    (0.6 * 255).round(),
+                                  ),
                                 ),
                               );
                             }
@@ -220,20 +231,26 @@ class AboutScreen extends StatelessWidget {
                                 return Padding(
                                   padding: const EdgeInsets.only(bottom: 8),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       Text(
                                         entry.key,
-                                        style: theme.textTheme.bodyMedium?.copyWith(
-                                          fontWeight: FontWeight.w500,
-                                        ),
+                                        style: theme.textTheme.bodyMedium
+                                            ?.copyWith(
+                                              fontWeight: FontWeight.w500,
+                                            ),
                                       ),
                                       const SizedBox(height: 2),
                                       Text(
                                         entry.value,
-                                        style: theme.textTheme.bodySmall?.copyWith(
-                                          color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
-                                        ),
+                                        style: theme.textTheme.bodySmall
+                                            ?.copyWith(
+                                              color: theme.colorScheme.onSurface
+                                                  .withAlpha(
+                                                    (0.6 * 255).round(),
+                                                  ),
+                                            ),
                                       ),
                                     ],
                                   ),
@@ -249,7 +266,9 @@ class AboutScreen extends StatelessWidget {
                   Text(
                     '功能介绍',
                     style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                      color: theme.colorScheme.onSurface.withAlpha(
+                        (0.6 * 255).round(),
+                      ),
                     ),
                   ),
                   const SizedBox(height: 8),
@@ -273,7 +292,9 @@ class AboutScreen extends StatelessWidget {
                         Text(
                           '帮助您管理物品的过期日期、保修日期等信息，并提供智能提醒功能。',
                           style: theme.textTheme.bodySmall?.copyWith(
-                            color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                            color: theme.colorScheme.onSurface.withAlpha(
+                              (0.6 * 255).round(),
+                            ),
                           ),
                         ),
                       ],

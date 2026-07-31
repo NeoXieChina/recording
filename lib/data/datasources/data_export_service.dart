@@ -63,7 +63,8 @@ class DataExportService {
         break;
     }
     
-    return Uint8List.fromList(content.codeUnits);
+    // 使用UTF-8编码导出
+    return Uint8List.fromList(utf8.encode(content));
   }
 
   String getFileExtension(ExportFormat format) {
@@ -88,36 +89,17 @@ class DataExportService {
       contentBytes = bytes.sublist(3);
     }
 
-    // 尝试不同的编码
-    final encodings = <Encoding>[
-      utf8,
-      latin1,
-    ];
-
-    // 尝试添加中文编码（如果可用）
-    final gbk = Encoding.getByName('gbk');
-    final gb2312 = Encoding.getByName('gb2312');
-    final big5 = Encoding.getByName('big5');
-    
-    if (gbk != null) encodings.add(gbk);
-    if (gb2312 != null) encodings.add(gb2312);
-    if (big5 != null) encodings.add(big5);
-
-    for (final encoding in encodings) {
-      try {
-        return encoding.decode(contentBytes);
-      } catch (e) {
-        // 继续尝试下一个编码
-        continue;
-      }
-    }
-
-    // 如果所有编码都失败，尝试使用utf8解码并忽略无效字符
+    // 使用UTF-8解码（严格模式）
     try {
-      return utf8.decode(contentBytes, allowMalformed: true);
+      return utf8.decode(contentBytes);
     } catch (e) {
-      // 最后尝试使用latin1（不会抛出异常）
-      return latin1.decode(contentBytes);
+      // UTF-8解码失败，尝试使用UTF-8并忽略无效字符作为最后手段
+      try {
+        return utf8.decode(contentBytes, allowMalformed: true);
+      } catch (e2) {
+        // 如果仍然失败，抛出详细的错误信息
+        throw FormatException('文件编码不是有效的UTF-8格式。请确保文件使用UTF-8编码保存。错误详情: $e2');
+      }
     }
   }
 

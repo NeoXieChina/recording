@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:archive/archive.dart';
@@ -118,17 +119,20 @@ class BackupService {
   List<int> _encodeItems(List<Item> items) {
     final jsonList = items.map((i) => i.toMap()).toList();
     final jsonStr = _jsonEncode(jsonList);
-    return jsonStr.codeUnits;
+    // 使用UTF-8编码JSON数据
+    return utf8.encode(jsonStr);
   }
 
   List<int> _encodeReminders(List<Reminder> reminders) {
     final jsonList = reminders.map((r) => r.toMap()).toList();
     final jsonStr = _jsonEncode(jsonList);
-    return jsonStr.codeUnits;
+    // 使用UTF-8编码JSON数据
+    return utf8.encode(jsonStr);
   }
 
   Future<void> _importItems(List<int> data) async {
-    final jsonStr = String.fromCharCodes(data);
+    // 使用UTF-8解码JSON数据
+    final jsonStr = utf8.decode(data);
     final List<dynamic> jsonList = _jsonDecode(jsonStr);
     for (final map in jsonList) {
       final item = Item.fromMap(map as Map<String, dynamic>);
@@ -142,7 +146,8 @@ class BackupService {
   }
 
   Future<void> _importReminders(List<int> data) async {
-    final jsonStr = String.fromCharCodes(data);
+    // 使用UTF-8解码JSON数据
+    final jsonStr = utf8.decode(data);
     final List<dynamic> jsonList = _jsonDecode(jsonStr);
     for (final map in jsonList) {
       final reminder = Reminder.fromMap(map as Map<String, dynamic>);

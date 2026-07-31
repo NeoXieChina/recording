@@ -26,11 +26,13 @@ class _ExportScreenState extends State<ExportScreen> {
       if (!currentContext.mounted) return;
 
       final fileExtension = _getFileExtension(_selectedExportFormat);
+      final timestamp = DateTime.now().toIso8601String().replaceAll(':', '-').replaceAll('.', '-');
+      final defaultFileName = 'export_$timestamp.$fileExtension';
       
       // 直接使用FilePicker保存文件，它会处理Android SAF URI
       final savePath = await FilePicker.saveFile(
         dialogTitle: '导出数据',
-        fileName: 'export_${DateTime.now().toIso8601String().replaceAll(':', '-').replaceAll('.', '-')}.$fileExtension',
+        fileName: defaultFileName,
         allowedExtensions: [fileExtension],
         type: FileType.custom,
         bytes: bytes, // FilePicker会处理文件保存
@@ -50,9 +52,11 @@ class _ExportScreenState extends State<ExportScreen> {
         _isExporting = false;
       });
 
+      // 提取文件名，处理不同平台的路径格式
+      final fileName = _extractFileName(savePath, defaultFileName);
       ScaffoldMessenger.of(
         currentContext,
-      ).showSnackBar(SnackBar(content: Text('数据导出成功：$savePath')));
+      ).showSnackBar(SnackBar(content: Text('数据导出成功：$fileName')));
     } catch (e) {
       if (!currentContext.mounted) return;
 
@@ -64,6 +68,52 @@ class _ExportScreenState extends State<ExportScreen> {
         currentContext,
       ).showSnackBar(SnackBar(content: Text('导出失败：$e')));
     }
+  }
+
+  /// 从路径或URI中提取文件名
+  String _extractFileName(String path, String defaultName) {
+    // 处理content:// URI
+    if (path.startsWith('content://')) {
+      // 尝试从content URI中提取文件名
+      final uri = Uri.parse(path);
+      final segments = uri.pathSegments;
+      if (segments.isNotEmpty) {
+        // 查找最后一个非空的段作为文件名
+        for (int i = segments.length - 1; i >= 0; i--) {
+          final segment = segments[i];
+          if (segment.isNotEmpty) {
+            // 检查是否有查询参数
+            final queryIndex = segment.indexOf('?');
+            if (queryIndex > 0) {
+              return segment.substring(0, queryIndex);
+            }
+            return segment;
+          }
+        }
+      }
+      return defaultName;
+    }
+    
+    // 处理file:// URI
+    if (path.startsWith('file://')) {
+      final uri = Uri.parse(path);
+      final fileName = uri.pathSegments.lastOrNull;
+      return fileName ?? defaultName;
+    }
+    
+    // 处理普通文件路径
+    final pathSeparator = path.contains('\\') ? '\\' : '/';
+    final parts = path.split(pathSeparator);
+    for (int i = parts.length - 1; i >= 0; i--) {
+      final part = parts[i];
+      if (part.isNotEmpty && part != '.' && part != '..') {
+        // 移除查询参数或片段标识符
+        final cleanName = part.split('?')[0].split('#')[0];
+        return cleanName;
+      }
+    }
+    
+    return defaultName;
   }
 
       // 将临时文件复制到用户选择的位置
@@ -134,12 +184,18 @@ class _ExportScreenState extends State<ExportScreen> {
                     },
                   ),
                   const SizedBox(height: 32),
-                  SizedBox(
+                   SizedBox(
                     width: double.infinity,
                     height: 56,
                     child: ElevatedButton(
                       onPressed: _isExporting ? null : _exportData,
-                      style: ElevatedButton.styleFrom(
+                       style: ElevatedButton.styleFrom(
+                         backgroundColor: _isExporting 
+                             ? theme.colorScheme.onSurface.withAlpha(31)  // 0.12 opacity
+                             : theme.colorScheme.primary,
+                         foregroundColor: _isExporting 
+                             ? theme.colorScheme.onSurface.withAlpha(97)  // 0.38 opacity
+                             : theme.colorScheme.onPrimary,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(25),
                         ),
@@ -150,11 +206,12 @@ class _ExportScreenState extends State<ExportScreen> {
                               height: 24,
                               child: CircularProgressIndicator(strokeWidth: 3),
                             )
-                          : const Text(
+                          : Text(
                               '导出数据',
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w500,
+                                color: theme.colorScheme.onPrimary,
                               ),
                             ),
                     ),
