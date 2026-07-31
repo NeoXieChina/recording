@@ -7,8 +7,10 @@ class AppRoutes {
   static const String itemEdit = '/items/edit';
   static const String itemAdd = '/items/add';
   static const String settings = '/settings';
-  static const String backupRestore = '/settings/backup-restore';
-  static const String exportImport = '/settings/export-import';
+  static const String backup = '/settings/backup';
+  static const String restore = '/settings/restore';
+  static const String export = '/settings/export';
+  static const String import = '/settings/import';
   static const String alertsSettings = '/settings/alerts';
   static const String about = '/settings/about';
 

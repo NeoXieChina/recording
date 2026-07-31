@@ -2,10 +2,10 @@
 <resources>
     <!-- 应用名称 -->
     <string name="app_name">智能物品管理</string>
-    
+
     <!-- 通知通道ID -->
     <string name="default_notification_channel_id">item_alerts</string>
-    
+
     <!-- 通知通道名称 -->
     <string name="default_notification_channel_name">物品预警通知</string>
 </resources>

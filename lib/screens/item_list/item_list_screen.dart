@@ -67,7 +67,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                       Expanded(
                         child: Text(
                           location,
-                          style: Theme.of(context).textTheme.titleLarge,
+                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                         ),
@@ -89,7 +91,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                       Expanded(
                         child: Text(
                           typeName,
-                          style: Theme.of(context).textTheme.titleLarge,
+                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                         ),
@@ -108,7 +112,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                       Expanded(
                         child: Text(
                           category,
-                          style: Theme.of(context).textTheme.titleLarge,
+                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                         ),
@@ -127,7 +133,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                       Expanded(
                         child: Text(
                           '日期范围筛选',
-                          style: Theme.of(context).textTheme.titleLarge,
+                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                         ),
@@ -146,7 +154,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                       Expanded(
                         child: Text(
                           '价格范围筛选',
-                          style: Theme.of(context).textTheme.titleLarge,
+                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                         ),
@@ -155,7 +165,12 @@ class _ItemListScreenState extends State<ItemListScreen> {
                   );
                 }
 
-                return const Text('我的物品');
+                return Text(
+                  '我的物品',
+                  style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                    fontWeight: FontWeight.w600,
+                  ),
+                );
               },
             ),
             leading: IconButton(

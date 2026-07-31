@@ -14,11 +14,11 @@ class SettingsScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          // 数据管理卡片（合并备份与恢复、导入与导出）
+          // 数据管理卡片
           Card(
             elevation: 0,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
+              borderRadius: BorderRadius.circular(25),
             ),
             color: colorScheme.surfaceContainerLow,
             child: Column(
@@ -28,19 +28,39 @@ class SettingsScreen extends StatelessWidget {
                     Icons.backup,
                     color: colorScheme.primary,
                   ),
-                  title: const Text('备份与恢复'),
-                  subtitle: const Text('备份全部数据或从备份恢复'),
-                  onTap: () => Navigator.pushNamed(context, AppRoutes.backupRestore),
+                  title: const Text('备份数据'),
+                  subtitle: const Text('将全部数据打包为ZIP文件备份'),
+                  onTap: () => Navigator.pushNamed(context, AppRoutes.backup),
                 ),
                 Divider(height: 1, indent: 16, endIndent: 16, color: colorScheme.outlineVariant),
                 ListTile(
                   leading: Icon(
-                    Icons.import_export,
+                    Icons.restore,
                     color: colorScheme.primary,
                   ),
-                  title: const Text('导入与导出'),
-                  subtitle: const Text('导入或导出CSV、TXT、SQL格式数据'),
-                  onTap: () => Navigator.pushNamed(context, AppRoutes.exportImport),
+                  title: const Text('恢复数据'),
+                  subtitle: const Text('从ZIP备份文件恢复全部数据'),
+                  onTap: () => Navigator.pushNamed(context, AppRoutes.restore),
+                ),
+                Divider(height: 1, indent: 16, endIndent: 16, color: colorScheme.outlineVariant),
+                ListTile(
+                  leading: Icon(
+                    Icons.download,
+                    color: colorScheme.primary,
+                  ),
+                  title: const Text('导出数据'),
+                  subtitle: const Text('导出为CSV、TXT、SQL格式'),
+                  onTap: () => Navigator.pushNamed(context, AppRoutes.export),
+                ),
+                Divider(height: 1, indent: 16, endIndent: 16, color: colorScheme.outlineVariant),
+                ListTile(
+                  leading: Icon(
+                    Icons.upload,
+                    color: colorScheme.primary,
+                  ),
+                  title: const Text('导入数据'),
+                  subtitle: const Text('从CSV、TXT、SQL文件导入数据'),
+                  onTap: () => Navigator.pushNamed(context, AppRoutes.import),
                 ),
               ],
             ),
@@ -51,7 +71,7 @@ class SettingsScreen extends StatelessWidget {
           Card(
             elevation: 0,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
+              borderRadius: BorderRadius.circular(25),
             ),
             color: colorScheme.surfaceContainerLow,
             child: ListTile(
@@ -70,7 +90,7 @@ class SettingsScreen extends StatelessWidget {
           Card(
             elevation: 0,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
+              borderRadius: BorderRadius.circular(25),
             ),
             color: colorScheme.surfaceContainerLow,
             child: ListTile(

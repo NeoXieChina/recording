@@ -103,40 +103,13 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
         }
 
         provider.setCalendarSync(true);
-        // 添加测试日历事件
-        final now = DateTime.now();
-        final startTime = DateTime(
-          now.year,
-          now.month,
-          now.day,
-          now.hour,
-          now.minute + 5,
-        );
-        final endTime = startTime.add(const Duration(hours: 1));
-        final success = await CalendarService.addEvent(
-          title: '测试日历事件',
-          description: '这是一个测试事件，用于验证日历功能',
-          location: '应用内',
-          startTime: startTime,
-          endTime: endTime,
-          reminderMinutes: 5,
-        );
         if (!context.mounted) return;
-        if (success) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text('日历权限已授予，日历同步已开启，已添加测试事件'),
-              duration: Duration(seconds: 2),
-            ),
-          );
-        } else {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text('日历权限已授予，但无法添加日历事件。请检查系统日历设置'),
-              duration: Duration(seconds: 3),
-            ),
-          );
-        }
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('日历权限已授予，日历同步已开启'),
+            duration: Duration(seconds: 2),
+          ),
+        );
       } else if (permissionStatus.isPermanentlyDenied) {
         // 权限被永久拒绝，提示用户去设置页面
         if (!context.mounted) {
@@ -310,127 +283,161 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    
     return Scaffold(
-      appBar: AppBar(title: const Text('预警设置')),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                Icon(
-                  Icons.notifications_active,
-                  color: Theme.of(context).colorScheme.primary,
-                ),
-                const SizedBox(width: 8),
-                Text('智能预警', style: Theme.of(context).textTheme.titleMedium),
-              ],
+      body: CustomScrollView(
+        slivers: [
+          SliverAppBar.large(
+            title: Text(
+              '预警设置',
+              style: theme.textTheme.headlineMedium?.copyWith(
+                fontWeight: FontWeight.w600,
+              ),
             ),
-            const SizedBox(height: 16),
-            Consumer<SettingsProvider>(
-              builder: (context, provider, _) {
-                return Column(
-                  children: [
-                    SwitchListTile(
-                      title: const Text('日历同步'),
-                      subtitle: const Text('开启后将请求日历权限'),
-                      value: provider.calendarSync,
-                      onChanged: (v) async {
-                        if (v) {
-                          await _requestCalendarPermission(context, provider);
-                        } else {
-                          provider.setCalendarSync(false);
-                        }
-                      },
-                      secondary: const Icon(Icons.calendar_today),
-                    ),
-                    const SizedBox(height: 8),
-                    SwitchListTile(
-                      title: const Text('本地提醒'),
-                      subtitle: const Text('开启后接收应用内过期提醒'),
-                      value: provider.localAlertsEnabled,
-                      onChanged: (v) async {
-                        try {
-                          await provider.setLocalAlertsEnabled(v);
-                          if (v && !provider.localAlertsEnabled) {
-                            // 权限被拒绝，开关被重置为false
-                            if (context.mounted) {
-                              ScaffoldMessenger.of(context).showSnackBar(
-                                const SnackBar(
-                                  content: Text('需要通知权限才能启用本地提醒'),
-                                  duration: Duration(seconds: 2),
+            leading: IconButton(
+              icon: const Icon(Icons.arrow_back),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+            centerTitle: false,
+            elevation: 0,
+            pinned: true,
+          ),
+          SliverPadding(
+            padding: const EdgeInsets.all(24),
+            sliver: SliverToBoxAdapter(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                   Consumer<SettingsProvider>(
+                    builder: (context, provider, _) {
+                      return Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          // 日历设置部分
+                          Text(
+                            '日历设置',
+                            style: theme.textTheme.bodySmall?.copyWith(
+                              color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                            ),
+                          ),
+                          const SizedBox(height: 8),
+                          SwitchListTile(
+                            title: const Text('日历同步'),
+                            subtitle: const Text('开启后将请求日历权限'),
+                            value: provider.calendarSync,
+                            onChanged: (v) async {
+                              if (v) {
+                                await _requestCalendarPermission(context, provider);
+                              } else {
+                                provider.setCalendarSync(false);
+                              }
+                            },
+                          ),
+                          const SizedBox(height: 8),
+                          SizedBox(
+                            width: double.infinity,
+                            child: OutlinedButton(
+                              onPressed: () => _addTestCalendarEvent(context),
+                              style: OutlinedButton.styleFrom(
+                                 shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(25),
                                 ),
-                              );
-                            }
-                          }
-                        } catch (e) {
-                          if (context.mounted) {
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              SnackBar(
-                                content: Text('操作失败: $e'),
-                                duration: const Duration(seconds: 2),
+                                padding: const EdgeInsets.symmetric(vertical: 12),
                               ),
-                            );
-                          }
-                        }
-                      },
-                      secondary: const Icon(Icons.notifications),
-                    ),
-                    const SizedBox(height: 8),
-                    SizedBox(
-                      width: double.infinity,
-                      child: OutlinedButton.icon(
-                        onPressed: () => _sendTestNotification(context),
-                        icon: const Icon(Icons.notification_add),
-                        label: const Text('发送测试通知'),
-                        style: OutlinedButton.styleFrom(
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(12),
+                              child: const Text('添加测试日历事件'),
+                            ),
                           ),
-                          padding: const EdgeInsets.symmetric(vertical: 12),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 8),
-                    SizedBox(
-                      width: double.infinity,
-                      child: OutlinedButton.icon(
-                        onPressed: () => _addTestCalendarEvent(context),
-                        icon: const Icon(Icons.add_alert),
-                        label: const Text('添加测试日历事件'),
-                        style: OutlinedButton.styleFrom(
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(12),
+                          const SizedBox(height: 24),
+                          
+                          // App提醒设置部分
+                          Text(
+                            'App提醒设置',
+                            style: theme.textTheme.bodySmall?.copyWith(
+                              color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                            ),
                           ),
-                          padding: const EdgeInsets.symmetric(vertical: 12),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 8),
-                    ListTile(
-                      leading: const Icon(Icons.timer),
-                      title: const Text('提前提醒天数'),
-                      trailing: DropdownButton<int>(
-                        value: provider.alertDays,
-                        items: List.generate(
-                          AppConstants.maxAlertDays,
-                          (i) => DropdownMenuItem(
-                            value: i + 1,
-                            child: Text('${i + 1}天'),
+                          const SizedBox(height: 8),
+                          SwitchListTile(
+                            title: const Text('本地提醒'),
+                            subtitle: const Text('开启后接收应用内过期提醒'),
+                            value: provider.localAlertsEnabled,
+                            onChanged: (v) async {
+                              try {
+                                await provider.setLocalAlertsEnabled(v);
+                                if (v && !provider.localAlertsEnabled) {
+                                  // 权限被拒绝，开关被重置为false
+                                  if (context.mounted) {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      const SnackBar(
+                                        content: Text('需要通知权限才能启用本地提醒'),
+                                        duration: Duration(seconds: 2),
+                                      ),
+                                    );
+                                  }
+                                }
+                              } catch (e) {
+                                if (context.mounted) {
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    SnackBar(
+                                      content: Text('操作失败: $e'),
+                                      duration: const Duration(seconds: 2),
+                                    ),
+                                  );
+                                }
+                              }
+                            },
                           ),
-                        ),
-                        onChanged: (v) {
-                          if (v != null) provider.setAlertDays(v);
-                        },
-                      ),
-                    ),
-                  ],
-                );
-              },
+                          const SizedBox(height: 8),
+                          SizedBox(
+                            width: double.infinity,
+                            child: OutlinedButton(
+                              onPressed: () => _sendTestNotification(context),
+                              style: OutlinedButton.styleFrom(
+                                 shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(25),
+                                ),
+                                padding: const EdgeInsets.symmetric(vertical: 12),
+                              ),
+                              child: const Text('发送测试通知'),
+                            ),
+                          ),
+                          const SizedBox(height: 24),
+                          
+                          // 提醒天数设置部分
+                          Text(
+                            '提醒天数设置',
+                            style: theme.textTheme.bodySmall?.copyWith(
+                              color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                            ),
+                          ),
+                          const SizedBox(height: 8),
+                          ListTile(
+                            title: const Text('提前提醒天数'),
+                            subtitle: const Text('设置提前多少天提醒物品过期或保修到期'),
+                            trailing: DropdownButton<int>(
+                              value: provider.alertDays,
+                              items: List.generate(
+                                AppConstants.maxAlertDays,
+                                (i) => DropdownMenuItem(
+                                  value: i + 1,
+                                  child: Text('${i + 1}天'),
+                                ),
+                              ),
+                              onChanged: (v) {
+                                if (v != null) provider.setAlertDays(v);
+                              },
+                            ),
+                          ),
+                        ],
+                      );
+                    },
+                  ),
+                ],
+              ),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

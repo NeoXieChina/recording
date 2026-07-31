@@ -3,7 +3,6 @@ package com.example.recording
 import android.Manifest
 import android.app.Activity
 import android.content.ComponentName
-import android.content.ContentResolver
 import android.content.ContentUris
 import android.content.ContentValues
 import android.content.Context
@@ -12,11 +11,11 @@ import android.database.Cursor
 import android.net.Uri
 import android.provider.CalendarContract
 import android.util.Log
+import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import org.json.JSONException
 import org.json.JSONObject
-import android.widget.Toast
 import java.util.Calendar as JavaCalendar
 
 class CalendarHelper {
@@ -55,10 +54,21 @@ class CalendarHelper {
                 != PackageManager.PERMISSION_GRANTED
             ) {
                 // 保存事件等待用户授权
-                pendingEvent = PendingEvent(title, description, location, beginTimeMillis, endTimeMillis, reminderMinutes)
+                pendingEvent = PendingEvent(
+                    title,
+                    description,
+                    location,
+                    beginTimeMillis,
+                    endTimeMillis,
+                    reminderMinutes
+                )
 
                 // 这里可以加解释，但不强制
-                if (ActivityCompat.shouldShowRequestPermissionRationale(activity, Manifest.permission.READ_CALENDAR)) {
+                if (ActivityCompat.shouldShowRequestPermissionRationale(
+                        activity,
+                        Manifest.permission.READ_CALENDAR
+                    )
+                ) {
                     Log.i(TAG, "需要日历权限来添加提醒事件")
                 }
 
@@ -73,7 +83,15 @@ class CalendarHelper {
                 )
             } else {
                 // 权限已授权，直接添加
-                val success = addEvent(activity, title, description, location, beginTimeMillis, endTimeMillis, reminderMinutes)
+                val success = addEvent(
+                    activity,
+                    title,
+                    description,
+                    location,
+                    beginTimeMillis,
+                    endTimeMillis,
+                    reminderMinutes
+                )
                 if (!success) {
                     Toast.makeText(
                         activity,
@@ -97,27 +115,27 @@ class CalendarHelper {
                     && grantResults[0] == PackageManager.PERMISSION_GRANTED
                     && grantResults[1] == PackageManager.PERMISSION_GRANTED
                 ) {
-                Log.i(TAG, "日历权限申请成功")
+                    Log.i(TAG, "日历权限申请成功")
 
-                pendingEvent?.let { event ->
-                    val success = addEvent(
-                        activity,
-                        event.title,
-                        event.description,
-                        event.location,
-                        event.beginTime,
-                        event.endTime,
-                        event.reminderMinutes
-                    )
-                    if (!success) {
-                        Toast.makeText(
+                    pendingEvent?.let { event ->
+                        val success = addEvent(
                             activity,
-                            "请先在系统日历中添加一个账户",
-                            Toast.LENGTH_LONG
-                        ).show()
+                            event.title,
+                            event.description,
+                            event.location,
+                            event.beginTime,
+                            event.endTime,
+                            event.reminderMinutes
+                        )
+                        if (!success) {
+                            Toast.makeText(
+                                activity,
+                                "请先在系统日历中添加一个账户",
+                                Toast.LENGTH_LONG
+                            ).show()
+                        }
+                        pendingEvent = null
                     }
-                    pendingEvent = null
-                }
                 } else {
                     Log.e(TAG, "用户拒绝了日历权限")
                     Toast.makeText(
@@ -141,7 +159,11 @@ class CalendarHelper {
         }
 
         /** 判断事件是否已存在（避免重复） */
-        private fun isEventAlreadyExists(context: Context, title: String, beginTimeMillis: Long): Boolean {
+        private fun isEventAlreadyExists(
+            context: Context,
+            title: String,
+            beginTimeMillis: Long
+        ): Boolean {
             val oneMinuteBefore = beginTimeMillis - 60 * 1000
             val oneMinuteAfter = beginTimeMillis + 60 * 1000
 
@@ -193,7 +215,8 @@ class CalendarHelper {
                 put(CalendarContract.Events.EVENT_TIMEZONE, JavaCalendar.getInstance().timeZone.id)
             }
 
-            val newEvent = context.contentResolver.insert(CalendarContract.Events.CONTENT_URI, eventValues)
+            val newEvent =
+                context.contentResolver.insert(CalendarContract.Events.CONTENT_URI, eventValues)
             if (newEvent == null) {
                 Log.e(TAG, "插入日历事件失败")
                 return false
@@ -207,7 +230,10 @@ class CalendarHelper {
                 put(CalendarContract.Reminders.METHOD, CalendarContract.Reminders.METHOD_ALERT)
             }
 
-            val reminderUri = context.contentResolver.insert(CalendarContract.Reminders.CONTENT_URI, reminderValues)
+            val reminderUri = context.contentResolver.insert(
+                CalendarContract.Reminders.CONTENT_URI,
+                reminderValues
+            )
             if (reminderUri == null) {
                 Log.e(TAG, "插入提醒失败")
                 return false
@@ -231,8 +257,14 @@ class CalendarHelper {
                 val endHour = json.optInt("endHour", startHour + 1)
 
                 val begin = JavaCalendar.getInstance()
-                begin.add(JavaCalendar.DAY_OF_MONTH, 0)         // 哪天开始，Calendar.DAY_OF_MONTH当前时间 + 后面参数值，比如我这里为0，就是今天，如果为1就是明天
-                begin.set(JavaCalendar.HOUR_OF_DAY, startHour)  // 开始的小时，这里是24小时制 startHour的取值范围为0~23
+                begin.add(
+                    JavaCalendar.DAY_OF_MONTH,
+                    0
+                )         // 哪天开始，Calendar.DAY_OF_MONTH当前时间 + 后面参数值，比如我这里为0，就是今天，如果为1就是明天
+                begin.set(
+                    JavaCalendar.HOUR_OF_DAY,
+                    startHour
+                )  // 开始的小时，这里是24小时制 startHour的取值范围为0~23
                 begin.set(JavaCalendar.MINUTE, startMinute)     // 开始的分钟
 
                 val end = begin.clone() as JavaCalendar
@@ -335,11 +367,17 @@ class CalendarHelper {
 
                 val values = ContentValues().apply {
                     put(CalendarContract.Calendars.ACCOUNT_NAME, MY_ACCOUNT_NAME)
-                    put(CalendarContract.Calendars.ACCOUNT_TYPE, CalendarContract.ACCOUNT_TYPE_LOCAL)
+                    put(
+                        CalendarContract.Calendars.ACCOUNT_TYPE,
+                        CalendarContract.ACCOUNT_TYPE_LOCAL
+                    )
                     put(CalendarContract.Calendars.NAME, CALENDAR_NAME)
                     put(CalendarContract.Calendars.CALENDAR_DISPLAY_NAME, CALENDAR_NAME)
                     put(CalendarContract.Calendars.CALENDAR_COLOR, -0x10000) // 红色
-                    put(CalendarContract.Calendars.CALENDAR_ACCESS_LEVEL, CalendarContract.Calendars.CAL_ACCESS_OWNER)
+                    put(
+                        CalendarContract.Calendars.CALENDAR_ACCESS_LEVEL,
+                        CalendarContract.Calendars.CAL_ACCESS_OWNER
+                    )
                     put(CalendarContract.Calendars.OWNER_ACCOUNT, OWNER_ACCOUNT)
                     put(CalendarContract.Calendars.CALENDAR_TIME_ZONE, CALENDAR_TIME_ZONE)
                     put(CalendarContract.Calendars.SYNC_EVENTS, 1)
@@ -348,8 +386,14 @@ class CalendarHelper {
 
                 val builder = CalendarContract.Calendars.CONTENT_URI.buildUpon()
                 builder.appendQueryParameter(CalendarContract.CALLER_IS_SYNCADAPTER, "true")
-                builder.appendQueryParameter(CalendarContract.Calendars.ACCOUNT_NAME, MY_ACCOUNT_NAME)
-                builder.appendQueryParameter(CalendarContract.Calendars.ACCOUNT_TYPE, CalendarContract.ACCOUNT_TYPE_LOCAL)
+                builder.appendQueryParameter(
+                    CalendarContract.Calendars.ACCOUNT_NAME,
+                    MY_ACCOUNT_NAME
+                )
+                builder.appendQueryParameter(
+                    CalendarContract.Calendars.ACCOUNT_TYPE,
+                    CalendarContract.ACCOUNT_TYPE_LOCAL
+                )
 
                 val uri = context.contentResolver.insert(builder.build(), values)
                 if (uri == null) {
@@ -376,7 +420,7 @@ class CalendarHelper {
             val projection = arrayOf(CalendarContract.Calendars._ID)
             val selection = "${CalendarContract.Calendars.ACCOUNT_NAME} = ?"
             val selectionArgs = arrayOf(accountName)
-            
+
             val cursor: Cursor? = try {
                 context.contentResolver.query(
                     CalendarContract.Calendars.CONTENT_URI,
@@ -388,7 +432,7 @@ class CalendarHelper {
             } catch (e: Exception) {
                 null
             }
-            
+
             cursor?.use { c ->
                 if (c.moveToFirst()) {
                     return c.getLong(0)
@@ -440,10 +484,12 @@ class CalendarHelper {
             cursor?.use {
                 val idIndex = it.getColumnIndexOrThrow(CalendarContract.Calendars._ID)
                 val accountIndex = it.getColumnIndexOrThrow(CalendarContract.Calendars.ACCOUNT_NAME)
-                val nameIndex = it.getColumnIndexOrThrow(CalendarContract.Calendars.CALENDAR_DISPLAY_NAME)
+                val nameIndex =
+                    it.getColumnIndexOrThrow(CalendarContract.Calendars.CALENDAR_DISPLAY_NAME)
                 val ownerIndex = it.getColumnIndexOrThrow(CalendarContract.Calendars.OWNER_ACCOUNT)
                 val visibleIndex = it.getColumnIndexOrThrow(CalendarContract.Calendars.VISIBLE)
-                val accountTypeIndex = it.getColumnIndexOrThrow(CalendarContract.Calendars.ACCOUNT_TYPE)
+                val accountTypeIndex =
+                    it.getColumnIndexOrThrow(CalendarContract.Calendars.ACCOUNT_TYPE)
 
                 while (it.moveToNext()) {
                     val id = it.getLong(idIndex)
@@ -463,7 +509,10 @@ class CalendarHelper {
                             accountType = accountType
                         )
                     )
-                    Log.i(TAG, "找到日历账户: ID=$id, 名称=$displayName, 账户=$accountName, 类型=$accountType")
+                    Log.i(
+                        TAG,
+                        "找到日历账户: ID=$id, 名称=$displayName, 账户=$accountName, 类型=$accountType"
+                    )
                 }
             }
 
@@ -486,7 +535,10 @@ class CalendarHelper {
                 if (calendars.isNotEmpty()) {
                     // 返回第一个日历账户的ID
                     val firstCalendar = calendars.first()
-                    Log.i(TAG, "使用现有日历账户: ID=${firstCalendar.id}, 名称=${firstCalendar.displayName}")
+                    Log.i(
+                        TAG,
+                        "使用现有日历账户: ID=${firstCalendar.id}, 名称=${firstCalendar.displayName}"
+                    )
                     return firstCalendar.id
                 }
 

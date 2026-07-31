@@ -16,7 +16,8 @@
 
 ### 模拟数据
 
-应用在首次安装时会自动插入20条模拟数据，便于测试和演示。如需禁用，请修改 `lib/main.dart` 中的 `enableMockData` 常量为 `false`。
+应用在首次安装时会自动插入20条模拟数据，便于测试和演示。如需禁用，请修改 `lib/main.dart` 中的
+`enableMockData` 常量为 `false`。
 
 ### 数据库问题解决
 

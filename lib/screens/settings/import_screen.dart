@@ -1,104 +1,19 @@
-import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:recording/data/datasources/data_export_service.dart';
 
-class ExportImportScreen extends StatefulWidget {
-  final String? initialTab;
-  
-  const ExportImportScreen({super.key, this.initialTab});
-
-  static Route<void> route({String? initialTab}) {
-    return MaterialPageRoute(
-      builder: (context) => ExportImportScreen(initialTab: initialTab),
-    );
-  }
+class ImportScreen extends StatefulWidget {
+  const ImportScreen({super.key});
 
   @override
-  State<ExportImportScreen> createState() => _ExportImportScreenState();
+  State<ImportScreen> createState() => _ImportScreenState();
 }
 
-class _ExportImportScreenState extends State<ExportImportScreen>
-    with SingleTickerProviderStateMixin {
-  late TabController _tabController;
-  ExportFormat _selectedExportFormat = ExportFormat.csv;
+class _ImportScreenState extends State<ImportScreen> {
   ExportFormat? _selectedImportFormat;
-  bool _isExporting = false;
   bool _isImporting = false;
   double _importProgress = 0.0;
   String? _importFilePath;
-
-  @override
-  void initState() {
-    super.initState();
-    _tabController = TabController(length: 2, vsync: this);
-    
-    // 根据传入的参数设置初始标签页
-    if (widget.initialTab == 'import') {
-      _tabController.index = 1;
-    }
-  }
-
-  @override
-  void dispose() {
-    _tabController.dispose();
-    super.dispose();
-  }
-
-  Future<void> _exportData() async {
-    final currentContext = context;
-    setState(() {
-      _isExporting = true;
-    });
-
-    try {
-      final service = DataExportService();
-      final bytes = await service.exportDataToBytes(_selectedExportFormat);
-
-      if (!currentContext.mounted) return;
-
-      final fileExtension = _getFileExtension(_selectedExportFormat);
-      final savePath = await FilePicker.saveFile(
-        dialogTitle: '导出数据',
-        fileName:
-            'export_${DateTime.now().toIso8601String().replaceAll(':', '-').replaceAll('.', '-')}.$fileExtension',
-        allowedExtensions: [fileExtension],
-        type: FileType.custom,
-        bytes: bytes,
-      );
-
-      if (savePath == null) {
-        if (!currentContext.mounted) return;
-        setState(() {
-          _isExporting = false;
-        });
-        return;
-      }
-
-      final file = File(savePath);
-      await file.writeAsBytes(bytes);
-
-      if (!currentContext.mounted) return;
-
-      setState(() {
-        _isExporting = false;
-      });
-
-      ScaffoldMessenger.of(
-        currentContext,
-      ).showSnackBar(SnackBar(content: Text('数据导出成功：$savePath')));
-    } catch (e) {
-      if (!currentContext.mounted) return;
-
-      setState(() {
-        _isExporting = false;
-      });
-
-      ScaffoldMessenger.of(
-        currentContext,
-      ).showSnackBar(SnackBar(content: Text('导出失败：$e')));
-    }
-  }
 
   Future<DuplicateAction?> _showDuplicateActionDialog() async {
     final currentContext = context;
@@ -247,113 +162,36 @@ class _ExportImportScreenState extends State<ExportImportScreen>
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 2,
-      initialIndex: widget.initialTab == 'import' ? 1 : 0,
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text('数据导出与导入'),
-          bottom: TabBar(
-            controller: _tabController,
-            tabs: const [
-              Tab(icon: Icon(Icons.download), text: '导出数据'),
-              Tab(icon: Icon(Icons.upload), text: '导入数据'),
-            ],
-          ),
-        ),
-        body: TabBarView(
-          controller: _tabController,
-          children: [
-            // 导出标签页
-            SingleChildScrollView(
-              padding: const EdgeInsets.all(16),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Icon(
-                        Icons.upload_file,
-                        size: 20,
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
-                      const SizedBox(width: 8),
-                      Text(
-                        '导出数据',
-                        style: Theme.of(context).textTheme.titleMedium,
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 12),
-                  Text(
-                    '导出格式：',
-                    style: Theme.of(context).textTheme.bodyMedium,
-                  ),
-                  const SizedBox(height: 8),
-                  SegmentedButton<ExportFormat>(
-                    segments: ExportFormat.values
-                        .map(
-                          (format) => ButtonSegment<ExportFormat>(
-                            value: format,
-                            label: Text(_getFormatName(format)),
-                          ),
-                        )
-                        .toList(),
-                    selected: {_selectedExportFormat},
-                    onSelectionChanged: (Set<ExportFormat> newSelection) {
-                      setState(() {
-                        _selectedExportFormat = newSelection.first;
-                      });
-                    },
-                  ),
-                  const SizedBox(height: 16),
-                  SizedBox(
-                    width: double.infinity,
-                    child: FilledButton.icon(
-                      onPressed: _isExporting ? null : _exportData,
-                      icon: _isExporting
-                          ? const SizedBox(
-                              width: 16,
-                              height: 16,
-                              child: CircularProgressIndicator(
-                                strokeWidth: 2,
-                              ),
-                            )
-                          : const Icon(Icons.download),
-                      label: Text(_isExporting ? '导出中...' : '导出数据'),
-                    ),
-                  ),
-                ],
+    final theme = Theme.of(context);
+    
+    return Scaffold(
+      body: CustomScrollView(
+        slivers: [
+          SliverAppBar.large(
+            title: Text(
+              '导入数据',
+              style: theme.textTheme.headlineMedium?.copyWith(
+                fontWeight: FontWeight.w600,
               ),
             ),
-            
-            // 导入标签页
-            SingleChildScrollView(
-              padding: const EdgeInsets.all(16),
-              child: Column(
+            leading: IconButton(
+              icon: const Icon(Icons.arrow_back),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+            centerTitle: false,
+            elevation: 0,
+            pinned: true,
+          ),
+          SliverPadding(
+            padding: const EdgeInsets.all(24),
+            sliver: SliverToBoxAdapter(
+               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    children: [
-                      Icon(
-                        Icons.upload,
-                        size: 20,
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
-                      const SizedBox(width: 8),
-                      Text(
-                        '导入数据',
-                        style: Theme.of(context).textTheme.titleMedium,
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 12),
-                  Text(
-                    '导入格式：',
-                    style: Theme.of(context).textTheme.bodyMedium,
-                  ),
-                  const SizedBox(height: 8),
                   SegmentedButton<ExportFormat>(
+                    style: SegmentedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 16),
+                    ),
                     segments: ExportFormat.values
                         .map(
                           (format) => ButtonSegment<ExportFormat>(
@@ -375,22 +213,23 @@ class _ExportImportScreenState extends State<ExportImportScreen>
                       });
                     },
                   ),
-                  const SizedBox(height: 12),
+                  const SizedBox(height: 24),
                   if (_importFilePath != null)
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 12),
+                      padding: const EdgeInsets.only(bottom: 16),
                       child: Text(
                         '已选择文件：${_importFilePath!.split('/').last}',
-                        style: Theme.of(context).textTheme.bodySmall,
+                         style: theme.textTheme.bodyMedium?.copyWith(
+                           color: theme.colorScheme.onSurface.withAlpha((0.8 * 255).round()),
+                         ),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
                     ),
-                  const SizedBox(height: 16),
                   Row(
                     children: [
                       Expanded(
-                        child: OutlinedButton.icon(
+                        child: OutlinedButton(
                           onPressed: () async {
                             if (_selectedImportFormat == null) {
                               if (context.mounted) {
@@ -414,39 +253,61 @@ class _ExportImportScreenState extends State<ExportImportScreen>
                               });
                             }
                           },
-                          icon: const Icon(Icons.folder_open),
-                          label: const Text('选择文件'),
+                           style: OutlinedButton.styleFrom(
+                             shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(25),
+                            ),
+                            padding: const EdgeInsets.symmetric(vertical: 16),
+                          ),
+                          child: const Text(
+                            '选择文件',
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
                         ),
                       ),
                       const SizedBox(width: 12),
                       Expanded(
-                        child: FilledButton.icon(
+                        child: ElevatedButton(
                           onPressed: _isImporting || _importFilePath == null
                               ? null
                               : _importData,
-                          icon: _isImporting
+                           style: ElevatedButton.styleFrom(
+                             shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(25),
+                            ),
+                            padding: const EdgeInsets.symmetric(vertical: 16),
+                          ),
+                          child: _isImporting
                               ? const SizedBox(
-                                  width: 16,
-                                  height: 16,
+                                  width: 24,
+                                  height: 24,
                                   child: CircularProgressIndicator(
-                                    strokeWidth: 2,
+                                    strokeWidth: 3,
                                   ),
                                 )
-                              : const Icon(Icons.upload),
-                          label: Text(_isImporting ? '导入中...' : '导入数据'),
+                              : const Text(
+                                  '导入数据',
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                                ),
                         ),
                       ),
                     ],
                   ),
                   if (_isImporting) ...[
-                    const SizedBox(height: 12),
+                    const SizedBox(height: 16),
                     LinearProgressIndicator(value: _importProgress),
                   ],
                 ],
               ),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
