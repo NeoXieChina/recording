@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:archive/archive.dart';
 import 'package:flutter/foundation.dart';
+import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:recording/constants.dart';
 import 'package:recording/data/datasources/app_database.dart';
@@ -100,7 +101,7 @@ class BackupService {
       if (file.isFile) {
         final data = file.content as List<int>;
         if (file.name == 'items.json') {
-          await _importItems(data);
+          await _importItems(data, appDir.path);
         } else if (file.name == 'reminders.json') {
           await _importReminders(data);
         } else if (file.name.startsWith('images/')) {
@@ -130,17 +131,50 @@ class BackupService {
     return utf8.encode(jsonStr);
   }
 
-  Future<void> _importItems(List<int> data) async {
+  Future<void> _importItems(List<int> data, String appDirPath) async {
     // 使用UTF-8解码JSON数据
     final jsonStr = utf8.decode(data);
     final List<dynamic> jsonList = _jsonDecode(jsonStr);
     for (final map in jsonList) {
       final item = Item.fromMap(map as Map<String, dynamic>);
-      final existing = await _db.getItemById(item.id);
+      
+      // 更新图片路径：将旧路径转换为新设备的路径
+      final updatedImagePaths = <String>[];
+      for (final imagePath in item.imagePaths) {
+        if (imagePath.isNotEmpty) {
+          // 从原始路径中提取相对路径（相对于item_images目录）
+          String relativePath = '';
+          final imageDirName = AppConstants.imageDirectory;
+          
+          // 尝试从路径中提取item_images之后的部分
+          final normalizedPath = imagePath.replaceAll('\\', '/');
+          final dirIndex = normalizedPath.indexOf('$imageDirName/');
+          if (dirIndex != -1) {
+            // 提取item_images之后的部分（包括可能的子目录）
+            final startIndex = dirIndex + imageDirName.length + 1; // +1 for '/'
+            if (startIndex < normalizedPath.length) {
+              relativePath = normalizedPath.substring(startIndex);
+            }
+          }
+          
+          // 如果无法提取相对路径，则只使用文件名
+          if (relativePath.isEmpty) {
+            relativePath = p.basename(imagePath);
+          }
+          
+          // 构建新路径
+          final newPath = p.join(appDirPath, imageDirName, relativePath);
+          updatedImagePaths.add(newPath);
+        }
+      }
+      
+      // 创建更新后的物品
+      final updatedItem = item.copyWith(imagePaths: updatedImagePaths);
+      final existing = await _db.getItemById(updatedItem.id);
       if (existing != null) {
-        await _db.updateItem(item);
+        await _db.updateItem(updatedItem);
       } else {
-        await _db.insertItem(item);
+        await _db.insertItem(updatedItem);
       }
     }
   }

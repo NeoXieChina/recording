@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:path/path.dart' as p;
 import 'package:recording/constants.dart';
 import 'package:recording/data/models/item.dart';
@@ -155,6 +156,19 @@ class AppDatabase {
 
   Future<void> deleteItem(String id) async {
     final db = await database;
+    
+    // 先获取物品的图片路径
+    final item = await getItemById(id);
+    if (item != null && item.imagePaths.isNotEmpty) {
+      // 删除所有关联的图片文件
+      for (final imagePath in item.imagePaths) {
+        final file = File(imagePath);
+        if (await file.exists()) {
+          await file.delete();
+        }
+      }
+    }
+    
     await db.delete('reminders', where: 'itemId = ?', whereArgs: [id]);
     await db.delete('items', where: 'id = ?', whereArgs: [id]);
   }

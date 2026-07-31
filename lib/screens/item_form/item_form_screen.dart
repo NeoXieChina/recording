@@ -774,6 +774,17 @@ class ItemFormScreen extends StatelessWidget {
                     initialDate: currentDate,
                     firstDate: minDate ?? DateTime(2000),
                     lastDate: DateTime(2100),
+                    builder: (BuildContext context, Widget? child) {
+                      return Theme(
+                        data: Theme.of(context).copyWith(
+                          dialogTheme: DialogThemeData(
+                            backgroundColor: Theme.of(context).colorScheme.surface,
+                          ),
+                        ),
+                        child: child!,
+                      );
+                    },
+                    initialEntryMode: DatePickerEntryMode.input,
                   );
                   onPicked(picked);
                 },

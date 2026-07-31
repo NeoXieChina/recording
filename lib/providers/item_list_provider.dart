@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lpinyin/lpinyin.dart';
 import 'package:recording/data/datasources/app_database.dart';
 import 'package:recording/data/models/item.dart';
 
@@ -117,7 +118,7 @@ class ItemListProvider extends ChangeNotifier {
       int compare = 0;
       switch (_sortField) {
         case 'name':
-          compare = a.name.compareTo(b.name);
+          compare = _compareChineseStrings(a.name, b.name);
           break;
         case 'date':
           // 按日期排序：优先按过期日期，相同时按保修日期
@@ -166,7 +167,7 @@ class ItemListProvider extends ChangeNotifier {
           compare = totalPriceA.compareTo(totalPriceB);
           break;
         default:
-          compare = a.name.compareTo(b.name);
+          compare = _compareChineseStrings(a.name, b.name);
       }
       return _sortAscending ? compare : -compare;
     });
@@ -293,7 +294,9 @@ class ItemListProvider extends ChangeNotifier {
           .where((location) => location.isNotEmpty),
     );
     locations.addAll(_customLocations);
-    return locations.toList()..sort();
+    final locationList = locations.toList();
+    locationList.sort(_compareChineseStrings);
+    return locationList;
   }
 
   /// 添加自定义地点
@@ -313,7 +316,9 @@ class ItemListProvider extends ChangeNotifier {
           .where((category) => category.isNotEmpty),
     );
     categories.addAll(_customCategories);
-    return categories.toList()..sort();
+    final categoryList = categories.toList();
+    categoryList.sort(_compareChineseStrings);
+    return categoryList;
   }
 
   /// 添加自定义分类
@@ -331,7 +336,9 @@ class ItemListProvider extends ChangeNotifier {
       _items.map((item) => item.unit).where((unit) => unit.isNotEmpty),
     );
     units.addAll(_customUnits);
-    return units.toList()..sort();
+    final unitList = units.toList();
+    unitList.sort(_compareChineseStrings);
+    return unitList;
   }
 
   /// 添加自定义单位
@@ -369,6 +376,22 @@ class ItemListProvider extends ChangeNotifier {
     } catch (e) {
       _error = e.toString();
       notifyListeners();
+    }
+  }
+
+  /// 比较中文字符串，支持拼音排序
+  int _compareChineseStrings(String a, String b) {
+    // 使用lpinyin进行拼音转换和比较
+    try {
+      // 获取拼音字符串（不带音调，空格分隔）
+      final pinyinA = PinyinHelper.getPinyinE(a, separator: ' ', defPinyin: '');
+      final pinyinB = PinyinHelper.getPinyinE(b, separator: ' ', defPinyin: '');
+      
+      // 比较拼音字符串
+      return pinyinA.compareTo(pinyinB);
+    } catch (e) {
+      // 如果拼音转换失败，回退到默认比较
+      return a.compareTo(b);
     }
   }
 }

@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:recording/data/datasources/backup_service.dart';
@@ -171,10 +172,10 @@ class _RestoreScreenState extends State<RestoreScreen> {
               ),
                   const SizedBox(height: 24),
                   if (_selectedBackupFilePath != null)
-                    Padding(
+                     Padding(
                       padding: const EdgeInsets.only(bottom: 16),
                       child: Text(
-                        '已选择文件：${_selectedBackupFilePath!.split('/').last}',
+                        '已选择文件：${p.basename(_selectedBackupFilePath!)}',
                          style: theme.textTheme.bodyMedium?.copyWith(
                            color: theme.colorScheme.onSurface.withAlpha((0.8 * 255).round()),
                          ),
