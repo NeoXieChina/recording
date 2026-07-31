@@ -1,0 +1,206 @@
+{
+  "@@locale": "zh",
+  "app_name": "藏物方寸",
+  "cancel": "取消",
+  "confirm": "确定",
+  "save": "保存",
+  "delete": "删除",
+  "edit": "编辑",
+  "add": "添加",
+  "search": "搜索",
+  "settings": "设置",
+  "back": "返回",
+  "next": "下一步",
+  "done": "完成",
+  "loading": "加载中...",
+  "error": "错误",
+  "success": "成功",
+  "warning": "警告",
+  "info": "信息",
+  
+
+  "select_alert_days": "选择提醒天数",
+  "custom": "自定义",
+  "custom_days": "自定义（{days}天）",
+  "@custom_days": {
+    "description": "自定义天数带参数",
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "alert_days_range": "提醒天数范围：{min}-{max}天",
+  "@alert_days_range": {
+    "description": "提醒天数范围带参数",
+    "placeholders": {
+      "min": {},
+      "max": {}
+    }
+  },
+  "enter_days": "请输入提醒天数",
+  "days": "天数",
+  "enter_valid_days": "请输入{min}-{max}之间的数字",
+  "@enter_valid_days": {
+    "description": "天数输入验证消息",
+    "placeholders": {
+      "min": {},
+      "max": {}
+    }
+  },
+  
+
+  "alert_settings": "预警设置",
+  "calendar_settings": "日历设置",
+  "calendar_sync": "日历同步",
+  "calendar_sync_desc": "开启后将请求日历权限",
+  "add_test_calendar_event": "添加测试日历事件",
+  "enable_calendar_sync_first": "请先开启\"日历同步\"开关",
+  "app_alert_settings": "App提醒设置",
+  "local_alerts": "本地提醒",
+  "local_alerts_desc": "开启后接收应用内过期提醒",
+  "send_test_notification": "发送测试通知",
+  "enable_local_alerts_first": "请先开启\"本地提醒\"开关",
+  "alert_days_settings": "提醒天数设置",
+  "advance_alert_days": "提前提醒天数",
+  "advance_alert_days_desc": "设置提前多少天提醒物品过期或保修到期",
+  
+
+  "calendar_permission_request": "日历权限请求",
+  "calendar_permission_desc": "需要访问日历权限来同步物品提醒。是否允许？",
+  "allow": "允许",
+  "calendar_permission_granted": "日历权限已授予，日历同步已开启",
+  "calendar_permission_denied": "日历权限被拒绝，无法开启日历同步",
+  "calendar_permission_permanently_denied": "权限被永久拒绝",
+  "calendar_permission_permanently_denied_desc": "日历权限被永久拒绝，请在系统设置中手动开启权限。",
+  "go_to_settings": "去设置",
+  "calendar_account_failed": "日历权限已授予，但无法创建日历账户。请检查系统日历设置",
+  "calendar_account_created": "日历权限已授予，已创建本地日历账户",
+  "calendar_account_creating": "日历账户创建成功，但系统可能需要一些时间生效",
+  "test_calendar_event_added": "测试日历事件添加成功",
+  "test_calendar_event_failed": "添加测试日历事件失败，请检查日历设置",
+  "calendar_permission_required": "需要日历权限才能添加测试事件",
+  
+
+  "test_notification_sent": "测试通知已发送",
+  "test_notification_failed": "发送测试通知失败: {error}",
+  "@test_notification_failed": {
+    "description": "通知错误消息",
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "notification_permission_required": "需要通知权限才能启用本地提醒",
+  
+
+  "operation_failed": "操作失败: {error}",
+  "@operation_failed": {
+    "description": "通用操作错误消息",
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "notification_channel_name": "物品预警通知",
+  "notification_channel_description": "物品过期或过保提醒",
+  "item_category_food": "食品",
+  "item_category_daily_necessities": "日用品",
+  "item_category_cosmetics": "化妆品",
+  "item_category_medicine": "药品",
+  "item_category_electronics": "电子产品",
+  "item_category_furniture": "家具",
+  "item_category_clothing": "服装",
+  "item_category_books": "书籍",
+  "item_category_other": "其他",
+  "purchase_channel_online_mall": "线上商城",
+  "purchase_channel_physical_store": "实体店",
+  "purchase_channel_supermarket": "超市",
+  "purchase_channel_specialty_store": "专卖店",
+  "purchase_channel_secondhand_market": "二手市场",
+  "purchase_channel_other": "其他",
+  "default_category": "其他",
+  "default_purchase_channel": "线上商城",
+  "item_category": "物品分类",
+  "custom_category": "自定义分类",
+  "backup_data": "备份数据",
+  "backup_data_description": "将全部数据（包括图片）打包为ZIP文件备份",
+  "backup_all_data": "备份全部数据",
+  "backup_success": "备份成功",
+  "backup_failed": "备份失败：{error}",
+  "@backup_failed": {
+    "description": "备份失败错误消息",
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "restore_data": "恢复数据",
+  "restore_data_description": "从ZIP备份文件恢复全部数据",
+  "export_data": "导出数据",
+  "export_data_description": "导出为CSV、TXT、SQL格式",
+  "import_data": "导入数据",
+  "import_data_description": "从CSV、TXT、SQL文件导入数据",
+  "alert_settings_description": "日历提醒和App推送提醒设置",
+  "about": "关于",
+  "about_description": "应用信息和版本",
+  "select_backup_file_first": "请先选择备份文件",
+  "confirm_restore": "确认恢复",
+  "confirm_restore_message": "恢复备份将清空所有现有数据并替换为备份数据，此操作不可撤销。确定要继续吗？",
+  "confirm_again": "再次确认",
+  "confirm_restore_warning": "您确定要清空所有现有数据并恢复备份吗？此操作将无法恢复！",
+  "confirm_restore_button": "确定恢复",
+  "restore_success": "恢复成功，共{count}条物品",
+  "@restore_success": {
+    "description": "恢复成功消息",
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "restore_failed": "恢复失败：{error}",
+  "@restore_failed": {
+    "description": "恢复失败错误消息",
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "select_backup_file": "选择备份文件",
+  "restore_backup": "恢复备份",
+  "selected_file": "已选择文件：{filename}",
+  "@selected_file": {
+    "description": "已选择文件消息",
+    "placeholders": {
+      "filename": {}
+    }
+  },
+  "export_success": "数据导出成功",
+  "export_failed": "导出失败：{error}",
+  "@export_failed": {
+    "description": "导出失败错误消息",
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "format_csv": "CSV",
+  "format_txt": "TXT",
+  "format_sql": "SQL",
+  "duplicate_data_handling": "重复数据处理",
+  "duplicate_data_detected": "检测到重复数据，请选择处理方式：",
+  "skip": "跳过",
+  "overwrite": "覆盖",
+  "skip_all": "全部跳过",
+  "overwrite_all": "全部覆盖",
+  "select_import_format_first": "请先选择导入格式",
+  "confirm_import": "确认导入",
+  "confirm_import_message": "导入数据将覆盖现有数据，此操作不可撤销。确定要继续吗？",
+  "import_success": "数据导入成功，共导入{count}条物品",
+  "@import_success": {
+    "description": "导入成功消息",
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "import_failed": "导入失败：{error}",
+  "@import_failed": {
+    "description": "导入失败错误消息",
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "select_file": "选择文件"
+}

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:recording/data/datasources/data_export_service.dart';
+import 'package:recording/generated/l10n/app_localizations.dart';
 
 class ImportScreen extends StatefulWidget {
   const ImportScreen({super.key});
@@ -21,29 +22,30 @@ class _ImportScreenState extends State<ImportScreen> {
   Future<DuplicateAction?> _showDuplicateActionDialog() async {
     final currentContext = context;
     if (!currentContext.mounted) return null;
-
+    
+    final l10n = AppLocalizations.of(currentContext)!;
+    
     return await showDialog<DuplicateAction>(
       context: currentContext,
       builder: (context) => AlertDialog(
-        title: const Text('重复数据处理'),
-        content: const Text('检测到重复数据，请选择处理方式：'),
+        title: Text(l10n.duplicate_data_handling),
+        content: Text(l10n.duplicate_data_detected),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, DuplicateAction.skip),
-            child: const Text('跳过'),
+            child: Text(l10n.skip),
           ),
           TextButton(
             onPressed: () => Navigator.pop(context, DuplicateAction.overwrite),
-            child: const Text('覆盖'),
+            child: Text(l10n.overwrite),
           ),
           TextButton(
             onPressed: () => Navigator.pop(context, DuplicateAction.skipAll),
-            child: const Text('全部跳过'),
+            child: Text(l10n.skip_all),
           ),
           TextButton(
-            onPressed: () =>
-                Navigator.pop(context, DuplicateAction.overwriteAll),
-            child: const Text('全部覆盖'),
+            onPressed: () => Navigator.pop(context, DuplicateAction.overwriteAll),
+            child: Text(l10n.overwrite_all),
           ),
         ],
       ),
@@ -52,11 +54,12 @@ class _ImportScreenState extends State<ImportScreen> {
 
   Future<void> _importData() async {
     final currentContext = context;
+    final l10n = AppLocalizations.of(currentContext)!;
     if (_selectedImportFormat == null) {
       if (!currentContext.mounted) return;
       ScaffoldMessenger.of(
         currentContext,
-      ).showSnackBar(const SnackBar(content: Text('请选择导入格式')));
+      ).showSnackBar(SnackBar(content: Text(l10n.select_import_format_first)));
       return;
     }
 
@@ -90,19 +93,19 @@ class _ImportScreenState extends State<ImportScreen> {
     if (!currentContext.mounted) return;
     final confirm = await showDialog<bool>(
       context: currentContext,
-      builder: (context) => AlertDialog(
-        title: const Text('确认导入'),
-        content: const Text('导入数据将覆盖现有数据，此操作不可撤销。确定要继续吗？'),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context, false),
-            child: const Text('取消'),
-          ),
-          TextButton(
-            onPressed: () => Navigator.pop(context, true),
-            child: const Text('确定'),
-          ),
-        ],
+       builder: (context) => AlertDialog(
+         title: Text(l10n.confirm_import),
+         content: Text(l10n.confirm_import_message),
+         actions: [
+           TextButton(
+             onPressed: () => Navigator.pop(context, false),
+             child: Text(l10n.cancel),
+           ),
+           TextButton(
+             onPressed: () => Navigator.pop(context, true),
+             child: Text(l10n.confirm),
+           ),
+         ],
       ),
     );
 
@@ -132,9 +135,9 @@ class _ImportScreenState extends State<ImportScreen> {
         _isImporting = false;
       });
 
-      ScaffoldMessenger.of(
-        currentContext,
-      ).showSnackBar(SnackBar(content: Text('数据导入成功，共导入$importedCount条物品')));
+       ScaffoldMessenger.of(
+         currentContext,
+       ).showSnackBar(SnackBar(content: Text(l10n.import_success(importedCount))));
       setState(() {
         _importFilePath = null;
       });
@@ -145,9 +148,9 @@ class _ImportScreenState extends State<ImportScreen> {
         _isImporting = false;
       });
 
-      ScaffoldMessenger.of(
-        currentContext,
-      ).showSnackBar(SnackBar(content: Text('导入失败：$e')));
+       ScaffoldMessenger.of(
+         currentContext,
+       ).showSnackBar(SnackBar(content: Text(l10n.import_failed(e.toString()))));
     }
   }
 
@@ -162,29 +165,30 @@ class _ImportScreenState extends State<ImportScreen> {
     }
   }
 
-  String _getFormatName(ExportFormat format) {
+  String _getFormatName(ExportFormat format, AppLocalizations l10n) {
     switch (format) {
       case ExportFormat.csv:
-        return 'CSV';
+        return l10n.format_csv;
       case ExportFormat.txt:
-        return 'TXT';
+        return l10n.format_txt;
       case ExportFormat.sql:
-        return 'SQL';
+        return l10n.format_sql;
     }
   }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
     
     return Scaffold(
       body: CustomScrollView(
         slivers: [
            SliverAppBar.large(
-             title: Text(
-               '导入数据',
-                 style: theme.textTheme.titleLarge,
-             ),
+              title: Text(
+                l10n.import_data,
+                  style: theme.textTheme.titleLarge,
+              ),
              leading: IconButton(
                icon: const Icon(Icons.arrow_back),
                onPressed: () => Navigator.of(context).pop(),
@@ -207,7 +211,7 @@ class _ImportScreenState extends State<ImportScreen> {
                         .map(
                           (format) => ButtonSegment<ExportFormat>(
                             value: format,
-                            label: Text(_getFormatName(format)),
+                            label: Text(_getFormatName(format, l10n)),
                           ),
                         )
                         .toList(),
@@ -228,9 +232,9 @@ class _ImportScreenState extends State<ImportScreen> {
                   if (_importFilePath != null)
                     Padding(
                       padding: const EdgeInsets.only(bottom: 16),
-                      child: Text(
-                         '已选择文件：${p.basename(_importFilePath!)}',
-                         style: theme.textTheme.bodyMedium?.copyWith(
+                       child: Text(
+                          l10n.selected_file(p.basename(_importFilePath!)),
+                          style: theme.textTheme.bodyMedium?.copyWith(
                            color: theme.colorScheme.onSurface.withAlpha((0.8 * 255).round()),
                          ),
                         maxLines: 1,
@@ -241,11 +245,12 @@ class _ImportScreenState extends State<ImportScreen> {
                     children: [
                       Expanded(
                         child: OutlinedButton(
-                          onPressed: () async {
+                           onPressed: () async {
+                            final localL10n = AppLocalizations.of(context)!;
                             if (_selectedImportFormat == null) {
                               if (context.mounted) {
                                 ScaffoldMessenger.of(context).showSnackBar(
-                                  const SnackBar(content: Text('请先选择导入格式')),
+                                  SnackBar(content: Text(localL10n.select_import_format_first)),
                                 );
                               }
                               return;
@@ -280,13 +285,13 @@ class _ImportScreenState extends State<ImportScreen> {
                             ),
                             padding: const EdgeInsets.symmetric(vertical: 16),
                           ),
-                          child: const Text(
-                            '选择文件',
-                            style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w500,
-                            ),
-                          ),
+                           child: Text(
+                             l10n.select_file,
+                             style: TextStyle(
+                               fontSize: 16,
+                               fontWeight: FontWeight.w500,
+                             ),
+                           ),
                         ),
                       ),
                       const SizedBox(width: 12),
@@ -309,13 +314,13 @@ class _ImportScreenState extends State<ImportScreen> {
                                     strokeWidth: 3,
                                   ),
                                 )
-                              : const Text(
-                                  '导入数据',
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.w500,
-                                  ),
-                                ),
+                               : Text(
+                                   l10n.import_data,
+                                   style: TextStyle(
+                                     fontSize: 16,
+                                     fontWeight: FontWeight.w500,
+                                   ),
+                                 ),
                         ),
                       ),
                     ],

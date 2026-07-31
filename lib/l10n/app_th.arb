@@ -1,0 +1,479 @@
+{
+  "@@locale": "th",
+  "app_name": "เก็บของในพื้นที่เล็กๆ",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "ยกเลิก",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "ยืนยัน",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "บันทึก",
+  "@save": {
+    "description": ""
+  },
+  "delete": "ลบ",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "แก้ไข",
+  "@edit": {
+    "description": ""
+  },
+  "add": "เพิ่ม",
+  "@add": {
+    "description": ""
+  },
+  "search": "ค้นหา",
+  "@search": {
+    "description": ""
+  },
+  "settings": "การตั้งค่า",
+  "@settings": {
+    "description": ""
+  },
+  "back": "กลับ",
+  "@back": {
+    "description": ""
+  },
+  "next": "ขั้นตอนถัดไป",
+  "@next": {
+    "description": ""
+  },
+  "done": "เสร็จสิ้น",
+  "@done": {
+    "description": ""
+  },
+  "loading": "กำลังโหลด...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "ข้อผิดพลาด",
+  "@error": {
+    "description": ""
+  },
+  "success": "ความสำเร็จ",
+  "@success": {
+    "description": ""
+  },
+  "warning": "คำเตือน",
+  "@warning": {
+    "description": ""
+  },
+  "info": "ข้อมูล",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "เลือกจำนวนวันที่แจ้งเตือน",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "ปรับแต่งเอง",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "กำหนดเอง ({days} วัน)",
+  "@custom_days": {
+    "description": "กำหนดจำนวนวันด้วยพารามิเตอร์"
+  },
+  "alert_days_range": "ช่วงจำนวนวันที่แจ้งเตือน: {min}-{max} วัน",
+  "@alert_days_range": {
+    "description": "ช่วงวันเตือนพร้อมพารามิเตอร์"
+  },
+  "enter_days": "กรุณาใส่จำนวนวันเตือน",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "จำนวนวัน",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "กรุณาป้อนตัวเลขระหว่าง {min}-{max}",
+  "@enter_valid_days": {
+    "description": "ข้อความยืนยันการป้อนตัวเลขวัน"
+  },
+  "alert_settings": "การตั้งค่าการเตือนล่วงหน้า",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "การตั้งค่าปฏิทิน",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "ซิงค์ปฏิทิน",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "เปิดใช้แล้วจะขออนุญาตเข้าถึงปฏิทิน",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "เพิ่มเหตุการณ์ปฏิทินทดสอบ",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "โปรดเปิดสวิตช์ 'ซิงค์ปฏิทิน' ก่อน",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "การตั้งค่าการแจ้งเตือนแอป",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "การแจ้งเตือนในเครื่อง",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "เปิดใช้งานเพื่อรับการแจ้งเตือนภายในแอปเกี่ยวกับการหมดอายุ",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "ส่งการแจ้งเตือนทดสอบ",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "โปรดเปิดสวิตช์ 'เตือนความจำท้องถิ่น' ก่อน",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "ตั้งค่าจำนวนวันที่เตือน",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "จำนวนวันที่แจ้งเตือนล่วงหน้า",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "ตั้งค่าการเตือนล่วงหน้ากี่วันสำหรับสินค้าที่หมดอายุหรือหมดระยะประกัน",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "คำขอสิทธิ์ปฏิทิน",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "ต้องการสิทธิ์ในการเข้าถึงปฏิทินเพื่อซิงโครไนซ์การเตือนรายการ ต้องการอนุญาตหรือไม่?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "อนุญาต",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "สิทธิ์ปฏิทินได้รับการอนุญาตแล้ว การซิงค์ปฏิทินถูกเปิดใช้งานแล้ว",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "การอนุญาตปฏิทินถูกปฏิเสธ ไม่สามารถเปิดการซิงโครไนซ์ปฏิทินได้",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "การเข้าถึงถูกปฏิเสธอย่างถาวร",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "สิทธิ์ปฏิทินถูกปฏิเสธอย่างถาวร โปรดเปิดสิทธิ์ด้วยตนเองในการตั้งค่าของระบบ",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "ไปที่การตั้งค่า",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "สิทธิ์ปฏิทินได้รับการอนุญาตแล้ว แต่ไม่สามารถสร้างบัญชีปฏิทินได้ กรุณาตรวจสอบการตั้งค่าปฏิทินของระบบ",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "สิทธิ์ปฏิทินได้รับการอนุมัติแล้ว บัญชีปฏิทินท้องถิ่นถูกสร้างขึ้นแล้ว",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "บัญชีปฏิทินสร้างเสร็จแล้ว แต่ระบบอาจต้องใช้เวลาสักครู่ในการมีผล",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "ทดสอบเพิ่มเหตุการณ์ในปฏิทินสำเร็จ",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "การเพิ่มเหตุการณ์ปฏิทินสำหรับการทดสอบล้มเหลว กรุณาตรวจสอบการตั้งค่าปฏิทิน",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "ต้องการสิทธิ์ปฏิทินเพื่อเพิ่มเหตุการณ์ทดสอบ",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "การแจ้งเตือนการทดสอบถูกส่งแล้ว",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "ส่งการแจ้งเตือนทดสอบล้มเหลว: {error}",
+  "@test_notification_failed": {
+    "description": "แจ้งข้อความผิดพลาด"
+  },
+  "notification_permission_required": "จำเป็นต้องมีสิทธิ์ในการแจ้งเตือนเพื่อเปิดใช้งานการเตือนท้องถิ่น",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "การดำเนินการล้มเหลว: {error}",
+  "@operation_failed": {
+    "description": "ข้อความแสดงข้อผิดพลาดการดำเนินงานทั่วไป"
+  },
+  "notification_channel_name": "การแจ้งเตือนสินค้าล่วงหน้า",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "การแจ้งเตือนสินค้าหมดอายุหรือเกินระยะรับประกัน",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "อาหาร",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "ของใช้ประจำวัน",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "เครื่องสำอาง",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "ยา",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "ผลิตภัณฑ์อิเล็กทรอนิกส์",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "เฟอร์นิเจอร์",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "เสื้อผ้า",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "หนังสือ",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "อื่น ๆ",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "ช็อปปิ้งออนไลน์",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "ร้านค้าปลีก",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "ซูเปอร์มาร์เก็ต",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "ร้านค้าเฉพาะ",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "ตลาดมือสอง",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "อื่น ๆ",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "อื่น ๆ",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "ช็อปปิ้งออนไลน์",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "การจัดหมวดหมู่ของสิ่งของ",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "การจัดหมวดหมู่ที่กำหนดเอง",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "สำรองข้อมูล",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "บีบอัดข้อมูลทั้งหมด (รวมถึงรูปภาพ) เป็นไฟล์ ZIP สำหรับสำรอง",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "สำรองข้อมูลทั้งหมด",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "สำรองข้อมูลสำเร็จ",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "สำรองข้อมูลล้มเหลว: {error}",
+  "@backup_failed": {
+    "description": "ข้อความแสดงข้อผิดพลาดการสำรองข้อมูลล้มเหลว"
+  },
+  "restore_data": "กู้คืนข้อมูล",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "กู้คืนข้อมูลทั้งหมดจากไฟล์สำรอง ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "ส่งออกข้อมูล",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "ส่งออกเป็นรูปแบบ CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "นำเข้าข้อมูล",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "นำเข้าข้อมูลจากไฟล์ CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "การตั้งค่าการแจ้งเตือนปฏิทินและการแจ้งเตือนแอป",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "เกี่ยวกับ",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "ข้อมูลแอปและเวอร์ชัน",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "กรุณาเลือกไฟล์สำรองก่อน",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "ยืนยันการกู้คืน",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "การกู้คืนสำรองข้อมูลจะลบข้อมูลทั้งหมดที่มีอยู่และแทนที่ด้วยข้อมูลสำรอง การดำเนินการนี้ไม่สามารถย้อนกลับได้ คุณแน่ใจหรือว่าต้องการดำเนินการต่อ?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "ยืนยันอีกครั้ง",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "คุณแน่ใจหรือว่าต้องการล้างข้อมูลทั้งหมดที่มีอยู่และกู้คืนจากสำรอง? การดำเนินการนี้ไม่สามารถกู้คืนได้!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "ยืนยันการกู้คืน",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "กู้คืนสำเร็จ รวม {count} รายการ",
+  "@restore_success": {
+    "description": "กู้คืนข้อความสำเร็จ"
+  },
+  "restore_failed": "กู้คืนล้มเหลว: {error}",
+  "@restore_failed": {
+    "description": "ข้อผิดพลาดการกู้คืนล้มเหลว"
+  },
+  "select_backup_file": "เลือกไฟล์สำรอง",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "กู้คืนสำรองข้อมูล",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "ไฟล์ที่เลือกแล้ว: {filename}",
+  "@selected_file": {
+    "description": "ข้อความไฟล์ที่เลือกแล้ว"
+  },
+  "export_success": "การส่งออกข้อมูลสำเร็จ",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "ส่งออกไม่สำเร็จ: {error}",
+  "@export_failed": {
+    "description": "ข้อความแสดงข้อผิดพลาดการส่งออกล้มเหลว"
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "การประมวลผลข้อมูลซ้ำ",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "ตรวจพบข้อมูลซ้ำ กรุณาเลือกวิธีการจัดการ:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "ข้าม",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "คลุม",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "ข้ามทั้งหมด",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "ครอบคลุมทั้งหมด",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "กรุณาเลือกประเภทการนำเข้า",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "ยืนยันการนำเข้า",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "การนำเข้าข้อมูลจะเขียนทับข้อมูลที่มีอยู่ การดำเนินการนี้ไม่สามารถย้อนกลับได้ คุณแน่ใจว่าต้องการดำเนินการต่อหรือไม่?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "นำเข้าข้อมูลสำเร็จ นำเข้าสินค้าทั้งหมด {count} รายการ",
+  "@import_success": {
+    "description": "ข้อความนำเข้าเรียบร้อย"
+  },
+  "import_failed": "นำเข้าไม่สำเร็จ: {error}",
+  "@import_failed": {
+    "description": "ข้อความแสดงข้อผิดพลาดการนำเข้าไม่สำเร็จ"
+  },
+  "select_file": "เลือกไฟล์",
+  "@select_file": {
+    "description": ""
+  }
+}

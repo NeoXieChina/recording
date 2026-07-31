@@ -10,7 +10,7 @@ import 'package:recording/services/mock_data_service.dart';
 /// 设置为 false：禁用模拟数据，适用于生产环境
 ///
 /// 上线前请务必将此标志设为 false
-const bool enableMockData = false;
+const bool enableMockData = true;
 
 /// 开发工具：重置数据库标志
 /// 设置为 true 将在启动时删除并重新创建数据库

@@ -1,0 +1,479 @@
+{
+  "@@locale": "pt",
+  "app_name": "Guardar objetos preciosos",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Cancelar",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Confirmar",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Salvar",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Excluir",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Editar",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Adicionar",
+  "@add": {
+    "description": ""
+  },
+  "search": "Pesquisar",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Configurações",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Voltar",
+  "@back": {
+    "description": ""
+  },
+  "next": "Próximo passo",
+  "@next": {
+    "description": ""
+  },
+  "done": "Concluído",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Carregando...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Erro",
+  "@error": {
+    "description": ""
+  },
+  "success": "sucesso",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Aviso",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Informação",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Selecionar o número de dias para lembrete",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Personalizado",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Personalizado ({days} dias)",
+  "@custom_days": {
+    "description": "Dias personalizados com parâmetros"
+  },
+  "alert_days_range": "Intervalo de dias de aviso: {min}-{max} dias",
+  "@alert_days_range": {
+    "description": "Intervalo de dias de lembrete com parâmetro"
+  },
+  "enter_days": "Por favor, insira o número de dias para o lembrete",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Dias",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Por favor, insira um número entre {min} e {max}",
+  "@enter_valid_days": {
+    "description": "Mensagem de validação de entrada de dias"
+  },
+  "alert_settings": "Configuração de alerta",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Configurações do calendário",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Sincronização de calendário",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Após ativar, solicitará permissão para o calendário",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Adicionar evento de calendário de teste",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Por favor, ative primeiro a chave de 'sincronização do calendário'",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Configurações de notificação do aplicativo",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Lembrete local",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Ativar para receber lembretes de expiração dentro do aplicativo",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Enviar notificação de teste",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Por favor, ative primeiro a chave de 'Lembretes locais'",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Configuração de dias de lembrete",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Número de dias de aviso antecipado",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Definir quantos dias de antecedência alertar sobre a expiração de itens ou término da garantia",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Solicitação de permissão do calendário",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "É necessário acessar a permissão do calendário para sincronizar os lembretes de itens. Permitir?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Permitir",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Permissão do calendário concedida, sincronização do calendário ativada",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Permissão do calendário negada, não é possível ativar a sincronização do calendário",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Permissão permanentemente negada",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Permissão do calendário foi permanentemente negada, por favor, ative a permissão manualmente nas configurações do sistema.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Ir para configurações",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "A permissão do calendário foi concedida, mas não é possível criar uma conta de calendário. Por favor, verifique as configurações do calendário do sistema",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Permissão do calendário concedida, conta de calendário local criada",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Conta de calendário criada com sucesso, mas o sistema pode levar algum tempo para entrar em vigor",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Teste de adição de evento ao calendário bem-sucedido",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Falha ao adicionar evento de teste no calendário, por favor verifique as configurações do calendário",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "É necessário permissão de calendário para adicionar um evento de teste",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Notificação de teste enviada",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Falha ao enviar notificação de teste: {error}",
+  "@test_notification_failed": {
+    "description": "Mensagem de erro de notificação"
+  },
+  "notification_permission_required": "É necessário permissão de notificações para ativar lembretes locais",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Operação falhou: {error}",
+  "@operation_failed": {
+    "description": "Mensagem de erro de operação geral"
+  },
+  "notification_channel_name": "Notificação de alerta de itens",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Aviso de vencimento ou expiração de itens",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "alimento",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Artigos de uso diário",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Cosméticos",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Medicamento",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Produtos eletrônicos",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "móveis",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Roupas",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "livros",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Outros",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Loja online",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "loja física",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "supermercado",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Loja exclusiva",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Mercado de segunda mão",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Outros",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Outros",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Loja online",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Classificação de itens",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Classificação personalizada",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Fazer backup dos dados",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Compactar todos os dados (incluindo imagens) em um arquivo ZIP para backup",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Fazer backup de todos os dados",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Backup bem-sucedido",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Falha ao fazer backup: {error}",
+  "@backup_failed": {
+    "description": "Mensagem de erro de falha no backup"
+  },
+  "restore_data": "Recuperar dados",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Restaurar todos os dados a partir do arquivo de backup ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Exportar dados",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Exportar como CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Importar dados",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Importar dados de arquivos CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Configurações de lembrete do calendário e de notificações do aplicativo",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Sobre",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Informações do aplicativo e versão",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Por favor, selecione primeiro o arquivo de backup",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Confirmar restauração",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Restaurar o backup apagará todos os dados existentes e os substituirá pelos dados do backup. Esta operação não pode ser desfeita. Tem certeza de que deseja continuar?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Confirmar novamente",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Você tem certeza de que deseja apagar todos os dados existentes e restaurar o backup? Esta operação não pode ser desfeita!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Confirmar restauração",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Recuperação bem-sucedida, um total de {count} itens",
+  "@restore_success": {
+    "description": "Mensagem de recuperação bem-sucedida"
+  },
+  "restore_failed": "Falha na restauração: {error}",
+  "@restore_failed": {
+    "description": "Falha na restauração: mensagem de erro"
+  },
+  "select_backup_file": "Selecionar arquivo de backup",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Restaurar backup",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Arquivo selecionado: {filename}",
+  "@selected_file": {
+    "description": "Mensagem de arquivo selecionado"
+  },
+  "export_success": "Exportação de dados bem-sucedida",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Falha ao exportar: {error}",
+  "@export_failed": {
+    "description": "Falha ao exportar mensagem de erro"
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Processamento de dados duplicados",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Dados duplicados detectados, por favor escolha o método de processamento:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Pular",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "cobrir",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Pular tudo",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Cobertura total",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Por favor, selecione o formato de importação primeiro",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Confirmar importação",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Importar dados substituirá os dados existentes, esta ação não pode ser desfeita. Tem certeza de que deseja continuar?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Importação de dados bem-sucedida, um total de {count} itens importados",
+  "@import_success": {
+    "description": "Mensagem de importação bem-sucedida"
+  },
+  "import_failed": "Falha ao importar: {error}",
+  "@import_failed": {
+    "description": "Mensagem de erro de falha na importação"
+  },
+  "select_file": "Selecionar arquivo",
+  "@select_file": {
+    "description": ""
+  }
+}

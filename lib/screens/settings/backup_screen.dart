@@ -1,6 +1,7 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:recording/data/datasources/backup_service.dart';
+import 'package:recording/generated/l10n/app_localizations.dart';
 
 class BackupScreen extends StatefulWidget {
   const BackupScreen({super.key});
@@ -14,6 +15,7 @@ class _BackupScreenState extends State<BackupScreen> {
 
   Future<void> _backupAllData() async {
     final currentContext = context;
+    final l10n = AppLocalizations.of(currentContext)!;
     setState(() {
       _isExporting = true;
     });
@@ -29,7 +31,7 @@ class _BackupScreenState extends State<BackupScreen> {
       
       // 直接使用FilePicker保存文件，它会处理Android SAF URI
       final savePath = await FilePicker.saveFile(
-        dialogTitle: '备份全部数据',
+        dialogTitle: l10n.backup_all_data,
         fileName: defaultFileName,
         allowedExtensions: ['zip'],
         type: FileType.custom,
@@ -52,7 +54,7 @@ class _BackupScreenState extends State<BackupScreen> {
 
       ScaffoldMessenger.of(
         currentContext,
-      ).showSnackBar(const SnackBar(content: Text('备份成功')));
+      ).showSnackBar(SnackBar(content: Text(l10n.backup_success)));
     } catch (e) {
       if (!currentContext.mounted) return;
 
@@ -62,7 +64,7 @@ class _BackupScreenState extends State<BackupScreen> {
 
       ScaffoldMessenger.of(
         currentContext,
-      ).showSnackBar(SnackBar(content: Text('备份失败：$e')));
+      ).showSnackBar(SnackBar(content: Text(l10n.backup_failed(e.toString()))));
     }
   }
 
@@ -71,13 +73,14 @@ class _BackupScreenState extends State<BackupScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
 
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-          SliverAppBar.large(
-            title: Text('备份数据', style: theme.textTheme.titleLarge),
+           SliverAppBar.large(
+             title: Text(l10n.backup_data, style: theme.textTheme.titleLarge),
             leading: IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),
@@ -92,9 +95,9 @@ class _BackupScreenState extends State<BackupScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    '将全部数据（包括图片）打包为ZIP文件备份',
-                    style: theme.textTheme.bodyLarge?.copyWith(
+                   Text(
+                     l10n.backup_data_description,
+                     style: theme.textTheme.bodyLarge?.copyWith(
                       color: theme.colorScheme.onSurface.withAlpha(
                         (0.8 * 255).round(),
                       ),
@@ -123,9 +126,9 @@ class _BackupScreenState extends State<BackupScreen> {
                               height: 24,
                               child: CircularProgressIndicator(strokeWidth: 3),
                             )
-                          : Text(
-                              '备份全部数据',
-                              style: TextStyle(
+                           : Text(
+                               l10n.backup_all_data,
+                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w500,
                                 color: theme.colorScheme.onPrimary,

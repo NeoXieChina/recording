@@ -1,6 +1,7 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:recording/data/datasources/data_export_service.dart';
+import 'package:recording/generated/l10n/app_localizations.dart';
 
 class ExportScreen extends StatefulWidget {
   const ExportScreen({super.key});
@@ -15,6 +16,7 @@ class _ExportScreenState extends State<ExportScreen> {
 
   Future<void> _exportData() async {
     final currentContext = context;
+    final l10n = AppLocalizations.of(currentContext)!;
     setState(() {
       _isExporting = true;
     });
@@ -31,7 +33,7 @@ class _ExportScreenState extends State<ExportScreen> {
       
       // 直接使用FilePicker保存文件，它会处理Android SAF URI
       final savePath = await FilePicker.saveFile(
-        dialogTitle: '导出数据',
+        dialogTitle: l10n.export_data,
         fileName: defaultFileName,
         allowedExtensions: [fileExtension],
         type: FileType.custom,
@@ -52,9 +54,9 @@ class _ExportScreenState extends State<ExportScreen> {
         _isExporting = false;
       });
 
-      ScaffoldMessenger.of(
-        currentContext,
-      ).showSnackBar(const SnackBar(content: Text('数据导出成功')));
+       ScaffoldMessenger.of(
+         currentContext,
+       ).showSnackBar(SnackBar(content: Text(l10n.export_success)));
     } catch (e) {
       if (!currentContext.mounted) return;
 
@@ -62,9 +64,9 @@ class _ExportScreenState extends State<ExportScreen> {
         _isExporting = false;
       });
 
-      ScaffoldMessenger.of(
-        currentContext,
-      ).showSnackBar(SnackBar(content: Text('导出失败：$e')));
+       ScaffoldMessenger.of(
+         currentContext,
+       ).showSnackBar(SnackBar(content: Text(l10n.export_failed(e.toString()))));
     }
   }
 
@@ -83,26 +85,27 @@ class _ExportScreenState extends State<ExportScreen> {
     }
   }
 
-  String _getFormatName(ExportFormat format) {
+  String _getFormatName(ExportFormat format, AppLocalizations l10n) {
     switch (format) {
       case ExportFormat.csv:
-        return 'CSV';
+        return l10n.format_csv;
       case ExportFormat.txt:
-        return 'TXT';
+        return l10n.format_txt;
       case ExportFormat.sql:
-        return 'SQL';
+        return l10n.format_sql;
     }
   }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
 
     return Scaffold(
       body: CustomScrollView(
         slivers: [
           SliverAppBar.large(
-            title: Text('导出数据', style: theme.textTheme.titleLarge),
+             title: Text(l10n.export_data, style: theme.textTheme.titleLarge),
             leading: IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),
@@ -125,7 +128,7 @@ class _ExportScreenState extends State<ExportScreen> {
                         .map(
                           (format) => ButtonSegment<ExportFormat>(
                             value: format,
-                            label: Text(_getFormatName(format)),
+                            label: Text(_getFormatName(format, l10n)),
                           ),
                         )
                         .toList(),
@@ -159,14 +162,14 @@ class _ExportScreenState extends State<ExportScreen> {
                               height: 24,
                               child: CircularProgressIndicator(strokeWidth: 3),
                             )
-                          : Text(
-                              '导出数据',
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w500,
-                                color: theme.colorScheme.onPrimary,
-                              ),
-                            ),
+                           : Text(
+                               l10n.export_data,
+                               style: TextStyle(
+                                 fontSize: 16,
+                                 fontWeight: FontWeight.w500,
+                                 color: theme.colorScheme.onPrimary,
+                               ),
+                             ),
                     ),
                   ),
                 ],

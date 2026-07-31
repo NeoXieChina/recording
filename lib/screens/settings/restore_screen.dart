@@ -5,6 +5,7 @@ import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:recording/data/datasources/backup_service.dart';
+import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/providers/settings_provider.dart';
 
 class RestoreScreen extends StatefulWidget {
@@ -44,61 +45,62 @@ class _RestoreScreenState extends State<RestoreScreen> {
 
   Future<void> _restoreBackup() async {
     final currentContext = context;
+    final l10n = AppLocalizations.of(currentContext)!;
     final provider = currentContext.read<SettingsProvider>();
 
     if (_selectedBackupFilePath == null) {
       if (!currentContext.mounted) return;
       ScaffoldMessenger.of(
         currentContext,
-      ).showSnackBar(const SnackBar(content: Text('请先选择备份文件')));
+      ).showSnackBar(SnackBar(content: Text(l10n.select_backup_file_first)));
       return;
     }
 
     // 第一次确认
     if (!currentContext.mounted) return;
-    final confirm1 = await showDialog<bool>(
-      context: currentContext,
-      builder: (context) => AlertDialog(
-        title: const Text('确认恢复'),
-        content: const Text('恢复备份将清空所有现有数据并替换为备份数据，此操作不可撤销。确定要继续吗？'),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context, false),
-            child: const Text('取消'),
-          ),
-          TextButton(
-            onPressed: () => Navigator.pop(context, true),
-            child: const Text('确定'),
-          ),
-        ],
-      ),
-    );
+     final confirm1 = await showDialog<bool>(
+       context: currentContext,
+       builder: (context) => AlertDialog(
+         title: Text(l10n.confirm_restore),
+         content: Text(l10n.confirm_restore_message),
+         actions: [
+           TextButton(
+             onPressed: () => Navigator.pop(context, false),
+             child: Text(l10n.cancel),
+           ),
+           TextButton(
+             onPressed: () => Navigator.pop(context, true),
+             child: Text(l10n.confirm),
+           ),
+         ],
+       ),
+     );
 
     if (!currentContext.mounted) return;
     if (confirm1 != true) return;
 
     // 第二次确认
     if (!currentContext.mounted) return;
-    final confirm2 = await showDialog<bool>(
-      context: currentContext,
-      builder: (context) => AlertDialog(
-        title: const Text('再次确认'),
-        content: const Text('您确定要清空所有现有数据并恢复备份吗？此操作将无法恢复！'),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context, false),
-            child: const Text('取消'),
-          ),
-          FilledButton(
-            onPressed: () => Navigator.pop(context, true),
-            style: FilledButton.styleFrom(
-              backgroundColor: Theme.of(context).colorScheme.error,
-            ),
-            child: const Text('确定恢复'),
-          ),
-        ],
-      ),
-    );
+     final confirm2 = await showDialog<bool>(
+       context: currentContext,
+       builder: (context) => AlertDialog(
+         title: Text(l10n.confirm_again),
+         content: Text(l10n.confirm_restore_warning),
+         actions: [
+           TextButton(
+             onPressed: () => Navigator.pop(context, false),
+             child: Text(l10n.cancel),
+           ),
+           FilledButton(
+             onPressed: () => Navigator.pop(context, true),
+             style: FilledButton.styleFrom(
+               backgroundColor: Theme.of(context).colorScheme.error,
+             ),
+             child: Text(l10n.confirm_restore_button),
+           ),
+         ],
+       ),
+     );
 
     if (!currentContext.mounted) return;
     if (confirm2 != true) return;
@@ -120,9 +122,9 @@ class _RestoreScreenState extends State<RestoreScreen> {
         _selectedBackupFilePath = null;
       });
 
-      ScaffoldMessenger.of(
-        currentContext,
-      ).showSnackBar(SnackBar(content: Text('恢复成功，共$count条物品')));
+       ScaffoldMessenger.of(
+         currentContext,
+       ).showSnackBar(SnackBar(content: Text(l10n.restore_success(count))));
     } catch (e) {
       if (!currentContext.mounted) return;
 
@@ -131,14 +133,15 @@ class _RestoreScreenState extends State<RestoreScreen> {
         _isImporting = false;
       });
 
-      ScaffoldMessenger.of(
-        currentContext,
-      ).showSnackBar(SnackBar(content: Text('恢复失败：$e')));
+       ScaffoldMessenger.of(
+         currentContext,
+       ).showSnackBar(SnackBar(content: Text(l10n.restore_failed(e.toString()))));
     }
   }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final provider = context.watch<SettingsProvider>();
     final theme = Theme.of(context);
     
@@ -146,10 +149,10 @@ class _RestoreScreenState extends State<RestoreScreen> {
       body: CustomScrollView(
         slivers: [
            SliverAppBar.large(
-             title: Text(
-               '恢复数据',
-                 style: theme.textTheme.titleLarge,
-             ),
+              title: Text(
+                l10n.restore_data,
+                  style: theme.textTheme.titleLarge,
+              ),
              leading: IconButton(
                icon: const Icon(Icons.arrow_back),
                onPressed: () => Navigator.of(context).pop(),
@@ -164,9 +167,9 @@ class _RestoreScreenState extends State<RestoreScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-              Text(
-                '从ZIP备份文件恢复全部数据（包括图片）',
-                style: theme.textTheme.bodyLarge?.copyWith(
+               Text(
+                 l10n.restore_data_description,
+                 style: theme.textTheme.bodyLarge?.copyWith(
                   color: theme.colorScheme.onSurface.withAlpha((0.8 * 255).round()),
                 ),
               ),
@@ -174,9 +177,9 @@ class _RestoreScreenState extends State<RestoreScreen> {
                   if (_selectedBackupFilePath != null)
                      Padding(
                       padding: const EdgeInsets.only(bottom: 16),
-                      child: Text(
-                        '已选择文件：${p.basename(_selectedBackupFilePath!)}',
-                         style: theme.textTheme.bodyMedium?.copyWith(
+                       child: Text(
+                         l10n.selected_file(p.basename(_selectedBackupFilePath!)),
+                          style: theme.textTheme.bodyMedium?.copyWith(
                            color: theme.colorScheme.onSurface.withAlpha((0.8 * 255).round()),
                          ),
                         maxLines: 1,
@@ -194,13 +197,13 @@ class _RestoreScreenState extends State<RestoreScreen> {
                             ),
                             padding: const EdgeInsets.symmetric(vertical: 16),
                           ),
-                          child: const Text(
-                            '选择备份文件',
-                            style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w500,
-                            ),
-                          ),
+                           child: Text(
+                             l10n.select_backup_file,
+                             style: TextStyle(
+                               fontSize: 16,
+                               fontWeight: FontWeight.w500,
+                             ),
+                           ),
                         ),
                       ),
                       const SizedBox(width: 12),
@@ -226,13 +229,13 @@ class _RestoreScreenState extends State<RestoreScreen> {
                                     strokeWidth: 3,
                                   ),
                                 )
-                              : const Text(
-                                  '恢复备份',
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.w500,
-                                  ),
-                                ),
+                               : Text(
+                                   l10n.restore_backup,
+                                   style: TextStyle(
+                                     fontSize: 16,
+                                     fontWeight: FontWeight.w500,
+                                   ),
+                                 ),
                         ),
                       ),
                     ],

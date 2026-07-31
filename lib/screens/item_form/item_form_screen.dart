@@ -5,6 +5,7 @@ import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:provider/provider.dart';
 import 'package:recording/constants.dart';
 import 'package:recording/data/models/item.dart';
+import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/providers/item_form_provider.dart';
 import 'package:recording/providers/item_list_provider.dart';
 import 'package:recording/utils/format.dart';
@@ -63,10 +64,12 @@ class ItemFormScreen extends StatelessWidget {
   }) {
     return Consumer<ItemListProvider>(
       builder: (context, itemListProvider, _) {
-        final predefinedCategories = AppConstants.itemCategories;
+        final l10n = AppLocalizations.of(context)!;
+        final predefinedCategoryKeys = AppConstants.itemCategoryKeys;
         final customCategories = itemListProvider.getCategories();
+        
         final allCategories = <String>{}
-          ..addAll(predefinedCategories)
+          ..addAll(predefinedCategoryKeys)
           ..addAll(customCategories)
           ..removeWhere((c) => c.isEmpty);
 
@@ -75,18 +78,21 @@ class ItemFormScreen extends StatelessWidget {
 
         return _buildStyledDropdownButtonFormField<String>(
           context: context,
-          label: '物品分类',
+          label: l10n.item_category,
           value: hasCustomCategory ? 'custom' : value,
           items: [
             ...allCategories.map(
               (c) => DropdownMenuItem(
                 value: c,
-                child: Text(c, overflow: TextOverflow.ellipsis),
+                child: Text(
+                  _getCategoryDisplayText(c, l10n),
+                  overflow: TextOverflow.ellipsis,
+                ),
               ),
             ),
-            const DropdownMenuItem(
+            DropdownMenuItem(
               value: 'custom',
-              child: Text('自定义分类', overflow: TextOverflow.ellipsis),
+              child: Text(l10n.custom_category, overflow: TextOverflow.ellipsis),
             ),
           ],
           onChanged: (v) {
@@ -1334,6 +1340,37 @@ class ItemFormScreen extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  String _getCategoryDisplayText(String categoryKeyOrName, AppLocalizations l10n) {
+    // 检查是否为预定义分类键
+    if (AppConstants.itemCategoryKeys.contains(categoryKeyOrName)) {
+      // 根据键返回本地化文本
+      switch (categoryKeyOrName) {
+        case 'item_category_food':
+          return l10n.item_category_food;
+        case 'item_category_daily_necessities':
+          return l10n.item_category_daily_necessities;
+        case 'item_category_cosmetics':
+          return l10n.item_category_cosmetics;
+        case 'item_category_medicine':
+          return l10n.item_category_medicine;
+        case 'item_category_electronics':
+          return l10n.item_category_electronics;
+        case 'item_category_furniture':
+          return l10n.item_category_furniture;
+        case 'item_category_clothing':
+          return l10n.item_category_clothing;
+        case 'item_category_books':
+          return l10n.item_category_books;
+        case 'item_category_other':
+          return l10n.item_category_other;
+        default:
+          return categoryKeyOrName;
+      }
+    }
+    // 自定义分类，直接返回名称
+    return categoryKeyOrName;
   }
 }
 
