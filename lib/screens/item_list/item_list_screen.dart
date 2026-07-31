@@ -35,6 +35,123 @@ class _ItemListScreenState extends State<ItemListScreen> {
     });
   }
 
+  Widget _buildTitle(BuildContext context, ItemListProvider provider, TextStyle? textStyle, {bool showIcon = true}) {
+    final location = provider.filterLocation;
+    final type = provider.filterType;
+    final category = provider.filterCategory;
+    final dateRange = provider.dateRange;
+    final hasPriceFilter =
+        provider.minUnitPrice != null ||
+        provider.maxUnitPrice != null ||
+        provider.minTotalPrice != null ||
+        provider.maxTotalPrice != null;
+
+    if (location != null && location.isNotEmpty) {
+      return Row(
+        children: [
+          if (showIcon) Icon(
+            Icons.place,
+            size: 20,
+            color: Theme.of(context).colorScheme.primary,
+          ),
+          if (showIcon) const SizedBox(width: 8),
+          Expanded(
+            child: Text(
+              location,
+              style: textStyle,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+        ],
+      );
+    } else if (type != null) {
+      final typeName = type == ItemType.consumable ? '消耗品' : '耐用品';
+      return Row(
+        children: [
+          if (showIcon) Icon(
+            type == ItemType.consumable
+                ? Icons.local_grocery_store
+                : Icons.construction,
+            size: 20,
+            color: Theme.of(context).colorScheme.primary,
+          ),
+          if (showIcon) const SizedBox(width: 8),
+          Expanded(
+            child: Text(
+              typeName,
+              style: textStyle,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+        ],
+      );
+    } else if (category != null && category.isNotEmpty) {
+      return Row(
+        children: [
+          if (showIcon) Icon(
+            Icons.category,
+            size: 20,
+            color: Theme.of(context).colorScheme.primary,
+          ),
+          if (showIcon) const SizedBox(width: 8),
+          Expanded(
+            child: Text(
+              category,
+              style: textStyle,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+        ],
+      );
+    } else if (dateRange != null) {
+      return Row(
+        children: [
+          if (showIcon) Icon(
+            Icons.date_range,
+            size: 20,
+            color: Theme.of(context).colorScheme.primary,
+          ),
+          if (showIcon) const SizedBox(width: 8),
+          Expanded(
+            child: Text(
+              '日期范围筛选',
+              style: textStyle,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+        ],
+      );
+    } else if (hasPriceFilter) {
+      return Row(
+        children: [
+          if (showIcon) Icon(
+            Icons.attach_money,
+            size: 20,
+            color: Theme.of(context).colorScheme.primary,
+          ),
+          if (showIcon) const SizedBox(width: 8),
+          Expanded(
+            child: Text(
+              '价格范围筛选',
+              style: textStyle,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+        ],
+      );
+    }
+
+    return Text(
+      '我的物品',
+      style: textStyle,
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,138 +159,18 @@ class _ItemListScreenState extends State<ItemListScreen> {
       drawer: _buildLocationDrawer(),
       body: CustomScrollView(
         slivers: [
-          SliverAppBar.large(
-            title: Consumer<ItemListProvider>(
-              builder: (context, provider, _) {
-                final location = provider.filterLocation;
-                final type = provider.filterType;
-                final category = provider.filterCategory;
-                final dateRange = provider.dateRange;
-                final hasPriceFilter =
-                    provider.minUnitPrice != null ||
-                    provider.maxUnitPrice != null ||
-                    provider.minTotalPrice != null ||
-                    provider.maxTotalPrice != null;
-
-                if (location != null && location.isNotEmpty) {
-                  return Row(
-                    children: [
-                      Icon(
-                        Icons.place,
-                        size: 20,
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
-                      const SizedBox(width: 8),
-                      Expanded(
-                        child: Text(
-                          location,
-                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                            fontWeight: FontWeight.w600,
-                          ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ),
-                    ],
-                  );
-                } else if (type != null) {
-                  final typeName = type == ItemType.consumable ? '消耗品' : '耐用品';
-                  return Row(
-                    children: [
-                      Icon(
-                        type == ItemType.consumable
-                            ? Icons.local_grocery_store
-                            : Icons.construction,
-                        size: 20,
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
-                      const SizedBox(width: 8),
-                      Expanded(
-                        child: Text(
-                          typeName,
-                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                            fontWeight: FontWeight.w600,
-                          ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ),
-                    ],
-                  );
-                } else if (category != null && category.isNotEmpty) {
-                  return Row(
-                    children: [
-                      Icon(
-                        Icons.category,
-                        size: 20,
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
-                      const SizedBox(width: 8),
-                      Expanded(
-                        child: Text(
-                          category,
-                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                            fontWeight: FontWeight.w600,
-                          ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ),
-                    ],
-                  );
-                } else if (dateRange != null) {
-                  return Row(
-                    children: [
-                      Icon(
-                        Icons.date_range,
-                        size: 20,
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
-                      const SizedBox(width: 8),
-                      Expanded(
-                        child: Text(
-                          '日期范围筛选',
-                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                            fontWeight: FontWeight.w600,
-                          ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ),
-                    ],
-                  );
-                } else if (hasPriceFilter) {
-                  return Row(
-                    children: [
-                      Icon(
-                        Icons.attach_money,
-                        size: 20,
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
-                      const SizedBox(width: 8),
-                      Expanded(
-                        child: Text(
-                          '价格范围筛选',
-                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                            fontWeight: FontWeight.w600,
-                          ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ),
-                    ],
-                  );
-                }
-
-                return Text(
-                  '我的物品',
-                  style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                    fontWeight: FontWeight.w600,
-                  ),
-                );
-              },
-            ),
-            leading: IconButton(
+           SliverAppBar.large(
+             title: Consumer<ItemListProvider>(
+               builder: (context, provider, _) {
+                 return _buildTitle(
+                   context,
+                   provider,
+                     Theme.of(context).textTheme.titleLarge,
+                   showIcon: true,
+                 );
+               },
+             ),
+             leading: IconButton(
               icon: const Icon(Icons.menu),
               onPressed: () => _scaffoldKey.currentState?.openDrawer(),
             ),

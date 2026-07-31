@@ -75,21 +75,19 @@ class _BackupScreenState extends State<BackupScreen> {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-          SliverAppBar.large(
-            title: Text(
-              '备份数据',
-              style: theme.textTheme.headlineMedium?.copyWith(
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-            leading: IconButton(
-              icon: const Icon(Icons.arrow_back),
-              onPressed: () => Navigator.of(context).pop(),
-            ),
-            centerTitle: false,
-            elevation: 0,
-            pinned: true,
-          ),
+           SliverAppBar.large(
+             title: Text(
+               '备份数据',
+                 style: theme.textTheme.titleLarge,
+             ),
+             leading: IconButton(
+               icon: const Icon(Icons.arrow_back),
+               onPressed: () => Navigator.of(context).pop(),
+             ),
+             centerTitle: false,
+             elevation: 0,
+             pinned: true,
+           ),
           SliverPadding(
             padding: const EdgeInsets.all(24),
             sliver: SliverToBoxAdapter(

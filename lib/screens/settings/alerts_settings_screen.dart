@@ -288,20 +288,18 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-          SliverAppBar.large(
-            title: Text(
-              '预警设置',
-              style: theme.textTheme.headlineMedium?.copyWith(
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-            leading: IconButton(
-              icon: const Icon(Icons.arrow_back),
-              onPressed: () => Navigator.of(context).pop(),
-            ),
-            centerTitle: false,
-            elevation: 0,
-            pinned: true,
+           SliverAppBar.large(
+             title: Text(
+               '预警设置',
+                 style: theme.textTheme.titleLarge,
+             ),
+             leading: IconButton(
+               icon: const Icon(Icons.arrow_back),
+               onPressed: () => Navigator.of(context).pop(),
+             ),
+             centerTitle: false,
+             elevation: 0,
+             pinned: true,
           ),
           SliverPadding(
             padding: const EdgeInsets.all(24),
