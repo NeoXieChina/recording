@@ -37,11 +37,17 @@ class ItemListProvider extends ChangeNotifier {
   String? get filterCategory => _filterCategory;
 
   DateTimeRange? get dateRange => _dateRange;
+
   double? get minUnitPrice => _minUnitPrice;
+
   double? get maxUnitPrice => _maxUnitPrice;
+
   double? get minTotalPrice => _minTotalPrice;
+
   double? get maxTotalPrice => _maxTotalPrice;
+
   String get sortField => _sortField;
+
   bool get sortAscending => _sortAscending;
 
   List<Item> get _filteredItems {
@@ -55,19 +61,19 @@ class ItemListProvider extends ChangeNotifier {
           .toList();
     }
     if (_filterCategory != null && _filterCategory!.isNotEmpty) {
-      result = result
-          .where((i) => i.category == _filterCategory)
-          .toList();
+      result = result.where((i) => i.category == _filterCategory).toList();
     }
     // 日期范围筛选（同时检查过期日期和保修日期）
     if (_dateRange != null) {
       result = result.where((i) {
         // 检查过期日期是否在范围内
-        final expiryInRange = i.expiryDate != null &&
+        final expiryInRange =
+            i.expiryDate != null &&
             i.expiryDate!.isAfter(_dateRange!.start) &&
             i.expiryDate!.isBefore(_dateRange!.end);
         // 检查保修日期是否在范围内
-        final warrantyInRange = i.warrantyDate != null &&
+        final warrantyInRange =
+            i.warrantyDate != null &&
             i.warrantyDate!.isAfter(_dateRange!.start) &&
             i.warrantyDate!.isBefore(_dateRange!.end);
         // 只要有一个日期在范围内就保留
@@ -87,8 +93,12 @@ class ItemListProvider extends ChangeNotifier {
     if (_minTotalPrice != null || _maxTotalPrice != null) {
       result = result.where((i) {
         final totalPrice = i.quantity * i.unitPrice;
-        if (_minTotalPrice != null && totalPrice < _minTotalPrice!) return false;
-        if (_maxTotalPrice != null && totalPrice > _maxTotalPrice!) return false;
+        if (_minTotalPrice != null && totalPrice < _minTotalPrice!) {
+          return false;
+        }
+        if (_maxTotalPrice != null && totalPrice > _maxTotalPrice!) {
+          return false;
+        }
         return true;
       }).toList();
     }
@@ -101,7 +111,7 @@ class ItemListProvider extends ChangeNotifier {
             (i.notes?.toLowerCase().contains(query) ?? false);
       }).toList();
     }
-    
+
     // 排序逻辑
     result.sort((a, b) {
       int compare = 0;
@@ -160,7 +170,7 @@ class ItemListProvider extends ChangeNotifier {
       }
       return _sortAscending ? compare : -compare;
     });
-    
+
     return result;
   }
 
@@ -277,9 +287,11 @@ class ItemListProvider extends ChangeNotifier {
   /// 获取所有物品的唯一地点列表，包括自定义地点
   List<String> getLocations() {
     final locations = <String>{};
-    locations.addAll(_items
-        .map((item) => item.storageLocation)
-        .where((location) => location.isNotEmpty));
+    locations.addAll(
+      _items
+          .map((item) => item.storageLocation)
+          .where((location) => location.isNotEmpty),
+    );
     locations.addAll(_customLocations);
     return locations.toList()..sort();
   }
@@ -295,9 +307,11 @@ class ItemListProvider extends ChangeNotifier {
   /// 获取所有物品的唯一分类列表，包括自定义分类
   List<String> getCategories() {
     final categories = <String>{};
-    categories.addAll(_items
-        .map((item) => item.category)
-        .where((category) => category.isNotEmpty));
+    categories.addAll(
+      _items
+          .map((item) => item.category)
+          .where((category) => category.isNotEmpty),
+    );
     categories.addAll(_customCategories);
     return categories.toList()..sort();
   }
@@ -313,9 +327,9 @@ class ItemListProvider extends ChangeNotifier {
   /// 获取所有物品的唯一单位列表，包括自定义单位
   List<String> getUnits() {
     final units = <String>{};
-    units.addAll(_items
-        .map((item) => item.unit)
-        .where((unit) => unit.isNotEmpty));
+    units.addAll(
+      _items.map((item) => item.unit).where((unit) => unit.isNotEmpty),
+    );
     units.addAll(_customUnits);
     return units.toList()..sort();
   }

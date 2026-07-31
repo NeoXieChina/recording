@@ -127,7 +127,11 @@ class AppDatabase {
 
   Future<Item?> getItemByBarcode(String barcode) async {
     final db = await database;
-    final maps = await db.query('items', where: 'barcode = ?', whereArgs: [barcode]);
+    final maps = await db.query(
+      'items',
+      where: 'barcode = ?',
+      whereArgs: [barcode],
+    );
     if (maps.isEmpty) return null;
     return Item.fromMap(maps.first);
   }

@@ -699,8 +699,10 @@ class ItemFormScreen extends StatelessWidget {
           onPicked: isConsumable
               ? provider.setExpiryDate
               : provider.setWarrantyDate,
-          readOnly: true, // 总是只读，因为自动计算
-          showClearButton: false, // 不显示清除按钮
+          readOnly: true,
+          // 总是只读，因为自动计算
+          showClearButton: false,
+          // 不显示清除按钮
           minDate: isConsumable
               ? provider.productionDate
               : provider.purchaseDate,
@@ -841,43 +843,43 @@ class ItemFormScreen extends StatelessWidget {
             ...provider.imagePaths.asMap().entries.map(
               (e) => _buildImageItem(context, e.value, e.key, provider),
             ),
-              GestureDetector(
-                onTap: provider.pickImages,
-                child: SizedBox(
-                  width: 80,
-                  height: 80,
-                  child: Stack(
-                    children: [
-                      // 背景
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          color: Theme.of(context).colorScheme.surface,
-                        ),
+            GestureDetector(
+              onTap: provider.pickImages,
+              child: SizedBox(
+                width: 80,
+                height: 80,
+                child: Stack(
+                  children: [
+                    // 背景
+                    Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8),
+                        color: Theme.of(context).colorScheme.surface,
                       ),
-                       // 虚线边框
-                      CustomPaint(
-                        painter: _DashedBorderPainter(
-                          color: Theme.of(context).colorScheme.outline,
-                          strokeWidth: 1,
-                          borderRadius: 8,
-                          dashWidth: 4,
-                          dashSpace: 4,
-                        ),
-                        size: const Size(80, 80),
+                    ),
+                    // 虚线边框
+                    CustomPaint(
+                      painter: _DashedBorderPainter(
+                        color: Theme.of(context).colorScheme.outline,
+                        strokeWidth: 1,
+                        borderRadius: 8,
+                        dashWidth: 4,
+                        dashSpace: 4,
                       ),
-                      // 加号图标
-                      Center(
-                        child: Icon(
-                          Icons.add,
-                          size: 32,
-                          color: Theme.of(context).colorScheme.primary,
-                        ),
+                      size: const Size(80, 80),
+                    ),
+                    // 加号图标
+                    Center(
+                      child: Icon(
+                        Icons.add,
+                        size: 32,
+                        color: Theme.of(context).colorScheme.primary,
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
+            ),
           ],
         ),
       ],
@@ -1321,17 +1323,20 @@ class _DashedBorderPainter extends CustomPainter {
     // 绘制虚线边框
     final path = Path()..addRRect(rrect);
     final metrics = path.computeMetrics();
-    
+
     for (final metric in metrics) {
       double distance = 0;
       while (distance < metric.length) {
-        final start = metric.getTangentForOffset(distance)?.position ?? Offset.zero;
-        final end = metric.getTangentForOffset(distance + dashWidth)?.position ?? Offset.zero;
-        
+        final start =
+            metric.getTangentForOffset(distance)?.position ?? Offset.zero;
+        final end =
+            metric.getTangentForOffset(distance + dashWidth)?.position ??
+            Offset.zero;
+
         if (distance + dashWidth <= metric.length) {
           canvas.drawLine(start, end, paint);
         }
-        
+
         distance += dashWidth + dashSpace;
       }
     }

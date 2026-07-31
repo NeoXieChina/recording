@@ -7,7 +7,9 @@ class AppRoutes {
   static const String itemEdit = '/items/edit';
   static const String itemAdd = '/items/add';
   static const String settings = '/settings';
-  static const String backup = '/settings/backup';
+  static const String backupRestore = '/settings/backup-restore';
+  static const String exportImport = '/settings/export-import';
+  static const String alertsSettings = '/settings/alerts';
   static const String about = '/settings/about';
 
   /// 路由参数键名

@@ -581,9 +581,20 @@ class _ItemListScreenState extends State<ItemListScreen> {
       builder: (context, provider, _) {
         return Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-          child: SearchBar(
-            hintText: '搜索物品...',
-            leading: const Icon(Icons.search),
+          child: TextField(
+            decoration: InputDecoration(
+              hintText: '搜索物品...',
+              prefixIcon: const Icon(Icons.search),
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(50.0),
+              ),
+              contentPadding: const EdgeInsets.symmetric(
+                vertical: 12.0,
+                horizontal: 16.0,
+              ),
+              filled: true,
+              fillColor: Theme.of(context).colorScheme.surface,
+            ),
             onChanged: provider.setSearchQuery,
           ),
         );
@@ -1612,8 +1623,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
 
     if (existingItem != null) {
       if (!mounted) return;
-      // 条码已存在，询问用户是否相同商品入库
-      final isSameItem = await showDialog<bool>(
+      // 条码已存在，询问用户是入库还是出库
+      final operation = await showDialog<String>(
         context: context,
         builder: (context) => AlertDialog(
           title: const Text('商品已存在'),
@@ -1627,73 +1638,80 @@ class _ItemListScreenState extends State<ItemListScreen> {
               Text('分类：${existingItem.category}'),
               Text('当前数量：${existingItem.quantity}${existingItem.unit}'),
               const SizedBox(height: 16),
-              const Text('是否相同商品入库？'),
+              const Text('请选择操作：'),
             ],
           ),
           actions: [
             TextButton(
-              onPressed: () => Navigator.pop(context, false),
-              child: const Text('否，继续扫码'),
+              onPressed: () => Navigator.pop(context, null),
+              child: const Text('取消'),
             ),
             FilledButton(
-              onPressed: () => Navigator.pop(context, true),
-              child: const Text('是，相同商品'),
+              onPressed: () => Navigator.pop(context, 'outbound'),
+              child: const Text('出库'),
+            ),
+            FilledButton(
+              onPressed: () => Navigator.pop(context, 'inbound'),
+              child: const Text('入库'),
             ),
           ],
         ),
       );
 
-      if (isSameItem == true) {
-        if (!mounted) return;
-        // 询问入库数量
-        final quantityController = TextEditingController(text: '1');
-        final quantity = await showDialog<int>(
-          context: context,
-          builder: (context) => AlertDialog(
-            title: const Text('入库数量'),
-            content: TextField(
-              controller: quantityController,
-              decoration: const InputDecoration(
-                labelText: '数量',
-                hintText: '请输入入库数量',
-              ),
-              keyboardType: TextInputType.number,
-              autofocus: true,
-            ),
-            actions: [
-              TextButton(
-                onPressed: () => Navigator.pop(context),
-                child: const Text('取消'),
-              ),
-              FilledButton(
-                onPressed: () {
-                  final quantity = int.tryParse(quantityController.text.trim());
-                  if (quantity != null && quantity > 0) {
-                    Navigator.pop(context, quantity);
-                  }
-                },
-                child: const Text('确定'),
-              ),
-            ],
-          ),
-        );
+      if (operation == null) {
+        // 用户取消，返回
+        return;
+      }
 
-        if (quantity != null && quantity > 0) {
-          await provider.updateItemQuantity(existingItem.id, quantity);
-          if (mounted) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                content: Text(
-                  '已增加 ${existingItem.name} $quantity${existingItem.unit}',
-                ),
-                duration: const Duration(seconds: 2),
+      if (!mounted) return;
+      // 询问数量
+      final quantityController = TextEditingController(text: '1');
+      final quantity = await showDialog<int>(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: Text(operation == 'inbound' ? '入库数量' : '出库数量'),
+          content: TextField(
+            controller: quantityController,
+            decoration: InputDecoration(
+              labelText: '数量',
+              hintText: operation == 'inbound' ? '请输入入库数量' : '请输入出库数量',
+            ),
+            keyboardType: TextInputType.number,
+            autofocus: true,
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('取消'),
+            ),
+            FilledButton(
+              onPressed: () {
+                final quantity = int.tryParse(quantityController.text.trim());
+                if (quantity != null && quantity > 0) {
+                  Navigator.pop(context, quantity);
+                }
+              },
+              child: const Text('确定'),
+            ),
+          ],
+        ),
+      );
+
+      if (quantity != null && quantity > 0) {
+        final adjustedQuantity = operation == 'inbound' ? quantity : -quantity;
+        await provider.updateItemQuantity(existingItem.id, adjustedQuantity);
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text(
+                operation == 'inbound'
+                    ? '已增加 ${existingItem.name} $quantity${existingItem.unit}'
+                    : '已减少 ${existingItem.name} $quantity${existingItem.unit}',
               ),
-            );
-          }
+              duration: const Duration(seconds: 2),
+            ),
+          );
         }
-      } else {
-        // 用户选择"否，继续扫码"，重新扫描
-        _scanBarcode();
       }
     } else {
       if (!mounted) return;

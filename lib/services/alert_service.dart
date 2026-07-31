@@ -17,6 +17,7 @@ class AlertService {
   bool _calendarSyncEnabled = false;
 
   bool get localAlertsEnabled => _localAlertsEnabled;
+
   bool get calendarSyncEnabled => _calendarSyncEnabled;
 
   Future<void> initialize() async {
@@ -171,6 +172,4 @@ class AlertService {
       constraints: Constraints(networkType: NetworkType.notRequired),
     );
   }
-
-
 }
