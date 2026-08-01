@@ -1,0 +1,1625 @@
+{
+  "@@locale": "ug",
+  "app_name": "سامان ساقلاش جايى",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "تەرتىپتىن چىقىرىش",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "تەستىقلاش",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "ساقلاش",
+  "@save": {
+    "description": ""
+  },
+  "delete": "ئۆچۈرۈش",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "تەھرىرلەش",
+  "@edit": {
+    "description": ""
+  },
+  "add": "قوشۇش",
+  "@add": {
+    "description": ""
+  },
+  "search": "ئىزدەش",
+  "@search": {
+    "description": ""
+  },
+  "settings": "تەڭشەك",
+  "@settings": {
+    "description": ""
+  },
+  "back": "قايتىش",
+  "@back": {
+    "description": ""
+  },
+  "next": "كېيىنكى قەدەم",
+  "@next": {
+    "description": ""
+  },
+  "done": "تۈگەش",
+  "@done": {
+    "description": ""
+  },
+  "loading": "يۈكلىنىۋاتىدۇ...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "خاتالىق",
+  "@error": {
+    "description": ""
+  },
+  "success": "مۇۋەپپەقىيەت",
+  "@success": {
+    "description": ""
+  },
+  "warning": "ئاگاھلاندۇرۇش",
+  "@warning": {
+    "description": ""
+  },
+  "info": "ئۇچۇر",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "ئەسكەرتىش كۈنلىرىنى تاللاڭ",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "مەخسۇس تەڭشەك",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "ئالدىن بەلگىلەنگەن ({days} كۈن)",
+  "@custom_days": {
+    "description": "پەرسىتلىگەن كۈن سانى بىلەن پارامېتىر",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "ئەسكەرتىش كۈنلىرى دائىرىسى：{min}-{max}كۈن",
+  "@alert_days_range": {
+    "description": "ئەسكەرتىش كۈنلىرى دائىرىسى پارامېتىر بىلەن",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "ئەسكەرتىش كۈن سانىنى كىرگۈزۈڭ",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "كۈن سانى",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "请{min}-{max} ئارىلىقىدىكى ساننى كىرگۈزۈڭ",
+  "@enter_valid_days": {
+    "description": "كۈن سانى كىرگۈزۈش تەستىقلاش ئۇچۇرى",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "ئەۋەتىش تەڭشىكى",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "تەۋرەت تەڭشەش",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "تەۋرەت كالېندارىنى ئوخشاشلاشتۇرۇش",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "ئۇچۇر ئېچىلغاندىن كېيىن كالىندار ھوقۇقىنى تەلەپ قىلىدۇ",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "سىناق كالېندار ۋەقەسىنى قوشۇش",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "ئىلتىماس ئالدى بىلەن «كالىندارنى مۇۋاپىقلاشتۇرۇش» ئايرىقىنى ئاچىڭ",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "ئەپ ئەسكەرتىش تەڭشەش",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "يەرلىك ئەسكەرتىش",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "ئۆچۈرۈلگەندىن كېيىن ئىچىدىكى ئۇيغۇرلىنىش ئەسكەرتىشلەرنى قوبۇل قىلىش",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "سىناق ئۇقتۇرۇشىنى ئەۋەتىش",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "ئىلتىماس ئالدى بىلەن «يەرلىك ئەسكەرتىش» نى قوزغاتۇڭ",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "ئەسكەرتىش كۈن سانىنى بەلگىلەش",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "ئالدىن سۆزلەپ ئەسكەرتىش كۈنلىرى",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "مەھسۇلاتنىڭ ۋاقتى ئۆتۈش ياكى كاپالىتىنىڭ ئاخىرلاشقانلىقىنى قاچان دەسكە ئالدۇرۇشنى بەلگىلەش",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "تەقۋىم ھوقۇقىنى سوراش",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "بۇ تۈركۈمدىكى ئەسلىمە ئەسكەرتىشلىرىنى بىر مەزگىلگە كەلتىرىش ئۈچۈن تەقۋىم ئىجازىتىگە ئېرىشىش كېرەك. رۇخسەت بېرىلمۇ؟",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "رۇخسەت قىلىش",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "كالېندار ھوقۇقى بېرىلدى، كالېندار ئوخشاشلىشىش يېقىلدى",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "كالېندار ھوقۇقى رەت قىلىندى، كالېندار ئوخشاشتىرىشنى قوزغىتىپ بولمايدۇ",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "ھوقۇقلار دائىملىقىچە رەت قىلىندى",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "تەھرىرلىك ھوقۇقى دائىملىق رەت قىلىندى، سىستېما تەڭشەكلەردىن ھوقۇقنى قول بىلەن ئاچۇڭ.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "تەڭشەشкә بېرىڭ",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "تەۋرىشلىك ھوقوق بېرىلدى، بىراق تەۋرىشلىك ھېسابات قۇرالمايدۇ. سىستېما تەۋرىشلىك تەڭشەكلەرنى تەكشۈرۈپ بېقىڭ",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "كېلىنەر ھوقۇقى بەرىلدى، يەرلىك كېلىنەر حسابى قۇرۇلدى",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "تاغرام خاتىرىسى مۇۋەپپەقىيەتلىك قۇرۇلدى، ئەمما سىستېما جەريانغا كىرىشىشقا بىر ئاز ۋاقىت ئېلىشى مۇمكىن",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "تەھرىرلەش كۈن تىزىملىكى ۋەقەسى مۇۋەپپەقىيەتلىك قوشۇلدى",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "سىنىقى كۈن تارتقىسى پائالىيىتىنى قوشۇش مەغلۇپ بولدى، كۈن تارتقىسى تەڭشەكلەرنى تەكشۈرۈپ بېقىڭ",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "سىناق پائالىيەتنى قوشۇش ئۈچۈن كۇن تەقۋىم ھوقۇقى كېرەك",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "سىناق ئۇقتۇرۇشى ئەۋەتىلدى",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "سىناش ئېلانىنى يوللاش مەغلۇپ بولدى: {error}",
+  "@test_notification_failed": {
+    "description": "خەۋەر خاتالىق ئۇقتۇرۇشى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "يەرلىك ئەسكەرتىشنى قوزغاتماق ئۈچۈن ئۇقتۇرۇش ھوقۇقى كېرەك",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "操作失败: {error}",
+  "@operation_failed": {
+    "description": "ئومۇمىي ئەمەل قىلىش خاتالىق ئۇچۇرى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "مەھسۇلات ئاگاھلاندۇرۇش دوكلاتى",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "مال-مۈلۈكنىڭ مۇددەت ئۆتۈش ياكى كاپالەت مۇددىتى تېگىشلىك ئاگاھلاندۇرۇشى",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "يەمەك-ئىچمەك",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "كۈنلۈك ئىشلىتىلىدىغان نەرسىلەر",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "چىراغ-چەكەن ئەسۋابلار",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "دەرمان",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "ئېلېكترونلۇق مەھسۇلاتلار",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "ياسالما ئەشيا",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "كىيىم-كەچەك",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "كىتاب",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "باشقا",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "تور بۈيۈك دۇكان",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "رېئال دۇكان",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "دۆكان",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "بايراملىق دۇكان",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "ئىككىنچى قول بازىرى",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "باشقا",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "باشقا",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "تور بۈيۈك دۇكان",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "بايقۇلگەن نەرسىلەرنى تۈرىگە بۆلۈش",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "بايراملىق تۈرلەندۈرۈش",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "سانلىق مەلۇماتنى زاپاس قىلىش",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "بارلىق سانلىق مەلۇماتلارنى (رەسىملەرنى ئۆز ئىچىگە ئالغان) ZIP ھۆججىتىگە ئوراپ زاپاس قىلىڭ",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "ھەممە سانلىق مەلۇماتنى زاپاس قىلىڭ",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "باكلاپ قويۇش مۇۋاپىقىيەتلىك بولدى",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "ئەسلىگە قايتۇرۇش مەغلۇماتى مەغلۇپ بولدى: {error}",
+  "@backup_failed": {
+    "description": "زاپاس نۇسخىسى ياسىلىش ئاپىرىدۇق تېپىلمىدى خەتالىق ئۇچۇرى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "سانلىق مەلۇماتنى ئەسلىگە كەلتۈرۈش",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ZIP زاپاس ھۆججىتىدىن بارلىق سانلىق مەلۇماتنى قىستۇرۇپ چىقىرىش",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "سانلىق مەلۇماتنى چىقىرىش",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "CSV، TXT، SQL شەكلىگە چىقىرىش",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "سانلىق مەلۇماتنى ئىمپورت قىلىش",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "CSV、TXT、SQL ھۇججەتلىرىدىن سانلىق مەلۇماتنى كەلتۈرۈش",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "تۆتۈن جەدۋىلى ئەسكەرتىشى ۋە قوللانما ئەسكەرتىشى تەڭشەش",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "ھەققىدە",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "ئەپ ئۇچۇرى ۋە نەشرى",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "ئەڭ ئاۋۋال زاپاس ھۇججەتنى تاللاڭ",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "قايتا ئەسلىگە كەلتۈرۈشكە جەزملەشتۈرۈش",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "ئۈلگە نۇسخىنى قايتا دەسلەپكى ھالەتكە كەلتۈرۈش بارلىق مېۋجۇت سانلىق-مەلۇماتنى ئۆچۈرىدۇ ۋە ئۇنى ئۈلگە نۇسخىلىق سانلىق-مەلۇمات بىلەن ئالماشتۇرىدۇ، بۇ ئامەلنى ئەكس ئەتتۈرۈپ بولمايدۇ. داۋام قىلماقچىمۇ؟",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "قايتا جەزملەش",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "سىز ھەقىقەتەن بارلىق مەۋجۈت سانلىق مەلۇماتنى تازىلاپ، ساقلانغان نۇسخىنى ئەسلىگە كەلتۈرمەكچىمۇ؟ بۇ ھەرىكەتنى قايتۇرۇپ بولمايدۇ!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "قايتا tikleşنى جەزملەش",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "قايتا تۈزىتىش مۇۋەپپىقىيەتلىك بولدى، جەمئىي {count} پارچە بۇيۇم",
+  "@restore_success": {
+    "description": "قايتا tikلەش مۇۋاپىقىيەتلىك بولدى خەۋىرى",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "قايتا tikلەش مەغلۇپ بولدۇ：{error}",
+  "@restore_failed": {
+    "description": "قايتا tikلەش مەغلۇب بولدى خاتالىق ئۇچۇرى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "زاپاس ھۆججەتنى تاللاڭ",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "باكاپنى قايتا ئەسلىگە كەلتۈرۈش",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "تاللانغان ھۆججەت: {filename}",
+  "@selected_file": {
+    "description": "تاللانغان ھۆججەت ئۇچۇرى",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "سانلىق مەلۇمات چىقىرىش مۇۋەپپەقىيەتلىك بولدى",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "چىقىرىش مەغلۇب بولدۇ：{error}",
+  "@export_failed": {
+    "description": "چىقىرىش مەغلۇپلىقى خاتالىق ئۇچۇرى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "قايتىلانغان سانلىق مەلۇماتنى ئىشلەش",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "قايتىلانغان سانلىق مەلۇمات بايقىلىدى، ئىشلەش ئۇسۇلىنى تاللاڭ:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "ئۆتكۈزۈپ قوي",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "ياسلاش",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "ھەممىنى ئۆتكۈزۈش",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "پۈتكۈل قاپلىما",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "ئەڭ ئاۋۋال ئىمپورت قىلىش ئورنىنى تاللاڭ",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "导入نى جەزىملەشتۈرۈش",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "سانلىق مەلۇماتنى ئېكىرىشتە بار بولغان سانلىق مەلۇمات ئۈستۈنلىنىدۇ، بۇ ھەرىكەتنى قايتۇرغىلى بولمايدۇ. داۋاملاشتۇرمەكچىمۇسىز؟",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "سانلىق مەلۇمات مۇۋەپپەقىيەتلىك ئاپىرۋېتىلدى، جەمئىي {count} دانە بويۇم ئاپىرۋېتىلدى",
+  "@import_success": {
+    "description": "مۇۋەپپەقىيەتلىك ئايلاندۇرۇش ئۇچۇرى",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "چۈشۈرۈش مەغلۇب بولدى：{error}",
+  "@import_failed": {
+    "description": "كىرىتىش مەغلۇپ بولدى خەتالىق ئۇچۇرى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "ھۆججەت تاللاش",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "مەلۇمات يوق",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "ھازىرچە سانلىق مەلۇمات يوق، تۆۋەندىكى كۇنۇپكىنى چېكىپ بىرىنچى خاتىرنى قوشۇڭ!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "يۈكلەش مەغلۇپ بولدى",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "سانلىق مەلۇمات يۈكلەش مەغلۇپ بولدى، تور مۇناسىۋىتىڭىزنى تەكشۈرۈپ قايتا سىناڭ",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "قايتا سىناڭ",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "تور باغلىنىشى مەغلۇپ بولدى",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "تور ئالاقىسىنى تەكشۈرۈپ ئاندىن قايتا سىناڭ",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "نتىجە تېپىلمىدى",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "باشقا ئاچقۇچلۇق سۆزلەرنى ئىشلىتىپ ئىزدەپ بېقىڭ",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "ئىزدەشنى تازىلاش",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "ھوقۇق يېتىشمەسلىك",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "ئۇ بۇ خۇسۇسىيەتنى ئىشلىتىش ئۈچۈن مۇناسىۋەتلىك ھوقۇقلار كېرەك",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "رۇخسەت سوراش",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "ئەپ ئۇچۇرى",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "نەشر",
+  "@version": {
+    "description": ""
+  },
+  "developer": "تەرەققىياتچى",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "ئاپپارات ئۇچۇرى",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "ئاپپارات مودېلى",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "ماركا",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "ئاپپارات نامى",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "مەھسۇلات",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "ئاۋازلىق قۇرۇلما",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android نەشرى",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK نەشرى",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "سىستېما نامى",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "سىستېما نەشرى",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": " ئۈسكۈنىنى تەڭشەش",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "كومپيۇتېر نامى",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "نۇسخا نومۇرى",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": " ئۈسكۈنە ئۇچۇرىنى ئالالمىدى: {error}",
+  "@error_getting_device_info": {
+    "description": " ئۈسكۈنىلەر ئۇچۇرىنى ئالغاندا خاتالىق ئۇچۇرى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "ئىقتىدار تونۇشتۇرۇش",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "ئەقىللىق زاتلار باشقۇرۇش قوللىنىش پروگراممىسى",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "سىزگە بۇيۇملىرىڭىزنىڭ ئۆتكەن ۋاقتى، كاپالەت ۋاقتى قاتارلىق ئۇچۇرلارنى باشقۇرۇشقا ياردەم بېرىدۇ ۋە ئەقىللىق ئەسكەرتىش ئىقتىدارىنى تەمىنلەيدۇ.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "ئىستېمال ماللىرى",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "مەيدانىغا چىداملىق مال",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "تىزىش",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "ئات نامى بويىچە ئارتۇرىش تەرتىپى",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "نام بويىچە تەڭشىتىلگەن كېمەرتىلىش",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "تاريخ بويىچە ئارتۇرىش",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "تاريخنى چۈشۈش تەرتىپى بويىچە",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "بىرلىك باھاسى ئاشۇرىش تەرتىپى",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "بىرلىك باھاسى تەۋەنلىشى بويىچە تەرتىپلەش",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "سان بويىچە ئۆسۈش تەرتىپى",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "سان بويىچە تەڭسىزلەش",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "ھەممە باھاسى ئاشۇرىش تەرتىپى",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "ئومۇمىي باھانى چۈشكەن تىزىملىك",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "بارلىق سۈزگۈچلەردىن تازىلاڭ",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "باھالىق كودنى سىكانىرلاپ كىرىش",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "ھەرىكەتنى ئىزدەش...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "ھازىرچە مەھسۇلات يوق",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "تۆۋەندىكى كۇنۇپكىنى چېكىپ تۇنجى بۇيۇمنى قوشۇڭ",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "مەزگىلى ئۆتكەن",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "تەخمىنەن مۇددىتى ئۆتكەن",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "كاپالىتى ۋاقتى ئۆتۈپ كەتتى",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "كاپالەت مۇددىتى يېتىلىپ قالماقچى",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "قالغان {count} كۈن",
+  "@days_remaining": {
+    "description": "قالغان كۈنلەر پارامېتىر بىلەن",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "ۋاقىتى ئۆتۈپ كېتىپتۇ{count}كۈن",
+  "@expired_days_ago": {
+    "description": "مۇددىتى ئۆتۈپ كەتكىن كۈنلەر بىلەن پارامېتىر",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "بايلىقنى ئۆچۈرۈش",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "«{name}» نى ئۆچۈرۈشنى چىن دىلىڭىزدىن خالايسىز؟",
+  "@delete_item_confirm": {
+    "description": "ئۆچۈرۈشنى جەزىملەشتۈرۈش ئۇچۇرى",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "ھەرىكەت ئۆچۈرۈلدى",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "ئۆچۈرۈش مەغلۇپ بولدى",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "ماتېرىيالنى ئوقۇتۇمۇق: {error}",
+  "@failed_to_delete_message": {
+    "description": "خاتالىق ئۇچۇرىنى ئۆچۈرۈش",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "چېسلا دائىرىسىنى سۈزۈش",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "باھا دائىرىسىنى سۈزۈش",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "مەنىڭ ئەشيايم",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "ئوڭ تۆۋەن بۇشقۇچنى چېكىپ، بۇيرۇقلارنى قوشۇڭ",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "ئۆچۈرۈشنى جەزملەش",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "تاللاش تاللاشلىرى",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "تۈر، تاغىلىق ۋە ئورۇن بويىچە ئەşyالارنى سۈزۈش",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} تۈر",
+  "@categories_count": {
+    "description": "تۈرلەش سانىنى كۆرسىتىش",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "ھەممىسى تۈرى",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "ھازىرچە تۈرلەردىكى سانلىق مەلۇمات يوق",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "ساقلاش ئورنى",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} ئورۇن",
+  "@locations_count": {
+    "description": "ئورۇن سانىنى كۆرسىتىش",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "ھەممە جاي",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "ھازىرچە ئورۇن ئۇچۇرى يوق",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "چۈشۈرۈش دائىرىسى",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "كۈنلەردىكى دائىرىنى تاللاڭ",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "باھالار دائىرىسى",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "باھاسى دائىرىسى",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "ئەڭ تۆۋەن بىرلىك باھا",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "ئەڭ يۇقىرى بىرلىك باھا",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "جەمئىي باھا دائىرىسى",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "ئەڭ تۆۋەن جەمئىي باھا",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "ئەڭ چوڭ جەمئىي باھا",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "باھانى تەكشۈرۈشنى تازىلاش",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "بارات كودنى ئىچىگە سېلىپ سۈرۈشتۈرۇڭ",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "مال ئاللىقاچان مەۋجۇت",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "باركود：{barcode}",
+  "@barcode_with_value": {
+    "description": "باركوددا پارامېتىر كۆرسىتىلىدۇ",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "名称：{name}",
+  "@name_with_value": {
+    "description": "ئات نامى پارامېتىر بىلەن كۆرسىتىلىدۇ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "تۈر：{category}",
+  "@category_with_value": {
+    "description": "پارامېتىر بىلەن تەرتىپ بويىچە كۆرسىتىش",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "ھازىرقى سان: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "ھازىرقى سان كۆرسىتىش پارامېتىر بىلەن",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "ئىشلىتىشنى تاللاڭ:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "مال ساتуға чиқириш",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "مالنى ساقلاشقا كىرىتىش",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "باھالىق سىنىپقا كىرگۈزۈش سانى",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "باھارلىق سانى",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "مىقدار",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "كىرگەن ساننى كىرگۈزۈڭ",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "چۇقۇر ساندىنى كىرگۈزۈڭ",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "ئارتۇرۇلدى {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "مال-مەھسۇلات قوشۇش خەۋىرى",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "«{name}»نى چۈشۈرۈشكە مەيىل قىلدىڭىزمۇ؟ بۇ مەشغۇلاتنى ئورۇنلىغاندىن كېيىن قايتۇرۇش بولمايدۇ.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "ئۆچۈرۈشنى جەزملەشتۈرۈش ئۇچۇرى قايتۇرغىلى بولمايدىغان ئاگاھلاندۇرۇشنى ئۆز ئىچىگە ئالىدۇ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "ئازايتىلدى {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "مال-مەھسۇلات تەڭشىكى خەۋىرى",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "سانلىق مەلۇمات ئىچىلىشى قايتا تەڭشەندى، جەدۋەل قۇرۇلمىسى قايتا يارىتىلىدۇ",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "سانلىق مەلۇمات بازىسىنى قايتا تەڭشەشتە خاتالىق: {error}",
+  "@database_reset_error": {
+    "description": "سانلىق مەلۇماتلار بېسىقىنى قايتا تەڭشەش خاتالىقى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "سېلىشتۇرما سانلىق مەلۇمات باشلىنىش مەغلۇپ بولدى: {error}",
+  "@mock_data_init_failed": {
+    "description": "مۇلازىمەت سانلىق مەلۇماتنى ئىقتىدارى بويىچە باشلاش مەغلۇپ بولدى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "چەرىلەش چارىسى:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. 程式نى چىقىرىپ قايتا قاچىلاڭ",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. ياكى ئەپ سانلىق مەلۇماتنى تازىلاش",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. ياكى resetDatabaseOnStart نى true غا تەڭشەپ قايتا ئىشقا قوزغاتىڭ",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "ئەسكەرتىش مۇلازىمىتى باشلىنىشتىكى مەغلۇپ بولدى: {error}",
+  "@notification_service_init_failed": {
+    "description": "ئۇقتۇرۇش مۇلازىمەتنى ئىنىشىيالىزاتسىيە قىلىش مەغلۇپ بولدى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "تاغىلىق ھېساباتىنى تېكشۈرۈش مەغلۇپ بولدى: {error}",
+  "@check_calendar_account_failed": {
+    "description": "تەقۋىم ھېساباتىنى تەكشۈرۈش مەغلۇم بولمىدى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "كالېندار قۇرۇش مەغلۇب بولدى: {error}",
+  "@create_calendar_failed": {
+    "description": "تەقۋىم ياسىلاش مەغلۇپ بولدى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "تاغىلىق تەرەپتە كۈندەلىك ۋەقە قوشۇش مەغلۇپ بولدى: {error}",
+  "@add_calendar_event_failed": {
+    "description": "تەقۋىم پائالىيىتىنى قوشۇش مەغلۇپ بولدى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "تاغىلىق تەرەپتىن كۈن تۈزۈلمە ۋەقەسىنى ئۆچۈرۈش مەغلۇپ بولدى: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "تەقۋىم ۋەقەسىنى ئۆچۈرۈش مەغلۇپ بولدى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "ھوقۇق بەلگىلەش تېكىستى ئۇقتۇرۇشى مەغلۇپ بولدى: {error}",
+  "@set_permission_message_failed": {
+    "description": "ھوقۇق تەڭشىكى ئۇقتۇرۇش ئۇچۇرىنى بەرەلمىدى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "مۇۋاپىققىيەتلىك ھالدا {count} نۇمۇر سىنىما ئۇچۇرلىرىنى ئىلگىرى سۈرۈلدى",
+  "@mock_data_init_success": {
+    "description": "مۇلازىمەت سانلىق مەلۇماتنى باشلىنىش مۇۋەپپىقىيەتلىك بولدى",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "سانلىق مەلۇماتlar بېلىگىسىدە {count} مەلۇمات بار، ئەڭگەر مەلۇمات باشلانغۇچلاندۇرۇشتا ئۆتۈپ ئىلگىرىلە",
+  "@database_has_data": {
+    "description": "سانلىق مەلۇماتلار بېكىتىلىپ بولغان",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "مەنبە سانلىق مەلۇماتقا ماس كەلمەسلىك بولۇشى مۇمكىن، قوللىنىشچى سانلىق مەلۇماتىنى تازىلاش ياكى قايتا قاچىلىشنى تەۋسىيە قىلىمىز",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "كۆنكى سانلىق مەلۇمات بېكىتىش ھۆججىتى ئۆچۈرلدى",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "زاپاس ئۇچۇرى بوش",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "زاپاس ھۆججەت موجود ئەمەس",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "ھۆججەت كودلىمىسى دەلى UTF-8 فارماتىدا ئەمەس. ھۆججەتنىڭ UTF-8 كودلىمىسىدا ساقلانغانلىقىغا كاپالەتلىك قىلىڭ. خاتالىق تەپسىلاتلىرى: {error}",
+  "@file_not_utf8": {
+    "description": "ھۈججەت كودلىشى خاتالىقى",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "ھۆججەت مەۋجۇت ئەمەس: {filePath}",
+  "@file_not_found": {
+    "description": "ھۈججەت مەۋجۇت ئەمەس خاتالىقى",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "ھۆججەت بوش: {filePath}",
+  "@file_empty": {
+    "description": "ھۈججەت بوش خاتالىقى",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "ھۆججەت مەزمۇنى كودىدىن ئېرىشىلگەندىن كېيىن بوش، مۇمكىن كودلاش ماس كەلمەسلىك",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} بوش بولالمايدۇ",
+  "@field_cannot_be_empty": {
+    "description": "بايلانما بوش بولالمىسلىكىنى تەكشۈرۈش",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} ئۇزۇنلۇقى {minLength} خەتتىن ئاز بولالمايدۇ",
+  "@field_min_length": {
+    "description": "مەيداننىڭ ئەڭ كىچىك ئۇزۇنلۇقىنى تەكشۈرۈش",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} ئۇزۇنلۇقى {maxLength} خاراكتېرنى ئاشالمىسىز",
+  "@field_max_length": {
+    "description": "تەڭشەلمە ئەڭ چوڭ ئۇزۇنلۇقىنى دەلىللەش",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "ئەڭ مۆۋاپىق {fieldName} ئادرېسنى كىرگۈزۈڭ",
+  "@field_invalid_email": {
+    "description": "ئېلخەت فۆرماتىنى تەكشۈرۈش",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} {numberType} بولۇشى كېرەك",
+  "@field_invalid_number": {
+    "description": "سانلىق فورمات تەكشۈرۈشى",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} {min} دىن كىچىك بولالمايدۇ",
+  "@field_min_value": {
+    "description": "ئەڭ كىچىك قىممەتنى تەكشۈرۈش",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} {max} دىن چوڭ بولالمайды",
+  "@field_max_value": {
+    "description": "ئەڭ چوڭ قىممەتنى تەكشۈرۈش",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} مۇستەھكەم توق سان بولۇشى كېرەك",
+  "@field_positive_integer": {
+    "description": "تەك ساننى دەلىللەش",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} 0 دىن چوڭ بولۇشى كېرەك",
+  "@field_greater_than_zero": {
+    "description": "نۆلدىن چوڭ ئىسپاتلاش",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} مۇسبەت سان بولۇشى كېرەك",
+  "@field_positive_number": {
+    "description": "تەۋسىيە قىلمىق ئەڭ مەنپىي سان",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "قۇلىقىدىكى{fieldName}نى كىرگۈزۈڭ",
+  "@field_invalid_date": {
+    "description": "چېسلا شەكلىنى تەكشۈرۈش",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} ئۆتكەن كۈندىن بولالمايدۇ",
+  "@field_date_not_past": {
+    "description": "چۈشكىنچە بولغان كۈندۈرمە بولماسلىقى كېرەك",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} {minDate} دىن بۇرۇن بولالمايدۇ",
+  "@field_date_not_before": {
+    "description": "چوڭلۇق كۈندىن بۇرۇن بولالميدۇ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} {maxDate} دىن كېچى بولماسلىقى كېرەك",
+  "@field_date_not_after": {
+    "description": "كۈنى بەلگىلەنگەن كۈندىن كېيىن بولالمايدۇ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "ئىجازەتلىك {fieldName} نى كىرگۈزۈڭ",
+  "@field_invalid_value": {
+    "description": "ئىناۋەتسىز قىممەتنى تەكشۈرۈش",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} ئۇزۇنلۇقى 8 خەتتىن تېمەسلىكى كېرەك",
+  "@password_min_length": {
+    "description": "پارولنىڭ ئەڭ كىچىك ئۇزۇنلۇقىنى تەكشۈرۈش",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} ئەڭ ئازلىقى بىلەن بىر چوڭ ھەرپنى ئۆز ئىچىگە ئالغان بولۇشى كېرەك",
+  "@password_uppercase_required": {
+    "description": "پارولدا چوڭ ھەرپ بولۇشى كېرەك",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} ئەڭ ئازلىقى بىلەن بىر كىچىك ھەرپنى ئۆز ئىچىگە ئالغان بولۇشى كېرەك",
+  "@password_lowercase_required": {
+    "description": "پارول كىچىك ھەرىپلەرنى ئۆز ئىچىگە ئالىشى كېرەك",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} ئەتەڭ دەڭگىدىن بىرى ساننى ئۆز ئىچىگە ئالغان بولۇشى كېرەك",
+  "@password_digit_required": {
+    "description": "پارولدا سانلار بولۇشى كېرەك",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} ئەڭ ئاز بىر خاس خەتنى ئۆز ئىچىگە ئالۇشى مۇھىم",
+  "@password_special_char_required": {
+    "description": "پارولىدا ئالاھىدە خەتلەر بولۇشى كېرەك",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "ئىككى قېتىم كىرگۈزگەن پارول ماس كەلمىدى",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "ھەرىكەت نامى بوش قالالمىيدۇ",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "ئات نامى {maxLength} خەتتىدىن ئارتۇق بولماسلىقى كېرەك",
+  "@name_max_length": {
+    "description": "ئاتنىڭ ئەڭ چوڭ ئۇزۇنلۇقىنى تەكشۈرۈش",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "مىقدارى {minQuantity} دەندە كىچىك بولالمайды",
+  "@quantity_min": {
+    "description": "ئەڭ كىچىك سان مىقدارىنى تەكشۈرۈش",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "سانى {maxQuantity} دىن ئاشماسلىقى كېرەك",
+  "@quantity_max": {
+    "description": "مىقدارنىڭ ئەڭ چوڭ قىممىتىنى تەكشۈرۈش",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "بىرلىك باھاسى منپى بولالمайды",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "بىرلىكىنىڭ باھاسى {maxUnitPrice} دىن ئېشىپ كەتمەسلىكى كېرەك",
+  "@unit_price_max": {
+    "description": "بىرلىك باھاسى ئەڭ چوڭ قىممەتنى تەكشۈرۈش",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "ئەسلى ئىشلەپچىقىرىش كۈنى ۋە ساقلاش مۇددىتىنى تەڭشەپ، ھەقىقىي مۇددىتىنى ئاپتوماتىك ھېسابلاڭ",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "توراپ بېسىش ۋاقتى ۋە ساقلاش مۇددىتىنى بەلگىلەپ، كاپالەت مۇددىتىنى ئاپتوماتىك ھېسابلاڭ",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "تاقۋىم ھېساباتنى قۇرۇپ بولمىدى، سىستېما تاقۋىم تەڭشەكلىرىنى تەكشۈرۈپ بېقىڭ",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "سىناش ئۇقتۇرىشى",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "بۇ بىر سىناقتىكى ئۇقتۇرۇش بولۇپ، يەرلىك ئەسكەرتمە ئىقتىدارىنى تەكشۈرۈش ئۈچۈن ئىشلىتىلىدۇ",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "تەبىئەت",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} كۈن",
+  "@days_with_value": {
+    "description": "كۈن سانىدا پارامېتىر",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "مال ساقلانغان",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "مال يېڭىلاندى",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "مال قوشۇلدى",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "مۇۋەپپەقىيەتلىك ساقلاندى",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "يېڭىلانغاندا مۇۋاپىقىيەتلىك بولدى",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "ئۆچۈرۈش مۇۋەپپىقىيەتلىك بولدى",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "ساقلاش مەغلۇپ بولدى",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "يېڭىلانمىدى",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "ئۆچۈرۈش مەغلۇپ بولدى",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "تىل تەڭشەش",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "ئەپ كۆرۈنۈش تىلىنى بېكىتىش",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "سىستېما ئەسلى تەڭشىكى",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "سىستېما تىلىنى ئىشلىتىش",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "تىل ئۆزگىرىشى ئاپپېلىكىسىيەنى قايتا قوزغاتقىنىڭىزدىن كېيىن قوللىنىلىدۇ",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "نۆۋەتتىكى تاللاش: {days} كۈن",
+  "@current_selection": {
+    "description": "ھازىرقى تاللانغان كۈن سانى كۆرسىتىلىدۇ",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

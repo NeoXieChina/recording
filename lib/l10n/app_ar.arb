@@ -1,0 +1,1625 @@
+{
+  "@@locale": "ar",
+  "app_name": "الاحتفاظ بالأشياء الصغيرة",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "إلغاء",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "تأكيد",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "حفظ",
+  "@save": {
+    "description": ""
+  },
+  "delete": "حذف",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "تحرير",
+  "@edit": {
+    "description": ""
+  },
+  "add": "إضافة",
+  "@add": {
+    "description": ""
+  },
+  "search": "بحث",
+  "@search": {
+    "description": ""
+  },
+  "settings": "إعدادات",
+  "@settings": {
+    "description": ""
+  },
+  "back": "عودة",
+  "@back": {
+    "description": ""
+  },
+  "next": "التالي",
+  "@next": {
+    "description": ""
+  },
+  "done": "اكتمل",
+  "@done": {
+    "description": ""
+  },
+  "loading": "جارٍ التحميل...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "خطأ",
+  "@error": {
+    "description": ""
+  },
+  "success": "نجاح",
+  "@success": {
+    "description": ""
+  },
+  "warning": "تحذير",
+  "@warning": {
+    "description": ""
+  },
+  "info": "معلومات",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "اختر عدد أيام التذكير",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "مخصص",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "مخصص ({days} أيام)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "نطاق عدد أيام التذكير: {min}-{max} يوم",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "الرجاء إدخال عدد أيام التذكير",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "أيام",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "يرجى إدخال رقم بين {min} و{max}",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "إعداد التنبيهات",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "إعدادات التقويم",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "مزامنة التقويم",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "سيطلب إذن التقويم عند التفعيل",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "إضافة حدث تقويم للاختبار",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "يرجى أولاً تفعيل خيار \"مزامنة التقويم\"",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "إعدادات تذكير التطبيق",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "تذكير محلي",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "بعد التفعيل، تلقي إشعارات انتهاء الصلاحية داخل التطبيق",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "إرسال إشعار اختبار",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "يرجى أولاً تشغيل مفتاح \"التنبيهات المحلية\"",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "إعداد عدد أيام التذكير",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "أيام التذكير المسبق",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "ضبط عدد الأيام مسبقًا لتذكير بانتهاء صلاحية العنصر أو ضمانه",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "طلب إذن التقويم",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "تتطلب هذه العملية إذن الوصول إلى التقويم لمزامنة تذكيرات العناصر. هل تسمح بذلك؟",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "يسمح",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "تم منح إذن التقويم، وتم تفعيل مزامنة التقويم",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "تم رفض إذن التقويم، لا يمكن تفعيل مزامنة التقويم",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "تم رفض الإذن بشكل دائم",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "تم رفض إذن التقويم بشكل دائم، يرجى تمكين الإذن يدويًا في إعدادات النظام.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "اذهب إلى الإعدادات",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "تم منح إذن التقويم، ولكن لا يمكن إنشاء حساب التقويم. يرجى التحقق من إعدادات تقويم النظام",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "تم منح إذن التقويم، وتم إنشاء حساب تقويم محلي",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "تم إنشاء حساب التقويم بنجاح، ولكن قد يحتاج النظام لبعض الوقت ليصبح فعالًا",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "تمت إضافة حدث التقويم بنجاح",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "فشل في إضافة حدث تقويمي للاختبار، يرجى التحقق من إعدادات التقويم",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "تحتاج إلى إذن التقويم لإضافة حدث تجريبي",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "تم إرسال إشعار الاختبار",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "فشل في إرسال إشعار الاختبار: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "يجب الحصول على إذن الإشعارات لتمكين التنبيهات المحلية",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "فشل العملية: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "إشعار تنبيه العناصر",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "تذكير بانتهاء صلاحية أو ضمان العناصر",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "الطعام",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "المستلزمات اليومية",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "مستحضرات التجميل",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "دواء",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "المنتجات الإلكترونية",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "الأثاث",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "ملابس",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "كتب",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "آخر",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "المتجر الإلكتروني",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "متجر فعلي",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "سوبر ماركت",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "متجر حصري",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "السوق المستعملة",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "آخر",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "آخر",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "المتجر الإلكتروني",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "تصنيف الأشياء",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "تصنيف مخصص",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "نسخ احتياطي للبيانات",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "ضغط جميع البيانات (بما في ذلك الصور) في ملف ZIP للنسخ الاحتياطي",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "نسخ جميع البيانات احتياطيًا",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "تم النسخ الاحتياطي بنجاح",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "نسخ احتياطي فشل: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "استعادة البيانات",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "استعادة جميع البيانات من ملف النسخ الاحتياطي ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "تصدير البيانات",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "التصدير بصيغ CSV و TXT و SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "استيراد البيانات",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "استيراد البيانات من ملفات CSV وTXT وSQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "إعداد تذكيرات التقويم وإشعارات التطبيقات",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "حول",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "معلومات التطبيق والإصدار",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "يرجى اختيار ملف النسخة الاحتياطية أولاً",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "تأكيد الاستعادة",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "استعادة النسخة الاحتياطية ستؤدي إلى مسح جميع البيانات الحالية واستبدالها ببيانات النسخة الاحتياطية، ولا يمكن التراجع عن هذا الإجراء. هل تريد الاستمرار؟",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "تأكيد مرة أخرى",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "هل أنت متأكد من رغبتك في مسح جميع البيانات الحالية واستعادة النسخة الاحتياطية؟ لا يمكن التراجع عن هذا الإجراء!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "تأكيد الاستعادة",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "استعادة ناجحة، إجمالي {count} عناصر",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "فشل الاستعادة: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "اختر ملف النسخة الاحتياطية",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "استعادة النسخة الاحتياطية",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "تم اختيار الملف: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "تم تصدير البيانات بنجاح",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "فشل التصدير: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "إس كيو إل",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "معالجة البيانات المكررة",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "تم الكشف عن بيانات مكررة، يرجى اختيار طريقة المعالجة:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "تخطي",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "غطاء",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "تخطي الكل",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "تغطية كاملة",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "يرجى أولاً اختيار تنسيق الاستيراد",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "تأكيد الاستيراد",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "استيراد البيانات سيؤدي إلى استبدال البيانات الحالية، ولا يمكن التراجع عن هذا الإجراء. هل أنت متأكد أنك تريد المتابعة؟",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "تم استيراد البيانات بنجاح، تم استيراد {count} عنصر",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "فشل الاستيراد: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "اختر الملف",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "لا توجد بيانات",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "لا توجد بيانات حالياً، انقر على الزر أدناه لإضافة السجل الأول!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "فشل التحميل",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "فشل تحميل البيانات، يرجى التحقق من اتصال الشبكة ثم المحاولة مرة أخرى",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "أعد المحاولة",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "فشل اتصال الشبكة",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "يرجى التحقق من اتصال الشبكة ثم المحاولة مرة أخرى",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "لم يتم العثور على نتائج",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "حاول البحث باستخدام كلمات مفتاحية أخرى",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "مسح البحث",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "صلاحيات غير كافية",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "تحتاج إلى الأذونات ذات الصلة لاستخدام هذه الميزة",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "طلب الإذن",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "معلومات التطبيق",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "الإصدار",
+  "@version": {
+    "description": ""
+  },
+  "developer": "مطور",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "معلومات الجهاز",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "طراز الجهاز",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "العلامة التجارية",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "اسم الجهاز",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "منتج",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "الأجهزة",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "نسخة أندرويد",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "إصدار SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "اسم النظام",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "إصدار النظام",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "معرّف الجهاز",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "اسم الكمبيوتر",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "رقم الإصدار",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "لا يمكن الحصول على معلومات الجهاز: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "مقدمة الوظائف",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "تطبيق إدارة الأجهزة الذكية",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "مساعدتك في إدارة تواريخ انتهاء الصلاحية، وتواريخ الضمان، وغيرها من المعلومات المتعلقة بالأشياء، وتقديم ميزة التذكير الذكي.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "مستهلكات",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "سلع متينة",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "الترتيب",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "الترتيب التصاعدي للاسم",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "الترتيب التنازلي حسب الاسم",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "ترتيب تصاعدي حسب التاريخ",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "ترتيب تنازلي حسب التاريخ",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "ترتيب حسب سعر الوحدة تصاعديًا",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "ترتيب السعر من الأعلى إلى الأقل",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "ترتيب تصاعدي حسب الكمية",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "ترتيب تنازلي حسب الكمية",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "الترتيب حسب السعر الإجمالي من الأقل إلى الأعلى",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "الترتيب حسب السعر الإجمالي من الأعلى إلى الأدنى",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "مسح جميع الفلاتر",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "مسح الرمز لإدخال المخزون",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "بحث عن العناصر...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "لا توجد عناصر حالياً",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "انقر على الزر أدناه لإضافة العنصر الأول",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "منتهي الصلاحية",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "على وشك الانتهاء",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "انتهت فترة الضمان",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "ستنتهي فترة الضمان قريبًا",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "يتبقى {count} أيام",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "لقد انتهت صلاحيته منذ {count} يوم",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "حذف العنصر",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "هل أنت متأكد أنك تريد حذف \"{name}\"؟",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "تم حذف العنصر",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "فشل الحذف",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "لا يمكن حذف العنصر: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "تصفية نطاق التاريخ",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "تصفية نطاق السعر",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "أشيائي",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "انقر على الزر في الزاوية اليمنى السفلى لإضافة عنصر",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "تأكيد الحذف",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "خيارات التصفية",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "فرز العناصر حسب النوع والفئة والموقع",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} فئة",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "جميع الفئات",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "لا توجد بيانات مصنفة",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "مكان التخزين",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} مواقع",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "كل المواقع",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "لا توجد بيانات عن الموقع حالياً",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "نطاق التاريخ",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "اختر نطاق التاريخ",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "نطاق الأسعار",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "نطاق السعر الفردي",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "أدنى سعر",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "أعلى سعر وحدة",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "نطاق السعر الإجمالي",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "أدنى سعر إجمالي",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "أعلى سعر إجمالي",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "مسح تصفية السعر",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "ضع الرمز الشريطي داخل الإطار للمسح",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "المنتج موجود بالفعل",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "رمز الاستجابة السريعة: {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "الاسم: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "التصنيف: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "الكمية الحالية: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "يرجى اختيار العملية:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "خروج المخزون",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "إدخال المخزون",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "كمية المخزون",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "كمية الخروج من المخزن",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "الكمية",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "الرجاء إدخال كمية التخزين",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "الرجاء إدخال كمية الخروج من المخزن",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "تمت إضافة {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "هل أنت متأكد أنك تريد حذف «{name}»؟ لا يمكن التراجع عن هذا الإجراء.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "تم تقليل {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "تم إعادة تعيين قاعدة البيانات، وسيتم إعادة إنشاء هيكل الجداول",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "حدث خطأ أثناء إعادة تعيين قاعدة البيانات: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "فشل تهيئة البيانات المحاكاة: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "الحل:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. إلغاء تثبيت التطبيق وإعادة تثبيته",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. أو مسح بيانات التطبيق",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. أو إعادة التشغيل بعد تعيين resetDatabaseOnStart إلى true",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "فشل تهيئة خدمة التذكير: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "فشل التحقق من حساب التقويم: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "فشل إنشاء التقويم: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "فشل في إضافة حدث التقويم: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "فشل في حذف حدث التقويم: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "فشل إعداد رسالة تلميح الإذن: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "تم تهيئة {count} بيانات محاكاة بنجاح",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "قاعدة البيانات تحتوي بالفعل على {count} سجلات، تخطى تهيئة البيانات التجريبية",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "قد يكون هيكل قاعدة البيانات غير متطابق، يُنصح بمسح بيانات التطبيق أو إعادة تثبيته",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "تم حذف ملفات قاعدة البيانات القديمة",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "النسخ الاحتياطي للبيانات فارغ",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "الملف الاحتياطي غير موجود",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "ترميز الملف ليس بتنسيق UTF-8 صالح. يرجى التأكد من حفظ الملف باستخدام ترميز UTF-8. تفاصيل الخطأ: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "الملف غير موجود: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "الملف فارغ: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "بعد فك ترميز محتوى الملف، يكون فارغًا، ومن الممكن أن يكون الترميز غير متطابق",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} لا يمكن أن يكون فارغًا",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "لا يمكن أن يكون طول {fieldName} أقل من {minLength} حرفًا",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} لا يمكن أن يتجاوز {maxLength} حرفًا",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "يرجى إدخال عنوان {fieldName} صالح",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} يجب أن يكون {numberType}",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} لا يمكن أن يكون أقل من {min}",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} لا يمكن أن يكون أكبر من {max}",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} يجب أن يكون عددًا صحيحًا موجبًا",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} يجب أن يكون أكبر من 0",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} يجب أن يكون عددًا موجبًا",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "الرجاء إدخال {fieldName} صالح",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} لا يمكن أن يكون تاريخًا سابقًا",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} لا يمكن أن يكون قبل {minDate}",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} لا يمكن أن يكون لاحقًا عن {maxDate}",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "الرجاء إدخال {fieldName} صالح",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} لا يمكن أن يقل طوله عن 8 أحرف",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} يجب أن يحتوي على حرف كبير واحد على الأقل",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} يجب أن يحتوي على حرف صغير واحد على الأقل",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} يجب أن يحتوي على رقم واحد على الأقل",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} يجب أن يحتوي على حرف خاص واحد على الأقل",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "كلمتا المرور المدخلتان غير متطابقتين",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "اسم العنصر لا يمكن أن يكون فارغًا",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "لا يمكن أن يتجاوز الاسم {maxLength} حرفًا",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "لا يمكن أن يكون العدد أقل من {minQuantity}",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "لا يمكن أن تتجاوز الكمية {maxQuantity}",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "لا يمكن أن تكون سعر الوحدة رقماً سالباً",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "لا يمكن أن يتجاوز السعر الواحد {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "يرجى ضبط تاريخ الإنتاج وفترة الصلاحية لحساب مدة الصلاحية تلقائيًا",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "يرجى تحديد تاريخ الشراء ومدة الصلاحية لحساب فترة الضمان تلقائياً",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "تعذر إنشاء حساب التقويم، يرجى التحقق من إعدادات تقويم النظام",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "إشعار اختبار",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "هذا إشعار تجريبي للتحقق من وظيفة التذكير المحلي",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "سماء",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} يوم",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "تم حفظ العنصر",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "تم تحديث العنصر",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "تمت إضافة العنصر",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "تم الحفظ بنجاح",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "تم التحديث بنجاح",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "تم الحذف بنجاح",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "فشل الحفظ",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "فشل التحديث",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "فشل الحذف",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "إعدادات اللغة",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "تعيين لغة عرض التطبيق",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "إعدادات النظام الافتراضية",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "استخدام لغة النظام",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "سيتم تطبيق تغيير اللغة بعد إعادة تشغيل التطبيق",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "التحديد الحالي: {days} يوم",
+  "@current_selection": {
+    "description": "عرض الأيام المختارة حالياً",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

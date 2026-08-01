@@ -1,0 +1,1625 @@
+{
+  "@@locale": "hy",
+  "app_name": "պահելու փոքր տարածք",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Չեղարկել",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Հաստատել",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Պահպանել",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Ջնջել",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Խմբագրել",
+  "@edit": {
+    "description": ""
+  },
+  "add": "ավելացնել",
+  "@add": {
+    "description": ""
+  },
+  "search": "Որոնել",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Կարգավորումներ",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Վերադառնալ",
+  "@back": {
+    "description": ""
+  },
+  "next": "التالي քայլը",
+  "@next": {
+    "description": ""
+  },
+  "done": "ավարտել",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Բեռնվում է...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "խափանում",
+  "@error": {
+    "description": ""
+  },
+  "success": "հաջողություն",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Վտանգ",
+  "@warning": {
+    "description": ""
+  },
+  "info": "տեղեկատվություն",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Ընտրել հիշեցման օրերը",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Ընդհանուր դասավորություն",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Անհատականացված ({days} օր)",
+  "@custom_days": {
+    "description": "Անհատականացված օրեր պարամետրով",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Երկուշաբթի օրերի հիշեցման տիրույթը՝ {min}-{max} օր",
+  "@alert_days_range": {
+    "description": "Հուշման օրվա տիրույթը պարամետրերով",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Խնդրում ենք մուտքագրել հիշեցման օրերի քանակը",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Օրերի քանակ",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Խնդրում ենք ներմուծել {min}-{max} թվերի միջև համարը",
+  "@enter_valid_days": {
+    "description": "Օրվա թվի մուտքի վավերացման հաղորդագրություն",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "զգուշացումի կարգավորում",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Օրավուրի կարգավորումներ",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Օրավուրի համաժամացում",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Բացելուց հետո կխնդրվի օրացույցի թույլտվությունը",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Ավելացնել թեստային օրացույցի իրադարձություն",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Խնդրում ենք նախ ակտիվացնել «Օրացույցի համաժամման» անջատիչը",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "App ծանուցումների կարգավորումներ",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Համայնքային հիշեցում",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Մակարդակը բացվելուց հետո ստացեք հավելվածում ժամկետանց զգուշացումներ",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Ուղարկել փորձարկման ծանուցում",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Խնդրում ենք նախ ակտիվացնել «Տեղական հիշեցումների» փոխարկիչը",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Նշում՝ օրերի կարգավորում",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Նախապես հիշեցնելու օրերի թիվ",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Սկզբը զանգահարել ընդ թե քանի օր առաջ, որպեսզի հիշեցնի իրերի ժամկետի ավարտի կամ երաշխիքային ժամկետի ավարտի մասին",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Օրվա օրացույցի թույլտվության հարցում",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Պետք է մուտքի թույլտվություն տրամադրել օրացույցին՝ իրերի հիշեցումները համաժամանակեցնելու համար։ Թույլատրե՞լ:",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Թույլատրվել",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Օրացույցի թույլտվությունը տրվել է, օրացույցի համաժամացումը նշվում է",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Օրվա աղյուսակի թույլտվությունը մերժվել է, հնարավոր չէ սկսել օրվա աղյուսակի համաժամացումը",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Այլևս թույլտվություն չի տրվում",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Օրացույցի իրավունքները մշտապես մերժվել են, խնդրում ենք ձեռքով ակտիվացնել իրավունքները համակարգի կարգավորումներում։",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "գնալ կարգավորումներ",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Օրվա օրացույցի թույլտվությունը տրվել է, բայց հնարավոր չէ ստեղծել օրացույցի հաշիվ: Խնդրում ենք ստուգել համակարգի օրացույցի կարգավորումները",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Օրացույցի թույլտվությունը տրվել է, ստեղծվել է տեղական օրացույցի հաշիվ",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Օրացույցի հաշիվը հաջողությամբ ստեղծվեց, բայց համակարգին կարող է անհրաժեշտ լինել որոշ ժամանակ ակտիվանալու համար",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Թեստավորման օրացույցի իրադարձությունը հաջողությամբ ավելացված է",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Չափման օրացույցը զանգվածում ավելացնելն անհաջող է, խնդրում ենք ստուգել օրացույցի կարգավորումները",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Պետք է ունենալ օրացույցի հասանելիություն՝ թեստային միջոցառման ավելացման համար",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Թեստային ծանուցումը ուղարկվել է",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Թեստային ծանուցումը ուղարկել չի հաջողվել. {error}",
+  "@test_notification_failed": {
+    "description": "Ծանուցման սխալի հաղորդագրություն",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Պահանջվում է ծանուցման թույլտվություն՝ տեղական հիշեցումներ ակտիվացնելու համար",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Չհաջողվեց կատարել գործողությունը՝ {error}",
+  "@operation_failed": {
+    "description": "Հանրային գործողության սխալի հաղորդագրություն",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Ապրանքի նախազգուշացման ծանուցում",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Իրերի ժամկետը լրանալը կամ երաշխիքի ավարտը հիշեցում",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "տնտեսական ապրանք",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Օրվա օգտագործման իրեր",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "դիմահարդարանք",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "դեղորայք",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "էլեկտրոնային արտադրանք",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "տնային գույք",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "հագուստ",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "գրքեր",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Այլ",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Օնլայն խանութ",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Ֆիզիկական խանութ",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "սուպերմարկետ",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Հատուկ խանութ",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "երկրորդային շուկա",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Այլ",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Այլ",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Օնլայն խանութ",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Գործարքի դասակարգում",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Հարմարեցված դասակարգում",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Գոյագրված տվյալների կրկնօրինակ",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Բոլոր տվյալները (ներառյալ պատկերը) փաթեթավորեք որպես ZIP ֆայլ կրկնօրինակման համար",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Ապահովագրել բոլոր տվյալները",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Հաջողվեց կրկնօրինակել",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Պաշտպանությունը ձախողվեց՝ {error}",
+  "@backup_failed": {
+    "description": "Այլընտրանք պահուստային սխալի հաղորդագրություն",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Վերականգնել տվյալները",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Վերականգնել բոլոր տվյալները ZIP պահուստային ֆայլից",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "արտահանել տվյալները",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Անհատականացնել CSV, TXT, SQL ձեւաչափերով",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Ներմուծել տվյալները",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Ներմուծել տվյալներ CSV, TXT, SQL ֆայլերից",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Օրացույցի հուշումները և հավելվածի հրուցումների կարգավորումները",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "մասին",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Դիմումի տեղեկություններն ու տարբերակը",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Խնդրում ենք նախ ընտրել պահուստային ֆայլը",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Հաստատել վերականգնումը",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Վերականգնել պատճենը կջրի բոլոր առկա տվյալները և կփոխարինի դրանք պատճենային տվյալներով, այս գործողությունը չես կարող հետ դարձնել: Ցանկանու՞մ եք շարունակել:",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Վերստուգել կրկին",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Դուք համոզված եք, որ ուզում եք մաքրել բոլոր գոյություն ունեցող տվյալները և վերականգնել պահուստը՞ Այս գործողությունը վերականգնելի չէ։",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Վերականգնումը հաստատել",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Վերականգնումը հաջողված է, ընդհանուր {count} առարկա",
+  "@restore_success": {
+    "description": "Հաջող վերադարձի հաղորդագրություն",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Վերականգնումը ձախողվեց՝ {error}",
+  "@restore_failed": {
+    "description": "Վերականգնումը ձախողվեց սխալի հաղորդագրություն",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Ընտրել պահուստային ֆայլը",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Վերականգնել պահուստավորումը",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Ներբեռնված ֆայլը՝ {filename}",
+  "@selected_file": {
+    "description": "Նշված ֆայլի հաղորդագրություն",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Տվյալների արտահանումը հաջողվեց",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Արտահանումը ձախողվեց՝ {error}",
+  "@export_failed": {
+    "description": "Արտահանման ձախողման սխալի հաղորդագրություն",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Կրկնվող տվյալների մշակում",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Մակագրված են կրկնօրինակ տվյալներ, խնդրում ենք ընտրել մշակման ձևը՝",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Ընդդիմանալ",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "ծածկել",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Բոլորը թողնել",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Ընդհանուր ծածկույթ",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Խնդրում ենք նախ ընտրել ներմուծման ձևաչափը",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Հաստատել ներմուծումը",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Ներմուծված տվյալները կփոխարինեն առկա տվյալները, և այս գործողությունը հետ կդարձնել հնարավոր չի լինի: Դուք ցանկանում եք շարունակել?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Դետաների ներմուծումը հաջողվեց, ընդհանուր ներմուծվել է {count} կետ պարագա",
+  "@import_success": {
+    "description": "Ներմուծումը հաջող է",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Ներմուծումը ձախողվեց՝ {error}",
+  "@import_failed": {
+    "description": "Ներմուծման ձախողման սխալի հաղորդագրություն",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Ընտրել ֆայլը",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Ընդեղ տվյալներ չկան",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Ընթացիկ տվյալներ չկան, սեղմեք ստորև գտնվող կոճակը, որպեսզի ավելացնեք առաջին արձանագրությունը։",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Ընդեղ բեռնվելը ձախողվեց",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Տվյալների բեռնվելը ձախողվեց, խնդրում ենք ստուգել ցանցի միացումը և կրկնել փորձը",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Վերագնահատել",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Ցանցային կապը ձախողվեց",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Խնդրում ենք ստուգել ինտերնետը և կրկին փորձել",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Արդյունք չի գտնվել",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Փորձեք օգտագործել այլ բանալի բառեր որոնելու համար",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Մաքրել որոնումը",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Արտոնություն չի բավականացնում",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Այս գործառույթի օգտագործման համար անհրաժեշտ են համապատասխան թույլտվություններ",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Պահանջել թույլտվություն",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Ընդհանուր տեղեկատվություն",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "տարբերակ",
+  "@version": {
+    "description": ""
+  },
+  "developer": "զարգացնող",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Պահանջվող սարքի տեղեկություններ",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Պահանջվող սարքի մոդել",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "բրենդ",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Պահանջվող սարք",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "ապրանք",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Պահեստամասեր",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android տարբերակ",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK տարբերակ",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "համակարգի անուն",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "համակարգի տարբերակ",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Գործիքի նույնացում",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Համակարգչի անուն",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Վարկածի համարը",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Չի կարողանում ստանալ սարքի տեղեկությունները՝ {error}",
+  "@error_getting_device_info": {
+    "description": "Սարքի տեղեկատվության ստացման սխալի հաղորդում",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Ֆունկցիայի ներկայացում",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "խելացի առարկաների կառավարումային հավելված",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Օգնություն տրամադրել ձեզ կառավարելու ապրանքների ժամկետանցման, երաշխիքային ժամկետների և այլ տեղեկատվություն, ինչպես նաև տրամադրել խելացի հիշեցման ֆունկցիա։",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "ծախսվող նյութեր",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Պահպանվող ապրանք",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "տարբերել կարգավորված",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Անունի աճման կարգ",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Անունի իջեցման կարգ",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Ամսաթիվ՝ աճման կարգով",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Ամսաթիվ՝ նվազման կարգով",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Միավորված գնի աճման կարգով",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Միավորված գնի նվազման կարգ",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Քանակի աճման կարգ",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Քանակի նվազման կարգ",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Ընդհանուր արժեքը աճման կարգով",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Ընդհանուր արժեքը նվազման կարգով",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Հանել բոլոր ֆիլտրերը",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Քոդը սկանավորել պահեստամասային մուտքի համար",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Որոնել առարկաներ...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Առայժմ ապրանք չկա",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Սեղմեք ստորև գտնվող կոճակը՝ ավելացնելու համար առաջին ապրանքը",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Ժամկետը լրացել է",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Միավորված է վաղուց",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Գаранտիան ավարտվել է",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Գarantիան շուտով լրանում է",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Մնացած են {count} օր",
+  "@days_remaining": {
+    "description": "մնացած օրվա թվերը պարամետրով",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Ժամկետը լրացած է {count} օր",
+  "@expired_days_ago": {
+    "description": "Անվավեր օրվա օրեր պարամետրով",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Հեռացնել տարրը",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "համոզված արդյոք եք, որ ցանկանում եք ջնջել \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "Հաստատման հաղորդագրություն ջնջել",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Նյութը ջնջվել է",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Վերացնելը ձախողվեց",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Չի կարող հեռանալը զանգվածը՝ {error}",
+  "@failed_to_delete_message": {
+    "description": "Հեռացնել սխալի հաղորդագրությունը",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Ամսաթվի միջակայքի筛选",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Գների միջակայքի ֆիլտրման",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Իմ իրերը",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Սեղմեք ներքաղաքային աջ անկյունի կոճակը՝ ապրանք ավելացնելու համար",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Հաստատել հեռացումը",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Ֆիլտրի ընտրանքներ",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Ըստ տեսակների, դասակարգման և վայրի զտել իրերը",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} կատեգորիա",
+  "@categories_count": {
+    "description": "Կարգավորված քանակների ցուցադրում",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Բոլոր դասակարգերը",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Գոյություն չունեն դասակարգված տվյալներ",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Պահեստավորման վայր",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} վայրեր",
+  "@locations_count": {
+    "description": "Գտնվելու վայրերի քանակի ցուցադրում",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Բոլոր վայրերը",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Գոյություն չունի վայրի տվյալներ",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Ամսաթիվների միջակայք",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Ընտրել ամսաթիվների միջակայք",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "գնային միջակայք",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Միավորի գնի տիրույթի",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "ամենացածր միավոր գին",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "ամենաբարձր միավորված գին",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Ընդհանուր գնի տիրույթի",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Նվազագույն ընդհանուր գին",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "ամենքի առավելագույն գինը",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Մաքրել գների զտումը",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Դրեք շտրիխկոդը շրջանակի մեջ սկանավորման համար",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Ապրանքը արդեն գոյություն ունի",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Բարքոդ՝ {barcode}",
+  "@barcode_with_value": {
+    "description": "Բարկոդը ցուցադրում է պարամետրեր",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Անունը՝ {name}",
+  "@name_with_value": {
+    "description": "Անվանումը ցուցադրվում է պարամետրերով",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Կատեգորիա՝ {category}",
+  "@category_with_value": {
+    "description": "Տարբերակավորված ցուցադրում պարամետրերով",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Ընթացիկ քանակը՝ {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Այժմværող քանակությունը ցույց է տալիս պարամետրերով",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Ընտրեք գործողությունը՝",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Ընդունում պահեստից",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Ընդունվել պահեստ",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Մուտքի քանակ",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Ելքի քանակը",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "数量",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Խնդրում ենք մուտքագրել պահեստային քանակը",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Խնդրում ենք մուտքագրել դուրս հանման քանակը",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Ավելացված է {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "Նյութի ավելացման հաղորդագրություն",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Համարո՞ւմ եք հեռացնել «{name}»: Այս գործողությունը չի կարող հետկանգնվել։",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Ջնջման հաստատման հաղորդագրություն՝ հետ չհետաքրքրած նախազգուշացմամբ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Կրճատվել է {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Նյութի կրճատման հաղորդագրություն",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Տվյալների բազան վերականգնվել է, կվերականգնվի աղյուսակի կառուցվածքը",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Չհաջողվեց վերակենդանացնել տվյալների բազան՝ {error}",
+  "@database_reset_error": {
+    "description": "Տվյալների բազայի վերականգնման սխալ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Մոդելային տվյալների սկզբնական կազմավորումը ձախողվեց: {error}",
+  "@mock_data_init_failed": {
+    "description": "Նկարագրական տվյալների նախնական կարգավորման ձախողում",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "լուծում",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Հեռացնել ծրագիրը և նորից տեղադրել",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. կամ զրոյացնել հավելվածի տվյալները",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Կարող եք set անել resetDatabaseOnStart որպես true և հետո նորից գործարկել",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Ծանուցման ծառայության զանգվածային սկզբնականացման անհաջողություն՝ {error}",
+  "@notification_service_init_failed": {
+    "description": "Ծանուցման ծառայության սկսումը ձախողվեց",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Օգտագործողի օրացույցի հաշվի ստուգման ձախողում՝ {error}",
+  "@check_calendar_account_failed": {
+    "description": "Օրվա հաշվեհամարի ստուգումը ձախողվեց",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Ամրագրում ամսաթվագիր ձախողվեց՝ {error}",
+  "@create_calendar_failed": {
+    "description": "Օրվա օրացույց ստեղծումը անհաջողությամբ ավարտվեց",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Օրացույցի իրադարձությունը ավելացնելն անհաջողվեց՝ {error}",
+  "@add_calendar_event_failed": {
+    "description": "Ամրագրել օրացույցային իրադարձությունը չի հաջողվել",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Օրացույցի իրադարձությունը ջնջելը ձախողվեց: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Օրվա հաշվառման իրադարձությունը ջնջվելը ձախողվեց",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Սհատվելը զանգվածային մուտքի իրավունքի հաղորդագրության կարգավորումը՝ {error}",
+  "@set_permission_message_failed": {
+    "description": "Այն անհնար է պահել թույլտվության մեջը զանգվածային հաղորդագրությունը",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Ուժի մեջ է մտցված {count} սիմուլյացիոն տվյալները",
+  "@mock_data_init_success": {
+    "description": "Նմուշային տվյալների նախնական բեռնումը հաջողություն ունեցավ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Դետաբազայում արդեն կա {count} ցուցակ, բաց թողնել նմուշային տվյալների ինկուիբացում",
+  "@database_has_data": {
+    "description": "Հենքի տվյալները արդեն առկա են բազայում",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Սպասվում է, որ տվյալների բազայի կառուցվածքը համապատասխանում չէ, խորհուրդ է տրվում ջնջել հավելվածի տվյալները կամ կրկին տեղադրել",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Հին տվյալների բազայի ֆայլը ջնջվել է",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "备份数据为空",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "备份文件不存在",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Ֆայլի կոդավորումը վավեր UTF-8 ձևաչափ չէ: Խնդրում ենք համոզվել, որ ֆայլը պահպանված է UTF-8 կոդավորմամբ: Անհաջողության մանրամասները՝ {error}",
+  "@file_not_utf8": {
+    "description": "Ֆայլի կոդավորման սխալ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Ֆայլը գոյություն չունի․ {filePath}",
+  "@file_not_found": {
+    "description": "Ֆայլը գոյություն չունի սխալ",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Ֆայլը դատարկ է՝ {filePath}",
+  "@file_empty": {
+    "description": "Ֆայլը դատարկ է սխալ",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Ֆայլի պարունակության դեկոդավորումը դատող է, հնարավոր է, որ կոդավորումը չի համապատասխանում",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} չի կարող լինել դատարկ",
+  "@field_cannot_be_empty": {
+    "description": "Fields cannot be empty validation",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} երկարությունը չպետք է լինի պակաս {minLength} նիշից",
+  "@field_min_length": {
+    "description": "Դաշտի նվազագույն երկարության վավերացում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName}-ի երկարությունը չի կարող գերազանցել {maxLength} նշանները",
+  "@field_max_length": {
+    "description": "աշտFormatting առավելագույն երկարության վավերացում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Խնդրում ենք մուտքագրել վավեր {fieldName} հասցե",
+  "@field_invalid_email": {
+    "description": "Էլփոստի ֆորմատի վավերացում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} պետք է լինի {numberType}",
+  "@field_invalid_number": {
+    "description": "Թվային ձևաչափի վավերացում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} չի կարող փոքրանալ {min}-ից",
+  "@field_min_value": {
+    "description": "Նվազագույն արժեքի վավերացում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} չի կարող մեծանալ {max}-ից",
+  "@field_max_value": {
+    "description": "ամենքի առավելագույն ստուգում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} պետք է լինի դրական ամբողջ թիվ",
+  "@field_positive_integer": {
+    "description": "Հաստատում ամբողջ դրական թվի",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} պետք է մեծ լինի քան 0",
+  "@field_greater_than_zero": {
+    "description": "Մեծ քան զրոյի վավերացում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} պետք է լինի դրական թիվ",
+  "@field_positive_number": {
+    "description": "Հասարակ դրական ստուգում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Խնդրում ենք մուտքագրել վավեր {fieldName}",
+  "@field_invalid_date": {
+    "description": "Ամսաթիվ ձևաչափի վավերացում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} չի կարող լինել անցյալ ամսաթիվ",
+  "@field_date_not_past": {
+    "description": "Ամսաթիվը չի կարող լինել անցյալում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} չի կարող լինել ավելի վաղ քան {minDate}",
+  "@field_date_not_before": {
+    "description": "Ամսաթիվը չի կարող ավելի վաղ լինել նշված ամսաթվից",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} չի կարող ուշանալ {maxDate}-ից",
+  "@field_date_not_after": {
+    "description": "Ամսաթիվը չի կարող ավելի ուշ լինել նշված ամսաթվից",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Խնդրում ենք մուտքագրել վավեր {fieldName}",
+  "@field_invalid_value": {
+    "description": "Անվավեր արժեքի վավերացում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName}-ի երկարությունը չի կարող փոքր լինել քան 8 նիշ",
+  "@password_min_length": {
+    "description": "Գաղտնաբառի նվազագույն लंबկության ստուգում",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} պետք է պարունակի առնվազն մեկ մեծատառ",
+  "@password_uppercase_required": {
+    "description": "Գաղտնաբառը պետք է պարունակի մեծատառեր",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} պետք է պարունակի առնվազն մեկ փոքրատառ",
+  "@password_lowercase_required": {
+    "description": "Գաղտնաբառը պետք է պարունակի փոքրատառեր",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName}ը պետք է ունենա առնվազն մեկ թիվ",
+  "@password_digit_required": {
+    "description": "Գաղտնաբառը պետք է պարունակի թվեր",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} պետք է պարունակի առնվազն մեկ հատուկ նիշ",
+  "@password_special_char_required": {
+    "description": "Գաղտնաբառը պետք է պարունակի հատուկ զանգվածներ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Երկու անգամ մուտքագրված գաղտնաբառերը համընկնու՞մ չեն",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Նյութի անունը չի կարող դատարկել",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Անվանումը չի կարող գերազանցել {maxLength} նիշը",
+  "@name_max_length": {
+    "description": "Անվան առավելագույն երկարության վավերացում",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Քանակը չի կարող լինել փոքր քան {minQuantity}",
+  "@quantity_min": {
+    "description": "Այն նվազագույն քանակի վավերացում",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Չի կարելի գերազանցել {maxQuantity} քանակը",
+  "@quantity_max": {
+    "description": "Առավելագույն քանակի վավերացում",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Միավոր գինը չի կարող լինել բացասական",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Միավորային գինը չի կարող գերազանցել {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "Միավոր արժեքի առավելագույնի վավերացում",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Խնդրում ենք սահմանել արտադրության ամսաթիվն ու պահպանման ժամկետը՝ ավտոմատ կերպով հաշվելու համար վավերականությունը",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Խնդրում ենք սահմանել գնման ամսաթիվը և պահպանման ժամկետը՝ ավտոմատ հաշվարկելու համար երաշխիքային ժամանակը",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Չի հաջողվում ստեղծել օրացույցի հաշիվ, խնդրում ենք ստուգել համակարգի օրացույցի կարգավորումները",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Թեստային ծանուցում",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Սա փորձարկման ծանուցագիր է, օգտագործվում է տեղական հիշեցումների գործառույթը ստուգելու համար",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": " երկինք ",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} օր",
+  "@days_with_value": {
+    "description": "Օրվա քանակը պարամետրերով",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Նյութերը պահպանվել են",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Նյութը թարմացվել է",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Նյութը ավելացվել է",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Պահպանվել է հաջողությամբ",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Թարմացումը հաջողվեց",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Ընդեղջում հաջողվեց",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Պահպանումը ձախողվեց",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Թարմացումը ձախողվեց",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Վերացնելը ձախողվեց",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Լեզվի կարգավորում",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Սահմանել հավելվածի ցուցադրման լեզուն",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "համակարգի լռելյայն",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Օգտագործել համակարգի լեզուն",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Լեզվի փոփոխությունը ուժի մեջ կմտնի հավելվածը նորից սկսելուց հետո",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Ընթացիկ ընտրություն․ {days} օր",
+  "@current_selection": {
+    "description": "Ընթացիկ ընտրված օրերի ցուցադրություն",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

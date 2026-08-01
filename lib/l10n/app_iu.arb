@@ -1,0 +1,1625 @@
+{
+  "@@locale": "iu",
+  "app_name": "ᐱᒻᒪᕆᐊᓗᒃ ᓂᕈᑭᑦᑐᒥ",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "ᓄᖅᑲᖅᑎᓪᓗᒍᑦ",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "ᓇᓗᓇᐃᕐᓗᒍ",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "ᐱᐅᖅᓱᐊᕐᓗᒍ",
+  "@save": {
+    "description": ""
+  },
+  "delete": "ᐲᕐᓗᒍ",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "ᐋᖅᑭᒋᐊᕐᓗᒍ",
+  "@edit": {
+    "description": ""
+  },
+  "add": "ᐃᓚᓗᒍ",
+  "@add": {
+    "description": ""
+  },
+  "search": "ᕿᓂᕐᓂᖅ",
+  "@search": {
+    "description": ""
+  },
+  "settings": "ᐋᖅᑭᒃᓯᒪᓂᖏᑦ",
+  "@settings": {
+    "description": ""
+  },
+  "back": "ᐅᑎᕐᕕᒋᓗᒍ",
+  "@back": {
+    "description": ""
+  },
+  "next": "ᑭᖑᓪᓕᕐᒥ ᐱᓕᕆᐊᖑᔪᒃᓴᑦ",
+  "@next": {
+    "description": ""
+  },
+  "done": "ᐱᐊᓂᒃᑕᖅ",
+  "@done": {
+    "description": ""
+  },
+  "loading": "ᐴᖅᑲᐃᕙᓪᓕᐊᓂᖅ...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "ᑕᒻᒪᕐᓂᖅ",
+  "@error": {
+    "description": ""
+  },
+  "success": "ᑲᔪᓯᑦᑎᐊᕐᓂᖅ",
+  "@success": {
+    "description": ""
+  },
+  "warning": "ᐃᓂᖅᑎᕆᓂᖅ",
+  "@warning": {
+    "description": ""
+  },
+  "info": "ᑐᓴᐅᒪᔾᔪᑎᒃᓴᑦ",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "ᓂᕈᐊᕐᓗᑎᑦ ᐃᖅᑲᐃᓯᒋᐊᕈᑎᑦ ᐅᓪᓗᖏᓐᓂᑦ",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "ᐃᓕᖅᑯᓯᒃᑯᑦ",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "ᐃᓕᖅᑯᓯᒃᑯᑦ ({days} ᐅᓪᓗᐃᑦ)",
+  "@custom_days": {
+    "description": "ᐅᓪᓗᐃᑦ ᐋᖅᑭᓱᖅᓯᒪᓂᖏᑦ ᑭᓪᓕᖃᖅᓱᑎᒃ",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "ᐃᖅᑲᐃᓯᒋᐊᕈᑎ ᐅᓪᓗᐃᑦ: {min}-{max} ᐅᓪᓗᐃᑦ",
+  "@alert_days_range": {
+    "description": "ᐃᖅᑲᐃᓯᒋᐊᕈᑎᑦ ᐅᓪᓗᐃᑦ ᐊᔾᔨᒌᙱᓐᓂᖏᑦ ᑭᒡᓕᖃᖅᖢᑎᒃ",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "ᑎᑎᕋᕐᓗᒋᑦ ᐃᖅᑲᐃᓯᒋᐊᕈᑎᑦ ᐅᓪᓗᐃᑦ",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "ᐅᓪᓗᐃᑦ ᖃᔅᓯᐅᓂᖏᑦ",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "ᓈᓴᐅᑎᒥᒃ ᑎᑎᕋᕐᓗᑎᑦ {min} ᐊᒻᒪ {max}",
+  "@enter_valid_days": {
+    "description": "ᐅᓪᓗᐃᑦ ᖃᔅᓯᐅᓂᖏᑦ ᐃᓕᐅᖅᑲᐃᓂᕐᒧᑦ ᓇᓗᓇᐃᖅᓯᔾᔪᑎ ᑐᓴᒐᒃᓴᖅ",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "ᖃᐅᔨᓴᕈᑎᑦ ᐋᖅᑭᒃᓯᒪᓂᖏᑦ",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "ᐅᓪᓗᖅᓯᐅᑎᐅᑉ ᐋᖅᑭᒃᓯᒪᓂᖓ",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "ᐅᓪᓗᖅᓯᐅᑎᑦ ᐊᑕᐅᑦᑎᒃᑰᖅᑎᑕᐅᓂᖏᑦ",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "ᑐᒃᓯᕋᕐᓂᐊᖅᑐᖅ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᐱᔪᓐᓇᖅᑎᑕᐅᓂᕐᒥᒃ ᐊᔪᕈᓐᓃᖅᑎᑕᐅᒃᐸᑦ",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "ᐃᓚᓗᒍ ᖃᐅᔨᓴᕈᑎ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᖃᓄᐃᓕᐅᕐᓂᐅᔪᖅ",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "ᓇᕿᖅᑳᕐᓗᒍ 'ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᐊᑕᐅᑦᑎᒃᑰᓕᖅᑎᑦᑎᓂᖅ' ᐃᑭᑦᑕᐅᑎᖓ",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "App ᖃᐅᔨᒃᑲᐃᓂᕐᒧᑦ ᐋᖅᑭᒃᓯᒪᓂᖏᑦ",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "ᓄᓇᓕᖕᓂ ᐃᖅᑲᐃᓯᒋᐊᕈᑎ",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "ᐱᖃᑦᑕᕐᓗᑎᑦ ᐃᓗᐊᒍᑦ ᐊᑐᕈᓐᓃᕐᓂᕐᒧᑦ ᐃᖅᑲᐃᓯᒋᐊᕈᑎᓂᒃ ᐊᔪᕈᓐᓃᖅᑎᑕᐅᕌᓪᓚᓚᐅᕐᓗᓂ",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "ᓇᒃᓯᐅᑎᓗᒍ ᖃᐅᔨᓴᕈᑎᒧᑦ ᖃᐅᔨᒃᑲᐃᔾᔪᑎ",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "ᐃᑭᖅᑳᕐᓗᒍ 'Local Notifications' ᐃᑭᑦᑕᐅᑎᖓ",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "ᐃᖅᑲᐃᓯᒋᐊᕈᑎ ᐅᓪᓗᐃᑦ ᐋᖅᑭᒃᓯᒪᓂᖓ",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "ᐅᓪᓗᑦ ᖃᔅᓯᐅᓂᖏᑦ ᓯᕗᓂᐊᒍᑦ ᖃᐅᔨᒃᑲᐃᔾᔪᑎ",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "ᐋᖅᑭᒃᓯᓗᑎᑦ ᖃᔅᓯᓂᒃ ᐅᓪᓗᓂᒃ ᓯᕗᓂᐊᒍᑦ ᐃᖅᑲᐃᓯᓂᐊᕐᓗᒍ ᐱᖁᑎ ᐃᓱᓕᕝᕕᒃᓴᖓ ᐅᕝᕙᓘᓐᓃᑦ ᓇᓪᓕᐅᒃᑯᒫᖓ ᐃᓱᓕᕝᕕᒃᓴᖓ",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᐊᖏᖅᑕᐅᓂᕐᒧᑦ ᑐᒃᓯᕋᐅᑦ",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "ᐊᑐᕈᓐᓇᕐᓂᖅ ᐅᓪᓗᖅᓯᐅᑎᒥᒃ ᐱᔭᐅᔭᕆᐊᖃᖅᐳᖅ ᐊᑕᐅᑦᑎᒃᑰᓕᖅᑎᑦᑎᓂᐊᕐᓗᓂ ᐱᖁᑎᓄᑦ ᐃᖅᑲᐃᓯᔾᔪᑎᓂᒃ. ᐱᔪᓐᓇᖅᑎᑦᑎᕚ?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "ᐱᕕᖃᖅᑎᑦᓯᓂᖅ",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "ᐅᓪᓗᖅᓯᐅᑎᓄᑦ ᐱᔪᓐᓇᖅᑎᑕᐅᔪᑦ ᑐᓂᔭᐅᓯᒪᓕᖅᑐᑦ, ᐅᓪᓗᖅᓯᐅᑎᓪᓗ ᐊᑕᐅᑦᑎᒃᑰᖅᑎᑕᐅᓂᖏᑦ ᐊᔪᕈᓐᓃᖅᑎᑕᐅᓪᓗᑎᒃ",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᐱᔪᓐᓇᖅᑎᑕᐅᓂᖅ ᐋᒃᑳᖅᑕᐅᓚᐅᖅᐳᖅ, ᐊᔪᖅᑎᑦᑎᓪᓗᓂ ᐅᓪᓗᖅᓯᐅᑎᒥᒃ ᐊᑕᐅᑦᑎᒃᑰᓕᖅᑎᑦᑎᓂᕐᒥᒃ",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "ᐱᔪᓐᓇᖅᑎᑕᐅᓂᖅ ᐋᒃᑳᖅᑕᐅᖏᓐᓇᖅᑐᖅ",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᐊᖏᖅᑕᐅᓂᖅ ᐋᒃᑳᖅᑕᐅᖏᓐᓇᐅᔭᖅᑐᖅ. ᐊᒡᒐᒃᑯᑦ ᓇᕿᓪᓗᒍ ᐱᔪᓐᓇᖅᑎᑦᑎᔾᔪᑎ ᐊᑐᖃᑦᑕᖅᑕᖓᑕ ᐋᖅᑭᒃᓯᒪᓂᖏᓐᓂ.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Settings ᐅᕗᙵᕐᓗᑎᑦ",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "ᐅᓪᓗᖅᓯᐅᑎᓄᑦ ᐱᔪᓐᓇᖅᑎᑕᐅᔪᑦ ᑐᓂᔭᐅᓯᒪᓕᖅᑐᑦ, ᑭᓯᐊᓂ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᐃᓯᕈᓐᓇᐅᑎᒥᒃ ᓴᖅᑭᑦᑎᔪᓐᓇᙱᑦᑐᑦ. ᖃᐅᔨᒋᐊᕐᓗᒍ ᐊᑐᖅᑕᐅᖃᑦᑕᖅᑐᖅ ᐅᓪᓗᖅᓯᐅᑎᖓᑕ ᐋᖅᑭᒃᓯᒪᓂᖏᑦ.",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "ᐅᓪᓗᖅᓯᐅᑎᓄᑦ ᐱᔪᓐᓇᖅᑎᑕᐅᔪᑦ ᑐᓂᔭᐅᓯᒪᓕᖅᑐᑦ, ᐊᒻᒪᓗ ᓄᓇᓕᖕᒥ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᐃᓯᕈᓐᓇᐅᑎᒥᒃ ᐋᖅᑭᒃᓯᓯᒪᓕᖅᖢᑎᒃ",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᑐᖅᑯᖅᓯᕕᒃ ᓴᖅᑭᑕᐅᑦᑎᐊᓚᐅᖅᐳᖅ, ᑭᓯᐊᓂ ᐱᓕᕆᔾᔪᓯᖅ ᐊᑯᓂᑲᓪᓚᒃ ᐊᑐᓕᕋᓱᑐᐃᓐᓇᕆᐊᓕᒃ.",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "ᖃᐅᔨᓴᕈᑎ ᐅᓪᓗᖅᓯᐅᑎ ᐃᓚᔭᐅᑦᑎᐊᖅᑐᖅ",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "ᐃᓚᓯᔪᓐᓇᙱᖦᖢᖓ ᖃᐅᔨᓴᕈᑎᒥᒃ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᖃᓄᐃᓕᐅᕐᓂᐅᓂᐊᖅᑐᒥᒃ, ᖃᐅᔨᒋᐊᕐᓗᒍ ᐅᓪᓗᖅᓯᐅᑎᕕᑦ ᐋᖅᑭᒃᓯᒪᓂᕆᔭᖓ",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᐊᖏᖅᑕᐅᔭᕆᐊᖃᖅᐳᖅ ᐃᓚᓯᓂᐊᕐᓗᓂ ᖃᐅᔨᓴᕈᑎᒥᒃ",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "ᖃᐅᔨᓴᖅᑕᐅᓂᕐᒧᑦ ᖃᐅᔨᒃᑲᐃᔾᔪᑎ ᓇᒃᓯᐅᔾᔭᐅᓯᒪᓕᖅᑐᖅ",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "ᓇᒃᓯᐅᔾᔨᓚᐅᙱᑦᑐᖅ ᖃᐅᔨᓴᕈᑎᒧᑦ ᖃᐅᔨᒃᑲᐃᔾᔪᑎᒥᒃ: {error}",
+  "@test_notification_failed": {
+    "description": "ᖃᐅᔨᒃᑲᐃᔾᔪᑎ ᑕᒻᒪᖅᓯᒪᔪᖅ ᑐᓴᒐᒃᓴᖅ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "ᖃᐅᔨᒃᑲᐃᓂᕐᒧᑦ ᐱᔪᓐᓇᐅᑎᑦ ᐱᔭᐅᔭᕆᐊᖃᖅᐳᑦ ᐊᔪᖅᑎᑦᑎᔪᒪᙱᒃᑯᑎᒃ ᓄᓇᓕᖕᓂ ᐃᖅᑲᐃᓯᒋᐊᕈᑎᓂᒃ",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "ᐊᐅᓚᓂᖓ ᑲᔪᓯᓚᐅᙱᑦᑐᖅ: {error}",
+  "@operation_failed": {
+    "description": "ᐊᐅᓚᑦᑎᔾᔪᑕᐅᒐᔪᒃᑐᑦ ᑕᒻᒪᖅᓯᒪᔪᑦ ᑐᓴᖅᑕᐅᔪᒃᓴᑦ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "ᐅᔾᔨᖅᓱᖁᔨᓂᕐᒧᑦ ᖃᐅᔨᒃᑲᐃᔾᔪᑎ",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "ᐱᖁᑎᐅᑉ ᐃᓱᓕᕝᕕᒃᓴᖓ ᐊᓯᔾᔨᖅᑕᐅᔪᓐᓇᕈᑖᓄᓪᓘᓐᓃᑦ ᐃᖅᑲᐃᑎᑦᑎᔾᔪᑎ",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "ᓂᖀᑦ",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "ᖃᐅᑕᒫᑦ ᐊᑐᕆᐊᓕᑦ",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "ᐱᐅᓴᐅᑎᑦ",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "ᐃᓅᓕᓴᐅᑎᑦ",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "ᐅᐊᔭᒨᖅᑐᑦ ᐱᖁᑎᑦ",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "ᐃᒡᓗᒥᓯᐅᑎᑦ",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "ᐊᓐᓄᕌᑦ",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "ᐅᖃᓕᒫᒐᑦ",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "ᐊᓯᖏᑦ",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "ᐃᑭᐊᖅᑭᕕᒃᑯᑦ ᓂᐅᕕᕐᕕᒃ",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "ᓂᐅᕕᕐᕕᒃ",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "ᓂᐅᕕᕐᕕᒃ",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "ᓂᐅᕕᕐᕕᑐᐊᖅ",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "ᐊᑐᕐᓂᑯᓂᒃ ᓂᐅᕕᐊᒃᓴᖃᕐᓂᖅ",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "ᐊᓯᖏᑦ",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "ᐊᓯᖏᑦ",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "ᐃᑭᐊᖅᑭᕕᒃᑯᑦ ᓂᐅᕕᕐᕕᒃ",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "ᐱᖁᑎᑦ ᓇᓃᓐᓂᖏᑦ",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "ᐃᓕᖅᑯᓯᒃᑯᑦ ᖃᓄᐃᑦᑑᓂᖓ",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "ᑭᖑᕝᕕᐅᑎᔪᒃᓴᑦ ᑎᑎᖅᑲᑦ",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "ᑲᑎᖅᓱᕐᓗᒋᑦ ᑎᑎᖅᑲᓕᒫᑦ (ᐊᔾᔨᙳᐊᑦ ᐃᓚᐅᓗᑎᒃ) ZIP ᑐᖅᑯᖅᓯᒪᕝᕕᖕᒧᑦ ᑭᖑᕝᕕᐅᑎᓂᐊᕐᓗᒋᑦ",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "ᑭᖑᕝᕕᐅᑎᓗᒋᑦ ᑎᑎᖅᑲᓕᒫᑦ",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "ᑭᖑᕝᕕᐅᑎᓂᖅ ᑲᔪᓯᓂᖃᑦᑎᐊᖅᑐᖅ",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "ᑭᖑᕝᕕᐅᑎᔪᒃᓴᖅ ᐊᔪᖅᑐᖅ: {error}",
+  "@backup_failed": {
+    "description": "ᑭᖑᕝᕕᐅᑎᔪᒃᓴᖅ ᐊᔪᖅᑐᖅ ᑕᒻᒪᖅᓯᒪᔪᖅ ᑐᓴᒐᒃᓴᖅ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "ᐅᑎᖅᑎᑉᐸᒡᓗᒋᑦ ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ᐅᑎᖅᑎᑕᐃᓐᓇᕆᓗᒋᑦ ᑎᑎᕋᖅᓯᒪᔪᑦ ZIP ᑭᖑᕝᕕᐅᑎᔪᒃᓴᑦ ᑐᖅᑯᖅᓯᒪᕝᕕᖕᒥ",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "ᐊᐅᓪᓚᖅᑎᑦᑎᖃᑦᑕᕐᓂᕐᒧᑦ ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "ᓇᒃᓯᐅᑎᓗᒋᑦ CSV, TXT, SQL ᐋᖅᑭᒃᓯᒪᓂᖓᒍᑦ",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "ᑲᓇᑕᐅᑉ ᓯᓚᑖᓂᙶᖅᑐᑦ ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "ᐃᓕᐅᖅᑲᐃᓂᖅ ᑎᑎᖅᑲᓂᒃ CSV, TXT, SQL ᑐᖅᑯᖅᑕᐅᓯᒪᔪᓂᑦ",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "ᐅᓪᓗᖅᓯᐅᑎᓄᑦ ᐃᖅᑲᐃᓯᒋᐊᕈᑎᑦ ᐊᒻᒪ ᖃᕋᓴᐅᔭᒃᑰᕈᑎᒧᑦ ᖃᐅᔨᒃᑲᐃᔾᔪᑎᑦ ᐋᖅᑭᒃᓯᒪᓂᖏᑦ",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "ᒥᒃᓵᓄᑦ",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "App Information and Version",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "ᓂᕈᐊᖅᑳᕐᓗᑎᑦ ᑭᖑᕝᕕᐅᑎᔪᒃᓴᒥᒃ ᑐᖅᑯᖅᓯᓯᒪᕝᕕᖕᒥ",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "ᓇᓗᓇᐃᕐᓗᒍ ᐅᑎᖅᑎᑕᐅᓂᖓ",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "ᐅᑎᖅᑎᑉᐸᒡᓗᒋᑦ ᓇᓪᓕᐅᒃᑯᒫᑦ ᐲᔭᖅᑕᐅᓇᔭᖅᑐᑦ ᑎᑎᖅᑲᓕᒫᑦ ᐃᓇᖏᖅᑕᐅᓗᑎᒡᓗ ᑭᖑᕝᕕᐅᑎᔪᒃᓴᓄᑦ ᑎᑎᖅᑲᓄᑦ. ᑕᒪᓐᓇ ᐱᓕᕆᓂᐅᔪᖅ ᓄᖅᑲᖅᑎᑕᐅᔪᓐᓇᙱᓚᖅ. ᑲᔪᓰᓐᓇᕈᒪᕖᑦ?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "ᓇᓗᓇᐃᒃᑲᓐᓂᕐᓗᒍ",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "ᖃᐅᔨᒪᑦᑎᐊᖅᐲᑦ ᐲᔭᕈᒪᔭᐃᓐᓇᕆᓗᒋᑦ ᐱᑕᖃᖅᐸᒌᖅᑐᑦ ᑎᑎᕋᖅᓯᒪᔪᑦ ᐅᑎᖅᑎᓪᓗᒋᓪᓗ ᓇᓪᓕᐅᒃᑯᒫᑦ? ᑕᒪᓐᓇ ᖃᓄᐃᓕᐅᕐᓂᐅᔪᖅ ᓄᖅᑲᖅᑎᑕᐅᔪᓐᓇᙱᓚᖅ!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "ᓇᓗᓇᐃᕐᓗᒍ ᐅᑎᖅᑎᑕᐅᓂᖓ",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "ᓴᓇᔭᐅᒃᑲᓐᓂᕐᓂᖓ ᑲᔪᓯᑦᑎᐊᖅᑐᖅ, ᑲᑎᖦᖢᒋᑦ {count} ᐱᖁᑎᑦ",
+  "@restore_success": {
+    "description": "ᐅᑎᖅᑎᓪᓗᒍ ᑲᔪᓯᑦᑎᐊᕐᓂᕐᒧᑦ ᑐᓴᒐᒃᓴᖅ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "ᐅᑎᖅᑎᑦᑎᔪᓐᓇᓚᐅᙱᓚᖅ: {error}",
+  "@restore_failed": {
+    "description": "ᐅᑎᖅᑎᑦᑎᓇᓱᖕᓂᖅ ᐊᔪᖅᑐᖅ ᑕᒻᒪᖅᓯᒪᔪᖅ ᑐᓴᒐᒃᓴᖅ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "ᓂᕈᐊᕐᓗᒍ ᑭᖑᕝᕕᐅᑎᔪᒃᓴᖅ ᑐᖅᑯᖅᓯᒪᕝᕕᒃ",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "ᐅᑎᖅᑎᒃᑲᓐᓂᕐᓗᒍ ᑭᖑᕝᕕᐅᑎᔪᒃᓴᖅ",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "ᓂᕈᐊᖅᑕᐅᔪᖅ ᑎᑎᖅᑲᒃᑯᕕᒃ: {filename}",
+  "@selected_file": {
+    "description": "ᓂᕈᐊᖅᑕᖅ ᑎᑎᖅᑲᒃᑯᕕᖕᒧᑦ ᑐᓴᒐᒃᓴᖅ",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ ᐊᐅᓪᓚᖅᑎᑕᖏᑦ ᑲᔪᓯᑦᑎᐊᖅᑐᑦ",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "ᐊᐅᓪᓚᖅᑎᑦᑎᔪᓐᓇᓚᐅᙱᑦᑐᑦ: {error}",
+  "@export_failed": {
+    "description": "Export failed error message",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "ᐊᔾᔨᖏᓐᓂᒃ ᑎᑎᕋᖅᓯᒪᔪᓂᒃ ᐱᓕᕆᕙᓪᓕᐊᓂᖅ",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "ᐊᔾᔨᖏᓐᓂᒃ ᑎᑎᕋᖅᓯᒪᔪᓂᒃ ᖃᐅᔨᔭᐅᔪᖃᖅᐸᑦ, ᓂᕈᐊᕐᓗᑎᑦ ᑲᒪᒋᔭᖃᕐᓂᕐᒧᑦ ᐊᑐᖅᑕᐅᔪᓐᓇᖅᑐᒥᒃ:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "ᐊᓪᓗᕐᓗᒍ",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "ᖄᖓ",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "ᖄᖏᖅᑕᐃᓐᓇᕆᓗᒋᑦ",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "ᐊᑕᖏᖅᖢᒍ ᐅᖃᐅᓯᐅᓯᒪᔪᖅ",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "ᓂᕈᐊᖅᑳᕐᓗᒍ ᓇᒃᓯᐅᔾᔨᓂᕐᒧᑦ ᐋᖅᑭᒃᓯᒪᓂᖓ",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "ᓇᓗᓇᐃᕐᓗᒍ ᑲᓇᑕᐅᑉ ᓯᓚᑖᓂᙶᖅᑐᖅ",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "ᐃᓕᐅᖅᑲᐃᓂᖅ ᑎᑎᕋᖅᓯᒪᔪᓂᒃ ᖄᖏᐅᑎᓂᐊᖅᐳᖅ ᐱᑕᖃᖅᐸᒌᖅᑐᓂᒃ ᑎᑎᕋᖅᓯᒪᔪᓂᒃ. ᑕᒪᓐᓇ ᐱᓕᕆᓂᐅᔪᖅ ᓄᖅᑲᖅᑎᑕᐅᔪᓐᓇᙱᓚᖅ. ᑲᔪᓰᓐᓇᕈᒪᕖᑦ?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ ᐃᓕᐅᖅᑲᖅᑕᐅᑦᑎᐊᓚᐅᖅᑐᑦ, ᑲᑎᖦᖢᒋᑦ {count} ᐱᖁᑎᑦ ᑎᑭᑎᑕᐅᓚᐅᖅᑐᑦ",
+  "@import_success": {
+    "description": "ᓇᒃᓯᐅᔾᔨᓂᖅ ᑲᔪᓯᓂᖃᑦᑎᐊᖅᑐᒥᒃ ᑐᓴᖅᑕᐅᔪᒃᓴᒥᒃ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "ᑎᑭᑎᑕᐅᓂᖓ ᐊᔪᖅᑐᖅ: {error}",
+  "@import_failed": {
+    "description": "Import failed error message",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "ᓂᕈᐊᕐᓗᒍ ᑐᖅᑯᖅᓯᒪᕝᕕᒃ",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "ᑎᑎᕋᖅᓯᒪᔪᓂᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᓂᑦ ᐊᑐᐃᓐᓇᖅᑕᖃᙱᑦᑐᖅ",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "ᒫᓐᓇ ᑎᑎᕋᖅᓯᒪᔪᖅᑕᖃᙱᓚᖅ. ᓇᕿᓪᓗᒍ ᓇᕿᑦᑕᒐᖅ ᐊᑖᓃᑦᑐᖅ ᐃᓚᓯᔪᒪᒍᕕᑦ ᓯᕗᓪᓕᖅᐹᒥᑦ ᓂᐱᓕᐅᖅᓯᒪᔪᒥᑦ!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "ᐴᖅᑲᐃᓂᖅ ᐊᔪᖅᑐᖅ",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ ᐊᔪᖅᑐᖅ, ᖃᐅᔨᒋᐊᕐᓗᒍ ᑲᓱᖃᑎᒌᑦᓯᒪᔾᔪᑎ ᐱᒋᐊᒃᑲᓐᓂᕐᓗᒍᓗ",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "ᐱᒋᐊᒃᑲᓐᓂᕐᓂᖅ",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "ᑲᓱᖃᑎᒌᑦᓯᒪᔾᔪᑦ ᐊᔪᓕᖅᑐᖅ",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "ᖃᐅᔨᒋᐊᕐᓗᒍ ᐃᑭᐊᖅᑭᕕᒃᑰᕈᓐᓇᐅᑎᑦ ᐆᒃᑐᒃᑲᓐᓂᕐᓗᒍᓗ",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "ᓇᓂᓯᔪᖃᓚᐅᙱᑦᑐᖅ",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "ᕿᓂᕋᓱᒃᐸᒡᓗᑎᑦ ᐊᓯᖏᓐᓂᒃ ᐅᖃᐅᓯᕐᓂᒃ",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "ᑐᑭᓯᓇᑦᑎᐊᖅᑐᒥᒃ ᕿᓂᕐᓂᖅ",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "ᓈᒻᒪᙱᓗᐊᖅᑐᑦ ᐱᔪᓐᓇᖅᑎᑕᐅᔪᑦ",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "ᓈᒻᒪᒃᑐᓂᒃ ᐱᔪᓐᓇᐅᑎᖃᕆᐊᖃᖅᐳᑎᑦ ᐊᑐᕐᓂᐊᕐᓗᒍ ᑖᓐᓇ ᐊᑐᖅᑕᐅᔪᓐᓇᖅᑐᖅ",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "ᑐᒃᓯᕋᕐᓂᖅ ᐱᔪᓐᓇᖅᑎᑕᐅᓂᕐᒥᒃ",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "ᐱᓇᔫᑦ ᑐᑭᓯᒋᐊᕈᑎᖏᑦ",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "ᖃᓄᐃᑦᑑᓂᖓ",
+  "@version": {
+    "description": ""
+  },
+  "developer": "ᐱᕙᓪᓕᐊᑎᑦᑎᔨ",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "ᐅᖃᓘᑎᐅᑉ ᒥᒃᓵᓅᖓᔪᑦ",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "ᐱᖁᑎᐅᑉ ᖃᓄᐃᑦᑑᓂᖓ",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "ᖃᓄᐃᑦᑑᓂᖓ",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "ᐱᖁᑎᐅᑉ ᐊᑎᖓ",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "ᐱᖁᑎ",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "ᓴᓇᕐᕈᑎᑦ",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android version",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK Version",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "ᐱᓕᕆᔾᔪᓯᐅᑉ ᐊᑎᖓ",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "ᐱᓕᕆᔾᔪᓯᐅᑉ ᖃᓄᐃᓕᖓᓂᖓ",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "ᐱᖁᑎᐅᑉ ᓇᓗᓇᐃᒃᑯᑕᖓ",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "ᖃᕆᑕᐅᔭᐅᑉ ᐊᑎᖓ",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "ᑎᑎᕋᖅᓯᒪᓂᖓᑕ ᓈᓴᐅᑖ",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "ᖃᕆᑕᐅᔭᒃᑰᕈᑎᐅᑉ ᒥᒃᓵᓅᖓᔪᓂᒃ ᐱᔪᓐᓇᙱᑦᑐᖓ: {error}",
+  "@error_getting_device_info": {
+    "description": "ᐅᖃᓘᑎᕋᓛᑉ ᒥᒃᓵᓅᖓᔪᓂᒃ ᐅᑎᖅᑎᑦᑎᔪᓐᓇᕐᓂᕐᒧᑦ ᑕᒻᒪᖅᓯᒪᔪᒥᒃ ᑐᓴᖅᑎᑦᑎᔾᔪᑎ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "ᖃᓄᐃᓕᐅᕐᓂᐅᔪᒧᑦ ᓇᓗᓇᐃᔭᐅᑎ",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Smart Item ᐊᐅᓚᑦᑎᔾᔪᑎᓄᑦ ᐱᓇᔫᑎ",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "ᐃᓕᖕᓂᒃ ᐃᑲᔪᖅᐸᒃᐳᖅ ᐊᐅᓚᑦᑎᕝᕕᖃᕐᓂᕐᒥᒃ ᑐᓴᖅᑕᐅᔪᒃᓴᓂᒃ ᓲᕐᓗ ᐃᓱᓕᕝᕕᒃᓴᖏᑕ ᐅᓪᓗᖏᓐᓂᒃ ᓇᓪᓕᐅᒃᑯᒫᖅᑖᕈᓐᓇᕐᓂᖏᓐᓂᒡᓗ ᐱᖁᑎᑦ, ᐱᑎᑦᑎᕙᒃᖢᓂᓗ ᐃᓱᒪᑐᔪᓂᒃ ᐃᖅᑲᐃᑎᑦᑎᔾᔪᑎᓂᒃ.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "ᓄᖑᑕᐅᕙᓪᓕᐊᕙᒃᑐᑦ",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "ᓱᕋᒃᓴᕋᐃᙱᑦᑐᑦ ᐱᖁᑎᑦ",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "ᐋᖅᑭᒃᓱᐃᓂᖅ",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "ᐊᑎᖓ ᖁᕝᕙᖅᐸᓪᓕᐊᔪᖅ",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "ᐊᑎᖓ ᐊᒻᒧᒃᐸᓪᓕᐊᔪᖅ",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "ᐅᓪᓗᖅ ᖁᕝᕙᖅᐸᓪᓕᐊᔪᖅ",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "ᐅᓪᓗᖅ ᐊᑦᑎᒃᓯᕙᓪᓕᐊᔪᖅ",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "ᐃᒡᓗᒧᑦ ᐊᑭᖓ ᖁᕝᕙᖅᐸᓪᓕᐊᔪᖅ",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "ᐊᑕᐅᓯᖅ ᐊᑭᖓ ᐊᑦᑎᒃᓯᕙᓪᓕᐊᔪᖅ",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "ᖁᕝᕙᖅᐸᓪᓕᐊᔪᑦ ᐅᓄᕐᓂᖏᑦ",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "ᖃᔅᓯᐅᓂᖏᑦ ᐅᓄᕈᓐᓃᖅᐸᓪᓕᐊᔪᑦ",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "ᑲᑎᖦᖢᒋᑦ ᐊᑭᖓ ᖁᕝᕙᖅᐸᓪᓕᐊᔪᖅ",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "ᑲᑎᖦᖢᒋᑦ ᐊᑭᖓ ᐊᑦᑎᒃᓯᕙᓪᓕᐊᔪᖅ",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "ᓱᕈᔾᔭᐃᒃᑯᑎᓕᒫᑦ ᐲᔭᕐᓗᒋᑦ",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "ᐊᔾᔨᓕᐅᕐᓗᒍ ᓇᓗᓇᐃᒃᑯᑖ ᑎᑎᕋᕐᓂᐊᕐᓗᒍ ᓈᓴᖅᓯᒪᔪᑦ ᓇᖕᒥᓂᖁᑎᒋᔭᑦ ᐱᖁᑎᖏᑦ",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "ᕿᓂᕐᕖᑦ...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "ᒫᓐᓇ ᐱᔭᒃᓴᖅᑕᖃᙱᑦᑐᖅ",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "ᓇᕿᓪᓗᒍ ᓇᕿᑦᑕᒐᖅ ᐊᑖᓃᑦᑐᖅ ᐃᓚᓯᔪᒪᒍᕕᑦ ᓯᕗᓪᓕᖅᐹᒥᒃ",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "ᐃᓱᓕᑦᑐᖅ",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "ᐃᓱᓕᕝᕕᒃᓴᓕᒃ",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "ᐊᓯᔾᔨᖅᑕᐅᔪᓐᓇᕈᑖ ᐃᓱᓕᑦᑐᖅ",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "ᓇᓪᓕᐅᒃᑯᒫᖓ ᐃᓱᓕᓕᒑᓕᖅᐳᖅ",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "{count} ᐊᒥᐊᒃᑯᑦ",
+  "@days_remaining": {
+    "description": "ᐊᒥᐊᒃᑯᖏᑦ ᐅᓪᓗᐃᑦ ᑭᓪᓕᖃᖅᓱᑎᒃ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "ᐅᓪᓗᑦ {count} ᐃᓱᓕᑦᑐᑦ",
+  "@expired_days_ago": {
+    "description": "ᐃᓱᓕᕝᕕᒃᓴᓖᑦ ᐅᓪᓗᐃᑦ ᑭᒡᓕᖃᖅᖢᑎᒃ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "ᐲᕐᓗᒍ ᐱᔾᔪᑕᐅᔪᖅ",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "ᐲᖅᓯᔪᒪᓪᓚᑦᑖᖅᐲᑦ \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "ᐲᕐᓗᒍ ᓇᓗᓇᐃᖅᓯᔾᔪᑎ ᑐᓴᒐᒃᓴᖅ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "ᐱᖁᑎ ᐲᖅᑕᐅᓯᒪᔪᖅ",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "ᐲᖅᓯᓂᖅ ᑲᔪᓯᓚᐅᙱᑦᑐᖅ",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "ᐲᖅᓯᔪᓐᓇᙱᑦᑐᖅ ᐱᖁᑎᒥᒃ: {error}",
+  "@failed_to_delete_message": {
+    "description": "ᐲᕐᓗᒍ ᑕᒻᒪᖅᓯᒪᔪᖅ ᑐᓴᒐᒃᓴᖅ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "ᐅᓪᓗᖓᑕ ᓇᓃᓐᓂᖓᓄᑦ ᖃᐅᔨᓴᕈᑎ",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "ᐊᑭᖏᑕ ᐊᔾᔨᒌᙱᓐᓂᖏᓐᓄᑦ ᖃᐅᔨᓴᕈᑎ",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "ᐱᖁᑎᒃᑲ",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "ᓇᕿᓪᓗᒍ ᓇᕿᑦᑕᒐᖅ ᐊᑖᓂ ᑕᓕᖅᐱᐊᓂ ᑎᕆᖅᑯᐊᓂ ᐃᓚᓯᔪᒪᒍᕕᑦ ᐱᖁᑎᒥᒃ",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "ᓇᓗᓇᐃᕐᓗᒍ ᐲᖅᑕᐅᓂᖓ",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "ᓱᕈᔾᔭᐃᒃᑯᑎᓄᑦ ᓇᓖᕌᒐᒃᓴᑦ",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "ᐋᖅᑭᒃᓱᕐᓗᒋᑦ ᐱᖁᑎᑦ ᖃᓄᐃᑦᑑᓂᖏᑦᑎᒍᑦ, ᖃᓄᐃᑦᑑᓂᖏᑦᑎᒍᑦ, ᓇᓃᓐᓂᖏᓪᓗ",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} ᖃᓄᐃᑦᑑᓂᖏᑦ",
+  "@categories_count": {
+    "description": "ᖃᓄᐃᑦᑑᓂᖏᑦ ᓈᓴᖅᑕᐅᔪᑦ ᓴᖅᑭᔮᖅᑎᑕᐅᔪᑦ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "ᑕᒪᕐᒥᒃ ᖃᓄᐃᑦᑑᓂᖏᑦ",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "ᖃᓄᐃᑦᑑᓂᖏᓐᓄᑦ ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ ᐊᑐᐃᓐᓇᐅᖏᑦᑐᑦ",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "ᓯᕐᓗᐊᖃᕐᕕᐅᑉ ᐃᓂᖓ",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} ᓇᓃᓐᓂᖏᑦ",
+  "@locations_count": {
+    "description": "ᖃᔅᓯᐅᓂᖏᑦ ᐃᓂᒋᔭᐅᔪᑦ ᑕᑯᒃᓴᐅᑎᑕᐅᔪᑦ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "ᑕᒪᕐᒥᑦᑎᐊᖅ ᐃᓂᒋᔭᐅᔪᑦ",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "ᓇᓃᓐᓂᖏᓐᓄᑦ ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ ᐊᑐᐃᓐᓇᐅᙱᑦᑐᑦ",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "ᐅᓪᓗᖏᑦ",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "ᓂᕈᐊᕐᓗᒍ ᐅᓪᓗᖓ",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "ᐊᑭᖓ",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "ᐃᒡᓗᒧᑦ ᐊᑭᖓ",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "ᐊᑭᑭᓛᖅ ᐊᑕᐅᓯᖅ ᐊᑭᖓ",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "ᐊᑭᑐᓛᖅ ᐃᒡᓗᒧᑦ ᐊᑭᖓ",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "ᑲᑎᖦᖢᒋᑦ ᐊᑭᖏᑦ",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "ᐊᑭᑭᓛᖓ ᑲᑎᖦᖢᒍ ᐊᑭᖓ",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "ᐊᑭᑐᓛᖓ ᑲᑎᖦᖢᒍ ᐊᑭᖓ",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "ᑐᑭᓯᓇᑦᑎᐊᖅᑐᖅ ᐊᑭᖓᓄᑦ ᖃᐅᔨᓴᕈᑎ",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "ᐃᓕᓗᒍ ᓇᓗᓇᐃᒃᑯᑖ ᐃᓗᐊᒍᑦ ᐊᔾᔨᓕᐅᕐᓂᐊᕐᓗᒍ",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "ᐱᖁᑎ ᐱᑕᖃᖅᐸᒌᖅᑐᖅ",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "ᓇᓗᓇᐃᒃᑯᑖ: {barcode}",
+  "@barcode_with_value": {
+    "description": "Barcode ᓴᖅᑭᔮᖅᑎᑕᐅᔪᖅ ᑭᒡᓕᖃᖅᖢᓂ",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "ᐊᑎᖓ: {name}",
+  "@name_with_value": {
+    "description": "ᐊᑎᖏᑦ ᑕᑯᒃᓴᐅᑎᑕᐅᔪᑦ ᑭᒡᓕᖃᖅᖢᑎᒃ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "ᖃᓄᐃᑦᑑᓂᖓ: {category}",
+  "@category_with_value": {
+    "description": "ᖃᓄᐃᑦᑑᓂᖏᑦ ᑕᑯᒃᓴᐅᑎᑕᐅᔪᑦ ᑭᒡᓕᖃᖅᖢᑎᒃ",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "ᒫᓐᓇ ᖃᔅᓯᐅᓂᖓ: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "ᒫᓐᓇ ᐊᖏᓂᖓ ᑕᑯᒃᓴᐅᑎᑕᐅᔪᖅ ᑭᒡᓕᖃᖅᖢᑎᒃ",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "ᓂᕈᐊᕐᕕᒋᓗᒍ:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "ᓯᕐᓗᐊᕐᒦᙶᖅᑐᑦ",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "ᓯᕐᓗᐊᖅ ᐃᓯᕐᕕᒃ",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "ᑎᑭᑉᐸᓪᓕᐊᔪᑦ ᖃᔅᓯᐅᓂᖏᑦ",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "ᐊᓂᕙᓪᓕᐊᔪᑦ ᖃᔅᓯᐅᓂᖏᑦ",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "ᖃᔅᓯᐅᓂᖏᑦ",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "ᑎᑎᕋᕐᓗᒍ ᖃᔅᓯᐅᓂᖏᑦ ᐱᓯᒪᔭᐅᓂᐊᖅᑐᑦ",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "ᑎᑎᕋᕐᓗᒍ ᖃᔅᓯᐅᓂᖓ ᐊᐅᓪᓚᖅᑎᑕᐅᓂᐊᖅᑐᖅ",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "{name} {quantity}{unit} ᐃᓚᔭᐅᓯᒪᓕᖅᑐᖅ",
+  "@item_increased": {
+    "description": "ᐃᓚᔭᐅᓯᒪᔪᖅ ᖃᐅᔨᒃᑲᐃᔾᔪᑎ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "ᐲᖅᓯᔪᒪᓪᓚᑦᑖᖅᐲᑦ \"{name}\"? ᑕᒪᓐᓇ ᐱᓕᕆᓂᐅᔪᖅ ᓄᖅᑲᖅᑎᑕᐅᔪᓐᓇᙱᓚᖅ.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "ᐲᕐᓗᒍ ᓇᓗᓇᐃᖅᓯᔾᔪᑎ ᑐᓴᒐᒃᓴᖅ ᐃᓂᖅᑎᖅᑕᐅᔪᓐᓇᙱᖦᖢᓂ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "ᒥᒃᖠᕚᓪᓕᖅᓯᒪᕗᖅ {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "ᒥᒃᖠᕚᓪᓕᖅᑎᑦᑎᓂᕐᒧᑦ ᑐᓴᖅᑕᐅᔪᒃᓴᖅ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "ᖃᕆᓴᐅᔭᒃᑯᑦ ᑐᖅᑯᖅᑐᐃᕕᒃ ᐋᖅᑭᒃᑕᐅᒃᑲᓐᓂᓚᐅᖅᐳᖅ, ᑭᑉᐹᕆᒃᓯᓕᖅᓯᒪᔪᓪᓗ ᐋᖅᑭᒃᓯᒪᓂᕆᔭᖓ ᐋᖅᑭᒃᑕᐅᒃᑲᓐᓂᓛᖅᖢᓂ.",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "ᑕᒻᒪᖅᓯᒪᔪᖅ ᐋᖅᑭᒋᐊᖅᓯᒃᑲᓐᓂᕐᓂᕐᒧᑦ ᑐᖅᑯᖅᑐᐃᕝᕕᒃ: {error}",
+  "@database_reset_error": {
+    "description": "ᖃᕆᓴᐅᔭᒃᑯᑦ ᑐᖅᑯᖅᑐᐃᕝᕕᒃ ᐋᖅᑭᒋᐊᖅᑕᐅᒃᑲᓐᓂᕐᓂᖓᓄᑦ ᑕᒻᒪᖅᓯᒪᔪᖅ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "ᐊᔾᔨᙳᐊᖅ ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ ᐱᒋᐊᕐᓂᖓᓂ ᐊᔪᓚᐅᖅᐳᖅ: {error}",
+  "@mock_data_init_failed": {
+    "description": "ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ ᐱᒋᐊᕐᓂᖓᓂ ᐊᔪᖅᑐᖅ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "ᐋᖅᑭᒋᐊᕈᑎᒃᓴᖅ:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. ᐃᓕᐅᖅᑲᕐᓗᒍ ᖃᕋᓴᐅᔭᒃᑰᕈᑎ ᐃᓕᒃᑲᓐᓂᕐᓗᒍᓗ",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. ᐲᔭᕐᓗᒍᓘᓐᓃᑦ ᖃᕋᓴᐅᔭᒃᑰᕈᑎᐅᑉ ᑎᑎᖅᑲᖏᑦ",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. ᐅᕝᕙᓘᓐᓃᑦ ᐋᖅᑭᒡᓗᒍ resetDatabaseOnStart true ᐊᒻᒪ ᐱᒋᐊᒃᑲᓐᓂᕐᓗᓂ",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "ᐃᖅᑲᐃᓯᔾᔪᑎ ᐱᔨᑦᑎᕋᐅᑎ ᐱᒋᐊᕐᓂᖓ ᐊᔪᓚᐅᖅᐳᖅ: {error}",
+  "@notification_service_init_failed": {
+    "description": "ᖃᐅᔨᒃᑲᐃᔾᔪᑎ ᐱᔨᑦᑎᕋᐅᑎ ᐱᒋᐊᕐᓂᖓ ᐊᔪᖅᑐᖅ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "ᖃᐅᔨᒋᐊᙱᖦᖢᒍ ᐅᓪᓗᖅᓯᐅᑎᐅᑉ ᓇᓕᖅᑲᖓ: {error}",
+  "@check_calendar_account_failed": {
+    "description": "ᖃᐅᔨᒋᐊᙱᖦᖢᒍ ᐅᓪᓗᖅᓯᐅᑎᐅᑉ ᓇᓕᖅᑲᖓ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "ᐅᓪᓗᖅᓯᐅᑎᓕᐅᕈᓐᓇᙱᑦᑐᖓ: {error}",
+  "@create_calendar_failed": {
+    "description": "ᐅᓪᓗᖅᓯᐅᑎᓕᐅᕈᓐᓇᙱᑦᑐᖓ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "ᐃᓚᓕᐅᑎᙱᖦᖢᒍ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᖃᓄᐃᓕᐅᕐᓂᐅᔪᖅ: {error}",
+  "@add_calendar_event_failed": {
+    "description": "ᐃᓚᓯᓚᐅᙱᑦᑐᖅ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᖃᓄᐃᓕᐅᕐᓂᐅᔪᒥᑦ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "ᐲᖅᓯᔪᓐᓇᙱᖦᖢᖓ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᖃᓄᐃᓕᐅᕐᓂᐅᓚᐅᖅᑐᒧᑦ: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "ᐲᖅᓯᔪᓐᓇᙱᖦᖢᖓ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᖃᓄᐃᓕᐅᕐᓂᐅᓚᐅᖅᑐᒥᒃ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "ᐋᖅᑭᒃᓯᔪᓐᓇᙱᖦᖢᓂ ᐱᔪᓐᓇᖅᑎᑦᑎᔾᔪᑎᒥᒃ ᑐᓴᖅᑎᑦᑎᔾᔪᑎᒥᒃ: {error}",
+  "@set_permission_message_failed": {
+    "description": "ᐋᖅᑭᒃᓯᔪᓐᓇᙱᖦᖢᖓ ᐱᔪᓐᓇᖅᑎᑦᑎᔾᔪᑎᒥᒃ ᑐᓴᖅᑎᑦᑎᔾᔪᑎᒥᒃ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "ᑲᔪᓯᓂᖃᑦᑎᐊᖅᑐᒃᑯᑦ ᐱᒋᐊᖅᓯᓂᖅ {count} ᐱᙳᐊᖅᑕᐅᔪᓂᒃ ᑎᑎᕋᖅᓯᒪᔪᓂᒃ",
+  "@mock_data_init_success": {
+    "description": "ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ ᐱᒋᐊᖅᑕᐅᑦᑎᐊᖅᑐᑦ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "ᖃᕆᓴᐅᔭᒃᑯᑦ ᑐᖅᑯᖅᑐᐃᕕᒃ {count}-ᓂᒃ ᑎᑎᕋᖅᓯᒪᔪᖃᖅᐸᒌᖅᐳᖅ, ᖄᖏᖦᖢᒍ ᐱᙳᐊᖅᑕᐅᙳᐊᖅᑐᑦ ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ ᐱᒋᐊᕐᓂᖓᓂ",
+  "@database_has_data": {
+    "description": "ᑐᓴᒐᒃᓴᓂᒃ ᑲᑎᖅᓱᐃᕝᕕᒃ ᑎᑎᖅᑲᖃᖅᐸᒌᖅᑐᖅ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "ᐱᔾᔪᑎᖃᑐᐃᓐᓇᕆᐊᓕᒃ ᐊᔾᔨᒌᙱᓐᓂᖏᓐᓄᑦ ᖃᕆᓴᐅᔭᒃᑯᑦ ᑐᖅᑯᖅᑐᐃᕕᐅᑉ ᐋᖅᑭᒃᓯᒪᓂᖓ. ᐊᑐᖁᔭᐅᔪᖅ ᐲᕐᓗᒍ ᖃᕋᓴᐅᔭᒃᑰᕈᑎ ᑲᑎᖅᓱᖅᓯᒪᔪᑦ ᐃᓕᒃᑲᓐᓂᕐᓗᒍᓘᓐᓃᑦ.",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "ᓄᑕᐅᙱᑦᑐᑦ ᖃᕆᓴᐅᔭᒃᑯᑦ ᑐᖅᑯᖅᑕᐅᓯᒪᔪᑦ ᐲᔭᖅᑕᐅᓯᒪᓕᖅᑐᑦ",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "ᑭᖑᕝᕕᐅᑎᔪᒃᓴᑦ ᑎᑎᖅᑲᑦ ᐃᓗᓕᖃᙱᑦᑐᑦ",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "ᑭᖑᕝᕕᐅᑎᔪᒃᓴᖅ ᑐᖅᑯᖅᓯᒪᕝᕕᒃ ᐱᑕᖃᙱᑦᑐᖅ",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "ᑐᖅᑯᐃᕕᒃ ᓇᓗᓇᐃᒃᑯᑦᑎᖅᓱᐃᓂᖅ ᐊᑐᙱᑦᑐᖅ UTF-8 ᐋᖅᑭᒃᓯᒪᓂᖓᓂᒃ. ᖃᐅᔨᒪᒋᐊᕐᓂᐊᖅᐳᑎᑦ ᑐᖅᑯᖅᑕᐅᓯᒪᒐᓗᐊᕐᒪᖔᑦ UTF-8 ᓇᓗᓇᐃᒃᑯᑦᑎᖅᓱᐃᔾᔪᑎᒥᒃ. ᑕᒻᒪᖅᓯᒪᔪᑦ ᓇᓗᓇᐃᖅᓯᒪᔪᑦ: {error}",
+  "@file_not_utf8": {
+    "description": "ᑐᖅᑯᖅᓯᒪᕝᕕᖕᒥ ᓇᓗᓇᐃᒃᑯᑦᑎᖅᓱᐃᓂᕐᒧᑦ ᑕᒻᒪᖅᓯᒪᔪᖅ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "ᑎᑎᖅᑲᑦ ᐱᑕᖃᙱᑦᑐᑦ: {filePath}",
+  "@file_not_found": {
+    "description": "ᑎᑎᖅᑲᑦ ᓇᓂᔭᐅᙱᑦᑐᑦ ᑕᒻᒪᖅᓯᒪᔪᑦ",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "ᑎᑎᖅᑲᒃᑯᕕᒃ ᐃᓗᓕᖃᙱᑦᑐᖅ: {filePath}",
+  "@file_empty": {
+    "description": "File is empty error",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "ᑎᑎᖅᑲᑦ ᐃᓗᓕᖏᑦ ᐃᓗᓕᖃᙱᑦᑐᑦ ᓇᓗᓇᐃᒃᑯᑦᑎᖅᑕᐅᓚᐅᖅᑎᓪᓗᒋᑦ, ᐃᒻᒪᖄ ᓇᓗᓇᐃᒃᑯᑦᑎᖅᓱᐃᓂᕐᒧᑦ ᐊᔾᔨᒌᙱᓐᓂᖏᓐᓄᑦ",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} ᑭᓱᖃᙱᑦᑑᔪᓐᓇᙱᓚᖅ",
+  "@field_cannot_be_empty": {
+    "description": "ᐃᓂᐅᔪᖅ ᐃᓗᓕᖃᙱᑦᑑᔭᕆᐊᖃᙱᓚᖅ ᓱᓕᓂᕋᐃᔾᔪᑎᒥᒃ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} ᑕᑭᓂᖓ ᑐᖔᓃᑦᑕᕆᐊᖃᙱᓚᖅ {minLength} ᑎᑎᖅᑲᓂᒃ",
+  "@field_min_length": {
+    "description": "ᖃᐅᔨᓴᕐᕕᖕᒥ ᒥᑭᓛᒥᒃ ᑕᑭᓂᖓᑕ ᓈᒻᒪᖕᓂᖓ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} ᐅᖓᑖᓅᕆᐊᖃᙱᓚᖅ {maxLength}",
+  "@field_max_length": {
+    "description": "ᖃᐅᔨᓴᕐᕕᖕᒥ ᐊᖏᓛᕆᔪᓐᓇᖅᑕᖓ ᑕᑭᓂᖓᑕ ᓈᒻᒪᒃᓯᑎᑕᐅᓂᖓ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "ᑎᑎᕋᕐᓗᒍ ᐊᑐᕈᓐᓇᖅᑐᖅ {fieldName} ᑐᕌᕈᑖ",
+  "@field_invalid_email": {
+    "description": "ᐃᕐᖐᓐᓈᖅᑕᐅᑦ ᐋᖅᑭᒃᓯᒪᓂᖓ ᓇᓗᓇᐃᖅᓯᓂᖅ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} {numberType}",
+  "@field_invalid_number": {
+    "description": "ᖃᕆᑕᐅᔭᒃᑯᑦ ᐋᖅᑭᒃᓯᒪᓂᖓᓂᒃ ᓇᓗᓇᐃᖅᓯᓂᖅ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} ᑐᖔᓃᑦᑕᕆᐊᖃᙱᓚᖅ {min}",
+  "@field_min_value": {
+    "description": "ᐊᑭᑭᓛᕆᔪᓐᓇᖅᑕᖓ ᓱᓕᓂᕋᐃᓂᖅ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} ᐊᖏᓂᖅᓴᐅᔪᓐᓇᙱᓚᖅ {max}",
+  "@field_max_value": {
+    "description": "ᐊᖏᓛᕆᔪᓐᓇᖅᑕᖓ ᐊᑭᖓ ᓱᓕᓂᕋᐃᓂᖅ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} ᐱᐅᔪᒥᒃ ᓈᓴᐅᑎᖃᕆᐊᓕᒃ",
+  "@field_positive_integer": {
+    "description": "ᐱᐅᔪᒥᒃ ᓈᓴᐅᑎᒥᒃ ᓇᓗᓇᐃᖅᓯᓂᖅ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} ᐊᖏᓂᖅᓴᐅᔭᕆᐊᓕᒃ 0−ᒥᑦ",
+  "@field_greater_than_zero": {
+    "description": "ᐊᖏᓂᖅᓴᖅ 0−ᒥᑦ ᓱᓕᓂᕋᐃᔾᔪᑎ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} ᓈᓴᐅᑎᐅᔭᕆᐊᖃᖅᐳᖅ",
+  "@field_positive_number": {
+    "description": "ᓈᓴᐅᑎᓪᓚᑦᑖᑦ ᓇᓗᓇᐃᖅᑕᐅᓂᖏᑦ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "ᑎᑎᕋᕐᓗᒍ ᐊᑐᕈᓐᓇᖅᑐᖅ {fieldName}",
+  "@field_invalid_date": {
+    "description": "ᐅᓪᓗᖅ ᐋᖅᑭᒃᓯᒪᓂᖓ ᓈᒻᒪᖕᓂᖓ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} ᖄᖏᐅᑎᓯᒪᔭᕆᐊᖃᙱᓚᖅ",
+  "@field_date_not_past": {
+    "description": "ᐅᓪᓗᖓ ᖄᖏᖅᓯᒪᔭᕆᐊᖃᙱᓚᖅ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} ᓯᕗᓂᐊᒍᑦ {minDate}",
+  "@field_date_not_before": {
+    "description": "ᐅᓪᓗᖓ ᓯᕗᓂᐊᓃᑦᑕᕆᐊᖃᙱᓚᖅ ᓇᓗᓇᐃᖅᑕᐅᓯᒪᔪᒥᑦ ᐅᓪᓗᖓᓂᑦ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} ᐅᖓᑖᓅᕆᐊᖃᙱᓚᖅ {maxDate}",
+  "@field_date_not_after": {
+    "description": "ᐅᓪᓗᖓ ᐅᖓᑖᓅᕆᐊᖃᙱᑦᑐᖅ ᓇᓗᓇᐃᖅᑕᐅᓯᒪᔪᒧᑦ ᐅᓪᓗᕐᒧᑦ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "ᑎᑎᕋᕐᓗᒍ ᐊᑐᕈᓐᓇᖅᑐᖅ {fieldName}",
+  "@field_invalid_value": {
+    "description": "ᐊᑑᑎᖃᙱᑦᑐᖅ ᐊᑭᖓᓄᑦ ᓇᓗᓇᐃᖅᓯᔾᔪᑎ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} 8 ᑐᖔᓃᑦᑕᕆᐊᖃᙱᓚᖅ",
+  "@password_min_length": {
+    "description": "ᐃᓯᕈᓐᓇᐅᑖ ᒥᑭᓛᖅ ᑕᑭᓂᖓ ᓇᓗᓇᐃᖅᓯᔾᔪᑎ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} ᐊᑕᐅᓯᕐᒥᒃ ᐊᖏᔫᑕᐅᓂᖅᓴᓂᒃ ᑎᑎᖅᑲᖃᕆᐊᓕᒃ",
+  "@password_uppercase_required": {
+    "description": "ᐃᓯᕈᓐᓇᐅᑖ ᐊᖏᔫᑕᐅᓂᖅᓴᓂᒃ ᑎᑎᖅᑲᖃᕆᐊᓕᒃ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} ᐊᑕᐅᓯᕐᒥᒃ ᒥᑭᑦᑑᑎᓂᒃ ᑎᑎᖅᑲᖃᕆᐊᓕᒃ",
+  "@password_lowercase_required": {
+    "description": "ᐃᓯᕈᓐᓇᐅᑖ ᒥᑭᑦᑑᑕᐅᓂᖅᓴᓂᒃ ᑎᑎᖅᑲᖃᕆᐊᓕᒃ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} ᐊᑕᐅᓯᕐᒥᒃ ᓈᓴᐅᑎᖃᕆᐊᓕᒃ",
+  "@password_digit_required": {
+    "description": "ᐃᓯᕈᓐᓇᐅᑖ ᓈᓴᐅᑎᖃᕆᐊᓕᒃ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} ᐊᑕᐅᓯᕐᒥᒃ ᐊᔾᔨᐅᙱᑦᑐᒥᒃ ᑎᑎᖅᑲᖃᕆᐊᓕᒃ",
+  "@password_special_char_required": {
+    "description": "ᐃᓯᕈᓐᓇᐅᑖ ᐊᔾᔨᐅᙱᑦᑐᓂᑦ ᑎᑎᖅᑲᖃᕆᐊᓕᒃ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "ᒪᕐᕉᒃ ᐃᓯᕈᓐᓇᐅᑏᒃ ᐊᔾᔨᒌᙱᑦᑑᒃ",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "ᐱᖁᑎᐅᑉ ᐊᑎᖓ ᐃᓗᓕᖃᕈᓐᓇᙱᓚᖅ",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "ᐊᑎᖓ ᐅᖓᑖᓅᕆᐊᖃᙱᑦᑐᖅ {maxLength} ᑎᑎᖅᑲᓂᒃ",
+  "@name_max_length": {
+    "description": "ᐊᖏᓛᕆᔪᓐᓇᖅᑕᖓ ᐊᑎᖓ ᑕᑭᓂᖓ ᓱᓕᓂᕋᐃᓂᖅ",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "ᖃᔅᓯᐅᓂᖏᑦ ᑐᖔᓃᑦᑕᕆᐊᖃᙱᓚᑦ {minQuantity}",
+  "@quantity_min": {
+    "description": "ᐅᓄᙱᓛᑦ ᖃᔅᓯᐅᓂᖏᓐᓄᑦ ᓈᒻᒪᒃᓯᓕᖅᓯᒪᔪᑦ",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "ᖃᔅᓯᐅᓂᖏᑦ ᖄᖏᐅᑎᔭᕆᐊᖃᙱᑦᑐᑦ {maxQuantity}",
+  "@quantity_max": {
+    "description": "ᐊᖏᓛᕆᔪᓐᓇᖅᑕᖓ ᓈᒻᒪᖕᓂᖓ",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "ᐊᑕᐅᓯᖅ ᐊᑭᖓ ᐊᑭᓕᒃᓴᐅᔪᓐᓇᙱᓚᖅ",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "ᐊᑕᐅᓯᖅ ᐊᑭᖓ ᖄᖏᐅᑎᔭᕆᐊᖃᙱᓚᖅ {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "ᐊᑕᐅᓯᖅ ᐊᑭᖓᑕ ᐊᖏᓛᕆᔪᓐᓇᖅᑕᖓ ᐊᑭᖓ ᓇᓗᓇᐃᖅᑕᐅᓂᖓ",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "ᐋᕿᒃᓱᕐᓗᒍ ᓴᓇᔭᐅᓂᖓᑕ ᐅᓪᓗᖓ ᐊᒻᒪᓗ ᖃᓄᖅ ᐊᑯᓂᐅᑎᒋᔪᖅ ᐃᓕᔭᐅᓯᒪᓂᐊᕐᒪᖔᑦ ᖃᐅᔨᑲᐅᑎᒋᓂᐊᕋᕕᐅᒃ ᐊᑐᕈᓐᓇᕐᓂᖓ",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "ᓂᐅᕕᐊᖑᓂᐊᖅᑑᑉ ᐅᓪᓗᖓ ᐊᒻᒪ ᖃᓄᖅ ᐊᑯᓂᐅᑎᒋᔪᖅ ᐋᖅᑭᒃᑕᐅᓯᒪᓂᐊᕐᒪᖔᑦ ᐋᖅᑭᒃᑕᐅᑲᐅᑎᒋᓂᐊᕐᒪᑦ ᓇᓪᓕᐅᒃᑯᒫᖓ",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "ᐅᓪᓗᖅᓯᐅᑎᓕᐅᕈᓐᓇᙱᒃᑯᕕᑦ, ᖃᐅᔨᒋᐊᕐᓗᒍ ᐊᑐᖅᑕᐅᖃᑦᑕᖅᑐᖅ ᐅᓪᓗᖅᓯᐅᑎᐅᑉ ᐋᖅᑭᒃᓯᒪᓂᖓ",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "ᖃᐅᔨᓴᖅᑕᐅᓂᕐᒧᑦ ᖃᐅᔨᒃᑲᐃᔾᔪᑎ",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "ᑖᓐᓇ ᖃᐅᔨᓴᕈᑕᐅᓪᓗᓂ ᖃᐅᔨᒃᑲᐃᔾᔪᑎ, ᐊᑐᖅᑕᐅᕙᒃᖢᓂ ᓇᓗᓇᐃᖅᓯᔾᔪᑕᐅᓪᓗᓂ ᓄᓇᓕᖕᓂ ᐃᖅᑲᐃᑎᑦᑎᔾᔪᑎ",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "ᓯᓚ",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} ᐅᓪᓗᐃᑦ",
+  "@days_with_value": {
+    "description": "ᐅᓪᓗᐃᑦ ᑭᒡᓕᖃᖅᑐᑦ",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "ᐱᖁᑎ ᑐᖅᑯᖅᑕᐅᓯᒪᓕᖅᑐᖅ",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "ᐱᖁᑎ ᓄᑖᙳᕆᐊᖅᑕᐅᓯᒪᔪᖅ",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "ᐱᖁᑎ ᐃᓚᔭᐅᓯᒪᔪᖅ",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "ᑐᖅᑯᖅᑕᐅᑦᑎᐊᖅᑐᖅ",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "ᓄᑖᙳᕆᐊᖅᑎᑕᐅᔪᖅ ᑲᔪᓯᓂᖃᑦᑎᐊᖅᑐᖅ",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "ᐲᖅᑕᐅᑦᑎᐊᖅᑐᖅ",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "ᑐᖅᑯᐃᓂᖅ ᐊᔪᖅᑐᖅ",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "ᓄᑖᙳᕆᐊᖅᑎᑕᐅᔪᖅ ᑲᔪᓯᓚᐅᙱᑦᑐᖅ",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "ᐲᖅᓯᓂᖅ ᑲᔪᓯᓚᐅᙱᑦᑐᖅ",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "ᐅᖃᐅᓰᑦ ᐋᖅᑭᒃᓯᒪᓂᖏᑦ",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "ᐋᖅᑭᒡᓗᒍ ᖃᕋᓴᐅᔭᒃᑰᕈᑎᐅᑉ ᓴᖅᑭᔮᖅᑎᑕᖓᑕ ᐅᖃᐅᓯᖅᑕᖓ",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "ᐱᓕᕆᔾᔪᓰᑦ ᐊᔪᓕᖅᓯᒪᔪᑦ",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "ᐊᑐᕐᓗᒍ ᐊᑐᖅᑕᐅᕙᒃᑐᖅ ᐅᖃᐅᓯᖅᑕᖅ",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "ᐅᖃᐅᓯᖅᑕᖅ ᐊᓯᔾᔨᖅᑕᐅᓂᖓ ᐊᑐᓕᕐᓂᐊᖅᑐᖅ ᐱᓇᔫᑦ ᐱᒋᐊᒃᑲᓐᓂᓚᐅᖅᑎᓪᓗᒍ.",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "ᒫᓐᓇ ᓂᕈᐊᖅᑕᐅᔪᑦ: {days} ᐅᓪᓗᐃᑦ",
+  "@current_selection": {
+    "description": "ᑕᑯᒃᓴᐅᑎᑕᐅᓂᖏᑦ ᒫᓐᓇ ᓂᕈᐊᖅᑕᐅᓯᒪᔪᑦ ᐅᓪᓗᐃᑦ",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

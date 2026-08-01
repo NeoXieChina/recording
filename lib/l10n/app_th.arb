@@ -1,0 +1,1625 @@
+{
+  "@@locale": "th",
+  "app_name": "เก็บของในพื้นที่เล็กๆ",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "ยกเลิก",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "ยืนยัน",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "บันทึก",
+  "@save": {
+    "description": ""
+  },
+  "delete": "ลบ",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "แก้ไข",
+  "@edit": {
+    "description": ""
+  },
+  "add": "เพิ่ม",
+  "@add": {
+    "description": ""
+  },
+  "search": "ค้นหา",
+  "@search": {
+    "description": ""
+  },
+  "settings": "การตั้งค่า",
+  "@settings": {
+    "description": ""
+  },
+  "back": "กลับ",
+  "@back": {
+    "description": ""
+  },
+  "next": "ขั้นตอนถัดไป",
+  "@next": {
+    "description": ""
+  },
+  "done": "เสร็จสิ้น",
+  "@done": {
+    "description": ""
+  },
+  "loading": "กำลังโหลด...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "ข้อผิดพลาด",
+  "@error": {
+    "description": ""
+  },
+  "success": "ความสำเร็จ",
+  "@success": {
+    "description": ""
+  },
+  "warning": "คำเตือน",
+  "@warning": {
+    "description": ""
+  },
+  "info": "ข้อมูล",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "เลือกจำนวนวันเตือน",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "ปรับแต่งเอง",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "กำหนดเอง ({days} วัน)",
+  "@custom_days": {
+    "description": "กำหนดจำนวนวันด้วยพารามิเตอร์",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "ช่วงวันเตือนความจำ: {min}-{max} วัน",
+  "@alert_days_range": {
+    "description": "ช่วงจำนวนวันที่เตือนพร้อมพารามิเตอร์",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "กรุณาใส่จำนวนวันเตือน",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "จำนวนวัน",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "กรุณาป้อนตัวเลขระหว่าง {min} ถึง {max}",
+  "@enter_valid_days": {
+    "description": "ข้อความยืนยันการป้อนตัวเลขวัน",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "การตั้งค่าการเตือนล่วงหน้า",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "การตั้งค่าปฏิทิน",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "ซิงค์ปฏิทิน",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "เปิดใช้แล้วจะขออนุญาตเข้าถึงปฏิทิน",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "เพิ่มเหตุการณ์ปฏิทินทดสอบ",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "โปรดเปิดสวิตช์ 'ซิงค์ปฏิทิน' ก่อน",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "การตั้งค่าการแจ้งเตือนแอป",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "การแจ้งเตือนในเครื่อง",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "เปิดใช้งานเพื่อรับการแจ้งเตือนภายในแอปเกี่ยวกับการหมดอายุ",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "ส่งการแจ้งเตือนทดสอบ",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "โปรดเปิดสวิตช์ 'เตือนความจำท้องถิ่น' ก่อน",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "ตั้งค่าจำนวนวันที่เตือน",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "จำนวนวันที่แจ้งล่วงหน้า",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "ตั้งค่าการเตือนล่วงหน้ากี่วันสำหรับสินค้าที่หมดอายุหรือหมดระยะประกัน",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "คำขอสิทธิ์ปฏิทิน",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "ต้องการการเข้าถึงปฏิทินเพื่อซิงค์การแจ้งเตือนรายการ อนุญาตหรือไม่?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "อนุญาต",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "สิทธิ์ปฏิทินได้รับการอนุญาตแล้ว การซิงค์ปฏิทินถูกเปิดใช้งานแล้ว",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "การอนุญาตปฏิทินถูกปฏิเสธ ไม่สามารถเปิดการซิงโครไนซ์ปฏิทินได้",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "การเข้าถึงถูกปฏิเสธอย่างถาวร",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "สิทธิ์ปฏิทินถูกปฏิเสธอย่างถาวร โปรดเปิดสิทธิ์ด้วยตนเองในการตั้งค่าของระบบ",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "ไปที่การตั้งค่า",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "สิทธิ์ปฏิทินได้รับการอนุญาตแล้ว แต่ไม่สามารถสร้างบัญชีปฏิทินได้ กรุณาตรวจสอบการตั้งค่าปฏิทินของระบบ",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "สิทธิ์ปฏิทินได้รับการอนุมัติแล้ว บัญชีปฏิทินท้องถิ่นถูกสร้างขึ้นแล้ว",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "บัญชีปฏิทินสร้างเสร็จแล้ว แต่ระบบอาจต้องใช้เวลาสักครู่ในการมีผล",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "ทดสอบเพิ่มเหตุการณ์ในปฏิทินสำเร็จ",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "การเพิ่มเหตุการณ์ปฏิทินสำหรับการทดสอบล้มเหลว กรุณาตรวจสอบการตั้งค่าปฏิทิน",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "ต้องการสิทธิ์ปฏิทินเพื่อเพิ่มเหตุการณ์ทดสอบ",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "การแจ้งเตือนการทดสอบถูกส่งแล้ว",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "ส่งการแจ้งเตือนทดสอบล้มเหลว: {error}",
+  "@test_notification_failed": {
+    "description": "แจ้งข้อความผิดพลาด",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "จำเป็นต้องมีสิทธิ์ในการแจ้งเตือนเพื่อเปิดใช้งานการเตือนภายในเครื่อง",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "การดำเนินการล้มเหลว: {error}",
+  "@operation_failed": {
+    "description": "ข้อความข้อผิดพลาดการดำเนินการทั่วไป",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "การแจ้งเตือนสินค้าล่วงหน้า",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "การแจ้งเตือนสินค้าหมดอายุหรือเกินระยะรับประกัน",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "อาหาร",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "ของใช้ประจำวัน",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "เครื่องสำอาง",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "ยา",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "ผลิตภัณฑ์อิเล็กทรอนิกส์",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "เฟอร์นิเจอร์",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "เสื้อผ้า",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "หนังสือ",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "อื่น ๆ",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "ช็อปปิ้งออนไลน์",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "ร้านค้าปลีก",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "ซูเปอร์มาร์เก็ต",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "ร้านค้าเฉพาะ",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "ตลาดมือสอง",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "อื่น ๆ",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "อื่น ๆ",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "ช็อปปิ้งออนไลน์",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "การจัดหมวดหมู่ของสิ่งของ",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "การจัดหมวดหมู่ที่กำหนดเอง",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "สำรองข้อมูล",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "บีบอัดข้อมูลทั้งหมด (รวมถึงรูปภาพ) เป็นไฟล์ ZIP สำหรับสำรอง",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "สำรองข้อมูลทั้งหมด",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "สำรองข้อมูลสำเร็จ",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "สำรองข้อมูลล้มเหลว: {error}",
+  "@backup_failed": {
+    "description": "ข้อความแสดงข้อผิดพลาดการสำรองข้อมูลล้มเหลว",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "กู้คืนข้อมูล",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "กู้คืนข้อมูลทั้งหมดจากไฟล์สำรอง ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "ส่งออกข้อมูล",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "ส่งออกเป็นรูปแบบ CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "นำเข้าข้อมูล",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "นำเข้าข้อมูลจากไฟล์ CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "การตั้งค่าการแจ้งเตือนปฏิทินและการแจ้งเตือนแอป",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "เกี่ยวกับ",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "ข้อมูลแอปและเวอร์ชัน",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "กรุณาเลือกไฟล์สำรองก่อน",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "ยืนยันการกู้คืน",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "การกู้คืนสำรองข้อมูลจะลบข้อมูลทั้งหมดที่มีอยู่และแทนที่ด้วยข้อมูลสำรอง การดำเนินการนี้ไม่สามารถย้อนกลับได้ คุณแน่ใจหรือว่าต้องการดำเนินการต่อ?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "ยืนยันอีกครั้ง",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "คุณแน่ใจหรือว่าต้องการล้างข้อมูลทั้งหมดที่มีอยู่และกู้คืนจากสำรอง? การดำเนินการนี้ไม่สามารถกู้คืนได้!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "ยืนยันการกู้คืน",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "กู้คืนสำเร็จ，共{count} รายการ",
+  "@restore_success": {
+    "description": "กู้คืนข้อความสำเร็จ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "กู้คืนล้มเหลว: {error}",
+  "@restore_failed": {
+    "description": "ข้อผิดพลาดการกู้คืนล้มเหลว",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "เลือกไฟล์สำรอง",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "กู้คืนสำรองข้อมูล",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "ไฟล์ที่เลือก: {filename}",
+  "@selected_file": {
+    "description": "ข้อความไฟล์ที่เลือกแล้ว",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "การส่งออกข้อมูลสำเร็จ",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "ส่งออกล้มเหลว: {error}",
+  "@export_failed": {
+    "description": "ข้อความแสดงข้อผิดพลาดการส่งออกล้มเหลว",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "การประมวลผลข้อมูลซ้ำ",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "ตรวจพบข้อมูลซ้ำ กรุณาเลือกวิธีการจัดการ:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "ข้าม",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "คลุม",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "ข้ามทั้งหมด",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "ครอบคลุมทั้งหมด",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "กรุณาเลือกประเภทการนำเข้า",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "ยืนยันการนำเข้า",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "การนำเข้าข้อมูลจะเขียนทับข้อมูลที่มีอยู่ การดำเนินการนี้ไม่สามารถย้อนกลับได้ คุณแน่ใจหรือไม่ว่าต้องการดำเนินการต่อ?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "ข้อมูลนำเข้าเรียบร้อย จำนวนรวม {count} รายการสินค้า",
+  "@import_success": {
+    "description": "ข้อความนำเข้าเรียบร้อย",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "นำเข้าล้มเหลว: {error}",
+  "@import_failed": {
+    "description": "ข้อความแสดงข้อผิดพลาดการนำเข้าไม่สำเร็จ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "เลือกไฟล์",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "ไม่มีข้อมูล",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "ตอนนี้ยังไม่มีข้อมูล คลิกปุ่มด้านล่างเพื่อเพิ่มบันทึกแรกเลย!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "โหลดล้มเหลว",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "การโหลดข้อมูลล้มเหลว กรุณาตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองใหม่",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "ลองใหม่",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "การเชื่อมต่อเครือข่ายล้มเหลว",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "โปรดตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองอีกครั้ง",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "ไม่พบผลลัพธ์",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "ลองใช้คำค้นหาอื่น",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "ล้างการค้นหา",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "ไม่มีสิทธิ์เพียงพอ",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "ต้องการสิทธิ์ที่เกี่ยวข้องในการใช้ฟีเจอร์นี้",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "ขออนุญาต",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "ข้อมูลแอปพลิเคชัน",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "เวอร์ชัน",
+  "@version": {
+    "description": ""
+  },
+  "developer": "นักพัฒนา",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "ข้อมูลอุปกรณ์",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "รุ่นอุปกรณ์",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "แบรนด์",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "ชื่ออุปกรณ์",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "ผลิตภัณฑ์",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "ฮาร์ดแวร์",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "เวอร์ชัน Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "เวอร์ชัน SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "ชื่อระบบ",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "เวอร์ชันระบบ",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "รหัสอุปกรณ์",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "ชื่อคอมพิวเตอร์",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "หมายเลขเวอร์ชัน",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "ไม่สามารถดึงข้อมูลอุปกรณ์ได้: {error}",
+  "@error_getting_device_info": {
+    "description": "ข้อความข้อผิดพลาดในการรับข้อมูลอุปกรณ์",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "แนะนำฟังก์ชัน",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "แอปพลิเคชันจัดการสิ่งของอัจฉริยะ",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "ช่วยคุณจัดการวันที่หมดอายุ วันที่รับประกัน และข้อมูลอื่น ๆ ของสิ่งของ พร้อมทั้งมีฟังก์ชันการแจ้งเตือนอัจฉริยะ",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "ของใช้สิ้นเปลือง",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "สินค้าคงทน",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "การจัดลำดับ",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "เรียงตามชื่อจากน้อยไปมาก",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "เรียงตามชื่อจากมากไปน้อย",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "วันที่เรียงตามลำดับจากน้อยไปมาก",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "วันที่เรียงลำดับจากมากไปน้อย",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "ราคาต่อหน่วยจากน้อยไปมาก",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "ราคาต่อหน่วยจากสูงไปต่ำ",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "เรียงตามจำนวนจากน้อยไปมาก",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "เรียงตามจำนวนจากมากไปน้อย",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "ราคาทั้งหมดจากน้อยไปมาก",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "ราคาทั้งหมดจากมากไปน้อย",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "ล้างตัวกรองทั้งหมด",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "สแกนรหัสเพื่อเข้าคลัง",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "ค้นหาสินค้า...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "ยังไม่มีสินค้า",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "คลิกปุ่มด้านล่างเพื่อเพิ่มรายการแรก",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "หมดอายุแล้ว",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "กำลังจะหมดอายุ",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "การรับประกันหมดอายุแล้ว",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "การรับประกันกำลังจะหมดอายุ",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "เหลือ {count} วัน",
+  "@days_remaining": {
+    "description": "จำนวนวันที่เหลือพร้อมพารามิเตอร์",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "หมดอายุ {count} วัน",
+  "@expired_days_ago": {
+    "description": "จำนวนวันที่หมดอายุพร้อมพารามิเตอร์",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "ลบไอเท็ม",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "คุณแน่ใจหรือว่าต้องการลบ\"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "ยืนยันการลบ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "รายการถูกลบแล้ว",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "ลบไม่สำเร็จ",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "ไม่สามารถลบไอเท็ม: {error}",
+  "@failed_to_delete_message": {
+    "description": "ลบข้อความผิดพลาด",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "การกรองช่วงวันที่",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "การกรองช่วงราคา",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "ของของฉัน",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "คลิกที่ปุ่มมุมล่างขวาเพื่อเพิ่มรายการ",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "ยืนยันการลบ",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "ตัวเลือกตัวกรอง",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "กรองสิ่งของตามประเภท หมวดหมู่ และสถานที่",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} หมวดหมู่",
+  "@categories_count": {
+    "description": "แสดงจำนวนตามประเภท",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "หมวดหมู่ทั้งหมด",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "ยังไม่มีข้อมูลประเภท",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "สถานที่เก็บ",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} สถานที่",
+  "@locations_count": {
+    "description": "จำนวนสถานที่ที่แสดง",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "สถานที่ทั้งหมด",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "ยังไม่มีข้อมูลสถานที่",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "ช่วงวันที่",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "เลือกช่วงวันที่",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "ช่วงราค",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "ช่วงราคาต่อหน่วย",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "ราคาต่ำสุด",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "ราคาสูงสุดต่อหน่วย",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "ช่วงราคาทั้งหมด",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "ราคาต่ำสุดรวมทั้งหมด",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "ราคาสูงสุดรวม",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "ล้างตัวกรองราคา",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "ใส่บาร์โค้ดไว้ในกรอบเพื่อต่อการสแกน",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "สินค้ามีอยู่แล้ว",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "รหัสบาร์โค้ด: {barcode}",
+  "@barcode_with_value": {
+    "description": "บาร์โค้ดแสดงพร้อมพารามิเตอร์",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "ชื่อ: {name}",
+  "@name_with_value": {
+    "description": "ชื่อแสดงพร้อมพารามิเตอร์",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "ประเภท:{category}",
+  "@category_with_value": {
+    "description": "แสดงตามประเภทพร้อมพารามิเตอร์",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "จำนวนปัจจุบัน: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "จำนวนปัจจุบันแสดงพร้อมพารามิเตอร์",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "กรุณาเลือกการดำเนินการ:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "เบิกสินค้าออกจากคลัง",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "เข้าคลัง",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "จำนวนที่เข้าคลัง",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "จำนวนสินค้าที่ออกจากคลัง",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "จำนวน",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "กรุณากรอกจำนวนสินค้าที่ต้องการนำเข้าคลัง",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "กรุณากรอกจำนวนสินค้าที่ต้องการนำออกจากคลัง",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "ได้เพิ่ม {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "ข้อความเพิ่มไอเท็ม",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "คุณแน่ใจหรือไม่ว่าต้องการลบ '{name}'? การดำเนินการนี้ไม่สามารถย้อนกลับได้",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "ข้อความยืนยันการลบพร้อมคำเตือนว่าไม่สามารถย้อนกลับได้",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "ลดลงแล้ว {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "ข้อความลดจำนวนของสินค้า",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "ฐานข้อมูลถูกรีเซ็ตแล้ว กำลังสร้างโครงสร้างตารางใหม่",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "เกิดข้อผิดพลาดในการรีเซ็ตฐานข้อมูล: {error}",
+  "@database_reset_error": {
+    "description": "ข้อผิดพลาดในการรีเซ็ตฐานข้อมูล",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "การเริ่มต้นข้อมูลจำลองล้มเหลว: {error}",
+  "@mock_data_init_failed": {
+    "description": "การเริ่มต้นข้อมูลจำลองล้มเหลว",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "แนวทางแก้ไข:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. ถอนการติดตั้งแอปแล้วติดตั้งใหม่",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. หรือล้างข้อมูลแอป",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. หรืออาจตั้งค่า resetDatabaseOnStart เป็น true แล้วเรียกใช้งานใหม่",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "การเริ่มต้นบริการแจ้งเตือนล้มเหลว: {error}",
+  "@notification_service_init_failed": {
+    "description": "การเริ่มต้นบริการแจ้งเตือนล้มเหลว",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "ตรวจสอบบัญชีปฏิทินล้มเหลว: {error}",
+  "@check_calendar_account_failed": {
+    "description": "ตรวจสอบบัญชีปฏิทินล้มเหลว",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "สร้างปฏิทินล้มเหลว: {error}",
+  "@create_calendar_failed": {
+    "description": "สร้างปฏิทินล้มเหลว",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "เพิ่มเหตุการณ์ปฏิทินล้มเหลว: {error}",
+  "@add_calendar_event_failed": {
+    "description": "เพิ่มเหตุการณ์ในปฏิทินล้มเหลว",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "ลบเหตุการณ์ในปฏิทินล้มเหลว: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "ลบเหตุการณ์ในปฏิทินไม่สำเร็จ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "ตั้งค่าข้อความแจ้งเตือนสิทธิ์ล้มเหลว: {error}",
+  "@set_permission_message_failed": {
+    "description": "ตั้งค่าข้อความแจ้งสิทธิ์ล้มเหลว",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "ได้ทำการเริ่มต้นข้อมูลจำลอง {count} รายการเรียบร้อยแล้ว",
+  "@mock_data_init_success": {
+    "description": "การเริ่มต้นข้อมูลจำลองสำเร็จ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "ฐานข้อมูลมีข้อมูล {count} รายการแล้ว ข้ามการเริ่มต้นข้อมูลจำลอง",
+  "@database_has_data": {
+    "description": "ฐานข้อมูลมีข้อมูลอยู่แล้ว",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "อาจเป็นเพราะโครงสร้างฐานข้อมูลไม่ตรงกัน แนะนำให้ล้างข้อมูลแอปหรือถอนการติดตั้งแล้วติดตั้งใหม่",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "ไฟล์ฐานข้อมูลเก่าได้ถูกลบแล้ว",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "ข้อมูลสำรองว่าง",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "แฟ้มสำรองไม่พบ",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "รหัสไฟล์ไม่ใช่รูปแบบ UTF-8 ที่ถูกต้อง โปรดตรวจสอบให้แน่ใจว่าไฟล์ถูกบันทึกด้วยรหัส UTF-8 รายละเอียดข้อผิดพลาด: {error}",
+  "@file_not_utf8": {
+    "description": "ข้อผิดพลาดในการเข้ารหัสไฟล์",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "ไฟล์ไม่พบ: {filePath}",
+  "@file_not_found": {
+    "description": "ไม่พบไฟล์",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "ไฟล์ว่าง: {filePath}",
+  "@file_empty": {
+    "description": "ไฟล์ว่างผิดพลาด",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "เนื้อหาของไฟล์หลังจากถอดรหัสแล้วว่างเปล่า อาจเป็นไปได้ว่าโค้ดไม่ตรงกัน",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName}ต้องไม่ว่าง",
+  "@field_cannot_be_empty": {
+    "description": "ฟิลด์ต้องไม่ว่างเปล่า",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} ต้องมีความยาวอย่างน้อย {minLength} ตัวอักษร",
+  "@field_min_length": {
+    "description": "การตรวจสอบความยาวขั้นต่ำของฟิลด์",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} ความยาวไม่สามารถเกิน {maxLength} ตัวอักษร",
+  "@field_max_length": {
+    "description": "การตรวจสอบความยาวสูงสุดของฟิลด์",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "กรุณาใส่ที่อยู่ {fieldName} ที่ถูกต้อง",
+  "@field_invalid_email": {
+    "description": "การตรวจสอบรูปแบบอีเมล",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName}ต้องเป็น{numberType}",
+  "@field_invalid_number": {
+    "description": "การตรวจสอบรูปแบบตัวเลข",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} ไม่สามารถน้อยกว่า {min}",
+  "@field_min_value": {
+    "description": "การตรวจสอบค่าต่ำสุด",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} ไม่สามารถมากกว่า {max}",
+  "@field_max_value": {
+    "description": "การตรวจสอบค่ามากสุด",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} ต้องเป็นจำนวนเต็มบวก",
+  "@field_positive_integer": {
+    "description": "การตรวจสอบจำนวนเต็มบวก",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} ต้องมากกว่า 0",
+  "@field_greater_than_zero": {
+    "description": "ตรวจสอบว่ามากกว่าศูนย์",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} ต้องเป็นจำนวนบวก",
+  "@field_positive_number": {
+    "description": "การตรวจสอบตัวเลขบวก",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "กรุณาป้อน{fieldName}ที่ถูกต้อง",
+  "@field_invalid_date": {
+    "description": "การตรวจสอบรูปแบบวันที่",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} ไม่สามารถเป็นวันที่ในอดีตได้",
+  "@field_date_not_past": {
+    "description": "วันที่ไม่สามารถเป็นวันที่ผ่านมาแล้ว",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} ไม่สามารถก่อน {minDate}",
+  "@field_date_not_before": {
+    "description": "วันที่ไม่สามารถก่อนวันที่ที่กำหนด",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} ไม่สามารถช้ากว่า {maxDate}",
+  "@field_date_not_after": {
+    "description": "วันที่ไม่สามารถเกินวันที่ที่กำหนดได้",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "โปรดกรอก{fieldName}ที่ถูกต้อง",
+  "@field_invalid_value": {
+    "description": "การตรวจสอบค่าที่ไม่ถูกต้อง",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} ต้องมีความยาวอย่างน้อย 8 ตัวอักษร",
+  "@password_min_length": {
+    "description": "การตรวจสอบความยาวขั้นต่ำของรหัสผ่าน",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} ต้องมีตัวอักษรพิมพ์ใหญ่อย่างน้อยหนึ่งตัว",
+  "@password_uppercase_required": {
+    "description": "รหัสผ่านต้องมีตัวอักษรตัวใหญ่",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} ต้องมีตัวอักษรเล็กอย่างน้อยหนึ่งตัว",
+  "@password_lowercase_required": {
+    "description": "รหัสผ่านต้องมีตัวอักษรตัวเล็ก",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} ต้องมีตัวเลขอย่างน้อยหนึ่งตัว",
+  "@password_digit_required": {
+    "description": "รหัสผ่านต้องมีตัวเลข",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} ต้องมีอักขระพิเศษอย่างน้อยหนึ่งตัว",
+  "@password_special_char_required": {
+    "description": "รหัสผ่านต้องมีอักขระพิเศษ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "รหัสผ่านที่ป้อนสองครั้งไม่ตรงกัน",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "ชื่อสินค้าต้องไม่ว่าง",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "ชื่อไม่สามารถเกิน {maxLength} ตัวอักษร",
+  "@name_max_length": {
+    "description": "การตรวจสอบความยาวสูงสุดของชื่อ",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "จำนวนต้องไม่ต่ำกว่า{minQuantity}",
+  "@quantity_min": {
+    "description": "การตรวจสอบค่าต่ำสุดของจำนวน",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "จำนวนต้องไม่เกิน {maxQuantity}",
+  "@quantity_max": {
+    "description": "การตรวจสอบค่ามากที่สุดของจำนวน",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "ราคาต่อหน่วยไม่สามารถเป็นค่าลบได้",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "ราคาต่อหน่วยไม่สามารถเกิน {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "ตรวจสอบค่ามากที่สุดของราคาต่อหน่วย",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "กรุณาตั้งวันที่ผลิตและอายุการเก็บรักษาเพื่อคำนวณวันหมดอายุโดยอัตโนมัติ",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "โปรดตั้งค่าวันที่ซื้อและวันหมดอายุเพื่อตรวจสอบระยะเวลาการรับประกันโดยอัตโนมัติ",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "ไม่สามารถสร้างบัญชีปฏิทินได้ กรุณาตรวจสอบการตั้งค่าปฏิทินของระบบ",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "การทดสอบแจ้งเตือน",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "นี่คือการแจ้งเตือนทดสอบ ใช้เพื่อยืนยันฟังก์ชันการเตือนในเครื่อง",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "ฟ้า",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} วัน",
+  "@days_with_value": {
+    "description": "จำนวนวันพร้อมพารามิเตอร์",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "รายการได้ถูกบันทึกแล้ว",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "รายการได้ถูกอัปเดตแล้ว",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "รายการได้ถูกเพิ่มแล้ว",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "บันทึกสำเร็จ",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "อัปเดตสำเร็จ",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "ลบสำเร็จ",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "บันทึกไม่สำเร็จ",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "อัปเดตล้มเหลว",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "ลบไม่สำเร็จ",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "การตั้งค่าภาษา",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "ตั้งค่าภาษาการแสดงผลของแอป",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "ค่าเริ่มต้นของระบบ",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "ใช้ภาษาของระบบ",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "การเปลี่ยนภาษาจะมีผลหลังจากแอปพลิเคชันรีสตาร์ท",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "ตัวเลือกปัจจุบัน: {days} วัน",
+  "@current_selection": {
+    "description": "จำนวนวันที่เลือกปัจจุบันแสดง",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

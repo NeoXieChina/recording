@@ -1,0 +1,1625 @@
+{
+  "@@locale": "is",
+  "app_name": "Geymi hlutina í litlu rými",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Hætta við",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Ákveða",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Vista",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Eyða",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Breyta",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Bæta við",
+  "@add": {
+    "description": ""
+  },
+  "search": "Leita",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Stillingar",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Aftur",
+  "@back": {
+    "description": ""
+  },
+  "next": "Næsta skref",
+  "@next": {
+    "description": ""
+  },
+  "done": "Lokið",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Hleðst inn...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Villa",
+  "@error": {
+    "description": ""
+  },
+  "success": "Árangur",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Viðvörun",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Upplýsingar",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Velja áminningardaga",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Sérsniðin",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Sérsniðin ({days} dagar)",
+  "@custom_days": {
+    "description": "Sérsníða daga með færibreytum",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Vikmörk áminningar: {min}-{max} dagar",
+  "@alert_days_range": {
+    "description": "Bjóða upp á svið dagafjölda fyrir áminningu með breytu",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Vinsamlegast sláðu inn dagafjölda fyrir áminningu",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Dagar",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Vinsamlegast sláðu inn tölu á milli {min} og {max}",
+  "@enter_valid_days": {
+    "description": "Dagafjölda innsláttarskilaboð um staðfestingu",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Forskoðun stillingar",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Dagatalsstillingar",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Dagatals samstilling",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Eftir að því er opnað mun beiðja um aðgang að dagatali",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Bæta við prófunardagatalsviðburði",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Vinsamlegast kveiktu fyrst á „Dagatalssamstillingu“ rofanum",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "App tilkynningastillingar",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Staðbundin áminning",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Móttaka áminninga um útrunnin forrit þegar virkjað",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Senda prófunartilkynningu",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Vinsamlegast kveiktu á „Staðbundnum áminningum“ rofanum fyrst",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Stilling á fjölda daga fyrir áminningu",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Fjöldi daga fyrirfram til að minna á",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Stilla hversu mörgum dögum í fyrirrúmi á að minna á útrunnin eða gildistíma hlutanna",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Fyrirspurn um dagatalsáttur",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Þörf er á aðgangi að dagatali til að samstilla viðvörun um hluti. Viltu veita leyfi?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Leyfa",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Dagatalsheimild hefur verið veitt, dagatalsamstilling er virk",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Dagatalsheimild var hafnað, dagatalasamstillingu er ekki hægt að opna",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Aðgangur hefur verið varanlega neitað",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Aðgangur að dagatali hefur verið varanlega hafnað, vinsamlegast opnið réttindi handvirkt í kerfisstillingum.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Farðu í stillingar",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Dagatalsheimildir hafa verið veittar, en ekki er hægt að búa til dagatalsreikning. Vinsamlegast athugaðu stillingar kerfisdagatalsins.",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Dagatalleyfi hefur verið veitt, innlendur dagatalreikningur hefur verið búinn til",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Dagatalareikningur hefur verið búinn til, en kerfið kann að þurfa smá tíma til að taka gildi",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Prófunardagatalshlutur bætt við með árangri",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Mistókst að bæta testdagatali viðburði við, vinsamlegast athugaðu dagatalsstillingarnar",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Krefst dagatalsleyfis til að bæta við prófviðburði",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Prófunartilkynning hefur verið send",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Mistókst að senda prófunartilkynningu: {error}",
+  "@test_notification_failed": {
+    "description": "Tilkynning um villuskilaboð",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Það þarf að hafa tilkynningaleyfi til að virkja staðbundna áminningu",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Virkjun mistókst: {error}",
+  "@operation_failed": {
+    "description": "Almennur villuskilaboð um aðgerð",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Vöruviðvörun tilkynning",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Minning um útrunnin eða tryggðartímaleysi vara",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Matvæli",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Dagvörur",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Snyrtivörur",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Lyf",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Rafmagnsvörur",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Húsgögn",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Föt",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Bækur",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Annað",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Netverslun",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Raunveruleg búð",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "matvöruverslun",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "einstaklingsverslun",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "notaður markaður",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Annað",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Annað",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Netverslun",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Vöruflokkun",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Sérsniðin flokkun",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Afrit gagna",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Pakkaðu öllum gögnum (þ.m.t. myndum) í ZIP-skrá til öryggisafritunar",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Afritaðu öll gögn",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Afritun tókst",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Öryggisafrit mistókst: {error}",
+  "@backup_failed": {
+    "description": "Öryggisafrit mistókst villuskilaboð",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Endurheimta gögn",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Endurheimta öll gögn frá ZIP öryggisafritsskjali",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Flytja út gögn",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Flytja út sem CSV, TXT, SQL snið",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Flytja inn gögn",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Flytja gögn inn frá CSV-, TXT- eða SQL-skrám",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Dagatal áminning og forritkynningarstillingar",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Um",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Forritaupplýsingar og útgáfa",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Vinsamlegast veldu fyrst öryggisafritsskrána",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Staðfesta endurheimt",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Að endurheimta afrit mun hreinsa öll núverandi gögn og skipta þeim út fyrir afritagögn. Þetta ferli er óafturkallanlegt. Viltu halda áfram?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Staðfesta aftur",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Ertu viss um að þú viljir hreinsa öll núverandi gögn og endurheimta afrit? Þessi aðgerð er ekki hægt að afturkalla!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Staðfesta endurheimt",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Endurheimt tókst, samtals {count} atriði",
+  "@restore_success": {
+    "description": "Endurheimt tókst",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Endurheimt mistókst: {error}",
+  "@restore_failed": {
+    "description": "Endurheimt mistókst villuskilaboð",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Velja afritsskrá",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Endurheimta öryggisafrit",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Valinn skrá: {filename}",
+  "@selected_file": {
+    "description": "Valin skráarboð",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Gagnasending tókst",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Útflutningur misheppnaðist: {error}",
+  "@export_failed": {
+    "description": "Útflutningur mistókst, villuskilaboð",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Endurtekin gagnaúrvinnsla",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Tvöföld gögn uppgötvuð, vinsamlegast veldu meðferðaraðferð:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Sleppa",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "þekja",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Hafna öllu",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Allt þak",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Vinsamlegast veldu fyrst innflutningsform",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Staðfesta innflutning",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Innflutningur gagna mun yfirstíga núverandi gögn, og þessi aðgerð er óafturkræf. Viltu halda áfram?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Gagnainnflutningur tókst, samtals flutt inn {count} atriði",
+  "@import_success": {
+    "description": "Innflutningur tókst skilaboð",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Innflutningur mistókst: {error}",
+  "@import_failed": {
+    "description": "Innflutningsvilla skilaboð",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Velja skrá",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Engin gögn í boði",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Engin gögn eru til staðar núna, smelltu á hnappinn hér að neðan til að bæta við fyrstu færslunni!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Hleðsla mistókst",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Gögnin voru ekki hlaðin, vinsamlegast athugaðu nettenginguna og reyndu aftur",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Reyna aftur",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Netengingin mistókst",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Vinsamlegast athugaðu netfyrirkomulagið og reyndu aftur",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Engar niðurstöður fundust",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Reyndu að nota önnur leitarorð",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Hreinsa leit",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Ófullnægjandi heimildir",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Það þarf viðeigandi leyfi til að nota þessa eiginleika",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Beiðni um leyfi",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Forritsupplýsingar",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "útgáfa",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Forritari",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Tæki upplýsingar",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Tækjamódel",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Vörumerki",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Búnaðarheiti",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "vara",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Hugbúnaður",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android útgáfa",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK útgáfa",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Kerfisnafn",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Kerfisútgáfa",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Tæki auðkenni",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Tölvunafn",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Útgáfunúmer",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Ekki er hægt að fá tæknupplýsingar: {error}",
+  "@error_getting_device_info": {
+    "description": "Villa við að sækja tæknileg gögn",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Aðgerða kynning",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Forrit til stjórnun snjallhluta",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Hjálpar þér að stjórna upplýsingum um síðasta notkunardag, ábyrgðardag o.s.frv., og býður upp á snjallviðvörun.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Neysluvörur",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Endingarvörur",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Raða",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Nafn í hækkandi röð",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Nafn í niðurstöðuhækkandi röð",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Dagar í hækkandi röð",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Dagskrá í lækkandi röð",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Einingaverð hækkandi",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Einingaverð í lækkandi röð",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Hækkandi magn",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Raðað eftir magni í lækkandi röð",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Heildarkostnaður hækkandi",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Heildarverð lækkandi röð",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Hreinsa allar síur",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Skanna til að skrá inn á lager",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Leita að hlut...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Engar vörur í boði",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Smelltu á hnappinn hér að neðan til að bæta við fyrsta hlutnum",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Útrunnið",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Yfirleitt að renna út",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Ábyrgð hefur runnið út",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Ábyrgð er að renna út",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Eftir {count} daga",
+  "@days_remaining": {
+    "description": "Eftirliggjandi dagar með breytu",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Útrunnið {count} dagar",
+  "@expired_days_ago": {
+    "description": "Gildistími liðinn með færibreytu",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Eyða hlut",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Ertu viss um að eyða \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "Eyða staðfestingarskilaboðum",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Hluturinn hefur verið eytt",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Ekki tókst að eyða",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Ekki er hægt að eyða hlut: {error}",
+  "@failed_to_delete_message": {
+    "description": "Eyða villuskilaboðum",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Dagsvísis sviðs síun",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Verðbil síun",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Mínar eigur",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Smelltu á hnappinn neðst til hægri til að bæta við hlut",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Staðfesta eyðingu",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Sía valkosti",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Sía hluti eftir tegund, flokki og staðsetningu",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} flokkar",
+  "@categories_count": {
+    "description": "Birting fjölda eftir flokkum",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Allar flokka",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Engar flokkaupplýsingar",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Geymslustaður",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} staðir",
+  "@locations_count": {
+    "description": "Fjöldi staða sýnd",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Öll stöð",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Engar staðsetningargögn tiltækar",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Dagsetningarsvið",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Velja dagsetningartímabil",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Verðbil",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Einingaverðasvið",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Lægsta einingaverð",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Hæsta einingaverð",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Heildarverð svið",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Lægsta heildarverð",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Hámarks heildarverð",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Hreinsa verðsía",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Settu strikamerkið í kassann til að skanna",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Vara er þegar til",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Strikamerki: {barcode}",
+  "@barcode_with_value": {
+    "description": "Strikamerki sýnir með breytu",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Nafn: {name}",
+  "@name_with_value": {
+    "description": "Nafn sýnt með breytum",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Flokkur: {category}",
+  "@category_with_value": {
+    "description": "Flokkað sýnt með breytum",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Núverandi magn: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Núverandi magn sýnt með færibreytu",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Vinsamlegast veldu aðgerð:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Útflutningur úr birgðum",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Innskráning í lager",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Innlest magn",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Útflutningsmagn",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Magn",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Vinsamlegast sláðu inn magn sem á að skrá í birgðir",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Vinsamlegast sláðu inn útflutningsmagn",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Bætt við {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "Vara bætt við tilkynningu",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Ertu viss um að þú viljir eyða „{name}“? Þessi aðgerð er óafturkallanleg.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Eyða staðfestingarskilaboðum með óafturkræfri viðvörun",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Nú hefur verið minnkað {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Vara dróst saman tilkynning",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Gagnagrunnurinn hefur verið endurstilltur, tafla verður endurreist",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Villa við endurstillingu gagnagrunns: {error}",
+  "@database_reset_error": {
+    "description": "Villa við endurstillingu gagnagrunns",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Gervigagnainnstilling mistókst: {error}",
+  "@mock_data_init_failed": {
+    "description": "Upphafsstilling hermitölugagna mistókst",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Lausn:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Afsetja forritið og setja það upp aftur",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Eða hreinsa forritagögn",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Eða settu resetDatabaseOnStart á true og keyrðu síðan aftur",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Áminningarþjónusta mistókst við frumstillingu: {error}",
+  "@notification_service_init_failed": {
+    "description": "Tilkynningþjónusta mistókst við upphaf",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Mistókst að athuga dagatnsreikning: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Mistókst að athuga dagatnsreikning",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Mistókst að búa til dagatalið: {error}",
+  "@create_calendar_failed": {
+    "description": "Mistókst að búa til dagatal",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Mistókst að bæta við dagatalefni: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Mistókst að bæta við dagatalsviðburði",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Mistókst að eyða dagatalsviðburði: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Mistókst að eyða dagatburði",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Mistókst að stilla leyfisviðvörun: {error}",
+  "@set_permission_message_failed": {
+    "description": "Mistókst að setja skilaboð um heimildarstillingu",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Það hefur tekist að frumstilla {count} hermigögn",
+  "@mock_data_init_success": {
+    "description": "Hermigögn upphafstillt með góðum árangri",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Gagnagrunnurinn hefur nú þegar {count} færslur, slepptu undirbúningi hermigagna",
+  "@database_has_data": {
+    "description": "Gagnagrunnur hefur þegar gögn",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Það gæti verið ósamræmi í gagnagrunnsstrúktúrnum, mælt er með að hreinsa forritagögn eða endursetja forritið",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Gamli gagnagrunnsskráin hefur verið eytt",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Afritsgögn eru tóm",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Afritaskrá finnst ekki",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Skráakóðun er ekki gilt UTF-8 snið. Vinsamlegast tryggðu að skráin sé vistuð með UTF-8 kóðun. Villuupplýsingar: {error}",
+  "@file_not_utf8": {
+    "description": "Villuskipun skráarinnar",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Skráin er ekki til: {filePath}",
+  "@file_not_found": {
+    "description": "Skrá finnst ekki villa",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Skráin er tóm: {filePath}",
+  "@file_empty": {
+    "description": "Skráin er tóm villa",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Eftir að innihald skráarinnar var afkóðað var það tómt, mögulega vegna ósamræmis í kóðun",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} má ekki vera tómt",
+  "@field_cannot_be_empty": {
+    "description": "Reit má ekki vera tómur",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} lengd má ekki vera minni en {minLength} stafir",
+  "@field_min_length": {
+    "description": "Lágmarkslengdarstaðfesting reits",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} má ekki vera lengri en {maxLength} stafir",
+  "@field_max_length": {
+    "description": "Staðfesting hámarks lengdar reits",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Vinsamlegast sláðu inn gilt {fieldName} netfang",
+  "@field_invalid_email": {
+    "description": "Netfangsformatað staðfesting",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} verður að vera {numberType}",
+  "@field_invalid_number": {
+    "description": "Stafrænt snið staðfesting",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} má ekki vera minni en {min}",
+  "@field_min_value": {
+    "description": "Lágmarksgildisstaðfesting",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} má ekki vera stærra en {max}",
+  "@field_max_value": {
+    "description": "Hámarksgildisstaðfesting",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} verður að vera jákvætt heiltala",
+  "@field_positive_integer": {
+    "description": "Jákvæð heiltölusannprófun",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} verður að vera stærra en 0",
+  "@field_greater_than_zero": {
+    "description": "Stærra en núll staðfesting",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} verður að vera jákvætt tölu",
+  "@field_positive_number": {
+    "description": "Jákvæð gildi staðfesting",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Vinsamlegast sláðu inn gildan {fieldName}",
+  "@field_invalid_date": {
+    "description": "Staðfesting dagsetningarforms",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} má ekki vera fyrri dagsetning",
+  "@field_date_not_past": {
+    "description": "Dagsetning má ekki vera liðinn",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} má ekki vera fyrr en {minDate}",
+  "@field_date_not_before": {
+    "description": "Dagsetning má ekki vera fyrr en tiltekinn dagsetning",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} má ekki vera síðar en {maxDate}",
+  "@field_date_not_after": {
+    "description": "Dagsetning má ekki vera seinni en tiltekinn dagsetning",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Vinsamlegast sláðu inn gildan {fieldName}",
+  "@field_invalid_value": {
+    "description": "Ógild gildi staðfesting",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} lengd má ekki vera færri en 8 stafir",
+  "@password_min_length": {
+    "description": "Lágmarkslengdarstaðfesting lykilorðs",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} verður að innihalda að minnsta kosti eitt hástaf",
+  "@password_uppercase_required": {
+    "description": "Lykilorðið verður að innihalda hástafi",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} verður að innihalda að minnsta kosti eitt lágstafsstaf",
+  "@password_lowercase_required": {
+    "description": "Lykilorðið verður að innihalda lítilstafi.",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} verður að innihalda að minnsta kosti eitt tölustaf",
+  "@password_digit_required": {
+    "description": "Lykilorðið verður að innihalda tölustafi",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} verður að innihalda að minnsta kosti einn sérstakan staf",
+  "@password_special_char_required": {
+    "description": "Lykilorðið verður að innihalda sértákn",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Lykilorðin sem slegin voru inn tveir sinnum eru ekki eins",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Vörunafn má ekki vera tómt",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Nafn má ekki vera lengra en {maxLength} stafi",
+  "@name_max_length": {
+    "description": "Staðfesting á hámarks lengd nafns",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Magn má ekki vera minna en {minQuantity}",
+  "@quantity_min": {
+    "description": "Lágmarksfjölda staðfesting",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Fjöldi má ekki vera meiri en {maxQuantity}",
+  "@quantity_max": {
+    "description": "Stærstu gildi staðfesting",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Einingaverð má ekki vera neikvætt",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Einingaverðið má ekki fara yfir {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "Stærsta einingaverðsstaðfesting",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Vinsamlegast stilltu framleiðsludagsetningu og geymsluþol til að reikna sjálfkrafa gildistíma.",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Vinsamlegast stilltu kaupdag og geymsluþol til að reikna sjálfkrafa ábyrgðartímann.",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Ekki er hægt að búa til dagatnsreikning, vinsamlegast athugaðu dagatnsstillingar kerfisins",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Próf tilkynning",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Þetta er tilkynning um prófun, notuð til að staðfesta staðbundna áminningarvirkni",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "himinn",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} dagar",
+  "@days_with_value": {
+    "description": "Dagar með breytu",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Hluturinn hefur verið vistaður",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Vara hefur verið uppfærð",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Vara hefur verið bætt við",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Geymt með góðum árangri",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Uppfærsla tókst",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Eytt tókst",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Geymsla mistókst",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Uppfærsla mistókst",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Ekki tókst að eyða",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Tungumálastillingar",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Stilla sýnilegt tungumál forrits",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Sjálfgefið kerfi",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Notaðu kerfismálið",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Málbreytingin mun taka gildi eftir endurræsingu forritsins",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Núverandi val: {days} dagar",
+  "@current_selection": {
+    "description": "Sýning á valda dagafjölda núna",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

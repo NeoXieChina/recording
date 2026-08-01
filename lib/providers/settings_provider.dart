@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:recording/constants.dart';
 import 'package:recording/services/alert_service.dart';
 
 class SettingsProvider extends ChangeNotifier {
+  static const String _localeKey = 'selected_locale';
+  
   bool _calendarSync = false;
   int _alertDays = AppConstants.defaultAlertDays;
   bool _isExporting = false;
   bool _isImporting = false;
   double _importProgress = 0.0;
   bool _localAlertsEnabled = false;
+  Locale? _locale;
 
   bool get calendarSync => _calendarSync;
 
@@ -21,6 +25,8 @@ class SettingsProvider extends ChangeNotifier {
   double get importProgress => _importProgress;
 
   bool get localAlertsEnabled => _localAlertsEnabled;
+
+  Locale? get locale => _locale;
 
   void setCalendarSync(bool value) {
     _calendarSync = value;
@@ -62,6 +68,47 @@ class SettingsProvider extends ChangeNotifier {
   void setImporting(bool value, {double progress = 0.0}) {
     _isImporting = value;
     _importProgress = progress;
+    notifyListeners();
+  }
+
+  Future<void> loadLocale() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final localeString = prefs.getString(_localeKey);
+      if (localeString != null && localeString.isNotEmpty) {
+        if (localeString == 'system') {
+          _locale = null;
+        } else {
+          final parts = localeString.split('_');
+          if (parts.length == 1) {
+            _locale = Locale(parts[0]);
+          } else if (parts.length == 2) {
+            _locale = Locale(parts[0], parts[1]);
+          }
+        }
+        notifyListeners();
+      }
+    } catch (e) {
+      // 忽略错误，使用默认设置
+      print('Failed to load locale: $e');
+    }
+  }
+
+  Future<void> setLocale(Locale? locale) async {
+    _locale = locale;
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      if (locale == null) {
+        await prefs.setString(_localeKey, 'system');
+      } else {
+        final localeString = locale.countryCode != null
+            ? '${locale.languageCode}_${locale.countryCode}'
+            : locale.languageCode;
+        await prefs.setString(_localeKey, localeString);
+      }
+    } catch (e) {
+      print('Failed to save locale: $e');
+    }
     notifyListeners();
   }
 

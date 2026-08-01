@@ -1,0 +1,1625 @@
+{
+  "@@locale": "gu",
+  "app_name": "સંગ્રહિત વસ્તુઓનો વિસ્તૃત વિવેક",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "રદ કરો",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "નક્કી કરવું",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "સાચવો",
+  "@save": {
+    "description": ""
+  },
+  "delete": "કાઢી નાખો",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "સંપાદિત કરો",
+  "@edit": {
+    "description": ""
+  },
+  "add": "સમતાવવું",
+  "@add": {
+    "description": ""
+  },
+  "search": "શોધ",
+  "@search": {
+    "description": ""
+  },
+  "settings": "સેટિંગ",
+  "@settings": {
+    "description": ""
+  },
+  "back": "પરત જાવ",
+  "@back": {
+    "description": ""
+  },
+  "next": "આગળનું પગલું",
+  "@next": {
+    "description": ""
+  },
+  "done": "પૂર્ણ",
+  "@done": {
+    "description": ""
+  },
+  "loading": "લોડ કરી રહ્યું છે...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "ભૂલ",
+  "@error": {
+    "description": ""
+  },
+  "success": "સફળતા",
+  "@success": {
+    "description": ""
+  },
+  "warning": "ચેતવણી",
+  "@warning": {
+    "description": ""
+  },
+  "info": "માહિતી",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "સૂચના દિવસો પસંદ કરો",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "કસ્ટમાઇઝ",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "કસ્ટમાઇઝ ({days} દિવસ)",
+  "@custom_days": {
+    "description": "પરામિતી સાથે કસ્ટમ દિવસો",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "જાગરૂકતા દિવસોની શ્રેણી: {min}-{max} દિવસ",
+  "@alert_days_range": {
+    "description": "સૂચના દિવસો શ્રેણી સાથે પેરામીટર",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "કૃપા કરીને સૂચના દિવસો દાખલ કરો",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "દિવસોની સંખ્યા",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "કૃપયા {min}-{max} વચ્ચેનો નંબર દાખલ કરો",
+  "@enter_valid_days": {
+    "description": "દિવસો ઇનપુટ ચકાસણી સંદેશ",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "ચેતવણી સેટિંગ",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "કેલેન્ડર સેટિંગ",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "કેલેન્ડર સમકલન",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "ખોલ્યા બાદ કેલેન્ડરના પરવાનગી માટે વિનંતી કરશે",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "ટેસ્ટ કેલેન્ડર ઇવેન્ટ ઉમેરો",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "કૃપા કરીને પ્રથમ 'કલંડર સમકાલીકરણ' સ્વિચ ચાલુ કરો",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "એપ્લિકેશન સૂચના સેટિંગ્સ",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "સ્થાનિક યાદગીરી",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "ચાલુ કરો પછી એપ્લિકેશનમાં સમયావધી પૂર્ણ સૂચનાઓ પ્રાપ્ત કરો",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "ટેસ્ટ સૂચના મોકલો",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "કૃપા કરીને પ્રથમ 'સ્થાનિક સૂચનાઓ' સ્વીચ ચાલુ કરો",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "સૂચના દિવસો સેટિંગ",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "પૂર્વ સૂચિત દિવસો",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "વસ્તુની મિયાદ છેલ્લી તારીખ અથવા વૉરંટીની સમયમર્યાદા પહેલાં કેટલા દિવસોનું સ્મરણ સેટ કરવું",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "કૅલેન્ડર પરમીશન અનુરોધ",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "આઇટમ રીમાઈન્ડરોને સમકલિત કરવા માટે કૅલેન્ડર પર ઍક્સેસની જરૂર છે. શું મંજૂર કરશો?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "અનુમતિ આપવી",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "કૅલેન્ડરનો અધિકાર આપવામાં આવ્યો છે, કૅલેન્ડર სინ્ક્રોનાઇઝેશન ચાલુ છે",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "કૅલેન્ડરનો અધિકાર નકારી દેવામાં આવ્યો છે, કૅલેન્ડર સિંગ્ક્રોનાઇઝેશન ચાલુ ન થઇ શકે",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "અધિકાર કાયમ માટે નકારવામાં આવ્યો",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "કલંડરના અધિકારો કાયમી રીતે નકારવામાં આવ્યા છે, કૃપા કરીને સિસ્ટમ સેટિંગ્સમાં જાનીને अधिकार હસ્તે ખોલો.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "સેટિંગ્સ પર જાઓ",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "કેલેન્ડરનું અધિકાર આપવામાં આવ્યું છે, પરંતુ કેલેન્ડર એકાઉન્ટ બનાવી શકાયતું નથી. કૃપા કરીને સિસ્ટમ કેલેન્ડર સેટિંગ્સ તપાસો",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "કલેન્ડર પરવાનગી સોંપવામાં આવી છે, સ્થાનિક કલેન્ડર ખાતું બનાવાયું છે",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "કૅલેન્ડર ખાતું સફળતાપૂર્વક બનાવાયું, પરંતુ સિસ્ટમને અસર થાય તે માટે થોડો સમય લાગે શકે છે",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "ટેસ્ટ કેલેન્ડર ઇવેન્ટ સફળતાપૂર્વક ઉમેરાઈ",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "ટેસ્ટ કેલેન્ડર ઇવેન્ટ ઉમેરવામાં નિષ્ફળ રહ્યા, કૃપા કરીને કેલેન્ડર સેટિંગ્સ તપાસો",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "પરીક્ષણ ઘટનાઓ जोड़વા માટે કૅલેન્ડર સત્તા જોઈએ",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "ટેસ્ટ સૂચના મોકલવામાં આવી છે",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "ટેસ્ટ સૂચના મોકલવામાં નિષ્ફળ: {error}",
+  "@test_notification_failed": {
+    "description": "સૂચના ભૂલ સંદેશો",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "સ્થાનિક યાદી સક્રિય કરવા માટે સૂચના અનુમતિની જરૂર છે",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "ઓપરેશન વિફળ: {error}",
+  "@operation_failed": {
+    "description": "સામાન્ય કાર્ય ચલાવતી ખોટી સંદેશા",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "વસ્તુ ચેતવણી સૂચના",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "વસ્તુનો સમય સમાપ્ત થઈ ગયો છે અથવા વોરંટીની મર્યાદા ટ્રિ格ર",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "ખાદ્ય સામગ્રી",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "દૈનિક વપરાશની વસ્તુઓ",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "સુંદરતા ઉત્પાદનો",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "દવા",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "ઇલેક્ટ્રોનિક ઉત્પાદનો",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "ફર્નિચર",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "કપડા",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "કિતાબ",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "અન્ય",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "ઓનલાઇન સ્ટોર",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "ફિઝિકલ સ્ટોર",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "સუპરમાર્કેટ",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "વિશેષ દુકાન",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "બીજું હાથ માર્કેટ",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "અન્ય",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "અન્ય",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "ઓનલાઇન સ્ટોર",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "વસ્તુ વર્ગીકરણ",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "કસ્ટમ કેટેગરી",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "ડેટાનો બેકઅપ બનાવો",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "બધી ડેટા (ચિત્રો સહિત) ને ZIP ફાઈલમાં પેક કરીને બેકઅપ બનાવવું",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "તમામ ડેટા બૅકઅપ કરો",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "બેકઅપ સફળ",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "બેકઅપ નિષ્ફળ: {error}",
+  "@backup_failed": {
+    "description": "બેકઅપ નિષ્ફળ વિદેશ સંદેશ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "ડેટા પુનઃપ્રાપ્ત કરો",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ZIP બૅકઅપ ફાઇલમાંથી તમામ ડેટા પુનઃપ્રાપ્ત કરો",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "ડેટા નિકાસ કરો",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "CSV, TXT, SQL ફોર્મેટમાં નિકાસ કરો",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "ડેટા આયાત કરો",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "CSV, TXT, SQL ફાઈલોમાંથી ડેટા આયાત કરો",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "કૅલેન્ડર યાદ આપી અને એપ્લિકેશન પુશ સૂચના સેટિંગ્સ",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "સંદર્ભે",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "એપ્લિકેશન માહિતી અને সংস্কરણ",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "કૃપા કરીને પહેલા બેકઅપ ફાઈલ પસંદ કરો",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "પુનઃસ્થાપનની પુષ્ટિ કરો",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "બેકઅપ પુનઃસ્થాపિત કરવાથી તમામ વર્તમાન ડેટા સાફ થઈ જવાશે અને બેકઅપ ડેટાથી બદલાશે, આ ક્રિયા રદ કરી શકાતી નથી. શું તમે ચાલુ રાખવા માંગો છો?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "ફરીથી પુષ્ટિ કરો",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "શું તમારે બધા વર્તમાન માહિતી સાફ કરીને બેકઅપ પુનઃસ્થાપિત કરવું છે؟ આ ક્રિયા પુનઃપ્રાપ્ત કરી શકાતી નથી!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "પુનઃસ્થાપિત કરવા નિશ્ચિત કરો",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "પુનઃપ્રાપ્ત કરવામાં સફળ, કુલ {count} વસ્તુઓ",
+  "@restore_success": {
+    "description": "પુનઃપ્રાપ્તિ સફળ સંદેશ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "પુનઃપ્રાપ્તિ નિષ્ફળ: {error}",
+  "@restore_failed": {
+    "description": "પૂનઃપ્રાપ્તિ નિષ્ફળ થયું ત્રુટિ સંદેશ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "બેકઅપ ફાઇલ પસંદ કરો",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "બેકઅપ પુનઃસ્થાપિત કરો",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "ફાઇલ પસંદ થઈ ગઈ છે: {filename}",
+  "@selected_file": {
+    "description": "ફાઇલ સંદેશા પસંદ કર્યું",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "ડેટા સફળતાપૂર્વક નિકાસ થયો",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "નિર્યાત નિષ્ફળ: {error}",
+  "@export_failed": {
+    "description": "નિકાસ નિષ્ફળ થઈ ગયો ભૂલ સંદેશ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "સીએસવી",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "એસક્યુએલ",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "ડુપ્લિકેટ ડેટા પ્રોસેસિંગ",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "ડુપ્લિકેટ ડેટા મળી, કૃપા કરીને પ્રક્રિયા કરવાની રીત પસંદ કરો:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "કૂદવો",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "આવરી નાખવું",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "બધું છોડો",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "કુલ આવરણ",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "મહેરબાની કરીને પહેલા આયાત ફોર્મેટ પસંદ કરો",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "આયાતને પુષ્ટિ કરો",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "આંકડાઓ આયાત કરવાથી હાલના આંકડાઓ ઉપર લખાઈ જશે, આ કામગીરી રદ્દ થઇ શકતું નથી. શું તમે આગળ વધવા ચોક્કસ છો?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "ડેટા સફળતાપૂર્વક આયાત કરવામાં આવ્યો, કુલ {count} વસ્તુઓ આયાત કરાઈ",
+  "@import_success": {
+    "description": "આયાત સફળતા સંદેશો",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "આયાત નિષ્ફળ થયું: {error}",
+  "@import_failed": {
+    "description": "આયાત નિષ્ફળતા ભૂલ સંદેશ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "ફાઇલ પસંદ કરો",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "કોઈ ડેટા નથી",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "વર્તમાનમાં કોઈ ડેટા નથી, પ્રથમ રેકોર્ડ ઉમેરવા માટે નીચેના બટન પર ક્લિક કરો!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "લોડ કરવામાં નિષ્ફળ",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "ડેટા લોડ થવામાં નિષ્ફળ, કૃપા કરીને નેટવર્ક કનેક્શન તપાસીને ફરી પ્રયાસ કરો",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "ફરી પ્રયાસ કરો",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "નેટવર્ક કનેક્શન નિષ્ફળ થયું",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "કૃપા કરીને નેટવર્ક કનેક્શન તપાસો અને પછી ફરી પ્રયાસ કરો",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "પરિણામ نہیں મળ્યો",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "અન્ય કીવર્ડ્સનો ઉપયોગ કરીને શોધવાનો પ્રયાસ કરો",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "શોધને સાફ કરો",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "કૂટણ અધિકારો",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "આ કાર્ય જોવા માટે સંબંધિત અનుమતિઓની જરૂર છે",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "કૃપા કરીને અનુમતિ માંગો",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "એપ્લિકેશન માહિતી",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "સંસ્કરણ",
+  "@version": {
+    "description": ""
+  },
+  "developer": "ડેવલપર",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "ઉપકરણ માહિતી",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "ઉપકરણ મોડેલ",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "બ્રાંડ",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "ઉપકરણનું નામ",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "ઉત્પાદન",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "હાર્ડવેર",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "એન્ડ્રોઇડ સંસ્કરણ",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK સંસ્કરણ",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "સિસ્ટમનું નામ",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "સિસ્ટમ સંસ્કરણ",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "ઉપકરણ ઓળખ",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "કમ્પ્યુટરના નામ",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "સંસ્કરણ નંબર",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "ડિવાઇસ માહિતી મેળવવામાં અસમર્થ: {error}",
+  "@error_getting_device_info": {
+    "description": "ઉપકરણ માહિતી મેળવવાની ભૂલ સંદેશ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "ફીચર પરિચય",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "સ્માર્ટ વસ્તુઓનું સંચાલન એપ્લિકેશન",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "તમારા માલના મেয়ાદ પુરૂં તારીખો, વોરંટી તારીખો વગેરેની માહિતી વ્યવસ્થિત કરવામાં મદદ કરે છે અને સ્માર્ટ સૂચના ફંકશન આપે છે.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "ઉપયોગી સામગ્રી",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "કૂટણ વપરાશનો સામાન",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "ક્રમબદ્ધ કરવું",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "નામક્રમ પ્રમાણે વધતા ક્રમમાં",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "નામના ક્રમમાં ઊતરતા",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "તારીખ પ્રમાણે વધતા ક્રમમાં",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "તારીખ પ્રમાણે ઉતરતી ક્રમ",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "એકમ કિંમત મુજબ વધારો",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "એકમ કિંમત ઉતરતી ક્રમમાં",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "数量 વૃદ્ધિ ક્રમ",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "ગણના પ્રમાણે ઉતરતી ક્રમ",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "કુલ કિંમત મુજબ વધારો",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "કુલ કિંમત ઉતરતી ક્રમમાં",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "બધા ફિલ્ટર્સ સાફ કરો",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "સ્કેન કરી જથ્થો દાખલ કરો",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "સામાન શોધો...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "કોઈ વસ્તુ ઉપલબ્ધ નથી",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "નીચેના બટન પર ક્લિક કરીને પ્રથમ વસ્તુ ઉમેરો",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "સમય વટાવી ગયો",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "લગભગ સમય પૂર્ણ થતો",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "ગારંટી સમયસમાપ્ત થઈ ગયો છે",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "વોરંટિ ટૂંક સમયમાં સમાપ્ત થવા والی છે",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "બાકી {count} દિવસ",
+  "@days_remaining": {
+    "description": "બાકી દિવસો પેરામિટર સાથે",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "સમાપ્ત થઈ ચુક્યું{count}દિવસ",
+  "@expired_days_ago": {
+    "description": "અવધિ કાળ પસાર દિવસો પેરામીટર સાથે",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "વસ્તુ કાઢી નાખો",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "શું તમે ખરેખર દૂર કરવા માંગો છો \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "ડિલીટ પુષ્ટિ સંદેશ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "સામાન કાઢી લેવામાં આવ્યું છે",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "કાઢી નાખવામાં નિષ્ફળ",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "આવુ વસ્તુ કાઢી શકાતું નથી: {error}",
+  "@failed_to_delete_message": {
+    "description": "ત્રુટિ સંદેશો કાદ્ધો",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "તારીખ શ્રેણી ફિલ્ટર",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "મૂલ્ય શ્રેણી ફિલ્ટર",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "મારા વસ્તુઓ",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "કેસમીનાની ખૂણામાંના બટન પર ક્લિક કરીને વસ્તુઓ ઉમેરો",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "કૂટણ કાઢી નાખવા માટે કન્ફર્મ કરો",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "ફિલ્ટર વિકલ્પો",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "વસ્તુઓને પ્રકાર, વર્ગ અને સ્થળ અનુસાર સૉર્ટ કરો",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} શ્રેણીઓ",
+  "@categories_count": {
+    "description": "શ્રેણી મુજબ સંખ્યા દર્શાવો",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "તમામ વર્ગો",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "કેટેગરી માહિતી ઉપલબ્ધ નથી",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "સંગ્રહ સ્થળ",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} સ્થળો",
+  "@locations_count": {
+    "description": "સ્થાનની સંખ્યા જોવા મળે છે",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "તમારા બધા સ્થાન",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "સ્થાનના ડેટા ઉપલબ્ધ નથી",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "તારીખ શ્રેણી",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "તારીખ શ્રેણી પસંદ કરો",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "કિંમત શ્રેણી",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "એકમ કિંમત શ્રેણી",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "ન્યૂનતમ એકમ કિંમત",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "સર્વોચ્ચ એકમ કિંમત",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "કુલ કિંમત શ્રેણી",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "ન્યૂનતમ કુલ કિંમત",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "સર્વોચ્ચ કુલ કિંમત",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "કિંમત ફિલ્ટર સાફ કરો",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "બારકોટ બોક્સની અંદર મૂકીને સ્કેન કરો",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "ઉત્પાદન પહેલેથી જ અસ્તિત્વમાં છે",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "બારકોડ: {barcode}",
+  "@barcode_with_value": {
+    "description": "બારકોડ જોવા માટે પેરામીટર સાથે",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "નામ: {name}",
+  "@name_with_value": {
+    "description": "નામ પેરામીટર સાથે દર્શાવવું",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "વર્ગીકરણ: {category}",
+  "@category_with_value": {
+    "description": "પેરામીટર સાથે વર્ગીકૃત વિઝ્યુઅલ પ્રદર્શન",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "વર્તમાન સંખ્યા: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "વર્તમાન સંખ્યા પેરામીટર સાથે દર્શાવે છે",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "કૃપા કરીને કાર્ય પસંદ કરો:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "કારા જવાનું",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "કગારણમાં દાખલ કરવું",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "ગોડાઉનમાં પ્રવેશ કી સંખ્યા",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "ગોડાઉનમાંથી બહાર નીકળી ગયેલી સંખ્યા",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "સંખ્યા",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "કૃપા કરીને ભંડારમાં દાખલ થનાર સંખ્યા દાખલ કરો",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "કૃપા કરીને નિકાસ માટેની સંખ્યા દાખલ કરો",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "{name} {quantity}{unit} વધારી દીધા છે",
+  "@item_increased": {
+    "description": "સામાન વધારવાની જાણ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "તમે ખરેખર “{name}” ડિલીટ કરવા માંગો છો? આ ક્રિયા રદ કરી શકાતી નથી.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "ડિલીટ પુષ્ટિ સંદેશમાં અસ્વીકારી સૂચના દાખલ કરો",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "{name} {quantity}{unit} ઘટાડવામાં આવ્યા",
+  "@item_decreased": {
+    "description": "સામાન ઘટવાની માહિતી",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "ડેટાબેસ રિસેટ થઇ ગયો છે, ટેબલ સ્ટ્રક્ચર ફરી બનાવાશે",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "ડેટાબેઝ પુનઃસેટ કરતી વખતે ખોટ: {error}",
+  "@database_reset_error": {
+    "description": "ડેટાબેસ રીસેટ ભૂલ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "અનુકલિત ડેટા પ્રારંભિકકરણ નિષ્ફળ: {error}",
+  "@mock_data_init_failed": {
+    "description": "સિમ્યુલેશન ડેટા પ્રારંભિકકરણ નિષ્ફળ થયું",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "ઉકેલ:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. એપ્લિકેશન અનઇન્સ્ટોલ કરીને ફરીથી ઇન્સ્ટૉલ કરો",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. અથવા એપ્લિકેશન ડેટા સાફ કરો",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. અથવા resetDatabaseOnStart ને true પર સેટ કરીને ફરી ચલાવો",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "સુચના સેવા આરંભ કરવામાં નિષ્ફળ: {error}",
+  "@notification_service_init_failed": {
+    "description": "સૂચના સેવા પ્રારંભ કરવામાં વિફળ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "કૅલેન્ડર ખાતાની તપાસ નિષ્ફળ: {error}",
+  "@check_calendar_account_failed": {
+    "description": "કેલેન્ડર અકાઉન્ટ ચકાસવામાં નિષ્ફળ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "કૅલેન્ડર બનાવવા નિષ્ફળ: {error}",
+  "@create_calendar_failed": {
+    "description": "કૅલેન્ડર બનાવવામાં નિષ્ફળ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "કૅલેન્ડર ઇવેંટ ઉમેરવામાં નિષ્ફળ: {error}",
+  "@add_calendar_event_failed": {
+    "description": "કેલેન્ડર ઇવેન્ટ ઉમેરવામાં નિષ્ફળ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "કૅલેન્ડર ઇવેંટ દૂર કરવામાં નિષ્ફળ: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "કેલેન્ડર ઇવેન્ટને કાઢી શકવામાં નિષ્ફળ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "અધિકાર સંદેશો સુજાવ્યામાં નિષ્ફળ: {error}",
+  "@set_permission_message_failed": {
+    "description": "અધિકાર સૂચના સંદેશ વિફળ થયો",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "સફળતાપૂર્વક {count} ટુકડાં નકલી ડેટા પ્રારંભ કરવામાં આવી છે",
+  "@mock_data_init_success": {
+    "description": "સિમ્યુલેશન ડેટા પ્રારંભિકકરણ સફળ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "ડેટાબેઝમાં પહેલેથી જ {count} રેકોર્ડ છે, નકલી ડેટા શરૂઆતને ઉઠાવી દીધાં",
+  "@database_has_data": {
+    "description": "ડેટાબેઝમાં પહેલેથી જ ડેટા موجود છે",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "સંભવતઃ ડેટાબેસનું માળખું મેળ ખાતું નથી, એપ્લિકેશન ડેટા સાફ કરવાનો અથવા ફરીથી ઇન્સ્ટોલ કરવાનો સૂચન કરવામાં આવે છે",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "જૂનો ડેટાબેસ ફાઇલ કાઢી આપી",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "બેકઅપ ડેટા ખાલી છે",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "બેકઅપ ફાઇલ અસ્તિત્વમાં નથી",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "ફાઇલ કોડિંગ માન્ય UTF-8 ફોર્મેટ નથી. કૃપા કરીને ખાતરી કરો કે ફાઇલ UTF-8 કોડિંગમાં સેવ થઈ છે. ત્રુટી વિગતો: {error}",
+  "@file_not_utf8": {
+    "description": "ફાઈલ કોડિંગ ભૂલ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "ફાઈલ અસ્તિત્વમાં નથી: {filePath}",
+  "@file_not_found": {
+    "description": "ફાઈલ અસ્તિત્વમાં નથી",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "ફાઈલ ખાલી છે: {filePath}",
+  "@file_empty": {
+    "description": "ફાઈલ ખાલી છે ત્રુટિ",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "ફાઈલની સામગ્રી ડિકોડ કર્યા પછી ખાલી છે, શક્ય છે કે એન્કોડિંગ મેટ ન થાય",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} ખાલી નહીં હોઈ શકે",
+  "@field_cannot_be_empty": {
+    "description": "ફીલ્ડ ખાલી ન હોઈ શકે ચકાસણી",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName}ની લંબાઈ ઓછામાં ઓછા {minLength} અક્ષરોની હોવી જોઈએ",
+  "@field_min_length": {
+    "description": "ક્ષેત્રનું ન્યૂનતમ લંબાઈ ચકાસણી",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName}ની લંબાઈ {maxLength} અક્ષરોથી વધુ ન હોઈ શકે",
+  "@field_max_length": {
+    "description": "ક્ષેત્રનો મહત્તમ લંબાઈ વિલક્ષણ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "કૃપા કરીને માન્ય {fieldName} સરનામું દાખલ કરો",
+  "@field_invalid_email": {
+    "description": "ઈમેલ ફોર્મેટ માન્યતા",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName}જરૂરી છે કે {numberType} હોઈ",
+  "@field_invalid_number": {
+    "description": "આંકડાકીય ફોર્મેટ ચકાસણી",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} {min} કરતા નાની ન હોઈ શકે",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} {max} કરતા મોટું ન હોઈ શકે",
+  "@field_max_value": {
+    "description": "સર્વોચ્ચ મૂલ્ય કન્ત્રોલ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} યોગ્ય પૂર્ણાંક હોવો જોઈએ",
+  "@field_positive_integer": {
+    "description": "ધન પૂર્ણાંક ચકાસણી",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} 0 કરતા મોટું હોવું જ જોઈએ",
+  "@field_greater_than_zero": {
+    "description": "શૂન્ય કરતા મોટી ચકાસણી",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} પોઝિટિવ નંબર હોવો જ જોઈએ",
+  "@field_positive_number": {
+    "description": "ધનાત્મક સંખ્યા માન્યતા",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "કૃપા કરીને માન્ય {fieldName} દાખલ કરો",
+  "@field_invalid_date": {
+    "description": "તારીખ ફોર્મેટ માન્યતા",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} ભૂતકાળ તારીખ ન હોઈ શકે",
+  "@field_date_not_past": {
+    "description": "તારીખ ભૂતકાળમાં હોઈ શકે નહીં",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} {minDate} કરતા વહેલાં ન હોઈ શકે",
+  "@field_date_not_before": {
+    "description": "તારીખ નિર્ધારિત તારીખથી વહેલી ન હોઈ શકે",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} {maxDate} કરતા મોડું ન હોઈ શકે",
+  "@field_date_not_after": {
+    "description": "તારીખ નિર્ધારિત તારીખની તુલનામાં મોડું ન હોઈ શકે",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "કૃપા કરીને માન્ય {fieldName} દાખલ કરો",
+  "@field_invalid_value": {
+    "description": "અમાન્ય મૂલ્ય ચકાસણી",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} ની લંબાઈ 8 અક્ષરોથી ઓછો ન હોઈ શકે",
+  "@password_min_length": {
+    "description": "પાસવર્ડનો ન્યૂનતમ લંબાઈ માન્યતા",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName}માં कम از कम એક મોટો અક્ષર હોવું જોઈએ",
+  "@password_uppercase_required": {
+    "description": "પાસવર્ડમાં મોટા અક્ષરો હોવા જોઈએ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName}માં कम از कम એક નાના અક્ષરનો સમાવેશ હોવો જોઈએ",
+  "@password_lowercase_required": {
+    "description": "પાસવર્ડમાં નાના અક્ષરો હોવા જોઈએ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName}માં ઓછામાં ઓછું એક અંક હોવો જ જોઈએ",
+  "@password_digit_required": {
+    "description": "પાસવર્ડમાં સંખ્યાઓ હોવી જરૂરી છે",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} માં ઓછામાં ઓછું એક વિશેષ અક્ષર હોવું જ જોઈએ",
+  "@password_special_char_required": {
+    "description": "પાસવર્ડમાં ખાસ કૅરેક્ટર હોવા જોઈએ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "બે વાર દાખલ કરેલો પાસવર્ડ મળતો નથી",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "સામાનનું નામ ખાલી ન હોઈ શકે",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "નામ {maxLength} અક્ષરોથી વધુ ન હોઈ શકે",
+  "@name_max_length": {
+    "description": "નામનો મહત્તમ લંબાઈ વિલક્ષણ",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "માત્રા {minQuantity} કરતાં ઓછી ન હોઈ શકે",
+  "@quantity_min": {
+    "description": "ન્યૂરમતમ કાઉન્ટ વિલિફિકેશન",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "સંખ્યા {maxQuantity} થી વધુ ન થઈ શકે",
+  "@quantity_max": {
+    "description": "સંક્યા મહત્તમ કીમત વિવેચન",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "એકમ કિંમત નકારાત્મક ન ہوسકે",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "એકમ કિંમત {maxUnitPrice} કરતાં વધારે ન હોઈ શકે",
+  "@unit_price_max": {
+    "description": "એકમ કિંમતનો મહત્તમ મૂલ્ય ચકાસણી",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "કૃપા કરીને ઉત્પાદન તારીખ અને સંગ્રહ સમય સેટ કરો જેથી વ્યાવસાયિક સમય આપમેળે ગણકાઈ શકે.",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "કૃપા કરીને ખરીદીની તારીખ અને વૉરંટી સમયગાળો સેટ કરો જેથી વૉરંટી આપમેળે ગણાય",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "કેલેન્ડર ખાતું બનાવી શકાતું નથી, કૃપા કરીને સિસ્ટમ કેલેન્ડર સેટિંગ્સ તપાસો",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "કસોટી સૂચના",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "આ એક પરીક્ષણ સૂચના છે, સ્થાનિક યાદગીરી ફંક્શનને વેરિફાઇ કરવા માટે",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "આકાસ",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} દિવસ",
+  "@days_with_value": {
+    "description": "દિન સાથે પેરામીટર",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "સામાન સેવ થઈ ગયો છે",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "સામાન અપડેટ થઈ ગયો છે",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "સામાન ઉમેરાયું",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "સંચય સફળ",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "અપડેટ સફળ",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "કૂટણ સફળ",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "સંચય કરવો નિષ્ફળ થયો",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "અપડેટ નિષ્ફળ થઈ",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "કાઢી નાખવામાં નિષ્ફળ",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "ભાષા સેટિંગ",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "એપ્લિકેશન જોવા માટેની ભાષા સેટ કરો",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "સિસ્ટમ ડિફોલ્ટ",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "સિસ્ટમ ભાષા ઉપયોગ કરો",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "ભાષાની વિલંબિત અસર એપ પુનઃપ્રારંભ પછી લાગુ થશે",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "વર્તમાન પસંદગી: {days} દિવસ",
+  "@current_selection": {
+    "description": "વર્તમાન પસંદ કરેલ દિવસો દર્શાવવામાં આવી રહ્યા છે",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

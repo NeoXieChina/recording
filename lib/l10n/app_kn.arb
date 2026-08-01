@@ -1,0 +1,1625 @@
+{
+  "@@locale": "kn",
+  "app_name": "ಸಂಗ್ರಹದ ಚದುರ್ತಿ",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "ರದ್ದುಮಾಡು",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "ನಿಶ್ಚಿತ ಮಾಡು",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "ಉಳಿಸು",
+  "@save": {
+    "description": ""
+  },
+  "delete": "ಅಳಿಸು",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "ಸಂಪಾದನೆ",
+  "@edit": {
+    "description": ""
+  },
+  "add": "ಸೇರಿಸು",
+  "@add": {
+    "description": ""
+  },
+  "search": "ಹುಡುಕಿ",
+  "@search": {
+    "description": ""
+  },
+  "settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+  "@settings": {
+    "description": ""
+  },
+  "back": "ಹಿಂದೆಗೆ",
+  "@back": {
+    "description": ""
+  },
+  "next": "ಮುಂದಿನ ಹಂತ",
+  "@next": {
+    "description": ""
+  },
+  "done": "ಪೂರ್ಣ",
+  "@done": {
+    "description": ""
+  },
+  "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "ದೋಷ",
+  "@error": {
+    "description": ""
+  },
+  "success": "ಸಫಲತೆ",
+  "@success": {
+    "description": ""
+  },
+  "warning": "ಎಚ್ಚರಿಕೆ",
+  "@warning": {
+    "description": ""
+  },
+  "info": "ಮಾಹಿತಿ",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "ಸ್ಮರಣ ದಿನಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "ಕಸ್ಟಮ್",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "ಕಸ್ಟಮ್ ({days} ದಿನಗಳು)",
+  "@custom_days": {
+    "description": "ಪರಿಮಾಣಗಳನ್ನು ಹೊಂದಿರುವ ಕಸ್ಟಮ್ ದಿನಗಳು",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "ಸ್ಮರಣೆ ದಿನಗಳ ಶ್ರೇಣಿ: {min}-{max} ದಿನಗಳು",
+  "@alert_days_range": {
+    "description": "ಮಾಹಿತಿ ನೀಡುವ ದಿನಗಳ ವ್ಯಾಪ್ತಿಗೆ ಪ್ಯಾರಾಮೀಟರ್ ಸೇರಿಸಲಾಗಿದೆ",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "ದಯವಿಟ್ಟು ಮೆಚ್ಚಿನ ದಿನಗಳನ್ನು ನಮೂದಿಸಿ",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "ದಿನಗಳ ಸಂಖ್ಯೆ",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "ದಯವಿಟ್ಟು {min} ಮತ್ತು {max} ನಡುವಿನ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ",
+  "@enter_valid_days": {
+    "description": "ದಿನಗಳ ಇನ್‌ಪುಟ್ ಪರಿಶೀಲನಾ ಸಂದೇಶ",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "ಎಚ್ಚರಿಕೆ ಸೆಟ್ಟಿಂಗ್",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "ಕ್ಯಾಲೆಂಡರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "ದಿನಪತ್ರಿಕೆ ಸಮకాలಿಕಗೊಳಿಸುವಿಕೆ",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "ಚಾಲನೆಯಿಂದ ನಂತರ ಕ್ಯಾಲೆಂಡರ್ ಅನುಮತಿಯನ್ನು ಕೇಳಲಾಗುತ್ತದೆ",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "ಪರೀಕ್ಷಾ ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆ ಸೇರಿಸಿ",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "ದಯವಿಟ್ಟು ಮೊದಲು 'ಕ್ಯಾಲೆಂಡರ್ ಸಿಂಕ್' ಸ್ವಿಚ್ ಅನ್ನು ಆನ್ ಮಾಡಿ",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "ಆಪ್ ಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "ಸ್ಥಳೀಯ ನೆನಪಿನ ಸೂಚನೆ",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "ಚಾಲನೆಯಾದ ನಂತರ ಆ್ಯಪ್‌ನಲ್ಲಿ ಅವಧಿ ಮೀರಿದ ಸೂಚನೆಗಳನ್ನು ಸ್ವೀಕರಿಸಿ",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "ಪರೀಕ್ಷಾ ನೋಟిఫಿಕೇಶನ್ ಕಳುಹಿಸಿ",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "ದಯವಿಟ್ಟು ಮೊದಲು 'ಸ್ಥಳೀಯ ನೆನಪಿನ' ಸ್ವಿಚ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "ಸ್ಮರಣ ದಿನಗಳ ಸೆಟ್ಟಿಂಗ್",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "ಮುನ್ನೋಟ ಸೂಚನೆ ದಿನಗಳು",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "ವಸ್ತು ಅವಧಿ ಮುಗಿಯುವ ಅಥವಾ ಭರವಸೆ ಅವಧಿ ಮುಗಿಯುವ ಮುನ್ನ ಎಷ್ಟು ದಿನಗಳಿಯಿಂದ ನೆನಪಿಸಬೇಕೆಂದು ಸೆಟ್ ಮಾಡುವುದು",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "ಕ್ಯಾಲೆಂಡರ್ ಅನುಮತಿ ವಿನಂತಿ",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "ವಸ್ತುಗಳ ನೆನಪುವಿನ同期ಗೆ ಕ್ಯಾಲೆಂಡರ್ ಅನುಮತಿಯನ್ನು ಪ್ರವೇಶಿಸಲು ಅಗತ್ಯವಿದೆ. ಅನುವಾದಿಸಬೇಕೆ嗎?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "ಅನುಮತಿಸಿ",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "ಕ್ಯಾಲೆಂಡರ್ ಪ್ರಾಧಿಕಾರವನ್ನು ನೀಡಲಾಗಿದೆ, ಕ್ಯಾಲೆಂಡರ್ ಸಂಗತಿಯು ಸಕ್ರಿಯವಾಗಿದೆ",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "ಕ್ಯಾಲೆಂಡರ್ ಪ್ರಾಧಿಕಾರವನ್ನು ನಿರಾಕರಿಸಲಾಗಿದೆ, ಕ್ಯಾಲೆಂಡರ್ ಸಮಕಾಲಿಕরণವನ್ನು ಪ್ರಾರಂಭ нельзя",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "ಅಧಿಕಾರವನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "ಕ್ಯಾಲೆಂಡರ್ ಅನುಮತಿಯನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ, ದಯವಿಟ್ಟು ಸಿಸ್ಟಮ್ ಸೆಟ್ಟಿಂಗ್ಸ್‌ನಲ್ಲಿ ಅನುಮತಿಗಳನ್ನು ಕೈಯಿಂದ ಸಕ್ರಿಯಗೊಳಿಸಿ.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರಳಿ",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "ಕ್ಯಾಲೆಂಡರ್ ಪ್ರವೇಶ ಹಂಚಿಕೆಯಾಗಿದೆ, ಆದರೆ ಕ್ಯಾಲೆಂಡರ್ ಖಾತೆಯನ್ನು ರಚಿಸಲಾಗುವುದಿಲ್ಲ. ದಯವಿಟ್ಟು ಸಿಸ್ಟಮ್ ಕ್ಯಾಲೆಂಡರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "ಕ್ಯಾಲೆಂಡರ್ ಅನುಮತಿಗಳು ನೀಡಲಾಗಿದೆ, ಸ್ಥಳೀಯ ಕ್ಯಾಲೆಂಡರ್ ಖಾತೆ ರಚಿಸಲಾಗಿದೆ",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "ಕ್ಯಾಲೆಂಡರ್ ಖಾತೆ ಸಫಲವಾಗಿ ರಚಿಸಲಾಗಿದೆ, ಆದರೆ ವ್ಯವಸ್ಥೆಗೆ ಪರಿಣಾಮ ತಲುಪಲು ಕೆಲವು ಸಮಯ ಬೇಕಾಗಬಹುದು",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆಯು ಯಶಸ್ವಿಯಾಗಿ ಸೇರಿಸಲಾಗಿದೆ",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "ಟೆಸ್ಟ್ ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆ ಸೇರಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ, ದಯವಿಟ್ಟು ಕ್ಯಾಲೆಂಡರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "ಪರೀಕ್ಷಾ ಘಟನೆಗಳನ್ನು ಸೇರಿಸಲು ಕ್ಯಾಲೆಂಡರ್ ಪ್ರಾಧಿಕಾರ ಅಗತ್ಯವಿದೆ",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "ಟೆಸ್ಟು ಸೂಚನೆಗಳನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "ಟೆಸ್ಟಿಂಗ್ ನೋಟಿಫಿಕೇಶನ್ ಕಳುಹಿಸಲು ವಿಫಲವಾಗಿದೆ: {error}",
+  "@test_notification_failed": {
+    "description": "ದೋಷ ಸಂದೇಶವನ್ನು ಸೂಚಿಸಿ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "ಸ್ಥಳೀಯ ಸೂಚನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಅಧಿಸೂಚನೆಯ ಅನುಮತಿಯ ಅವಶ್ಯಕತೆ ಇದೆ",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "ಚಾಲನೆ ವಿಫಲವಾಗಿದೆ: {error}",
+  "@operation_failed": {
+    "description": "ಸಾಮಾನ್ಯ ಕಾರ್ಯಾಚರಣೆ ದೋಷ ಸಂದೇಶ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "ವಸ್ತು ಎಚ್ಚರಿಕೆ ಸೂಚನೆ",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "ವಸ್ತುಗಳು ಅವಧಿ ಮುಗಿದಾಗ ಅಥವಾ ಭದ್ರತಾ ಅವಧಿ ಮುಗಿದಾಗ ಸೂಚನೆ",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "ಆಹಾರ",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "ದೈನಂದಿನ ಉಪಯೋಗದ ವಸ್ತುಗಳು",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "ಸೌಂದರ್ಯಉತ್ಪನ್ನಗಳು",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "ಮದ್ದು",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "ಎಲೆಕ್ಟ್ರಾನಿಕ್ ಉತ್ಪನ್ನಗಳು",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "ಮೆಬ್ಬಿಡು",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "ಉಡುಪು",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "ಪುಸ್ತಕಗಳು",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "ಇತರೆ",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "ಆನ್‌ಲೈನ್ ಮಾಲ್",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "ಖಾಸಗಿ ಅಂಗಡಿ",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "ಸೂಪರ್‌ಮಾರ್ಕೆಟ್",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "ಸ್ವತಂತ್ರ ಅಂಗಡಿ",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "ದ್ವಿತೀಯಕಾಲಿನ ಮಾರುಕಟ್ಟೆ",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "ಇತರೆ",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "ಇತರೆ",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "ಆನ್‌ಲೈನ್ ಮಾಲ್",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "ವಸ್ತುಗಳನ್ನು ವರ್ಗಾವಣೆ ಮಾಡುವುದು",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "ಸ್ವಯಂ ಪ್ರಕಾರೀಕರಣ",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "ಡೇಟಾ ಬ್ಯಾಕಪ್",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "ಎಲ್ಲಾ ಡೇಟಾವನ್ನು (ಚಿತ್ರಗಳನ್ನು ಸೇರಿಟ್ಟು) ZIP ಫೈಲ್ ಆಗಿ ಪ್ಯಾಕ್ ಮಾಡಿ ಬ್ಯಾಕಪ್ ಮಾಡಿ",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಿ",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "ಬ್ಯಾಕಪ್ ಯಶಸ್ವಿಯಾಗಿದೆ",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "ಬ್ಯಾಕ್ಅಪ್ ವಿಫಲವಾಗಿದೆ: {error}",
+  "@backup_failed": {
+    "description": "ಬ್ಯಾಕಪ್ ವೈಫಲ್ಯ ದೋಷ ಸಂದೇಶ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "ಡೇಟಾವನ್ನು ಪುನಃಸ್ಥಾಪನೆ ಮಾಡು",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ZIP ಬ್ಯಾಕ್‌ಅಪ್ ಫೈಲ್‌ನಿಂದ ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಪುನರುತ್ಪಾದನೆ ಮಾಡು",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "ಡೇಟಾವನ್ನು ರಫ್ತುಮಾಡಿ",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "CSV, TXT, SQL ಫಾರ್ಮ್ಯಾಟ್ ಗೆ ರಫ್ತು ಮಾಡು",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "ಡೇಟಾವನ್ನು ಆಮದುಮಾಡಿ",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "CSV, TXT, SQL ಫೈಲ್‌ಗಳಿಂದ ಡೇಟಾ आयಮ್ಪೋರ್ಟ್ ಮಾಡಿ",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "ಕ್ಯಾಲೆಂಡರ್ ನೆನಪಿನ ಹಾಗೂ ಆ್ಯಪ್ ಪುಷ್ ನೆನಪಿನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "ಬಗ್ಗೆ",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "ಅಪ್ಲಿಕೇಶನ್ ಮಾಹಿತಿ ಮತ್ತು ಆವೃತ್ತಿ",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "ದಯವಿಟ್ಟು ಮೊದಲು ಬ್ಯಾಕ್ಅಪ್ ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "ಮರುಸ್ಥಾಪನೆಯನ್ನು ದೃಢೀಕರಿಸಿ",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "ಬ್ಯಾಕ್‌ಅಪ್ ಪುನಃಸ್ಥಾಪನೆ ಮಾಡುವುದರಿಂದ ಎಲ್ಲಾ ಪ್ರಸ್ತುತ ಡೇಟಾವನ್ನು ಖಾಲಿ ಮಾಡಲಾಗುತ್ತದೆ ಮತ್ತು ಬ್ಯಾಕ್‌ಅಪ್ ಡೇಟಾವಿನಿಂದ ಬದಲಿಸಲಾಗುತ್ತದೆ, ಈ ಕ್ರಿಯೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ. ನೀವು ಮುಂದುವರೆಯಲು ಖಚಿತವಿದ್ದೀರಾ?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "ಮತ್ತು ಒಪ್ಪಿಗೆ ನಿಶ್ಚಿತಗೊಳಿಸಿ",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "ನೀವು ಎಲ್ಲ текущಿ ಡೇಟಾವನ್ನು ಶೂನ್ಯಗೊಳಿಸಿ ಬ್ಯಾಕ್ಅಪ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಖಚಿತನಾ? ಈ ಕ್ರಿಯೆ ಮರಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "ಮರುಸ್ಥಾಪನೆ ನಿಶ್ಚಿತಗೊಳಿಸಿ",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "ಪುನಃಸ್ಥಾಪನೆ ಯಶಸ್ವിയായി, ಒಟ್ಟಾರೆ {count} ಐಟಂಗಳು",
+  "@restore_success": {
+    "description": "ಮರುಸ್ಥಾಪನೆ ಯಶಸ್ವಿ ಸಂದೇಶ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "ಪುನಃಸ್ಥಾಪನೆ ವಿಫಲವಾಗಿದೆ: {error}",
+  "@restore_failed": {
+    "description": "ಮರುಸ್ಥಾಪನೆ ವಿಫಲ ತ್ರುಟಿ ಸಂದೇಶ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "ಬ್ಯಾಕಪ್ ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "ಬ್ಯಾಕಪ್ ನವೀಕರಿಸಿ",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "ಎಲ್ಲಾ ಆಯ್ತು ಫೈಲ್: {filename}",
+  "@selected_file": {
+    "description": "ಆಯ್ದ ಫೈಲ್ ಮೆಸೇಜ್",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "ಡೇಟಾ ರಫ್ತು ಯಶಸ್ವಿ",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "ಎಗ್ಸ್ಪೋರ್ಟ್ ವಿಫಲವಾಗಿದೆ: {error}",
+  "@export_failed": {
+    "description": "ರಫ್ತು ವಿಫಲತೆಯ ದೋಷ ಸಂದೇಶ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "ಟಿಎಕ್ಸ್ಟು",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "ಮರುಪರಿಶೀಲನಾ ಡೇಟಾ ಪ್ರಕ್ರಿಯೆ",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "ನಕಲಿ ಡೇಟಾ ಗುರುತಿಸಲಾಗಿದೆ, ದಯವಿಟ್ಟು ಪ್ರಕ್ರಿಯೆ ಮಾಡುವ ವಿಧಾನವನ್ನು ಆಯ್ಕೆಮಾಡಿ:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "ಉಲ್ಲೇಖಿಸಿ",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "ಮುಚ್ಚುವ",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "ಎಲ್ಲವನ್ನು ಕಡೆಗಣಿಸಿ",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "ಎಲ್ಲಾ ವಿಸ್ತರಣೆ",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "ದಯವಿಟ್ಟು ಮೊದಲು ಆಮದು ರೂಪವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "ಆಮದುಗಳನ್ನು ದೃಢೀಕರಿಸಿ",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "ಡೇಟಾವನ್ನು ಆಮದು ಮಾಡುವುದರಿಂದ ಇ موجودデータ覆盖 ಆಗುತ್ತದೆ, ಈ ಕಾರ್ಯವನ್ನು ಹಿಮ್ಮೆಟ್ಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಮುಂದುವರೆಯಲು ನೀವು ಖಚಿತರಾಗಿದ್ದೀರಾ?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "ಡೇಟಾ ಆಮದು ಯಶಸ್ವಿಯಾಗಿ ಸಂಪೂರ್ಣವಾಗಿ {count} ಐಟಂಗಳನ್ನು ಆಮದು ಮಾಡಲಾಗಿದೆ",
+  "@import_success": {
+    "description": "ಆಮದು ಯಶಸ್ವಿ ಸಂದೇಶ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "ಆಮ್ದಾನ ವಿಫಲ: {error}",
+  "@import_failed": {
+    "description": "ಆಮದು ವಿಫಲತೆಯ ದೋಷ ಸಂದೇಶ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "ಡೇಟಾ ಇಲ್ಲ",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "ಪ್ರಸ್ತುತ ಯಾವುದೇ ಡೇಟಾವಿಲ್ಲ, ಕೆಳಗಿನ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ ಮೊದಲ ದಾಖಲೆಯನ್ನು ಸೇರಿಸಿ!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "ಲೋಡ್ ಆಗಲಿಲ್ಲ",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "ಡೇಟಾ ಲೋಡ್ ವಿಫಲವಾಗಿದೆ, ದಯವಿಟ್ಟು ನೆಟ್‌ವರ್ಕ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "ಮತ್ತು ಪ್ರಯತ್ನಿಸಿ",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "ಜಾಲ ಸಂಯೋಜನೆ ವಿಫಲವಾಗಿದೆ",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "ದಯವಿಟ್ಟು ನೆಟ್ವರ್ಕ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "ಫಲಿತಾಂಶ ಕಂಡುಬಂದಿಲ್ಲ",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "ಮತ್ತೊಂದು ಕೀವರ್ಡ್ ಬಳಸಿ ಹುಡುಕಲು ಪ್ರಯತ್ನಿಸಿ",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "ಸಂದರ್ಶನಗಳನ್ನು ಮಾಯಮಾಡಿ",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "ಅನುಮತಿ ಇಲ್ಲ",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "ಈ ಕಾರ್ಯವನ್ನು ಬಳಸಲು ಸಂಬಂಧಿತ ಹಕ್ಕುಗಳು ಅಗತ್ಯವಿವೆ",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "ಅನುಮತಿ ಕೇಳು",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "ಅಪ್ಲಿಕೇಶನ್ ಮಾಹಿತಿ",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "ಆವೃತ್ತಿ",
+  "@version": {
+    "description": ""
+  },
+  "developer": "ವಿಕಸಕರ",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "ಉಪಕರಣ ಮಾಹಿತಿ",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "ಉಪಕರಣ ಮಾದರಿ",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "ಬ್ರ್ಯಾಂಡ್",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "ಉಪಕರಣದ ಹೆಸರು",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "ಉತ್ಪನ್ನ",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "ಹಾರ್ಡ್‌ವೇರ್",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android ಆವೃತ್ತಿ",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK ಆವೃತ್ತಿ",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "ಸಿಸ್ಟಮ್ ಹೆಸರು",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "ಸಿಸ್ಟಮ್ ಆವೃತ್ತಿ",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "ಸಾಧನ ಗುರುತು",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "ಕಂಪ್ಯೂಟರ್ ಹೆಸರು",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "ಆವೃತ್ತಿ ಸಂಖ್ಯೆ",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "ಸಾಧನ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಲಾಗಲಿಲ್ಲ: {error}",
+  "@error_getting_device_info": {
+    "description": "ಸಾಧನ ವಿವರ ಪಡೆಯುವಾಗ ತ್ರುಟಿ ಸಂದೇಶ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "ಕಾರ್ಯಾಚರಣೆ ಪರಿಚయం",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "ಸ್ಮಾರ್ಟ್ ಐಟಂ ನಿರ್ವಹಣಾ ಅಪ್ಲಿಕೇಶನ್",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "ನೀವು ವಸ್ತುಗಳ ಅವಧಿ 날ಾಂಕ, ಖಾತರೀಕೃತ ದಿನಾಂಕ ಮುಂತಾದ ಮಾಹಿತಿಯನ್ನು ನಿರ್ವಹಿಸಲು ಸಹಾಯಮಾಡುತ್ತದೆ ಮತ್ತು ವಿಚಾರಣಾತ್ಮಕ ಸ್ಮರಣೆ ಕಾರ್ಯವನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "ಬಳಕೆಯ ವಸ್ತುಗಳು",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "ದೀರ್ಘಕಾಲ ಬಳಸಬಹುದಾದ ಸರಕು",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "ವಿನ್ಯಾಸ",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "ಹೆಸರು ಏರುವ ಕ್ರಮದಲ್ಲಿ",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "ಹೆಸರು ಇಳಿದ ಕ್ರಮದಲ್ಲಿ",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "ದಿನಾಂಕ ಏರುವ ಕ್ರಮದಲ್ಲಿ",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "ದಿನಾಂಕ ಇಳಿದ ಕ್ರಮ",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "ಒಂದು ಘಟಕದ ಬೆಲೆಯ ಏರಿಕೆ ಕ್ರಮ",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "ಒಂದು ಘಟಕದ ಬೆಲೆಯ ಇಳಿವಣಿ ಕ್ರಮ",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "ಮಾತ್ರೆಯ ಏರುವ ಕ್ರಮ",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "ಮಾತ್ರೆಯ ಇಳುವರಿಯ ಕ್ರಮ",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "ಒಟ್ಟು ಬೆಲೆ ಏರಿಕೆಯಲ್ಲಿ",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "ಒಟ್ಟು ಬೆಲೆ ಇಳಿಜಾರಿನ ಕ್ರಮ",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "ಎಲ್ಲಾ ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಅಳಿಸಿ",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ನுழೆಯಿರಿ",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "ವಸ್ತುಗಳನ್ನು ಹುಡುಕಿ...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "ಇಷ್ಟಾಪಟ್ಟ ವಸ್ತುಗಳಿಲ್ಲ",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "ಕೆಳಗಿನ ಬಟನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮೊದಲ ಐಟಂ ಸೇರಿಸಿ",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "ಮೀರಿದ ಕಾಲಾವಧಿ",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "ಶೀಘ್ರದಲ್ಲೇ ಅವಧಿ ಮುಗಿಯುವುದು",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "ವಾರಂಟಿ ಮುಗಿದಿದೆ",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "ಹುಣಿಸಿಕೊಂಡಿರುವ ಜಾಮೀನಿನ ಅವಧಿ ಶೀಘ್ರವೇ ಮುಗಿಯಲಿದೆ",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "ಮಿಕ್ಕಿರುವ {count} ದಿನಗಳು",
+  "@days_remaining": {
+    "description": "ಮ剩余天数带参数 ದಿನಗಳು ಪರಾಮಿತಿ ಜೊತೆ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "ಹಳೆಯದಾಗಿದೆ{count}ದಿನಗಳು",
+  "@expired_days_ago": {
+    "description": "ಮ್ಯುದ್ರಿತ ದಿನಾಂಕದ ಅಂಶಗಳು",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "ಐಟಂಗಳನ್ನು ಅಳಿಸಿ",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "ನೀವು \"{name}\" ಅನ್ನು ಅಳಿಸಲು ಖಚಿತನಾ?",
+  "@delete_item_confirm": {
+    "description": "ಅಳಿಸುವಿಕೆ ದೃಢೀಕರಣ ಸಂದೇಶ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "ವಸ್ತುವು ಅಳಿಸಲಾಗಿದೆ",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "ವಸ್ತು ಅಳಿಸಲಾಗುವುದಿಲ್ಲ: {error}",
+  "@failed_to_delete_message": {
+    "description": "ದೋಷ ಸಂದೇಶವನ್ನು ಅಳಿಸಿ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "ತಾರೀಖಿನ ಶ್ರೇಣಿಯ ಅಂಶಗಳ ಫಿಲ್ಟರ್",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "ಬೆಲೆಯ ಶ್ರೇಣಿಯ ತხრಿಕೆ",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "ನನ್ನ ವಸ್ತುಗಳು",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "ಕೋನೆಯಲ್ಲಿ ತಿರುವು ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ ಐಟಂ ಸೇರಿಸಿ",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "ಅಳಿಸಲು ದೃಢೀಕರಿಸಿ",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "ಶುಧ್ಧೀಕರಿಸುವ ಆಯ್ಕೆ",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "ವಸ್ತುಗಳನ್ನು ಪ್ರಕಾರ, ವರ್ಗ ಹಾಗೂ ಸ್ಥಳ ಪ್ರಕಾರ ಶೋಧಿಸಿ",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} ವರ್ಗಗಳು",
+  "@categories_count": {
+    "description": "ವರ್ಗೀಕರಣ ಸಂಖ್ಯೆಯನ್ನು ತೋರಿಸುತ್ತದೆ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "ಎಲ್ಲಾ ವರ್ಗಗಳು",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "ವರ್ಗೀಕರಣ ಡೇಟಾ ಇಲ್ಲ",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "ಸಂಗ್ರಹಸ್ಥಳ",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} ಸ್ಥಳಗಳು",
+  "@locations_count": {
+    "description": "ಸ್ಥಳಗಳ ಸಂಖ್ಯೆಯನ್ನು ತೋರಿಸಲಾಗಿದೆ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "ಎಲ್ಲಾ ಸ್ಥಳಗಳು",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "ಸ್ಥಳದ ಡೇಟಾ ಇಲ್ಲ",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "ದಿನಾಂಕ ವ್ಯಾಪ್ತಿ",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "ದಿನಾಂಕ ಶ್ರೇಣಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "ಬೆಲೆಯ ವ್ಯಾಪ್ತಿ",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "ಒಂದು ಘಟಕದ ಬೆಲೆಯ ವ್ಯಾಪ್ತಿ",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "ಕನಿಷ್ಠ ಏಕಕ ದರ",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "ಗರಿಷ್ಠ ಏಕಕಾಲಿನ ಬೆಲೆ",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "ಒಟ್ಟು ಬೆಲೆಯ ಶ್ರೇಣಿಯಲ್ಲಿ",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "ಕನಿಷ್ಠ ಒಟ್ಟು ಬೆಲೆ",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "ಗರಿಷ್ಠ ಒಟ್ಟು ಬೆಲೆ",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "ಬೆಲೆ ಶ್ರೇಣಿಯ ಫಿಲ್ಟರ್ ಅನ್ನು ತೆರವುಮಾಡಿ",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "ಬಾರ್‌ಕೋಡ್ ಅನ್ನು ಫ್ರೇಮ್ ಒಳಗೆ ಇರಿಸಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "ಮಾಲು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "ಬಾರ್ಕೋಡ್: {barcode}",
+  "@barcode_with_value": {
+    "description": "ಬಾರ್ಕೋಡ್ ಪ್ಯಾರಾಮೀಟರ್‌ಗಳೊಂದಿಗೆ ತೋರಿಸುತ್ತದೆ",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "ಹೆಸರು: {name}",
+  "@name_with_value": {
+    "description": "ಹೆಸರಿನಲ್ಲಿ پیرಾಮೀಟರ್ ಪ್ರದರ್ಶಿಸಲಾಗುವುದು",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "ವರ್ಗೀಕರಣ: {category}",
+  "@category_with_value": {
+    "description": "ಪಾರಾಮೀಟರ್‌ನೊಂದಿಗೆ ವರ್ಗೀಕರಿಸಿಕೊಂಡು ಪ್ರದರ್ಶಿಸಿ",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "ಪ್ರಸ್ತುತ ಪ್ರಮಾಣ: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "ಪ್ರಸ್ತುತ ಸಂಖ್ಯೆ ಪಾರಾಮೀಟರ್‌ನೊಂದಿಗೆ ತೋರಿಸುತ್ತದೆ",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "ದಯವಿಟ್ಟು ಕ್ರಿಯೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "ಖಾತೆಯಿಂದ ಹೊರಹರಿಸಿದೆ",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "ಖಾತೆಯಲ್ಲಿ ಸೇರ್ಪಡೆ",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "ಸಂಗ್ರಹಿತ ಪ್ರಮಾಣ",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "ಮಾಳುಗಳನ್ನು ಹೊರತರುವ ಪ್ರಮಾಣ",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "ಪ್ರಮಾಣ",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "ದಯವಿಟ್ಟು ಸ್ಟಾಕ್‌ನಲ್ಲಿ ಸೇರ್ಣುವ ಪ್ರಮಾಣವನ್ನು ನಮೂದಿಸಿ",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "ದಯವಿಟ್ಟು ಶಿಪ್ಮೆಂಟ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "ಹೆಚ್ಚಿಸಲಾಗಿದೆ {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "ವಸ್ತು ಹೆಚ್ಚಿದ ಸಂದೇಶ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "ನೀವು \"{name}\" ಅನ್ನು ಅಳಿಸಲು ಖಾತ್ರಿ ಪಡುತ್ತೀರಾ? ಈ ಕ್ರಿಯೆಯನ್ನು ಮರುಪಡೆಯಲಾಗುವುದಿಲ್ಲ.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "ಅಳಿಸುವ ದೃಢೀಕರಣ ಸಂದೇಶದಲ್ಲಿ ತಿನ್ನಲಾಗದ ಎಚ್ಚರಿಕೆ ಇದೆ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "ಎಲ್ಲಾ ಕಡಿಮೆ ಮಾಡಲಾಗಿದೆ {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "ವಸ್ತು ಕಡಿಮೆ ಆದ ಮೆಸೇಜ್",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "ಡೇಟಾಬೇಸ್ ಮರುಹೊಂದಿಸಲಾಗಿದೆ, ಟೇಬಲ್ ರಚನೆ ಪುನಃ ಸೃಷ್ಟಿಸಲಾಗುತ್ತದೆ",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "ಡೇಟಾಬೇಸ್ನ್ನು ಮರುಹೊಂದಿಸಲು ತಪ್ಪಾಗಿದೆ: {error}",
+  "@database_reset_error": {
+    "description": "ಡೇಟಾಬೇಸ್ ಮರುಹೊಂದಿಸುವಲ್ಲಿ ದೋಷ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "ಸಿಮ್ಯುಲೇಟೆಡ್ ಡೇಟಾ ಆರಂಭ 실패: {error}",
+  "@mock_data_init_failed": {
+    "description": "ನಕಲಿ ಡೇಟಾ ಆರಂಭ ವಿಫಲವಾಗಿದೆ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "ದೃಢೀಕರಣ ಪರಿಹಾರ:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ ಮರುಸ್ಥಾಪನೆ ಮಾಡಿ",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. ಅಥವಾ ಅಪ್ಲಿಕೇಶನ್ ಡೇಟಾವನ್ನು_Clear ಮಾಡಿರಿ",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. ಅಥವಾ resetDatabaseOnStart ಅನ್ನು true ಗೆ ಸೆಟ್ ಮಾಡಿ ಮತ್ತು ನಂತರ ಮರುಪ್ರಾರಂಭಿಸಿ",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "ಸ್ಮರಣ الخدمة ಪ್ರಾರಂಭಿಸಲು ವಿಫಲವಾಗಿದೆ: {error}",
+  "@notification_service_init_failed": {
+    "description": "ಸುದ್ದಿ ಸೇವೆ ಪ್ರಾರಂಭ ವಿಫಲವಾಗಿದೆ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "ಕ್ಯಾಲೆಂಡರ್ ಖಾತೆಯನ್ನು ಪರಿಶೀಲಿಸಲು ವಿಫಲವಾಯಿತು: {error}",
+  "@check_calendar_account_failed": {
+    "description": "ಕ್ಯಾಲೆಂಡರ್ ಖಾತೆಯನ್ನು ಪರಿಶೀಲಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "ಕ್ಯಾಲೆಂಡರ್ ನಿರ್ಮಿಸಲು ವಿಫಲವಾಗಿದೆ: {error}",
+  "@create_calendar_failed": {
+    "description": "ಕ್ಯಾಲೆಂಡರ್ ರಚಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆ ಸೇರಿಸಲು ವಿಫಲವಾಗಿದೆ: {error}",
+  "@add_calendar_event_failed": {
+    "description": "ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆ ಸೇರಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆ ಅಳಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆ ಅಳಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "ಅಧಿಕಾರ ಸೂಚನೆ ಸಂದೇಶವನ್ನು ಹೊಂದಿಸಲು ವಿಫಲವಾಗಿದೆ: {error}",
+  "@set_permission_message_failed": {
+    "description": "ಅಧಿಕಾರ ಸಂದೇಶವನ್ನು ಹೊಂದಿಸುವಲ್ಲಿ ವಿಫಲವಾಯಿತು",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "ಯಶಸ್ವಿಯಾಗಿ {count} ನಕಲಿ ಡೇಟಾ ಪೂರ್ವನಿರ್ಧಾರಗೊಳಿಸಲಾಗಿದೆ",
+  "@mock_data_init_success": {
+    "description": "ಮಾರ್ಪು ಡೇಟಾ ಪ್ರাথমিকೀಕರಣ ಯಶಸ್ವಿ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "ಡೇಟಾಬೇಸಿನಲ್ಲಿ ಈಗಾಗಲೇ {count} ದಾಖಲೆಗಳಿವೆ, ಅಾನುಕರಣ ಡೇಟಾ ಆರಂಭಿಕಗೊಳಿಸುವಿಕೆಯನ್ನು ಬಿಟ್ಟುಮಾಡಿ",
+  "@database_has_data": {
+    "description": "ಡೇಟಾಬೇಸ್‌ನಲ್ಲಿ ಈಗಾಗಲೇ ಡೇಟಾ ಇದೆ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "ದತ್ತಸಂಗ್ರಹಣ ರಚನೆ ಹೊಂದಿಕೆಯಾಗದಿರಬಹುದು, ಅಪ್ಲಿಕೇಶನ್ ಡೇಟಾವನ್ನು ಅಳಿಸಲು ಅಥವಾ ಪುನಃಸ್ಥಾಪನೆ ಮಾಡಲು ಸಲಹೆ ಮಾಡಲಾಗುತ್ತದೆ",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "ಹಳೆಯ ಡೇಟಾಬೇಸ್ ಫೈಲ್ ಅನ್ನು ಅಳಿಸಲಾಗಿದೆ",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "ಬ್ಯಾಕಪ್ ಡೇಟಾ ಖಾಲಿ ಇದೆ",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "ಬ್ಯಾಕಪ್ ಫೈಲ್ ಇಲ್ಲ",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "ಫೈಲ್ ಎನ್‌ಕೋಡಿಂಗ್ ಮಾನ್ಯ UTF-8 ಫಾರ್ಮ್ಯಾಟ್ ಅಲ್ಲ. ದಯವಿಟ್ಟು ಫೈಲ್ ಅನ್ನು UTF-8 ಎನ್‌ಕೋಡಿಂಗ್‌ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿ. ದೋಷದ ವಿವರಗಳು: {error}",
+  "@file_not_utf8": {
+    "description": "ಫೈಲ್ ಎನ್‌ಕೋಡಿಂಗ್ ದೋಷ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "ಫೈಲ್ ಇಲ್ಲ: {filePath}",
+  "@file_not_found": {
+    "description": "ಫೈಲ್ ಇಲ್ಲದ ದೋಷ",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "ಫೈಲ್ ಖಾಲಿ ಇದೆ: {filePath}",
+  "@file_empty": {
+    "description": "ಫೈಲ್ ಖಾಲಿ ತಪ್ಪು",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "ಫೈಲ್ ವಿಷಯವನ್ನು ಡಿಕೋಡ್ ಮಾಡಿದ ನಂತರ ಖಾಲಿ ಇದೆ, ಅದು ಎನ್‌ಕೋಡಿಂಗ್ ಹೊಂದಾಣಿಕೆ ಆಗದಿರುವ ಸಾಧ್ಯತೆ ಇದೆ",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} ಖಾಲಿಯಾಗಿರಬಾರದು",
+  "@field_cannot_be_empty": {
+    "description": "ಕ್ಷೇತ್ರವು ಖಾಲಿಯಾಗಿರಬಾರದು ಅಂಶದ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} ಉದ್ದವು ಕನಿಷ್ಠ {minLength} ಅಕ್ಷರಗಳಿಗಿಂತ ಕಡಿಮೆ ಇರಬಾರದು",
+  "@field_min_length": {
+    "description": "ಕ್ಷೇತ್ರದ ಕನಿಷ್ಠ اوږದ ತಾಳ್ಮೆ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} ಉದ್ದವು {maxLength} ಅಕ್ಷರಗಳನ್ನು ಮೀರಬಾರದು",
+  "@field_max_length": {
+    "description": "ಕ್ಷೇತ್ರದ ಗರಿಷ್ಠ ಉದ್ದದ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "ದಯವಿಟ್ಟು ಮಾನ್ಯ {fieldName} ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ",
+  "@field_invalid_email": {
+    "description": "ಇಮೇಲ್ ಮಾದರಿಯ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName}{numberType} ಆಗಿರಬೇಕು",
+  "@field_invalid_number": {
+    "description": "ಸಂಖ್ಯಾ ಮಾದರಿಯ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} {min} ಕಿಂತ ಕಡಿಮೆ ಅಲ್ಲ",
+  "@field_min_value": {
+    "description": "ಕನಿಷ್ಠ ಮೌಲ್ಯ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} {max} ಗಿಂತ ಹೆಚ್ಚು ಇರಕೂಡದು",
+  "@field_max_value": {
+    "description": "ಗರಿಷ್ಠ ಮೌಲ್ಯ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName}ವು ಧನ ಪೂರ್ಣಾಂಕವಾಗಿರಬೇಕು",
+  "@field_positive_integer": {
+    "description": "ಸಕಾರಾತ್ಮಕ ಪೂರ್ಣಾಂಕ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} ಶೂನ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚು ಇರಬೇಕು",
+  "@field_greater_than_zero": {
+    "description": "ಶುನ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚು ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} ಧನ ಸಂಖ್ಯೆಯಾಗಿರಬೇಕು",
+  "@field_positive_number": {
+    "description": "ಸಕಾರಾತ್ಮಕ ಸಂಖ್ಯೆ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "ದಯವಿಟ್ಟು ಮಾನ್ಯ {fieldName} ನಮೂದಿಸಿ",
+  "@field_invalid_date": {
+    "description": "ದಿನಾಂಕFormatting ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} ಹಿಂದಿನ ದಿನಾಂಕವಾಗಿರಬಾರದು",
+  "@field_date_not_past": {
+    "description": "ದಿನಾಂಕ ಹಿಂದೆ ಇರಬಾರದು",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} {minDate} ಕ್ಕೆ ಮುಂಚಿತವಾಗ бытьಾರದು",
+  "@field_date_not_before": {
+    "description": "ದಿನಾಂಕವನ್ನು ಸೂಚಿಸಿದ ದಿನಾಂಕಕ್ಕಿಂತ ಮುಂದು ಇರಿಸಲಾಗದು",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} {maxDate} ಕ್ಕಿಂತ ತಡವಾಗ бытьಾರದು",
+  "@field_date_not_after": {
+    "description": "ದಿನಾಂಕವನ್ನು ಸೂಚಿಸಿದ ದಿನಾಂಕಕ್ಕಿಂತ ಹೆಚ್ಚು ಹೋಗಬಾರದು",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "ದಯವಿಟ್ಟು ಮಾನ್ಯ {fieldName} ನಮೂದಿಸಿ",
+  "@field_invalid_value": {
+    "description": "ಅಮಾನ್ಯ ಮೌಲ್ಯ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} ಉದ್ದವು ಕನಿಷ್ಠ 8 ಅಕ್ಷರಗಳು ಇರಬೇಕು",
+  "@password_min_length": {
+    "description": "ಪಾಸ್ವರ್ಡ್ ಕನಿಷ್ಠ ಉದ್ದ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} ಕನಿಷ್ಠ ಒಂದು ದೊಡ್ಡ ಅಕ್ಷರವನ್ನು ಹೊಂದಿರಬೇಕು",
+  "@password_uppercase_required": {
+    "description": "ಪಾಸ್ವರ್ಡ್‌ನಲ್ಲಿ ಅಕ್ಷರಮಾಲೆಯ ದೊಡ್ಡ ಅಕ್ಷರವನ್ನು ಸೇರಿಸಬೇಕು",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} ಕನಿಷ್ಠ ಒಂದು ಸಣ್ಣ ಅಕ್ಷರವನ್ನು ಹೊಂದಿರಬೇಕು",
+  "@password_lowercase_required": {
+    "description": "ಪಾಸ್ವರ್ಡ್‌ಗೆ ಅಕ್ಷರಗಳು ಅತ್ಯಲ್ಪCase ಇರಬೇಕು",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} ಕನಿಷ್ಠ ಒಂದು ಅಂಕಿಯನ್ನು ಒಳಗೊಂಡಿರಬೇಕು",
+  "@password_digit_required": {
+    "description": "ಗುಪ್ತಪದದಲ್ಲಿ ಅಂಕೆಗಳನ್ನು ಹೊಂದಿರಬೇಕು",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} ಕನಿಷ್ಠ ಒಂದು ವಿಶೇಷ ಅಕ್ಷರವನ್ನು ಹೊಂದಿರಬೇಕು",
+  "@password_special_char_required": {
+    "description": "ಪಾಸ್ವರ್ಡ್‌ನಲ್ಲಿ ವಿಶೇಷ ಅಕ್ಷರಗಳನ್ನು ಹೊಂದಿರಬೇಕು",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "ರ δυರಾಯಿಸಿದ ಎರಡು ಪಾಸ್‌ವರ್ಡ್‌ಗಳು一致ವಾಗಿಲ್ಲ",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "ವಸ್ತುವಿನ ಹೆಸರು ಖಾಲಿಯಾಗಿರಬಾರದು",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "ಹೆಸರಿನು {maxLength} ಅಕ್ಷರಕ್ಕಿಂತ ಹೆಚ್ಚು ಇರಬಾರದು",
+  "@name_max_length": {
+    "description": "ಹೆಸರಿನ ಗರಿಷ್ಟ ಉದ್ದ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "ಎಣಿಕೆ {minQuantity} ಕ್ಕಿಂತ ಕಡಿಮೆ ಇರಬಾರದು",
+  "@quantity_min": {
+    "description": "ಕನಿಷ್ಠ ಪ್ರಮಾಣದ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "ಪ್ರಮಾಣವು {maxQuantity} ಅನ್ನು ಮೀರಬಾರದು",
+  "@quantity_max": {
+    "description": "ಗರಿಷ್ಠ ಪ್ರಮಾಣದ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "ಪ್ರತಿ ಘಟಕದ ಬೆಲೆ ನೆಗೆಟಿವ್ ಆಗಿರಲು ಸಾಧ್ಯವಿಲ್ಲ",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "ಏಕಕ ದರ {maxUnitPrice} ಅನ್ನು ಮೀರಬಾರದು",
+  "@unit_price_max": {
+    "description": "ಘಟಕದ ಗರಿಷ್ಠ ಬೆಲೆ ಪರಿಶೀಲನೆ",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "ದಯವಿಟ್ಟು ಉತ್ಪಾದನಾ ದಿನಾಂಕ ಮತ್ತು ಶೇಖರಣಾ ಅವಧಿಯನ್ನು ಹೊಂದಿಸಿ ताकि ಮಾನ್ಯತೆ ಅವಧಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಲೆಕ್ಕಿಸಬಹುದು",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "ದಯವಿಟ್ಟು ಖರೀದಿ ದಿನಾಂಕ ಮತ್ತು ಮেয়ಾದಿನ ಅವಧಿಯನ್ನು ಹೊಂದಿಸಿ, ಗ್ಯಾರಂಟಿ ಅವಧಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಲೆಕ್ಕಹಾಕಲು",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "ಕ್ಯಾಲೆಂಡರ್ ಖಾತೆಯನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ದಯವಿಟ್ಟು ಸిస్టಮ್ ಕ್ಯಾಲೆಂಡರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "ಪರೀಕ್ಷೆ通知",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "ಇದು ಸ್ಥಳೀಯ ನೆನಪಿನ ಕಾರ್ಯವನ್ನು ಪರಿಶೀಲಿಸಲು ಬಳಸುವ ಪರೀಕ್ಷಾ ಸೂಚನೆ",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "ಆಕಾಶ",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days}天",
+  "@days_with_value": {
+    "description": "ದಿನಗಳನ್ನು ಪ್ಯಾರಾಮೀಟರ್‌ನಲ್ಲಿ ದಾಖಲಿಸಲಾಗಿದೆ",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "ವಸ್ತು ಸಂರಕ್ಷಿಸಲಾಗಿದೆ",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "ವಸ್ತು ನವೀಕರಿಸಲಾಗಿದೆ",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "ವಸ್ತು ಸೇರಿಸಿದೆ",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "ಉಳಿಸಲಾಗುಚು ಯಶಸ್ವಿ",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "ಅಪ්ඩೇಟ್ ಯಶಸ್ವಿಯಾಯಿತು",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "ಅಳಿಸಲಾಗುಚು ಯಶಸ್ವಿ",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "ಉಳಿಸಲು ವಿಫಲವಾಗಿದೆ",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "ಅಪ්ඩೇಟ್ ವಿಫಲವಾಯಿತು",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "ಭಾಷಾ ಸಂಯೋಜನೆ",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "ಆಪ್ ಪ್ರದರ್ಶನ ಭಾಷೆಯನ್ನು ಸೆಟ್ ಮಾಡಿ",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "ಸಿಸ್ಟಮ್ ಡೀಫಾಲ್ಟ್",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "ಸಿಸ್ಟಮ್ ಭಾಷೆಯನ್ನು ಬಳಸುವುದು",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "ಭಾಷೆ ಬದಲಾವಣೆ ಅಪ್ಲಿಕೇಶನ್ ಮರುಪ್ರಾರಂಭದ ನಂತರ ಪರಿಣಾಮಕಾರಿ ಆಗಲಿದೆ",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "ಪ್ರಸ್ತುತ ಆಯ್ಕೆ: {days} ದಿನ",
+  "@current_selection": {
+    "description": "ಪ್ರಸ್ತುತ ಆಯ್ದ ದಿನಗಳ ಪ್ರದರ್ಶನ",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

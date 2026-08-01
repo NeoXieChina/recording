@@ -1,0 +1,1625 @@
+{
+  "@@locale": "bo",
+  "app_name": "བར་སྟོང་ཆུང་ངུའི་ནང་གི་ནོར་བུ་",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "ཕྱིར་འཐེན།",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "གཏན་འཁེལ་བྱས་པ།",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "ཉར་ཚགས་བྱས་པ།",
+  "@save": {
+    "description": ""
+  },
+  "delete": "བསུབ་པ།",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "རྩོམ་སྒྲིག་པ།",
+  "@edit": {
+    "description": ""
+  },
+  "add": "ཁ་སྣོན་",
+  "@add": {
+    "description": ""
+  },
+  "search": "འཚོལ་ཞིབ།",
+  "@search": {
+    "description": ""
+  },
+  "settings": "སྒྲིག་སྟངས་",
+  "@settings": {
+    "description": ""
+  },
+  "back": "ཕྱིར་ལོག",
+  "@back": {
+    "description": ""
+  },
+  "next": "གོམ་རིམ་རྗེས་མམ།",
+  "@next": {
+    "description": ""
+  },
+  "done": "ལེགས་འགྲུབ་བྱུང་བ།",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "ནོར་འཛོལ་བྱུང་བ།",
+  "@error": {
+    "description": ""
+  },
+  "success": "ལེགས་འགྲུབ་བྱུང་བ།",
+  "@success": {
+    "description": ""
+  },
+  "warning": "ཉེན་བརྡ།",
+  "@warning": {
+    "description": ""
+  },
+  "info": "བརྡ་འཕྲིན།",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "དྲན་སྐུལ་ཉིན་མོ་འདེམས་སྒྲུག་བྱས་པ།",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "གོམས་གཤིས་",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "གོམས་གཤིས་(ཉིན་{days})",
+  "@custom_days": {
+    "description": "གྲངས་ཀ་ཡོད་པའི་རང་གཤིས་ཀྱི་ཉིན་མོ།",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "དྲན་སྐུལ་ཉིན་མོའི་ཁྱབ་ཚད། ཉིན་{min}ནས་ཉིན་{max}བར་ཡིན།",
+  "@alert_days_range": {
+    "description": "དྲན་སྐུལ་ཉིན་མོའི་གྲངས་ཀ་དང་བསྡུར་ན་",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "དྲན་སྐུལ་ཉིན་མོ་ནང་འཇུག་རོགས།",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "ཉིན་གྲངས་ཀྱི་གྲངས་ཀ་",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "{min}ནས་{max}བར་གྱི་གྲངས་ཀ་ཞིག་འཇུག་རོགས།",
+  "@enter_valid_days": {
+    "description": "ནང་འཇུག་ར་སྤྲོད་ཀྱི་ཆ་འཕྲིན་ཉིན་གྲངས་གྲངས།",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "ཉེན་བརྡའི་སྒྲིག་སྟངས་",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "ལོ་ཐོའི་སྒྲིག་སྟངས་",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "ལོ་ཐོ་མཉམ་འབྱུང་",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "ནུས་པ་ཐོན་དུས་ལོ་ཐོའི་ཆོག་འཐུས་རེ་ཞུ་བྱེད་སྲིད།",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "ཚོད་ལྟའི་ཉིན་ཐོའི་དོན་རྐྱེན་ཁ་སྣོན་བྱས་པ།",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "ཁྱོད་ཀྱིས་སྔོན་ལ་'Calendar Sync' གློག་སྒོ་ཕྱེས་རོགས།",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "App Notification Settings",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "ས་གནས་ཀྱི་དྲན་སྐུལ་",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "ནུས་པ་ཐོན་རྗེས་ཉེར་སྤྱོད་ནང་གི་དུས་ལས་ཡོལ་བའི་དྲན་སྐུལ་འབྱོར་བ།",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "ཚད་ལེན་ཚོད་ལྟ་བྱ་རྒྱུའི་བརྡ་ཐོ་གཏོང་རོགས།",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "སྔོན་ལ་'Local Notice' གློག་སྒོ་ཕྱེས་རོགས།",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "དྲན་སྐུལ་ཉིན་མོའི་སྒྲིག་སྟངས་",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "སྔོན་ཚུད་ནས་བརྡ་ཐོ་གཏོང་བའི་ཉིན་གྲངས་",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "ཉིན་ག་ཚོད་གི་སྔོན་དུ་རྣམ་གྲངས་ཀྱི་དུས་ལས་ཡོལ་བའམ་ཡང་ན་ཉམས་གསོའི་དུས་ཚད་ཐིམ་པར་དྲན་སྐུལ་བྱེད་དགོས།",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "ལོ་ཐོའི་ཆོག་འཐུས་ཀྱི་རེ་ཞུ།",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "རྣམ་གྲངས་དྲན་སྐུལ་དུས་མཉམ་འབྱུང་བྱེད་པར་ལོ་ཐོ་ལ་འཛུལ་དགོས། ཆོག་པ་ཡིན་ནམ།",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "ཆོག་པ་",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "ལོ་ཐོའི་ཆོག་འཐུས་སྤྲད་ཟིན་པ་དང་། ལོ་ཐོ་མཉམ་འབྱུང་བྱེད་ཚད་ལ་ནུས་པ་ཐོན་ཡོད།",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "ལོ་ཐོའི་ཆོག་འཐུས་དང་ལེན་མ་བྱས་པས། ཟླ་ཐོ་མཉམ་འབྱུང་བྱེད་མ་ཐུབ་པས།",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "གཏན་འཇགས་ཀྱི་ཆོག་མཆན་མ་ཐོབ་པ།",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "ལོ་ཐོའི་ཆོག་འཐུས་གཏན་འཇགས་སུ་དང་ལེན་མ་བྱས། མ་ལག་གི་སྒྲིག་སྟངས་ནང་ལག་པས་ཆོག་འཐུས་འདོན་རོགས།",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "སྒྲིག་གཞིར་སོང་",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "ལོ་ཐོའི་ཆོག་འཐུས་སྤྲད་ཟིན་མོད། འོན་ཀྱང་ལོ་ཐོའི་རྩིས་ཐོ་གསར་འཛུགས་བྱེད་མི་ཐུབ། མ་ལག་གི་ལོ་ཐོའི་སྒྲིག་སྟངས་ལ་ཞིབ་བཤེར་བྱེད་རོགས།",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "ལོ་ཐོའི་ཆོག་འཐུས་སྤྲད་པ་དང་། ས་གནས་ཀྱི་ལོ་ཐོའི་རྩིས་ཐོ་ཞིག་བཙུགས་ཡོད།",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "ལོ་ཐོའི་རྩིས་ཐོ་ལེགས་འགྲུབ་བྱུང་ཡོད་མོད། འོན་ཀྱང་མ་ལག་ལ་ནུས་པ་ཐོན་པར་དུས་ཚོད་ངེས་ཅན་ཞིག་དགོས་ཀྱི་རེད།",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "ཚོད་ལྟའི་ཉིན་ཐོའི་བྱ་འགུལ་ལེགས་འགྲུབ་ངང་ཁ་སྣོན་བྱས།",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "ཚོད་ལྟའི་ལོ་ཐོའི་དོན་རྐྱེན་ཁ་སྣོན་བྱེད་མ་ཐུབ་པས། ལོ་ཐོའི་སྒྲིག་སྟངས་ལ་ཞིབ་བཤེར་གནང་རོགས།",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "ཚོད་ལྟའི་དོན་རྐྱེན་ཁ་སྣོན་བྱེད་པར་ལོ་ཐོའི་ཆོག་འཐུས་དགོས།",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "ཞིབ་དཔྱད་ཚད་ལེན་གྱི་བརྡ་ཐོ་བཏང་ཟིན།",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "ཞིབ་དཔྱད་ཚད་ལེན་གྱི་བརྡ་ཐོ་མ་བཏང་བ། {error}",
+  "@test_notification_failed": {
+    "description": "བརྡ་ཐོའི་ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "ས་གནས་ཀྱི་དྲན་སྐུལ་ནུས་པ་འདོན་པར་བརྡ་སྦྱོར་གྱི་ཆོག་འཐུས་དགོས།",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "བཀོལ་སྤྱོད་ཕམ་སོང་། {error}",
+  "@operation_failed": {
+    "description": "སྤྱིར་བཏང་བཀོལ་སྤྱོད་ཀྱི་ནོར་འཁྲུལ་བརྡ་འཕྲིན་",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "རྣམ་གྲངས་ཀྱི་ཉེན་བརྡའི་བརྡ་ཐོ་",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "རྣམ་གྲངས་ཀྱི་དུས་ལས་ཡོལ་བའམ་ཉམས་གསོའི་དྲན་སྐུལ་",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "ཟས་རིགས་",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "ཉིན་མཁོའི་མཁོ་ཆས།",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "མཛེས་འཆོས་བྱུག་རྫས་",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "གསོ་རིག་",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "གློག་རྡུལ་ཐོན་རྫས་",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "ཁྱིམ་ཆས།",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "གྱོན་ཆས།",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "དཔེ་དེབ་",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "གཞན་དག",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "དྲ་ཐོག་ཚོང་ཁང་།",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "དངོས་ལུགས་མཛོད་ཁང་",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "སྒོ་རྩིས་ཚོང་ཁང་",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "ཆེད་སྤྱོད་ཚོང་ཁང་།",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "ལག་བརྒྱུད་ཚོང་ར་",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "གཞན་དག",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "གཞན་དག",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "དྲ་ཐོག་ཚོང་ཁང་།",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "རྣམ་གྲངས་ཀྱི་རིགས་དབྱེ།",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Custom Category",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "གཞི་གྲངས་རྗེས་གྲབས་",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "གཞི་གྲངས་ཡོད་ཚད་(པར་རིས་ཚུད་པ)ZIPཡིག་ཆའི་ནང་ཐུམ་སྒྲིལ་བྱས་ནས་རྗེས་གྲབས་བྱེད་དགོས།",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "གཞི་གྲངས་ཡོད་ཚད་ཀྱི་རྗེས་གྲབས་",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "རྗེས་གྲབས་ལེགས་འགྲུབ་བྱུང་བ།",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "རྗེས་གྲབས་འཐུས་ཤོར་བ།{error}",
+  "@backup_failed": {
+    "description": "རྗེས་གྲབས་འཐུས་ཤོར་བའི་ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "གཞི་གྲངས་སླར་གསོ་བྱས་པ།",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ZIP རྗེས་གྲབས་ཡིག་ཆའི་ནང་གི་གཞི་གྲངས་ཡོད་ཚད་སླར་གསོ་བྱེད་དགོས།",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "གཞི་གྲངས་ཕྱིར་འདྲེན་བྱས་པ།",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "CSV, TXT, SQL རྣམ་གཞག་ལྟར་ཕྱིར་འདྲེན་བྱེད་རྒྱུ།",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "གཞི་གྲངས་ནང་འདྲེན་",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "CSV, TXT, SQL ཡིག་ཆ་ནས་གཞི་གྲངས་ནང་འདྲེན་བྱས་པ།",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "ཟླ་ཐོའི་དྲན་སྐུལ་དང་ཉེར་སྤྱོད་བརྡ་སྦྱོར་སྒྲིག་སྟངས་",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "སྐོར་ལས།",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "App ཆ་འཕྲིན་དང་ཐོན་རིམ།",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "སྔོན་ལ་རྗེས་གྲབས་ཡིག་ཆ་ཞིག་འདེམས་རོགས།",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "ཉམས་གསོ་བྱེད་པར་ཁས་ལེན་དགོས།",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "རྗེས་གྲབས་སླར་གསོ་བྱས་ན་ད་ཡོད་ཀྱི་གཞི་གྲངས་ཡོད་ཚད་བསུབ་ནས་རྗེས་གྲབས་གཞི་གྲངས་ཀྱིས་ཚབ་བྱེད་སྲིད། བྱ་སྤྱོད་དེ་ཕྱིར་འཐེན་བྱེད་མི་ཉན། ཁྱོད་ཀྱིས་དངོས་གནས་མུ་མཐུད་དུ་འགྲོ་འདོད་དམ།",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "ཡང་བསྐྱར་ཁས་ལེན་བྱ་དགོས།",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "ཁྱོད་ཀྱིས་ད་ཡོད་ཀྱི་གཞི་གྲངས་ཡོད་ཚད་བསུབ་ནས་རྗེས་གྲབས་སླར་གསོ་བྱེད་འདོད་དམ། བྱ་སྤྱོད་འདི་ཕྱིར་འཐེན་བྱེད་མི་ཉན།",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "ཉམས་གསོ་བྱེད་པར་ཁས་ལེན་དགོས།",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "ཉམས་གསོ་ལེགས་འགྲུབ་བྱུང་ཞིང་། ཁྱོན་བསྡོམས་རྣམ་གྲངས་{count}ཡོད།",
+  "@restore_success": {
+    "description": "ལེགས་འགྲུབ་བྱུང་བའི་ཆ་འཕྲིན་སླར་གསོ་བྱེད་དགོས།",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "སླར་གསོ་བྱེད་མ་ཐུབ་པས། {error}",
+  "@restore_failed": {
+    "description": "སླར་གསོ་བྱས་འཐུས་ཤོར་བའི་ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "རྗེས་གྲབས་ཡིག་ཆ་འདེམས་སྒྲུག་བྱས་པ།",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "རྗེས་གྲབས་སླར་གསོ་",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "བདམས་པའི་ཡིག་ཆ། {filename}",
+  "@selected_file": {
+    "description": "བདམས་པའི་ཡིག་ཆའི་འཕྲིན་ཡིག",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "གཞི་གྲངས་ཕྱིར་འདྲེན་ལེགས་འགྲུབ་བྱུང་བ།",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "ཕྱིར་གཏོང་ཕམ་པ། {error}",
+  "@export_failed": {
+    "description": "ཕྱིར་འདྲེན་འཐུས་ཤོར་བའི་ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "གཞི་གྲངས་བསྐྱར་ཟློས་ཐག་གཅོད་བྱེད་ཐབས།",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "གྲངས་གཞི་བསྐྱར་ཟློས་ཞིབ་དཔྱད་ཚད་ལེན་བྱས་པས་ཐག་གཅོད་བྱེད་ཐབས་ཤིག་འདེམས་རོགས།",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "གོམ་པ་སྤོ་བ།",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "འགེབས་སྲུང་",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "ཚང་མ་བརྒལ་བ་",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "ཁྱབ་རྒྱ་ཆ་ཚང་།",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "སྔོན་ལ་ནང་འདྲེན་རྣམ་གཞག་འདེམས་རོགས།",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "ནང་འདྲེན་ཁས་ལེན་བྱས་པ།",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "གཞི་གྲངས་ནང་འདྲེན་བྱས་ན་ད་ཡོད་ཀྱི་གཞི་གྲངས་བསྐྱར་འབྲི་བྱེད་སྲིད། བྱ་སྤྱོད་དེ་ཕྱིར་འཐེན་བྱེད་མི་ཉན། ཁྱོད་ཀྱིས་དངོས་གནས་མུ་མཐུད་དུ་འགྲོ་འདོད་དམ།",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "གཞི་གྲངས་ནང་འདྲེན་ལེགས་འགྲུབ་བྱུང་ནས་ཁྱོན་བསྡོམས་རྣམ་གྲངས་{count}ནང་འདྲེན་བྱས།",
+  "@import_success": {
+    "description": "ལེགས་འགྲུབ་བྱུང་བའི་ཆ་འཕྲིན་ནང་འདྲེན་བྱས་པ།",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "ནང་འདྲེན་བྱས་མ་ཐུབ་པ།{error}",
+  "@import_failed": {
+    "description": "ནང་འདྲེན་བྱས་འཐུས་ཤོར་བའི་ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "ཡིག་ཆ་འདེམས་སྒྲུག་བྱས་པ།",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "གཞི་གྲངས་མེད་པ།",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "མིག་སྔར་གཞི་གྲངས་གང་ཡང་མེད། གཤམ་གྱི་མཐེབ་གནོན་ལ་མནན་ནས་སྒྲ་ཐག་དང་པོ་ཁ་སྣོན་བྱས།",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "ཕབ་ལེན་བྱས་མ་ཚུགསཔ།",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "གཞི་གྲངས་ནང་འཇུག་བྱེད་མ་ཐུབ་པས། ཁྱེད་ཀྱི་དྲ་རྒྱའི་འབྲེལ་མཐུད་ལ་ཞིབ་བཤེར་བྱས་ནས་ཡང་བསྐྱར་ཚོད་ལྟ་ཞིག་བྱེད་རོགས།",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "བསྐྱར་སྦྱོང་",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "དྲ་རྒྱའི་འབྲེལ་མཐུད་ལ་ཕམ་ཉེས་བྱུང་བ།",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "ཁྱེད་ཀྱི་དྲ་རྒྱའི་འབྲེལ་མཐུད་ལ་ཞིབ་བཤེར་བྱས་ནས་ཡང་བསྐྱར་ཚོད་ལྟ་ཞིག་བྱེད་རོགས།",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "མཇུག་འབྲས་མ་རྙེད་པ།",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "ཐ་སྙད་གཞན་པ་བཀོལ་ནས་འཚོལ་ཞིབ་བྱེད་པར་ཚོད་ལྟ་ཞིག་བྱོས།",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "འཚོལ་བཤེར་ཁ་གསལ་བཟོ་དགོས།",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "ཆོག་འཐུས་མི་འདང་བ།",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "ནུས་པ་འདི་བཀོལ་སྤྱོད་བྱེད་པར་འོས་འཚམ་གྱི་ཆོག་འཐུས་དགོས།",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "ཆོག་མཆན་ཞུ་བ།",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "རེ་ཞུའི་ཆ་འཕྲིན།",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "པར་གཞི།",
+  "@version": {
+    "description": ""
+  },
+  "developer": "གསར་སྤེལ་བྱེད་མཁན།",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "སྒྲིག་ཆས་ཀྱི་ཆ་འཕྲིན།",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "སྒྲིག་ཆས་ཀྱི་དཔེ་དབྱིབས་",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "ཚོང་རྟགས་",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "སྒྲིག་ཆས་ཀྱི་མིང་།",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "ཐོན་རྫས།",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "མཁྲེགས་ཆས་",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "ཨན་ཌོ་ཡི་པར་གཞི་",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK པར་གཞི།",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "མ་ལག་གི་མིང་།",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "མ་ལག་གི་པར་གཞི།",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "སྒྲིག་ཆས་གསལ་འབྱེད།",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "རྩིས་འཁོར་གྱི་མིང་།",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "པར་གཞིའི་ཨང་གྲངས།",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "སྒྲིག་ཆས་ཀྱི་ཆ་འཕྲིན་ཐོབ་མ་ཐུབ་པ། {error}",
+  "@error_getting_device_info": {
+    "description": "སྒྲིག་ཆས་ཀྱི་ཆ་འཕྲིན་འཚོལ་སྡུད་ཀྱི་ནོར་འཁྲུལ་བརྡ་འཕྲིན་",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "རྟེན་འབྱུང་གྲངས་ངོ་སྤྲོད།",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "རིག་ནུས་རྣམ་གྲངས་དོ་དམ་ཉེར་སྤྱོད་",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "ཁྱོད་ཀྱིས་དངོས་པོ་དེའི་གོ་ཆོད་པའི་དུས་ཚོད་དང་ཉམས་གསོའི་ཚེས་གྲངས་སོགས་ཆ་འཕྲིན་དོ་དམ་བྱེད་པར་རོགས་རམ་བྱས་པ་མ་ཟད། རིག་ནུས་དྲན་སྐུལ་གྱི་ནུས་པ་འདོན་སྤྲོད་བྱས་ཡོད།",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "ཟད་གྲོན་དངོས་རྫས་",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "ཡུན་རིང་གི་དངོས་ཟོག་",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "དབྱེ་འབྱེད་",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "མིང་ཡར་འཕར་བ།",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "མིང་མར་འབབ་པ།",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "ཚེས་གྲངས་ཡར་འཕར་བ།",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "ཚེས་གྲངས་མར་འབབ་པ།",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "རྩིས་གཞིའི་རིན་གོང་འཕར་བ།",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "རྩིས་གཞིའི་རིན་གོང་མར་ཆག་པ།",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "གྲངས་ཚད་ཀྱི་རིམ་པ་འཕར་བ།",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "གྲངས་ཚད་མར་ཆག་པ།",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "སྤྱིའི་རིན་གོང་འཕར་བ།",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "སྤྱིའི་རིན་གོང་མར་ཆག་པ།",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "འཚག་ཆས་ཡོད་ཚད་གཙང་སེལ་བྱེད་དགོས།",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "ཚབ་རྟགས་ལ་བཤེར་བཤེར་བྱས་ནས་མཛོད་ཁང་ནང་འཇུག་དགོས།",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "རྣམ་གྲངས་འཚོལ་ཞིབ...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "མིག་སྔར་རྣམ་གྲངས་གང་ཡང་མེད།",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "གཤམ་གྱི་མཐེབ་གནོན་ལ་མནན་ནས་རྣམ་གྲངས་དང་པོ་ཁ་སྣོན་བྱེད་དགོས།",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "དུས་ལས་ཡོལ་བ།",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "དུས་ལས་ཡོལ་ལ་ཉེ།",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "ཉམས་གསོའི་དུས་ཚད་ཐིམ་ཟིན།",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "ཉམས་གསོའི་དུས་ཚད་ཐིམ་ལ་ཉེ།",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "ཉིན་{count}ལྷག་ཡོད།",
+  "@days_remaining": {
+    "description": "གྲངས་ཀ་ཡོད་པའི་ཉིན་ལྷག་མ་",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "དུས་ཡོལ་བའི་ཉིན་{count}",
+  "@expired_days_ago": {
+    "description": "གྲངས་ཀ་ཡོད་པའི་དུས་ལས་ཡོལ་བའི་ཉིན་མོ།",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "རྣམ་གྲངས་བསུབ་པ།",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "ཁྱོད་ཀྱིས་དངོས་གནས་\"{name}\"བསུབ་འདོད་དམ།",
+  "@delete_item_confirm": {
+    "description": "ཁས་ལེན་གྱི་བརྡ་འཕྲིན་བསུབ་པ།",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "རྣམ་གྲངས་བསུབ་ཟིན།",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "བསུབ་མ་ཚུགས་པ།",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "རྣམ་གྲངས་བསུབ་མི་ཐུབ་{error}",
+  "@failed_to_delete_message": {
+    "description": "ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་བསུབ་པ།",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "ཚེས་གྲངས་ཀྱི་ཁྱབ་ཚད་འཚག་བྱེད་",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "རིན་གོང་གི་ཁྱབ་ཁོངས་འཚག་ཚག་",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "ངའི་དངོས་པོ།",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "གཡས་ཟུར་འོག་མའི་མཐེབ་གནོན་ལ་མནན་ནས་རྣམ་གྲངས་གཅིག་ཁ་སྣོན་བྱེད་དགོས།",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "བསུབ་པ་གཏན་འཁེལ་བྱས་པ།",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "འཚག་པའི་གདམ་གསེས།",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "རིགས་དབྱིབས་དང་། རིགས་གྲངས། གནས་ཡུལ་བཅས་ལྟར་རྣམ་གྲངས་འཚག་དགོས།",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "རིགས་{count}",
+  "@categories_count": {
+    "description": "Category Count Display",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "རིགས་ཁག་ཐམས་ཅད་",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "རིགས་དབྱེ་གྲངས་གཞི་མེད།",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "གསོག་ཉར་ས་གནས།",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count}གནས་ཡུལ་",
+  "@locations_count": {
+    "description": "མངོན་པའི་གནས་ཡུལ་གྱི་གྲངས་ཀ་",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "གནས་ཡུལ་ཡོད་ཚད་",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "གནས་ཡུལ་གྱི་གཞི་གྲངས་མེད།",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "ཚེས་གྲངས་ཀྱི་ཁྱབ་ཁོངས།",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "ཚེས་གྲངས་ཀྱི་ཁྱབ་ཁོངས་འདེམས་སྒྲུག་བྱས་པ།",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "རིན་གོང་གི་ཁྱབ་ཁོངས།",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "རྩིས་གཞིའི་རིན་གོང་གི་ཁྱབ་ཁོངས།",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "རྩིས་གཞི་དམའ་ཤོས་ཀྱི་རིན་གོང་།",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "རྩིས་གཞིའི་རིན་གོང་མཐོ་ཤོས།",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "སྤྱིའི་རིན་གོང་གི་ཁྱབ་ཁོངས་",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "སྤྱིའི་རིན་གོང་དམའ་ཤོས།",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "སྤྱིའི་རིན་གོང་མཐོ་ཤོས།",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "རིན་གོང་འཚག་ཆས་ཁ་གསལ་བཟོ་དགོས།",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "ཨང་རྟགས་སྒྲོམ་གཞིའི་ནང་དུ་བཞག་ནས་པར་ལེན་བྱས།",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "ཐོན་རྫས་འདི་གནས་ཡོད།",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Barcode: {barcode}",
+  "@barcode_with_value": {
+    "description": "གྲངས་ཀ་ཡོད་པའི་ཨང་རྟགས་མངོན་པ",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "མིང་། {name}",
+  "@name_with_value": {
+    "description": "གྲངས་ཀ་ཡོད་པའི་མིང་གི་མངོན་ཚུལ་",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Category: {category}",
+  "@category_with_value": {
+    "description": "གྲངས་ཀ་ཡོད་པའི་རིགས་དབྱེ་འགྲེམས་སྟོན་",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "མིག་སྔའི་གྲངས་འབོར། {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "མིག་སྔའི་གྲངས་ཚད་ལ་གྲངས་ཀ་མངོན་པ།",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "འགུལ་སྐྱོད་ཅིག་འདེམས་རོགས།",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "མཛོད་ཁང་ནས་ཕྱིར་ཐོན་པ།",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "གསོག་ཉར་གྱི་འཇུག་སྒོ་",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "ནང་འཛུལ་གྱི་གྲངས་འབོར།",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "ཕྱིར་ཐོན་པའི་གྲངས་འབོར།",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "གྲངས་འབོར།",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "གསོག་ཉར་བྱས་པའི་གྲངས་འབོར་ནང་འཇུག་རོགས།",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "དབོར་འདྲེན་བྱེད་པའི་གྲངས་འབོར་ནང་དུ་འཇུག་རོགས།",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "{name} {quantity}{unit}ཁ་སྣོན་བྱས་ཟིན།",
+  "@item_increased": {
+    "description": "རྣམ་གྲངས་ཁ་སྣོན་བྱས་པའི་བརྡ་ཐོ།",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "ཁྱོད་ཀྱིས་དངོས་གནས་\"{name}\"བསུབ་འདོད་དམ། བྱ་སྤྱོད་དེ་ཕྱིར་འཐེན་བྱེད་མི་ཉན།",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "ཕྱིར་འཐེན་བྱེད་མི་ཐུབ་པའི་ཉེན་བརྡ་ཡོད་པའི་ཁས་ལེན་ཡི་གེ་བསུབ་པ།",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "ཉུང་དུ་ཕྱིན་{name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "རྣམ་གྲངས་ཉུང་འཕྲིའི་བརྡ་འཕྲིན་",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "གཞི་གྲངས་མཛོད་བསྐྱར་སྒྲིག་བྱས་ཟིན་པས་རེའུ་མིག་གི་གྲུབ་ཚུལ་བསྐྱར་བཟོ་བྱེད་རྒྱུ་རེད།",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "གཞི་གྲངས་མཛོད་བསྐྱར་སྒྲིག་བྱེད་པའི་འཛོལ་བ། {error}",
+  "@database_reset_error": {
+    "description": "གཞི་གྲངས་མཛོད་བསྐྱར་སྒྲིག་གི་ནོར་འཁྲུལ་",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "ལད་མོ་བྱས་པའི་གཞི་གྲངས་འགོ་འཛུགས་མ་ཐུབ་པས། {error}",
+  "@mock_data_init_failed": {
+    "description": "ལད་མོ་བྱས་པའི་གྲངས་གཞི་འགོ་འཛུགས་མ་ཐུབ་པ།",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "ཐག་གཅོད་བྱེད་ཐབས་ནི།",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. ཉེར་སྤྱོད་དེ་བསུབ་ནས་ཡང་བསྐྱར་སྒྲིག་སྦྱོར་བྱས།",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "༢. ཡང་ན་ཉེར་སྤྱོད་ཀྱི་གཞི་གྲངས་གཙང་སེལ་བྱེད་དགོས།",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "༣. ཡང་ན་resetDatabaseOnStart དེ་བདེན་པ་ཡིན་པར་གཞི་སྒྲིག་བྱས་རྗེས། དེ་ནས་ཡང་བསྐྱར་འཁོར་སྐྱོད་བྱེད་རྒྱུ།",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "དྲན་སྐུལ་ཞབས་ཞུ་འགོ་འཛུགས་མ་ཐུབ་པས། {error}",
+  "@notification_service_init_failed": {
+    "description": "བརྡ་ཐོ་ཞབས་ཞུ་འགོ་འཛུགས་མ་ཐུབ་པ།",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "ལོ་ཐོའི་རྩིས་ཐོ་ལ་ཞིབ་བཤེར་བྱེད་མ་ཐུབ་པས། {error}",
+  "@check_calendar_account_failed": {
+    "description": "ལོ་ཐོའི་རྩིས་ཐོ་ལ་ཞིབ་བཤེར་བྱེད་མ་ཐུབ་པ།",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "ལོ་ཐོ་གསར་བཟོ་བྱེད་མ་ཐུབ་པ།{error}",
+  "@create_calendar_failed": {
+    "description": "ལོ་ཐོ་གསར་བཟོ་བྱེད་མ་ཐུབ་པ།",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "ཟླ་ཐོའི་དོན་རྐྱེན་ཁ་སྣོན་བྱེད་མ་ཐུབ་པ{error}",
+  "@add_calendar_event_failed": {
+    "description": "ལོ་ཐོའི་དོན་རྐྱེན་ཁ་སྣོན་བྱེད་མ་ཐུབ་པ།",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "ལོ་ཐོའི་དོན་རྐྱེན་བསུབ་མ་ཐུབ་པ།{error}",
+  "@delete_calendar_event_failed": {
+    "description": "ལོ་ཐོའི་དོན་རྐྱེན་བསུབ་མ་ཐུབ་པ།",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "ཆོག་འཐུས་ཀྱི་བརྡ་འཕྲིན་སྒྲིག་མ་ཐུབ་པ{error}",
+  "@set_permission_message_failed": {
+    "description": "ཆོག་འཐུས་ཀྱི་བརྡ་འཕྲིན་སྒྲིག་མ་ཐུབ་པ།",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "ལད་མོ་བྱས་པའི་གཞི་གྲངས་{count}ལེགས་འགྲུབ་ངང་འགོ་འཛུགས་བྱས།",
+  "@mock_data_init_success": {
+    "description": "ལད་མོ་བྱས་པའི་གྲངས་གཞི་ལེགས་འགྲུབ་བྱུང་བ།",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "གཞི་གྲངས་མཛོད་ལ་ཟིན་ཐོ་{count}ཡོད་དེ། ལད་མོ་བྱས་པའི་གཞི་གྲངས་འགོ་འཛུགས་ཀྱི་གོམ་པ་སྤོ་ཐུབ་ཀྱི་ཡོད།",
+  "@database_has_data": {
+    "description": "གཞི་གྲངས་མཛོད་ལ་གཞི་གྲངས་ཡོད།",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "གཞི་གྲངས་མཛོད་ཀྱི་གྲུབ་ཚུལ་མི་མཐུན་པའི་རྐྱེན་གྱིས་ཡིན་སྲིད། ཉེར་སྤྱོད་ཀྱི་གཞི་གྲངས་གཙང་སེལ་བྱེད་པའམ་ཡང་ན་བསྐྱར་སྒྲིག་བྱ་རྒྱུའི་གྲོས་འགོ་འདོན་རྒྱུ་ཡིན།",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "གཞི་གྲངས་མཛོད་ཀྱི་ཡིག་ཆ་རྙིང་བ་བསུབ་ཟིན།",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "རྗེས་གྲབས་གཞི་གྲངས་སྟོང་བ་འདུག",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "རྗེས་གྲབས་ཡིག་ཆ་མེད་པ།",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "ཡིག་ཆའི་ཨང་སྒྲིག་ནི་ནུས་ལྡན་གྱི་UTF-8 རྣམ་གཞག་མིན། UTF-8 ཨང་སྒྲིག་ལ་བརྟེན་ནས་ཡིག་ཆ་ཉར་ཚགས་བྱེད་པར་ཁག་ཐེག་བྱེད་རོགས། ནོར་འཁྲུལ་གྱི་ཞིབ་ཕྲ། {error}",
+  "@file_not_utf8": {
+    "description": "ཡིག་ཆའི་ཨང་སྒྲིག་གི་ནོར་འཁྲུལ་",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "ཡིག་ཚགས་མེད། {filePath}",
+  "@file_not_found": {
+    "description": "ཡིག་ཆ་མ་རྙེད་པའི་ནོར་འཁྲུལ་",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "ཡིག་ཆ་འདི་སྟོང་པར་གྱུར་{filePath}",
+  "@file_empty": {
+    "description": "ཡིག་ཚགས་ནི་སྟོང་པའི་ནོར་འཁྲུལ་རེད།",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "ཨང་སྒྲིག་བྱས་རྗེས་ཡིག་ཆའི་ནང་དོན་སྟོང་པར་གྱུར་ཡོད། ཨང་སྒྲིག་མི་མཐུན་པའི་རྐྱེན་གྱིས་ཡིན་སྲིད།",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName}སྟོང་པར་འགྱུར་མི་རུང་།",
+  "@field_cannot_be_empty": {
+    "description": "ས་ཁོངས སྟོང་པ་ར་སྤྲོད་བྱེད་མི་ཉན།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName}རིང་ཚད་ཡིག་འབྲུ་{minLength}ལས་ཉུང་མི་རུང་།",
+  "@field_min_length": {
+    "description": "ཁྱབ་ཁོངས་ཀྱི་རིང་ཚད་དམའ་ཤོས་ཀྱི་ཚོད་ལྟ།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName}རིང་ཚད་ཡིག་འབྲུ་{maxLength}ལས་བརྒལ་མི་ཆོག",
+  "@field_max_length": {
+    "description": "ཁྱབ་ཁོངས་ཀྱི་རིང་ཚད་མཐོ་ཤོས་ར་སྤྲོད་",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "གོ་ཆོད་པའི་{fieldName}ས་གནས་ཤིག་ནང་འཇུག་རོགས།",
+  "@field_invalid_email": {
+    "description": "གློག་རྡུལ་ཡིག་རིགས་ཀྱི་རྣམ་གཞག་ཚོད་ལྟ།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName}ངེས་པར་དུ་ངེས་པར་དུ་བྱ་བ་{numberType}",
+  "@field_invalid_number": {
+    "description": "ཨང་གྲངས་རྣམ་གཞག་ཚོད་ལྟ།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName}{min}ལས་ཉུང་མི་རུང་།",
+  "@field_min_value": {
+    "description": "ཆེས་དམའ་བའི་རིན་ཐང་ཚོད་ལྟ།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName}དེ་ལས་ཆེ་བ་{max}",
+  "@field_max_value": {
+    "description": "ཆེས་ཆེ་བའི་རིན་ཐང་ཚོད་ལྟ།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName}ངེས་པར་དུ་དྲང་གྲངས་ཧྲིལ་གྲངས་ཡིན་དགོས།",
+  "@field_positive_integer": {
+    "description": "དྲང་ཕྱོགས་ཀྱི་ཧྲིལ་གྲངས་ཞིབ་བཤེར།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName}ངེས་པར་དུ་0ལས་ཆེ་བ་ཡིན་དགོས།",
+  "@field_greater_than_zero": {
+    "description": "ཀླད་ཀོར་ལས་ལྷག་པའི་ཚོད་ལྟས་ར་སྤྲོད་བྱས་པ།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName}ངེས་པར་དུ་དྲང་གྲངས་ཡིན་དགོས།",
+  "@field_positive_number": {
+    "description": "དྲང་གྲངས་ཞིབ་བསྡུར་བྱས་པ།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "གོ་ཆོད་པའི་{fieldName}",
+  "@field_invalid_date": {
+    "description": "ཚེས་གྲངས་རྣམ་གཞག་ཚོད་ལྟ།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName}འདས་ཟིན་པའི་དུས་བཅད་ཡིན་མི་རུང་།",
+  "@field_date_not_past": {
+    "description": "ཚེས་གྲངས་དེ་འདས་ཟིན་མི་རུང་ལ།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName}ལས་སྔ་བ་{minDate}",
+  "@field_date_not_before": {
+    "description": "ཚེས་གྲངས་དེ་དམིགས་འཛུགས་བྱས་པའི་ཚེས་གྲངས་ལས་སྔ་མི་རུང་།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName}རྗེས་སུ་ལུས་{maxDate}",
+  "@field_date_not_after": {
+    "description": "ཚེས་གྲངས་དེ་གཏན་འབེབས་བྱས་པའི་དུས་ཚོད་ལས་རྗེས་སུ་ལུས་མི་རུང་།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "གོ་ཆོད་པའི་{fieldName}",
+  "@field_invalid_value": {
+    "description": "གོ་མི་ཆོད་པའི་རིན་ཐང་ཚོད་ལྟ།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName}ཡི་གེའི་རིང་ཚད་ལ་ཡིག་འབྲུ་8ལས་ཉུང་མི་རུང་།",
+  "@password_min_length": {
+    "description": "གསང་གྲངས་ཀྱི་རིང་ཚད་དམའ་ཤོས་ར་སྤྲོད་བྱས་པ།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName}ངེས་པར་དུ་མ་མཐར་ཡང་གསལ་བྱེད་ཆེན་པོ་གཅིག་ཡོད་དགོས།",
+  "@password_uppercase_required": {
+    "description": "གསང་བའི་ནང་དུ་ངེས་པར་དུ་ཡིག་ཆེན་ཡོད་དགོས།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName}ངེས་པར་དུ་ཉུང་མཐར་ཡང་གསལ་བྱེད་ཆུང་བ་གཅིག་ཡོད་དགོས།",
+  "@password_lowercase_required": {
+    "description": "གསང་བའི་ནང་དུ་ངེས་པར་དུ་གསལ་བྱེད་ཆུང་བ་ཡོད་དགོས།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName}ངེས་པར་དུ་ཉུང་མཐར་ཡང་ཨང་གྲངས་གཅིག་ཡོད་དགོས།",
+  "@password_digit_required": {
+    "description": "གསང་བའི་ནང་དུ་ངེས་པར་དུ་གྲངས་ཀ་ཡོད་དགོས།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName}ངེས་པར་དུ་མ་མཐར་ཡང་དམིགས་བསལ་གྱི་ཡི་གེ་གཅིག་ཡོད་དགོས།",
+  "@password_special_char_required": {
+    "description": "གསང་བའི་ནང་དུ་ངེས་པར་དུ་དམིགས་བསལ་གྱི་ཡི་གེ་ཡོད་དགོས།",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "ནང་འཇུག་བྱས་པའི་གསང་གྲངས་གཉིས་མི་མཐུན་པ།",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "རྣམ་གྲངས་ཀྱི་མིང་སྟོང་བ་ཡིན་མི་རུང་།",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "མིང་དེ་ཡིག་འབྲུ་{maxLength}ལས་བརྒལ་མི་ཆོག",
+  "@name_max_length": {
+    "description": "ཆེས་མང་བའི་མིང་གི་རིང་ཚད་ཚོད་ལྟ།",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "གྲངས་འབོར་{minQuantity}",
+  "@quantity_min": {
+    "description": "གྲངས་ཚད་དམའ་ཤོས་ཀྱི་ཚོད་ལྟ།",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "གྲངས་འབོར་དེ་{maxQuantity}",
+  "@quantity_max": {
+    "description": "གྲངས་ཚད་མཐོ་ཤོས་ཀྱི་ཚོད་ལྟ།",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "རྩིས་གཞིའི་རིན་གོང་ལ་སྒྱིད་ལུག་བྱེད་མི་རུང།",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "རྩིས་གཞིའི་རིན་གོང་དེ་{maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "རྩིས་གཞིའི་རིན་གོང་གི་རིན་ཐང་མཐོ་ཤོས་ཀྱི་ཞིབ་དཔྱད།",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "ཐོན་སྐྱེད་ཀྱི་དུས་ཚོད་དང་སྤུས་ཚད་འགན་ལེན་དུས་ཡུན་གཏན་ཁེལ་བྱས་ནས་རང་འགུལ་གྱིས་རྩིས་རྒྱག་རོགས།",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "ཁྱོད་ཀྱིས་ཉོས་པའི་དུས་ཚོད་དང་སྤུས་ཚད་འགན་ལེན་དུས་ཡུན་གཏན་ཁེལ་བྱས་ནས་རང་འགུལ་གྱིས་ཉམས་གསོའི་དུས་ཚད་རྩིས་རྒྱག་རོགས།",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "ལོ་ཐོའི་རྩིས་ཐོ་གསར་འཛུགས་བྱེད་མ་ཐུབ་པས། མ་ལག་གི་ལོ་ཐོའི་སྒྲིག་སྟངས་ལ་ཞིབ་བཤེར་གནང་རོགས།",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "ཚད་ལེན་བརྡ་ཐོ་",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "འདི་ནི་ཚད་ལེན་ཚོད་ལྟ་བྱེད་པའི་བརྡ་ཐོ་ཞིག་ཡིན་ལ། ས་གནས་དྲན་སྐུལ་གྱི་བྱེད་ལས་ལ་ཞིབ་དཔྱད་བྱེད་པར་སྤྱོད་དགོས།",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "ནམ་མཁའ་",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "ཉིན་{days}",
+  "@days_with_value": {
+    "description": "གྲངས་ཀ་ཡོད་པའི་ཉིན་མོ།",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "རྣམ་གྲངས་ཉར་ཚགས་བྱས་ཟིན་པ།",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "རྣམ་གྲངས་གསར་སྒྱུར་བྱས་ཟིན་པ།",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "རྣམ་གྲངས་ཁ་སྣོན་བྱས་ཟིན་པ།",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "ལེགས་འགྲུབ་ངང་ཉར་ཚགས་བྱས་པ།",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "གསར་སྒྱུར་ལེགས་འགྲུབ་བྱུང་བ།",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "བསུབ་པ་ལེགས་འགྲུབ་བྱུང་བ།",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "ཉར་ཚགས་བྱས་མ་ཚུགས",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "གསར་སྒྱུར་བྱས་མ་ཚུགས",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "བསུབ་མ་ཚུགས་པ།",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "སྐད་ཆའི་སྒྲིག་སྟངས་",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "app display language set",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "མ་ལག་གི་སྔོན་འགྲོ།",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "མ་ལག་གི་སྐད་བརྡ་སྤྱོད་པ།",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "ཉེར་སྤྱོད་བསྐྱར་དུ་མགོ་རྩོམ་རྗེས་སྐད་ཆའི་འགྱུར་ལྡོག་ལ་ནུས་པ་ཐོན་རྒྱུ་རེད།",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "མིག་སྔའི་གདམ་གསེས། ཉིན་{days}",
+  "@current_selection": {
+    "description": "མིག་སྔར་བདམས་པའི་ཉིན་མོའི་མངོན་ཚུལ་",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

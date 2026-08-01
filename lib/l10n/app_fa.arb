@@ -1,0 +1,1625 @@
+{
+  "@@locale": "fa",
+  "app_name": "گنجینه‌ای کوچک",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "لغو",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "تأیید",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "ذخیره",
+  "@save": {
+    "description": ""
+  },
+  "delete": "حذف",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "ویرایش",
+  "@edit": {
+    "description": ""
+  },
+  "add": "اضافه کردن",
+  "@add": {
+    "description": ""
+  },
+  "search": "جستجو",
+  "@search": {
+    "description": ""
+  },
+  "settings": "تنظیمات",
+  "@settings": {
+    "description": ""
+  },
+  "back": "بازگشت",
+  "@back": {
+    "description": ""
+  },
+  "next": "مرحله بعد",
+  "@next": {
+    "description": ""
+  },
+  "done": "تکمیل",
+  "@done": {
+    "description": ""
+  },
+  "loading": "در حال بارگذاری...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "خطا",
+  "@error": {
+    "description": ""
+  },
+  "success": "موفقیت",
+  "@success": {
+    "description": ""
+  },
+  "warning": "هشدار",
+  "@warning": {
+    "description": ""
+  },
+  "info": "اطلاعات",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "انتخاب تعداد روزهای یادآوری",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "سفارشی‌سازی",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "سفارشی ( {days} روز)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "محدوده روزهای یادآوری: {min}-{max} روز",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "لطفاً تعداد روزهای یادآوری را وارد کنید",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "تعداد روزها",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "لطفاً عددی بین {min} و {max} وارد کنید",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "تنظیم هشدار",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "تنظیمات تقویم",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "همگام‌سازی تقویم",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "پس از فعال کردن، دسترسی به تقویم درخواست خواهد شد",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "افزودن رویداد تقویم آزمایشی",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "لطفاً ابتدا سوئیچ \"همگام‌سازی تقویم\" را روشن کنید",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "تنظیمات یادآوری برنامه",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "یادآوری محلی",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "پس از فعال‌سازی، یادآوری‌های انقضا درون برنامه‌ای را دریافت کنید",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "ارسال اعلان تست",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "لطفاً ابتدا سوئیچ \"یادآوری محلی\" را روشن کنید",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "تنظیم تعداد روزهای یادآوری",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "تعداد روزهای یادآوری قبلی",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "تنظیم کنید چند روز قبل از انقضای کالا یا پایان گارانتی هشدار داده شود",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "درخواست دسترسی به تقویم",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "برای همگام‌سازی یادآوری اقلام، نیاز به دسترسی به تقویم است. آیا اجازه می‌دهید؟",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "اجازه دادن",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "دسترسی به تقویم اعطا شده است، همگام‌سازی تقویم فعال شده است",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "دسترسی به تقویم رد شد، امکان فعال‌سازی همگام‌سازی تقویم وجود ندارد",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "دسترسی به‌طور دائم رد شد",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "دسترسی به تقویم به طور دائم رد شد، لطفاً به صورت دستی در تنظیمات سیستم دسترسی را فعال کنید.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "به تنظیمات برو",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "دسترسی به تقویم داده شده است، اما نمی‌توان حساب تقویم ایجاد کرد. لطفاً تنظیمات تقویم سیستم را بررسی کنید",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "دسترسی به تقویم اعطا شد، حساب تقویم محلی ایجاد شد",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "حساب تقویم با موفقیت ایجاد شد، اما ممکن است سیستم برای فعال شدن آن به کمی زمان نیاز داشته باشد",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "آزمایش افزودن رویداد به تقویم با موفقیت انجام شد",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "افزودن رویداد آزمایشی به تقویم ناموفق بود، لطفاً تنظیمات تقویم را بررسی کنید",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "برای افزودن رویداد آزمایشی نیاز به دسترسی به تقویم است",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "اطلاعیه تست ارسال شد",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "ارسال اعلان آزمایشی ناموفق بود: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "برای فعال کردن یادآوری‌های محلی نیاز به اجازه اعلان است",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "عملیات ناموفق بود: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "اطلاعیه هشدار کالا",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "هشدار انقضای کالا یا پایان گارانتی",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "غذا",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "لوازم روزمره",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "لوازم آرایشی",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "دارو",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "محصولات الکترونیکی",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "مبلمان",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "لباس",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "کتاب‌ها",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "دیگر",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "فروشگاه آنلاین",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "فروشگاه فیزیکی",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "سوپرمارکت",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "فروشگاه اختصاصی",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "بازار دست دوم",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "سایر",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "دیگر",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "فروشگاه آنلاین",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "دسته‌بندی اقلام",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "دسته‌بندی سفارشی",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "پشتیبان‌گیری از داده‌ها",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "تمام داده‌ها (شامل تصاویر) را به‌صورت فایل ZIP برای پشتیبان‌گیری بسته‌بندی کنید",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "پشتیبان‌گیری از تمام داده‌ها",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "پشتیبان‌گیری با موفقیت انجام شد",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "پشتیبان‌گیری ناموفق: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "بازیابی داده‌ها",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "بازیابی تمام داده‌ها از فایل پشتیبان ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "صادرات داده‌ها",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "خروجی گرفتن به فرمت‌های CSV، TXT و SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "وارد کردن داده‌ها",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "وارد کردن داده‌ها از فایل‌های CSV، TXT، SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "تنظیم یادآوری‌های تقویم و یادآوری‌های پوش برنامه",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "درباره",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "اطلاعات و نسخه برنامه",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "لطفاً ابتدا فایل پشتیبان را انتخاب کنید",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "تأیید بازیابی",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "بازیابی نسخه پشتیبان تمام داده‌های موجود را پاک کرده و با داده‌های پشتیبان جایگزین خواهد کرد، این عملیات قابل بازگشت نیست. آیا مطمئن هستید که می‌خواهید ادامه دهید؟",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "دوباره تأیید کردن",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "آیا مطمئن هستید که می‌خواهید تمام داده‌های موجود را پاک کرده و نسخه پشتیبان را بازیابی کنید؟ این عملیات غیرقابل بازگشت است!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "تأیید بازیابی",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "بازیابی با موفقیت انجام شد، مجموع {count} مورد",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "بازیابی ناموفق: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "انتخاب فایل پشتیبان",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "بازیابی پشتیبان",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "فایل انتخاب شده: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "صادرات داده با موفقیت انجام شد",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "خروجی گرفتن با شکست مواجه شد: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "سی‌اس‌وی",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "پردازش داده‌های تکراری",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "شناسایی داده‌های تکراری، لطفاً روش پردازش را انتخاب کنید:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "رد کردن",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "پوشاندن",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "همه را رد کن",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "پوشش کامل",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "لطفاً ابتدا فرمت وارد کردن را انتخاب کنید",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "تأیید وارد کردن",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "وارد کردن داده‌ها، داده‌های موجود را بازنویسی خواهد کرد و این عملیات قابل بازگرداندن نیست. آیا مطمئن هستید که می‌خواهید ادامه دهید؟",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "وارد کردن داده‌ها با موفقیت انجام شد، در مجموع {count} مورد وارد شد",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "وارد کردن ناموفق بود: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "انتخاب فایل",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "بدون داده",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "در حال حاضر داده‌ای وجود ندارد، روی دکمه زیر کلیک کنید تا اولین رکورد را اضافه کنید!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "بارگذاری شکست خورد",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "بارگذاری داده‌ها ناموفق بود، لطفاً پس از بررسی اتصال شبکه دوباره امتحان کنید",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "دوباره امتحان کنید",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "اتصال شبکه ناموفق بود",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "لطفاً بعد از بررسی اتصال شبکه دوباره تلاش کنید",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "هیچ نتیجه‌ای یافت نشد",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "تلاش کنید با کلمات کلیدی دیگر جستجو کنید",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "پاک کردن جستجو",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "دسترسی غیرمجاز",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "برای استفاده از این ویژگی نیاز به مجوز مربوطه است",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "درخواست دسترسی",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "اطلاعات برنامه",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "نسخه",
+  "@version": {
+    "description": ""
+  },
+  "developer": "توسعه‌دهنده",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "اطلاعات دستگاه",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "مدل دستگاه",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "برند",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "نام دستگاه",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "محصول",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "سخت‌افزار",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "نسخه اندروید",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "نسخه SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "نام سیستم",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "نسخه سیستم",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "شناسه دستگاه",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "نام کامپیوتر",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "شماره نسخه",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "نمی‌توان اطلاعات دستگاه را دریافت کرد: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "معرفی عملکرد",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "برنامه مدیریت اشیاء هوشمند",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "کمک به شما در مدیریت تاریخ انقضا، تاریخ گارانتی و اطلاعات دیگر کالاها و ارائه قابلیت یادآوری هوشمند.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "مصرفی",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "کالای بادوام",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "مرتب‌سازی",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "ترتیب صعودی نام",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "ترتیب نزولی نام",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "ترتیب صعودی تاریخ",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "ترتیب نزولی تاریخ",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "ترتیب صعودی قیمت واحد",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "نزولی بر اساس قیمت واحد",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "ترتیب صعودی بر اساس تعداد",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "ترتیب نزولی تعداد",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "ترتیب صعودی قیمت کل",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "کاهش قیمت کل",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "پاک کردن همه فیلترها",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "اسکن کد برای ورود به انبار",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "جستجوی اقلام...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "هنوز موردی موجود نیست",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "برای افزودن اولین مورد، روی دکمه زیر کلیک کنید",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "منقضی شده",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "در شرف منقضی شدن",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "گارانتی منقضی شده است",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "گارانتی به زودی منقضی می‌شود",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "باقی مانده {count} روز",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "منقضی شده {count} روز",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "حذف کالا",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "آیا می‌خواهید \"{name}\" را حذف کنید؟",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "آیتم حذف شد",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "حذف شکست خورد",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "نمی‌توان آیتم را حذف کرد: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "فیلتر بازه تاریخی",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "فیلتر محدوده قیمت",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "وسایل من",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "برای افزودن آیتم، روی دکمه گوشه پایین سمت راست کلیک کنید",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "تأیید حذف",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "گزینه‌های فیلتر",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "براساس نوع، دسته‌بندی و مکان اقلام را فیلتر کنید",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} دسته‌بندی",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "همه دسته‌ها",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "هنوز داده‌ای برای دسته‌بندی وجود ندارد",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "محل ذخیره‌سازی",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} مکان",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "همه مکان‌ها",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "هنوز داده‌های مکان موجود نیست",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "محدوده تاریخ",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "انتخاب محدوده تاریخ",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "محدوده قیمت",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "دامنه قیمت واحد",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "کمترین قیمت واحد",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "بیشترین قیمت واحد",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "محدوده قیمت کل",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "کمترین قیمت کل",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "بیشترین قیمت کل",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "پاک کردن فیلتر قیمت",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "بارکد را داخل قاب قرار دهید تا اسکن شود",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "کالا قبلاً موجود است",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "بارکد: {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "نام: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "دسته‌بندی: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "تعداد فعلی: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "لطفاً عملیات را انتخاب کنید:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "خروج از انبار",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "ورود به انبار",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "تعداد وارد شده به انبار",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "تعداد خروجی از انبار",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "تعداد",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "لطفاً تعداد ورود به انبار را وارد کنید",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "لطفاً تعداد خروج از انبار را وارد کنید",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "تعداد {name} {quantity}{unit} افزایش یافت",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "آیا مطمئن هستید که می‌خواهید «{name}» را حذف کنید؟ این عملیات قابل بازگردانی نیست.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "تعداد {name} {quantity}{unit} کاهش یافته است",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "پایگاه داده بازنشانی شده است، ساختار جدول دوباره ایجاد خواهد شد",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "خطا در بازنشانی پایگاه داده: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "راه‌اندازی داده‌های شبیه‌سازی شکست خورد: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "راه‌حل:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. برنامه را حذف نصب کرده و دوباره نصب کنید",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "۲. یا پاک کردن داده‌های برنامه",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. یا پس از تنظیم resetDatabaseOnStart روی true دوباره اجرا کنید",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "راه‌اندازی سرویس یادآوری ناموفق بود: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "عدم موفقیت در بررسی حساب تقویم: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "ایجاد تقویم ناموفق بود: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "افزودن رویداد به تقویم ناموفق بود: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "حذف رویداد تقویم موفقیت‌آمیز نبود: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "تنظیم پیام هشدار مجوز ناموفق بود: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "موفق به مقداردهی اولیه {count} داده شبیه‌سازی شده شد",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "پایگاه داده از قبل شامل {count} داده است، از مقداردهی اولیه داده‌های شبیه‌سازی شده صرف‌نظر کنید",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "ممکن است ساختار پایگاه داده مطابقت نداشته باشد، توصیه می‌شود داده‌های برنامه را پاک کنید یا دوباره نصب کنید",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "پرونده‌های پایگاه داده قدیمی حذف شدند",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "داده‌های پشتیبان خالی است",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "فایل پشتیبان وجود ندارد",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "کدگذاری فایل فرمت معتبر UTF-8 نیست. لطفاً اطمینان حاصل کنید که فایل با کدگذاری UTF-8 ذخیره شده است. جزئیات خطا: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "فایل وجود ندارد: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "فایل خالی است: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "بعد از رمزگشایی محتوای فایل خالی است، ممکن است انکودینگ مطابقت نداشته باشد",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} نمی‌تواند خالی باشد",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} نباید کمتر از {minLength} کاراکتر باشد",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} نمی‌تواند طولانی‌تر از {maxLength} کاراکتر باشد",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "لطفاً یک آدرس {fieldName} معتبر وارد کنید",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} باید {numberType} باشد",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} نمی‌تواند کمتر از {min} باشد",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} نمی‌تواند بزرگتر از {max} باشد",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} باید یک عدد صحیح مثبت باشد",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} باید بزرگتر از 0 باشد",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} باید عددی مثبت باشد",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "لطفاً {fieldName} معتبر وارد کنید",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} نمی‌تواند تاریخی در گذشته باشد",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} نمی‌تواند زودتر از {minDate} باشد",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} نباید دیرتر از {maxDate} باشد",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "لطفاً {fieldName} معتبر وارد کنید",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} نباید کمتر از ۸ کاراکتر باشد",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} باید حداقل یک حرف بزرگ داشته باشد",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} باید حداقل یک حرف کوچک داشته باشد",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} باید حداقل یک عدد داشته باشد",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} باید حداقل یک کاراکتر ویژه داشته باشد",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "رمزهای عبور وارد شده مطابقت ندارند",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "نام کالا نمی‌تواند خالی باشد",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "نام نمی‌تواند بیش از {maxLength} نویسه باشد",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "تعداد نمی‌تواند کمتر از {minQuantity} باشد",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "تعداد نمی‌تواند بیشتر از {maxQuantity} باشد",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "قیمت واحد نمی‌تواند منفی باشد",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "قیمت واحد نباید از {maxUnitPrice} تجاوز کند",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "لطفاً تاریخ تولید و مدت زمان نگهداری را تنظیم کنید تا مدت اعتبار به‌صورت خودکار محاسبه شود",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "لطفاً تاریخ خرید و مدت زمان مصرف را تنظیم کنید تا دوره گارانتی به‌طور خودکار محاسبه شود",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "نمی‌توان حساب تقویم ایجاد کرد، لطفاً تنظیمات تقویم سیستم را بررسی کنید",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "آزمایش اطلاعیه",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "این یک اعلان آزمایشی است که برای تأیید عملکرد یادآوری محلی استفاده می‌شود",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "آسمان",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} روز",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "کالا ذخیره شد",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "کالا به‌روزرسانی شد",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "کالا اضافه شد",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "ذخیره‌سازی با موفقیت انجام شد",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "به‌روزرسانی با موفقیت انجام شد",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "حذف با موفقیت انجام شد",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "ذخیره‌سازی ناموفق بود",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "به‌روزرسانی ناموفق بود",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "حذف شکست خورد",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "تنظیمات زبان",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "تنظیم زبان نمایش برنامه",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "پیش‌فرض سیستم",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "استفاده از زبان سیستم",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "تغییر زبان پس از راه‌اندازی مجدد برنامه اعمال خواهد شد",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "انتخاب فعلی: {days} روز",
+  "@current_selection": {
+    "description": "تعداد روزهای انتخاب شده فعلی نمایش داده می‌شود",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

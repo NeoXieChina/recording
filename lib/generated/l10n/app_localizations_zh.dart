@@ -1,6 +1,5 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -37,6 +36,21 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settings => '设置';
 
   @override
+  String get language_settings => '语言设置';
+
+  @override
+  String get language_settings_description => '设置应用显示语言';
+
+  @override
+  String get system_default => '系统默认';
+
+  @override
+  String get use_system_language => '使用系统语言';
+
+  @override
+  String get language_change_hint => '语言更改将在应用重启后生效';
+
+  @override
   String get back => '返回';
 
   @override
@@ -69,6 +83,11 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String custom_days(int days) {
     return '自定义（$days天）';
+  }
+
+  @override
+  String current_selection(int days) {
+    return '当前选择：$days天';
   }
 
   @override

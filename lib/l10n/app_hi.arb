@@ -1,0 +1,1625 @@
+{
+  "@@locale": "hi",
+  "app_name": "संग्रह करने के लिए जगह",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "रद्द करें",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "पुष्टि करें",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "सहेजें",
+  "@save": {
+    "description": ""
+  },
+  "delete": "हटाएँ",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "संपादित करें",
+  "@edit": {
+    "description": ""
+  },
+  "add": "जोड़ना",
+  "@add": {
+    "description": ""
+  },
+  "search": "खोज",
+  "@search": {
+    "description": ""
+  },
+  "settings": "सेटिंग",
+  "@settings": {
+    "description": ""
+  },
+  "back": "वापस",
+  "@back": {
+    "description": ""
+  },
+  "next": "अगला कदम",
+  "@next": {
+    "description": ""
+  },
+  "done": "पूर्ण",
+  "@done": {
+    "description": ""
+  },
+  "loading": "लोड हो रहा है...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "त्रुटि",
+  "@error": {
+    "description": ""
+  },
+  "success": "सफलता",
+  "@success": {
+    "description": ""
+  },
+  "warning": "चेतावनी",
+  "@warning": {
+    "description": ""
+  },
+  "info": "सूचना",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "स्मरण दिन चुनें",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "कस्टम",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "कस्टम ({days} दिन)",
+  "@custom_days": {
+    "description": "कस्टम दिन के साथ पैरामीटर",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "स्मरण अवधि सीमा: {min}-{max} दिन",
+  "@alert_days_range": {
+    "description": "अलर्ट दिन सीमा के साथ पैरामीटर",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "कृपया स्मरण दिवस दर्ज करें",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "दिनों की संख्या",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "कृपया {min}-{max} के बीच की संख्या दर्ज करें",
+  "@enter_valid_days": {
+    "description": "दिनों की इनपुट सत्यापन संदेश",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "अलर्ट सेटिंग्स",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "कैलेंडर सेटिंग",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "कैलेंडर सिंक",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "सक्रिय करने के बाद कैलेंडर अनुमति का अनुरोध किया जाएगा",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "टेस्ट कैलेंडर ईवेंट जोड़ें",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "कृपया पहले \"कैलेंडर सिंक\" स्विच चालू करें",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "ऐप अलर्ट सेटिंग",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "स्थानीय अनुस्मारक",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "सक्रिय करने पर ऐप के अंदर की समाप्ति की सूचनाएँ प्राप्त करें",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "टेस्ट नोटिफिकेशन भेजें",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "कृपया पहले \"स्थानीय अनुस्मारक\" स्विच चालू करें",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "स्मरण समय सेट करें",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "提前提醒天数",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "कितने दिन पहले सामान की समाप्ति या वारंटी समाप्ति की सूचना दें",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "कैलेंडर अनुमति का अनुरोध",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "आइटम रिमाइंडर को सिंक करने के लिए कैलेंडर की अनुमति की आवश्यकता है। क्या अनुमति दें?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "अनुमति देना",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "कैलेंडर अनुमति दी गई है, कैलेंडर सिंक चालू है",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "कैलेंडर अनुमति अस्वीकार कर दी गई है, कैलेंडर समन्वय नहीं खोल सकते",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "अनुमति स्थायी रूप से अस्वीकार कर दी गई है",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "कैलेंडर अनुमति को स्थायी रूप से अस्वीकार कर दिया गया है, कृपया सिस्टम सेटिंग्स में मैनुअल रूप से अनुमति चालू करें।",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "सेटिंग्स पर जाएँ",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "कैलेंडर की अनुमति दी गई है, लेकिन कैलेंडर खाता नहीं बनाया जा सका। कृपया सिस्टम कैलेंडर सेटिंग्स की जाँच करें।",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "कैलेंडर अनुमति दी गई है, स्थानीय कैलेंडर खाता बनाया गया है",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "कैलेंडर खाता सफलतापूर्वक बनाया गया है, लेकिन सिस्टम को प्रभावी होने में कुछ समय लग सकता है",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "कैलेंडर ईवेंट जोड़ने का परीक्षण सफल",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "टेस्ट कैलेंडर इवेंट जोड़ने में विफल, कृपया कैलेंडर सेटिंग्स जांचें",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "टेस्ट ईवेंट जोड़ने के लिए कैलेंडर अनुमति की आवश्यकता है",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "परीक्षण通知 भेजा गया",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "टेस्ट नोटिफिकेशन भेजने में विफल: {error}",
+  "@test_notification_failed": {
+    "description": "सूचना त्रुटि संदेश",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "स्थानीय रिमाइंडर सक्षम करने के लिए सूचना अनुमति की आवश्यकता है",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "संचालन विफल: {error}",
+  "@operation_failed": {
+    "description": "सामान्य संचालन त्रुटि संदेश",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "सामान चेतावनी सूचना",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "सामान की समाप्ति या वारंटी समाप्ति की提醒",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "खाद्य",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "दैनिक उपयोग की वस्तुएँ",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "सौंदर्य प्रसाधन",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "दवा",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "इलेक्ट्रॉनिक उत्पाद",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "फ़र्नीचर",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "कपड़े",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "पुस्तकें",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "अन्य",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "ऑनलाइन शॉपिंग मॉल",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "भौतिक दुकान",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "सुपरमार्केट",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "विशेषीकृत स्टोर",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "सेकेंड हैंड मार्केट",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "अन्य",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "अन्य",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "ऑनलाइन शॉपिंग मॉल",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "वस्तु वर्गीकरण",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "कस्टम श्रेणी",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "डेटा का बैकअप",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "सारी डेटा (चित्रों सहित) को ZIP फ़ाइल में संकलित करके बैकअप बनाएं",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "सभी डेटा का बैकअप लें",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "बैकअप सफल",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "बैकअप विफल: {error}",
+  "@backup_failed": {
+    "description": "बैकअप विफल त्रुटि संदेश",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "डेटा पुनर्स्थापित करें",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ZIP बैकअप फ़ाइल से सभी डेटा पुनर्स्थापित करें",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "डेटा निर्यात करें",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "CSV, TXT, SQL फ़ॉर्मेट में निर्यात करें",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "डेटा आयात करें",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "CSV, TXT, SQL फ़ाइलों से डेटा आयात करें",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "कैलेंडर रिमाइंडर और ऐप पुश रिमाइंडर सेटिंग",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "के बारे में",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "एप्लिकेशन जानकारी और संस्करण",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "कृपया पहले बैकअप फ़ाइल चुनें",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "पुनर्स्थापना की पुष्टि करें",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "बैकअप पुनर्स्थापित करने से सभी मौजूदा डेटा मिट जाएंगे और बैकअप डेटा से बदल जाएंगे, यह कार्रवाई अपरिवर्तनीय है। क्या आप जारी रखना चाहते हैं?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "फिर से पुष्टि करें",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "क्या आप वाकई सभी मौजूदा डेटा को साफ़ करना और बैकअप को पुनर्स्थापित करना चाहते हैं? इस क्रिया को बदला नहीं जा सकेगा!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "पुनर्स्थापना सुनिश्चित करें",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "पुनर्प्राप्ति सफल, कुल {count} आइटम",
+  "@restore_success": {
+    "description": "पुनर्स्थापना सफल संदेश",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "पुनर्स्थापना विफल: {error}",
+  "@restore_failed": {
+    "description": "पुनर्प्राप्ति विफल त्रुटि संदेश",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "बैकअप फ़ाइल चुनें",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "बैकअप पुनर्स्थापित करें",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "चयनित फ़ाइल: {filename}",
+  "@selected_file": {
+    "description": "चयनित फ़ाइल संदेश",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "डेटा निर्यात सफल",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "निर्यात विफल: {error}",
+  "@export_failed": {
+    "description": "निर्यात विफल त्रुटि संदेश",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "सीएसवी",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "डुप्लिकेट डेटा प्रोसेसिंग",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "समान डेटा पाया गया, कृपया प्रक्रिया का तरीका चुनें:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "छोड़ें",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "कवरेज",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "सब कुछ छोड़ दें",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "पूर्ण कवरेज",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "कृपया पहले आयात प्रारूप चुनें",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "आयात पुष्टि करें",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "डेटा आयात करने से मौजूदा डेटा ओवरराइट हो जाएगा, यह क्रिया वापस नहीं की जा सकती। क्या आप जारी रखना चाहते हैं?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "डेटा सफलतापूर्वक आयात किया गया, कुल {count} आइटम आयात किए गए",
+  "@import_success": {
+    "description": "आयात सफल संदेश",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "आयात विफल: {error}",
+  "@import_failed": {
+    "description": "आयात असफल त्रुटि संदेश",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "फ़ाइल चुनें",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "कोई डेटा उपलब्ध नहीं",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "वर्तमान में कोई डेटा नहीं है, नीचे दिए बटन पर क्लिक करके पहला रिकॉर्ड जोड़ें!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "लोड करने में विफल",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "डेटा लोड करने में विफल, कृपया नेटवर्क कनेक्शन जांचें और फिर से प्रयास करें",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "पुनः प्रयास करें",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "नेटवर्क कनेक्शन विफल",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "कृपया नेटवर्क कनेक्शन जांचने के बाद पुनः प्रयास करें",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "परिणाम नहीं मिला",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "अन्य कीवर्ड का उपयोग करके खोजने का प्रयास करें",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "सर्च साफ़ करें",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "अनुमति अपर्याप्त",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "इस फ़ंक्शन का उपयोग करने के लिए संबंधित अनुमति की आवश्यकता है",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "अनुमति का अनुरोध करें",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "एप्लिकेशन जानकारी",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "संस्करण",
+  "@version": {
+    "description": ""
+  },
+  "developer": "डेवलपर",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "उपकरण जानकारी",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "उपकरण मॉडल",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "ब्रांड",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "उपकरण का नाम",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "उत्पाद",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "हार्डवेयर",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "एंड्रॉइड संस्करण",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK संस्करण",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "सिस्टम का नाम",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "सिस्टम संस्करण",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "उपकरण पहचान",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "कंप्यूटर का नाम",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "संस्करण संख्या",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "डिवाइस जानकारी प्राप्त नहीं की जा सकी: {error}",
+  "@error_getting_device_info": {
+    "description": "डिवाइस जानकारी प्राप्त करने में त्रुटि संदेश",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "फ़ंक्शन परिचय",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "स्मार्ट आइटम प्रबंधन एप्लिकेशन",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "आपको वस्तुओं की समाप्ति तिथि, वारंटी तिथि आदि जानकारी प्रबंधित करने में मदद करता है, और स्मार्ट नोटिफिकेशन सुविधा प्रदान करता है।",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "उपभोज्य सामग्री",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "टिकाऊ वस्तु",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "क्रमबद्ध करना",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "नाम के अनुसार आरोही क्रम",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "नाम अवरोही क्रम",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "तारीख़ क्रम वृद्धि",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "तारीख़ क्रम में घटते हुए",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "एकल मूल्य क्रम वृद्धि",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "एकल मूल्य क्रम में घटते हुए",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "数量 के आरोही क्रम",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "मात्रा के क्रम में अवरोही",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "कुल कीमत क्रम वृद्धि",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "कुल कीमत क्रम में घटते हुए",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "सभी फ़िल्टर साफ़ करें",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "स्कैन करके भण्डारण में डालें",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "सामान खोजें...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "कोई वस्तु नहीं",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "नीचे दिए गए बटन पर क्लिक करके पहला आइटम जोड़ें",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "समाप्त",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "सामयिक समाप्त होने वाला",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "गारंटी समाप्त हो चुकी है",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "गारंटी जल्द ही समाप्त होने वाली है",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "बचे हुए {count} दिन",
+  "@days_remaining": {
+    "description": "शेष दिनों की संख्या के साथ पैरामीटर",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "{count} दिन पहले समाप्त हो गया",
+  "@expired_days_ago": {
+    "description": "अवधि समाप्त होने के दिनों के साथ पैरामीटर",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "सामान हटाएँ",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "क्या आप वाकई \"{name}\" को हटाना चाहते हैं?",
+  "@delete_item_confirm": {
+    "description": "हटाने की पुष्टि संदेश",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "सामान हटा दिया गया है",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "हटाना विफल हुआ",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "आइटम हटाया नहीं जा सकता: {error}",
+  "@failed_to_delete_message": {
+    "description": "त्रुटि संदेश हटाएँ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "तारीख़ सीमा फ़िल्टर",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "मूल्य सीमा फ़िल्टर",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "मेरा सामान",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "नीचे दाईं ओर वाले बटन पर क्लिक करके आइटम जोड़ें",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "हटाने की पुष्टि करें",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "फ़िल्टर विकल्प",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "सामान को प्रकार, श्रेणी और स्थान के अनुसार फ़िल्टर करें",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} श्रेणियाँ",
+  "@categories_count": {
+    "description": "श्रेणी संख्या प्रदर्शित करें",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "सभी श्रेणियाँ",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "अभी कोई वर्गीकृत डेटा नहीं",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "भंडारण स्थान",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} स्थल",
+  "@locations_count": {
+    "description": "स्थान की संख्या प्रदर्शित करें",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "सभी स्थान",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "अभी कोई स्थान डेटा नहीं है",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "तारीख़ की सीमा",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "तारीख़ सीमा चुनें",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "मूल्य सीमा",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "मूल्य सीमा",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "न्यूनतम इकाई मूल्य",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "सबसे अधिक इकाई मूल्य",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "कुल मूल्य सीमा",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "न्यूनतम कुल मूल्य",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "अधिकतम कुल मूल्य",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "मूल्य फ़िल्टर हटाएँ",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "बारकोड को स्कैन करने के लिए बॉक्स के अंदर रखें",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "सामान पहले से मौजूद है",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "बारकोड: {barcode}",
+  "@barcode_with_value": {
+    "description": "बारकोड पैरामीटर के साथ दिखाएँ",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "नाम: {name}",
+  "@name_with_value": {
+    "description": "नाम में पैरामीटर दिखाएँ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "श्रेणी: {category}",
+  "@category_with_value": {
+    "description": "पैरामीटर के साथ श्रेणीबद्ध प्रदर्शित करें",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "वर्तमान संख्या: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "वर्तमान संख्या पैरामीटर के साथ प्रदर्शित होती है",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "कृपया ऑपरेशन चुनें:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "वितरण के लिए स्टॉक से निकालना",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "भंडारण में प्रवेश",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "भंडारण में प्रवेश की मात्रा",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "वितरण की मात्रा",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "संख्या",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "कृपया भंडारण में डाले जाने वाली मात्रा दर्ज करें",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "कृपया आउटगोइंग मात्रा दर्ज करें",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "{name} {quantity}{unit} बढ़ा दिया गया है",
+  "@item_increased": {
+    "description": "सामान बढ़ने का संदेश",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "क्या आप वाकई '{name}' को हटाना चाहते हैं? यह कार्रवाई अपरिवर्तनीय है।",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "हटाने की पुष्टि संदेश में अपरिवर्तनीय चेतावनी शामिल है",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "{name} {quantity}{unit} कम हो गया है",
+  "@item_decreased": {
+    "description": "सामान कम होने का संदेश",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "डेटाबेस रीसेट कर दिया गया है, तालिका संरचना को फिर से बनाया जाएगा",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "डेटाबेस रीसेट करते समय त्रुटि हुई: {error}",
+  "@database_reset_error": {
+    "description": "डेटाबेस रीसेट त्रुटि",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "सिमुलेटेड डेटा प्रारंभिककरण विफल: {error}",
+  "@mock_data_init_failed": {
+    "description": "सिमुलेटेड डेटा प्रारंभिकरण विफल हुआ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "समाधान:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. एप्लिकेशन अनइंस्टॉल करके फिर से इंस्टॉल करें",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. या एप्लिकेशन डेटा साफ़ करें",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. या resetDatabaseOnStart को true पर सेट करने के बाद दोबारा चलाएँ",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "अधिसूचना सेवा प्रारंभ करने में विफल: {error}",
+  "@notification_service_init_failed": {
+    "description": "सूचना सेवा प्रारंभिककरण असफल हुआ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "कैलेंडर खाता जांच विफल: {error}",
+  "@check_calendar_account_failed": {
+    "description": "कैलेंडर खाता जांच विफल",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "कैलेंडर बनाने में विफल: {error}",
+  "@create_calendar_failed": {
+    "description": "कैलेंडर बनाने में विफल",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "कैलेंडर इवेंट जोड़ने में विफल: {error}",
+  "@add_calendar_event_failed": {
+    "description": "कैलेंडर इवेंट जोड़ने में विफल",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "कैलेंडर इवेंट हटाने में विफल: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "कैलेंडर इवेंट हटाने में विफलता",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "अनुमति संकेत संदेश सेट करने में विफल: {error}",
+  "@set_permission_message_failed": {
+    "description": "अनुमति सेट करने का संदेश विफल रहा",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "{count} सिम्युलेटेड डेटा सफलतापूर्वक इनिशियलाइज़ किया गया",
+  "@mock_data_init_success": {
+    "description": "सिम्युलेशन डेटा प्रारंभिकरण सफल",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "डेटाबेस में पहले से ही {count} डेटा हैं, सिमुलेटेड डेटा इनिशियलाइजेशन को छोड़ दें",
+  "@database_has_data": {
+    "description": "डेटाबेस में पहले से डेटा मौजूद है",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "संभवतः डेटाबेस संरचना मेल नहीं खाती है, सुझाव दिया जाता है कि एप्लिकेशन डेटा साफ़ करें या पुनः इंस्टाल करें",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "पुरानी डेटाबेस फ़ाइलें हटा दी गई हैं",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "बैकअप डेटा खाली है",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "बैकअप फ़ाइल मौजूद नहीं है",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "फ़ाइल एन्कोडिंग वैध UTF-8 फ़ॉर्मेट नहीं है। कृपया सुनिश्चित करें कि फ़ाइल UTF-8 एन्कोडिंग का उपयोग करके सहेजी गई है। त्रुटि विवरण: {error}",
+  "@file_not_utf8": {
+    "description": "फ़ाइल एन्कोडिंग त्रुटि",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "फ़ाइल मौजूद नहीं है: {filePath}",
+  "@file_not_found": {
+    "description": "फ़ाइल मौजूद नहीं है त्रुटि",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "फ़ाइल खाली है: {filePath}",
+  "@file_empty": {
+    "description": "फ़ाइल खाली है त्रुटि",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "फ़ाइल की सामग्री डिकोड करने के बाद खाली है, संभवतः एन्कोडिंग मेल नहीं खा रही है",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} खाली नहीं हो सकता",
+  "@field_cannot_be_empty": {
+    "description": "फ़ील्ड खाली नहीं हो सकता सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} की लंबाई {minLength} वर्णों से कम नहीं हो सकती",
+  "@field_min_length": {
+    "description": "फ़ील्ड न्यूनतम लंबाई सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} की लंबाई {maxLength} अक्षरों से अधिक नहीं हो सकती",
+  "@field_max_length": {
+    "description": "फ़ील्ड अधिकतम लंबाई सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "कृपया वैध {fieldName} पता दर्ज करें",
+  "@field_invalid_email": {
+    "description": "ईमेल फॉर्मेट सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} होना चाहिए {numberType}",
+  "@field_invalid_number": {
+    "description": "संख्यात्मक फ़ॉर्मेट सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} {min} से कम नहीं हो सकता",
+  "@field_min_value": {
+    "description": "न्यूनतम मान सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} {max} से बड़ा नहीं हो सकता",
+  "@field_max_value": {
+    "description": "अधिकतम मान सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} एक सकारात्मक पूर्णांक होना चाहिए",
+  "@field_positive_integer": {
+    "description": "सकारात्मक पूर्णांक सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} 0 से बड़ा होना चाहिए",
+  "@field_greater_than_zero": {
+    "description": "शून्य से बड़ा सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} लंबा होना चाहिए",
+  "@field_positive_number": {
+    "description": "सकारात्मक संख्या सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "कृपया वैध {fieldName} दर्ज करें",
+  "@field_invalid_date": {
+    "description": "तारीख़ प्रारूप सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} पिछली तारीख नहीं हो सकती",
+  "@field_date_not_past": {
+    "description": "तारीख़ अतीत में नहीं हो सकती",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} {minDate} से पहले नहीं हो सकता",
+  "@field_date_not_before": {
+    "description": "तारीख निर्दिष्ट तारीख से पहले नहीं हो सकती",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} {maxDate} से बाद नहीं हो सकता",
+  "@field_date_not_after": {
+    "description": "तारीख निर्दिष्ट तारीख से बाद नहीं हो सकती",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "कृपया वैध {fieldName} दर्ज करें",
+  "@field_invalid_value": {
+    "description": "अमान्य मूल्य सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} की लंबाई 8 अक्षरों से कम नहीं हो सकती",
+  "@password_min_length": {
+    "description": "पासवर्ड न्यूनतम लंबाई सत्यापन",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} में कम से कम एक बड़े अक्षर का होना अनिवार्य है",
+  "@password_uppercase_required": {
+    "description": "पासवर्ड में बड़े अक्षर शामिल होना चाहिए",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} में कम से कम एक छोटा अक्षर होना चाहिए",
+  "@password_lowercase_required": {
+    "description": "पासवर्ड में छोटे अक्षर शामिल होने चाहिए",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} में कम से कम एक संख्या शामिल होना आवश्यक है",
+  "@password_digit_required": {
+    "description": "पासवर्ड में अंक शामिल होने चाहिए",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} में कम से कम एक विशेष वर्ण शामिल होना चाहिए",
+  "@password_special_char_required": {
+    "description": "पासवर्ड में विशेष वर्ण शामिल होना चाहिए",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "दोनों बार दर्ज किया गया पासवर्ड मेल नहीं खाता",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "सामान का नाम खाली नहीं हो सकता",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "नाम {maxLength} वर्णों से अधिक नहीं हो सकता",
+  "@name_max_length": {
+    "description": "नाम अधिकतम लंबाई सत्यापन",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "संख्या {minQuantity} से कम नहीं हो सकती",
+  "@quantity_min": {
+    "description": "न्यूनतम मात्रा सत्यापन",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "संख्या {maxQuantity} से अधिक नहीं हो सकती",
+  "@quantity_max": {
+    "description": "सर्वाधिक संख्या सत्यापन",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "इकाई मूल्य ऋणात्मक नहीं हो सकता",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "एकाई मूल्य {maxUnitPrice} से अधिक नहीं हो सकता",
+  "@unit_price_max": {
+    "description": "इकाई मूल्य का अधिकतम मान सत्यापन",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "कृपया उत्पादन तिथि और शेल्फ लाइफ सेट करें ताकि वैधता स्वचालित रूप से गणना हो सके",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "कृपया वारंटी स्वचालित रूप से गणना करने के लिए खरीदारी की तिथि और शेल्फ जीवन सेट करें",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "कैलेंडर खाता नहीं बना सकता, कृपया सिस्टम कैलेंडर सेटिंग्स जांचें",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "परीक्षण सूचना",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "यह एक परीक्षण सूचना है, स्थानीय अनुस्मारक कार्यक्षमता को सत्यापित करने के लिए",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "आसमान",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} दिन",
+  "@days_with_value": {
+    "description": "दिनों के साथ पैरामीटर",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "सामान सहेजा गया है",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "सामान अपडेट किया गया है",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "सामान जोड़ दिया गया है",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "सफलतापूर्वक सहेजा गया",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "अपडेट सफल",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "हटाना सफल",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "सहेजने में विफल",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "अपडेट विफल",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "हटाना विफल हुआ",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "भाषा सेटिंग",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "ऐप की प्रदर्शनी भाषा सेट करें",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "सिस्टम डिफ़ॉल्ट",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "सिस्टम भाषा का उपयोग करें",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "भाषा परिवर्तन एप्लिकेशन को पुनः प्रारंभ करने के बाद लागू होगा",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "वर्तमान चयन: {days} दिन",
+  "@current_selection": {
+    "description": "वर्तमान में चयनित दिनों को दिखाएँ",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

@@ -1,0 +1,1625 @@
+{
+  "@@locale": "tr",
+  "app_name": "Eşyaları küçük alanda saklamak",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "İptal",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Tamam",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Kaydet",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Sil",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Düzenle",
+  "@edit": {
+    "description": ""
+  },
+  "add": "eklemek",
+  "@add": {
+    "description": ""
+  },
+  "search": "Ara",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Ayarlar",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Geri dön",
+  "@back": {
+    "description": ""
+  },
+  "next": "Sonraki adım",
+  "@next": {
+    "description": ""
+  },
+  "done": "Tamamlandı",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Yükleniyor...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Hata",
+  "@error": {
+    "description": ""
+  },
+  "success": "Başarı",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Uyarı",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Bilgi",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Hatırlatma günlerini seç",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Özelleştir",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Özelleştir ({days} gün)",
+  "@custom_days": {
+    "description": "Parametre ile özelleştirilmiş günler",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Hatırlatma gün aralığı: {min}-{max} gün",
+  "@alert_days_range": {
+    "description": "Parametre ile hatırlatma gün aralığı",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Lütfen hatırlatma günlerini girin",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Gün sayısı",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Lütfen {min}-{max} arasındaki sayıyı girin",
+  "@enter_valid_days": {
+    "description": "Gün sayısı giriş doğrulama mesajı",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Erken uyarı ayarları",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Takvim ayarları",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Takvim Senkronizasyonu",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Açtıktan sonra takvim izinleri istenecek",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Test takvimi etkinliği ekle",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Lütfen önce 'Takvim Senkronizasyonu' anahtarını açın",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Uygulama Bildirim Ayarları",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Yerel hatırlatma",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Açıldıktan sonra uygulama içi süresi dolmuş uyarılarını al",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Test bildirimini gönder",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Lütfen önce 'Yerel Bildirim' anahtarını açın",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Hatırlatma gün sayısı ayarı",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Önceden hatırlatma günleri",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Eşyaların son kullanma tarihini veya garanti süresinin bitişini kaç gün önceden hatırlatılacağını ayarlayın",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Takvim izin talebi",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Öğe hatırlatıcılarını senkronize etmek için takvim erişimine ihtiyaç vardır. İzin verilsin mi?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "izin vermek",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Takvim izinleri verildi, takvim senkronizasyonu açıldı",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Takvim izinleri reddedildi, takvim senkronizasyonu açılamıyor",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "İzin kalıcı olarak reddedildi",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Takvim izinleri kalıcı olarak reddedildi, lütfen sistem ayarlarından izinleri manuel olarak açın.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Ayarlar'a git",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Takvim izni verildi, ancak takvim hesabı oluşturulamıyor. Lütfen sistem takvim ayarlarını kontrol edin",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Takvim izinleri verildi, yerel takvim hesabı oluşturuldu",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Takvim hesabı başarıyla oluşturuldu, ancak sistemin etkinleşmesi biraz zaman alabilir",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Takvim etkinliği başarıyla eklendi",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Test takvimi etkinliği ekleme başarısız oldu, lütfen takvim ayarlarını kontrol edin",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Test etkinliği eklemek için takvim izinlerine ihtiyaç vardır",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Test bildirimi gönderildi",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Test bildirim gönderilemedi: {error}",
+  "@test_notification_failed": {
+    "description": "Hata mesajını bildirin",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Yerel hatırlatıcıyı etkinleştirmek için bildirim izni gerekir",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "İşlem başarısız: {error}",
+  "@operation_failed": {
+    "description": "Genel işlem hata mesajı",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Eşya Uyarı Bildirimi",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Ürün süresi doldu veya garanti süresini geçtiğinde uyarı",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Gıda",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Günlük kullanım eşyaları",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "kozmetik",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "İlaç",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Elektronik ürünler",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Mobilya",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Giyim",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Kitap",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Diğer",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Çevrimiçi mağaza",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Fiziksel mağaza",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "Süpermarket",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "özel mağaza",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "İkinci el pazarı",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Diğer",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Diğer",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Çevrimiçi mağaza",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Eşya Sınıflandırması",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Özelleştirilmiş Kategori",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Veri yedekleme",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Tüm verileri (resimler dahil) ZIP dosyası olarak yedekle",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Tüm verileri yedekle",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Yedekleme başarılı",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Yedekleme başarısız: {error}",
+  "@backup_failed": {
+    "description": "Yedekleme başarısız oldu hata mesajı",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Verileri geri yükle",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ZIP yedekleme dosyasından tüm verileri geri yükle",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Veri Dışa Aktarma",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "CSV, TXT, SQL formatında dışa aktar",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Veri İçe Aktar",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "CSV, TXT, SQL dosyalarından veri içe aktar",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Takvim hatırlatıcıları ve uygulama bildirim ayarları",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "hakkında",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Uygulama Bilgisi ve Sürüm",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Lütfen önce yedek dosyayı seçin",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Geri yüklemeyi onayla",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Yedekten geri yüklemek, mevcut tüm verileri silecek ve yedek verilerle değiştirecektir; bu işlem geri alınamaz. Devam etmek istediğinizden emin misiniz?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Tekrar onaylamak",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Tüm mevcut verileri silip yedeği geri yüklemek istediğinizden emin misiniz? Bu işlem geri alınamaz!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Geri yüklemeyi onayla",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Geri yükleme başarılı, toplam {count} öğe",
+  "@restore_success": {
+    "description": "Başarıyla geri yükleme mesajı",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Kurtarma başarısız: {error}",
+  "@restore_failed": {
+    "description": "Geri yükleme başarısız hata mesajı",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Yedek dosya seç",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Yedekten geri yükle",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Seçilen dosya: {filename}",
+  "@selected_file": {
+    "description": "Seçilen dosya mesajı",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Veri dışa aktarımı başarılı",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Dışa aktarma başarısız: {error}",
+  "@export_failed": {
+    "description": "Dışa aktarma başarısız oldu hata mesajı",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Tekrarlayan Veri İşleme",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Tekrarlanan veriler tespit edildi, lütfen işlem yöntemini seçin:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Atla",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "örtmek",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Hepsini atla",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Tam kapsama",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Lütfen önce içe aktarma formatını seçin",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "İçe aktarmayı onayla",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Veri içe aktarma mevcut verilerin üzerine yazacaktır, bu işlem geri alınamaz. Devam etmek istiyor musunuz?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Veri başarıyla içe aktarıldı, toplam {count} öğe aktarıldı",
+  "@import_success": {
+    "description": "İçe aktarma başarılı mesajı",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "İçe aktarma başarısız: {error}",
+  "@import_failed": {
+    "description": "İçe aktarma başarısız oldu hata mesajı",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Dosya Seç",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Veri yok",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Şu anda veri yok, ilk kaydı eklemek için aşağıdaki düğmeye tıklayın!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Yükleme başarısız",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Veri yüklemesi başarısız oldu, lütfen ağ bağlantınızı kontrol ettikten sonra tekrar deneyin",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Yeniden dene",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Ağ bağlantısı başarısız",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Lütfen internet bağlantınızı kontrol ettikten sonra tekrar deneyin",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Sonuç bulunamadı",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Başka anahtar kelimelerle aramayı deneyin",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Aramayı Temizle",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Yetersiz izin",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Bu özelliği kullanmak için ilgili izinlere ihtiyaç vardır",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "İzin iste",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Uygulama bilgileri",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "versiyon",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Geliştirici",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Cihaz bilgisi",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Cihaz Modeli",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Marka",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Cihaz adı",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "Ürün",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Donanım",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android sürümü",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK sürümü",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Sistem Adı",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Sistem sürümü",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Cihaz Tanımlayıcısı",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Bilgisayar Adı",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Sürüm numarası",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Cihaz bilgileri alınamıyor: {error}",
+  "@error_getting_device_info": {
+    "description": "Cihaz bilgisi alma hatası mesajı",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Fonksiyon Tanıtımı",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Akıllı Eşya Yönetim Uygulaması",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Eşyalarınızın son kullanma tarihi, garanti süresi gibi bilgilerini yönetmenize yardımcı olur ve akıllı hatırlatma özelliği sunar.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Tüketim malzemeleri",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Dayanıklı mal",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Sıralama",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Ada göre artan sırayla",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Ada göre azalan sırayla",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Tarih artan sırayla",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Tarihe göre azalan sırayla",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Birim fiyatına göre artan sırada",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Birim fiyatına göre azalan sırada",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Miktara göre artan sıra",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Miktara göre azalan sıra",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Toplam fiyata göre artan sıra",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Toplam Fiyat Azalan Sıralama",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Tüm filtreleri temizle",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Kod tarayarak depoya giriş",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Öğe ara...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Henüz öğe yok",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Aşağıdaki butona tıklayarak ilk öğeyi ekleyin",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Süresi dolmuş",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Yakında sona erecek",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Garanti süresi doldu",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Garanti süresi yakında sona erecek",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Kalan {count} gün",
+  "@days_remaining": {
+    "description": "Kalan gün sayısı ile parametre",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "{count} gün geçti",
+  "@expired_days_ago": {
+    "description": "Süre aşımı günleri ile parametre",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Öğeyi sil",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "“{name}” öğesini silmek istediğinizden emin misiniz?",
+  "@delete_item_confirm": {
+    "description": "Silme onay mesajı",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Öğe silindi",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Silme başarısız",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Öğe silinemiyor: {error}",
+  "@failed_to_delete_message": {
+    "description": "Hata mesajını sil",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Tarih aralığı filtresi",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Fiyat aralığı filtresi",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Benim eşyalarım",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Sağ alt köşedeki düğmeye tıklayarak öğe ekleyin",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Silmeyi onayla",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Filtreleme seçenekleri",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Öğeleri tür, kategori ve konuma göre filtreleyin",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} kategori",
+  "@categories_count": {
+    "description": "Kategori sayısı gösterimi",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Tüm Kategoriler",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Henüz kategori verisi yok",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Depolama yeri",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} yer",
+  "@locations_count": {
+    "description": "Yer sayısı gösterimi",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Tüm yerler",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Henüz konum verisi yok",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Tarih aralığı",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Tarih aralığını seç",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Fiyat aralığı",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Birim fiyat aralığı",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "En düşük birim fiyat",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "En yüksek birim fiyat",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Toplam fiyat aralığı",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "En düşük toplam fiyat",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "En yüksek toplam fiyat",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Fiyat filtresini temizle",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Barkodu taramak için kutuya yerleştirin",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Ürün zaten mevcut",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Barkod: {barcode}",
+  "@barcode_with_value": {
+    "description": "Barkod parametrelerle gösteriliyor",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "İsim: {name}",
+  "@name_with_value": {
+    "description": "Ad parametreyle gösteriliyor",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Kategori: {category}",
+  "@category_with_value": {
+    "description": "Parametreli kategori gösterimi",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Mevcut miktar: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Mevcut miktar parametre ile gösteriliyor",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Lütfen bir işlem seçin:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Depodan çıkış",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Depoya giriş",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Depoya giren miktar",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Çıkış Miktarı",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Miktar",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Lütfen stok giriş miktarını girin",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Lütfen çıkış miktarını girin",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "{name} {quantity}{unit} eklendi",
+  "@item_increased": {
+    "description": "Eşya ekleme mesajı",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "„{name}” öğesini silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Silme onay mesajı geri alınamaz uyarısı ile",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "{name} {quantity}{unit} azaltıldı",
+  "@item_decreased": {
+    "description": "Eşya azaldı mesajı",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Veritabanı sıfırlandı, tablo yapısı yeniden oluşturulacak",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Veritabanı sıfırlanırken hata oluştu: {error}",
+  "@database_reset_error": {
+    "description": "Veritabanı sıfırlama hatası",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Simülasyon verisi başlatılamadı: {error}",
+  "@mock_data_init_failed": {
+    "description": "Simülasyon verisi başlatılamadı",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Çözüm:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Uygulamayı kaldırıp yeniden yükleyin",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Veya uygulama verilerini temizle",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Veya resetDatabaseOnStart değerini true yapıp yeniden çalıştırın",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Hatırlatma hizmeti başlatılamadı: {error}",
+  "@notification_service_init_failed": {
+    "description": "Bildirim hizmeti başlatılamadı",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Takvim hesabı kontrolü başarısız oldu: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Takvim hesabı kontrolü başarısız",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Takvim oluşturulamadı: {error}",
+  "@create_calendar_failed": {
+    "description": "Takvim oluşturma başarısız",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Takvim etkinliği ekleme başarısız oldu: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Takvim etkinliği ekleme başarısız oldu",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Takvim etkinliği silinemedi: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Takvim etkinliği silme başarısız",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "İzin uyarı mesajı ayarlanamadı: {error}",
+  "@set_permission_message_failed": {
+    "description": "İzin bildirim mesajını ayarlama başarısız oldu",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "{count} adet simüle edilmiş veri başarıyla başlatıldı",
+  "@mock_data_init_success": {
+    "description": "Simülasyon verileri başarıyla başlatıldı",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Veritabanında zaten {count} veri var, simülasyon veri başlatmayı atla",
+  "@database_has_data": {
+    "description": "Veritabanında zaten veri var",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Muhtemelen veritabanı yapısı uyumsuz, uygulama verilerini temizlemeniz veya yeniden yüklemeniz önerilir",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Eski veritabanı dosyası silindi",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Yedekleme verisi boş",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Yedek dosya mevcut değil",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Dosya kodlaması geçerli bir UTF-8 formatında değil. Lütfen dosyanın UTF-8 kodlamasıyla kaydedildiğinden emin olun. Hata ayrıntıları: {error}",
+  "@file_not_utf8": {
+    "description": "Dosya kodlaması hatası",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Dosya mevcut değil: {filePath}",
+  "@file_not_found": {
+    "description": "Dosya mevcut değil hatası",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Dosya boş: {filePath}",
+  "@file_empty": {
+    "description": "Dosya boş hatası",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Dosya içeriği çözüldükten sonra boş, muhtemelen kodlama uyumsuz.",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} boş olamaz",
+  "@field_cannot_be_empty": {
+    "description": "Alan boş olamaz doğrulaması",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} uzunluğu {minLength} karakterden az olamaz",
+  "@field_min_length": {
+    "description": "Alan minimum uzunluk doğrulaması",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} uzunluğu {maxLength} karakteri geçemez",
+  "@field_max_length": {
+    "description": "Alan Maksimum Uzunluk Doğrulaması",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Lütfen geçerli bir {fieldName} adresi girin",
+  "@field_invalid_email": {
+    "description": "E-posta formatı doğrulama",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName}, {numberType} olmalıdır",
+  "@field_invalid_number": {
+    "description": "Sayısal format doğrulaması",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} {min}'den küçük olamaz",
+  "@field_min_value": {
+    "description": "Minimum değer doğrulama",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} {max}'den büyük olamaz",
+  "@field_max_value": {
+    "description": "Maksimum değer doğrulaması",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} pozitif bir tam sayı olmalıdır",
+  "@field_positive_integer": {
+    "description": "Pozitif tam sayı doğrulaması",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} 0'dan büyük olmalı",
+  "@field_greater_than_zero": {
+    "description": "Sıfırdan büyük doğrulama",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} pozitif bir sayı olmalıdır",
+  "@field_positive_number": {
+    "description": "Pozitif sayı doğrulama",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Lütfen geçerli bir {fieldName} girin",
+  "@field_invalid_date": {
+    "description": "Tarih formatı doğrulaması",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} geçmiş bir tarih olamaz",
+  "@field_date_not_past": {
+    "description": "Tarih geçmişte olamaz",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} {minDate}'den önce olamaz",
+  "@field_date_not_before": {
+    "description": "Tarih belirtilen tarihten önce olamaz",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} {maxDate}'den daha geç olamaz",
+  "@field_date_not_after": {
+    "description": "Tarih belirtilen tarihten sonra olamaz",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Lütfen geçerli bir {fieldName} girin",
+  "@field_invalid_value": {
+    "description": "Geçersiz değer doğrulaması",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} uzunluğu 8 karakterden az olamaz",
+  "@password_min_length": {
+    "description": "Parola minimum uzunluk doğrulaması",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} en az bir büyük harf içermelidir",
+  "@password_uppercase_required": {
+    "description": "Şifre büyük harf içermelidir",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} en az bir küçük harf içermelidir",
+  "@password_lowercase_required": {
+    "description": "Şifre küçük harfler içermelidir",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} en az bir rakam içermelidir",
+  "@password_digit_required": {
+    "description": "Şifre rakam içermelidir",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} en az bir özel karakter içermelidir",
+  "@password_special_char_required": {
+    "description": "Şifre özel karakterler içermelidir",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "İki kez girilen şifre eşleşmiyor",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Ürün adı boş olamaz",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "İsim {maxLength} karakteri geçemez",
+  "@name_max_length": {
+    "description": "İsim maksimum uzunluk doğrulaması",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Miktar {minQuantity}'den az olamaz",
+  "@quantity_min": {
+    "description": "Minimum miktar doğrulaması",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Miktar {maxQuantity}'u geçemez",
+  "@quantity_max": {
+    "description": "Maksimum miktar doğrulaması",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Birim fiyat negatif olamaz",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Birim fiyat {maxUnitPrice}'ı geçemez",
+  "@unit_price_max": {
+    "description": "Birim Fiyat Maksimum Değer Doğrulaması",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Lütfen geçerlilik süresini otomatik olarak hesaplamak için üretim tarihini ve raf ömrünü ayarlayın",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Lütfen garanti süresini otomatik hesaplamak için satın alma tarihini ve raf ömrünü ayarlayın",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Takvim hesabı oluşturulamıyor, lütfen sistem takvim ayarlarını kontrol edin",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Test bildirimi",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Bu bir test bildirimidir ve yerel hatırlatıcı işlevini doğrulamak için kullanılır.",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "gökyüzü",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} gün",
+  "@days_with_value": {
+    "description": "Gün sayısı parametre ile",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Öğe kaydedildi",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Öğe güncellendi",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Öğe eklendi",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Kaydetme başarılı",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Güncelleme başarılı",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Silme başarılı",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Kaydetme başarısız",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Güncelleme başarısız",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Silme başarısız",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Dil Ayarları",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Uygulama görüntüleme dilini ayarla",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Sistem varsayılanı",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Sistem dilini kullan",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Dil değişikliği, uygulama yeniden başlatıldığında geçerli olacaktır",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Şu anda seçilen: {days} gün",
+  "@current_selection": {
+    "description": "Mevcut seçilen gün sayısını göster",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

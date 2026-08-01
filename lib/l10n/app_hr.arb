@@ -1,0 +1,1625 @@
+{
+  "@@locale": "hr",
+  "app_name": "Sakriveni kutak",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Otkaži",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Potvrdi",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Spremi",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Izbriši",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Uredi",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Dodaj",
+  "@add": {
+    "description": ""
+  },
+  "search": "Pretraži",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Postavke",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Povratak",
+  "@back": {
+    "description": ""
+  },
+  "next": "Sljedeći korak",
+  "@next": {
+    "description": ""
+  },
+  "done": "dovršiti",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Učitavanje...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "pogreška",
+  "@error": {
+    "description": ""
+  },
+  "success": "uspjeh",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Upozorenje",
+  "@warning": {
+    "description": ""
+  },
+  "info": "informacije",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Odaberite broj dana za podsjetnik",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Prilagođeno",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Prilagođeno ({days} dana)",
+  "@custom_days": {
+    "description": "Prilagođeni broj dana s parametrima",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Raspon dana za podsjetnik: {min}-{max} dana",
+  "@alert_days_range": {
+    "description": "Podsjetnik raspona dana s parametrima",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Molimo unesite broj dana za podsjetnik",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "dani",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Unesite broj između {min} i {max}",
+  "@enter_valid_days": {
+    "description": "Poruka za provjeru unosa broja dana",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Postavke upozorenja",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Postavke kalendara",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Sinkronizacija kalendara",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Nakon uključivanja bit će zatražena dopuštenja za kalendar",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Dodaj testni kalendarski događaj",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Molimo prvo uključite prekidač 'Sinkronizacija kalendara'",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Postavke obavijesti aplikacije",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Lokalni podsjetnik",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Nakon uključivanja primajte podsjetnike o isteku unutar aplikacije",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Pošalji testnu obavijest",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Molimo prvo uključite prekidač 'Lokalna podsjetnika'",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Postavke dana podsjetnika",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Broj dana unaprijed za podsjetnik",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Postavite koliko dana unaprijed podsjetiti na isteka robe ili jamstva",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Zahtjev za dopuštenje kalendara",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Potrebna je dozvola za pristup kalendaru kako bi se sinkronizirala podsjetnika za stavke. Dozvoljavate li?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "dopustiti",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Dozvola za kalendar je dodijeljena, sinkronizacija kalendara je uključena",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Pristup kalendaru je odbijen, nije moguće omogućiti sinkronizaciju kalendara",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Dozvola je trajno odbijena",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Dozvola za kalendar je trajno odbijena, molimo ručno omogućite dozvolu u postavkama sustava.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Idi na postavke",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Pristup kalendaru je omogućen, ali nije moguće stvoriti kalendarski račun. Molimo provjerite postavke kalendara sustava",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Pristup kalendaru je odobren, lokalni kalendarski račun je kreiran",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Kalendar račun je uspješno kreiran, ali sustavu može trebati neko vrijeme da stupi na snagu",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Testiranje dodavanja kalendarskog događaja uspješno",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Dodavanje testnog događaja u kalendar nije uspjelo, provjerite postavke kalendara",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Potrebne su dozvole kalendara za dodavanje testnog događaja",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Test obavijest je poslana",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Slanje testne obavijesti nije uspjelo: {error}",
+  "@test_notification_failed": {
+    "description": "Obavijesti o pogrešci",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Potrebna su dopuštenja za obavijesti da bi se omogućili lokalni podsjetnici",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Operacija nije uspjela: {error}",
+  "@operation_failed": {
+    "description": "Opća poruka o pogrešci operacije",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Obavijest o upozorenju za predmet",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Podsjetnik za istekao ili istekao rok trajanja proizvoda",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Hrana",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Dnevni potrošački proizvodi",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "kozmetika",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Lijek",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Elektronički proizvodi",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "namještaj",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Odjeća",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "knjige",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Ostalo",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Online trgovina",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "fizička trgovina",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "supermarket",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "specijalizirana trgovina",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "tržište rabljenih stvari",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Ostalo",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Ostalo",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Online trgovina",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Klasifikacija predmeta",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Prilagođena kategorija",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Sigurnosna kopija podataka",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Spakirati sve podatke (uključujući slike) u ZIP datoteku za sigurnosnu kopiju",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Napravite sigurnosnu kopiju svih podataka",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Sigurnosna kopija uspješna",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Sigurnosna kopija nije uspjela: {error}",
+  "@backup_failed": {
+    "description": "Poruka o pogrešci pri izradi sigurnosne kopije",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Oporavak podataka",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Vratite sve podatke iz ZIP sigurnosne kopije",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Izvezi podatke",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Izvezi kao CSV, TXT, SQL format",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Uvezi podatke",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Uvoz podataka iz CSV, TXT, SQL datoteka",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Postavke podsjetnika u kalendaru i obavijesti aplikacija",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "O",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Informacije o aplikaciji i verziji",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Molimo prvo odaberite sigurnosnu kopiju",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Potvrdi oporavak",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Obnavljanje sigurnosne kopije izbrisat će sve postojeće podatke i zamijeniti ih podacima iz sigurnosne kopije, ova radnja se ne može poništiti. Jeste li sigurni da želite nastaviti?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Ponovno potvrditi",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Jeste li sigurni da želite obrisati sve postojeće podatke i vratiti sigurnosnu kopiju? Ova radnja se ne može opozvati!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Potvrdi oporavak",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Obnova uspješna, ukupno {count} stavki",
+  "@restore_success": {
+    "description": "Poruka o uspješnom oporavku",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Obnavljanje nije uspjelo: {error}",
+  "@restore_failed": {
+    "description": "Pogreška pri oporavku",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Odaberite datoteku sigurnosne kopije",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Obnova sigurnosne kopije",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Odabrana datoteka: {filename}",
+  "@selected_file": {
+    "description": "Odabrana poruka datoteke",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Podaci su uspješno izvezeni",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Izvoz neuspješan: {error}",
+  "@export_failed": {
+    "description": "Poruka o pogrešci pri izvozu",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Obrada dupliciranih podataka",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Otkriveni su duplikati podataka, molimo odaberite način obrade:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Preskoči",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "pokriti",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Preskoči sve",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Potpuno pokriven",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Molimo prvo odaberite format uvoza",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Potvrdi uvoz",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Uvoz podataka će prebrisati postojeće podatke, ova radnja se ne može poništiti. Jeste li sigurni da želite nastaviti?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Podaci su uspješno uvezeni, ukupno je uvezeno {count} predmeta",
+  "@import_success": {
+    "description": "Poruka o uspješnom uvozu",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Uvoz nije uspio: {error}",
+  "@import_failed": {
+    "description": "Poruka o pogrešci pri neuspjelom uvozu",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Odaberite datoteku",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Nema podataka",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Trenutno nema podataka, kliknite donji gumb za dodavanje prve stavke!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Učitavanje nije uspjelo",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Učitavanje podataka nije uspjelo, provjerite mrežnu vezu i pokušajte ponovno",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Pokušaj ponovno",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Veza s mrežom nije uspjela",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Molimo provjerite mrežnu vezu i pokušajte ponovo",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Nisu pronađeni rezultati",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Pokušajte pretraživati koristeći druge ključne riječi",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Očisti pretragu",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Nedostatak ovlasti",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Potrebna su odgovarajuća dopuštenja za korištenje ove funkcije",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Zatraži dopuštenje",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Informacije o aplikaciji",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "verzija",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Programer",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Informacije o uređaju",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Model uređaja",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "brand",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Naziv uređaja",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "proizvod",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "hardver",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Verzija Androida",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Verzija SDK-a",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Naziv sustava",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Verzija sustava",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Oznaka uređaja",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Naziv računala",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Verzija",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Ne mogu dohvatiti informacije o uređaju: {error}",
+  "@error_getting_device_info": {
+    "description": "Pogreška pri dobivanju informacija o uređaju",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Predstavljanje funkcija",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Aplikacija za upravljanje pametnim predmetima",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Pomaže vam upravljati datumima isteka roka trajanja, datumima jamstva i drugim informacijama, te pruža funkciju pametnog podsjetnika.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Potrošni materijal",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Dugotrajna roba",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Sortiranje",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Naziv uzlazno",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Naziv silazno",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Rastući redoslijed datuma",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Datum silaznim redoslijedom",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Cijena po jedinici uzlazno",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Jedinična cijena opadajuće",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Rastući redoslijed po količini",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Opadajući redoslijed po količini",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Ukupna cijena uzlazno",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Ukupna cijena opadajućim redoslijedom",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Očisti sve filtre",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Skeniraj kod za unos u skladište",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Traži predmete...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Trenutno nema predmeta",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Kliknite donji gumb za dodavanje prvog predmeta",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Isteklo",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Uskoro istječe",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Jamstvo je isteklo",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Jamstvo uskoro istječe",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Preostalo {count} dana",
+  "@days_remaining": {
+    "description": "Preostali dani s parametrima",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Isteklo {count} dana",
+  "@expired_days_ago": {
+    "description": "Broj dana isteka s parametrima",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Izbriši predmet",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Jeste li sigurni da želite izbrisati \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "Poruka za potvrdu brisanja",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Predmet je izbrisan",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Brisanje nije uspjelo",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Ne mogu izbrisati predmet: {error}",
+  "@failed_to_delete_message": {
+    "description": "Izbriši poruku o pogrešci",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Filtar po rasponu datuma",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Filtriranje po cjenovnom rasponu",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Moje stvari",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Kliknite gumb u donjem desnom kutu za dodavanje predmeta",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Potvrdi brisanje",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Filtar opcije",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Filtrirajte stavke prema vrsti, kategoriji i lokaciji",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} kategorija",
+  "@categories_count": {
+    "description": "Prikaz broja po kategorijama",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Sve kategorije",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Trenutno nema podataka o kategorijama",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Mjesto pohrane",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} mjesta",
+  "@locations_count": {
+    "description": "Broj lokacija prikazan",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Sva mjesta",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Trenutno nema podataka o lokaciji",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Raspon datuma",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Odaberite raspon datuma",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Cjenovni raspon",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Raspon cijena po jedinici",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Najniža cijena po jedinici",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Najviša jedinična cijena",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Raspon ukupne cijene",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Najniža ukupna cijena",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Najviša ukupna cijena",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Očisti filtriranje cijena",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Stavite barkod unutar okvira za skeniranje",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Proizvod već postoji",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Barkod: {barcode}",
+  "@barcode_with_value": {
+    "description": "Prikaz crtičnog koda s parametrima",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Naziv: {name}",
+  "@name_with_value": {
+    "description": "Prikaz naziva s parametrima",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Kategorija: {category}",
+  "@category_with_value": {
+    "description": "Prikaz kategorija s parametrima",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Trenutna količina: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Trenutni broj prikazuje s parametrima",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Odaberite radnju:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "izlazak iz skladišta",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Unos u skladište",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Količina u skladištu",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Količina izlaska iz skladišta",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "količina",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Molimo unesite količinu za skladištenje",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Molimo unesite količinu za otpremu",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Dodano je {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "Poruka o povećanju predmeta",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Jeste li sigurni da želite izbrisati „{name}“? Ova operacija se ne može poništiti.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Poruka za potvrdu brisanja s upozorenjem da se ne može opozvati",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Smanjeno za {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Poruka o smanjenju predmeta",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Baza podataka je resetirana, tablice će biti ponovno kreirane",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Pogreška pri resetiranju baze podataka: {error}",
+  "@database_reset_error": {
+    "description": "Pogreška pri resetiranju baze podataka",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Inicijalizacija simuliranih podataka nije uspjela: {error}",
+  "@mock_data_init_failed": {
+    "description": "Inicijalizacija simuliranih podataka nije uspjela",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Rješenje:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Deinstalirajte aplikaciju i ponovno je instalirajte",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Ili očistite podatke aplikacije",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Ili postavite resetDatabaseOnStart na true i zatim ponovno pokrenite",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Inicijalizacija usluge podsjetnika nije uspjela: {error}",
+  "@notification_service_init_failed": {
+    "description": "Inicijalizacija usluge obavijesti nije uspjela",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Neuspjelo provjeravanje kalendarskog računa: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Provjera računa kalendara nije uspjela",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Neuspjelo stvaranje kalendara: {error}",
+  "@create_calendar_failed": {
+    "description": "Neuspjelo stvaranje kalendara",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Dodavanje događaja u kalendar nije uspjelo: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Dodavanje događaja u kalendar nije uspjelo",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Neuspjelo brisanje događaja u kalendaru: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Brisanje kalendarskog događaja nije uspjelo",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Neuspjelo postavljanje poruke s uputama o dopuštenjima: {error}",
+  "@set_permission_message_failed": {
+    "description": "Postavljanje poruke o dopuštenju nije uspjelo",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Uspješno je inicijalizirano {count} simuliranih podataka",
+  "@mock_data_init_success": {
+    "description": "Inicijalizacija simuliranih podataka uspješna",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Baza podataka već sadrži {count} zapisa, preskočite inicijalizaciju simuliranih podataka",
+  "@database_has_data": {
+    "description": "Baza podataka već ima podatke",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Moguće je da struktura baze podataka nije kompatibilna, preporučuje se čišćenje podataka aplikacije ili ponovno instaliranje",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Stare datoteke baze podataka su izbrisane",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Podaci sigurnosne kopije su prazni",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Sigurnosna kopija datoteke ne postoji",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Kodiranje datoteke nije valjani UTF-8 format. Provjerite je li datoteka spremljena u UTF-8 kodiranju. Detalji pogreške: {error}",
+  "@file_not_utf8": {
+    "description": "Pogreška kodiranja datoteke",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Datoteka ne postoji: {filePath}",
+  "@file_not_found": {
+    "description": "Greška: datoteka ne postoji",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Datoteka je prazna: {filePath}",
+  "@file_empty": {
+    "description": "Pogreška: datoteka je prazna",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Sadržaj datoteke je prazan nakon dekodiranja, moguće je da kodiranje ne odgovara",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} ne smije biti prazno",
+  "@field_cannot_be_empty": {
+    "description": "Polje ne smije biti prazno",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} duljina ne smije biti manja od {minLength} znakova",
+  "@field_min_length": {
+    "description": "Provjera minimalne duljine polja",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} ne smije imati više od {maxLength} znakova",
+  "@field_max_length": {
+    "description": "Provjera maksimalne duljine polja",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Molimo unesite važeću {fieldName} adresu",
+  "@field_invalid_email": {
+    "description": "Provjera formata e-pošte",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} mora biti {numberType}",
+  "@field_invalid_number": {
+    "description": "Validacija brojevnog formata",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} ne može biti manji od {min}",
+  "@field_min_value": {
+    "description": "Provjera minimalne vrijednosti",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} ne može biti veće od {max}",
+  "@field_max_value": {
+    "description": "Validacija maksimalne vrijednosti",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} mora biti pozitivan cijeli broj",
+  "@field_positive_integer": {
+    "description": "Provjera pozitivnih cijelih brojeva",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} mora biti veće od 0",
+  "@field_greater_than_zero": {
+    "description": "Provjera veće od nule",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} mora biti pozitivan broj",
+  "@field_positive_number": {
+    "description": "Provjera pozitivnog broja",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Unesite valjani {fieldName}",
+  "@field_invalid_date": {
+    "description": "Provjera formata datuma",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} ne može biti datum iz prošlosti",
+  "@field_date_not_past": {
+    "description": "Datum ne može biti u prošlosti",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} ne može biti prije {minDate}",
+  "@field_date_not_before": {
+    "description": "Datum ne može biti raniji od određenog datuma",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} ne može biti kasnije od {maxDate}",
+  "@field_date_not_after": {
+    "description": "Datum ne može biti kasniji od navedenog datuma",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Unesite valjani {fieldName}",
+  "@field_invalid_value": {
+    "description": "Provjera nevažećih vrijednosti",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} duljina ne može biti manja od 8 znakova",
+  "@password_min_length": {
+    "description": "Provjera minimalne duljine lozinke",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} mora sadržavati barem jedno veliko slovo",
+  "@password_uppercase_required": {
+    "description": "Lozinka mora sadržavati veliko slovo",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} mora sadržavati barem jedno malo slovo",
+  "@password_lowercase_required": {
+    "description": "Lozinka mora sadržavati mala slova",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} mora sadržavati barem jednu brojku",
+  "@password_digit_required": {
+    "description": "Lozinka mora sadržavati broj",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} mora sadržavati barem jedan poseban znak",
+  "@password_special_char_required": {
+    "description": "Lozinka mora sadržavati posebne znakove",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Lozinke unesene dvaput se ne podudaraju",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Naziv predmeta ne smije biti prazan",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Naziv ne može imati više od {maxLength} znakova",
+  "@name_max_length": {
+    "description": "Provjera maksimalne duljine naziva",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Količina ne može biti manja od {minQuantity}",
+  "@quantity_min": {
+    "description": "Provjera minimalne količine",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Količina ne smije prelaziti {maxQuantity}",
+  "@quantity_max": {
+    "description": "Provjera maksimalne količine",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Jedinična cijena ne smije biti negativna",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Jedinična cijena ne smije prelaziti {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "Provjera maksimalne jedinicne cijene",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Molimo postavite datum proizvodnje i rok trajanja kako biste automatski izračunali valjanost",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Molimo postavite datum kupnje i rok trajanja kako bi se automatski izračunao jamstveni rok",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Ne mogu se stvoriti računi kalendara, provjerite postavke sistemskog kalendara",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Test obavijest",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Ovo je testna obavijest za provjeru funkcije lokalnog podsjetnika",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "nebo",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} dan",
+  "@days_with_value": {
+    "description": "Dani s parametrima",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Predmet je spremljen",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Predmet je ažuriran",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Predmet je dodan",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Spremanje uspješno",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Ažuriranje uspješno",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Uspješno izbrisano",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Spremanje nije uspjelo",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Ažuriranje nije uspjelo",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Brisanje nije uspjelo",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Postavke jezika",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Postavi jezik prikaza aplikacije",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Zadano sustava",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Koristi jezik sustava",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Promjena jezika stupit će na snagu nakon ponovnog pokretanja aplikacije",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Trenutni odabir: {days} dana",
+  "@current_selection": {
+    "description": "Trenutno odabrani dani prikazani",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

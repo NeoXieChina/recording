@@ -52,7 +52,7 @@ class AboutScreen extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverAppBar.large(
-            title: Text(l10n.about, style: theme.textTheme.titleLarge),
+            title: Text(l10n.about),
             leading: IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),

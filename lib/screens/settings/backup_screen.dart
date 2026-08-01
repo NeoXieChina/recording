@@ -82,7 +82,7 @@ class _BackupScreenState extends State<BackupScreen> {
       body: CustomScrollView(
         slivers: [
           SliverAppBar.large(
-            title: Text(l10n.backup_data, style: theme.textTheme.titleLarge),
+            title: Text(l10n.backup_data),
             leading: IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),

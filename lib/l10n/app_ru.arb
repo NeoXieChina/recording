@@ -1,0 +1,1625 @@
+{
+  "@@locale": "ru",
+  "app_name": "Сокровища в ладони",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Отменить",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Подтвердить",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Сохранить",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Удалить",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Редактировать",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Добавить",
+  "@add": {
+    "description": ""
+  },
+  "search": "поиск",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Настройка",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Возврат",
+  "@back": {
+    "description": ""
+  },
+  "next": "Следующий шаг",
+  "@next": {
+    "description": ""
+  },
+  "done": "Завершено",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Загрузка...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "ошибка",
+  "@error": {
+    "description": ""
+  },
+  "success": "успех",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Предупреждение",
+  "@warning": {
+    "description": ""
+  },
+  "info": "информация",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Выбрать количество дней для напоминания",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Настройка",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Пользовательский ({days} дней)",
+  "@custom_days": {
+    "description": "Настраиваемое количество дней с параметром",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Диапазон дней напоминания: {min}-{max} дней",
+  "@alert_days_range": {
+    "description": "Диапазон дней напоминания с параметрами",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Пожалуйста, введите количество дней напоминания",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "дни",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Пожалуйста, введите число между {min} и {max}",
+  "@enter_valid_days": {
+    "description": "Сообщение проверки ввода количества дней",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Настройка предупреждений",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Настройки календаря",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Синхронизация календаря",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "После включения будет запрошен доступ к календарю",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Добавить событие календаря для теста",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Пожалуйста, сначала включите переключатель «Синхронизация календаря»",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Настройки уведомлений приложения",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Местное напоминание",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Включите, чтобы получать уведомления о просрочке в приложении",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Отправить тестовое уведомление",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Пожалуйста, сначала включите переключатель «Местные напоминания»",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Настройка количества дней для напоминания",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Количество дней предварительного уведомления",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Настроить, за сколько дней заранее напоминать о истечении срока годности или гарантии товара",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Запрос разрешения на календарь",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Необходим доступ к календарю для синхронизации напоминаний о предметах. Разрешить?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "разрешать",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Разрешение на доступ к календарю предоставлено, синхронизация календаря включена",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Доступ к календарю был отклонен, невозможно включить синхронизацию календаря",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Доступ навсегда запрещен",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Разрешение на календарь было навсегда отклонено, пожалуйста, включите разрешение вручную в настройках системы.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Перейти в настройки",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Разрешение на календарь предоставлено, но создать учетную запись календаря невозможно. Пожалуйста, проверьте настройки системного календаря.",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Разрешение на доступ к календарю предоставлено, локальная учетная запись календаря создана",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Календарная учетная запись успешно создана, но системе может потребоваться некоторое время для вступления в силу",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Тестовое событие календаря успешно добавлено",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Не удалось добавить событие в тестовый календарь, пожалуйста, проверьте настройки календаря",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Требуются разрешения на календарь для добавления тестового события",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Тестовое уведомление отправлено",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Не удалось отправить тестовое уведомление: {error}",
+  "@test_notification_failed": {
+    "description": "Уведомление об ошибке",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Требуется разрешение на уведомления, чтобы включить локальные напоминания",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Операция не удалась: {error}",
+  "@operation_failed": {
+    "description": "Общее сообщение об ошибке операции",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Уведомление о предупреждении о товаре",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Напоминание об истечении срока годности или гарантии товара",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "продукты питания",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "предметы повседневного обихода",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "косметика",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "лекарство",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "электронные продукты",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "мебель",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Одежда",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "книги",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "другое",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "онлайн-магазин",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Физический магазин",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "супермаркет",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "фирменный магазин",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "рынок подержанных товаров",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "другое",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "другой",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "онлайн-магазин",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Категория предметов",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Пользовательская категория",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Резервное копирование данных",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Собрать все данные (включая изображения) в ZIP-файл для резервного копирования",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Резервное копирование всех данных",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Резервное копирование успешно",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Резервное копирование не удалось: {error}",
+  "@backup_failed": {
+    "description": "Сообщение об ошибке резервного копирования",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Восстановить данные",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Восстановить все данные из ZIP-резервной копии",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Экспорт данных",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Экспорт в формате CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Импорт данных",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Импорт данных из файлов CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Настройки напоминаний календаря и уведомлений приложений",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "О",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Информация о приложении и версия",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Пожалуйста, сначала выберите файл резервной копии",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Подтвердить восстановление",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Восстановление резервной копии очистит все существующие данные и заменит их данными из резервной копии. Эта операция необратима. Вы уверены, что хотите продолжить?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Снова подтвердить",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Вы уверены, что хотите очистить все существующие данные и восстановить резервную копию? Эта операция не подлежит восстановлению!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Подтвердить восстановление",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Восстановление успешно, всего {count} предметов",
+  "@restore_success": {
+    "description": "Сообщение об успешном восстановлении",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Восстановление не удалось: {error}",
+  "@restore_failed": {
+    "description": "Ошибка восстановления неудачна",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Выбрать файл резервной копии",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Восстановить резервную копию",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Выбран файл: {filename}",
+  "@selected_file": {
+    "description": "Выбранный файл сообщения",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Данные успешно экспортированы",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Экспорт не удался: {error}",
+  "@export_failed": {
+    "description": "Ошибка при экспорте",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Обработка повторяющихся данных",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Обнаружены повторяющиеся данные, пожалуйста, выберите способ обработки:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Пропустить",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "покрытие",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Пропустить всё",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Полное покрытие",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Пожалуйста, сначала выберите формат импорта",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Подтвердить импорт",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Импорт данных перезапишет существующие данные, эта операция необратима. Вы действительно хотите продолжить?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Данные успешно импортированы, всего импортировано {count} предметов",
+  "@import_success": {
+    "description": "Сообщение об успешном импорте",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Импорт не удался: {error}",
+  "@import_failed": {
+    "description": "Ошибка при импорте",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Выбрать файл",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Нет данных",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "В данный момент нет данных, нажмите кнопку ниже, чтобы добавить первую запись!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Ошибка загрузки",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Не удалось загрузить данные, пожалуйста, проверьте сетевое соединение и попробуйте снова",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Повторить попытку",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Сбой сетевого подключения",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Пожалуйста, проверьте подключение к сети и попробуйте снова",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Результаты не найдены",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Попробуйте поиск с другими ключевыми словами",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Очистить поиск",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Недостаточно прав",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Для использования этой функции требуется соответствующее разрешение",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Запрос разрешения",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Информация о приложении",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "версия",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Разработчик",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Информация об устройстве",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Модель устройства",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "бренд",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Название устройства",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "продукт",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Аппаратное обеспечение",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Версия Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Версия SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "название системы",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Версия системы",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Идентификатор устройства",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Имя компьютера",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Номер версии",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Не удалось получить информацию об устройстве: {error}",
+  "@error_getting_device_info": {
+    "description": "Сообщение об ошибке получения информации об устройстве",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Описание функций",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Приложение для управления умными предметами",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Помогает вам управлять сроками годности предметов, сроками гарантии и другой информацией, а также предоставляет функцию умных напоминаний.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "расходные материалы",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "товары длительного пользования",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "сортировка",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "По возрастанию названия",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Сортировка по имени по убыванию",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "по возрастанию даты",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Дата по убыванию",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "по возрастанию цены за единицу",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "по убыванию цены за единицу",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "по возрастанию количества",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "по убыванию количества",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "По возрастанию общей цены",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Общая цена по убыванию",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Очистить все фильтры",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Сканировать код для поступления на склад",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Поиск предмета...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Нет предметов",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Нажмите кнопку ниже, чтобы добавить первый предмет",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Просрочено",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Скоро истечет",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Гарантия истекла",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Гарантия скоро истекает",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Осталось {count} дней",
+  "@days_remaining": {
+    "description": "Оставшиеся дни с параметрами",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Просрочено на {count} дней",
+  "@expired_days_ago": {
+    "description": "Количество дней просрочки с параметрами",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Удалить предмет",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Вы уверены, что хотите удалить \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "Сообщение подтверждения удаления",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Предмет удалён",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Удаление не удалось",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Невозможно удалить предмет: {error}",
+  "@failed_to_delete_message": {
+    "description": "Удалить сообщение об ошибке",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Фильтр по диапазону дат",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Фильтр по диапазону цен",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Мои вещи",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Нажмите кнопку в правом нижнем углу, чтобы добавить предмет",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Подтвердить удаление",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Фильтровать варианты",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Фильтровать предметы по типу, категории и местоположению",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} категорий",
+  "@categories_count": {
+    "description": "Показать количество по категориям",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Все категории",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Нет данных по категориям",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "место хранения",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} мест",
+  "@locations_count": {
+    "description": "Количество мест",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Все места",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Нет данных о местоположении",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Диапазон дат",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Выбрать диапазон дат",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Ценовой диапазон",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Диапазон цен за единицу",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "минимальная цена за единицу",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Максимальная цена за единицу",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Диапазон общей цены",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Минимальная общая цена",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Максимальная общая цена",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Очистить фильтр цены",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Поместите штрихкод в рамку для сканирования",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Товар уже существует",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Штрихкод: {barcode}",
+  "@barcode_with_value": {
+    "description": "Штрихкод с отображением параметров",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Название: {name}",
+  "@name_with_value": {
+    "description": "Название отображается с параметрами",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Категория: {category}",
+  "@category_with_value": {
+    "description": "Показать по категориям с параметрами",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Текущее количество: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Текущее количество отображается с параметрами",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Пожалуйста, выберите действие:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "выезд со склада",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "в склад",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Количество на складе",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Количество отгрузки",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "количество",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Пожалуйста, введите количество для поступления на склад",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Пожалуйста, введите количество для отгрузки",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Добавлено {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "Сообщение о добавлении предмета",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Вы уверены, что хотите удалить «{name}»? Это действие нельзя отменить.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Сообщение подтверждения удаления с предупреждением о необратимости",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Уменьшено на {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Сообщение о снижении количества предметов",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "База данных была сброшена, структура таблицы будет создана заново",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Ошибка при сбросе базы данных: {error}",
+  "@database_reset_error": {
+    "description": "Ошибка сброса базы данных",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Не удалось инициализировать модельные данные: {error}",
+  "@mock_data_init_failed": {
+    "description": "Инициализация имитационных данных не удалась",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Решение:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Удалите приложение и установите его заново",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Или очистить данные приложения",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Или после установки resetDatabaseOnStart в true запустите снова",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Не удалось инициализировать службу уведомлений: {error}",
+  "@notification_service_init_failed": {
+    "description": "Инициализация служба уведомлений не удалась",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Не удалось проверить аккаунт календаря: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Не удалось проверить учетную запись календаря",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Не удалось создать календарь: {error}",
+  "@create_calendar_failed": {
+    "description": "Не удалось создать календарь",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Не удалось добавить событие в календарь: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Добавлено событие по календарю, не получилось",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Не удалось удалить событие календаря: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Не удалось удалить событие календаря",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Не удалось установить сообщение о запросе разрешения: {error}",
+  "@set_permission_message_failed": {
+    "description": "Не удалось установить сообщение с подсказкой прав",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Успешно инициализировано {count} симулированных данных",
+  "@mock_data_init_success": {
+    "description": "Инициализация имитационных данных успешна",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "В базе данных уже есть {count} записей, пропуск инициализации имитационных данных",
+  "@database_has_data": {
+    "description": "В базе данных уже есть данные",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Возможно, структура базы данных не соответствует, рекомендуется очистить данные приложения или переустановить его",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Старый файл базы данных удален",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Резервные данные пусты",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Резервный файл не существует",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Кодировка файла не является допустимым форматом UTF-8. Пожалуйста, убедитесь, что файл сохранен в кодировке UTF-8. Подробности ошибки: {error}",
+  "@file_not_utf8": {
+    "description": "Ошибка кодировки файла",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Файл не существует: {filePath}",
+  "@file_not_found": {
+    "description": "Ошибка: файл не существует",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Файл пуст: {filePath}",
+  "@file_empty": {
+    "description": "Ошибка: файл пуст",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "После декодирования содержимое файла пусто, возможно, кодировка не совпадает",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} не может быть пустым",
+  "@field_cannot_be_empty": {
+    "description": "Проверка: поле не может быть пустым",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} не может быть короче {minLength} символов",
+  "@field_min_length": {
+    "description": "Проверка минимальной длины поля",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} не может превышать {maxLength} символов",
+  "@field_max_length": {
+    "description": "Проверка максимальной длины поля",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Пожалуйста, введите действительный адрес {fieldName}",
+  "@field_invalid_email": {
+    "description": "Проверка формата электронной почты",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} должен быть {numberType}",
+  "@field_invalid_number": {
+    "description": "Проверка цифрового формата",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} не может быть меньше {min}",
+  "@field_min_value": {
+    "description": "Проверка минимального значения",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} не может быть больше {max}",
+  "@field_max_value": {
+    "description": "Проверка максимального значения",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} должен быть положительным целым числом",
+  "@field_positive_integer": {
+    "description": "Проверка положительных целых чисел",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} должен быть больше 0",
+  "@field_greater_than_zero": {
+    "description": "Проверка больше нуля",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} должен быть положительным числом",
+  "@field_positive_number": {
+    "description": "Проверка положительных чисел",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Пожалуйста, введите действительный {fieldName}",
+  "@field_invalid_date": {
+    "description": "Проверка формата даты",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} не может быть датой в прошлом",
+  "@field_date_not_past": {
+    "description": "Дата не может быть прошлой",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} не может быть раньше {minDate}",
+  "@field_date_not_before": {
+    "description": "Дата не может быть раньше указанной даты",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} не может быть позже {maxDate}",
+  "@field_date_not_after": {
+    "description": "Дата не может быть позже указанной даты",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Пожалуйста, введите действительный {fieldName}",
+  "@field_invalid_value": {
+    "description": "Проверка недействительных значений",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} длина не может быть меньше 8 символов",
+  "@password_min_length": {
+    "description": "Проверка минимальной длины пароля",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} должен содержать как минимум одну заглавную букву",
+  "@password_uppercase_required": {
+    "description": "Пароль должен содержать заглавные буквы",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} должен содержать как минимум одну строчную букву",
+  "@password_lowercase_required": {
+    "description": "Пароль должен содержать строчные буквы",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} должен содержать хотя бы одну цифру",
+  "@password_digit_required": {
+    "description": "Пароль должен содержать цифры",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} должен содержать как минимум один специальный символ",
+  "@password_special_char_required": {
+    "description": "Пароль должен содержать специальные символы",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Введённые дважды пароли не совпадают",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Название предмета не может быть пустым",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Название не может превышать {maxLength} символов",
+  "@name_max_length": {
+    "description": "Проверка максимальной длины имени",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Количество не может быть меньше {minQuantity}",
+  "@quantity_min": {
+    "description": "Проверка минимального значения количества",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Количество не может превышать {maxQuantity}",
+  "@quantity_max": {
+    "description": "Проверка максимального количества",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Цена за единицу не может быть отрицательной",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Цена за единицу не может превышать {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "Проверка максимального значения цены за единицу",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Пожалуйста, установите дату производства и срок годности для автоматического расчета срока действия",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Пожалуйста, установите дату покупки и срок годности, чтобы автоматически рассчитать гарантийный срок",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Не удалось создать учетную запись календаря, пожалуйста, проверьте настройки системного календаря",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Тестовое уведомление",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Это тестовое уведомление, предназначенное для проверки функции локальных напоминаний",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "небо",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} дней",
+  "@days_with_value": {
+    "description": "Дни с параметрами",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Предмет сохранён",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Предмет обновлён",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Товар добавлен",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Сохранение успешно",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Обновление успешно",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Удаление выполнено успешно",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Сохранение не удалось",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Обновление не удалось",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Удаление не удалось",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Языковые настройки",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Настроить язык отображения приложения",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Системные по умолчанию",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Использовать язык системы",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Изменение языка вступит в силу после перезапуска приложения",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Текущий выбор: {days} дней",
+  "@current_selection": {
+    "description": "Отображение выбранного количества дней",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

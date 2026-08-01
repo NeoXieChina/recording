@@ -1,0 +1,1625 @@
+{
+  "@@locale": "cs",
+  "app_name": "Skladování předmětů",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Zrušit",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Potvrdit",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Uložit",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Odstranit",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Upravit",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Přidat",
+  "@add": {
+    "description": ""
+  },
+  "search": "Hledat",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Nastavení",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Zpět",
+  "@back": {
+    "description": ""
+  },
+  "next": "Další",
+  "@next": {
+    "description": ""
+  },
+  "done": "Dokončit",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Načítání...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Chyba",
+  "@error": {
+    "description": ""
+  },
+  "success": "Úspěch",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Varování",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Informace",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Vybrat počet připomenutí dní",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Vlastní",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Vlastní ({days} dní)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Rozsah dnů připomenutí: {min}-{max} dní",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Zadejte počet dnů připomenutí",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Počet dnů",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Prosím zadejte číslo mezi {min} a {max}",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Nastavení upozornění",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Nastavení kalendáře",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Synchronizace kalendáře",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Po zapnutí bude požadováno oprávnění ke kalendáři",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Přidat zkušební událost do kalendáře",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Nejprve zapněte přepínač „Synchronizace kalendáře“",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Nastavení upozornění aplikace",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Místní připomenutí",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Po zapnutí obdržíte upozornění na expiraci v aplikaci",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Odeslat testovací oznámení",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Nejprve zapněte přepínač \"Místní připomenutí\"",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Nastavení počtu dní upozornění",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Počet dní předem k upozornění",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Nastavit, kolik dní předem upozornit na vypršení platnosti položky nebo záruku",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Žádost o přístup k kalendáři",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Je nutné mít přístup k kalendáři pro synchronizaci připomenutí položek. Povolit?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Povolit",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Přístup k kalendáři byl udělen, synchronizace kalendáře je zapnuta",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Přístup k kalendáři byl odepřen, nelze povolit synchronizaci kalendáře",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Přístup byl trvale odepřen",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Oprávnění k kalendáři bylo trvale zamítnuto, prosím povolte oprávnění ručně v nastavení systému.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Jít do nastavení",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Oprávnění k přístupu k kalendáři bylo uděleno, ale nelze vytvořit účet kalendáře. Zkontrolujte nastavení systémového kalendáře",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Oprávnění k přístupu k kalendáři bylo uděleno, byl vytvořen lokální účet kalendáře",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Účet kalendáře byl úspěšně vytvořen, ale systém může potřebovat nějaký čas, než začne fungovat",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Testovací událost kalendáře byla úspěšně přidána",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Přidání testovací události do kalendáře selhalo, zkontrolujte nastavení kalendáře",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "K přidání testovací události je třeba oprávnění k kalendáři",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Testovací oznámení bylo odesláno",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Odeslání testovacího oznámení selhalo: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Lokální připomenutí vyžaduje oprávnění k oznámením",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Operace selhala: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Upozornění na položku",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Připomenutí vypršení platnosti nebo záruky položky",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Potraviny",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Každodenní potřeby",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Kosmetika",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Lékárenské výrobky",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Elektronika",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Nábytek",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Oblečení",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Knihy",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Ostatní",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Online obchod",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Kamenný obchod",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "Supermarket",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Specializovaný obchod",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Second-hand trh",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Ostatní",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Ostatní",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Online obchod",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Kategorie položek",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Vlastní kategorie",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Zálohovat data",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Zabalit všechna data (včetně obrázků) do souboru ZIP pro zálohování",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Zálohovat všechna data",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Zálohování bylo úspěšné",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Zálohování selhalo: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Obnovit data",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Obnovit všechna data ze záložního souboru ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Exportovat data",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Exportovat do formátu CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Importovat data",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Importovat data z CSV, TXT, SQL souborů",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Nastavení upozornění v kalendáři a upozornění v aplikaci",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "O",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Aplikace informace a verze",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Nejprve vyberte záložní soubor",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Potvrdit obnovení",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Obnova zálohy vymaže všechna stávající data a nahradí je zálohovanými daty, tato akce je nevratná. Opravdu chcete pokračovat?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Potvrďte znovu",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Opravdu chcete vymazat všechna existující data a obnovit zálohu? Tato operace nebude vratná!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Potvrdit obnovení",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Obnovení bylo úspěšné, celkem {count} položek",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Obnovení selhalo: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Vybrat záložní soubor",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Obnovit zálohu",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Vybraný soubor: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Data byla úspěšně exportována",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Export selhal: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Zpracování duplicitních dat",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Byly zjištěny duplicitní údaje, vyberte způsob zpracování:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Přeskočit",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "Přepsat",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Přeskočit vše",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Celé pokrytí",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Nejprve vyberte formát importu",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Potvrdit import",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Importování dat přepíše existující data, této operace nelze vrátit zpět. Opravdu chcete pokračovat?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Data byla úspěšně importována, celkem bylo importováno {count} položek",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Import selhal: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Vybrat soubor",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Žádná data",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Momentálně nejsou žádná data, klikněte na tlačítko níže a přidejte první záznam!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Selhání načítání",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Načítání dat se nezdařilo, zkontrolujte připojení k síti a zkuste to znovu",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Zkuste znovu",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Připojení k síti selhalo",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Zkontrolujte připojení k síti a zkuste to znovu",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Nenalezen žádný výsledek",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Zkuste hledat pomocí jiných klíčových slov",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Vymazat hledání",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Nedostatečná oprávnění",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "K používání této funkce jsou vyžadována příslušná oprávnění",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Požádat o oprávnění",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Informace o aplikaci",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "Verze",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Vývojář",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Informace o zařízení",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Model zařízení",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Značka",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Název zařízení",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "Produkt",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Hardware",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Verze Androidu",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Verze SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Název systému",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Verze systému",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Identifikace zařízení",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Název počítače",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Číslo verze",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Nelze získat informace o zařízení: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Představení funkcí",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Aplikace pro inteligentní správu předmětů",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Pomáhá vám spravovat dobu expirace položek, záruční lhůty a další informace a poskytuje funkci inteligentního připomenutí.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Spotřební materiál",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Trvanlivé zboží",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Seřadit",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Název vzestupně",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Název sestupně",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Datum vzestupně",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Datum sestupně",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Jednotková cena vzestupně",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Jednotková cena sestupně",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Množství vzestupně",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Množství sestupně",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Celková cena vzestupně",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Celková cena sestupně",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Vymazat všechny filtry",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Naskenovat kód pro naskladnění",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Hledat položky...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Žádné položky",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Klikněte níže na tlačítko pro přidání první položky",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Expirovalo",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Brzy vyprší",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Záruka vypršela",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Záruka brzy vyprší",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Zbývá {count} dní",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Expirovalo {count} dní",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Odstranit položku",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Opravdu chcete smazat \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Položka byla smazána",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Smazání selhalo",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Nelze odstranit položku: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Filtr podle rozsahu dat",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Filtr podle rozsahu cen",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Mé předměty",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Klikněte na tlačítko v pravém dolním rohu pro přidání předmětu",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Potvrdit smazání",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Filtrační možnosti",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Filtrovat položky podle typu, kategorie a místa",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} kategorií",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Všechny kategorie",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Žádná klasifikovaná data",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Místo uložení",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} míst",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Všechna místa",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Žádná data o místech",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Rozsah dat",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Vyberte rozsah dat",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Cenový rozsah",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Rozsah jednotkové ceny",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Nejnižší jednotková cena",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Nejvyšší jednotková cena",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Rozsah celkové ceny",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Nejnižší celková cena",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Nejvyšší celková cena",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Vymazat filtr cen",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Umístěte čárový kód do rámu pro skenování",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Produkt již existuje",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Čárový kód: {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Název: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Kategorie: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Aktuální množství: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Vyberte akci:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Výdej",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Příjem",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Množství příjmu",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Množství výdeje",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Množství",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Zadejte množství příjmu",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Zadejte množství k výdeji",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Bylo přidáno {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Opravdu chcete smazat „{name}“? Tuto akci nelze vrátit zpět.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Bylo sníženo {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Databáze byla resetována, tabulky budou znovu vytvořeny",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Došlo k chybě při resetování databáze: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Iniciace simulovaných dat selhala: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Řešení:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Odinstalujte aplikaci a znovu ji nainstalujte",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Nebo vymažte data aplikace",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Nebo nastavte resetDatabaseOnStart na true a spusťte znovu",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Inicializace služby připomenutí selhala: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Selhání při kontrole účtu kalendáře: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Vytvoření kalendáře selhalo: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Nepodařilo se přidat událost do kalendáře: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Nepodařilo se smazat událost v kalendáři: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Nepodařilo se nastavit zprávu s výzvou k oprávněním: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Bylo úspěšně inicializováno {count} simulovaných dat",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Databáze již obsahuje {count} záznamů, přeskočit inicializaci simulačních dat",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Mohlo by to být kvůli nekompatibilní struktuře databáze, doporučuje se vymazat data aplikace nebo ji přeinstalovat",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Staré databázové soubory byly smazány",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Zálohovaná data jsou prázdná",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Soubor zálohy neexistuje",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Kódování souboru není platný formát UTF-8. Ujistěte se, že soubor je uložen s kódováním UTF-8. Podrobnosti o chybě: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Soubor neexistuje: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Soubor je prázdný: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Po dekódování obsahu souboru je prázdný, pravděpodobně se kódování neshoduje",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} nesmí být prázdný",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} nesmí mít méně než {minLength} znaků",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} nesmí překročit {maxLength} znaků",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Zadejte platnou adresu {fieldName}",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} musí být {numberType}",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} nesmí být menší než {min}",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} nesmí být větší než {max}",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} musí být kladné celé číslo",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} musí být větší než 0",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} musí být kladné číslo",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Zadejte platné {fieldName}",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} nemůže být minulým datem",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} nemůže být dříve než {minDate}",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} nesmí být pozdější než {maxDate}",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Prosím zadejte platný {fieldName}",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} délka nemůže být kratší než 8 znaků",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} musí obsahovat alespoň jedno velké písmeno",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} musí obsahovat alespoň jedno malé písmeno",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} musí obsahovat alespoň jedno číslo",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} musí obsahovat alespoň jeden speciální znak",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Zadaná hesla se neshodují",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Název položky nesmí být prázdný",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Název nesmí přesáhnout {maxLength} znaků",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Množství nemůže být menší než {minQuantity}",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Množství nesmí překročit {maxQuantity}",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Jednotková cena nesmí být záporná",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Jednotková cena nesmí překročit {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Nastavte prosím datum výroby a trvanlivost pro automatické vypočítání platnosti",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Prosím nastavte datum nákupu a dobu trvanlivosti pro automatický výpočet záruční doby",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Nelze vytvořit účet kalendáře, zkontrolujte nastavení systémového kalendáře",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Testovací oznámení",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Toto je testovací oznámení k ověření funkce místního připomenutí",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "den",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} dní",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Položka byla uložena",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Položka byla aktualizována",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Položka byla přidána",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Uloženo úspěšně",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Aktualizováno úspěšně",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Odstraněno úspěšně",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Uložení selhalo",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Aktualizace selhala",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Odstranění selhalo",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Nastavení jazyka",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Nastavit jazyk zobrazení aplikace",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Výchozí systém",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Použít jazyk systému",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Změna jazyka začne platit po restartu aplikace",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Aktuální výběr: {days} dní",
+  "@current_selection": {
+    "description": "Aktuálně vybrané dny se zobrazují",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

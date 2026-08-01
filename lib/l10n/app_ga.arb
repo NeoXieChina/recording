@@ -1,0 +1,1625 @@
+{
+  "@@locale": "ga",
+  "app_name": "Áit bheag chun rudaí a cheilt",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Cealaigh",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Deimhnigh",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Sábháil",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Scrios",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Eagar",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Cuir leis",
+  "@add": {
+    "description": ""
+  },
+  "search": "Cuardach",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Socruithe",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Fill ar ais",
+  "@back": {
+    "description": ""
+  },
+  "next": "Céim eile",
+  "@next": {
+    "description": ""
+  },
+  "done": "Críochnaithe",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Ag luchtú...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Botún",
+  "@error": {
+    "description": ""
+  },
+  "success": "Rath",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Rabhadh",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Eolas",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Roghnaigh líon na n-lá chun cuimhneacháin",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Saincheap",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Saincheaptha ({days} laethanta)",
+  "@custom_days": {
+    "description": "Lá saincheaptha le paraiméadar",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Raon laethanta foláirimh: {min}-{max} lá",
+  "@alert_days_range": {
+    "description": "Raon laethanta foláirimh le paraiméadar",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Iontráil líon na laethanta cuimhneacháin",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Lá",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Cuir isteach uimhir idir {min} agus {max}",
+  "@enter_valid_days": {
+    "description": "Teachtaireacht fíoraithe ionchur laethanta",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Socruithe Réamhchúraim",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Socruithe Féilire",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Comhtháthú féilire",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Tar éis dó a bheith ar siúl, iarrfaidh sé cead rochtain ar an bhféilire",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Cuir imeacht féilte tástála leis",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Cuir an lasc \"Comhtháthú Féilire\" ar siúl ar dtús le do thoil",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Socruithe meabhrúcháin aip",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Meabhrúchán áitiúil",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Tar éis a chasadh air, faigh meabhrúcháin faoi rith ama laistigh den aip",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Seol fógra tástála",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Le do thoil, cas ar an 'Fógra Áitiúil' ar dtús",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Socruithe laethanta cuimhneacháin",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Lá réamhchúraim",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Socraigh cé mhéad lá roimh ré chun meabhrúchán a fháil faoi dhul in éag táirgí nó críochnú bharánta",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Iarratas ar chead rochtana féilire",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Teastaíonn rochtain ar an bhféilire chun meabhrúcháin earraí a shioncronú. An gceadaíonn tú é?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Ceadaigh",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Tá cead ag an bhféilire curtha ar fáil, tá comhtháthú féilire curtha ar siúl",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Diúltaithe cead rochtana féilire, ní féidir comhtháthú féilire a chumasú",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Tá ceadanna diúltaithe go buan",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Tá rochtain ar an bhféilire dífhorbartha go buan, le do thoil, bain an cead de láimh i socruithe an chórais.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Téigh go dtí na socruithe",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Tá cead ar fáil don fhéilire, ach ní féidir cuntas féilire a chruthú. Seiceáil socruithe féilire an chórais le do thoil.",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Tá cead ag an gclár féilire, tá cuntas féilire áitiúil cruthaithe",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Chruthaíodh cuntas féilire go rathúil, ach d’fhéadfadh go mbeadh beagán ama ag teastáil ón gcóras chun é a fheidhmiú",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Tástáil cur le himeachtaí féilire rathúil",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Theip ar chur ócáid tástála leis an bhféilire, seiceáil socruithe an fhéilire le do thoil",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Teastaíonn cead roinnnfhéilirí chun tástáil imeachta a chur leis",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Tá fógra tástála seolta",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Theipeann ar chur isteach fógra tástála: {error}",
+  "@test_notification_failed": {
+    "description": "Fógra teachtaireachta earráide",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Teastaíonn cead fógra chun cuimhneacháin áitiúla a chumasú",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Theip ar an oibriú: {error}",
+  "@operation_failed": {
+    "description": "Teachtaireacht earráide oibriúcháin ghinearálta",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Fógra Réamhchúraim Maidir le Híodálacha",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Fógra maidir le míreanna a bheith as dáta nó as ráthaíocht",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Bia",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Earraí laethúla",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Táirgí maisiúil",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Cógas",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Táirgí leictreonacha",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Troscán",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Éadaí",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Leabhair",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Eile",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Siopa Ar Líne",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Siopa fisiceach",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "Siopa mór",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Siopa eisiach",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Margadh dara láimhe",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Eile",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Eile",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Siopa Ar Líne",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Catagóiriú earraí",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Catagóiriú saincheaptha",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Cúltaca sonraí",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Pacáil gach sonraí (lena n-áirítear íomhánna) mar chomhad ZIP le cúltaca",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Cúltaca a dhéanamh ar na sonraí go léir",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Ar ais suas go rathúil",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Theip ar an cúltaca: {error}",
+  "@backup_failed": {
+    "description": "Teachtaireacht earráide teipe cúltaca",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Aisghabháil sonraí",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Aisghabh gach sonraí ó chomhad cúltaca ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Easpórtáil sonraí",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Easpórtáil mar fhormáid CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Tiontain sonraí isteach",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Sonraí a allmhairiú ó chomhaid CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Socruithe Meabhrúcháin Féilire agus Meabhrúcháin Brúite App",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Maidir le",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Eolas ar an bhfeidhmchlár agus an leagan",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Roghnaigh le do thoil comhad cúltaca ar dtús",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Deimhnigh athchóir",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Má dhéanann tú cúltaca a athshlánú, scriosfar gach sonraí atá ann faoi láthair agus beidh siad á n-aisghabháil leis na sonraí cúltaca; ní féidir an gníomh seo a thabhairt ar ais. An bhfuil tú cinnte go leanfaidh tú ar aghaidh?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Deimhníodh arís",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "An bhfuil tú cinnte gur mhaith leat gach sonraí atá ann a bhaint agus an cúltaca a athshlánú? Ní féidir an gníomh seo a chur ar ais!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Déan cinnte go dtí aisghabháil",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Aisghabhadh go rathúil, {count} earraí san iomlán",
+  "@restore_success": {
+    "description": "Teachtaireacht Téarnaimh Ratha",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Theip ar aisshlánú: {error}",
+  "@restore_failed": {
+    "description": "Teachtaireacht earráide teipe téarnaimh",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Roghnaigh comhad cúltaca",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Aisghabh cúltaca",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Comhad roghnaithe: {filename}",
+  "@selected_file": {
+    "description": "Teachtaireacht comhaid roghnaithe",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Rath ar onnmhairiú sonraí",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Theip ar onnmhairiú: {error}",
+  "@export_failed": {
+    "description": "Teachtaireacht earráide easpórtála",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Próiseáil sonraí atá athmhúnlaithe",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Braitear sonraí dúblacha, roghnaigh conas iad a láimhseáil:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Léim thar",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "clúdach",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Léim thar gach rud",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Clúdaigh go hiomlán",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Roghnaigh an formáid ionchuir ar dtús le do thoil",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Deimhniú allmhairiú",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Beidh na sonraí a allmhairítear ag clúdach na sonraí atá ann cheana, ní féidir an gníomh seo a aisiompú. An bhfuil tú cinnte go dteastaíonn uait leanúint ar aghaidh?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Táthar iompórtáilte go rathúil, iomlán {count} míreanna iompórtáilte",
+  "@import_success": {
+    "description": "Teachtaireacht rathúil allmhairithe",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Theip ar an allmhairiú: {error}",
+  "@import_failed": {
+    "description": "Teachtaireacht earráide teipe allmhairithe",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Roghnaigh comhad",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Gan sonraí ar fáil",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Níl aon sonraí ann faoi láthair, cliceáil ar an gcnaipe thíos chun an chéad taifead a chur leis!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Teip ar luchtú",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Theip ar luchtú sonraí, seiceáil do nasc idirlín agus déan iarracht arís",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Déan iarracht arís",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Theip ar nascacht líonra",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Seiceáil do nasc idirlín agus bain triail eile as",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Níor aimsíodh aon toradh",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Bain triail as cuardach a dhéanamh le focail eochair eile",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Glan cuardach",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Neamhleordhóthanacht ceadanna",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Teastaíonn na ceadanna ábhartha chun an ghné seo a úsáid",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Iarr Ceada",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Eolas faoin iarratas",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "Leagan",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Forbróir",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Eolas Trealaimh",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Samhail Trealaimh",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Branda",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Ainm na trealaimh",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "Táirge",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Crua-earraí",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Leagan Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Leagan SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Ainm an chórais",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Leagan an chórais",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Aitheantas trealaimh",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Ainm ríomhaire",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Uimhir leagan",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Ní féidir faisnéis an ghléis a fháil: {error}",
+  "@error_getting_device_info": {
+    "description": "Teachtaireacht earráide faigh faisnéis trealaimh",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Réamhrá ar Fheidhmeanna",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Aip Bhainistíochta Rudaí Cliste",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Cabhraíonn sé leat dátaí éaga earraí, dátaí bharánta agus faisnéis eile a bhainistiú, agus soláthraíonn sé feidhm chuimhneacháin chliste.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Tearmaí úsáide",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Earraí inbhuanaithe",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Sórtáil",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Ordú aibítreach de réir ainm",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Ordú leasainm síos",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Ordú dáta ó ísle go hard",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Ordú laghdaitheach dáta",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Ordú praghais ó ísle go hard",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Ordú meánphraghais laghdaithe",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Ordú Ascending de Chainníocht",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Ordú laghdaitheach de réir chainníocht",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Ordú praghais iomláine ó íseal go hard",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Ordú laghdaithe praghas iomlán",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Glan na scagairí go léir",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Scan chun isteach sa stoc",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Cuardaigh earraí...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Gan aon earra ar fáil",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Cliceáil ar an gcnaipe thíos chun an chéad earra a chur leis",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Imithe thar am",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Ag druidim le teip",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Tá an barántas imithe in éag",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Tá barántas le teacht chun deiridh",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "{count} lá fágtha",
+  "@days_remaining": {
+    "description": "Lá atá fágtha le paraiméadar",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Tá sé imithe in éag le {count} lá",
+  "@expired_days_ago": {
+    "description": "Láta teipe a bhfuil paraiméadar acu",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Scrios earra",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "An bhfuil tú cinnte gur mhaith leat \"{name}\" a scriosadh?",
+  "@delete_item_confirm": {
+    "description": "Físeán dearbhaithe scriosta",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Tá an mír scriosta",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Teip ar scriosadh",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Ní féidir an earra a scriosadh: {error}",
+  "@failed_to_delete_message": {
+    "description": "Scrios teachtaireacht earráide",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Scagaire raonta dáta",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Scagaire raonta praghsanna",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Mo chuid earraí",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Cliceáil ar an gcnaipe ag an gúin íochtarach ar dheis chun earraí a chur leis",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Deimhnigh scrios",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Roghanna scagtha",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Scag earraí de réir cineál, catagóir agus suíomh",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} catagóir",
+  "@categories_count": {
+    "description": "Taispeántas líonra de chatagóirí",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Gach Catagóir",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Gan sonraí catagóire faoi láthair",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Áit stórála",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} láithreán",
+  "@locations_count": {
+    "description": "Taispeántar líon na suíomhanna",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Gach áit",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Níl aon sonraí suímh ar fáil faoi láthair",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Raon Dáta",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Roghnaigh raon dáta",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Raon praghsanna",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Raon praghsanna aonad",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "An praghas íosta aonad",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "An praghas uasta aonair",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Raon iomlán praghais",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "An praghas iomlán is ísle",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "An praghas uasta iomlán",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Glan scagairí praghais",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Cuir an cód barra isteach sa bhosca chun scanadh a dhéanamh air",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Tá an táirge ann cheana",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Cód Barrach: {barcode}",
+  "@barcode_with_value": {
+    "description": "Táirgeann an barra cód paraiméadair",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Ainm: {name}",
+  "@name_with_value": {
+    "description": "Taispeánann ainm le paraiméadar",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Rangú: {category}",
+  "@category_with_value": {
+    "description": "Taispeáin catagóirí le paraiméadar",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Líon reatha: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Tá líon reatha le paraiméadar le feiceáil",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Roghnaigh gníomh:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Amharc ar stóras",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Ionchur stoc",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Cainníocht a chur isteach sa stór",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Cainníocht as stoc",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Méid",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Iontráil an méid stórála le do thoil",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Iontráil líon na n-earraí atá ag imeacht as an stoc",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Tá {name} {quantity}{unit} curtha leis",
+  "@item_increased": {
+    "description": "Teachtaireacht maidir le míreanna a chur leis",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "An bhfuil tú cinnte gur mhaith leat „{name}“ a scriosadh? Ní féidir an gníomh seo a chealú.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Fógra dearbhaithe scriosta le rabhaidh nach féidir a aisiompú",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Tá laghdaithe {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Teachtaireacht laghdaithe earraí",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Tá an bunachar sonraí athshocraithe, cruthófar struchtúr na táblaí arís",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Earráid ag athshocrú an bhunachar sonraí: {error}",
+  "@database_reset_error": {
+    "description": "Earráid athshocraithe bunachar sonraí",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Theipeann ar thosú sonraí insamhlaithe: {error}",
+  "@mock_data_init_failed": {
+    "description": "Theip ar thosú sonraí insamhalta",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Réiteach:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Díshuiteáil an aip agus athshuiteáil é",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Nó soiléir sonraí an iarratais",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Nó b’fhéidir rith arís tar éis resetDatabaseOnStart a shocrú go fíor",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Theipeann ar thosú seirbhíse meabhrúcháin: {error}",
+  "@notification_service_init_failed": {
+    "description": "Theip ar thosú seirbhíse fógra",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Theip ar sheiceáil an chuntais féilire: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Theip ar sheiceáil cuntas féilire",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Theipeann ar chruthú an fhéilire: {error}",
+  "@create_calendar_failed": {
+    "description": "Theip ar chruthú féilire",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Theip ar chur imeacht féilire leis: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Theip ar chur teagmhas féilire",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Theip ar scrios an eachtra féilire: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Theip ar dhíbirt eachtra féilire",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Theip ar theachtaireacht meabhrúcháin cead a shocrú: {error}",
+  "@set_permission_message_failed": {
+    "description": "Theip ar theachtaireacht foláirimh ceadanna a shocrú",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Tá {count} sonraí samhlacha curtha ar bun go rathúil",
+  "@mock_data_init_success": {
+    "description": "Rathúil ar thosú sonraí sampláilte",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Tá {count} taifid sa bhunachar sonraí cheana féin, rith thar thosaíocht sonraí samhlacha",
+  "@database_has_data": {
+    "description": "Tá sonraí ar fáil cheana sa bhunachar sonraí",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "B’fhéidir nach n-aontaíonn struchtúr an bhunachar sonraí, moltar sonraí an fheidhmchláir a ghlanadh nó í a athshuiteáil",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Tá na comhaid sean-bhunachar sonraí scriosta",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Tá na sonraí cúltaca folamh",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Níl comhad cúltaca ann",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Ní fhormáid bhailí UTF-8 í códúchán an chomhaid. Déan cinnte go bhfuil an comhad sábháilte le códúchán UTF-8. Mionsonraí an earráide: {error}",
+  "@file_not_utf8": {
+    "description": "Earráid códaithe comhaid",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Níl an comhad ann: {filePath}",
+  "@file_not_found": {
+    "description": "Earráid: Níl an comhad ann",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Tá an comhad folamh: {filePath}",
+  "@file_empty": {
+    "description": "Earráid comhad folamh",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Tar éis d’ábhar an chomhaid a dhíchódaigh, tá sé folamh; b’fhéidir nach bhfuil an chódaíocht ag teacht",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} ní féidir a bheith folamh",
+  "@field_cannot_be_empty": {
+    "description": "Ní féidir leis an réimse a bheith folamh",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "Ní féidir le fad {fieldName} a bheith níos giorra ná {minLength} carachtar",
+  "@field_min_length": {
+    "description": "Fíorú fad íosta réimse",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} ní féidir a fhad a bheith níos mó ná {maxLength} carachtar",
+  "@field_max_length": {
+    "description": "Fíorú fad uasta an réimse",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Iontráil seoladh {fieldName} bailí le do thoil",
+  "@field_invalid_email": {
+    "description": "Bailíochtú formáide ríomhphoist",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} caithfidh a bheith {numberType}",
+  "@field_invalid_number": {
+    "description": "Bailíochtú Formáid Uimhreach",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} ní féidir a bheith níos lú ná {min}",
+  "@field_min_value": {
+    "description": "Fíorú luach íosta",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} ní féidir a bheith níos mó ná {max}",
+  "@field_max_value": {
+    "description": "Deimhniú uachtaráin",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} caithfidh a bheith ina shlí iomlán dearfach",
+  "@field_positive_integer": {
+    "description": "Deimhniú uimhreacha dearfacha iomlána",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} caithfidh a bheith níos mó ná 0",
+  "@field_greater_than_zero": {
+    "description": "Fíorú níos mó ná nialas",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} caithfidh a bheith ina uimhir dhearfach",
+  "@field_positive_number": {
+    "description": "Deimhniú dearfach",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Cuir isteach {fieldName} bailí le do thoil",
+  "@field_invalid_date": {
+    "description": "Bailíochtú formáid dáta",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} ní féidir a bheith i ndáta atá caite",
+  "@field_date_not_past": {
+    "description": "Ní féidir leis an dáta a bheith sa stair",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} ní féidir níos luaithe ná {minDate}",
+  "@field_date_not_before": {
+    "description": "Ní féidir an dáta a bheith níos luaithe ná an dáta sonraithe",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} ní féidir a bheith níos déanaí ná {maxDate}",
+  "@field_date_not_after": {
+    "description": "Ní féidir an dáta a bheith níos déanaí ná an dáta sonraithe",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Cuir isteach {fieldName} bailí le do thoil",
+  "@field_invalid_value": {
+    "description": "Fíorú luach neamhbhailí",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "Ní mór don fhadtéarmaíocht {fieldName} a bheith ar a laghad 8 gcarachtar",
+  "@password_min_length": {
+    "description": "Fíorú fad íosta pasfhocail",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} caithfidh ceann litir chloinne ar a laghad a bheith ann",
+  "@password_uppercase_required": {
+    "description": "Caithfidh an focal faire litir mhór a áireamh",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} caithfidh ceann litir bheag ar a laghad a bheith ann",
+  "@password_lowercase_required": {
+    "description": "Caithfidh an focal faire litir bheag a áireamh",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} caithfidh go bhfuil ar a laghad uimhir amháin ann",
+  "@password_digit_required": {
+    "description": "Ní mór go mbeadh uimhreacha sa phasfhocal",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} caithfidh a bheith ar a laghad le carachtar speisialta amháin",
+  "@password_special_char_required": {
+    "description": "Ní mór go mbeadh carachtair speisialta sa phasfhocal",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Níl na pasfhocail a chuir tú isteach an dá uair comhoiriúnach",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Ní féidir ainm an earra a bheith folamh",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Ní fhéadfaidh an t-ainm níos mó ná {maxLength} carachtar a bheith ann",
+  "@name_max_length": {
+    "description": "Fíorú fad uasta ainm",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Ní féidir leis an méid a bheith níos lú ná {minQuantity}",
+  "@quantity_min": {
+    "description": "Fíorú luach is lú",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Ní féidir leis an méid a bheith níos mó ná {maxQuantity}",
+  "@quantity_max": {
+    "description": "Fíorú ar an Uasmhéid",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Ní féidir leis an praghas aonad a bheith diúltach",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Ní féidir leis an bpraghas aonad a bheith níos mó ná {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "Fíorú luach uasta an phraghais aonad",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Le do thoil socraigh dáta táirgthe agus tréimhse bhailíochta chun an tréimhse éifeachtachta a ríomh go huathoibríoch",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Le do thoil socraigh an dáta ceannaigh agus an tréimhse bhreise chun an tréimhse baránta a ríomh go huathoibríoch",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Ní féidir cuntas féilire a chruthú, seiceáil socruithe féilire an chórais le do thoil",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Fógra Tástála",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Seo fógra tástála, chun feidhm cuimhneacháin áitiúil a fhíorú",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "Neamh",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} lá",
+  "@days_with_value": {
+    "description": "Laethanta le paraiméadar",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Tá na hearraí sábháilte",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Tá na míreanna nuashonraithe",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Tá an mír curtha leis",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Sábháilte go rathúil",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Nuashonrú go rathúil",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Scriosadh go rathúil",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Theip ar shábháil",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Theip ar an nuashonrú",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Teip ar scriosadh",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Socruithe Teanga",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Socraigh teanga taispeána an fheidhmchláir",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Réamhshocraithe an chórais",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Bain úsáid as teanga an chórais",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Beidh an teanga athraithe i bhfeidhm tar éis an aip a atosú",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Roghnú reatha: {days} lá",
+  "@current_selection": {
+    "description": "Lá atá roghnaithe faoi láthair le taispeáint",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

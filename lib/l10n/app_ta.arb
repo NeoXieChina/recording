@@ -1,0 +1,1625 @@
+{
+  "@@locale": "ta",
+  "app_name": "பொருட்களைச் சேமிக்கும் குறுக்கு இடம்",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "ரத்து செய்",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "நிச்சயமாக",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "சேமி",
+  "@save": {
+    "description": ""
+  },
+  "delete": "நீக்கு",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "தொகுக்க",
+  "@edit": {
+    "description": ""
+  },
+  "add": "சேர்",
+  "@add": {
+    "description": ""
+  },
+  "search": "தேடு",
+  "@search": {
+    "description": ""
+  },
+  "settings": "அமைப்புகள்",
+  "@settings": {
+    "description": ""
+  },
+  "back": "பின்வாங்கு",
+  "@back": {
+    "description": ""
+  },
+  "next": "அடுத்த படி",
+  "@next": {
+    "description": ""
+  },
+  "done": "முடிந்தது",
+  "@done": {
+    "description": ""
+  },
+  "loading": "பதிவேற்று வருகிறது...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "தவறு",
+  "@error": {
+    "description": ""
+  },
+  "success": "வெற்றி",
+  "@success": {
+    "description": ""
+  },
+  "warning": "எச்சரிக்கை",
+  "@warning": {
+    "description": ""
+  },
+  "info": "தகவல்",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "அறிவிப்பு நாட்களை தேர்வு செய்",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "தனிப்பயனாக்கு",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "தனிப்பயன் ({days} நாட்கள்)",
+  "@custom_days": {
+    "description": "தனிப்பயன் நாட்கள் உடன் பராம宿ி",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "அறிவிப்பு நாட்களின் வரம்பு: {min}-{max} நாட்கள்",
+  "@alert_days_range": {
+    "description": "நினைவூட்டும் நாட்கள் வரம்பு துணைநிலை",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "தினங்களை நினைவூட்டுமாறு உள்ளிடவும்",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "நாட்கள்",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "தயவுசெய்து {min} - {max} இடையிலான எண்ணை உள்ளிடவும்",
+  "@enter_valid_days": {
+    "description": "நாட்கள் உள்ளீட்டு சான்று செய்தி",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "முன்னெச்சரிக்கை அமைப்புகள்",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "காலண்டர் அமைப்புகள்",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "காலண்டர் ஒத்திசைவு",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "செயல்படுத்திய பிறகு காலண்டர் அனுமதியை கோரும்",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "சோதனை காலண்டர் நிகழ்வை சேர்க்கவும்",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "முதலில் 'காலண்டர் ஒத்திசைவு' சுவிட்சை இயக்கவும்",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "ஆப் அறிவிப்பு அமைப்புகள்",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "உள்ளூராட்சி நினைவூட்டல்",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "செயலியில் காலாவதியான கருத்துகளை பெற திறக்கவும்",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": " சோதனை அறிவிப்பு அனுப்பு ",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "முதலில் 'உள்ளூர் கருத்துகுறிப்பு' சுவிட்சை இயக்கவும்",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "அறிவிப்பு நாட்கள் அமைத்தல்",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "முன்னதாக நினைவூட்டும் நாட்கள்",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "உருப்படியின் காலாவதியாகும் தேதி அல்லது உத்தரவாத மதிப்ப 날 க்கும் முன் எத்தனை நாட்களுக்கு முன் நினைவூட்டவேண்டும் என்பதைக் கட்டமைக்கவும்",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "பணிச் சட்டிகையின் அனுமதி கோரிக்கை",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "உருப்படி நினைவூட்டல்களை ஒத்திசைக்க காலண்டர் அனுமதி தேவைப்படுகிறது. அனுமதிக்கவிடுகிறீர்களா?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "அனுமதிக்கவும்",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "கேலண்டர் அனுமதி வழங்கப்பட்டுள்ளது, கேலண்டர் ஒத்திசைவு துவங்கப்பட்டது",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "கேலண்டர் அனுமதி ரத்து செய்யப்பட்டது, கேலண்டர் ஒத்திசைவு தொடங்க முடியாது",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "அனுமதி நிரந்தரமாக நிராகரிக்கப்பட்டது",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "காலண்டர் அனுமதி நிரந்தரமாக மறுக்கப்பட்டுள்ளது, தயவுசெய்து அமைப்புகளில் கைமுறையாக அனுமதியை செயல்படுத்தவும்.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "செட்டிங்கிற்கு செல்ல",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "க்யாலெண்டர் அனுமதி வழங்கப்பட்டது, ஆனால் க்யாலெண்டர் கணக்கை உருவாக்க முடியவில்லை. சிஸ்டம் க்யாலெண்டர் அமைப்புகளை சரிபார்க்கவும்",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "காலண்டர் அனுமதி வழங்கப்பட்டு, உள்ளூர் காலண்டர் கணக்கு உருவாக்கப்பட்டுள்ளது",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "கலண்டர் கணக்கு வெற்றிகரமாக உருவாக்கப்பட்டது, ஆனால் திட்டம் செயல்பட சில நேரம் தேவைப்படும்",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "கேலண்டர் நிகழ்வு 성공மாக சேர்க்கப்பட்டது",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "சோதனை நாட்கலை நிகழ்வை சேர்க்க வினா ஏற்பட்டது, நாட்கலை அமைப்புகளைச் சரிபார்க்கவும்",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "சோதனை நிகழ்வுகளை சேர்க்க காலண்டர் அனுமதி வேண்டும்",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "சோதனை அறிவிப்பு அனுப்பப்பட்டது",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "சோதனை அறிவிப்பை அனுப்ப முடியவில்லை: {error}",
+  "@test_notification_failed": {
+    "description": "தகவல் பிழை செய்தி",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "உள்ளூர் நினைவூட்டலை இயக்க அறிவித்தலின் அனுமதி தேவைப்படுகிறது",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "செயல்பாடு தோல்வி: {error}",
+  "@operation_failed": {
+    "description": "பொது செயல்பாட்டு பிழை செய்தி",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "பொருள் எச்சரிக்கை அறிவிப்பு",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "பொருட்கள் காலாவதியானது அல்லது காப்பீடு காலாவதியானது குறித்த நினைவூட்டல்",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "சமையல் பொருட்கள்",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "தினசரி பயன்பாடுகளின் பொருட்கள்",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "அழகு பொருட்கள்",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "மருந்து",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "மின்சாதனங்கள்",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "குடிசை உபகரணங்கள்",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "ஆடை",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "புத்தகம்",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "வேறு",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "ஆன்லைன் கடை",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "மெய்மான கடை",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "சூப்பர் மார்க்கெட்",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "சிறப்பு கடை",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "இரண்டாம் கை சந்தை",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "வேறு",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "வேறு",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "ஆன்லைன் கடை",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "பொருட்கள் வகைப்படுத்தல்",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "தனிப்பயன் வகைப்படுத்தல்",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "தரவுகளை காப்புப்பிரதி எடுக்கவும்",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "அனைத்து தரவுகளையும் (படங்களை உட்பட) ZIP கோப்பாக தொகுத்து காப்புப்பிரதி எடுக்கவும்",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "அனைத்து தரவுகளையும் காப்புப்பிரதி எடுக்கவும்",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "பதிவு வெற்றிகரமாக முடிந்தது",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "நகலை உருவாக்கல் தோல்வி: {error}",
+  "@backup_failed": {
+    "description": "பேக்கப் தோல்வி பிழை செய்தி",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "தரவுகளை மீட்டமைக்க",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ZIP காப்புப்பிரதி கோப்பில் இருந்து அனைத்து தரவையும் மீட்டெடு",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "தரவுகளை ஏற்றுமதி செய்யவும்",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "CSV, TXT, SQL கோப்புகளாக ஏற்றுமதி செய்யவும்",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "தரவுகளை இறக்குமதி செய்யவும்",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "CSV, TXT, SQL கோப்புகளிலிருந்து தரவுகளை இறக்குமதி செய்க",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "அட்டவணை நினைவூட்டல் மற்றும் செயலி தள்ளுபடி நினைவூட்டல் அமைப்புகள்",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "குறித்து",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "ஆப்ளிகேஷன் தகவல் மற்றும் பதிப்பு",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "முதலில் காப்புப்பிரதி கோப்பை தேர்வு செய்யவும்",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "மறுசீரமைப்பை உறுதிப்படுத்தவும்",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "பேக்அப் மீட்டமைப்பு அனைத்து உள்ளடக்க தரவுகளையும் காலி செய்து பேக்அப் தரவுகளால் மாற்றும், இந்த நடவடிக்கை திரும்பப்பெற முடியாது. நீங்கள் தொடர விரும்புகிறீர்களா?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "மறுபடியும் உறுதிப்படுத்தவும்",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "நீங்கள் அனைத்து தற்போதைய தரவையும் காலியாக செய்து மீண்டும் காப்புப்பிரதி மீட்டெடுக்க விரும்புகிறீர்களா? இந்த செயல்முறை மீட்டெடுக்கமுடியாது!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "மறுசீரமைப்பதை உறுதிசெய்",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "மீட்டமைப்பு வெற்றிகரமாக, மொத்தம் {count} பொருட்கள்",
+  "@restore_success": {
+    "description": "மீட்பு வெற்றிகரமான செய்தி",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "மீட்டமைப்பு தோல்வி: {error}",
+  "@restore_failed": {
+    "description": "மீட்டமைப்பு தோல்வி பிழை செய்தி",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "பின்வரிசை கோப்பை தேர்வு செய்யவும்",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "பேக்அப் மீட்டமைக்கு",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "தேர்ந்த கோப்பு: {filename}",
+  "@selected_file": {
+    "description": "தேர்ந்தெடுக்கப்பட்ட கோப்பு செய்தி",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "தரவு ஏற்றுமதி வெற்றிகரமாக நடந்தது",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "நெறியீடு தோல்வி: {error}",
+  "@export_failed": {
+    "description": "ஏற்றுமதி தோல்வி பிழை செய்தி",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "மறுபடியும் தரவு செயலாக்கம்",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "மீள்பிரதி தரவுகள் கண்டுபிடிக்கப்பட்டன, தயவுசெய்து செயலாக்க முறையை தேர்வு செய்யவும்:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "தாண்டி செல்ல",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "குடைந்தல்",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "அனைத்தையும் தாண்டி விடுக",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "முழுமையாக மூடப்படுகிறது",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "முதலில் இறக்குமதி வடிவத்தைத் தேர்ந்தெடுக்கவும்",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "இறக்குமதி செய்ய உறுதிப்படுத்தவும்",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "தரவை இறக்குமதி செய்தால் தற்போதைய தரவு மத்தியில் நீக்கப்பட்டு மாற்றப்படும், இந்த செயல்முறை திரும்பப்பெற முடியாது. தொடர விரும்புகிறீர்களா?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "தரவு இறக்குமதி வெற்றிகரமாக உள்ளது, மொத்தம் {count} பொருட்கள் இறக்குமதி செய்யப்பட்டது",
+  "@import_success": {
+    "description": "இறக்குமதி வெற்றிகரமான செய்தி",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "நுழைப்பு தோல்வி: {error}",
+  "@import_failed": {
+    "description": "இறக்குமதி தோல்வி பிழை செய்தி",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "கோப்பை தேர்ந்தெடு",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "தற்போது தரவு இல்லை",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "தற்போது தரவு இல்லை, கீழுள்ள பொத்தானை அழுத்தி முதல் பதிவை சேர்க்கவும்!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "பதிவேற்றம் தோல்வியடைந்தது",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "தரவை ஏற்றுவதில் தோல்வி ஏற்பட்டது, தயவுசெய்து நெட்வொர்க் இணைப்பை சரிபார்த்து மீண்டும் முயற்சிக்கவும்",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "மறுசேர்ப்பு",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "இணைய இணைப்பு தோல்வி",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "இணைய இணைப்பைச் சரிபார்த்து பின்னர் மீண்டும் முயற்சிக்கவும்",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "முடிவுகள் கிடைக்கவில்லை",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "வேறு முக்கிய சொற்களை பயன்படுத்தி தேட முயற்சி செய்யுங்கள்",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "தேடலை அழிக்கவும்",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "அனுமதி போதாது",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "இந்த செயல்பாட்டைப் பயன்படுத்துவதற்கு தொடர்புடைய அனுமதிகள் தேவைப்படுகிறது",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "அனுமதி கோருங்கள்",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "ஆப் தகவல்",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "பதிப்பு",
+  "@version": {
+    "description": ""
+  },
+  "developer": "முன்முனைவர்",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "சாதன தகவல்",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "சாதன மாதிரி",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "பிராண்டு",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "சாதனத்தின் பெயர்",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "தயாரிப்பு",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "ஹார்ட்வேர்",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "ஆண்ட்ராய்டு பதிப்பு",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK பதிப்பு",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "கணினி அமைப்பின் பெயர்",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "சிஸ்டம் பதிப்பு",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "சாதன அடையாளம்",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "கணினி பெயர்",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "பதிப்பு எண்",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "சாதன தகவலைப் பெற முடியவில்லை: {error}",
+  "@error_getting_device_info": {
+    "description": "சாதனத்தின் தகவல்கள் பெறும் பொது தவறான செய்தி",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "செயல்பாட்டு அறிமுகம்",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "அறிவியல் பொருட்கள் மேலாண்மை செயலி",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "உங்கள் பொருட்களின் காலாவதியான தேதி, உத்தரவாத காலம் போன்ற தகவல்களை நிர்வகிப்பதில் உதவி செய்யும் மற்றும் புத்திசாலி நினைவூட்டல் செயல்பாட்டை வழங்கும்.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "செலவுக்குரிய பொருட்கள்",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "மிக நீடித்த பொருள்",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "வரிசைப்படுத்துதல்",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "பெயர் ஏறுவரிசை",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "பெயர் இறங்கும் வரிசை",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "தேதியின் ஏறுவரிசை",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "தேதியின் இறங்கும் வரிசை",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "ஒன்றுக்கட்டின் விலை ஏற順",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "ஒன்றுக்கான விலை குறைய顺",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "அளவின் உயர்வாக வரிசை",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "அளவின் இறங்கும் வரிசை",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "மொத்த விலை குறைவிருந்து அதிகம் வரிசை",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "மொத்த விலை குறையும் வரிசை",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "அனைத்து வடிகட்டல்களையும் துடைக்கவும்",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "ஸ்கேன் செய்து கையிருப்பில் சேர்க்கவும்",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "பொருட்களை தேடு...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "இப்போது எந்த பொருட்களும் இல்லை",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "கீழே உள்ள பொத்தானை சொடுக்கி முதல் பொருளை சேர்க்கவும்",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "காலாவதி",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "முடிவுக்கு வருகிறது",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "வாரண்டி காலாவதியாகிவிட்டது",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "உறுதிமொழி விரைவில் காலாவதியாகும்",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "மீதமுள்ள {count} நாட்கள்",
+  "@days_remaining": {
+    "description": "மீதமுள்ள நாட்கள் உடன் அளவுருக்கள்",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "{count} நாட்கள் காலாவதியாகியுள்ளது",
+  "@expired_days_ago": {
+    "description": "காலாவதி நாட்கள் உடன் அளவுரு",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "பொருளை நீக்கவும்",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "நீங்கள் \"{name}\"-ஐ நீக்க விர 날ுங் கூகிறீர்களா?",
+  "@delete_item_confirm": {
+    "description": "நீக்குதல் உறுதிப்படுத்தல் செய்தி",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "பொருள் நீக்கப்பட்டது",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "மறിച്ചெடுக்கும் நடவடிக்கை தோல்வியுற்றது",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "பொருளை நீக்க முடியவில்லை: {error}",
+  "@failed_to_delete_message": {
+    "description": "பிழை செய்தியை அழிக்கவும்",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "தேதி வரம்பு வடிகட்டி",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "விலை வரம்பு வடிகட்டி",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "எனது பொருட்கள்",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "வலது கீழ் மூலையில் உள்ள பொத்தானை சொடுக்கி பொருட்களை சேர்க்கவும்",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "நீக்குவதை உறுதிப்படுத்தவும்",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "வடிப்பொருள் தேர்வு",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "வகை, வகைப்படுத்தல் மற்றும் இடம் மூலம் பொருட்களை வடிகட்டவும்",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} வகைகள்",
+  "@categories_count": {
+    "description": "வகை எண்ணிக்கை காட்டும்",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "அனைத்து வகைகள்",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "தற்போது வகைபடுத்தப்பட்ட தரவுகள் இல்லை",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "சேமிப்பு இடம்",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} இடங்கள்",
+  "@locations_count": {
+    "description": "இடம் எண்ணிக்கை காட்டப்படுகிறது",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "அனைத்து இடங்களும்",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "இப்போது இட தகவல் இல்லை",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "தேதி பரப்பு",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "தேதியைக் குறிக்க диапазன் தேர்வு செய்க",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "மதிப்பெண் வரம்பு",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "தனிப்பட்ட விலை பரப்பளவு",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "குறைந்தபட்ச ஒற்றை விலை",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "அதிகபட்ச ஒற்றை விலை",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "மொத்த விலை வரம்பு",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "குறைந்தபட்ச மொத்த விலை",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "அதிகபட்ச மொத்த விலை",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "விலை வடிகட்டலை அழிக்கவும்",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "பார்கோட்டை பெட்டியில் வைத்துப் பார்",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "பொருள் ஏற்கனவே உள்ளது",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "பார்கோடு: {barcode}",
+  "@barcode_with_value": {
+    "description": "பார்கோடு குறியீடு அளவுருக்கள் காட்டுகிறது",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "பெயர்: {name}",
+  "@name_with_value": {
+    "description": "பெயர் காட்சியில் பராமெட்டர்களுடன்",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "分类：{category}",
+  "@category_with_value": {
+    "description": "பிரிவுகள் காட்டும் பராமெட்டர்களுடன்",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "தற்போதைய რაოდენை：{quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "தற்போதைய எண்ணிக்கை பராமீட்டுடன் காட்டப்படுகிறது",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "செயல்பாட்டை தேர்ந்தெடுக்கவும்:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "பொருட்களை வெளியேற்றுதல்",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "சந்தையில் சேர்க்கப்பட்டது",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "சேமிப்பு அளவு",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "வெளியேற்றக் குறியீட்டு அளவு",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "அளவு",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "சந்தைக்கு சேர்க்கும் எண்ணிக்கையை உள்ளிடவும்",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "தயவு செய்து வெளியீட்டு எண்ணிக்கையை உள்ளிடவும்",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "{name} {quantity}{unit} சேர்க்கப்பட்டுள்ளது",
+  "@item_increased": {
+    "description": "பொருள் சேர்க்கை செய்தி",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "நீங்கள் \"{name}\" ஐ நீக்க விரும்புகிறீர்களா? இந்த செயல்பாடு திரும்ப செல்ல முடியாது.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "அழிக்கும் உறுதிப்படுத்தல் கருத்தில் திரும்ப முடியாத எச்சரிக்கை சேர்க்கப்பட்டது",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "{name} {quantity} {unit} குறைக்கப்பட்டது",
+  "@item_decreased": {
+    "description": "பொருட்கள் குறைவு செய்தி",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "தரவுத்தளம் மீட்டமைக்கப்பட்டது, அட்டவணை அமைப்பை மீண்டும் உருவாக்கும்",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "தரவுத்தளத்தை மீட்டமைக்கும் போது பிழை: {error}",
+  "@database_reset_error": {
+    "description": "தரவுத்தளத்தை மீட்டமைக்கும் பொது பிழை",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "மாதிரி தரவு துவக்கப்படுவதில் தோல்வி: {error}",
+  "@mock_data_init_failed": {
+    "description": "பிரதி தரவு துவக்கிப்பு தோல்வியடைந்தது",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "தீர்வு:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. செயலியை அகற்றி மீண்டும் நிறுவவும்",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. அல்லது பயன்பாட்டின் தரவுகளை அழிக்கவும்",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. அல்லது resetDatabaseOnStart ஐ true ஆக அமைத்து மீண்டும் இயக்கவும்",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "அறிவிப்பு சேவை துவக்க தோல்வி: {error}",
+  "@notification_service_init_failed": {
+    "description": "அறிவிப்பு சேவை ஆரம்பப்படவில்லை",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "கலண்டர் கணக்கை சரிபார்க்க 실패: {error}",
+  "@check_calendar_account_failed": {
+    "description": "காலண்டர் கணக்கை சரிபார்க்க முடியவில்லை",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "கேலண்டரை உருவாக்க முடியவில்லை: {error}",
+  "@create_calendar_failed": {
+    "description": "கெலண்டரை உருவாக்க முடியவில்லை",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "கலண்டர் நிகழ்வை சேர்க்க வினா: {error}",
+  "@add_calendar_event_failed": {
+    "description": "காலண்டர் நிகழ்வை சேர்க்க முடியவில்லை",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "காலண்டர் நிகழ்வை நீக்க வினா தோல்வியடைந்தது: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "காலண்டர் நிகழ்வை அகற்றுவதில் தோல்வி",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "அனுமதி கருத்துப்பெறல் செய்தியை அமைக்க முயற்சித்ததில் தோல்வியடைந்தது: {error}",
+  "@set_permission_message_failed": {
+    "description": "அனுமதி குறிப்பு செய்தியை அமைக்க தோல்வி",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "{count} சிமுலேஷன் தரவுகள் வெற்றிகரமாக தொடங்கப்பட்டது",
+  "@mock_data_init_success": {
+    "description": "மாதிரி தரவு துவக்கிப்பு வெற்றிகரமாக முடிந்தது",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "தரவுத்தளத்தில் ஏற்கனவே {count} பதிவுகள் உள்ளன, மாதிரியான தரவு ஆரம்பிப்பை தவிர்க்கவும்",
+  "@database_has_data": {
+    "description": "தரவுத்தளத்தில் 이미 தரவு உள்ளது",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "சாத்தியமாக தரவுத்தள அமைப்பு பொருந்தவில்லை, செயலியில் உள்ள தரவுகளை நீக்க அல்லது மீண்டும் நிறுவ பரிந்துரைக்கப்படுகிறது",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "பழைய தரவுத்தள கோப்புகள் நீக்கப்பட்டுள்ளன",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "பின்வரிசை தரவுகள் காலியாக உள்ளன",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "பின்வரிசை கோப்பு இல்லை",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "கோப்பு குறியீடு செல்லுபடியான UTF-8 வடிவம் değildir. கோப்பு UTF-8 குறியீட்டில் சேமிக்கப்பட்டுள்ளது என்பதை உறுதிசெய்யவும். தப்பான விவரம்: {error}",
+  "@file_not_utf8": {
+    "description": "கோப்பு குறியாக்க பிழை",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "கோப்பு 存在 இல்லை: {filePath}",
+  "@file_not_found": {
+    "description": "கோப்பு இல்லை என்ற பிழை",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "கோப்பு காலியாக உள்ளது: {filePath}",
+  "@file_empty": {
+    "description": "கோப்பு காலியாக உள்ளது என்ற பிழை",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "கோப்பு உள்ளடக்கம் டிகோட் செய்த பிறகு காலியாக உள்ளது, இது குறியீடு பொருந்தவில்லை என்பதைக் காட்டுகிறது",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} காலியாக இருக்க முடியாது",
+  "@field_cannot_be_empty": {
+    "description": "புலம் காலியாக இருக்க முடியாது சான்று",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} நீளம் {minLength} எழுத்துகளுக்குக் குறைவாக இருக்கக்கூடாது",
+  "@field_min_length": {
+    "description": "புலத்தின் குறைந்தபட்ச நீளம் சரிபார்ப்பு",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} நீளம் {maxLength} எழுத்துகளைக் கடந்திருக்க முடியாது",
+  "@field_max_length": {
+    "description": "புலத்தின் அதிகபட்ச நீள நிலைச் சரிபார்ப்பு",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "தயவுசெய்து செல்லுபடியாகும் {fieldName} முகவரியை உள்ளிடவும்",
+  "@field_invalid_email": {
+    "description": "மின்னஞ்சல்Formatting சரிபார்ப்பு",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} {numberType} ஆக இருக்க வேண்டும்",
+  "@field_invalid_number": {
+    "description": "எண் வடிவFormatting சரிபார்ப்பு",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} {min}-ஐ விட குறைவாக இருக்கக்கூடாது",
+  "@field_min_value": {
+    "description": "குறைந்தபட்ச மதிப்புச் சோதனை",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} {max}-ஐ விட பெரியதாக இருக்கக்கூடாது",
+  "@field_max_value": {
+    "description": "அதிகபட்ச மதிப்பின் சான்று",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} நேர்மறை முழு எண் ஆக இருக்க வேண்டும்",
+  "@field_positive_integer": {
+    "description": "நேர்மையான முழு எண் சான்று",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} 0 க்கும் அதிகமாக இருக்க வேண்டும்",
+  "@field_greater_than_zero": {
+    "description": "பூஜ்யத்தை கடந்த சரிபார்ப்பு",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} நேர்மறையான எண் ஆக வேண்டும்",
+  "@field_positive_number": {
+    "description": "நெகட்டிவ் அல்லாத சோதனை",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "சரியான {fieldName} ஐ உள்ளிடுக",
+  "@field_invalid_date": {
+    "description": "தேதியின் வடிவமைப்பு சரிபார்ப்பு",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} கடந்த தேதியாக இருக்க முடியாது",
+  "@field_date_not_past": {
+    "description": "தேதி கடந்த காலமாக இருக்க முடியாது",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} {minDate}-க்கு முந்தியதாக இருக்க முடியாது",
+  "@field_date_not_before": {
+    "description": "தேதி குறிப்பிடப்பட்ட தேதிக்குக் க்கும் முன்னதாக இருக்கக்கூடாது",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} {maxDate}-க்கு மேல் தாமதமாக இருக்கக்கூடாது",
+  "@field_date_not_after": {
+    "description": "தேதி குறிப்பிடப்பட்ட தேதிக்குப் பிறகு இருக்கக் கூடாது",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "சரியான {fieldName} ஐ உள்ளிடுக",
+  "@field_invalid_value": {
+    "description": "தவறான மதிப்பு சரிபார்ப்பு",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} நீளம் 8 எழுத்துக்களுக்கு குறைவாக இருக்க கூடாது",
+  "@password_min_length": {
+    "description": "கடவுச்சொல் குறைந்தது நீளம் சரிபார்ப்பு",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} குறைந்தது ஒரு பெரிய எழுத்தினை கொண்டிருக்க வேண்டும்",
+  "@password_uppercase_required": {
+    "description": "கடவுச்சொல் பெரிய எழுத்துக்கள் கொண்டிருக்க வேண்டும்",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} குறைந்தபட்சம் ஒரு சிறிய எழுத்தை கொண்டிருக்க வேண்டும்",
+  "@password_lowercase_required": {
+    "description": "கடவுச்சொல் சிறிய எழுத்துக்களை அடங்க வேண்டும்",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} குறைந்தது ஒரு இலக்கத்தை கொண்டிருக்க வேண்டும்",
+  "@password_digit_required": {
+    "description": "கடவுச்சொல்லில் எண்ணிக்கைகள் இருக்க வேண்டும்",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} குறைந்தது ஒரு சிறப்பு எழுத்தை உடையதாக இருக்க வேண்டும்",
+  "@password_special_char_required": {
+    "description": "கடவுச்சொல்லில் சிறப்பு எழுத்துக்கள் இருக்க வேண்டும்",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "இரண்டு முறை உள்ளீடு செய்யப்பட்ட கடவுச்சொல்一致 இல்லை",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "பொருளின் பெயரை காலியாக விட முடியாது",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "பெயர் {maxLength} குறியீடுகளை மீறக்கூடாது",
+  "@name_max_length": {
+    "description": "பெயரின் மிக அதிக நீள நிலை சரிபார்ப்பு",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "அளவு {minQuantity} விட குறைவாக இருக்க கூடாது",
+  "@quantity_min": {
+    "description": "குறைந்தபட்ச மதிப்பு சரிபார்ப்பு",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "எண்ணிக்கை {maxQuantity} ஐ விட அதிகமாக இருக்க முடியாது",
+  "@quantity_max": {
+    "description": "அதிகபட்ச அளவு சோதனை",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "யூனிட் விலை எதிர்மறையாக இருக்க முடியாது",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "ஒற்றை விலை {maxUnitPrice} க்கைக் கூடாதது",
+  "@unit_price_max": {
+    "description": "அனைத்து முதலீட்டு விலைகளின் அதிகபட்ச மதிப்புகளைச் சரிபார்த்தல்",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "தயவுசெய்து தயாரிப்பு தேதி மற்றும் கடைசித் தேதி காலத்தை அமைத்து செல்லுபடியான காலத்தை தானாக கணக்கிடவும்",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "கட்டணத் தேதி மற்றும் காப்புறுதி காலத்தை தானாகக் கணக்கிட காம்பிள் செய்யவும்",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "கேலண்டர் கணக்கை உருவாக்க முடியவில்லை, சிஸ்டம் காலண்டர் அமைப்புகளைச் சரிபார்க்கவும்",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "சோதனை அறிவிப்பு",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "இது ஒரு சோதனை அறிவிப்பு, உள்ளூர் நினைவூட்டல் செயல்பாட்டை சரிபார்க்கும் நோக்கில் உள்ளது",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "வானம்",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} நாட்கள்",
+  "@days_with_value": {
+    "description": "நாட்கள் அளவுருவுடன்",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "பொருள் சேமிக்கப்பட்டது",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "பொருள் புதுப்பிக்கப்பட்டது",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "பொருள் சேர்க்கப்பட்டது",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "சேமிப்பு வெற்றிகரமாக முடிந்தது",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "புதுப்பிப்பு வெற்றிகரமாக முடிந்தது",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "முயற்சி வெற்றிகரமானது",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "சேமிப்பதில் தோல்வி",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "புதுப்பிப்பு தோல்வியடைந்தது",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "மறിച്ചெடுக்கும் நடவடிக்கை தோல்வியுற்றது",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "மொழி அமைப்புகள்",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "ஆப்ளிகேஷன் காட்சித் தட்டலை மொழி அமைக்கவும்",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "கணினி இயல்புநிலை",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "சிஸ்டம் மொழியை பயன்படுத்தவும்",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "மொழி மாற்றம் செயலியில் மீண்டும் துவங்கியபின் செயல்படும்",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "நடப்பு தேர்வு: {days} நாட்கள்",
+  "@current_selection": {
+    "description": "தற்போதைய தேர்வு செய்யப்பட்ட நாட்கள் காட்சி",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

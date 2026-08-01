@@ -1,0 +1,1625 @@
+{
+  "@@locale": "as",
+  "app_name": "সঁচা বস্তু সংৰক্ষণ কৰিবৰ ঠাই",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "বাতিল কৰক",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "নিশ্চিত",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "সংৰক্ষণ কৰক",
+  "@save": {
+    "description": ""
+  },
+  "delete": "মচি পেলোৱা",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "সম্পাদনা কৰক",
+  "@edit": {
+    "description": ""
+  },
+  "add": "যোগ কৰক",
+  "@add": {
+    "description": ""
+  },
+  "search": "সন্ধান কৰক",
+  "@search": {
+    "description": ""
+  },
+  "settings": "সেটিংছ",
+  "@settings": {
+    "description": ""
+  },
+  "back": "পিছলৈ উভতি যা",
+  "@back": {
+    "description": ""
+  },
+  "next": "পৰবৰ্তী পৰ্যায়",
+  "@next": {
+    "description": ""
+  },
+  "done": "সंपূৰ্ণ",
+  "@done": {
+    "description": ""
+  },
+  "loading": "লোড হৈ আছে...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "ভুল",
+  "@error": {
+    "description": ""
+  },
+  "success": "সফলতা",
+  "@success": {
+    "description": ""
+  },
+  "warning": "সতৰ্কবাণী",
+  "@warning": {
+    "description": ""
+  },
+  "info": "সুচনা",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "স্মৰণৰ দিনসমূহ বাছনি কৰক",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "নিজৰ মতে নিৰ্ধাৰণ কৰা",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "স্ব-নির্ধাৰিত ({days} দিন)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "সাৱধানবাণীৰ দিনৰ সীমা: {min}-{max} দিন",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "অনুগ্ৰহণৰ দিনবোৰ প্ৰৱিষ্ট কৰক",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "দিনৰ সংখ্যা",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "অনুগ্ৰহ কৰি {min}-{max} ৰ মাজৰ সংখ্যাটো লিখক",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "সতৰ্ক সংকেত ব্যৱস্থা",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "পঞ্জিকা ছেটিংস",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "পঞ্জিকা সমন্বয়",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "চালু কৰাৰ পাছত কৰিব কেলেণ্ডাৰৰ অনুমতি বিনয়",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "পৰীক্ষা কেলেণ্ডাৰ ঘটনাৰ যোগ কৰক",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "অনুগ্ৰহ কৰি প্ৰথমে \"কেলেণ্ডাৰ সমন্বয়\" সুইচ খোলক",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "এপ্লিকেছন সতর্কতা ছেটিংছ",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "স্থানীয় স্মৰণ",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "সক্রিয় কৰাৰ পাছত এপ্লিকেশ্যন ভিতৰত মেয়াদ উকলাৰ সতৰ্কবাণী গ্ৰহণ কৰক",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "পৰীক্ষা সঁচলিত বাৰ্তা প্ৰেৰণ কৰক",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "অনুগ্ৰহ কৰি প্ৰথমে \"স্থানীয় স্মৰণ\" চুইচ খোলক",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "স্মৰণৰ দিনসমূহৰ ছেটিং",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "পূৰ্বে স্মৰণ কৰোৱাৰ দিনসমূহ",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "কিমান দিন আগেয়ে বস্তুৰ মেয়াদ শেষ হ'ব বা নিশ্চয়তাৰ সমাপ্তি হোৱা বাবে স্মৰণীয় কৰিব তেন্তে নিৰ্ধাৰণ কৰক",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "পঞ্জিকা অনুমতি অনুৰোধ",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "আইটেম সন্ত্ৰাসসমূহ একত্ৰীকৰণ কৰিবলৈ কেলেণ্ডাৰ অনুমতি প্ৰয়োজন। অনুমতি দিবনে?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "অনুমতি দিয়া",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "পঞ্জিকা অনুমতি দিয়া হৈছে, পঞ্জিকা সমন্বয় আৰম্ভ হৈছে",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "পঞ্জিকা অনুমতি অস্বীকৃত, পঞ্জিকা সমন্বয় আৰম্ভ কৰিব নোৱাৰি",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "অনুমতি স্থায়ীভাৱে বিৰত কৰা হৈছে",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "কালেণ্ডাৰৰ অনুমতি স্থায়ীভাৱে নাকচ কৰা হৈছে, অনুগ্ৰহ কৰি প্ৰণালী ব্যৱস্থাত হাতৰে অনুমতি খোলক।",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "ছেটিংছলৈ যাওক",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "কেলেণ্ডাৰ অনুমতি দিয়া হৈছে, কিন্তু কেলেণ্ডাৰ একাউণ্ট সৃষ্টি কৰিব নোৱাৰি। অনুগ্ৰহ কৰি প্ৰণালী কেলেণ্ডাৰ ছেটিংচ পৰীক্ষা কৰক",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "পঞ্জিকা অনুমতি প্ৰদান কৰা হৈছে, স্থানীয় পঞ্জিকা একাউণ্ট সৃষ্টি কৰা হৈছে",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "পঞ্জিকা একাউণ্ট সফলভাৱে সৃষ্টি হৈছে, কিন্তু প্ৰণালীটোৱে কাৰ্যকৰী হ'বলৈ কিছু সময় লাগিব পাৰে",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "পৰীক্ষা কেলেণ্ডাৰ ঘটনাৰ সংযোজন সফল",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "পৰীক্ষা কেলেণ্ডাৰ অনুষ্ঠান যোগ কৰিবলৈ ব্যৰ্থ, দয়া কৰি কেলেণ্ডাৰ ছেটিং চাওক",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "পৰীক্ষা অনুষ্ঠান যোগ কৰিবলৈ কেলেণ্ডাৰ অনুমতিৰ প্ৰয়োজন",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "পৰীক্ষা বিজ্ঞাপন প্ৰেৰণ কৰা হৈছে",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "পৰীক্ষা অৱগতি প্ৰেৰণ ব্যৰ্থ: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "স্থানীয় স্মৰণ কৰিবৰ বাবে অৱগতিপ্ৰাপ্তিৰ অনুমতি প্ৰয়োজন",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "কৰ্ম সম্পাদন বিফল: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "বস্তু সতৰ্কবাণী সূচনা",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "পণ্যৰ মেয়াদ শেষ হোৱাৰ বা গাৰাণ্টীৰ শেষ হোৱাৰ সতৰ্কবাণী",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "খাদ্য",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "দৈনন্দিন ব্যৱহাৰৰ সামগ্ৰী",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "সৌন্দৰ্যসামগ্ৰী",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "ষাঁই",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "বৈদ্যুতিন সামগ্ৰী",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "সাজসজ্জা",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "পোছাক",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "বই",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "অন্যান্য",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "অনলাইন ষ্ট’ৰ",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "স্থাপন দোকান",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "চুপাৰমাৰ্কেট",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "স্পেচিয়েলিটি ষ্ট'ৰসমূহ",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "দ্বিতীয়-হস্ত বজাৰ",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "অন্যান্য",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "অন্যান্য",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "অনলাইন ষ্ট’ৰ",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "বস্তুৰ শ্ৰেণীবিভাজন",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "নিজৰ নিৰ্ধাৰিত শ্ৰেণীবিভাজন",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "ডাটা বেকআপ",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "সকলো ডাটা (ছবিসহ) ZIP ফাইল হিচাপে পেক কৰি বেকআপ কৰা",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "সমগ্ৰ তথ্যৰ পাছত সংৰক্ষণ কৰক",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "বেকআপ সফল",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "বেকআপ বিফল: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "ডাটা পুণৰুদ্ধাৰ কৰক",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ZIP বেছৰা নথি পৰা সকলো ডাটা পুনৰুদ্ধাৰ কৰক",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "ডাটা এক্সপৰ্ট কৰক",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "CSV, TXT, SQL ফৰ্মেটত এক্সপৰ্ট কৰা",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "ডাটা আমদানি কৰা",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "CSV, TXT, SQL ফাইলৰ পৰা ডাটা আমদানি কৰা",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "পঞ্জিকা স্মৰণ আৰু এপ্ পুশ স্মৰণ সে‌টিংচ",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "সন্দৰ্ভত",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "আবেদন তথ্য আৰু সংস্কৰণ",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "দয়া কৰি প্ৰথমে বেকআপ ফাইলটো বাছনি কৰক",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "পুনৰুদ্ধাৰ নিশ্চিত কৰক",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "বেকআপ পুনৰুদ্ধাৰ কৰিলে সকলো বৰ্তমান ডাটা মচি পেলাব আৰু বেকআপ ডাটাৰে সলনি কৰিব, এই কাৰ্য অপৰিবর্তনীয়। আপুনি আগবঢ়াব খুজিছে নে?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "পুনৰ নিশ্চিত কৰা",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "আপুনি নিশ্চিতনে যে সকলো বৰ্তমান ডাটা ৰাজহুৱা কৰি সংৰক্ষণ পুনৰুদ্ধাৰ কৰিব? এই কাৰ্য্যটো পুনৰুদ্ধাৰ কৰিব নোৱাৰি!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "পুনৰুদ্ধাৰ নিশ্চিত কৰক",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "পুনৰুদ্ধাৰ সফল, মুঠ {count} টা সামগ্ৰী",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "পুনৰুদ্ধাৰ বিফল: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "বেকআপ ফাইল বাছনি কৰক",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "বেকআপ পুনৰুদ্ধাৰ কৰক",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "নিৰ্বাচিত নথি: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "ডেটা সফলতাৰে ৰপ্তানি কৰা হৈছে",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "নির্যাস সফল নহ'ল: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "পুনৰাবৃত্তি ডাটা প্ৰসেসিং",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "পুনৰাবৃত্ত তথ্য পোৱা গ'ল, অনুগ্ৰহ কৰি প্ৰক্ৰিয়া ব্যৱস্থা বাছনি কৰক:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "উৰ্তাই যাব",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "আৱৰণ",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "সকলো এৰি দিয়া",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "সৰ্বত্ৰ আৱৰণ",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "দয়া কৰি প্ৰথমে আমদানি ফৰ্মেট বাছনি কৰক",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "আমদানি নিশ্চিত কৰক",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "ডাটা ইম্পোৰ্ট কৰাটো বিদ্যমান ডাটাক আৱৰণ কৰিব, এই কাৰ্য অপ্রত্যাহাৰযোগ্য। আপুনি আগবাঢ়ি যাব বিচাৰে নেকি?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "ডেটা আমদানি সফল, মুঠ {count}টা বস্তু আমদানি হৈছে",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "আমদানি বিফল: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "ফাইল নিৰ্বাচন কৰক",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "তথ্য নাই",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "বৰ্তমান কোনো তথ্য নাই, তলত থকা বুটামটোত ক্লিক কৰি প্ৰথমটো ৰেকৰ্ড সংযোজন কৰক!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "লোড কৰিবলৈ বিফল",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "ডাটা লোড কৰিব পৰা হোৱা নাই, অনুগ্ৰহ কৰি নেটৱৰ্ক সংযোগ পৰীক্ষা কৰি পুনৰ চেষ্টা কৰক",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "পুনৰ চেষ্টা কৰক",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "নেটৱৰ্ক সংযোগ বিফল",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "অনুগ্ৰহ কৰি নেটৱৰ্ক সংযোগ পৰীক্ষা কৰি পুনৰ চেষ্টা কৰক",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "ফলাফল নোপোৱা গল",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "অন্য কীৱৰ্ড ব্যৱহাৰ কৰি চাবলৈ চেষ্টা কৰক",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "সন্ধান মচি পেলোৱা",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "অনুমতি অৱাঞ্চিত",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "এই ফাংশন ব্যৱহাৰ কৰিবলৈ প্ৰয়োজনীয় অনুমতি আৱশ্যক",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "অনুমতি অনুৰোধ কৰা",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "এপ্লিকেশ্যন তথ্য",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "সংস্কৰণ",
+  "@version": {
+    "description": ""
+  },
+  "developer": "উন্নয়নকাৰী",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "সঁজুলি তথ্য",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "উপকৰণ মডেল",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "ব্ৰেণ্ড",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "সঁজুলিৰ নাম",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "উৎপাদ",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "হাৰ্ডৱেৰ",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "এنډ্ৰইড সংস্কৰণ",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK সংস্কৰণ",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "প্ৰণালীৰ নাম",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "প্ৰণালী সংস্কৰণ",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "সঁজুলিৰ পৰিচয়",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "কম্পিউটাৰৰ নাম",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "সংস্কৰণ নম্বৰ",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "যন্ত্ৰ তথ্য লাভ কৰিব নোৱাৰি: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "কাৰ্য্য পৰিচয়",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "বুদ্ধিমান সামগ্ৰী ব্যৱস্থাপনা আবেদন",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "আপোনাৰ সামগ্ৰীৰ মেয়াদ শেষ হ'বলৈ থকা তাৰিখ, ৱাৰেন্টীৰ তাৰিখ আদি তথ্য ব্যৱস্থাপনা কৰিবলৈ সহায় কৰে আৰু বুদ্ধিমান সতৰ্কবাণীৰ সুবিধা প্ৰদান কৰে।",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "ব্যয়্য সামগ্ৰী",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "টেকসই সামগ্ৰী",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "কৰ্মসূচী",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "নামৰ অৰ্ডাৰ অনুসৰি",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "নাম অৱনম্বৰ",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "তাৰিখৰ অৰ্দ্ধসাৰিত",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "তাৰিখ অৱনম্বৰ অনুক্ৰম",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "একক মূল্য ঊর্ধ্বক্রম",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "একক মূল্য অৱৰোহক্রমে",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "পৰিমাণ অনুসৰি ঊর্ধ্বমুখী",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "পৰিমাণ অনুসৰি অৱনমিত",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "মুঠ মূল্য বৃদ্ধিৰ অনুসৰা",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "মুঠ মূল্য অৱনমিত ক্রমানুসাৰে",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "সকলো ফিল্টাৰ আঁতৰাও",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "স্কেন কৰি গোডাউনত প্ৰৱেশ কৰক",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "বস্তু সন্ধান কৰক...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "সামগ্ৰীৰ অভাৱ",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "তলৰ বুটামটোত ক্লিক কৰি প্ৰথমটো বস্তু যোগ কৰক",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "সময়সীমা পাৰ হৈ গ'ল",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "সোনকালতেই মেয়াদ শেষ হব",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "ৱাৰেণ্টীৰ মেয়াদ শেষ হৈছে",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "ৱাৰেণ্টীৰ মেয়াদ অন্তিম হৈ আহিছে",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "অৱশিষ্ট {count} দিন",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "প্ৰৱেশাধিকার_{count} দিন অতিক্ৰম হৈছে",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "বস্তু মচি পেলোৱা",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "আপুনি nিশ্চিত যে \"{name}\" মচি পেলাব বিচাৰে নেকি?",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "বস্তুটো মচি দিয়া হৈছে",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "মচি পেল নাই",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "বস্তুটো মচি পেলাব নোৱাৰি: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "তাৰিখ সীমা ছাঁটনি",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "মূল্য সীমা বাছনি",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "মোৰ সামগ্ৰী",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "ঠেৰাৰ ডাঙৰ বুটামত টিপি সামগ্ৰী যোগ কৰক",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "মচি পেলোৱাটো নিশ্চিত কৰক",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "বাছনি বিকল্পসমূহ",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "আইটেমসমূহক ধৰণ, শ্ৰেণী আৰু স্থান অনুসৰি বাছনি কৰক",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} খন শ্ৰেণী",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "সকল শ্ৰেণী",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "অস্থায়ীভাৱে শ্ৰেণীবদ্ধ তথ্য নাই",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "সংগ্ৰহস্থল",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} খন স্থান",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "সকল স্থান",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "অস্থায়ীভাৱে স্থান ডাটা উপলব্ধ নহয়",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "তাৰিখ সীমা",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "তাৰিখৰ সীমা নিৰ্বাচন কৰক",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "মূল্য সীমা",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "একক মূল্যৰ পৰিসৰ",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "সৰ্বনিম্ন একক মূল্য",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "সৰ্বাধিক একক মূল্য",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "মুঠ মূল্য পৰিসৰ",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "সৰ্বনিম্ন মুঠ মূল্য",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "সৰ্বাধিক মুঠ মূল্য",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "মূল্য পৰিস্ফুটন মচি পেলাওক",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "বারকোডটো বক্সৰ ভিতৰত ৰাখি স্কেন কৰক",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "বস্তু ইতিমধ্যে আছে",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "বাৰক'ডঃ {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "নাম: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "শ্ৰেণী: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "বৰ্তমান পৰিমাণ: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "অনুগ্ৰহ কৰি কাৰ্য নিৰ্বাচন কৰক:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "বাহিৰ কৰাৰ বাবে",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "গুদামত সোমোৱা",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "গুদামত সঠাটো পৰিমাণ",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "বাহিৰ কৰা পৰিমাণ",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "পৰিমাণ",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "অনুগ্ৰহ কৰি ষ্টকত যোগ দিয়া পৰিমাণটো প্ৰৱিষ্ট কৰক",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "দয়া কৰি ওঠাটো পৰিমাণ লিখক",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "পূৰব্ধ হৈছে {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "আপুনি কি “{name}” মচিবই বিচাৰে? এই কাৰ্য অপ্রত্যাহাৰযোগ্য।",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "হ্ৰাস কৰিছে {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "ডাটাবেছ পুনঃসেট কৰা হৈছে, টেবুলৰ গঠন পুনৰ সৃষ্টি কৰা হ'ব",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "ডাটাবেইচ পুনঃস্থাপন কৰাৰ সময়ত ত্ৰুটি হৈছে: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "নকল তথ্য আৰম্ভণি বিফল: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "সমাধান:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "১. এপ্লিকেচন আনইনষ্টল কৰি পুনৰ স্থাপন কৰক",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. বা এপ্লিকেশ্যনৰ ডাটা মচি পেলাও",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. অথবা resetDatabaseOnStart true ৰূপে স্থাপন কৰি পুনৰ চলাওক",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "স্মৰণ সূৱাৱনী সেৱা আৰম্ভ কৰাটো ব্যৰ্থ হৈছে: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "কেলেণ্ডাৰ একাউণ্ট পৰীক্ষাৰ ব্যৰ্থতা: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "পঞ্জিকা সৃষ্টি কৰিব পৰা নগ'ল: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "কেলেণ্ডাৰ ঘটনা যোগ কৰাত ব্যাৰ্থ: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "পঞ্জিকা অনুষ্ঠান মচাত ব্যৰ্থ: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "অনুমতি সূচনা বাৰ্তা নিৰ্ধাৰণত ব্যৰ্থ: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "সফলভাৱেই প্ৰাৰম্ভ কৰা হৈছে {count} টা অনুকৰণ তথ্য",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "ডেটাবেছত ইতিমধ্যে {count} টা ডাটা আছে, ছিমুলেশ্যন ডাটা আৰম্ভণি এৰাই দিয়া হ'ল",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "সম্ভৱত ডেটাবেছৰ গঠন মিল নহয়, এপ্লিকেচনৰ তথ্য মচি পেলোৱা বা পুনৰ স্থাপন কৰাৰ পৰামৰ্শ দিয়া হৈছে",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "পুৰণি ডাটাবেছ ফাইল মচি দিয়া হৈছে",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "বেকআপ ডাটা খালী",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "বেকআপ ফাইলটো উপস্থিত নাছিল",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "ফাইল সংকেতকরণ বৈধ UTF-8 য়ে নে। অনুগ্ৰহ কৰি নিশ্চিত কৰক যে ফাইলটো UTF-8 সংকেতকৰণ ব্যৱহাৰ কৰি সংৰক্ষণ কৰা হৈছে। ভুলৰ বিৱৰণ: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "ফাইলটো অস্তিত্ব নাথাকে: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "ফাইল খালী: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "ফাইলৰ সামগ্ৰী ডিকড কৰাৰ পাছত খালী হৈছে, সম্ভৱত সংকেতকৰণ মিলিত নহয়",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} খালি নহব নোৱাৰি",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName}ৰ দৈৰ্ঘ্য {minLength}টাকৈ অক্ষৰৰ তলত নহ’ব পাৰে",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName}ৰ দৈৰ্ঘ্য {maxLength} টা চৰিত্ৰৰ পৰা অধিক নোহোৱা উচিত",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "অনুগ্ৰহ কৰি বৈধ {fieldName} ঠিকনা প্ৰৱিষ্ট কৰক",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} আবশ্যক {numberType} হ'ব",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} {min}তকৈ কম নহব নোৱাৰে",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} {max}তকৈ বেছি নহব পাৰে",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} অবশ্যই ধনাত্মক পূৰ্ণ সংখ্যা হ'ব লাগিব",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} অবশ্যই 0 ৰ ওপৰত হ'ব লাগিব",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} অবশ্যই ধনাত্মক সংখ্যা হ'ব লগা",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "অনুগ্ৰহ কৰি বৈধ {fieldName} প্ৰৱিষ্ট কৰক",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} অতীত তাৰিখ হ'ব নোৱাৰে",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} {minDate} ৰ আগতে নহব নোৱাৰে",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} {maxDate}তকৈ বেছি বেলেগ হোৱা নাযায়",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "অনুগ্ৰহ কৰি বৈধ {fieldName} প্ৰৱিষ্ট কৰক",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName}ৰ দৈৰ্ঘ্য 8টা অক্ষৰৰ পৰা কম নহব নোৱাৰে",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName}ত অন্ততঃ এটা ডাঙৰ আখৰ থাকিব লাগিব",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName}ত অন্ততঃ এটা সৰু আখৰ থাকিব লাগে",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName}ত অন্তত এটা সংখ্যা থকা লাগে",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName}ত যিকোনো এটা বিশেষ চৰিত্র অন্ততঃ থাকিব লাগে",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "দুবার প্ৰৱিষ্ট কৰা পাছৱাৰ্ডটো একেধৰণৰ নহয়",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "বস্তুৰ নাম খালী হৈ থাকিব নোৱাৰে",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "নামটো {maxLength} টাৰ্মৰ পৰা বেছি নহ’ব পাৰে",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "পরিমাণ {minQuantity}তকৈ কম হ'ব নোৱাৰিব",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "পরিমাণ {maxQuantity}ৰ বেশী নহব নোৱাৰি",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "একক মূল্য ঋণাত্মক হ'ব নোৱাৰে",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "একৰ মূল্য {maxUnitPrice} অতিক্ৰম কৰিব নোৱাৰে",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "অনুগ্ৰহ কৰি উৎপাদক তাৰিখ আৰু শেলফ লাইফ ছেট কৰক যাতে স্বয়ংক্ৰীভাবে বৈধ সময় গণনা কৰিব পাৰে",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "অনুগ্ৰহ কৰি যন্ত্ৰ কেনাৰ তাৰিখ আৰু মেয়াদ স্থাপন কৰক যাতে স্বয়ংক্ৰিয়ভাৱে ৱাৰেণ্টি মেয়াদ গণনা কৰিব পৰা যায়",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "কেলেণ্ডাৰ একাউণ্ট সৃষ্টি কৰিব নোৱাৰি, অনুগ্ৰহ কৰি ব্যৱস্থা কেলেণ্ডাৰৰ ছেটিং পৰীক্ষা কৰক",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "টেষ্ট নিৰ্দেশনা",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "এইটো এটা পৰীক্ষা সূচনা, স্থানীয় সোৰৱনীয়তা কাৰ্যক্ষমতা যাচাই কৰিবলৈ",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "আকাশ",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} দিন",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "বস্তু সংৰক্ষিত কৰা হৈছে",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "বস্তুটো আপডেৰ কৰা হৈছে",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "বস্তুটো যোগ কৰা হৈছে",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "সফলভাৱে সংৰক্ষণ কৰা হৈছে",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "আপডেট সফল",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "মচি পেল",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "সংৰক্ষণ বিফল",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "আপডে'ট বিফল",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "মচি পেল নাই",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "ভাষা ছেটিং",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "এপ্লিকেশ্যনৰ প্ৰদৰ্শন ভাষা সন্তুলিত কৰা",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "প্ৰণালী ডিফল্ট",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "প্ৰণালী ভাষা ব্যৱহাৰ কৰা",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "ভাষা পৰিৱৰ্তন এপ্লিকেশ্যন পুনৰ আৰম্ভ কৰাৰ পিছতে কাৰ্যকৰী হ'ব",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "বৰ্তমান বাচনি: {days} দিন",
+  "@current_selection": {
+    "description": "বৰ্তমান বাছনি কৰা দিনবোৰ প্ৰদৰ্শন কৰে",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

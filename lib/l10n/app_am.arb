@@ -1,0 +1,1625 @@
+{
+  "@@locale": "am",
+  "app_name": "በትንሽ ቦታ ውስጥ ውድ ሀብት",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "ተወው",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "አረጋግጥ",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "አስቀምጥ",
+  "@save": {
+    "description": ""
+  },
+  "delete": "ማጥፊያ",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "ያርትዑ",
+  "@edit": {
+    "description": ""
+  },
+  "add": "አክል",
+  "@add": {
+    "description": ""
+  },
+  "search": "ምፈልገው",
+  "@search": {
+    "description": ""
+  },
+  "settings": "ማሰናጃዎች",
+  "@settings": {
+    "description": ""
+  },
+  "back": "ተመለስ",
+  "@back": {
+    "description": ""
+  },
+  "next": "ቀጣይ ደረጃ",
+  "@next": {
+    "description": ""
+  },
+  "done": "ተጠናቅቋል",
+  "@done": {
+    "description": ""
+  },
+  "loading": "በመጫን ላይ ...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "ስህተት",
+  "@error": {
+    "description": ""
+  },
+  "success": "ስኬት",
+  "@success": {
+    "description": ""
+  },
+  "warning": "ማስጠንቀቂያ",
+  "@warning": {
+    "description": ""
+  },
+  "info": "መረጃ",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "የማስታወሻ ቀናትን ይምረጡ",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "ብጁ",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "ብጁ ({days} ቀናት)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "የማስታወሻ ቀናት ክልል {min}-{max} ቀናት",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "እባክዎ የማስታወሻ ቀናት ያስገቡ",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "የቀኖች ብዛት",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "እባክዎ በ {min} እና {max} መካከል ቁጥር ያስገቡ",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "የማንቂያ ቅንብሮች",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "የቀን መቁጠሪያ ቅንብሮች",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "የቀን መቁጠሪያ ማመሳሰል",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "ሲነቃ የቀን መቁጠሪያ ፈቃዶችን ይጠይቃል",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "የሙከራ ቀን መቁጠሪያ ክስተት ያክሉ",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "እባክዎ መጀመሪያ የ'Calendar Sync' ማብሪያ / ማጥፊያውን ያብሩ",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "የመተግበሪያ ማሳወቂያ ቅንብሮች",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "የአካባቢ አስታዋሽ",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "ካነቁ በኋላ የውስጠ-መተግበሪያ ማብቂያ አስታዋሾችን ይቀበሉ",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "የሙከራ ማሳወቂያ ይላኩ",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "እባክዎ መጀመሪያ 'የአካባቢ ማሳወቂያዎች' መቀየሪያን ያብሩ",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "የማስታወሻ ቀናት ቅንብር",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "ለቅድሚያ ማስታወቂያ የቀኖች ብዛት",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "ስለ እቃው ማብቂያ ወይም የዋስትና ማብቂያ ለማስታወስ ስንት ቀናት አስቀድመው ያዘጋጁ",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "የቀን መቁጠሪያ ፈቃድ ጥያቄ",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "የንጥል አስታዋሾችን ለማመሳሰል የቀን መቁጠሪያው መዳረሻ ያስፈልጋል። ፍቀድ?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "ፍቀድ",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "የቀን መቁጠሪያ ፈቃዶች ተሰጥተዋል፣ እና የቀን መቁጠሪያ ማመሳሰል ነቅቷል",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "የቀን መቁጠሪያ ፈቃድ ተከልክሏል፣ የቀን መቁጠሪያ ማመሳሰልን ማንቃት አልተቻለም",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "ፈቃድ በቋሚነት ተከልክሏል",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "የቀን መቁጠሪያ ፈቃድ በቋሚነት ተከልክሏል። እባክዎ በስርዓት ቅንብሮች ውስጥ ፈቃዱን እራስዎ ያንቁ።",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "ወደ ቅንብሮች ይሂዱ",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "የቀን መቁጠሪያ ፈቃዶች ተሰጥተዋል፣ ነገር ግን የቀን መቁጠሪያ መለያ ሊፈጠር አይችልም። እባክዎ የስርዓት የቀን መቁጠሪያ ቅንብሮችን ያረጋግጡ።",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "የቀን መቁጠሪያ ፈቃዶች ተሰጥተዋል፣ እና የአካባቢ የቀን መቁጠሪያ መለያ ተፈጥሯል",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "የቀን መቁጠሪያ መለያው በተሳካ ሁኔታ ተፈጥሯል፣ ነገር ግን ስርዓቱ ተግባራዊ ለመሆን የተወሰነ ጊዜ ሊወስድ ይችላል።",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "የሙከራ ቀን መቁጠሪያ ክስተት በተሳካ ሁኔታ ታክሏል",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "የሙከራ የቀን መቁጠሪያ ክስተት ማከል አልተሳካም፣ እባክዎ የቀን መቁጠሪያ ቅንብሮችዎን ያረጋግጡ",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "የሙከራ ክስተት ለመጨመር የቀን መቁጠሪያ ፈቃድ ያስፈልጋል",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "የሙከራ ማሳወቂያ ተልኳል",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "የሙከራ ማሳወቂያ መላክ አልተሳካም {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "የአካባቢ አስታዋሾችን ለማንቃት የማሳወቂያ ፈቃዶች ያስፈልጋሉ",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "ክዋኔ አልተሳካም {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "የንጥል ማንቂያ ማስታወቂያ",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "የንጥል ማብቂያ ወይም የዋስትና አስታዋሽ",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "ምግብ",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "ዕለታዊ ፍላጎቶች",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "የመዋቢያ ቁሳቁሶች",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "መድሃኒት",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "የኤሌክትሮኒክ ምርቶች",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "የቤት ዕቃ",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "ልብስ",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "መጽሐፍት",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "ሌላ",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "የመስመር መደብር",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "አካላዊ መደብር",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "ሱፐርማርኬት",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "ልዩ መደብር",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "ሁለተኛ እጅ ገበያ",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "ሌላ",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "ሌላ",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "የመስመር መደብር",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "የንጥል ምደባ",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "ብጁ ምድብ",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "የመጠባበቂያ ውሂብ",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "ለመጠባበቂያ ሁሉንም ውሂብ (ምስሎችን ጨምሮ) ወደ ዚፕ ፋይል ያሽጉ",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "ሁሉንም ውሂብ ምትኬ ያስቀምጡ",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "ምትኬ ተሳክቷል",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "ምትኬ አልተሳካም {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "ውሂብ መልሰው ያግኙ",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ሁሉንም ውሂብ ከዚፕ ምትኬ ፋይል ወደነበረበት ይመልሱ",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "ውሂብ መላኪያ",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "እንደ CSV, TXT, SQL ቅርጸት ወደ ውጪ ላክ",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "ዳታ ማምጫ",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "ከCSV, TXT, SQL ፋይሎች ውሂብ አስመጣ",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "የቀን መቁጠሪያ አስታዋሾች እና የመተግበሪያ ግፋ ማሳወቂያ ቅንብሮች",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "ስለ",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "የመተግበሪያ መረጃ እና ስሪት",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "እባክዎ መጀመሪያ የመጠባበቂያ ፋይል ይምረጡ",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "ወደነበረበት መመለስን ያረጋግጡ",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "መጠባበቂያውን ወደነበረበት መመለስ ሁሉንም ነባር መረጃዎች ይሰርዛል እና በመጠባበቂያ ውሂብ ይተካዋል። ይህ እርምጃ ሊቀለበስ አይችልም። መቀጠል እንደምትፈልግ እርግጠኛ ነህ?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "እንደገና አረጋግጥ",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "እርግጠኛ ነዎት ሁሉንም ነባር ውሂብ ማጥፋት እና ምትኬ ወደነበረበት መመለስ ይፈልጋሉ? ይህ እርምጃ ሊቀለበስ አይችልም!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "ወደነበረበት መመለስን ያረጋግጡ",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "ተሃድሶ ስኬታማ ፣ በአጠቃላይ {count} እቃዎች",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "እነበረበት መልስ አልተሳካም {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "የመጠባበቂያ ፋይል ይምረጡ",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "ምትኬን ወደነበረበት ይመልሱ",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "የተመረጠው ፋይል {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "የውሂብ መላክ ስኬታማ",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "መላክ አልተሳካም {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "ሲ.ኤስ.ቪ",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "የ TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "የተባዛ የውሂብ ሂደት",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "የተባዛ ውሂብ ተገኝቷል፣ እባክዎ የአያያዝ ዘዴን ይምረጡ -",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "ዝለል",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "መሸፈኛ",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "ሁሉንም ዝለል",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "ሙሉ ሽፋን",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "እባክዎ መጀመሪያ የማስመጣት ቅርጸቱን ይምረጡ",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "ማስመጣትን ያረጋግጡ",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "ውሂብ ማስመጣት ያለውን ውሂብ ይተካዋል። ይህ እርምጃ ሊቀለበስ አይችልም። መቀጠል እንደምትፈልግ እርግጠኛ ነህ?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "የውሂብ ማስመጣት ስኬታማ ነው፣ በአጠቃላይ {count} እቃዎች ወደ ሀገር ውስጥ ገብተዋል",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "ማስመጣት አልተሳካም {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "ፋይል ይምረጡ",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "ምንም ውሂብ የለም",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "በአሁኑ ጊዜ ምንም ውሂብ የለም. የመጀመሪያውን መዝገብ ለመጨመር ከታች ያለውን ቁልፍ ጠቅ ያድርጉ!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "በመጫን ላይ አልተሳካም",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "የውሂብ መጫን አልተሳካም፣ እባክዎ የአውታረ መረብ ግንኙነትዎን ያረጋግጡ እና እንደገና ይሞክሩ",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "እንደገና ሞክር",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "የአውታረ መረብ ግንኙነት አልተሳካም",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "እባክዎ የአውታረ መረብ ግንኙነትዎን ያረጋግጡ እና እንደገና ይሞክሩ",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "ምንም ውጤቶች አልተገኙም",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "በሌሎች ቁልፍ ቃላት ለመፈለግ ይሞክሩ",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "አጽዳ ፍለጋ",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "በቂ ያልሆኑ ፈቃዶች",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "ይህንን ባህሪ ለመጠቀም ተገቢውን ፈቃዶች ያስፈልግዎታል",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "ፈቃድ ይጠይቁ",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "የመተግበሪያ መረጃ",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "ትርጉም",
+  "@version": {
+    "description": ""
+  },
+  "developer": "ገንቢ",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "设备信息",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "የመሣሪያ ሞዴል",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "የምርት ስም",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "የመሣሪያ ስም",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "ምርት",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "ሃርድዌር",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "የ Android ስሪት",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "የኤስዲኬ ሥሪት",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "የስርዓት ስም",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "የስርዓት ስሪት",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "የመሣሪያ መለያ",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "የኮምፒውተር ስም",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "የስሪት ቁጥር",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "የመሣሪያ መረጃ ማግኘት አልተቻለም {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "የተግባር መግቢያ",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "ስማርት ንጥል አስተዳደር መተግበሪያ",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "እንደ የንጥል ማብቂያ ቀናት እና የዋስትና ቀናት ያሉ መረጃዎችን እንዲያስተዳድሩ ያግዝዎታል እና የማሰብ ችሎታ ያለው አስታዋሽ ተግባራትን ያቀርባል።",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "የፍጆታ ዕቃዎች",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "ዘላቂ ዕቃዎች",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "ቅደምተከተል",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "ስም ወደ ላይ እየወጣ",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "ስም መውረድ",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "ቀን ወደ ላይ እየጨመረ",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "ቀን እየወረደ",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "የክፍል ዋጋ ወደ ላይ እየጨመረ",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "የክፍል ዋጋ እየወረደ",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "ወደ ላይ የሚወጣው የቁጥር ቅደም ተከተል",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "ብዛት እየቀነሰ",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "ጠቅላላ ዋጋ እየጨመረ",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "ጠቅላላ ዋጋ እየቀነሰ",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "ሁሉንም ማጣሪያዎች ያጽዱ",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "ቆጠራ ለማስገባት ኮድ ይቃኙ",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "ንጥሎችን ይፈልጉ ...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "ለአሁን ምንም እቃዎች የሉም",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "የመጀመሪያውን ንጥል ለመጨመር ከታች ያለውን ቁልፍ ጠቅ ያድርጉ",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "ጊዜው ያለፈበት",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "ጊዜው ሊያበቃ ነው።",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "ዋስትናው ጊዜው አልፎበታል",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "ዋስትናው ሊያበቃ ነው።",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "የቀሩት {count} ቀናት",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "ያለፈባቸው {count} ቀኖች",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "ንጥል ሰርዝ",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "እርግጠኛ ነዎት \"{name}\" መሰረዝ ይፈልጋሉ?",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "እቃው ተሰርዟል",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "ስረዛ አልተሳካም",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "እቃውን መሰረዝ አልተቻለም {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "የቀን ክልል ማጣሪያ",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "የዋጋ ክልል ማጣሪያ",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "የእኔ ንጥሎች",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "ንጥል ለመጨመር ከታች በቀኝ ጥግ ላይ ያለውን ቁልፍ ጠቅ ያድርጉ",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "መሰረዝን ያረጋግጡ",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "የማጣሪያ አማራጮች",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "እቃዎችን በዓይነት፣ በምድብ እና በአካባቢ አጣራ",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} ምድቦች",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "ሁሉም ምድቦች",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "ምንም ምድብ ውሂብ አይገኝም",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "የማከማቻ ቦታ",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} አካባቢዎች",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "ሁሉም አካባቢዎች",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "ምንም የአካባቢ ውሂብ የለም",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "የቀን መጠን",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "የቀን ክልል ይምረጡ",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "የዋጋ ክልል",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "ዩኒት የዋጋ ክልል",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "ዝቅተኛው የክፍል ዋጋ",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "ከፍተኛው ዩኒት ዋጋ",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "ጠቅላላ የዋጋ ክልል",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "ዝቅተኛው ጠቅላላ ዋጋ",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "ከፍተኛው ጠቅላላ ዋጋ",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "የዋጋ ማጣሪያን አጽዳ",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "ለመቃኘት ባርኮዱን በፍሬም ውስጥ ያስቀምጡት",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "ምርቱ አስቀድሞ አለ",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "የአሞሌ {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "ስም {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "ምድብ {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "የአሁኑ ብዛት {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "እባክዎ አንድ እርምጃ ይምረጡ -",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "የወጪ",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "የማከማቻ ግቤት",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "ወደ ውስጥ ብዛት",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "የወጪ ብዛት",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "ብዛት",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "እባክዎ የሚከማችበትን መጠን ያስገቡ",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "እባክዎ የሚላከውን መጠን ያስገቡ",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "{name} {quantity}{unit} ታክሏል",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "እርግጠኛ ነዎት \"{name}\" መሰረዝ ይፈልጋሉ? ይህ እርምጃ ሊቀለበስ አይችልም።",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "ቀንሷል {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "የውሂብ ጎታው ዳግም ተጀምሯል፣ እና የጠረጴዛው መዋቅር እንደገና ይፈጠራል።",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "የ ዳታቤዝ በ ዳግም ማስጀመር ላይ ስህተት አለ {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "አስመሳይ የውሂብ ጅምር አልተሳካም {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "መፍትሔ",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. መተግበሪያውን ያራግፉ እና እንደገና ይጫኑት",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. ወይም የመተግበሪያ ውሂብን ያጽዱ",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. ወይም resetDatabaseOnStart ወደ እውነት ያቀናብሩ እና እንደገና ያሂዱ",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "የማስታወሻ አገልግሎት ማስጀመር አልተሳካም {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "የቀን መቁጠሪያ መለያን ማረጋገጥ አልተሳካም - {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "የቀን መቁጠሪያ መፍጠር አልተሳካም {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "የቀን መቁጠሪያ ክስተት ማከል አልተሳካም {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "የቀን መቁጠሪያ ክስተት መሰረዝ አልተሳካም {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "የፍቃድ መጠየቂያ መልእክት ማቀናበር አልተሳካም {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "በተሳካ ሁኔታ የተጀመረው {count} አስመሳይ ውሂብ",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "የውሂብ ጎታው አስቀድሞ {count} መዝገቦች አሉት፣ የማስመሰል ውሂብ ጅምርን በመዝለል",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "በመረጃ ቋቱ መዋቅር ውስጥ ባለው አለመመጣጠን ምክንያት ሊሆን ይችላል. የመተግበሪያውን ውሂብ ለማጽዳት ወይም እንደገና ለመጫን ይመከራል.",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "የድሮ የውሂብ ጎታ ፋይሎች ተሰርዘዋል",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "የመጠባበቂያ ውሂብ ባዶ ነው",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "የመጠባበቂያ ፋይል የለም",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "የ ፋይል ኢንኮዲንግ ትክክለኛ አይደለም UTF-8 አቀራረብ እባክዎ ያረጋግጡ file UTF-8 ኢንኮዲንግ በመጠቀም መቀመጡን ያረጋግጡ። የስህተት ዝርዝሮች {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "ፋይሉ የለም {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "ፋይሉ ባዶ ነው {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "የፋይሉ ይዘት ዲኮድ ከተደረገ በኋላ ባዶ ነው፣ ምናልባትም በኢንኮዲንግ አለመመጣጠን ምክንያት ሊሆን ይችላል",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} ባዶ ሊሆን አይችልም",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} ርዝመት ከ {minLength} ቁምፊዎች ያነሰ ሊሆን አይችልም",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} ርዝመት ከ {maxLength} ቁምፊዎች መብለጥ አይችልም",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "እባክህን ትክክለኛ {fieldName} አድራሻ ያስገቡ",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} {numberType} መሆን አለበት",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} ከ {min} በታች ሊሆን አይችልም",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} ከ {max} ሊበልጥ አይችልም",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} አዎንታዊ ኢንቲጀር መሆን አለበት",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} ከ 0 በላይ መሆን አለበት",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} አዎንታዊ ቁጥር መሆን አለበት",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "እባክህን ትክክለኛ {fieldName} አስገባ",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} ያለፈ ቀን ሊሆን አይችልም",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} ከ {minDate} በፊት ሊሆን አይችልም",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} ከ {maxDate} ዘግይቶ ሊሆን አይችልም",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "እባክህን ትክክለኛ {fieldName} አስገባ",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} ከ 8 ቁምፊዎች ያነሰ ርዝመት ሊኖረው አይችልም",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} ቢያንስ አንድ አቢይ ሆሄያት መያዝ አለበት",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} ቢያንስ አንድ ትንሽ ሆሄያት መያዝ አለበት",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} ቢያንስ አንድ ቁጥር መያዝ አለበት",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} ቢያንስ አንድ ልዩ ቁምፊ መያዝ አለበት",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "ሁለት ጊዜ የገቡት የይለፍ ቃሎች አይዛመዱም",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "የንጥል ስም ባዶ ሊሆን አይችልም",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "ስሙ ከ {maxLength} ቁምፊዎች መብለጥ አይችልም",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "ብዛት ከ {minQuantity} ያነሰ ሊሆን አይችልም",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "መጠኑ ከ {maxQuantity} መብለጥ አይችልም",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "የንጥል ዋጋ አሉታዊ ሊሆን አይችልም",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "የንጥል ዋጋ ከ {maxUnitPrice} መብለጥ አይችልም",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "ተቀባይነት ያለው ጊዜ በራስ-ሰር ለማስላት እባክዎ የምርት ቀን እና የመደርደሪያ ሕይወት ያዘጋጁ",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "የዋስትና ጊዜውን በራስ-ሰር ለማስላት እባክዎ የግዢውን ቀን እና የመደርደሪያ ሕይወት ያዘጋጁ",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "የቀን መቁጠሪያ መለያ መፍጠር አልተቻለም፣ እባክዎ የስርዓት የቀን መቁጠሪያ ቅንብሮችን ያረጋግጡ",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "የሙከራ ማስታወቂያ",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "ይህ የአካባቢ አስታዋሽ ተግባርን ለማረጋገጥ የሚያገለግል የሙከራ ማሳወቂያ ነው",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "ሰማይ",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} ቀናት",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "ንጥል ተቀምጧል",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "ንጥል ተዘምኗል",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "ንጥል ታክሏል",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "በተሳካ ሁኔታ ተቀምጧል",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "አዘምን ተሳክቷል",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "በተሳካ ሁኔታ ተሰርዟል",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "ማስቀመጫ አልተሳካም",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "ዝማኔ አልተሳካም",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "ስረዛ አልተሳካም",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "የቋንቋ ቅንብሮች",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "የመተግበሪያውን ማሳያ ቋንቋ ያዘጋጁ",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "የስርዓት ነባሪ",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "የስርዓት ቋንቋን ተጠቀም",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "አፕሊኬሽኑ እንደገና ከተጀመረ በኋላ የቋንቋ ለውጡ ተግባራዊ ይሆናል።",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "የአሁኑ ምርጫ {days} ቀኖች",
+  "@current_selection": {
+    "description": "በአሁኑ ጊዜ የተመረጡ ቀናት ማሳያ",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

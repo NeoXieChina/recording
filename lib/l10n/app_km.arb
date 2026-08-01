@@ -1,0 +1,1625 @@
+{
+  "@@locale": "km",
+  "app_name": "ផ្ទះស្អាតសម្រាប់ផ្ទុករបស់",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "បោះបង់",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "កំណត់",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "រក្សាទុក",
+  "@save": {
+    "description": ""
+  },
+  "delete": "លុប",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "កែសម្រួល",
+  "@edit": {
+    "description": ""
+  },
+  "add": "បន្ថែម",
+  "@add": {
+    "description": ""
+  },
+  "search": "ស្វែងរក",
+  "@search": {
+    "description": ""
+  },
+  "settings": "ការកំណត់",
+  "@settings": {
+    "description": ""
+  },
+  "back": "ត្រឡប់វិញ",
+  "@back": {
+    "description": ""
+  },
+  "next": "ជំហ៊ងបន្ទាប់",
+  "@next": {
+    "description": ""
+  },
+  "done": "បញ្ចប់",
+  "@done": {
+    "description": ""
+  },
+  "loading": "កំពុងផ្ទុក...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "កំហុស",
+  "@error": {
+    "description": ""
+  },
+  "success": "ជោគជ័យ",
+  "@success": {
+    "description": ""
+  },
+  "warning": "ការព្រមាន",
+  "@warning": {
+    "description": ""
+  },
+  "info": "ព័ត៌មាន",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "ជ្រើសរើសចំនួនថ្ងៃរំលឹក",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "ផ្ទាល់ខ្លួនកំណត់",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "កំណត់ដោយខ្លួនឯង ({days} ថ 날)",
+  "@custom_days": {
+    "description": "ថ្ងៃផ្ទាល់ខ្លួនជាមួយប៉ារ៉ាម៉ែត្រ",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "ជួរថ្ងៃរំលឹក៖ {min}-{max} ថ្ងៃ",
+  "@alert_days_range": {
+    "description": "ជួរពេលវេលាប្រកាសជាមួយប៉ារ៉ាម៉ែត្រ",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "សូមបញ្ចូលចំនួនថ្ងៃរំលឹក",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "ចំនួនថ្ងៃ",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "សូមបញ្ចូលលេខរវាង {min} និង {max}",
+  "@enter_valid_days": {
+    "description": "សារ​ផ្ទៀងផ្ទាត់ការបញ្ចូលចំនួនថ្ងៃ",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "ការកំណត់ការព្រមាន",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "ការកំណត់ប្រតិទិន",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "ការមានសម័យប្រតិទិន",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "បើករួចនឹងស្នើសុំសិទ្ធិប្រើប្រតិទិន",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "បញ្ចូលព្រឹត្តិការណ៍ប្រតិទិនសាកល្បង",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "សូមបើកប៊ូតុង 'សមមួលប្រតិទិន' មុន",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "ការកំណត់ការជូនដំណឹងកម្មវិធី",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "ការរំឮខ្លួនផ្ទាល់",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "បើកបន្ទាប់ពីទទួលការរំលឹកផុតកំណត់នៅក្នុងកម្មវិធី",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "ផ្ញើសារ​ផ្ទៀងផ្ទាត់",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "សូមបើកប៊ូតុង 'ការជំរាបជានៅមូលដ្ឋាន' មុន",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "ការកំណត់ចំនួនថ្ងៃរំលឹក",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "ចំនួនថ្ងៃដើម្បីជូនការជូនដំណឹងមុន",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "កំណត់លទ្ធផលជាផ្ទាល់មុនពីរោងខែប៉ុន្មានថ្ងៃដើម្បីរំលឹកទិន្នន័យផុតកំណត់ឬផុតកាលបរិច្ឆេទការធានា",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "សំណើសុំសិទ្ធិប្រើប្រតិទិន",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "ត្រូវការឲ្យមានការចូលដំណើរការបញ្ជីកាលណ្ដៅដើម្បីសមូសការជូនដំណឹងអំពីវត្ថុ។ តើអាចអនុញ្ញាតបានទេ?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "អនុញ្ញាត",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "ការអនុញ្ញាតិប្រតិទិនត្រូវបានផ្ដល់ហើយ ការសមរម្យប្រតិទិនត្រូវបានបើក",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "ការអនុញ្ញាតិប្រតិទិនត្រូវបានបដិសេធ​មិនអាចបើកការសម្របសម្រួលប្រតិទិន",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "សិទ្ធិត្រូវបានបដិសេធជាអចិន្រ្តៃ",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "សិទ្ធិប្រតិទិនត្រូវបានបដិសេធជាប្រចាំ សូមបើកសិទ្ធិដោយដៃនៅក្នុងការកំណត់ប្រព័ន្ធ។",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "ទៅកំណត់",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "សិទ្ធិប្រើប្រាស់ប្រតិទិនត្រូវបានផ្ដល់ហើយ ប៉ុន្តែមិនអាចបង្កើតគណនីប្រតិទិនបាន។ សូមពិនិត្យការកំណត់ប្រតិទិនក្នុងប្រព័ន្ធ។",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "សិទ្ធិប្រតិទិនត្រូវបានផ្ដល់ហើយ បានបង្កើតគណនីប្រតិទិនក្នុងស្រុករួចរាល់",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "ការបង្កើតគណនីប្រតិទិនបានជោគជ័យ ប៉ុន្តែប្រព័ន្ធអាចត្រូវការ​ពេលខ្លះដើម្បីប្រតិបត្តិ",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "សាកល្បងការបន្ថែមព្រឹត្តិការណ៍ប្រតិទិនបានជោគជ័យ",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "បញ្ចូលព្រឹត្តិការណ៍ប្រតិទិនសំរាប់ការធ្វើតេស្តបរាជ័យ សូមពិនិត្យការកំណត់ប្រតិទិន",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "ត្រូវការចូលដំណើរការប្រតិទិនដើម្បីបន្ថែមព្រឹត្តិការណ៍សាកល្បង",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "ការជូនដំណឹងសាកល្បងបានផ្ញើរហើយ",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "ការផ្ញើការជូនដំណឹងសំរាប់សាកល្បងបរាជ័យ៖ {error}",
+  "@test_notification_failed": {
+    "description": "ព័ត៌មាន​​ខុស",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "ត្រូវការជូនដំណឹងអាជ្ញាប័ណ្ណដើម្បីបើកការណាត់ជួនខ្លួននៅក្នុងស្រុក",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "ប្រតិបត្តិការបរាជ័យ: {error}",
+  "@operation_failed": {
+    "description": "សារកំហុសប្រតិបត្តិការទូទៅ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "ការជូនដំណឹងការព្រមានអំពីវត្ថុ",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "ការរំលឹកពីរបស់ផុតកំណត់ ឬផុតការធានា",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "អាហារ",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "ទំនិញប្រើប្រាស់ប្រចាំថ្ងៃ",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "គ្រឿងសម្អាង",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "ថ្នាំ",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "ផលិតផលអេឡិចត្រូនិច",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "គ្រឿងសង្ហារឹម",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "សម្លៀកបំពាក់",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "សៀវភៅ",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "ផ្សេងទៀត",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "ហាងអនឡាញ",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "ហាង​ព្រះរាជា",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "ស្មោងពាណិជ្ជកម្ម",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "ហាងលក់ឯកតា",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "ផ្សារទំនិញប្រើរួច",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "ផ្សេងទៀត",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "ផ្សេងទៀត",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "ហាងអនឡាញ",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "ចំណាត់ថ្នាក់វត្ថុ",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "ចំណាត់ថ្នាក់ផ្ទាល់ខ្លួន",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "ការបម្រុងទិន្នន័យ",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "បញ្ចូលទិន្នន័យទាំងអស់ (រួមទាំងរូបភាព) ទៅក្នុងឯកសារ ZIP សម្រាប់ការបម្រុងទុក",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "បម្រុងទិន្នន័យទាំងអស់",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "ការបម្រុងទុកបានជោគជ័យ",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "ការបម្រុងទុកបរាជ័យ៖ {error}",
+  "@backup_failed": {
+    "description": "សារ​បង្វិល​ការបញ្ជាក់​មិន​ជោគជ័យ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "ស្តារទិន្នន័យ",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ស្តារទិន្នន័យទាំងអស់ពីឯកសារបម្រុងទុក ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "នាំចេញទិន្នន័យ",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "នាំចេញជា​ទ្រង់ទ្រាយ CSV、TXT、SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "នាំចូលទិន្នន័យ",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "នាំចូលទិន្នន័យពីឯកសារ CSV、TXT、SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "ការកំណត់ការរំឭកប្រកាសប្រចាំថ្ងៃ និងការរំឭកតាមកម្មវិធី",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "អំពី",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "ព័ត៌មានអំពីកម្មវិធី និងកំណែ",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "សូមជ្រើសរើសឯកសារបម្រុងទុកមុន",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "បញ្ជាក់ការស្ដារឡើងវិញ",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "ការស្តារថតបម្រុងនឹងលុបទិន្នន័យទាំងអស់ដែលមានស្រាប់ និងជំនួសដោយទិន្នន័យថតបម្រុង សកម្មភាពនេះមិនអាចត្រលប់វិញបាន។ តើអ្នកចង់បន្តមែនទេ?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "បញ្ជាក់ម្ដងទៀត",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "តើអ្នកប្រាកដថាចង់សម្អាតទិន្នន័យទាំងអស់ដែលមាន និងស្តារឡើងវិញការបម្រុងទុកមែនទេ? ការប្រតិបត្តិនេះមិនអាចស្ដារឡើយ!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "បញ្ជាក់ការស្ដារឡើងវិញ",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "ការស្តារជោគជ័យ, មាន {count} ទំនិញ",
+  "@restore_success": {
+    "description": "សារគោរពការជោគជ័យในการស្ដារឡើងវិញ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "ការស្តារឡើងវិញបរាជ័យ៖{error}",
+  "@restore_failed": {
+    "description": "ការគប់សងបរាជ័យសារ​​កំហុស",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "ជ្រើសរើសឯកសារបម្រុះ",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "ស្តារឡើងវិញការបម្រុងទុក",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "បានជ្រើសរើសឯកសារ៖ {filename}",
+  "@selected_file": {
+    "description": "បានជ្រើសរើសឯកសារទំនាក់ទំនង",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "ការនាំទិន្នន័យចេញបានជោគជ័យ",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "នាំចេញបរាជ័យ៖ {error}",
+  "@export_failed": {
+    "description": "ការនាំចេញបរាជ័យសារ​បញ្ជាក់​កំហុស",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "ការបង្វិលដំណើរការទិន្នន័យ",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "បានរកឃើញទិន្នន័យស្ទួន សូមជ្រើសរើសវិធីសាស្រ្តដោះស្រាយ៖",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "រំលង",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "គ្រប",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "រាល់អ្វីទាំងអស់កំណត់លោត",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "គ្របដណ្តប់ទាំងមូល",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "សូមជ្រើសរើសទ្រង់ទ្រាយនាំចូលជាមុន",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "បញ្ជាក់ការនាំចូល",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "ការនាំចូលទិន្នន័យនឹងលុបទិន្នន័យដែលមានស្រាប់ ចុះប្រតិបត្តិការនេះមិនអាចត្រលប់វិញបាន។ តើអ្នកចង់បន្តទេ?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "ការនាំចូលទិន្នន័យបានជោគជ័យ，总共有បាននាំចូល{count}ឯកតាសម្ភារៈ",
+  "@import_success": {
+    "description": "សារជោគជ័យនៃការនាំចូល",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "នាំចូលបរាជ័យ៖ {error}",
+  "@import_failed": {
+    "description": "ការនាំចូលបរាជ័យសារ​បញ្ជាក់​កំហុស",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "ជ្រើសរើស​ឯកសារ",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "មិនមានទិន្នន័យ",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "បច្ចុប្បន្នមិនមានទិន្នន័យទេ ចុចប៊ូតុងខាងក្រោមដើម្បីបន្ថែមកំណត់ត្រាលេខមួយជាលើកដំបូង!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "ការផ្ទុកបរាជ័យ",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "ការផ្ទុកទិន្នន័យបរាជ័យ សូមពិនិត្យការតភ្ជាប់បណ្តាញហើយសាកល្បងម្ដងទៀត",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "សូម​ព្យាយាម​ម្តង​ទៀត",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "ការតភ្ជាប់បណ្តាញបរាជ័យ",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "សូមពិនិត្យការតភ្ជាប់បណ្ដាញរួចព្យាយាមម្ដងទៀត",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "មិនបានរកឃើញលទ្ធផល",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "សាកល្បងប្រើពាក្យគន្លឹះផ្សេងទៀតសម្រាប់ស្វែងរក",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "លុបការស្វែងរក",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "សិទ្ធិមិនគ្រប់គ្រាន់",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "ត្រូវការអាជ្ញាប័ណ្ណដែលសមស្របដើម្បីប្រើមុខងារនេះ",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "សូមអនុញ្ញាត",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "ព័ត៌មាន​អំពី​កម្មវិធី",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "កំណែ",
+  "@version": {
+    "description": ""
+  },
+  "developer": "អ្នកអភិវឌ្ឍន៍",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "ព័ត៌មានឧបករណ៍",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "ម៉ូដែលឧបករណ៍",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "ម៉ាក",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "ឈ្មោះឧបករណ៍",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "ផលិតផល",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Hardware",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "កំណែ Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "កំណែ SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "ឈ្មោះប្រព័ន្ធ",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "កំណែប្រព័ន្ធ",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "សម្គាល់ឧបករណ៍",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "ឈ្មោះកុំព្យូទ័រ",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "លេខកំណែ",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "មិនអាចទទួលបានព័ត៌មានឧបករណ៍: {error}",
+  "@error_getting_device_info": {
+    "description": "សារកំហុសក្នុងការទទួលបានព័ត៌មានឧបករណ៍",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "ការណែនាំអំពីមុខងារ",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "កម្មវិធីគ្រប់គ្រងវត្ថុឆ្លាត",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "ជួយអ្នកគ្រប់គ្រងព័ត៌មានអំពីកាលបរិច្ឆេទផុតកំណត់ កាលបរិច្ឆេទការធានា និងព័ត៌មានផ្សេងៗ ហើយផ្តល់មុខងារជាអារម្មណ៍ឆ្លាតវៃ។",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "ផលិតផលដែលប្រើបញ្ចេញ",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "ទំនិញដែលអាចប្រើបានយូរ",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "តម្រៀប",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "ឈ្មោះតាមលំដាប់អក្សរ",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "ចុះតាមឈ្មោះ",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "តាមលំដាប់ថ្ងៃខែឆ្នាំ",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "ចុះតាមខ្ទង់កាលបរិច្ឆេទ",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "តម្លៃឯកតាឡើងជាប់លំដាប់",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "តម្លៃឯកតាដោយចុះក្រោម",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "ចំនួនឡើងខ្ទង់",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "ចុះតាមចំនួន",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "តម្លៃសរុបឡើងតាមលំដាប់",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "តម្លៃសរុបចុះតាមលំដាប់ថ្នាល",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "សម្អាតការតម្រៀបទាំងអស់",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "ស្កេនខូដដើម្បីចូលឃ្លាំង",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "ស្វែងរកវត្ថុ...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "មិនមានទំនិញ",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "ចុចប៊ូតុងខាងក្រោមដើម្បីបន្ថែមធាតុនៅ​មុន",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "ឥឡូវនេះផុតកំណត់",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "នឹងផុតកំណត់",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "ការធានា​ផុតកំណត់ហើយ",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "ការធានាចុងផុតឈានដល់",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "នៅសល់ {count} ថ្ងៃ",
+  "@days_remaining": {
+    "description": "ចំនួនថ្ងៃនៅសល់ជាមួយប៉ារ៉ាម៉ែត្រ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "ផុតកំណត់រយៈពេល{count}ថ្ងៃ",
+  "@expired_days_ago": {
+    "description": "ចំនួនថ្ងៃផុតកំណត់ជាមួយប៉ារ៉ាម៉ែត្រ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "លុបទំនិញ",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "តើអ្នកប្រាកដថាចង់លុប \"{name}\" ទេ?",
+  "@delete_item_confirm": {
+    "description": "ការបញ្ជាក់ការលុប",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "វត្ថុនេះត្រូវបានលុប",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "ការលុបបរាជ័យ",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "មិនអាចលុបវត្ថុបាន: {error}",
+  "@failed_to_delete_message": {
+    "description": "លុបសារ​កំហុស",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "ការគ្រប់ចំណាំជាប្រក្រតិ",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "ចម្រាញ់ជួរតម្លៃ",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "ឥវ៉ាន់របស់ខ្ញុំ",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "ចុចប៊ូតុងខាងលើស្តាំខាងក្រោមដើម្បីបន្ថែមវត្ថុ",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "បញ្ជាក់ការលុប",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "ជម្រើសចម្រាញ់",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "ជ្រើសរើសទំនិញតាមប្រភេទ ចំណាត់ថ្នាក់ និងទីតាំង",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} ប្រភេទ",
+  "@categories_count": {
+    "description": "បង្ហាញចំនួនប្រភេទ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "ចំណាត់ថ្នាក់ទាំងអស់",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "មិនមានទិន្នន័យចាត់ចែង",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "កន្លែងផ្ទុក",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} តំបន់",
+  "@locations_count": {
+    "description": "បង្ហាញចំនួនទីតាំង",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "គ្រប់ទីតាំង",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "មិនមានទិន្នន័យទីកន្លែង",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "ជួរគុនទិន្នន័យ",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "ជ្រើសរើសចន្លោះកាលបរិច្ឆេទ",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "ជួរតម្លៃ",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "ចន្លោះតម្លៃតែមួយ",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "តម្លៃអប្បបរមា",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "តម្លៃអតិបរមា",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "ចន្លោះតម្លៃសរុប",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "តម្លៃសរុបអប្បបរមា",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "តម្លៃសរុបអតិបរមា",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "សម្អាតការតម្រងតម្លៃ",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "ដាក់កូដបារ​នៅក្នុងប្រអប់សម្រាប់ស្កេន",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "ផលិតផលមានរួចហើយ",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "កូដបារ: {barcode}",
+  "@barcode_with_value": {
+    "description": "បញ្ចាក់បារ៉ូដជាមួយប៉ារ៉ាម៉ែត្រ",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "ឈ្មោះ៖ {name}",
+  "@name_with_value": {
+    "description": "បង្ហាញឈ្មោះជាមួយប៉ារ៉ាម៉ែត្រ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "ចំណាត់ថ្នាក់៖ {category}",
+  "@category_with_value": {
+    "description": "បង្ហាញចំណាត់ថ្នាក់ជាមួយប៉ារ៉ាម៉ែត្រ",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "ចំនួនបច្ចុប្បន្ន៖ {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "បញ្ចាក់ចំនួនបច្ចុប្បន្នមានប៉ារ៉ាម៉ែត្រ",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "សូមជ្រើសការប្រតិបត្ដិ",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "ចេញពីឃ្លាំង",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "ចូលគណនីស្តុក",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "ចំនួនដែលបានចូលឃ្លាំង",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "ចំនួនចេញពីឃ្លាំង",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "ចំនួន",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "សូមបញ្ចូលចំនួនចូលឃ្លាំង",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "សូមបញ្ចូលចំនួនចេញឃ្លាំង",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "បានបន្ថែម {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "ព័ត៌មានបន្ថែមវត្ថុ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "តើអ្នកចង់លុប «{name}» ដោយប្រាកដទេ? ការប្រតិបត្តិនេះមិនអាចដកថយបាន។",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "សារ​ផ្ទៀងផ្ទាត់លុបជាមួយការព្រមានមិនអាច​មិនត្រឡប់វិញបាន",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "បានកាត់បន្ថយ {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "សារការកាត់បន្ថយទំនិញ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "មូលដ្ឋានទិន្នន័យត្រូវបានកំណត់ឡើងវិញ នឹងបង្កើតរចនាសម្ព័ន្ធតារាងឡើងវិញ",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "មានកំហុសពេលកំណត់ឃ្លាំងទិន្នន័យឡើងវិញ: {error}",
+  "@database_reset_error": {
+    "description": "កំហុសការកំណត់ឡើងវិញរបស់មូលដ្ឋានទិន្នន័យ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "ការចាប់ផ្តើមទិន្នន័យតម្លឹងខំរៀបចំបានបរាជ័យ: {error}",
+  "@mock_data_init_failed": {
+    "description": "ការទាញទិន្នន័យក្លែងបន្លំបរាជ័យក្នុងការចាប់ផ្ដើម",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "ដំណោះស្រាយ៖",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. ដំឡើងកម្មវិធីឡើងវិញ",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "២. ឬលុបទិន្នន័យកម្មវិធី",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. ឬកំណត់ resetDatabaseOnStart ជា true រួចបើកឡើងវិញ",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "ការរំឮកសេវាកម្មចាប់ផ្ដើមបរាជ័យ៖ {error}",
+  "@notification_service_init_failed": {
+    "description": "ការគោរពសេវាកម្មប្រកាសបិទបរាជ័យ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "ការត្រួតពិនិត្យគណនីប្រតិទិនបរាជ័យ៖ {error}",
+  "@check_calendar_account_failed": {
+    "description": "ពិនិត្យ​គណនីប្រតិទិនបរាជ័យ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "បង្កើតប្រតិទិនមិនបាន: {error}",
+  "@create_calendar_failed": {
+    "description": "បរាជ័យក្នុងការបង្កើតប្រតិទិ៍វិស័យ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "បរាជ័យក្នុងការបន្ថែមព្រឹត្តិការណ៍ប្រតិទិន៖ {error}",
+  "@add_calendar_event_failed": {
+    "description": "បញ្ចូលព្រឹត្តិការណ៍ប្រតិទិនមិនបាន",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "ការលុបព្រឹត្តិការណ៍ប្រតិទិនបរាជ័យ: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "ការលុបព្រឹត្តិការណ៍ប្រតិទិនបរាជ័យ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "ការកំណត់សារ​ព្រមាន​សិទ្ធិ​បាន​បរាជ័យ៖ {error}",
+  "@set_permission_message_failed": {
+    "description": "ការកំណត់សិទ្ធិបរាជ័យក្នុងការបង្ហាញសារជូនដំណឹង",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "បានបង្កើតទិន្នន័យចាក់ស្ទែង {count} ដោយជោគជ័យ",
+  "@mock_data_init_success": {
+    "description": "ការចាប់ផ្តើមទិន្នន័យសមល្បងបានជោគជ័យ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "មូលដ្ឋានទិន្នន័យមាន​ទិន្នន័យ {count} ហើយ​ឆ្លងកាត់ការចាក់បញ្ជូលទិន្នន័យតាមការសាកល្បង",
+  "@database_has_data": {
+    "description": "មូលដ្ឋានទិន្នន័យមានទិន្នន័យរួចហើយ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "អាចជា​រចនាសម្ព័ន្ធទិន្នន័យ​មិនត្រូវបាន​ផ្គូផ្គង សូមណែនាំឱ្យសម្អាតទិន្នន័យកម្មវិធី ឬដំឡើងឡើងវិញ",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "បានលុបឯកសារទិន្នន័យចាស់រួចហើយ",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "ទិន្នន័យបម្រុងទុកទទេ",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "ឯកសារបម្រុងមិនមាន",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "កូដអក្សរឯកសារមិនមែនជាទ្រង់ទ្រាយ UTF-8 ដែលមានប្រសិទ្ធភាពទេ។ សូមប្រាកដថាឯកសារត្រូវបានរក្សាទុកដោយប្រើកូដ UTF-8។ ព័ត៌មានចៃដន្យបញ្ហា: {error}",
+  "@file_not_utf8": {
+    "description": "កំហុសកូដឯកសារ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "ឯកសារមិនមាន: {filePath}",
+  "@file_not_found": {
+    "description": "ឯកសារមិនមាន",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "ឯកសារទទេ: {filePath}",
+  "@file_empty": {
+    "description": "ឯកសារទទេ",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "បន្ទុកឯកសារបន្ទាប់ពីការបម្លែងកូដម្ខាងទទេ ដោយសារ​កូដអង្គតែមិនត្រូវ",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} មិនអាចទទេបាន",
+  "@field_cannot_be_empty": {
+    "description": "ការត្រួតពិនិត្យកំណត់វាលមិនអាចទទេ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} ប្រវែងមិនអាចតិចជាង {minLength} តួអក្សរ",
+  "@field_min_length": {
+    "description": "ការផ្ទៀងផ្ទាត់ប្រវែងអប្បបរមាផ្ទៃវាយ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} ប្រវែងមិនអាចលើស {maxLength} តួអក្សរ",
+  "@field_max_length": {
+    "description": "ការផ្ទៀងផ្ទាត់ប្រវែងអតិបរមារបស់វាល",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "សូមបញ្ចូលអាសយដ្ឋាន{fieldName}ដែលមានសុពលភាព",
+  "@field_invalid_email": {
+    "description": "ការត្រួតពិនិត្យទ្រង់ទ្រាយអ៊ីមែល",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} ត្រូវតែជា {numberType}",
+  "@field_invalid_number": {
+    "description": "ការត្រួតពិនិត្យទ្រង់ទ្រាយលេខ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} មិនអាចតិចជាង {min}",
+  "@field_min_value": {
+    "description": "ការផ្ទៀងផ្ទាត់តម្លៃតិចបំផុត",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} មិនអាចធំជាង {max}",
+  "@field_max_value": {
+    "description": "ការត្រួតពិនិត្យតម្លៃអតិបរមា",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} ត្រូវតែជាចំនួនគត់វិជ្ជមាន",
+  "@field_positive_integer": {
+    "description": "ការត្រួតពិនិត្យចំនួនគត់វិជ្ជមាន",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} ត្រូវតែធំពី 0",
+  "@field_greater_than_zero": {
+    "description": "បញ្ជាក់ថា ធំជាងសូន្យ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} ត្រូវតែជាចំនួនវិជ្ជមាន",
+  "@field_positive_number": {
+    "description": "ការត្រួតពិនិត្យលេខវិជ្ជមាន",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "សូមបញ្ចូល {fieldName} ត្រឹមត្រូវ",
+  "@field_invalid_date": {
+    "description": "ការត្រួតពិនិត្យទ្រង់ទ្រាយកាលបរិច្ឆេទ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} មិនអាចជាវិច្ឆិកាកន្លងមកបាន",
+  "@field_date_not_past": {
+    "description": "កាលបរិច្ឆេទមិនអាចជាអតីតកាលបាន",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} មិនអាចមុន {minDate}",
+  "@field_date_not_before": {
+    "description": "កាលបរិច្ឆេទមិនអាចមិចជាងកាលបរិច្ឆេទដែលបានកំណត់បាន",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} មិនអាចយឺតជាង {maxDate}",
+  "@field_date_not_after": {
+    "description": "កាលបរិច្ឆេទមិនអាចយឺតជាងកាលបរិច្ឆេទដែលបានកំណត់បាន",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "សូមបញ្ចូល {fieldName} ដោយត្រឹមត្រូវ",
+  "@field_invalid_value": {
+    "description": "ការផ្ទៀងផ្ទាត់តម្លៃមិនមានប្រសិទ្ធភាព",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} ប្រវែងមិនអាចតិចជាង 8 តួអក្សរបាន",
+  "@password_min_length": {
+    "description": "ការផ្ទៀងផ្ទាត់ប្រវែងលេខសំងាត់អប្បបរមា",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} ត្រូវតែមានអក្ខរសព្ទម្ខាងយ៉ាងហោចណាស់មួយអក្សរធំ",
+  "@password_uppercase_required": {
+    "description": "ពាក្យសម្ងាត់ត្រូវតែមានអក្សរធំ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} ត្រូវតែមានអក្ខរាវត្ថុ​មួយតិចបង្រួម​ឯកសារ",
+  "@password_lowercase_required": {
+    "description": "ពាក្យសម្ងាត់ត្រូវតែមានអក្សរតូច",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} ត្រូវមានលេខមួយយ៉ាងតិច",
+  "@password_digit_required": {
+    "description": "ពាក្យសម្ងាត់​ត្រូវតែមានលេខ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} ត្រូវតែមានតួអក្ខរៈពិសេស至少មួយ",
+  "@password_special_char_required": {
+    "description": "ពាក្យសម្ងាត់ត្រូវតែមានអក្សរពិសេស",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "ពាក្យសម្ងាត់ដែលបានបញ្ចូលពីរ ಬಾರಿមិនផ្ទៀងផ្ទាត់គ្នា",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "ឈ្មោះទំនិញមិនអាចទទេបាន",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "ឈ្មោះមិនអាចលើស{maxLength}​តួអក្សរ",
+  "@name_max_length": {
+    "description": "ការផ្ទៀងផ្ទាត់ប្រវែងអតិបរមារបស់ឈ្មោះ",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "ចំនួនមិនអាចតិចជាង{minQuantity}",
+  "@quantity_min": {
+    "description": "ការផ្ទៀងផ្ទាត់តម្លៃអប្បបរមា",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "ចំនួនមិនអាចលើស {maxQuantity}",
+  "@quantity_max": {
+    "description": "ការផ្ទៀងផ្ទាត់តម្លៃអតិបរមា",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "តម្លៃ​ឯកតា​មិនអាច​ជា​តម្លៃអវិជ្ជមានបាន",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "តម្លៃឯកតាមិនអាចលើស {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "ការផ្ទៀងផ្ទាត់តម្លៃអតិផរណាផ្ទាល់ខ្លួនអតិបរមា",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "សូមកំណត់ថ្ងៃផលិត និងអាយុកាលខ្សែសម្គាល់ ដើម្បីគណនាអាយុកាលមានប្រសិទ្ធិភាពដោយស្វ័យប្រវត្តិ",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "សូមកំណត់ថ្ងៃទិញ និងរយៈពេលសម្គាល់គុណភាពដើម្បីគណនាថ្ងៃផុតកំណត់ធានាជាស្វ័យប្រវត្តិ",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "មិនអាចបង្កើតគណនីប្រតិទិនបាន សូមពិនិត្យការកំណត់ប្រតិទិនប្រព័ន្ធ",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "ការជូនដំណឹងសាកល្បង",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "នេះជាប្រកាសសាកល្បង ដែលប្រើសម្រាប់ផ្ទៀងផ្ទាត់មុខងារជូនដំណឹងក្នុងស្រុក",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "មេឃ",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} ថ្ងៃ",
+  "@days_with_value": {
+    "description": "ចំនួនថ្ងៃជាមួយប៉ារ៉ាម៉ែត្រ",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "វត្ថុនេះត្រូវបានរក្សាទុករួចហើយ",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "វត្ថុនេះត្រូវបានធ្វើបច្ចុប្បន្នភាព",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "វត្ថុនេះត្រូវបានបន្ថែម",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "រក្សាទុកបានជោគជ័យ",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "ធ្វើបច្ចុប្បន្នភាពបានជោគជ័យ",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "លុបបានជោគជ័យ",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "រក្សាទុកបរាជ័យ",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "ធ្វើបច្ចុប្បន្នភាពបរាជ័យ",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "ការលុបបរាជ័យ",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "ការកំណត់ភាសា",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "កំណត់ភាសាបង្ហាញកម្មវិធី",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "លំនាំដើមប្រព័ន្ធ",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "ប្រើភាសារបស់ប្រព័ន្ធ",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "ការផ្លាស់ប្តូរភាសានឹងមានប្រសិទ្ធភាពបន្ទាប់ពីកម្មវិធីបានបើកឡើងវិញ",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "ជ្រើសរើសបច្ចុប្បន្ន៖ {days} ថ្ងៃ",
+  "@current_selection": {
+    "description": "បង្ហាញចំនួនថ្ងៃដែលបានជ្រើសបច្ចុប្បន្ន",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

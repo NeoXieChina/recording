@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/providers/settings_provider.dart';
 import 'package:recording/screens/settings/alert_days_selection_screen.dart';
+
 import 'package:recording/services/calendar_service.dart';
 import 'package:recording/services/notification_service.dart';
 
@@ -15,8 +16,8 @@ class AlertsSettingsScreen extends StatefulWidget {
 }
 
 class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
-  // 构建提醒天数选择器 - 显示当前值并允许点击导航到选择页面
-  Widget _buildAlertDaysSelector(
+  // 构建提醒天数显示 - 只显示当前值，不可点击
+  Widget _buildAlertDaysDisplay(
     BuildContext context,
     SettingsProvider provider,
   ) {
@@ -29,35 +30,9 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
       displayText = AppLocalizations.of(context).custom_days(currentValue);
     }
 
-    return GestureDetector(
-      onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => const AlertDaysSelectionScreen(),
-          ),
-        );
-      },
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-        decoration: BoxDecoration(
-          border: Border.all(color: Theme.of(context).colorScheme.outline),
-          borderRadius: BorderRadius.circular(8),
-        ),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Text(
-              displayText,
-              style: Theme.of(
-                context,
-              ).textTheme.bodyLarge?.copyWith(fontSize: 16),
-            ),
-            const SizedBox(width: 8),
-            const Icon(Icons.arrow_forward_ios, size: 16),
-          ],
-        ),
-      ),
+    return Text(
+      displayText,
+      style: Theme.of(context).textTheme.bodyLarge?.copyWith(fontSize: 16),
     );
   }
 
@@ -66,6 +41,8 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
     SettingsProvider provider,
   ) async {
     if (!context.mounted) return;
+    
+    final l10n = AppLocalizations.of(context);
 
     // 检查当前权限状态
     final status = await Permission.calendarFullAccess.status;
@@ -74,9 +51,9 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
       provider.setCalendarSync(true);
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('日历权限已授予，日历同步已开启'),
-            duration: Duration(seconds: 2),
+          SnackBar(
+            content: Text(l10n.calendar_permission_granted),
+            duration: const Duration(seconds: 2),
           ),
         );
       }
@@ -158,9 +135,9 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
         provider.setCalendarSync(true);
         if (!context.mounted) return;
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('日历权限已授予，日历同步已开启'),
-            duration: Duration(seconds: 2),
+          SnackBar(
+            content: Text(l10n.calendar_permission_granted),
+            duration: const Duration(seconds: 2),
           ),
         );
       } else if (permissionStatus.isPermanentlyDenied) {
@@ -323,19 +300,20 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
   Future<void> _sendTestNotification(BuildContext context) async {
     if (!context.mounted) return;
 
+    final l10n = AppLocalizations.of(context);
     final notificationService = NotificationService();
 
     try {
       await notificationService.showInstantNotification(
-        title: AppLocalizations.of(context).test_notification,
-        body: AppLocalizations.of(context).test_notification_description,
+        title: l10n.test_notification,
+        body: l10n.test_notification_description,
         payload: 'test_notification',
         id: 9999,
       );
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text(AppLocalizations.of(context).test_notification_sent),
+            content: Text(l10n.test_notification_sent),
             duration: const Duration(seconds: 2),
           ),
         );
@@ -344,7 +322,7 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('发送测试通知失败: $e'),
+            content: Text(l10n.test_notification_failed(e.toString())),
             duration: const Duration(seconds: 3),
           ),
         );
@@ -355,12 +333,13 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final l10n = AppLocalizations.of(context);
 
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-          SliverAppBar.large(
-            title: Text('预警设置', style: theme.textTheme.titleLarge),
+           SliverAppBar.large(
+            title: Text(l10n.alert_settings),
             leading: IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),
@@ -380,9 +359,9 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                       return Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          // 日历设置部分
+                           // 日历设置部分
                           Text(
-                            '日历设置',
+                            l10n.calendar_settings,
                             style: theme.textTheme.bodySmall?.copyWith(
                               color: theme.colorScheme.onSurface.withAlpha(
                                 (0.6 * 255).round(),
@@ -391,8 +370,8 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                           ),
                           const SizedBox(height: 8),
                           SwitchListTile(
-                            title: const Text('日历同步'),
-                            subtitle: const Text('开启后将请求日历权限'),
+                            title: Text(l10n.calendar_sync),
+                            subtitle: Text(l10n.calendar_sync_desc),
                             value: provider.calendarSync,
                             onChanged: (v) async {
                               if (v) {
@@ -420,14 +399,14 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                                   vertical: 12,
                                 ),
                               ),
-                              child: const Text('添加测试日历事件'),
+                              child: Text(l10n.add_test_calendar_event),
                             ),
                           ),
                           if (!provider.calendarSync)
                             Padding(
                               padding: const EdgeInsets.only(top: 4),
-                              child: Text(
-                                '请先开启"日历同步"开关',
+                               child: Text(
+                                l10n.enable_calendar_sync_first,
                                 style: theme.textTheme.bodySmall?.copyWith(
                                   color: theme.colorScheme.onSurface.withAlpha(
                                     (0.6 * 255).round(),
@@ -437,9 +416,9 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                             ),
                           const SizedBox(height: 24),
 
-                          // App提醒设置部分
+                           // App提醒设置部分
                           Text(
-                            'App提醒设置',
+                            l10n.app_alert_settings,
                             style: theme.textTheme.bodySmall?.copyWith(
                               color: theme.colorScheme.onSurface.withAlpha(
                                 (0.6 * 255).round(),
@@ -448,8 +427,8 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                           ),
                           const SizedBox(height: 8),
                           SwitchListTile(
-                            title: const Text('本地提醒'),
-                            subtitle: const Text('开启后接收应用内过期提醒'),
+                            title: Text(l10n.local_alerts),
+                            subtitle: Text(l10n.local_alerts_desc),
                             value: provider.localAlertsEnabled,
                             onChanged: (v) async {
                               try {
@@ -458,9 +437,9 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                                   // 权限被拒绝，开关被重置为false
                                   if (context.mounted) {
                                     ScaffoldMessenger.of(context).showSnackBar(
-                                      const SnackBar(
-                                        content: Text('需要通知权限才能启用本地提醒'),
-                                        duration: Duration(seconds: 2),
+                                      SnackBar(
+                                        content: Text(l10n.notification_permission_required),
+                                        duration: const Duration(seconds: 2),
                                       ),
                                     );
                                   }
@@ -492,14 +471,14 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                                   vertical: 12,
                                 ),
                               ),
-                              child: const Text('发送测试通知'),
+                              child: Text(l10n.send_test_notification),
                             ),
                           ),
                           if (!provider.localAlertsEnabled)
                             Padding(
                               padding: const EdgeInsets.only(top: 4),
-                              child: Text(
-                                '请先开启"本地提醒"开关',
+                               child: Text(
+                                l10n.enable_local_alerts_first,
                                 style: theme.textTheme.bodySmall?.copyWith(
                                   color: theme.colorScheme.onSurface.withAlpha(
                                     (0.6 * 255).round(),
@@ -509,9 +488,9 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                             ),
                           const SizedBox(height: 24),
 
-                          // 提醒天数设置部分
+                           // 提醒天数设置部分
                           Text(
-                            '提醒天数设置',
+                            l10n.alert_days_settings,
                             style: theme.textTheme.bodySmall?.copyWith(
                               color: theme.colorScheme.onSurface.withAlpha(
                                 (0.6 * 255).round(),
@@ -520,12 +499,20 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                           ),
                           const SizedBox(height: 8),
                           ListTile(
-                            title: const Text('提前提醒天数'),
-                            subtitle: const Text('设置提前多少天提醒物品过期或保修到期'),
-                            trailing: _buildAlertDaysSelector(
+                            title: Text(l10n.advance_alert_days),
+                            subtitle: Text(l10n.advance_alert_days_desc),
+                            trailing: _buildAlertDaysDisplay(
                               context,
                               provider,
                             ),
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const AlertDaysSelectionScreen(),
+                                ),
+                              );
+                            },
                           ),
                         ],
                       );

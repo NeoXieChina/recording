@@ -1,6 +1,5 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -10,7 +9,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get app_name => 'App Name';
+  String get app_name => 'Hidden Treasures In One’s Hands';
 
   @override
   String get cancel => 'Cancel';
@@ -37,13 +36,29 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settings => 'Settings';
 
   @override
-  String get back => 'Return';
+  String get language_settings => 'Language Settings';
 
   @override
-  String get next => 'Next step';
+  String get language_settings_description => 'Set app display language';
 
   @override
-  String get done => 'Completed';
+  String get system_default => 'System Default';
+
+  @override
+  String get use_system_language => 'Use system language';
+
+  @override
+  String get language_change_hint =>
+      'The language change will take effect after the application restarts.';
+
+  @override
+  String get back => 'Back';
+
+  @override
+  String get next => 'Next';
+
+  @override
+  String get done => 'Finish';
 
   @override
   String get loading => 'Loading...';
@@ -72,6 +87,11 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String current_selection(int days) {
+    return 'Current selection: $days days';
+  }
+
+  @override
   String alert_days_range(int min, int max) {
     return 'Reminder days range: $min-$max days';
   }
@@ -80,7 +100,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get enter_days => 'Please enter the reminder days';
 
   @override
-  String get days => 'Number of days';
+  String get days => 'Days';
 
   @override
   String enter_valid_days(int min, int max) {
@@ -97,60 +117,59 @@ class AppLocalizationsEn extends AppLocalizations {
   String get calendar_sync => 'Calendar Sync';
 
   @override
-  String get calendar_sync_desc =>
-      'Will request calendar permissions when enabled';
+  String get calendar_sync_desc => 'Enabling will request calendar permissions';
 
   @override
-  String get add_test_calendar_event => 'Add test calendar event';
+  String get add_test_calendar_event => 'Add Test Calendar Event';
 
   @override
   String get enable_calendar_sync_first =>
       'Please turn on the \'Calendar Sync\' switch first';
 
   @override
-  String get app_alert_settings => 'App Notification Settings';
+  String get app_alert_settings => 'App Reminder Settings';
 
   @override
-  String get local_alerts => 'Local reminder';
+  String get local_alerts => 'Local Reminders';
 
   @override
   String get local_alerts_desc =>
-      'Receive in-app expiration reminders after enabling';
+      'Turn on to receive in-app expiration reminders';
 
   @override
   String get send_test_notification => 'Send test notification';
 
   @override
   String get enable_local_alerts_first =>
-      'Please turn on the \'Local Notifications\' switch first';
+      'Please turn on the \'Local Reminder\' switch first';
 
   @override
-  String get alert_days_settings => 'Reminder Days Setting';
+  String get alert_days_settings => 'Reminder days setting';
 
   @override
-  String get advance_alert_days => 'Number of days for advance notice';
+  String get advance_alert_days => 'Number of days in advance to remind';
 
   @override
   String get advance_alert_days_desc =>
       'Set how many days in advance to remind about item expiration or warranty expiration';
 
   @override
-  String get calendar_permission_request => 'Calendar Permission Request';
+  String get calendar_permission_request => 'Calendar permission request';
 
   @override
   String get calendar_permission_desc =>
-      'Access to the calendar is required to sync item reminders. Allow?';
+      'Calendar access is needed to sync item reminders. Allow?';
 
   @override
   String get allow => 'Allow';
 
   @override
   String get calendar_permission_granted =>
-      'Calendar permissions have been granted, and calendar sync has been enabled';
+      'Calendar permission granted, calendar sync is enabled';
 
   @override
   String get calendar_permission_denied =>
-      'Calendar permission was denied, unable to enable calendar sync';
+      'Calendar permission denied, unable to enable calendar sync';
 
   @override
   String get calendar_permission_permanently_denied =>
@@ -161,11 +180,11 @@ class AppLocalizationsEn extends AppLocalizations {
       'Calendar permission has been permanently denied. Please manually enable the permission in the system settings.';
 
   @override
-  String get go_to_settings => 'Go to settings';
+  String get go_to_settings => 'Go to Settings';
 
   @override
   String get calendar_account_failed =>
-      'Calendar permissions have been granted, but a calendar account cannot be created. Please check the system calendar settings.';
+      'Calendar permissions have been granted, but a calendar account cannot be created. Please check the system calendar settings';
 
   @override
   String get calendar_account_created =>
@@ -173,7 +192,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get calendar_account_creating =>
-      'The calendar account was created successfully, but the system may take some time to take effect.';
+      'Calendar account created successfully, but the system may take some time to take effect';
 
   @override
   String get test_calendar_event_added =>
@@ -181,11 +200,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get test_calendar_event_failed =>
-      'Failed to add test calendar event, please check your calendar settings';
+      'Failed to add test calendar event, please check calendar settings';
 
   @override
   String get calendar_permission_required =>
-      'Calendar permission is required to add a test event';
+      'Calendar permission is required to add test events';
 
   @override
   String get test_notification_sent => 'Test notification has been sent';
@@ -197,7 +216,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get notification_permission_required =>
-      'Notification permission is required to enable local reminders';
+      'Notification permission is required to enable local alerts';
 
   @override
   String operation_failed(String error) {
@@ -205,11 +224,11 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get notification_channel_name => 'Item Alert Notification';
+  String get notification_channel_name => 'Item Warning Notification';
 
   @override
   String get notification_channel_description =>
-      'Item Expiry or Warranty Reminder';
+      'Item Expiration or Warranty Expiry Reminder';
 
   @override
   String get item_category_food => 'Food';
@@ -221,7 +240,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get item_category_cosmetics => 'Cosmetics';
 
   @override
-  String get item_category_medicine => 'Medicine';
+  String get item_category_medicine => 'Medicines';
 
   @override
   String get item_category_electronics => 'Electronic products';
@@ -236,47 +255,47 @@ class AppLocalizationsEn extends AppLocalizations {
   String get item_category_books => 'Books';
 
   @override
-  String get item_category_other => 'Other';
+  String get item_category_other => 'Others';
 
   @override
-  String get purchase_channel_online_mall => 'Online store';
+  String get purchase_channel_online_mall => 'Online Store';
 
   @override
-  String get purchase_channel_physical_store => 'Physical store';
+  String get purchase_channel_physical_store => 'Physical Store';
 
   @override
   String get purchase_channel_supermarket => 'Supermarket';
 
   @override
-  String get purchase_channel_specialty_store => 'Exclusive store';
+  String get purchase_channel_specialty_store => 'Specialty Store';
 
   @override
-  String get purchase_channel_secondhand_market => 'Second-hand market';
+  String get purchase_channel_secondhand_market => 'Second-hand Market';
 
   @override
-  String get purchase_channel_other => 'Other';
+  String get purchase_channel_other => 'Others';
 
   @override
-  String get default_category => 'Other';
+  String get default_category => 'Others';
 
   @override
   String get default_purchase_channel => 'Online store';
 
   @override
-  String get item_category => 'Item Classification';
+  String get item_category => 'Item categories';
 
   @override
-  String get custom_category => 'Custom Category';
+  String get custom_category => 'Custom categories';
 
   @override
   String get backup_data => 'Backup data';
 
   @override
   String get backup_data_description =>
-      'Pack all data (including images) into a ZIP file for backup';
+      'Package all data (including images) into a ZIP file for backup';
 
   @override
-  String get backup_all_data => 'Back up all data';
+  String get backup_all_data => 'Backup all data';
 
   @override
   String get backup_success => 'Backup successful';
@@ -287,7 +306,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get restore_data => 'Recover data';
+  String get restore_data => 'Restore data';
 
   @override
   String get restore_data_description =>
@@ -297,7 +316,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get export_data => 'Export Data';
 
   @override
-  String get export_data_description => 'Export as CSV, TXT, SQL format';
+  String get export_data_description => 'Export as CSV, TXT, SQL formats';
 
   @override
   String get import_data => 'Import Data';
@@ -307,19 +326,19 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get alert_settings_description =>
-      'Calendar reminders and app push notification settings';
+      'Calendar reminders and App push notification settings';
 
   @override
   String get about => 'About';
 
   @override
-  String get about_description => 'App Information and Version';
+  String get about_description => 'Application Information and Version';
 
   @override
   String get select_backup_file_first => 'Please select a backup file first';
 
   @override
-  String get confirm_restore => 'Confirm restoration';
+  String get confirm_restore => 'Confirm Restore';
 
   @override
   String get confirm_restore_message =>
@@ -330,14 +349,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get confirm_restore_warning =>
-      'Are you sure you want to erase all existing data and restore the backup? This action cannot be undone!';
+      'Are you sure you want to clear all existing data and restore the backup? This action cannot be undone!';
 
   @override
-  String get confirm_restore_button => 'Confirm restoration';
+  String get confirm_restore_button => 'Confirm Restore';
 
   @override
   String restore_success(int count) {
-    return 'Restored successfully, a total of $count items';
+    return 'Restoration successful, a total of $count items';
   }
 
   @override
@@ -349,7 +368,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get select_backup_file => 'Select backup file';
 
   @override
-  String get restore_backup => 'Restore Backup';
+  String get restore_backup => 'Restore backup';
 
   @override
   String selected_file(String filename) {
@@ -374,27 +393,27 @@ class AppLocalizationsEn extends AppLocalizations {
   String get format_sql => 'SQL';
 
   @override
-  String get duplicate_data_handling => 'Duplicate data processing';
+  String get duplicate_data_handling => 'Duplicate Data Handling';
 
   @override
   String get duplicate_data_detected =>
-      'Duplicate data detected, please choose a handling method:';
+      'Duplicate data detected, please select a handling method:';
 
   @override
   String get skip => 'Skip';
 
   @override
-  String get overwrite => 'cover';
+  String get overwrite => 'Overwrite';
 
   @override
-  String get skip_all => 'Skip all';
+  String get skip_all => 'Skip All';
 
   @override
-  String get overwrite_all => 'Full coverage';
+  String get overwrite_all => 'Overwrite all';
 
   @override
   String get select_import_format_first =>
-      'Please select the import format first';
+      'Please select an import format first';
 
   @override
   String get confirm_import => 'Confirm import';
@@ -414,53 +433,53 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get select_file => 'Select File';
+  String get select_file => 'Select file';
 
   @override
-  String get no_data => 'No Data';
+  String get no_data => 'No data available';
 
   @override
   String get no_data_description =>
-      'No data available, click the button below to add your first record!';
+      'There is currently no data. Click the button below to add the first record!';
 
   @override
-  String get load_failed => 'Load Failed';
+  String get load_failed => 'Failed to load';
 
   @override
   String get load_failed_description =>
-      'Failed to load data, please check your network connection and try again';
+      'Data loading failed, please check your network connection and try again';
 
   @override
   String get retry => 'Retry';
 
   @override
-  String get network_connection_failed => 'Network Connection Failed';
+  String get network_connection_failed => 'Network connection failed';
 
   @override
   String get network_connection_failed_description =>
       'Please check your network connection and try again';
 
   @override
-  String get no_results => 'No Results Found';
+  String get no_results => 'No results found';
 
   @override
-  String get no_results_description => 'Try using different keywords to search';
+  String get no_results_description => 'Try searching with other keywords';
 
   @override
-  String get clear_search => 'Clear Search';
+  String get clear_search => 'Clear search';
 
   @override
-  String get insufficient_permission => 'Insufficient Permission';
+  String get insufficient_permission => 'Insufficient permissions';
 
   @override
   String get insufficient_permission_description =>
-      'Required permissions are needed to use this feature';
+      'You need the relevant permissions to use this feature';
 
   @override
   String get request_permission => 'Request Permission';
 
   @override
-  String get app_info => 'App Information';
+  String get app_info => 'App Info';
 
   @override
   String get version => 'Version';
@@ -505,28 +524,28 @@ class AppLocalizationsEn extends AppLocalizations {
   String get computer_name => 'Computer Name';
 
   @override
-  String get build_number => 'Build Number';
+  String get build_number => 'Version Number';
 
   @override
   String error_getting_device_info(String error) {
-    return 'Unable to get device information: $error';
+    return 'Unable to retrieve device information: $error';
   }
 
   @override
-  String get features => 'Features';
+  String get features => 'Function Introduction';
 
   @override
-  String get app_description => 'Smart Item Management App';
+  String get app_description => 'Intelligent Item Management Application';
 
   @override
   String get app_description_detail =>
-      'Helps you manage item expiration dates, warranty dates, and provides intelligent reminder features.';
+      'Helps you manage information such as expiration dates and warranty dates of items, and provides intelligent reminder functions.';
 
   @override
-  String get consumable => 'Consumable';
+  String get consumable => 'Consumables';
 
   @override
-  String get durable => 'Durable';
+  String get durable => 'Durable goods';
 
   @override
   String get sort => 'Sort';
@@ -544,50 +563,50 @@ class AppLocalizationsEn extends AppLocalizations {
   String get date_desc => 'Date Descending';
 
   @override
-  String get price_asc => 'Price Ascending';
+  String get price_asc => 'Unit Price Ascending';
 
   @override
-  String get price_desc => 'Price Descending';
+  String get price_desc => 'Unit price descending';
 
   @override
-  String get quantity_asc => 'Quantity Ascending';
+  String get quantity_asc => 'Quantity ascending';
 
   @override
-  String get quantity_desc => 'Quantity Descending';
+  String get quantity_desc => 'Quantity descending';
 
   @override
-  String get total_price_asc => 'Total Price Ascending';
+  String get total_price_asc => 'Total price ascending';
 
   @override
-  String get total_price_desc => 'Total Price Descending';
+  String get total_price_desc => 'Total price descending';
 
   @override
-  String get clear_all_filters => 'Clear All Filters';
+  String get clear_all_filters => 'Clear all filters';
 
   @override
-  String get scan_barcode => 'Scan Barcode';
+  String get scan_barcode => 'Scan code to store';
 
   @override
   String get search_items => 'Search items...';
 
   @override
-  String get no_items => 'No Items';
+  String get no_items => 'No items available';
 
   @override
   String get no_items_description =>
-      'Click the button below to add your first item';
+      'Click the button below to add the first item';
 
   @override
   String get expired => 'Expired';
 
   @override
-  String get expiring_soon => 'Expiring Soon';
+  String get expiring_soon => 'About to expire';
 
   @override
-  String get warranty_expired => 'Warranty Expired';
+  String get warranty_expired => 'Warranty has expired';
 
   @override
-  String get warranty_expiring_soon => 'Warranty Expiring Soon';
+  String get warranty_expiring_soon => 'Warranty is about to expire';
 
   @override
   String days_remaining(int count) {
@@ -596,11 +615,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String expired_days_ago(int count) {
-    return 'Expired $count days ago';
+    return 'Expired $count days';
   }
 
   @override
-  String get delete_item => 'Delete Item';
+  String get delete_item => 'Delete item';
 
   @override
   String delete_item_confirm(String name) {
@@ -611,425 +630,436 @@ class AppLocalizationsEn extends AppLocalizations {
   String get item_deleted => 'Item deleted';
 
   @override
-  String get failed_to_delete => 'Failed to delete';
+  String get failed_to_delete => 'Deletion failed';
 
   @override
   String failed_to_delete_message(String error) {
-    return 'Failed to delete item: $error';
+    return 'Unable to delete item: $error';
   }
 
   @override
-  String get date_range_filter => '日期范围筛选';
+  String get date_range_filter => 'Date range filter';
 
   @override
-  String get price_range_filter => '价格范围筛选';
+  String get price_range_filter => 'Price range filter';
 
   @override
-  String get my_items => '我的物品';
+  String get my_items => 'My items';
 
   @override
-  String get click_fab_to_add_item => '点击右下角按钮添加物品';
+  String get click_fab_to_add_item =>
+      'Click the bottom right button to add items';
 
   @override
-  String get confirm_delete => '确认删除';
+  String get confirm_delete => 'Confirm deletion';
 
   @override
-  String get filter_options => '筛选选项';
+  String get filter_options => 'Filter options';
 
   @override
-  String get filter_by_type_category_location => '按类型、分类和地点筛选物品';
+  String get filter_by_type_category_location =>
+      'Filter items by type, category, and location';
 
   @override
   String categories_count(int count) {
-    return '$count 个分类';
+    return '$count categories';
   }
 
   @override
-  String get all_categories => '全部分类';
+  String get all_categories => 'All categories';
 
   @override
-  String get no_category_data => '暂无分类数据';
+  String get no_category_data => 'No category data';
 
   @override
-  String get storage_location => '存储地点';
+  String get storage_location => 'Storage location';
 
   @override
   String locations_count(int count) {
-    return '$count 个地点';
+    return '$count locations';
   }
 
   @override
-  String get all_locations => '全部地点';
+  String get all_locations => 'All locations';
 
   @override
-  String get no_location_data => '暂无地点数据';
+  String get no_location_data => 'No location data';
 
   @override
-  String get date_range => '日期范围';
+  String get date_range => 'Date range';
 
   @override
-  String get select_date_range => '选择日期范围';
+  String get select_date_range => 'Select date range';
 
   @override
-  String get price_range => '价格范围';
+  String get price_range => 'Price range';
 
   @override
-  String get unit_price_range => '单价范围';
+  String get unit_price_range => 'Unit price range';
 
   @override
-  String get min_unit_price => '最低单价';
+  String get min_unit_price => 'Minimum Unit Price';
 
   @override
-  String get max_unit_price => '最高单价';
+  String get max_unit_price => 'Maximum Unit Price';
 
   @override
-  String get total_price_range => '总价范围';
+  String get total_price_range => 'Total Price Range';
 
   @override
-  String get min_total_price => '最低总价';
+  String get min_total_price => 'Minimum Total Price';
 
   @override
-  String get max_total_price => '最高总价';
+  String get max_total_price => 'Maximum Total Price';
 
   @override
-  String get clear_price_filter => '清除价格筛选';
+  String get clear_price_filter => 'Clear price filter';
 
   @override
-  String get place_barcode_in_frame => '将条码放入框内扫描';
+  String get place_barcode_in_frame => 'Place the barcode in the box to scan';
 
   @override
-  String get item_already_exists => '商品已存在';
+  String get item_already_exists => 'The item already exists';
 
   @override
   String barcode_with_value(String barcode) {
-    return '条码：$barcode';
+    return 'Barcode: $barcode';
   }
 
   @override
   String name_with_value(String name) {
-    return '名称：$name';
+    return 'Name: $name';
   }
 
   @override
   String category_with_value(String category) {
-    return '分类：$category';
+    return 'Category: $category';
   }
 
   @override
   String current_quantity_with_value(String quantity, String unit) {
-    return '当前数量：$quantity$unit';
+    return 'Current quantity: $quantity$unit';
   }
 
   @override
-  String get please_select_operation => '请选择操作：';
+  String get please_select_operation => 'Please select an action:';
 
   @override
-  String get outbound => '出库';
+  String get outbound => 'Outbound';
 
   @override
-  String get inbound => '入库';
+  String get inbound => 'Inbound';
 
   @override
-  String get inbound_quantity => '入库数量';
+  String get inbound_quantity => 'Inbound Quantity';
 
   @override
-  String get outbound_quantity => '出库数量';
+  String get outbound_quantity => 'Outbound Quantity';
 
   @override
-  String get quantity => '数量';
+  String get quantity => 'Quantity';
 
   @override
-  String get enter_inbound_quantity => '请输入入库数量';
+  String get enter_inbound_quantity => 'Please enter the inbound quantity';
 
   @override
-  String get enter_outbound_quantity => '请输入出库数量';
+  String get enter_outbound_quantity =>
+      'Please enter the quantity to be shipped';
 
   @override
   String item_increased(String name, String quantity, String unit) {
-    return '已增加 $name $quantity$unit';
+    return 'Has added $name $quantity$unit';
   }
 
   @override
   String delete_item_confirm_with_irreversible(String name) {
-    return '确定要删除「$name」吗？此操作不可撤销。';
+    return 'Are you sure you want to delete \"$name\"? This action cannot be undone.';
   }
 
   @override
   String item_decreased(String name, String quantity, String unit) {
-    return '已减少 $name $quantity$unit';
+    return 'Has been reduced by $name $quantity$unit';
   }
 
   @override
-  String get database_reset => '数据库已重置，将重新创建表结构';
+  String get database_reset =>
+      'The database has been reset, and the table structure will be recreated';
 
   @override
   String database_reset_error(String error) {
-    return '重置数据库时出错: $error';
+    return 'Error resetting the database: $error';
   }
 
   @override
   String mock_data_init_failed(String error) {
-    return '模拟数据初始化失败: $error';
+    return 'Simulation data initialization failed: $error';
   }
 
   @override
-  String get solution_steps => '解决方案：';
+  String get solution_steps => 'Solution:';
 
   @override
-  String get solution_step_1 => '1. 卸载应用重新安装';
+  String get solution_step_1 => '1. Uninstall the app and reinstall';
 
   @override
-  String get solution_step_2 => '2. 或清除应用数据';
+  String get solution_step_2 => '2. Or clear the app data';
 
   @override
-  String get solution_step_3 => '3. 或将 resetDatabaseOnStart 设为 true 后重新运行';
+  String get solution_step_3 =>
+      '3. Or set resetDatabaseOnStart to true and run again';
 
   @override
   String notification_service_init_failed(String error) {
-    return '提醒服务初始化失败: $error';
+    return 'Reminder service initialization failed: $error';
   }
 
   @override
   String check_calendar_account_failed(String error) {
-    return '检查日历账户失败: $error';
+    return 'Failed to check calendar account: $error';
   }
 
   @override
   String create_calendar_failed(String error) {
-    return '创建日历失败: $error';
+    return 'Failed to create calendar: $error';
   }
 
   @override
   String add_calendar_event_failed(String error) {
-    return '添加日历事件失败: $error';
+    return 'Failed to add calendar event: $error';
   }
 
   @override
   String delete_calendar_event_failed(String error) {
-    return '删除日历事件失败: $error';
+    return 'Failed to delete calendar event: $error';
   }
 
   @override
   String set_permission_message_failed(String error) {
-    return '设置权限提示消息失败: $error';
+    return 'Failed to set permission prompt message: $error';
   }
 
   @override
   String mock_data_init_success(int count) {
-    return '已成功初始化 $count 条模拟数据';
+    return 'Successfully initialized $count pieces of simulated data';
   }
 
   @override
   String database_has_data(int count) {
-    return '数据库已有 $count 条数据，跳过模拟数据初始化';
+    return 'The database already has $count records, skipping mock data initialization';
   }
 
   @override
-  String get database_structure_mismatch => '可能是数据库结构不匹配，建议清除应用数据或重新安装';
+  String get database_structure_mismatch =>
+      'It may be due to a mismatched database structure. It is recommended to clear the app data or reinstall';
 
   @override
-  String get old_database_deleted => '已删除旧数据库文件';
+  String get old_database_deleted => 'Old database files have been deleted';
 
   @override
-  String get backup_data_empty => '备份数据为空';
+  String get backup_data_empty => 'Backup data is empty';
 
   @override
-  String get backup_file_not_found => '备份文件不存在';
+  String get backup_file_not_found => 'Backup file does not exist';
 
   @override
   String file_not_utf8(String error) {
-    return '文件编码不是有效的UTF-8格式。请确保文件使用UTF-8编码保存。错误详情: $error';
+    return 'The file encoding is not a valid UTF-8 format. Please ensure the file is saved using UTF-8 encoding. Error details: $error';
   }
 
   @override
   String file_not_found(String filePath) {
-    return '文件不存在: $filePath';
+    return 'File does not exist: $filePath';
   }
 
   @override
   String file_empty(String filePath) {
-    return '文件为空: $filePath';
+    return 'The file is empty: $filePath';
   }
 
   @override
-  String get file_content_empty => '文件内容解码后为空，可能是编码不匹配';
+  String get file_content_empty =>
+      'The file content is empty after decoding, possibly due to encoding mismatch';
 
   @override
   String field_cannot_be_empty(String fieldName) {
-    return '$fieldName不能为空';
+    return '$fieldName cannot be empty';
   }
 
   @override
   String field_min_length(String fieldName, int minLength) {
-    return '$fieldName长度不能少于$minLength个字符';
+    return '$fieldName length cannot be less than $minLength characters';
   }
 
   @override
   String field_max_length(String fieldName, int maxLength) {
-    return '$fieldName长度不能超过$maxLength个字符';
+    return '$fieldName length cannot exceed $maxLength characters';
   }
 
   @override
   String field_invalid_email(String fieldName) {
-    return '请输入有效的$fieldName地址';
+    return 'Please enter a valid $fieldName address';
   }
 
   @override
   String field_invalid_number(String fieldName, String numberType) {
-    return '$fieldName必须是$numberType';
+    return '$fieldName must be $numberType';
   }
 
   @override
   String field_min_value(String fieldName, double min) {
-    return '$fieldName不能小于$min';
+    return '$fieldName cannot be less than $min';
   }
 
   @override
   String field_max_value(String fieldName, double max) {
-    return '$fieldName不能大于$max';
+    return '$fieldName cannot be greater than $max';
   }
 
   @override
   String field_positive_integer(String fieldName) {
-    return '$fieldName必须是正整数';
+    return '$fieldName must be a positive integer';
   }
 
   @override
   String field_greater_than_zero(String fieldName) {
-    return '$fieldName必须大于0';
+    return '$fieldName must be greater than 0';
   }
 
   @override
   String field_positive_number(String fieldName) {
-    return '$fieldName必须是正数';
+    return '$fieldName must be a positive number';
   }
 
   @override
   String field_invalid_date(String fieldName) {
-    return '请输入有效的$fieldName';
+    return 'Please enter a valid $fieldName';
   }
 
   @override
   String field_date_not_past(String fieldName) {
-    return '$fieldName不能是过去日期';
+    return '$fieldName cannot be a past date';
   }
 
   @override
   String field_date_not_before(String fieldName, String minDate) {
-    return '$fieldName不能早于$minDate';
+    return '$fieldName cannot be earlier than $minDate';
   }
 
   @override
   String field_date_not_after(String fieldName, String maxDate) {
-    return '$fieldName不能晚于$maxDate';
+    return '$fieldName cannot be later than $maxDate';
   }
 
   @override
   String field_invalid_value(String fieldName) {
-    return '请输入有效的$fieldName';
+    return 'Please enter a valid $fieldName';
   }
 
   @override
   String password_min_length(String fieldName) {
-    return '$fieldName长度不能少于8个字符';
+    return '$fieldName cannot be less than 8 characters long';
   }
 
   @override
   String password_uppercase_required(String fieldName) {
-    return '$fieldName必须包含至少一个大写字母';
+    return '$fieldName must contain at least one uppercase letter';
   }
 
   @override
   String password_lowercase_required(String fieldName) {
-    return '$fieldName必须包含至少一个小写字母';
+    return '$fieldName must contain at least one lowercase letter';
   }
 
   @override
   String password_digit_required(String fieldName) {
-    return '$fieldName必须包含至少一个数字';
+    return '$fieldName must contain at least one number';
   }
 
   @override
   String password_special_char_required(String fieldName) {
-    return '$fieldName必须包含至少一个特殊字符';
+    return '$fieldName must contain at least one special character';
   }
 
   @override
-  String get passwords_not_match => '两次输入的密码不一致';
+  String get passwords_not_match => 'The passwords entered twice do not match';
 
   @override
-  String get item_name_cannot_be_empty => '物品名称不能为空';
+  String get item_name_cannot_be_empty => 'Item name cannot be empty';
 
   @override
   String name_max_length(int maxLength) {
-    return '名称不能超过$maxLength个字符';
+    return 'Name cannot exceed $maxLength characters';
   }
 
   @override
   String quantity_min(int minQuantity) {
-    return '数量不能小于$minQuantity';
+    return 'The quantity cannot be less than $minQuantity';
   }
 
   @override
   String quantity_max(int maxQuantity) {
-    return '数量不能超过$maxQuantity';
+    return 'Quantity cannot exceed $maxQuantity';
   }
 
   @override
-  String get unit_price_not_negative => '单价不能为负数';
+  String get unit_price_not_negative => 'Unit price cannot be negative';
 
   @override
   String unit_price_max(double maxUnitPrice) {
-    return '单价不能超过$maxUnitPrice';
+    return 'Unit price cannot exceed $maxUnitPrice';
   }
 
   @override
-  String get set_production_expiry_for_validity => '请设置生产日期和保质期来自动计算有效期';
+  String get set_production_expiry_for_validity =>
+      'Please set the production date and shelf life to automatically calculate the validity period';
 
   @override
-  String get set_purchase_warranty_for_validity => '请设置购买日期和保质期来自动计算保修期';
+  String get set_purchase_warranty_for_validity =>
+      'Please set the purchase date and shelf life to automatically calculate the warranty period';
 
   @override
-  String get calendar_account_creation_failed => '无法创建日历账户，请检查系统日历设置';
+  String get calendar_account_creation_failed =>
+      'Unable to create a calendar account, please check the system calendar settings';
 
   @override
-  String get test_notification => '测试通知';
+  String get test_notification => 'Test Notification';
 
   @override
-  String get test_notification_description => '这是一个测试通知，用于验证本地提醒功能';
+  String get test_notification_description =>
+      'This is a test notification, used to verify the local reminder function';
 
   @override
-  String get day_unit => '天';
+  String get day_unit => 'Day';
 
   @override
   String days_with_value(int days) {
-    return '$days天';
+    return '$days days';
   }
 
   @override
-  String get item_saved => '物品已保存';
+  String get item_saved => 'Item saved';
 
   @override
-  String get item_updated => '物品已更新';
+  String get item_updated => 'Item updated';
 
   @override
-  String get item_added => '物品已添加';
+  String get item_added => 'Item added';
 
   @override
-  String get save_success => '保存成功';
+  String get save_success => 'Save successful';
 
   @override
-  String get update_success => '更新成功';
+  String get update_success => 'Update successful';
 
   @override
-  String get delete_success => '删除成功';
+  String get delete_success => 'Delete successful';
 
   @override
-  String get save_failed => '保存失败';
+  String get save_failed => 'Save failed';
 
   @override
-  String get update_failed => '更新失败';
+  String get update_failed => 'Update failed';
 
   @override
-  String get delete_failed => '删除失败';
+  String get delete_failed => 'Delete failed';
 }

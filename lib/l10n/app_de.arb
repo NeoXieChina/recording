@@ -1,0 +1,1625 @@
+{
+  "@@locale": "de",
+  "app_name": "Aufbewahrungsort",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Abbrechen",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Bestätigen",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Speichern",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Löschen",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Bearbeiten",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Hinzufügen",
+  "@add": {
+    "description": ""
+  },
+  "search": "Suchen",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Einstellungen",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Zurück",
+  "@back": {
+    "description": ""
+  },
+  "next": "Weiter",
+  "@next": {
+    "description": ""
+  },
+  "done": "Fertig",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Wird geladen...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Fehler",
+  "@error": {
+    "description": ""
+  },
+  "success": "Erfolg",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Warnung",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Information",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Erinnerungstage auswählen",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Benutzerdefiniert",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Benutzerdefiniert ({days} Tage)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Erinnerungszeitraum: {min}-{max} Tage",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Bitte geben Sie die Anzahl der Erinnerungstage ein",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Anzahl der Tage",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Bitte geben Sie eine Zahl zwischen {min} und {max} ein",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Warnungseinstellungen",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Kalendereinstellungen",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Kalender synchronisieren",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Nach dem Aktivieren werden Kalenderberechtigungen angefordert",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Test-Kalendereintrag hinzufügen",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Bitte schalten Sie zuerst den Schalter 'Kalendersynchronisierung' ein",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "App-Erinnerungseinstellungen",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Lokale Erinnerungen",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Nach dem Einschalten erhalten Sie abgelaufene Erinnerungen in der App",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Testbenachrichtigung senden",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Bitte schalten Sie zuerst den Schalter \"Lokale Benachrichtigung\" ein",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Einstellung der Erinnerungstage",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Tage im Voraus benachrichtigen",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Legen Sie fest, wie viele Tage im Voraus Sie an das Ablaufdatum oder das Garantieende eines Artikels erinnert werden möchten",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Kalenderberechtigungsanforderung",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Der Zugriff auf den Kalender wird benötigt, um Erinnerungen für Elemente zu synchronisieren. Erlauben?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Erlauben",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Kalenderberechtigung wurde erteilt, Kalendersynchronisierung ist aktiviert",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Kalenderberechtigungen wurden verweigert, Kalender-Synchronisierung kann nicht aktiviert werden",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Berechtigung dauerhaft verweigert",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Kalenderberechtigung wurde dauerhaft verweigert. Bitte aktivieren Sie die Berechtigung manuell in den Systemeinstellungen.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Zu den Einstellungen",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Kalenderberechtigungen wurden erteilt, aber es kann kein Kalenderkonto erstellt werden. Bitte überprüfen Sie die Systemeinstellungen des Kalenders",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Kalenderberechtigungen wurden erteilt, lokales Kalenderkonto wurde erstellt",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Kalenderkonto erfolgreich erstellt, aber das System benötigt möglicherweise einige Zeit, um wirksam zu werden",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Test-Kalenderereignis erfolgreich hinzugefügt",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Hinzufügen eines Testkalendereintrags fehlgeschlagen, bitte überprüfen Sie die Kalendereinstellungen",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Kalenderberechtigung erforderlich, um Testereignisse hinzuzufügen",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Testbenachrichtigung wurde gesendet",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Senden der Testbenachrichtigung fehlgeschlagen: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Benachrichtigungsberechtigungen sind erforderlich, um lokale Erinnerungen zu aktivieren",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Operation fehlgeschlagen: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Artikel-Warnbenachrichtigung",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Erinnerung an abgelaufene oder über die Garantie hinausgehende Artikel",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Lebensmittel",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Alltagsartikel",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Kosmetika",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Medikamente",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Elektronikprodukte",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Möbel",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Kleidung",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Bücher",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Andere",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Online-Shop",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Einzelhandelsgeschäft",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "Supermarkt",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Fachgeschäft",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Second-Hand-Markt",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Andere",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Andere",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Online-Shop",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Artikelkategorie",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Benutzerdefinierte Kategorie",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Daten sichern",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Alle Daten (einschließlich Bilder) in eine ZIP-Datei zum Sichern verpacken",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Alle Daten sichern",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Sicherung erfolgreich",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Sicherung fehlgeschlagen: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Daten wiederherstellen",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Alle Daten aus der ZIP-Sicherungsdatei wiederherstellen",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Daten exportieren",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Als CSV-, TXT- oder SQL-Format exportieren",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Daten importieren",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Daten aus CSV-, TXT- und SQL-Dateien importieren",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Kalendererinnerungen und App-Push-Benachrichtigungseinstellungen",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Über",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Anwendungsinformationen und Version",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Bitte wählen Sie zuerst die Sicherungsdatei",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Wiederherstellung bestätigen",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Das Wiederherstellen des Backups wird alle bestehenden Daten löschen und durch die Backup-Daten ersetzen. Dieser Vorgang kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Nochmals bestätigen",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Sind Sie sicher, dass Sie alle vorhandenen Daten löschen und das Backup wiederherstellen möchten? Dieser Vorgang kann nicht rückgängig gemacht werden!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Wiederherstellung bestätigen",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Wiederherstellung erfolgreich, insgesamt {count} Artikel",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Wiederherstellung fehlgeschlagen: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Backup-Datei auswählen",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Backup wiederherstellen",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Ausgewählte Datei: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Datenexport erfolgreich",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Export fehlgeschlagen: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Duplikatdatenverarbeitung",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Duplikatdaten erkannt, bitte wählen Sie die Bearbeitungsmethode:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Überspringen",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "Überschreiben",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Alle überspringen",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Alles abdecken",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Bitte wählen Sie zuerst das Importformat",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Import bestätigen",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Das Importieren von Daten überschreibt die vorhandenen Daten, dieser Vorgang kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Datenimport erfolgreich, insgesamt wurden {count} Artikel importiert",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Import fehlgeschlagen: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Datei auswählen",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Keine Daten",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Derzeit liegen keine Daten vor. Klicken Sie auf die Schaltfläche unten, um den ersten Eintrag hinzuzufügen!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Laden fehlgeschlagen",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Daten konnten nicht geladen werden, bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Erneut versuchen",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Netzwerkverbindung fehlgeschlagen",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Keine Ergebnisse gefunden",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Versuchen Sie, mit anderen Schlüsselwörtern zu suchen",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Suche löschen",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Unzureichende Berechtigungen",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Für die Nutzung dieser Funktion sind entsprechende Berechtigungen erforderlich",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Berechtigung anfordern",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Anwendungsinformationen",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "Version",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Entwickler",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Geräteinformationen",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Gerätemodell",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Marke",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Gerätebezeichnung",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "Produkt",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Hardware",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android-Version",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK-Version",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Systemname",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Systemversion",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Gerätekennzeichnung",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Computername",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Versionsnummer",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Gerätedaten können nicht abgerufen werden: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Funktionsbeschreibung",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Intelligente Objektverwaltungsanwendung",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Hilft Ihnen, Informationen wie Ablaufdaten und Garantiezeiten von Gegenständen zu verwalten und bietet intelligente Erinnerungsfunktionen.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Verbrauchsmaterialien",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Gebrauchsgüter",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Sortierung",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Name aufsteigend",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Name absteigend",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Datum aufsteigend",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Datum absteigend",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Einzelpreis aufsteigend",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Einzelpreis absteigend",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Menge aufsteigend",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Menge absteigend",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Gesamtpreis aufsteigend",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Gesamtpreis absteigend",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Alle Filter löschen",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Lager per Scan eingeben",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Artikel suchen...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Keine Artikel vorhanden",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Klicken Sie auf die Schaltfläche unten, um den ersten Artikel hinzuzufügen",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Abgelaufen",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Bald ablaufend",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Garantie abgelaufen",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Garantie läuft bald ab",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Noch {count} Tage",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Abgelaufen vor {count} Tagen",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Artikel löschen",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Möchten Sie \"{name}\" wirklich löschen?",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Artikel wurde gelöscht",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Löschen fehlgeschlagen",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Artikel kann nicht gelöscht werden: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Datumsbereich filtern",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Preisbereich filtern",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Meine Gegenstände",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Klicken Sie auf die Schaltfläche unten rechts, um einen Gegenstand hinzuzufügen",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Löschen bestätigen",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Filteroptionen",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Artikel nach Typ, Kategorie und Ort filtern",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} Kategorien",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Alle Kategorien",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Keine kategorisierten Daten",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Speicherort",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} Orte",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Alle Orte",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Keine Standortdaten",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Datumsbereich",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Datumsbereich auswählen",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Preisspanne",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Einzelpreisbereich",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Mindeststückpreis",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Höchststückpreis",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Gesamtpreisbereich",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Mindestgesamtpreis",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Höchstgesamtpreis",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Preisfilter löschen",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Barcode in das Feld legen und scannen",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Produkt existiert bereits",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Barcode: {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Name: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Kategorie: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Aktuelle Menge: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Bitte wählen Sie eine Aktion:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Ausgangslager",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Eingangslager",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Eingangsmenge",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Ausgangsmenge",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Menge",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Bitte geben Sie die Eingangsmenge ein",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Bitte geben Sie die Auslagerungsmenge ein",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "{name} {quantity}{unit} wurden hinzugefügt",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Möchten Sie „{name}“ wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Wurde um {name} {quantity}{unit} reduziert",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Die Datenbank wurde zurückgesetzt und die Tabellenstruktur wird neu erstellt",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Fehler beim Zurücksetzen der Datenbank: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Simulation der Dateninitialisierung fehlgeschlagen: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Lösung:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Deinstallieren Sie die App und installieren Sie sie erneut",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Oder löschen Sie die App-Daten",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Oder setzen Sie resetDatabaseOnStart auf true und führen Sie es dann erneut aus",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Erinnerungsdienst-Initialisierung fehlgeschlagen: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Fehler beim Überprüfen des Kalenderkontos: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Kalendererstellung fehlgeschlagen: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Das Hinzufügen des Kalendereintrags ist fehlgeschlagen: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Das Löschen des Kalendereintrags ist fehlgeschlagen: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Fehler beim Einstellen der Berechtigungsaufforderungsnachricht: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "{count} Simulationsdaten erfolgreich initialisiert",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Die Datenbank enthält bereits {count} Datensätze, die Initialisierung der Simulationsdaten wird übersprungen",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Möglicherweise stimmt die Datenbankstruktur nicht überein, es wird empfohlen, die Anwendungsdaten zu löschen oder die App neu zu installieren",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Alte Datenbankdateien gelöscht",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Sichern der Daten ist leer",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Die Backup-Datei existiert nicht",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Die Datei-Codierung ist kein gültiges UTF-8-Format. Bitte stellen Sie sicher, dass die Datei im UTF-8-Format gespeichert ist. Fehlerdetails: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Datei existiert nicht: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Datei ist leer: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Der Inhalt der Datei ist nach der Dekodierung leer, möglicherweise stimmt die Codierung nicht überein",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} darf nicht leer sein",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} darf nicht weniger als {minLength} Zeichen lang sein",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} darf {maxLength} Zeichen nicht überschreiten",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Bitte geben Sie eine gültige {fieldName}-Adresse ein",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} muss {numberType} sein",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} darf {min} nicht unterschreiten",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} darf {max} nicht überschreiten",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} muss eine positive ganze Zahl sein",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} muss größer als 0 sein",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} muss eine positive Zahl sein",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Bitte geben Sie eine gültige {fieldName} ein",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} darf kein vergangenes Datum sein",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} darf nicht früher als {minDate} sein",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} darf nicht später als {maxDate} sein",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Bitte geben Sie eine gültige {fieldName} ein",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} darf nicht weniger als 8 Zeichen lang sein",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} muss mindestens einen Großbuchstaben enthalten",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} muss mindestens einen Kleinbuchstaben enthalten",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} muss mindestens eine Zahl enthalten",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} muss mindestens ein Sonderzeichen enthalten",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Die beiden eingegebenen Passwörter stimmen nicht überein",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Der Name des Artikels darf nicht leer sein",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Der Name darf {maxLength} Zeichen nicht überschreiten",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Die Menge darf nicht kleiner als {minQuantity} sein",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Die Menge darf {maxQuantity} nicht überschreiten",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Der Einzelpreis darf nicht negativ sein",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Der Einzelpreis darf {maxUnitPrice} nicht überschreiten",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Bitte geben Sie das Produktionsdatum und das Haltbarkeitsdatum ein, um die Gültigkeit automatisch zu berechnen",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Bitte legen Sie Kaufdatum und Haltbarkeitsdatum fest, um die Garantiezeit automatisch zu berechnen",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Konto für Kalender konnte nicht erstellt werden, bitte überprüfen Sie die Systemeinstellungen des Kalenders",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Testbenachrichtigung",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Dies ist eine Testbenachrichtigung zur Überprüfung der lokalen Benachrichtigungsfunktion",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "Tag",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} Tage",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Artikel gespeichert",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Artikel aktualisiert",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Artikel hinzugefügt",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Speichern erfolgreich",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Aktualisierung erfolgreich",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Löschen erfolgreich",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Speichern fehlgeschlagen",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Aktualisierung fehlgeschlagen",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Löschen fehlgeschlagen",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Spracheinstellungen",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Anzeige Sprache der Anwendung einstellen",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Systemstandard",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Systemsprache verwenden",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Die Sprachänderung wird nach dem Neustart der Anwendung wirksam.",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Derzeit ausgewählt: {days} Tage",
+  "@current_selection": {
+    "description": "Die aktuell ausgewählten Tage anzeigen",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

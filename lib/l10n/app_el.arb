@@ -1,0 +1,1625 @@
+{
+  "@@locale": "el",
+  "app_name": "Αποθήκευση αντικειμένων",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Ακύρωση",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Επιβεβαίωση",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Αποθήκευση",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Διαγραφή",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Επεξεργασία",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Προσθήκη",
+  "@add": {
+    "description": ""
+  },
+  "search": "Αναζήτηση",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Ρυθμίσεις",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Επιστροφή",
+  "@back": {
+    "description": ""
+  },
+  "next": "Επόμενο",
+  "@next": {
+    "description": ""
+  },
+  "done": "Ολοκλήρωση",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Φόρτωση...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Σφάλμα",
+  "@error": {
+    "description": ""
+  },
+  "success": "Επιτυχία",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Προειδοποίηση",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Πληροφορίες",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Επιλογή ημερών υπενθύμισης",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Προσαρμοσμένο",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Προσαρμοσμένο ({days} ημέρες)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Εύρος ημερών υπενθύμισης: {min}-{max} ημέρες",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Παρακαλώ εισάγετε τον αριθμό υπενθύμισης",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Ημέρες",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Παρακαλώ εισαγάγετε έναν αριθμό μεταξύ {min} και {max}",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Ρύθμιση ειδοποίησης",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Ρύθμιση ημερολογίου",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Συγχρονισμός ημερολογίου",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Μετά την ενεργοποίηση θα ζητηθούν δικαιώματα ημερολογίου",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Προσθήκη δοκιμαστικού γεγονότος ημερολογίου",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Παρακαλώ ενεργοποιήστε πρώτα το διακόπτη \"Συγχρονισμός ημερολογίου\"",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Ρυθμίσεις υπενθύμισης εφαρμογής",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Τοπική υπενθύμιση",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Ενεργοποιήστε για να λαμβάνετε υπενθυμίσεις ληγμένων μέσα στην εφαρμογή",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Αποστολή δοκιμαστικής ειδοποίησης",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Παρακαλώ ενεργοποιήστε πρώτα τον διακόπτη \"Τοπικές ειδοποιήσεις\"",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Ρύθμιση ημερών ειδοποίησης",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Ημέρες ειδοποίησης εκ των προτέρων",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Ορίστε πόσες ημέρες νωρίτερα να σας ειδοποιούμε για τη λήξη αντικειμένων ή της εγγύησης",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Αίτημα άδειας ημερολογίου",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Απαιτείται πρόσβαση στο ημερολόγιο για συγχρονισμό των υπενθυμίσεων αντικειμένων. Επιτρέπεται;",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Επιτρέπεται",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Η πρόσβαση στο ημερολόγιο έχει παραχωρηθεί, ο συγχρονισμός ημερολογίου έχει ενεργοποιηθεί",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Η άδεια ημερολογίου απορρίφθηκε, δεν είναι δυνατός ο συγχρονισμός του ημερολογίου",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Η άδεια απορρίφθηκε μόνιμα",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Η άδεια του ημερολογίου έχει απορριφθεί μόνιμα, παρακαλώ ενεργοποιήστε την άδεια χειροκίνητα στις ρυθμίσεις του συστήματος.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Μετάβαση στις ρυθμίσεις",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Τα δικαιώματα του ημερολογίου έχουν παραχωρηθεί, αλλά δεν είναι δυνατή η δημιουργία λογαριασμού ημερολογίου. Ελέγξτε τις ρυθμίσεις του συστήματος ημερολογίου",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Τα δικαιώματα του ημερολογίου έχουν παραχωρηθεί, έχει δημιουργηθεί λογαριασμός τοπικού ημερολογίου",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Ο λογαριασμός ημερολογίου δημιουργήθηκε με επιτυχία, αλλά το σύστημα μπορεί να χρειαστεί λίγο χρόνο για να ενεργοποιηθεί",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Η δοκιμαστική προσθήκη εκδήλωσης ημερολογίου ήταν επιτυχής",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Αποτυχία προσθήκης δοκιμαστικού γεγονότος στο ημερολόγιο, ελέγξτε τις ρυθμίσεις του ημερολογίου",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Απαιτούνται δικαιώματα ημερολογίου για να προστεθεί δοκιμαστικό γεγονός",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Η δοκιμαστική ειδοποίηση εστάλη",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Αποτυχία αποστολής δοκιμαστικής ειδοποίησης: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Απαιτούνται δικαιώματα ειδοποιήσεων για να ενεργοποιηθεί η τοπική υπενθύμιση",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Λειτουργία απέτυχε: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Ειδοποίηση προειδοποίησης αντικειμένου",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Υπενθύμιση λήξης ή υπέρβασης αντικειμένου",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Τρόφιμα",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Είδη καθημερινής χρήσης",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Καλλυντικά",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Φάρμακα",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Ηλεκτρονικά προϊόντα",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Έπιπλα",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Ρούχα",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Βιβλία",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Άλλα",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Διαδικτυακό κατάστημα",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Φυσικό κατάστημα",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "Σούπερ μάρκετ",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Κατάστημα ειδικών προϊόντων",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Δευτερογενής αγορά",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Άλλα",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Άλλα",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Ηλεκτρονικό κατάστημα",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Κατηγορίες αντικειμένων",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Προσαρμοσμένη κατηγορία",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Δημιουργία αντιγράφων ασφαλείας δεδομένων",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Συμπιέστε όλα τα δεδομένα (συμπεριλαμβανομένων των εικόνων) σε αρχείο ZIP για δημιουργία αντιγράφου ασφαλείας",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Δημιουργία αντιγράφου ασφαλείας όλων των δεδομένων",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Δημιουργία αντιγράφου ασφαλείας επιτυχής",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Αποτυχία δημιουργίας αντιγράφου ασφαλείας: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Επαναφορά δεδομένων",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Επαναφορά όλων των δεδομένων από το αρχείο αντιγράφου ασφαλείας ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Εξαγωγή δεδομένων",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Εξαγωγή ως CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Εισαγωγή δεδομένων",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Εισαγωγή δεδομένων από αρχεία CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Ρυθμίσεις υπενθυμίσεων ημερολογίου και ειδοποιήσεων εφαρμογής",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Σχετικά",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Πληροφορίες εφαρμογής και έκδοση",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Επιλέξτε πρώτα το αρχείο αντιγράφου ασφαλείας",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Επιβεβαίωση επαναφοράς",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Η επαναφορά του αντιγράφου ασφαλείας θα διαγράψει όλα τα υπάρχοντα δεδομένα και θα τα αντικαταστήσει με τα δεδομένα του αντιγράφου ασφαλείας. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Επιβεβαίωση ξανά",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Είστε σίγουροι ότι θέλετε να διαγράψετε όλα τα υπάρχοντα δεδομένα και να επαναφέρετε το αντίγραφο ασφαλείας; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Επιβεβαίωση επαναφοράς",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Ανάκτηση επιτυχής, συνολικά {count} αντικείμενα",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Αποτυχία επαναφοράς: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Επιλέξτε αρχείο αντιγράφου ασφαλείας",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Επαναφορά αντιγράφου ασφαλείας",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Έχει επιλεγεί αρχείο: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Εξαγωγή δεδομένων επιτυχημένη",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Εξαγωγή αποτυχής: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Επεξεργασία διπλών δεδομένων",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Ανιχνεύθηκαν διπλά δεδομένα, παρακαλώ επιλέξτε τον τρόπο επεξεργασίας:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Παράλειψη",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "Υπερκάλυψη",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Παράλειψη όλων",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Κάλυψη όλων",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Παρακαλώ επιλέξτε πρώτα τη μορφή εισαγωγής",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Επιβεβαίωση εισαγωγής",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Η εισαγωγή δεδομένων θα αντικαταστήσει τα υπάρχοντα δεδομένα και αυτή η ενέργεια δεν μπορεί να αναιρεθεί. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Τα δεδομένα εισήχθησαν με επιτυχία, συνολικά εισήχθησαν {count} αντικείμενα",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Εισαγωγή αποτυχής: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Επιλογή αρχείου",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Δεν υπάρχουν δεδομένα",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Αυτή τη στιγμή δεν υπάρχουν δεδομένα, κάντε κλικ στο κουμπί παρακάτω για να προσθέσετε την πρώτη εγγραφή!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Αποτυχία φόρτωσης",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Φόρτωση δεδομένων απέτυχε, παρακαλώ ελέγξτε τη σύνδεση δικτύου και δοκιμάστε ξανά",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Δοκιμάστε ξανά",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Απέτυχε η σύνδεση δικτύου",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Παρακαλώ ελέγξτε τη σύνδεση δικτύου και δοκιμάστε ξανά",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Δεν βρέθηκαν αποτελέσματα",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Δοκιμάστε να αναζητήσετε με άλλες λέξεις-κλειδιά",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Εκκαθάριση αναζήτησης",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Δεν υπάρχουν επαρκή δικαιώματα",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Απαιτούνται τα σχετικά δικαιώματα για να χρησιμοποιήσετε αυτήν τη λειτουργία",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Ζητήστε άδεια",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Πληροφορίες εφαρμογής",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "Έκδοση",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Προγραμματιστής",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Πληροφορίες συσκευής",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Μοντέλο συσκευής",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Μάρκα",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Όνομα συσκευής",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "Προϊόν",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Υλικό",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Έκδοση Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Έκδοση SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Όνομα συστήματος",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Έκδοση συστήματος",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Αναγνωριστικό συσκευής",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Όνομα υπολογιστή",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Αριθμός έκδοσης",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Δεν είναι δυνατή η λήψη πληροφοριών συσκευής: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Εισαγωγή λειτουργιών",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Εφαρμογή διαχείρισης έξυπνων αντικειμένων",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Βοηθά στην διαχείριση των ημερομηνιών λήξης, των ημερομηνιών εγγύησης και άλλων πληροφοριών των αντικειμένων σας, και παρέχει λειτουργία έξυπνης υπενθύμισης.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Αναλώσιμα",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Ανθεκτικά αγαθά",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Ταξινόμηση",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Όνομα αύξουσα σειρά",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Όνομα φθίνουσα σειρά",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Ημερομηνία αύξουσα σειρά",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Ημερομηνία φθίνουσα σειρά",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Τιμή μονάδας αύξουσα σειρά",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Τιμή ανά μονάδα φθίνουσα",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Ποσότητα αύξουσα",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Ποσότητα φθίνουσα",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Συνολική τιμή αύξουσα",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Συνολική τιμή φθίνουσα",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Κατάργηση όλων των φίλτρων",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Σάρωση κωδικού για αποθήκευση",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Αναζήτηση αντικειμένων...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Δεν υπάρχουν αντικείμενα",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Κάντε κλικ στο κουμπί παρακάτω για να προσθέσετε το πρώτο αντικείμενο",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Έχει λήξει",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Θα λήξει σύντομα",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Η εγγύηση έχει λήξει",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Η εγγύηση πρόκειται να λήξει",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Απομένουν {count} ημέρες",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Έχει λήξει {count} ημέρες",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Διαγραφή αντικειμένου",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Είστε σίγουροι ότι θέλετε να διαγράψετε \"{name}\";",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Το αντικείμενο διαγράφηκε",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Η διαγραφή απέτυχε",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Αδυναμία διαγραφής αντικειμένου: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Φιλτράρισμα κατά εύρος ημερομηνιών",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Φιλτράρισμα κατά εύρος τιμών",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Τα αντικείμενά μου",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Κάντε κλικ στο κουμπί κάτω δεξιά για να προσθέσετε αντικείμενο",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Επιβεβαίωση διαγραφής",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Επιλογές φίλτρου",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Φιλτράρετε αντικείμενα κατά τύπο, κατηγορία και τοποθεσία",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} κατηγορίες",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Όλες οι κατηγορίες",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Δεδομένα χωρίς κατηγορία",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Τοποθεσία αποθήκευσης",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} τοποθεσίες",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Όλες οι τοποθεσίες",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Δεν υπάρχουν δεδομένα τοποθεσίας",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Εύρος ημερομηνιών",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Επιλέξτε εύρος ημερομηνιών",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Εύρος τιμών",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Εύρος τιμής ανά μονάδα",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Ελάχιστη τιμή μονάδας",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Μέγιστη τιμή μονάδας",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Εύρος συνολικής τιμής",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Ελάχιστη συνολική τιμή",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Μέγιστη συνολική τιμή",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Καθαρισμός φίλτρου τιμών",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Τοποθετήστε τον γραμμικό κώδικα στο πλαίσιο για σάρωση",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Το προϊόν υπάρχει ήδη",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Barcode: {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Όνομα: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Κατηγορία: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Τρέχουσα ποσότητα: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Παρακαλώ επιλέξτε ενέργεια:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Αποστολή από την αποθήκη",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Εισαγωγή στην αποθήκη",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Ποσότητα εισαγωγής στην αποθήκη",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Ποσότητα αποστολής από την αποθήκη",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Ποσότητα",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Παρακαλώ εισάγετε την ποσότητα εισαγωγής στην αποθήκη",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Παρακαλώ εισαγάγετε την ποσότητα εξαγωγής από το αποθετήριο",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Έχει προστεθεί {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Είστε βέβαιοι ότι θέλετε να διαγράψετε «{name}»; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Έχει μειωθεί {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Η βάση δεδομένων έχει επαναρυθμιστεί, ο πίνακας θα δημιουργηθεί ξανά",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Σφάλμα κατά την επαναφορά της βάσης δεδομένων: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Αποτυχία αρχικοποίησης δεδομένων προσομοίωσης: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Λύση:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Απεγκαταστήστε την εφαρμογή και επανεγκαταστήστε",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Ή καθαρίστε τα δεδομένα της εφαρμογής",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Ή ρυθμίστε το resetDatabaseOnStart σε true και εκτελέστε ξανά",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Η αρχικοποίηση της υπηρεσίας υπενθύμισης απέτυχε: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Αποτυχία ελέγχου του λογαριασμού ημερολογίου: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Αποτυχία δημιουργίας ημερολογίου: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Αποτυχία προσθήκης γεγονότος ημερολογίου: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Αποτυχία διαγραφής γεγονότος ημερολογίου: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Αποτυχία στην εμφάνιση μηνύματος προτροπής δικαιωμάτων: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Έχουν αρχικοποιηθεί με επιτυχία {count} δεδομένα προσομοίωσης",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Η βάση δεδομένων έχει ήδη {count} εγγραφές, παράβλεψη αρχικοποίησης δεδομένων προσομοίωσης",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Μπορεί να υπάρχει ασυμβατότητα στη δομή της βάσης δεδομένων, προτείνεται να εκκαθαρίσετε τα δεδομένα της εφαρμογής ή να επανεγκαταστήσετε",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Τα αρχεία της παλιάς βάσης δεδομένων έχουν διαγραφεί",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Τα δεδομένα αντιγράφου ασφαλείας είναι κενά",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Το αρχείο αντιγράφου ασφαλείας δεν υπάρχει",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Η κωδικοποίηση του αρχείου δεν είναι έγκυρη μορφή UTF-8. Βεβαιωθείτε ότι το αρχείο είναι αποθηκευμένο με κωδικοποίηση UTF-8. Λεπτομέρειες σφάλματος: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Το αρχείο δεν υπάρχει: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Το αρχείο είναι κενό: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Το περιεχόμενο του αρχείου είναι κενό μετά την αποκωδικοποίηση, ενδέχεται να υπάρχει ασυμφωνία στην κωδικοποίηση",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} δεν μπορεί να είναι κενό",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "Το μήκος του {fieldName} δεν μπορεί να είναι λιγότερο από {minLength} χαρακτήρες",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} μήκος δεν μπορεί να υπερβαίνει τους {maxLength} χαρακτήρες",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Παρακαλώ εισαγάγετε μια έγκυρη διεύθυνση {fieldName}",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} πρέπει να είναι {numberType}",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} δεν μπορεί να είναι μικρότερο από {min}",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} δεν μπορεί να είναι μεγαλύτερο από {max}",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} πρέπει να είναι θετικός ακέραιος",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} πρέπει να είναι μεγαλύτερο από 0",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} πρέπει να είναι θετικός αριθμός",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Παρακαλώ εισάγετε ένα έγκυρο {fieldName}",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} δεν μπορεί να είναι ημερομηνία στο παρελθόν",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} δεν μπορεί να είναι νωρίτερα από {minDate}",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} δεν μπορεί να είναι αργότερα από {maxDate}",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Παρακαλώ εισαγάγετε έγκυρο {fieldName}",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} Η διάρκεια δεν μπορεί να είναι μικρότερη από 8 χαρακτήρες",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} πρέπει να περιέχει τουλάχιστον ένα κεφαλαίο γράμμα",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} πρέπει να περιέχει τουλάχιστον ένα πεζό γράμμα",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} πρέπει να περιέχει τουλάχιστον έναν αριθμό",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} πρέπει να περιέχει τουλάχιστον ένα ειδικό χαρακτήρα",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Οι δύο φορές που εισήχθη ο κωδικός πρόσβασης δεν ταιριάζουν",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Το όνομα του αντικειμένου δεν μπορεί να είναι κενό",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Το όνομα δεν μπορεί να υπερβαίνει τους {maxLength} χαρακτήρες",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Η ποσότητα δεν μπορεί να είναι μικρότερη από {minQuantity}",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Η ποσότητα δεν μπορεί να υπερβαίνει {maxQuantity}",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Η μονάδα τιμής δεν μπορεί να είναι αρνητική",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Η τιμή ανά μονάδα δεν μπορεί να υπερβαίνει {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Παρακαλώ καθορίστε την ημερομηνία παραγωγής και τη διάρκεια ζωής για αυτόματη υπολογισμό της διάρκειας ισχύος",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Παρακαλώ ορίστε την ημερομηνία αγοράς και την περίοδο εγγύησης για να υπολογιστεί αυτόματα η διάρκεια της εγγύησης",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Δεν είναι δυνατή η δημιουργία λογαριασμού ημερολογίου, ελέγξτε τις ρυθμίσεις του συστήματος ημερολογίου",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Δοκιμαστική ειδοποίηση",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Αυτή είναι μια δοκιμαστική ειδοποίηση για να ελεγχθεί η λειτουργία τοπικής υπενθύμισης",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "Ημέρες",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} ημέρες",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Το αντικείμενο έχει αποθηκευτεί",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Το αντικείμενο έχει ενημερωθεί",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Το αντικείμενο έχει προστεθεί",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Αποθήκευση επιτυχής",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Ενημέρωση επιτυχής",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Διαγραφή επιτυχής",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Αποθήκευση απέτυχε",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Ενημέρωση απέτυχε",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Διαγραφή απέτυχε",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Ρυθμίσεις γλώσσας",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Ορισμός γλώσσας εμφάνισης εφαρμογής",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Προεπιλογή συστήματος",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Χρήση της γλώσσας συστήματος",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Η αλλαγή γλώσσας θα τεθεί σε ισχύ μετά την επανεκκίνηση της εφαρμογής",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Τρέχουσα επιλογή: {days} ημέρες",
+  "@current_selection": {
+    "description": "Η τρέχουσα επιλεγμένη ημέρα εμφανίζεται",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

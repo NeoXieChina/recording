@@ -1,6 +1,5 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -35,6 +34,23 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get settings => 'Impostazioni';
+
+  @override
+  String get language_settings => 'Impostazioni della lingua';
+
+  @override
+  String get language_settings_description =>
+      'Imposta la lingua di visualizzazione dell\'app';
+
+  @override
+  String get system_default => 'Predefinito di sistema';
+
+  @override
+  String get use_system_language => 'Usa la lingua di sistema';
+
+  @override
+  String get language_change_hint =>
+      'La modifica della lingua avrà effetto dopo il riavvio dell\'applicazione';
 
   @override
   String get back => 'Indietro';
@@ -72,8 +88,13 @@ class AppLocalizationsIt extends AppLocalizations {
   }
 
   @override
+  String current_selection(int days) {
+    return 'Selezione attuale: $days giorni';
+  }
+
+  @override
   String alert_days_range(int min, int max) {
-    return 'Intervallo di giorni di promemoria: $min-$max giorni';
+    return 'Intervallo giorni di promemoria: $min-$max giorni';
   }
 
   @override
@@ -102,11 +123,11 @@ class AppLocalizationsIt extends AppLocalizations {
       'Dopo l\'attivazione verranno richieste le autorizzazioni del calendario';
 
   @override
-  String get add_test_calendar_event => 'Aggiungi evento al calendario di test';
+  String get add_test_calendar_event => 'Aggiungi evento di calendario di test';
 
   @override
   String get enable_calendar_sync_first =>
-      'Per favore attiva prima l\'interruttore \'Sincronizzazione calendario\'';
+      'Si prega di attivare prima l\'interruttore \"Sincronizzazione del calendario\"';
 
   @override
   String get app_alert_settings => 'Impostazioni di notifica dell\'app';
@@ -133,7 +154,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get advance_alert_days_desc =>
-      'Impostare quanti giorni prima avvisare della scadenza degli articoli o della garanzia';
+      'Impostare quanti giorni prima avvisare della scadenza del prodotto o della garanzia';
 
   @override
   String get calendar_permission_request =>
@@ -148,7 +169,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get calendar_permission_granted =>
-      'I permessi del calendario sono stati concessi e la sincronizzazione del calendario è attiva';
+      'I permessi del calendario sono stati concessi e la sincronizzazione del calendario è attivata';
 
   @override
   String get calendar_permission_denied =>
@@ -194,7 +215,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String test_notification_failed(String error) {
-    return 'Invio della notifica di prova non riuscito: $error';
+    return 'Invio della notifica di test non riuscito: $error';
   }
 
   @override
@@ -207,7 +228,7 @@ class AppLocalizationsIt extends AppLocalizations {
   }
 
   @override
-  String get notification_channel_name => 'Notifica di allerta oggetto';
+  String get notification_channel_name => 'Notifica di allerta oggetti';
 
   @override
   String get notification_channel_description =>
@@ -326,7 +347,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get confirm_restore_message =>
-      'Il ripristino del backup cancellerà tutti i dati esistenti e li sostituirà con i dati di backup, questa operazione è irreversibile. Sei sicuro di voler continuare?';
+      'Il ripristino del backup cancellerà tutti i dati esistenti e li sostituirà con quelli del backup; questa operazione non può essere annullata. Sei sicuro di voler continuare?';
 
   @override
   String get confirm_again => 'Confermare di nuovo';
@@ -340,7 +361,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String restore_success(int count) {
-    return 'Ripristino riuscito, in totale $count articoli';
+    return 'Ripristino riuscito, un totale di $count elementi';
   }
 
   @override
@@ -364,7 +385,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String export_failed(String error) {
-    return 'Esportazione fallita: $error';
+    return 'Esportazione non riuscita: $error';
   }
 
   @override
@@ -404,7 +425,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get confirm_import_message =>
-      'Importare i dati sovrascriverà i dati esistenti e questa operazione non può essere annullata. Sei sicuro di voler continuare?';
+      'Importare i dati sovrascriverà i dati esistenti, questa operazione non può essere annullata. Sei sicuro di voler continuare?';
 
   @override
   String import_success(int count) {
@@ -420,613 +441,639 @@ class AppLocalizationsIt extends AppLocalizations {
   String get select_file => 'Seleziona file';
 
   @override
-  String get no_data => '暂无数据';
+  String get no_data => 'Nessun dato disponibile';
 
   @override
-  String get no_data_description => '当前没有数据，点击下方按钮添加第一条记录吧！';
+  String get no_data_description =>
+      'Attualmente non ci sono dati, clicca sul pulsante qui sotto per aggiungere il primo record!';
 
   @override
-  String get load_failed => '加载失败';
+  String get load_failed => 'Caricamento fallito';
 
   @override
-  String get load_failed_description => '数据加载失败，请检查网络连接后重试';
+  String get load_failed_description =>
+      'Caricamento dei dati non riuscito, controlla la connessione di rete e riprova';
 
   @override
-  String get retry => '重试';
+  String get retry => 'Riprova';
 
   @override
-  String get network_connection_failed => '网络连接失败';
+  String get network_connection_failed => 'Connessione di rete fallita';
 
   @override
-  String get network_connection_failed_description => '请检查网络连接后重试';
+  String get network_connection_failed_description =>
+      'Si prega di controllare la connessione di rete e riprovare';
 
   @override
-  String get no_results => '未找到结果';
+  String get no_results => 'Nessun risultato trovato';
 
   @override
-  String get no_results_description => '尝试使用其他关键词搜索';
+  String get no_results_description =>
+      'Prova a cercare utilizzando altre parole chiave';
 
   @override
-  String get clear_search => '清除搜索';
+  String get clear_search => 'Cancella ricerca';
 
   @override
-  String get insufficient_permission => '权限不足';
+  String get insufficient_permission => 'Permessi insufficienti';
 
   @override
-  String get insufficient_permission_description => '需要相关权限才能使用此功能';
+  String get insufficient_permission_description =>
+      'È necessario avere le autorizzazioni corrispondenti per utilizzare questa funzionalità';
 
   @override
-  String get request_permission => '请求权限';
+  String get request_permission => 'Richiedi autorizzazione';
 
   @override
-  String get app_info => '应用信息';
+  String get app_info => 'Informazioni sull\'app';
 
   @override
-  String get version => '版本';
+  String get version => 'versione';
 
   @override
-  String get developer => '开发者';
+  String get developer => 'Sviluppatore';
 
   @override
-  String get device_info => '设备信息';
+  String get device_info => 'Informazioni sul dispositivo';
 
   @override
-  String get device_model => '设备型号';
+  String get device_model => 'Modello del dispositivo';
 
   @override
-  String get brand => '品牌';
+  String get brand => 'Marchio';
 
   @override
-  String get device_name => '设备名称';
+  String get device_name => 'Nome del dispositivo';
 
   @override
-  String get product => '产品';
+  String get product => 'Prodotto';
 
   @override
-  String get hardware => '硬件';
+  String get hardware => 'Hardware';
 
   @override
-  String get android_version => 'Android版本';
+  String get android_version => 'Versione Android';
 
   @override
-  String get sdk_version => 'SDK版本';
+  String get sdk_version => 'Versione SDK';
 
   @override
-  String get system_name => '系统名称';
+  String get system_name => 'Nome del sistema';
 
   @override
-  String get system_version => '系统版本';
+  String get system_version => 'Versione del sistema';
 
   @override
-  String get device_identifier => '设备标识';
+  String get device_identifier => 'Identificazione del dispositivo';
 
   @override
-  String get computer_name => '计算机名';
+  String get computer_name => 'Nome del computer';
 
   @override
-  String get build_number => '版本号';
+  String get build_number => 'Numero di versione';
 
   @override
   String error_getting_device_info(String error) {
-    return '无法获取设备信息: $error';
+    return 'Impossibile ottenere le informazioni sul dispositivo: $error';
   }
 
   @override
-  String get features => '功能介绍';
+  String get features => 'Introduzione alle funzioni';
 
   @override
-  String get app_description => '智能物品管理应用';
+  String get app_description =>
+      'Applicazione per la gestione di oggetti intelligenti';
 
   @override
-  String get app_description_detail => '帮助您管理物品的过期日期、保修日期等信息，并提供智能提醒功能。';
+  String get app_description_detail =>
+      'Aiutarti a gestire le scadenze degli oggetti, le date di garanzia e altre informazioni, fornendo anche una funzione di promemoria intelligente.';
 
   @override
-  String get consumable => '消耗品';
+  String get consumable => 'Materiale di consumo';
 
   @override
-  String get durable => '耐用品';
+  String get durable => 'Beni durevoli';
 
   @override
-  String get sort => '排序';
+  String get sort => 'Ordinamento';
 
   @override
-  String get name_asc => '名称升序';
+  String get name_asc => 'Ordine alfabetico per nome';
 
   @override
-  String get name_desc => '名称降序';
+  String get name_desc => 'Ordine decrescente per nome';
 
   @override
-  String get date_asc => '日期升序';
+  String get date_asc => 'Ordine crescente di data';
 
   @override
-  String get date_desc => '日期降序';
+  String get date_desc => 'Ordine decrescente per data';
 
   @override
-  String get price_asc => '单价升序';
+  String get price_asc => 'Ordine dei prezzi crescente';
 
   @override
-  String get price_desc => '单价降序';
+  String get price_desc => 'Ordine decrescente del prezzo unitario';
 
   @override
-  String get quantity_asc => '数量升序';
+  String get quantity_asc => 'Ordine crescente di quantità';
 
   @override
-  String get quantity_desc => '数量降序';
+  String get quantity_desc => 'Ordine decrescente per quantità';
 
   @override
-  String get total_price_asc => '总价升序';
+  String get total_price_asc => 'Prezzo totale in ordine crescente';
 
   @override
-  String get total_price_desc => '总价降序';
+  String get total_price_desc => 'Prezzo totale in ordine decrescente';
 
   @override
-  String get clear_all_filters => '清除所有筛选';
+  String get clear_all_filters => 'Cancella tutti i filtri';
 
   @override
-  String get scan_barcode => '扫码入库';
+  String get scan_barcode => 'Scansiona il codice per entrare in magazzino';
 
   @override
-  String get search_items => '搜索物品...';
+  String get search_items => 'Cerca oggetti...';
 
   @override
-  String get no_items => '暂无物品';
+  String get no_items => 'Nessun oggetto al momento';
 
   @override
-  String get no_items_description => '点击下方按钮添加第一个物品';
+  String get no_items_description =>
+      'Clicca sul pulsante in basso per aggiungere il primo articolo';
 
   @override
-  String get expired => '已过期';
+  String get expired => 'Scaduto';
 
   @override
-  String get expiring_soon => '即将过期';
+  String get expiring_soon => 'Sta per scadere';
 
   @override
-  String get warranty_expired => '保修已过期';
+  String get warranty_expired => 'La garanzia è scaduta';
 
   @override
-  String get warranty_expiring_soon => '保修即将到期';
+  String get warranty_expiring_soon => 'La garanzia sta per scadere';
 
   @override
   String days_remaining(int count) {
-    return '剩余$count天';
+    return 'Rimangono $count giorni';
   }
 
   @override
   String expired_days_ago(int count) {
-    return '已过期$count天';
+    return 'Scaduto da $count giorni';
   }
 
   @override
-  String get delete_item => '删除物品';
+  String get delete_item => 'Eliminare oggetto';
 
   @override
   String delete_item_confirm(String name) {
-    return '确定要删除\"$name\"吗？';
+    return 'Sei sicuro di voler eliminare \"$name\"?';
   }
 
   @override
-  String get item_deleted => '物品已删除';
+  String get item_deleted => 'L\'oggetto è stato eliminato';
 
   @override
-  String get failed_to_delete => '删除失败';
+  String get failed_to_delete => 'Eliminazione fallita';
 
   @override
   String failed_to_delete_message(String error) {
-    return '无法删除物品: $error';
+    return 'Impossibile eliminare l\'oggetto: $error';
   }
 
   @override
-  String get date_range_filter => '日期范围筛选';
+  String get date_range_filter => 'Filtro per intervallo di date';
 
   @override
-  String get price_range_filter => '价格范围筛选';
+  String get price_range_filter => 'Filtra per fascia di prezzo';
 
   @override
-  String get my_items => '我的物品';
+  String get my_items => 'I miei oggetti';
 
   @override
-  String get click_fab_to_add_item => '点击右下角按钮添加物品';
+  String get click_fab_to_add_item =>
+      'Clicca sul pulsante in basso a destra per aggiungere un elemento';
 
   @override
-  String get confirm_delete => '确认删除';
+  String get confirm_delete => 'Conferma eliminazione';
 
   @override
-  String get filter_options => '筛选选项';
+  String get filter_options => 'Opzioni di filtraggio';
 
   @override
-  String get filter_by_type_category_location => '按类型、分类和地点筛选物品';
+  String get filter_by_type_category_location =>
+      'Filtra gli articoli per tipo, categoria e posizione';
 
   @override
   String categories_count(int count) {
-    return '$count 个分类';
+    return '$count categorie';
   }
 
   @override
-  String get all_categories => '全部分类';
+  String get all_categories => 'Tutte le categorie';
 
   @override
-  String get no_category_data => '暂无分类数据';
+  String get no_category_data => 'Nessun dato classificato al momento';
 
   @override
-  String get storage_location => '存储地点';
+  String get storage_location => 'Luogo di conservazione';
 
   @override
   String locations_count(int count) {
-    return '$count 个地点';
+    return '$count luoghi';
   }
 
   @override
-  String get all_locations => '全部地点';
+  String get all_locations => 'Tutti i luoghi';
 
   @override
-  String get no_location_data => '暂无地点数据';
+  String get no_location_data => 'Nessun dato sulla posizione disponibile';
 
   @override
-  String get date_range => '日期范围';
+  String get date_range => 'Intervallo di date';
 
   @override
-  String get select_date_range => '选择日期范围';
+  String get select_date_range => 'Seleziona intervallo di date';
 
   @override
-  String get price_range => '价格范围';
+  String get price_range => 'Fascia di prezzo';
 
   @override
-  String get unit_price_range => '单价范围';
+  String get unit_price_range => 'Gamma di prezzo unitario';
 
   @override
-  String get min_unit_price => '最低单价';
+  String get min_unit_price => 'Prezzo minimo unitario';
 
   @override
-  String get max_unit_price => '最高单价';
+  String get max_unit_price => 'Prezzo massimo unitario';
 
   @override
-  String get total_price_range => '总价范围';
+  String get total_price_range => 'Intervallo di prezzo totale';
 
   @override
-  String get min_total_price => '最低总价';
+  String get min_total_price => 'Prezzo totale minimo';
 
   @override
-  String get max_total_price => '最高总价';
+  String get max_total_price => 'Prezzo massimo totale';
 
   @override
-  String get clear_price_filter => '清除价格筛选';
+  String get clear_price_filter => 'Cancella filtro prezzo';
 
   @override
-  String get place_barcode_in_frame => '将条码放入框内扫描';
+  String get place_barcode_in_frame =>
+      'Posiziona il codice a barre nel riquadro per la scansione';
 
   @override
-  String get item_already_exists => '商品已存在';
+  String get item_already_exists => 'Il prodotto esiste già';
 
   @override
   String barcode_with_value(String barcode) {
-    return '条码：$barcode';
+    return 'Codice a barre: $barcode';
   }
 
   @override
   String name_with_value(String name) {
-    return '名称：$name';
+    return 'Nome: $name';
   }
 
   @override
   String category_with_value(String category) {
-    return '分类：$category';
+    return 'Categoria: $category';
   }
 
   @override
   String current_quantity_with_value(String quantity, String unit) {
-    return '当前数量：$quantity$unit';
+    return 'Quantità attuale: $quantity$unit';
   }
 
   @override
-  String get please_select_operation => '请选择操作：';
+  String get please_select_operation =>
+      'Si prega di selezionare un\'operazione:';
 
   @override
-  String get outbound => '出库';
+  String get outbound => 'Uscita dal magazzino';
 
   @override
-  String get inbound => '入库';
+  String get inbound => 'Ingresso in magazzino';
 
   @override
-  String get inbound_quantity => '入库数量';
+  String get inbound_quantity => 'Quantità in magazzino';
 
   @override
-  String get outbound_quantity => '出库数量';
+  String get outbound_quantity => 'Quantità spedita';
 
   @override
-  String get quantity => '数量';
+  String get quantity => 'quantità';
 
   @override
-  String get enter_inbound_quantity => '请输入入库数量';
+  String get enter_inbound_quantity =>
+      'Per favore inserisci la quantità di magazzino';
 
   @override
-  String get enter_outbound_quantity => '请输入出库数量';
+  String get enter_outbound_quantity =>
+      'Per favore inserisci la quantità di uscita dal magazzino';
 
   @override
   String item_increased(String name, String quantity, String unit) {
-    return '已增加 $name $quantity$unit';
+    return 'È stato aggiunto $name $quantity$unit';
   }
 
   @override
   String delete_item_confirm_with_irreversible(String name) {
-    return '确定要删除「$name」吗？此操作不可撤销。';
+    return 'Sei sicuro di voler eliminare \"$name\"? Questa operazione non può essere annullata.';
   }
 
   @override
   String item_decreased(String name, String quantity, String unit) {
-    return '已减少 $name $quantity$unit';
+    return 'È stato ridotto $name $quantity$unit';
   }
 
   @override
-  String get database_reset => '数据库已重置，将重新创建表结构';
+  String get database_reset =>
+      'Il database è stato resettato, le strutture delle tabelle saranno ricreate';
 
   @override
   String database_reset_error(String error) {
-    return '重置数据库时出错: $error';
+    return 'Errore durante il ripristino del database: $error';
   }
 
   @override
   String mock_data_init_failed(String error) {
-    return '模拟数据初始化失败: $error';
+    return 'Inizializzazione dei dati simulati fallita: $error';
   }
 
   @override
-  String get solution_steps => '解决方案：';
+  String get solution_steps => 'Soluzione:';
 
   @override
-  String get solution_step_1 => '1. 卸载应用重新安装';
+  String get solution_step_1 => '1. Disinstalla l\'app e reinstallala';
 
   @override
-  String get solution_step_2 => '2. 或清除应用数据';
+  String get solution_step_2 => '2. Oppure cancella i dati dell\'app';
 
   @override
-  String get solution_step_3 => '3. 或将 resetDatabaseOnStart 设为 true 后重新运行';
+  String get solution_step_3 =>
+      '3. Oppure impostare resetDatabaseOnStart su true e quindi eseguire nuovamente';
 
   @override
   String notification_service_init_failed(String error) {
-    return '提醒服务初始化失败: $error';
+    return 'Inizializzazione del servizio di promemoria fallita: $error';
   }
 
   @override
   String check_calendar_account_failed(String error) {
-    return '检查日历账户失败: $error';
+    return 'Verifica del conto calendario fallita: $error';
   }
 
   @override
   String create_calendar_failed(String error) {
-    return '创建日历失败: $error';
+    return 'Creazione del calendario fallita: $error';
   }
 
   @override
   String add_calendar_event_failed(String error) {
-    return '添加日历事件失败: $error';
+    return 'Aggiunta dell\'evento al calendario non riuscita: $error';
   }
 
   @override
   String delete_calendar_event_failed(String error) {
-    return '删除日历事件失败: $error';
+    return 'Eliminazione dell\'evento del calendario non riuscita: $error';
   }
 
   @override
   String set_permission_message_failed(String error) {
-    return '设置权限提示消息失败: $error';
+    return 'Impostazione del messaggio di notifica dei permessi non riuscita: $error';
   }
 
   @override
   String mock_data_init_success(int count) {
-    return '已成功初始化 $count 条模拟数据';
+    return 'Inizializzati con successo $count dati simulati';
   }
 
   @override
   String database_has_data(int count) {
-    return '数据库已有 $count 条数据，跳过模拟数据初始化';
+    return 'Il database contiene già $count record, salta l\'inizializzazione dei dati simulati';
   }
 
   @override
-  String get database_structure_mismatch => '可能是数据库结构不匹配，建议清除应用数据或重新安装';
+  String get database_structure_mismatch =>
+      'Potrebbe esserci una discrepanza nella struttura del database, si consiglia di cancellare i dati dell\'applicazione o reinstallarla';
 
   @override
-  String get old_database_deleted => '已删除旧数据库文件';
+  String get old_database_deleted =>
+      'Il file del vecchio database è stato eliminato';
 
   @override
-  String get backup_data_empty => '备份数据为空';
+  String get backup_data_empty => 'I dati di backup sono vuoti';
 
   @override
-  String get backup_file_not_found => '备份文件不存在';
+  String get backup_file_not_found => 'Il file di backup non esiste';
 
   @override
   String file_not_utf8(String error) {
-    return '文件编码不是有效的UTF-8格式。请确保文件使用UTF-8编码保存。错误详情: $error';
+    return 'La codifica del file non è un formato UTF-8 valido. Si prega di assicurarsi che il file sia salvato con codifica UTF-8. Dettagli dell\'errore: $error';
   }
 
   @override
   String file_not_found(String filePath) {
-    return '文件不存在: $filePath';
+    return 'File non esiste: $filePath';
   }
 
   @override
   String file_empty(String filePath) {
-    return '文件为空: $filePath';
+    return 'Il file è vuoto: $filePath';
   }
 
   @override
-  String get file_content_empty => '文件内容解码后为空，可能是编码不匹配';
+  String get file_content_empty =>
+      'Il contenuto del file è vuoto dopo la decodifica, potrebbe esserci una discrepanza di codifica';
 
   @override
   String field_cannot_be_empty(String fieldName) {
-    return '$fieldName不能为空';
+    return '$fieldName non può essere vuoto';
   }
 
   @override
   String field_min_length(String fieldName, int minLength) {
-    return '$fieldName长度不能少于$minLength个字符';
+    return '$fieldName non può essere lungo meno di $minLength caratteri';
   }
 
   @override
   String field_max_length(String fieldName, int maxLength) {
-    return '$fieldName长度不能超过$maxLength个字符';
+    return '$fieldName non può superare $maxLength caratteri';
   }
 
   @override
   String field_invalid_email(String fieldName) {
-    return '请输入有效的$fieldName地址';
+    return 'Si prega di inserire un indirizzo $fieldName valido';
   }
 
   @override
   String field_invalid_number(String fieldName, String numberType) {
-    return '$fieldName必须是$numberType';
+    return '$fieldName deve essere $numberType';
   }
 
   @override
   String field_min_value(String fieldName, double min) {
-    return '$fieldName不能小于$min';
+    return '$fieldName non può essere inferiore a $min';
   }
 
   @override
   String field_max_value(String fieldName, double max) {
-    return '$fieldName不能大于$max';
+    return '$fieldName non può essere maggiore di $max';
   }
 
   @override
   String field_positive_integer(String fieldName) {
-    return '$fieldName必须是正整数';
+    return '$fieldName deve essere un numero intero positivo';
   }
 
   @override
   String field_greater_than_zero(String fieldName) {
-    return '$fieldName必须大于0';
+    return '$fieldName deve essere maggiore di 0';
   }
 
   @override
   String field_positive_number(String fieldName) {
-    return '$fieldName必须是正数';
+    return '$fieldName deve essere un numero positivo';
   }
 
   @override
   String field_invalid_date(String fieldName) {
-    return '请输入有效的$fieldName';
+    return 'Per favore inserisci un $fieldName valido';
   }
 
   @override
   String field_date_not_past(String fieldName) {
-    return '$fieldName不能是过去日期';
+    return '$fieldName non può essere una data passata';
   }
 
   @override
   String field_date_not_before(String fieldName, String minDate) {
-    return '$fieldName不能早于$minDate';
+    return '$fieldName non può essere prima di $minDate';
   }
 
   @override
   String field_date_not_after(String fieldName, String maxDate) {
-    return '$fieldName不能晚于$maxDate';
+    return '$fieldName non può essere più tardi di $maxDate';
   }
 
   @override
   String field_invalid_value(String fieldName) {
-    return '请输入有效的$fieldName';
+    return 'Per favore inserisci un $fieldName valido';
   }
 
   @override
   String password_min_length(String fieldName) {
-    return '$fieldName长度不能少于8个字符';
+    return '$fieldName non può essere lungo meno di 8 caratteri';
   }
 
   @override
   String password_uppercase_required(String fieldName) {
-    return '$fieldName必须包含至少一个大写字母';
+    return '$fieldName deve contenere almeno una lettera maiuscola';
   }
 
   @override
   String password_lowercase_required(String fieldName) {
-    return '$fieldName必须包含至少一个小写字母';
+    return '$fieldName deve contenere almeno una lettera minuscola';
   }
 
   @override
   String password_digit_required(String fieldName) {
-    return '$fieldName必须包含至少一个数字';
+    return '$fieldName deve contenere almeno un numero';
   }
 
   @override
   String password_special_char_required(String fieldName) {
-    return '$fieldName必须包含至少一个特殊字符';
+    return '$fieldName deve contenere almeno un carattere speciale';
   }
 
   @override
-  String get passwords_not_match => '两次输入的密码不一致';
+  String get passwords_not_match =>
+      'Le due password inserite non corrispondono';
 
   @override
-  String get item_name_cannot_be_empty => '物品名称不能为空';
+  String get item_name_cannot_be_empty =>
+      'Il nome dell\'articolo non può essere vuoto';
 
   @override
   String name_max_length(int maxLength) {
-    return '名称不能超过$maxLength个字符';
+    return 'Il nome non può superare $maxLength caratteri';
   }
 
   @override
   String quantity_min(int minQuantity) {
-    return '数量不能小于$minQuantity';
+    return 'La quantità non può essere inferiore a $minQuantity';
   }
 
   @override
   String quantity_max(int maxQuantity) {
-    return '数量不能超过$maxQuantity';
+    return 'La quantità non può superare $maxQuantity';
   }
 
   @override
-  String get unit_price_not_negative => '单价不能为负数';
+  String get unit_price_not_negative =>
+      'Il prezzo unitario non può essere negativo';
 
   @override
   String unit_price_max(double maxUnitPrice) {
-    return '单价不能超过$maxUnitPrice';
+    return 'Il prezzo unitario non può superare $maxUnitPrice';
   }
 
   @override
-  String get set_production_expiry_for_validity => '请设置生产日期和保质期来自动计算有效期';
+  String get set_production_expiry_for_validity =>
+      'Si prega di impostare la data di produzione e la durata di conservazione per calcolare automaticamente il periodo di validità';
 
   @override
-  String get set_purchase_warranty_for_validity => '请设置购买日期和保质期来自动计算保修期';
+  String get set_purchase_warranty_for_validity =>
+      'Si prega di impostare la data di acquisto e la data di scadenza per calcolare automaticamente il periodo di garanzia';
 
   @override
-  String get calendar_account_creation_failed => '无法创建日历账户，请检查系统日历设置';
+  String get calendar_account_creation_failed =>
+      'Impossibile creare l\'account del calendario, controlla le impostazioni del calendario di sistema';
 
   @override
-  String get test_notification => '测试通知';
+  String get test_notification => 'Notifica di test';
 
   @override
-  String get test_notification_description => '这是一个测试通知，用于验证本地提醒功能';
+  String get test_notification_description =>
+      'Questa è una notifica di test, utilizzata per verificare la funzione di promemoria locale';
 
   @override
-  String get day_unit => '天';
+  String get day_unit => 'cielo';
 
   @override
   String days_with_value(int days) {
-    return '$days天';
+    return '$days giorni';
   }
 
   @override
-  String get item_saved => '物品已保存';
+  String get item_saved => 'Oggetto salvato';
 
   @override
-  String get item_updated => '物品已更新';
+  String get item_updated => 'L\'oggetto è stato aggiornato';
 
   @override
-  String get item_added => '物品已添加';
+  String get item_added => 'Oggetto aggiunto';
 
   @override
-  String get save_success => '保存成功';
+  String get save_success => 'Salvataggio riuscito';
 
   @override
-  String get update_success => '更新成功';
+  String get update_success => 'Aggiornamento riuscito';
 
   @override
-  String get delete_success => '删除成功';
+  String get delete_success => 'Eliminazione riuscita';
 
   @override
-  String get save_failed => '保存失败';
+  String get save_failed => 'Salvataggio fallito';
 
   @override
-  String get update_failed => '更新失败';
+  String get update_failed => 'Aggiornamento fallito';
 
   @override
-  String get delete_failed => '删除失败';
+  String get delete_failed => 'Eliminazione fallita';
 }

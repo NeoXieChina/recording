@@ -15,10 +15,7 @@ class SettingsScreen extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverAppBar.large(
-            title: Text(
-              AppLocalizations.of(context).settings,
-              style: theme.textTheme.titleLarge,
-            ),
+            title: Text(AppLocalizations.of(context).settings),
             centerTitle: false,
             elevation: 0,
             pinned: true,
@@ -109,6 +106,22 @@ class SettingsScreen extends StatelessWidget {
                     subtitle: Text(l10n.alert_settings_description),
                     onTap: () =>
                         Navigator.pushNamed(context, AppRoutes.alertsSettings),
+                  ),
+                ),
+                const SizedBox(height: 12),
+
+                // 语言设置卡片
+                Card(
+                  elevation: 0,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(25),
+                  ),
+                  color: colorScheme.surfaceContainerLow,
+                  child: ListTile(
+                    leading: Icon(Icons.language, color: colorScheme.primary),
+                    title: Text(l10n.language_settings),
+                    subtitle: Text(l10n.language_settings_description),
+                    onTap: () => Navigator.pushNamed(context, AppRoutes.languageSettings),
                   ),
                 ),
                 const SizedBox(height: 12),

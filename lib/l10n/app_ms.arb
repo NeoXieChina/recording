@@ -1,0 +1,1625 @@
+{
+  "@@locale": "ms",
+  "app_name": "Tempat menyimpan barang kecil",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Batalkan",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Sahkan",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Simpan",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Padam",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Sunting",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Tambah",
+  "@add": {
+    "description": ""
+  },
+  "search": "Cari",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Tetapan",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Kembali",
+  "@back": {
+    "description": ""
+  },
+  "next": "Langkah seterusnya",
+  "@next": {
+    "description": ""
+  },
+  "done": "Selesai",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Sedang memuat...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Kesilapan",
+  "@error": {
+    "description": ""
+  },
+  "success": "kejayaan",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Amaran",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Maklumat",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Pilih bilangan hari peringatan",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Tersuai",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Tersuai ({days} hari)",
+  "@custom_days": {
+    "description": "Hari tersuai dengan parameter",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Julat bilangan hari peringatan: {min}-{max} hari",
+  "@alert_days_range": {
+    "description": "Julat hari peringatan dengan parameter",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Sila masukkan bilangan hari peringatan",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Jumlah hari",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Sila masukkan nombor antara {min} dan {max}",
+  "@enter_valid_days": {
+    "description": "Mesej pengesahan input hari",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Tetapan Amaran",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Tetapan kalendar",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Penyegerakan kalendar",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Selepas dihidupkan, akan meminta kebenaran kalendar",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Tambah acara kalender ujian",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Sila hidupkan suis 'Penyegerakan Kalendar' terlebih dahulu",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Tetapan Peringatan Aplikasi",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Peringatan tempatan",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Terima peringatan luput dalam aplikasi selepas diaktifkan",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Hantar notis ujian",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Sila hidupkan suis 'Peringatan Tempatan' terlebih dahulu",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Tetapan bilangan hari peringatan",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Bilangan hari peringatan awal",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Tetapkan berapa hari lebih awal untuk memberitahu item yang akan tamat tempoh atau jaminan akan tamat",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Permintaan kebenaran kalendar",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Perlu akses kalendar untuk menyegerakkan peringatan item. Adakah dibenarkan?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Membenarkan",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Kebenaran kalendar telah diberikan, penyegerakan kalendar telah dihidupkan",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Kebenaran kalendar ditolak, tidak dapat menghidupkan penyegerakan kalendar",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Kebenaran telah ditolak secara kekal",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Kebenaran kalendar telah ditolak secara kekal, sila buka kebenaran secara manual dalam tetapan sistem.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Pergi ke tetapan",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Kebenaran kalendar telah diberikan, tetapi tidak dapat membuat akaun kalendar. Sila semak tetapan kalendar sistem",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Kebenaran kalendar telah diberikan, akaun kalendar tempatan telah dibuat",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Akaun kalendar telah berjaya dibuat, tetapi sistem mungkin memerlukan sedikit masa untuk berkuat kuasa",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Ujian penambahan acara kalendar berjaya",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Gagal menambah acara kalendar ujian, sila semak tetapan kalendar",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Perlu kebenaran kalendar untuk menambahkan acara ujian",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Pemberitahuan ujian telah dihantar",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Gagal menghantar pemberitahuan ujian: {error}",
+  "@test_notification_failed": {
+    "description": "Makluman mesej ralat",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Memerlukan kebenaran pemberitahuan untuk mengaktifkan peringatan tempatan",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Operasi gagal: {error}",
+  "@operation_failed": {
+    "description": "Mesej ralat operasi umum",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Pemberitahuan Amaran Barang",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Peringatan barang tamat tempoh atau habis jaminan",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Makanan",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "barangan harian",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "kosmetik",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Ubat",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Produk elektronik",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Perabot",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Pakaian",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Buku",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Lain-lain",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Kedai dalam talian",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Kedai fizikal",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "pasar raya",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Kedai khas",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Pasaran barangan terpakai",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Lain-lain",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Lain-lain",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Kedai dalam talian",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Pengelasan Barang",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Kategori Tersuai",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Sandarkan data",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Membungkus semua data (termasuk gambar) ke dalam fail ZIP untuk sandaran",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Sandarkan semua data",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Sandaran berjaya",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Sandaran gagal: {error}",
+  "@backup_failed": {
+    "description": "Mesej ralat sandaran gagal",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Memulihkan data",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Pulihkan semua data daripada fail sandaran ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Eksport data",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Eksport sebagai format CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Import data",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Import data dari fail CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Tetapan peringatan kalendar dan peringatan aplikasi",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Mengenai",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Maklumat dan versi aplikasi",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Sila pilih fail sandaran terlebih dahulu",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Sahkan pemulihan",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Memulihkan sandaran akan mengosongkan semua data sedia ada dan menggantikannya dengan data sandaran, tindakan ini tidak dapat dibatalkan. Adakah anda pasti mahu meneruskan?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Sahkan sekali lagi",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Adakah anda pasti mahu mengosongkan semua data sedia ada dan memulihkan sandaran? Tindakan ini tidak boleh dipulihkan!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Pastikan untuk memulihkan",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Pemulihan berjaya, sebanyak {count} item",
+  "@restore_success": {
+    "description": "Mesej berjaya dipulihkan",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Pemulihan gagal: {error}",
+  "@restore_failed": {
+    "description": "Mesej ralat pemulihan gagal",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Pilih fail sandaran",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Pulihkan sandaran",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Fail yang dipilih: {filename}",
+  "@selected_file": {
+    "description": "Mesej fail yang dipilih",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Eksport data berjaya",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Eksport gagal: {error}",
+  "@export_failed": {
+    "description": "Pengeksportan gagal mesej ralat",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Pemprosesan data berulang",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Data yang berulang telah dikesan, sila pilih cara pemprosesan:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Langkau",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "Menutupi",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Lompat semua",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Menutupi sepenuhnya",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Sila pilih format import terlebih dahulu",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Sahkan import",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Import data akan menimpa data yang sedia ada, operasi ini tidak boleh dibatalkan. Adakah anda pasti mahu meneruskan?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Import data berjaya, sejumlah {count} item telah diimport",
+  "@import_success": {
+    "description": "Import berjaya mesej",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Import gagal: {error}",
+  "@import_failed": {
+    "description": "Mesej ralat kegagalan import",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Pilih fail",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Tiada data",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Tiada data pada masa ini, klik butang di bawah untuk menambah rekod pertama anda!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Muat gagal",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Pemuatan data gagal, sila semak sambungan rangkaian dan cuba sekali lagi",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Cuba semula",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Sambungan rangkaian gagal",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Sila semak sambungan rangkaian dan cuba lagi",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Tiada keputusan ditemui",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Cuba gunakan kata kunci lain untuk mencari",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Kosongkan carian",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Kebenaran tidak mencukupi",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Memerlukan kebenaran yang berkaitan untuk menggunakan fungsi ini",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Meminta kebenaran",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Maklumat Aplikasi",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "versi",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Pembangun",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Maklumat peranti",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Model peralatan",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Jenama",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Nama Peranti",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "Produk",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "perkakasan",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Versi Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Versi SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Nama sistem",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Versi sistem",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Pengenalan Peranti",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Nama komputer",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Nombor versi",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Tidak dapat mendapatkan maklumat peranti: {error}",
+  "@error_getting_device_info": {
+    "description": "Mesej ralat pengambilan maklumat peranti",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Pengenalan Fungsi",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Aplikasi Pengurusan Barangan Pintar",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Membantu anda mengurus maklumat seperti tarikh luput barang, tarikh jaminan, dan menyediakan fungsi peringatan pintar.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Barangan pakai buang",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Barangan tahan lama",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Susun",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Nama mengikut urutan menaik",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Nama susunan menurun",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Tarikh menaik",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Tarikh susunan menurun",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Harga seunit menaik",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Harga seunit menurun",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Susunan menaik mengikut kuantiti",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Susunan menurun mengikut kuantiti",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Harga keseluruhan menaik",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Harga keseluruhan mengikut turutan menurun",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Kosongkan semua penapis",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Imbas kod untuk masuk ke stor",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Mencari barang...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Tiada barangan",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Klik butang di bawah untuk menambah barang pertama",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Telah tamat tempoh",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Akan tamat tempoh",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Tempoh jaminan telah tamat",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Jaminan akan tamat tidak lama lagi",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Baki {count} hari",
+  "@days_remaining": {
+    "description": "Hari baki dengan parameter",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Telah tamat tempoh {count} hari",
+  "@expired_days_ago": {
+    "description": "Hari luput dengan parameter",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Padam item",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Adakah anda pasti mahu memadam \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "Sahkan penghapusan mesej",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Item telah dipadam",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Padam gagal",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Tidak dapat memadam item: {error}",
+  "@failed_to_delete_message": {
+    "description": "Padam mesej ralat",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Penapisan julat tarikh",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Penapisan julat harga",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Barang saya",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Klik butang di sudut kanan bawah untuk menambah barang",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Sahkan untuk padam",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Tapis pilihan",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Tapis item mengikut jenis, kategori dan lokasi",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} kategori",
+  "@categories_count": {
+    "description": "Paparan jumlah mengikut kategori",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Semua kategori",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Tiada data kategori",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Lokasi penyimpanan",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} lokasi",
+  "@locations_count": {
+    "description": "Paparan jumlah lokasi",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Semua lokasi",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Tiada data lokasi",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Julat Tarikh",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Pilih julat tarikh",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Julat harga",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Julat harga seunit",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Harga unit terendah",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Harga tertinggi seunit",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Julat harga keseluruhan",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Jumlah harga terendah",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Harga maksimum keseluruhan",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Kosongkan penapis harga",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Letakkan kod bar dalam kotak untuk mengimbas",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Produk sudah wujud",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Kod bar: {barcode}",
+  "@barcode_with_value": {
+    "description": "Paparan kod bar dengan parameter",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Nama: {name}",
+  "@name_with_value": {
+    "description": "Nama dipaparkan dengan parameter",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Kategori: {category}",
+  "@category_with_value": {
+    "description": "Paparan mengikut kategori dengan parameter",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Jumlah semasa: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Paparan kuantiti semasa dengan parameter",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Sila pilih operasi:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Keluaran gudang",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Masuk gudang",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Jumlah masuk gudang",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Kuantiti keluar gudang",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Jumlah",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Sila masukkan kuantiti storan",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Sila masukkan kuantiti keluar stok",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Telah ditambah {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "Mesej penambahan item",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Adakah anda pasti ingin memadam \"{name}\"? Tindakan ini tidak boleh dibatalkan.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Hapus mesej pengesahan dengan amaran tidak boleh dibatalkan",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Telah berkurang {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Mesej pengurangan barang",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Pangkalan data telah diset semula, struktur jadual akan dicipta semula",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Ralat semasa menetapkan semula pangkalan data: {error}",
+  "@database_reset_error": {
+    "description": "Ralat penyetelan semula pangkalan data",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Inisialisasi data simulasi gagal: {error}",
+  "@mock_data_init_failed": {
+    "description": "Inisialisasi data simulasi gagal",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Penyelesaian:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Nyahpasang aplikasi dan pasang semula",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Atau bersihkan data aplikasi",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Atau tetapkan resetDatabaseOnStart kepada true kemudian jalankan semula",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Inisialisasi perkhidmatan peringatan gagal: {error}",
+  "@notification_service_init_failed": {
+    "description": "Inisialisasi perkhidmatan pemberitahuan gagal",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Gagal memeriksa akaun kalendar: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Gagal memeriksa akaun kalendar",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Gagal membuat kalendar: {error}",
+  "@create_calendar_failed": {
+    "description": "Gagal membuat kalendar",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Gagal menambah acara kalendar: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Gagal menambahkan acara kalendar",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Gagal memadam acara kalendar: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Gagal memadam acara kalendar",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Gagal menetapkan mesej pemberitahuan kebenaran: {error}",
+  "@set_permission_message_failed": {
+    "description": "Gagal menetapkan mesej petunjuk kebenaran",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Berjaya memulakan {count} data simulasi",
+  "@mock_data_init_success": {
+    "description": "Inisialisasi data simulasi berjaya",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Pangkalan data sudah mempunyai {count} rekod, langkau inisialisasi data simulasi",
+  "@database_has_data": {
+    "description": "Pangkalan data sudah mempunyai data",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Mungkin struktur pangkalan data tidak sepadan, disyorkan untuk membersihkan data aplikasi atau memasang semula",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Fail pangkalan data lama telah dipadam",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Data sandaran kosong",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Fail sandaran tidak wujud",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Pengekodan fail bukan format UTF-8 yang sah. Sila pastikan fail disimpan menggunakan pengekodan UTF-8. Butiran ralat: {error}",
+  "@file_not_utf8": {
+    "description": "Ralat pengekodan fail",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Fail tidak wujud: {filePath}",
+  "@file_not_found": {
+    "description": "Ralat fail tidak wujud",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Fail kosong: {filePath}",
+  "@file_empty": {
+    "description": "Ralat fail kosong",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Kandungan fail kosong selepas dinyahkod, mungkin disebabkan ketidakpadanan pengekodan",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} tidak boleh kosong",
+  "@field_cannot_be_empty": {
+    "description": "Medan tidak boleh kosong",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "Panjang {fieldName} tidak boleh kurang daripada {minLength} aksara",
+  "@field_min_length": {
+    "description": "Pengesahan panjang minimum medan",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} tidak boleh melebihi {maxLength} aksara",
+  "@field_max_length": {
+    "description": "Pengesahan panjang maksimum medan",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Sila masukkan alamat {fieldName} yang sah",
+  "@field_invalid_email": {
+    "description": "Pengesahan format e-mel",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} mesti {numberType}",
+  "@field_invalid_number": {
+    "description": "Pengesahan format nombor",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} tidak boleh kurang daripada {min}",
+  "@field_min_value": {
+    "description": "Pengesahan nilai minimum",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} tidak boleh lebih besar daripada {max}",
+  "@field_max_value": {
+    "description": "Verifikasi nilai maksimum",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} mesti merupakan nombor bulat positif",
+  "@field_positive_integer": {
+    "description": "Pengesahan nombor bulat positif",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} mesti lebih besar daripada 0",
+  "@field_greater_than_zero": {
+    "description": "Pengesahan lebih besar daripada sifar",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} mesti nombor positif",
+  "@field_positive_number": {
+    "description": "Verifikasi nombor positif",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Sila masukkan {fieldName} yang sah",
+  "@field_invalid_date": {
+    "description": "Pengesahan format tarikh",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} tidak boleh menjadi tarikh yang lalu",
+  "@field_date_not_past": {
+    "description": "Tarikh tidak boleh dari masa lalu",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} tidak boleh lebih awal daripada {minDate}",
+  "@field_date_not_before": {
+    "description": "Tarikh tidak boleh lebih awal daripada tarikh yang ditetapkan",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} tidak boleh lewat daripada {maxDate}",
+  "@field_date_not_after": {
+    "description": "Tarikh tidak boleh lewat daripada tarikh yang ditetapkan",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Sila masukkan {fieldName} yang sah",
+  "@field_invalid_value": {
+    "description": "Pengesahan nilai tidak sah",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} panjangnya tidak boleh kurang daripada 8 aksara",
+  "@password_min_length": {
+    "description": "Pengesahan panjang minimum kata laluan",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} mesti mengandungi sekurang-kurangnya satu huruf besar",
+  "@password_uppercase_required": {
+    "description": "Kata laluan mesti mengandungi huruf besar",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} mesti mengandungi sekurang-kurangnya satu huruf kecil",
+  "@password_lowercase_required": {
+    "description": "Kata laluan mesti mengandungi huruf kecil",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} mesti mengandungi sekurang-kurangnya satu nombor",
+  "@password_digit_required": {
+    "description": "Kata laluan mesti mengandungi nombor",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} mesti mengandungi sekurang-kurangnya satu aksara khas",
+  "@password_special_char_required": {
+    "description": "Kata laluan mesti mengandungi aksara khas",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Kata laluan yang dimasukkan dua kali tidak sepadan",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Nama barang tidak boleh kosong",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Nama tidak boleh melebihi {maxLength} aksara",
+  "@name_max_length": {
+    "description": "Pengesahan panjang maksimum nama",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Kuantiti tidak boleh kurang daripada {minQuantity}",
+  "@quantity_min": {
+    "description": "Pengesahan nilai minimum kuantiti",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Kuantiti tidak boleh melebihi {maxQuantity}",
+  "@quantity_max": {
+    "description": "Pengesahan nilai maksimum kuantiti",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Harga unit tidak boleh negatif",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Harga seunit tidak boleh melebihi {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "Pengesahan Nilai Maksimum Harga Seunit",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Sila tetapkan tarikh pengeluaran dan tempoh hayat untuk mengira tarikh luput secara automatik",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Sila tetapkan tarikh pembelian dan tempoh luput untuk mengira tempoh jaminan secara automatik",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Tidak dapat membuat akaun kalendar, sila semak tetapan kalendar sistem",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Notis Ujian",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Ini adalah pemberitahuan ujian untuk mengesahkan fungsi peringatan tempatan",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "langit",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} hari",
+  "@days_with_value": {
+    "description": "Hari dengan parameter",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Barang telah disimpan",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Barang telah dikemas kini",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Barang telah ditambahkan",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Disimpan berjaya",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Kemas kini berjaya",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Padam berjaya",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Gagal menyimpan",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Kemas kini gagal",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Padam gagal",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Tetapan Bahasa",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Tetapkan bahasa paparan aplikasi",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Tetapan lalai sistem",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Gunakan bahasa sistem",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Perubahan bahasa akan berlaku selepas aplikasi dimulakan semula",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Pilihan semasa: {days} hari",
+  "@current_selection": {
+    "description": "Paparan hari yang dipilih sekarang",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

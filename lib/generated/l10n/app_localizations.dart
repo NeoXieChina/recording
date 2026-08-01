@@ -5,6 +5,55 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'app_localizations_af.dart';
+import 'app_localizations_am.dart';
+import 'app_localizations_ar.dart';
+import 'app_localizations_as.dart';
+import 'app_localizations_az.dart';
+import 'app_localizations_bg.dart';
+import 'app_localizations_bn.dart';
+import 'app_localizations_bo.dart';
+import 'app_localizations_bs.dart';
+import 'app_localizations_ca.dart';
+import 'app_localizations_cs.dart';
+import 'app_localizations_cy.dart';
+import 'app_localizations_da.dart';
+import 'app_localizations_de.dart';
+import 'app_localizations_el.dart';
+import 'app_localizations_en.dart';
+import 'app_localizations_es.dart';
+import 'app_localizations_et.dart';
+import 'app_localizations_fa.dart';
+import 'app_localizations_fi.dart';
+import 'app_localizations_fil.dart';
+import 'app_localizations_fj.dart';
+import 'app_localizations_fr.dart';
+import 'app_localizations_ga.dart';
+import 'app_localizations_gu.dart';
+import 'app_localizations_he.dart';
+import 'app_localizations_hi.dart';
+import 'app_localizations_hr.dart';
+import 'app_localizations_ht.dart';
+import 'app_localizations_hu.dart';
+import 'app_localizations_hy.dart';
+import 'app_localizations_id.dart';
+import 'app_localizations_is.dart';
+import 'app_localizations_it.dart';
+import 'app_localizations_iu.dart';
+import 'app_localizations_ja.dart';
+import 'app_localizations_kk.dart';
+import 'app_localizations_km.dart';
+import 'app_localizations_kn.dart';
+import 'app_localizations_ko.dart';
+import 'app_localizations_ms.dart';
+import 'app_localizations_nl.dart';
+import 'app_localizations_pt.dart';
+import 'app_localizations_ru.dart';
+import 'app_localizations_ta.dart';
+import 'app_localizations_th.dart';
+import 'app_localizations_tr.dart';
+import 'app_localizations_ug.dart';
+import 'app_localizations_uk.dart';
 import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
@@ -94,17 +143,55 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('zh'),
-    Locale('en'),
+    Locale('af'),
+    Locale('am'),
+    Locale('ar'),
+    Locale('as'),
+    Locale('az'),
+    Locale('bg'),
+    Locale('bn'),
+    Locale('bo'),
+    Locale('bs'),
+    Locale('ca'),
+    Locale('cs'),
+    Locale('cy'),
+    Locale('da'),
     Locale('de'),
+    Locale('el'),
+    Locale('en'),
     Locale('es'),
+    Locale('et'),
+    Locale('fa'),
+    Locale('fi'),
+    Locale('fil'),
+    Locale('fj'),
     Locale('fr'),
+    Locale('ga'),
+    Locale('gu'),
+    Locale('he'),
+    Locale('hi'),
+    Locale('hr'),
+    Locale('ht'),
+    Locale('hu'),
+    Locale('hy'),
     Locale('id'),
+    Locale('is'),
     Locale('it'),
+    Locale('iu'),
+    Locale('ja'),
+    Locale('kk'),
+    Locale('km'),
+    Locale('kn'),
+    Locale('ko'),
     Locale('ms'),
+    Locale('nl'),
     Locale('pt'),
-    Locale('ro'),
+    Locale('ru'),
+    Locale('ta'),
     Locale('th'),
-    Locale('vi'),
+    Locale('tr'),
+    Locale('ug'),
+    Locale('uk'),
   ];
 
   ///
@@ -160,6 +247,36 @@ abstract class AppLocalizations {
   /// In zh, this message translates to:
   /// **'设置'**
   String get settings;
+
+  /// No description provided for @language_settings.
+  ///
+  /// In zh, this message translates to:
+  /// **'语言设置'**
+  String get language_settings;
+
+  /// No description provided for @language_settings_description.
+  ///
+  /// In zh, this message translates to:
+  /// **'设置应用显示语言'**
+  String get language_settings_description;
+
+  /// No description provided for @system_default.
+  ///
+  /// In zh, this message translates to:
+  /// **'系统默认'**
+  String get system_default;
+
+  /// No description provided for @use_system_language.
+  ///
+  /// In zh, this message translates to:
+  /// **'使用系统语言'**
+  String get use_system_language;
+
+  /// No description provided for @language_change_hint.
+  ///
+  /// In zh, this message translates to:
+  /// **'语言更改将在应用重启后生效'**
+  String get language_change_hint;
 
   ///
   ///
@@ -226,6 +343,12 @@ abstract class AppLocalizations {
   /// In zh, this message translates to:
   /// **'自定义（{days}天）'**
   String custom_days(int days);
+
+  /// 当前选择的天数显示
+  ///
+  /// In zh, this message translates to:
+  /// **'当前选择：{days}天'**
+  String current_selection(int days);
 
   /// 提醒天数范围带参数
   ///
@@ -1846,8 +1969,58 @@ class _AppLocalizationsDelegate
   }
 
   @override
-  bool isSupported(Locale locale) =>
-      <String>['zh'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>[
+    'af',
+    'am',
+    'ar',
+    'as',
+    'az',
+    'bg',
+    'bn',
+    'bo',
+    'bs',
+    'ca',
+    'cs',
+    'cy',
+    'da',
+    'de',
+    'el',
+    'en',
+    'es',
+    'et',
+    'fa',
+    'fi',
+    'fil',
+    'fj',
+    'fr',
+    'ga',
+    'gu',
+    'he',
+    'hi',
+    'hr',
+    'ht',
+    'hu',
+    'hy',
+    'id',
+    'is',
+    'it',
+    'iu',
+    'ja',
+    'kk',
+    'km',
+    'kn',
+    'ko',
+    'ms',
+    'nl',
+    'pt',
+    'ru',
+    'ta',
+    'th',
+    'tr',
+    'ug',
+    'uk',
+    'zh',
+  ].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -1856,6 +2029,104 @@ class _AppLocalizationsDelegate
 AppLocalizations lookupAppLocalizations(Locale locale) {
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'af':
+      return AppLocalizationsAf();
+    case 'am':
+      return AppLocalizationsAm();
+    case 'ar':
+      return AppLocalizationsAr();
+    case 'as':
+      return AppLocalizationsAs();
+    case 'az':
+      return AppLocalizationsAz();
+    case 'bg':
+      return AppLocalizationsBg();
+    case 'bn':
+      return AppLocalizationsBn();
+    case 'bo':
+      return AppLocalizationsBo();
+    case 'bs':
+      return AppLocalizationsBs();
+    case 'ca':
+      return AppLocalizationsCa();
+    case 'cs':
+      return AppLocalizationsCs();
+    case 'cy':
+      return AppLocalizationsCy();
+    case 'da':
+      return AppLocalizationsDa();
+    case 'de':
+      return AppLocalizationsDe();
+    case 'el':
+      return AppLocalizationsEl();
+    case 'en':
+      return AppLocalizationsEn();
+    case 'es':
+      return AppLocalizationsEs();
+    case 'et':
+      return AppLocalizationsEt();
+    case 'fa':
+      return AppLocalizationsFa();
+    case 'fi':
+      return AppLocalizationsFi();
+    case 'fil':
+      return AppLocalizationsFil();
+    case 'fj':
+      return AppLocalizationsFj();
+    case 'fr':
+      return AppLocalizationsFr();
+    case 'ga':
+      return AppLocalizationsGa();
+    case 'gu':
+      return AppLocalizationsGu();
+    case 'he':
+      return AppLocalizationsHe();
+    case 'hi':
+      return AppLocalizationsHi();
+    case 'hr':
+      return AppLocalizationsHr();
+    case 'ht':
+      return AppLocalizationsHt();
+    case 'hu':
+      return AppLocalizationsHu();
+    case 'hy':
+      return AppLocalizationsHy();
+    case 'id':
+      return AppLocalizationsId();
+    case 'is':
+      return AppLocalizationsIs();
+    case 'it':
+      return AppLocalizationsIt();
+    case 'iu':
+      return AppLocalizationsIu();
+    case 'ja':
+      return AppLocalizationsJa();
+    case 'kk':
+      return AppLocalizationsKk();
+    case 'km':
+      return AppLocalizationsKm();
+    case 'kn':
+      return AppLocalizationsKn();
+    case 'ko':
+      return AppLocalizationsKo();
+    case 'ms':
+      return AppLocalizationsMs();
+    case 'nl':
+      return AppLocalizationsNl();
+    case 'pt':
+      return AppLocalizationsPt();
+    case 'ru':
+      return AppLocalizationsRu();
+    case 'ta':
+      return AppLocalizationsTa();
+    case 'th':
+      return AppLocalizationsTh();
+    case 'tr':
+      return AppLocalizationsTr();
+    case 'ug':
+      return AppLocalizationsUg();
+    case 'uk':
+      return AppLocalizationsUk();
     case 'zh':
       return AppLocalizationsZh();
   }

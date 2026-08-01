@@ -1,0 +1,1625 @@
+{
+  "@@locale": "fi",
+  "app_name": "Säilyttää esineitä pienessä tilassa",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Peruuta",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Vahvista",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Tallenna",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Poista",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Muokkaa",
+  "@edit": {
+    "description": ""
+  },
+  "add": "lisää",
+  "@add": {
+    "description": ""
+  },
+  "search": "Hae",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Asetukset",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Takaisin",
+  "@back": {
+    "description": ""
+  },
+  "next": "Seuraava askel",
+  "@next": {
+    "description": ""
+  },
+  "done": "Valmis",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Ladataan...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Virhe",
+  "@error": {
+    "description": ""
+  },
+  "success": "Menestys",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Varoitus",
+  "@warning": {
+    "description": ""
+  },
+  "info": "tieto",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Valitse muistutuspäivien määrä",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Mukautettu",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Mukautettu ({days} päivää)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Muistutuspäivien väli: {min}-{max} päivää",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Syötä muistutuspäivien määrä",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "päivien määrä",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Syötä numero {min}-{max} välillä",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Varoitusasetukset",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Kalenterin asetukset",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Kalenterin synkronointi",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Käytettäessä pyydetään kalenterin käyttöoikeutta",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Lisää testikalenteritapahtuma",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Ole hyvä ja ota ensin käyttöön 'Kalenterin synkronointi' -kytkin",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Sovelluksen muistutusasetukset",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Paikallinen muistutus",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Ota käyttöön sovelluksen sisäisten vanhenemisilmoitusten vastaanotto",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Lähetä testiviesti",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Ole hyvä ja ota ensin käyttöön 'Paikalliset muistutukset' -kytkin",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Muistutuspäivien asetus",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Etukäteen muistutuspäivien määrä",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Aseta, kuinka monta päivää etukäteen muistutetaan tuotteen viimeisestä käyttöpäivästä tai takuun päättymisestä",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Kalenterin käyttöoikeuspyyntö",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Tarvitaan pääsy kalenteriin synkronoimaan muistutuksia. Sallitko sen?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "sallia",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Kalenterin käyttöoikeus on myönnetty, kalenterin synkronointi on päällä",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Kalenterin käyttöoikeus evätty, kalenterin synkronointia ei voida avata",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Oikeudet on pysyvästi evätty",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Kalenterin käyttöoikeus on pysyvästi evätty, avaa käyttöoikeus järjestelmäasetuksista manuaalisesti.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Siirry asetuksiin",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Kalenterin käyttöoikeus on myönnetty, mutta kalenteritiliä ei voi luoda. Tarkista järjestelmän kalenteriasetukset.",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Kalenterin käyttöoikeus myönnetty, paikallinen kalenteritili luotu",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Kalenteritili luotu onnistuneesti, mutta järjestelmä saattaa tarvita hieman aikaa tullakseen voimaan",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Kalenteritapahtuman lisääminen onnistui testissä",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Testikalenteritapahtuman lisääminen epäonnistui, tarkista kalenteriasetukset",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Tarvitset kalenterin käyttöoikeuden lisätäksesi testitapahtuman",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Testiviesti on lähetetty",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Testiviestin lähettäminen epäonnistui: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Paikallisten muistutusten käyttöönottamiseksi tarvitaan ilmoitusoikeudet",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Toiminto epäonnistui: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Esineiden varoitusilmoitus",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Tuotteen vanhenemis- tai takuutodistusmuistutus",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "ruoka",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Arkipäivän tarvikkeet",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "kosmetiikka",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Lääke",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Elektroniikkatuotteet",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "huonekalut",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Vaatteet",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "kirja",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Muut",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Verkkokauppa",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "fyysinen myymälä",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "supermarket",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "erikoisliike",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "käytettyjen tavaroiden markkinat",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Muut",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Muut",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Verkkokauppa",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Tavaroiden luokittelu",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Mukautettu luokittelu",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "varmuuskopioida tiedot",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Pakkaa kaikki tiedot (mukaan lukien kuvat) ZIP-tiedostoksi varmuuskopiota varten",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Varmuuskopioi kaikki tiedot",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Varmuuskopiointi onnistui",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Varmuuskopiointi epäonnistui: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Palauta tiedot",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Palauta kaikki tiedot ZIP-varmuuskopiosta",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Vie tiedot",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Vie CSV-, TXT- tai SQL-muodossa",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Tuo data",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Tuo tietoja CSV-, TXT- ja SQL-tiedostoista",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Kalenterimuistutusten ja sovellusten ponnahdusmuistutusten asetukset",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Tietoa",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Sovellustiedot ja versio",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Valitse ensin varmuuskopiointitiedosto",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Vahvista palautus",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Varmuuskopion palauttaminen tyhjentää kaikki nykyiset tiedot ja korvaa ne varmuuskopiolla; tätä toimintoa ei voi peruuttaa. Haluatko jatkaa?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Vahvista uudelleen",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Oletko varma, että haluat tyhjentää kaikki olemassa olevat tiedot ja palauttaa varmuuskopion? Tätä toimintoa ei voi peruuttaa!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Varmista palautus",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Palautus onnistui, yhteensä {count} kohdetta",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Palautus epäonnistui: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Valitse varmuuskopiotiedosto",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Palauta varmuuskopio",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Valittu tiedosto: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Datan vienti onnistui",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Vienti epäonnistui: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Toistuvan datan käsittely",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Havaittu kaksoistiedot, valitse käsittelytapa:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Ohita",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "peittää",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Ohita kaikki",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "täysi peitto",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Valitse ensin tuontimuoto",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Vahvista tuonti",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Tuo tiedot korvaa olemassa olevat tiedot, tätä toimintoa ei voi kumota. Haluatko jatkaa?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Datan tuonti onnistui, yhteensä tuotiin {count} kohdetta",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Tuo epäonnistui: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Valitse tiedosto",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Ei tietoja",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Tällä hetkellä ei ole tietoja, napsauta alla olevaa painiketta lisätäksesi ensimmäisen tietueen!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Lataus epäonnistui",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Datan lataus epäonnistui, tarkista verkkoyhteys ja yritä uudelleen",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Yritä uudelleen",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Verkkoyhteys epäonnistui",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Tarkista verkkoyhteys ja yritä uudelleen",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Ei tuloksia",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Yritä etsiä muita avainsanoja käyttäen",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Tyhjennä haku",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Oikeuksia ei ole riittävästi",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Tämän toiminnon käyttö vaatii asianmukaiset oikeudet",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Pyydä lupaa",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Sovellustiedot",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "versio",
+  "@version": {
+    "description": ""
+  },
+  "developer": "kehittäjä",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Laitetiedot",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Laitemalli",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "brändi",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Laitteen nimi",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "tuote",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Laitteisto",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android-versio",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK-versio",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Järjestelmän nimi",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Järjestelmäversio",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Laitteen tunniste",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Tietokoneen nimi",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Versioversio",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Laitetietoja ei voi hakea: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Ominaisuuksien esittely",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Älyesineiden hallintasovellus",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Auttaa sinua hallitsemaan esineiden viimeisiä käyttöpäiviä, takuuajat ja muuta tietoa sekä tarjoaa älykkäitä muistutusominaisuuksia.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Kulutustavarat",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "kestokulutustavara",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "järjestäminen",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Nimen mukaiseen nousevaan järjestykseen",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Nimi laskevassa järjestyksessä",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Päivämäärä nousevassa järjestyksessä",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Päivämäärä laskevassa järjestyksessä",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Yksikköhinnan nouseva järjestys",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Yksikköhinnan mukaiseen laskevaan järjestykseen",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Määrä nousevassa järjestyksessä",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Määrä laskevassa järjestyksessä",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Kokonaishinnan nouseva järjestys",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Kokonaishinnan mukaiseen laskevaan järjestykseen",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Tyhjennä kaikki suodattimet",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Skannaa koodi varastoon",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Etsi kohteita...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Ei esineitä saatavilla",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Napsauta alla olevaa painiketta lisätäksesi ensimmäisen kohteen",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Vanhentunut",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Pian vanheneva",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Takuu on vanhentunut",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Takuu on juuri päättymässä",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Jäljellä {count} päivää",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "On vanhentunut {count} päivää",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Poista kohde",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Haluatko varmasti poistaa \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Esine on poistettu",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Poisto epäonnistui",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Ei voi poistaa kohdetta: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Päivämääräalueen suodatus",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Hintahaitarin suodatus",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Omat tavarani",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Napauta oikean alakulman painiketta lisätäksesi kohteen",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Vahvista poisto",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Suodatusvaihtoehdot",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Suodata kohteita tyypin, luokan ja paikan mukaan",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} luokkaa",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Kaikki luokat",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Ei luokiteltua tietoa",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Tallennuspaikka",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} paikkaa",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Kaikki paikat",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Ei sijaintitietoja saatavilla",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Päivämääräväli",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Valitse päivämääräväli",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Hintahaarukka",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Yksikköhintahaarukka",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "alin yksikköhinta",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "korkein yksikköhinta",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Kokonaishintahaarukka",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Alin kokonaishinta",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "korkein kokonaishinta",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Tyhjennä hintasuodatin",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Aseta viivakoodi kehyksen sisään skannattavaksi",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Tuote on jo olemassa",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Viivakoodi: {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Nimi: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Luokka: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Nykyinen määrä: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Valitse toiminto:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Varastosta lähtö",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Varastoon vastaanotto",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Varastoon otettu määrä",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Lähtevän varaston määrä",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "määrä",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Syötä varastoon sijoitettava määrä",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Syötä lähtevän varaston määrä",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "On lisätty {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Haluatko varmasti poistaa „{name}“? Tätä toimintoa ei voi peruuttaa.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "On vähennetty {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Tietokanta on nollattu, taulujen rakenne luodaan uudelleen",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Tietokannan nollauksessa tapahtui virhe: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Simuloidun datan alustus epäonnistui: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Ratkaisu:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Poista sovellus ja asenna se uudelleen",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Tai tyhjennä sovellustiedot",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Tai aseta resetDatabaseOnStart arvoksi true ja suorita uudelleen",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Muistutuspalvelun alustus epäonnistui: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Kalenteritilin tarkistus epäonnistui: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Kalenterin luominen epäonnistui: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Kalenteritapahtuman lisääminen epäonnistui: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Kalenteritapahtuman poistaminen epäonnistui: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Asetusten käyttöoikeusviestin näyttäminen epäonnistui: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Onnistuneesti alustettu {count} simuloitua tietoa",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Tietokannassa on jo {count} tietueita, ohitetaan simuloitujen tietojen alustaminen",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Voi olla, että tietokannan rakenne ei täsmää; suositellaan tyhjentämään sovelluksen tiedot tai asentamaan se uudelleen.",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Vanha tietokantatiedosto on poistettu",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Varmuuskopiotiedot ovat tyhjiä",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Varmuuskopiotiedostoa ei ole",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Tiedoston koodaus ei ole kelvollisessa UTF-8-muodossa. Varmista, että tiedosto on tallennettu UTF-8-koodauksella. Virheen yksityiskohdat: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Tiedostoa ei ole olemassa: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Tiedosto on tyhjä: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Tiedoston sisällön purkamisen jälkeen se on tyhjä, mahdollisesti koodaus ei vastaa",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} ei voi olla tyhjä",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} pituuden tulee olla vähintään {minLength} merkkiä",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} pituus ei saa ylittää {maxLength} merkkiä",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Kirjoita kelvollinen {fieldName}-osoite",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} täytyy olla {numberType}",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} ei voi olla pienempi kuin {min}",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} ei voi olla suurempi kuin {max}",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} on oltava positiivinen kokonaisluku",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} on oltava suurempi kuin 0",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} on oltava positiivinen luku",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Syötä kelvollinen {fieldName}",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} ei voi olla mennyt päivämäärä",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} ei voi olla ennen {minDate}",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} ei voi olla myöhäisempi kuin {maxDate}",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Syötä kelvollinen {fieldName}",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} pituuden on oltava vähintään 8 merkkiä",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} on sisällettävä ainakin yksi iso kirjain",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} on sisällettävä ainakin yksi pienaakkonen",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} on sisällettävä vähintään yksi numero",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} on sisällettävä ainakin yksi erikoismerkki",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Kahdesti syötetyt salasanat eivät täsmää",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Esineen nimi ei voi olla tyhjä",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Nimen pituus ei voi ylittää {maxLength} merkkiä",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Määrän on oltava vähintään {minQuantity}",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Määrä ei saa ylittää {maxQuantity}",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Yksikköhinta ei voi olla negatiivinen",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Yksikköhinta ei saa ylittää {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Aseta valmistuspäivämäärä ja säilyvyysaika, jotta voimassaoloaika voidaan laskea automaattisesti",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Aseta ostopäivä ja parasta ennen -päivä automaattisen takuuajan laskemiseksi",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Kalenteritiliä ei voida luoda, tarkista järjestelmän kalenteriasetukset",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Testi-ilmoitus",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Tämä on testiviesti, tarkoitettu paikallisen muistutustoiminnon tarkistamiseen",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "taivas",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} päivää",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Esine on tallennettu",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Tuote on päivitetty",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Tuote on lisätty",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Tallennus onnistui",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Päivitys onnistui",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Poisto onnistui",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Tallennus epäonnistui",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Päivitys epäonnistui",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Poisto epäonnistui",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Kieliasetukset",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Aseta sovelluksen näyttökieli",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Järjestelmän oletus",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Käytä järjestelmän kieltä",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Kielen muutos tulee voimaan sovelluksen uudelleenkäynnistyksen jälkeen",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Tällä hetkellä valittu: {days} päivää",
+  "@current_selection": {
+    "description": "Nykyisesti valittujen päivien näyttö",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

@@ -1,0 +1,1625 @@
+{
+  "@@locale": "da",
+  "app_name": "Opbevaringsplads",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Annuller",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Bekræft",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Gem",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Slet",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Rediger",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Tilføj",
+  "@add": {
+    "description": ""
+  },
+  "search": "Søg",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Indstillinger",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Tilbage",
+  "@back": {
+    "description": ""
+  },
+  "next": "Næste",
+  "@next": {
+    "description": ""
+  },
+  "done": "Udfør",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Indlæser...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Fejl",
+  "@error": {
+    "description": ""
+  },
+  "success": "Succes",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Advarsel",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Information",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Vælg påmindelsesdage",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Tilpas",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Brugerdefineret ({days} dage)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Påmindelsesdageinterval: {min}-{max} dage",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Indtast påmindelsesdage",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "dage",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Indtast venligst et tal mellem {min} og {max}",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Advarselsindstillinger",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Kalenderindstillinger",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Kalendersynkronisering",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Når aktiveret, vil der blive anmodet om kalenderadgang",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Tilføj testkalenderbegivenhed",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Tænd venligst først for 'Kalendersynkronisering'",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "App-påmindelsesindstillinger",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Lokale påmindelser",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Modtag påmindelser om udløb i appen, når den er tændt",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Send testmeddelelse",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Tænd først for 'Lokale påmindelser'",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Indstillinger for påmindelsesdage",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Dage før påmindelse",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Indstil hvor mange dage i forvejen du vil mindes om, at varen udløber eller garantien udløber",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Kalenderadgangsanmodning",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Der kræves adgang til kalenderen for at synkronisere objektpåmindelser. Tillader du det?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Tillad",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Kalenderadgang er givet, kalendersynkronisering er aktiveret",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Kalendertilladelse er nægtet, kan ikke aktivere kalendersynkronisering",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Tilladelse er permanent nægtet",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Kalendertilladelser er permanent nægtet, venligst aktiver tilladelser manuelt i systemindstillingerne.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Gå til indstillinger",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Kalendertilladelser er givet, men det er ikke muligt at oprette en kalenderkonto. Kontroller systemets kalenderindstillinger",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Kalendertilladelser er givet, lokal kalenderkonto oprettet",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Kalenderkontoen blev oprettet med succes, men systemet kan tage lidt tid at træde i kraft",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Testkalenderbegivenhed tilføjet med succes",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Tilføjelse af testkalenderbegivenhed mislykkedes, tjek venligst kalenderindstillinger",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Kalenderadgang kræves for at tilføje testbegivenhed",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Testmeddelelse er sendt",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Afsendelse af testmeddelelse mislykkedes: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Lokale påmindelser kræver notifikationstilladelse",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Handling mislykkedes: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Vareadvarselsmeddelelse",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Påmindelse om udløb eller garantioverskridelse af varer",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Fødevarer",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Dagligvarer",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Kosmetik",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Medicin",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Elektronik",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Møbler",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Tøj",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Bøger",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Andet",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Online butik",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Fysiske butikker",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "Supermarked",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Specialbutik",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Andetmarked",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Andre",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Andre",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Online butik",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Varekategorier",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Tilpasset kategori",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Sikkerhedskopiér data",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Pak alle data (inklusive billeder) som en ZIP-fil til sikkerhedskopiering",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Sikkerhedskopier alle data",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Sikkerhedskopiering lykkedes",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Backup mislykkedes: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Gendan data",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Gendan alle data fra ZIP-backupfilen",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Eksporter data",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Eksporter som CSV, TXT, SQL format",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Importer data",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Importer data fra CSV-, TXT- og SQL-filer",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Indstilling af kalenderpåmindelser og app-notifikationer",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Om",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "App-oplysninger og version",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Vælg venligst en sikkerhedskopifil først",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Bekræft gendannelse",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Gendannelse af backup vil slette alle eksisterende data og erstatte dem med backup-data. Denne handling kan ikke fortrydes. Er du sikker på, at du vil fortsætte?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Bekræft igen",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Er du sikker på, at du vil rydde alle eksisterende data og gendanne backup? Denne handling kan ikke fortrydes!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Bekræft gendannelse",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Gendannelse vellykket, i alt {count} varer",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Gendannelse mislykkedes: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Vælg backupfil",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Gendan backup",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Filen valgt: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Dataeksport lykkedes",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Eksport mislykkedes: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Dobbeltdatahåndtering",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Dublerede data er fundet, vælg venligst en behandlingsmetode:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Spring over",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "Overskriv",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Spring over alle",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Dæk alt",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Vælg importformat først",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Bekræft import",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Importering af data vil overskrive eksisterende data, denne handling kan ikke fortrydes. Er du sikker på, at du vil fortsætte?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Dataimporten lykkedes, i alt blev {count} genstande importeret",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Import mislykkedes: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Vælg fil",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Ingen data",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Der er ingen data i øjeblikket, klik på knappen nedenfor for at tilføje den første post!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Indlæsning mislykkedes",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Dat indlæsning mislykkedes, kontroller netværksforbindelsen og prøv igen",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Prøv igen",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Netværksforbindelse mislykkedes",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Kontroller netværksforbindelsen og prøv igen",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Ingen resultater fundet",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Prøv at søge med andre søgeord",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Ryd søgning",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Utilstrækkelige rettigheder",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Denne funktion kræver de relevante tilladelser",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Anmod om tilladelser",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "App-oplysninger",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "Version",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Udvikler",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Enhedsinformation",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Enhedsmodel",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Mærke",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Enhedsnavn",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "Produkt",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Hardware",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android-version",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK-version",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Systemnavn",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Systemversion",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Enheds-id",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Computernavn",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Versionsnummer",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Kan ikke hente enhedsoplysninger: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Funktionsintroduktion",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Intelligent genstandsstyringsapp",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Hjælper dig med at administrere oplysninger om udløbsdatoer, garantidatoer osv. og tilbyder intelligente påmindelsesfunktioner.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Forbrugsvarer",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Holdbare varer",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Sortering",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Navn stigende",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Navn faldende",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Dato stigende",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Dato faldende",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Enhedspris stigende",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Enhedspris faldende",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Mængde stigende",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Mængde faldende",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Totalpris stigende",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Totalpris faldende",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Ryd alle filtre",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Scan for at lagre",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Søg efter varer...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Ingen varer",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Klik på knappen nedenfor for at tilføje det første element",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Udløbet",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Udløber snart",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Garanti udløbet",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Garanti udløber snart",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "{count} dage tilbage",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Udløbet for {count} dage",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Slet genstand",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Er du sikker på, at du vil slette \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Varen er slettet",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Sletning mislykkedes",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Kan ikke slette vare: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Datoområde filter",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Prisområde filter",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Mine genstande",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Klik på knappen nederst til højre for at tilføje genstande",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Bekræft sletning",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Filtreringsmuligheder",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Filtrer genstande efter type, kategori og sted",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} kategorier",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Alle kategorier",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Ingen kategoridata",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Opbevaringssted",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} steder",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Alle steder",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Ingen lokalitetsdata",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Datoområde",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Vælg datoområde",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Prisspænd",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Enhedsprisspænd",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Laveste enhedspris",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Højeste enhedspris",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Prisinterval",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Laveste totalpris",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Højeste totalpris",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Ryd prisfilter",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Læg stregkoden i boksen for at scanne",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Varen findes allerede",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Stregkode: {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Navn: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Kategori: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Nuværende antal: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Vælg handling:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Udlager",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Indlager",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Indlagerantal",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Udlagerantal",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Antal",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Indtast venligst indlagerantal",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Indtast antallet til udlevering",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Er blevet tilføjet {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Er du sikker på, at du vil slette „{name}“? Denne handling kan ikke fortrydes.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Er allerede reduceret med {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Databasen er nulstillet, tabellens struktur vil blive genskabt",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Fejl ved nulstilling af databasen: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Simulerede data initialisering mislykkedes: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Løsning:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Afinstaller appen og geninstaller",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Eller ryd appdata",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Eller sæt resetDatabaseOnStart til true og kør igen",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Påmindelsestjeneste initialisering mislykkedes: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Kontrol af kalenderkonto mislykkedes: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Oprettelse af kalender mislykkedes: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Tilføjelse af kalenderbegivenhed mislykkedes: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Sletning af kalenderbegivenhed mislykkedes: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Kunne ikke indstille tilladelsesmeddelelsen: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Der er blevet initialiseret {count} simulerede data med succes",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Databasen har allerede {count} poster, spring over initialisering af simulerede data",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Det kan være, at databasestrukturen ikke matcher, det anbefales at rydde appdata eller geninstallere",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Gamle databasefiler er slettet",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Backupdata er tom",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Sikkerhedskopifilen findes ikke",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Filkodningen er ikke i et gyldigt UTF-8-format. Sørg for, at filen gemmes med UTF-8-kodning. Fejldetaljer: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Filen findes ikke: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Filen er tom: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Filens indhold er tomt efter dekodning, muligvis på grund af misforhold i kodningen",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} må ikke være tom",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} længde må ikke være mindre end {minLength} tegn",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} må ikke overstige {maxLength} tegn",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Indtast en gyldig {fieldName}-adresse",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} skal være {numberType}",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} kan ikke være mindre end {min}",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} må ikke være større end {max}",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} skal være et positivt helt tal",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} skal være større end 0",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} skal være et positivt tal",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Indtast venligst en gyldig {fieldName}",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} må ikke være en dato i fortiden",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} kan ikke være tidligere end {minDate}",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} må ikke være senere end {maxDate}",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Indtast venligst en gyldig {fieldName}",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} længde må ikke være mindre end 8 tegn",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} skal indeholde mindst ét stort bogstav",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} skal indeholde mindst ét lille bogstav",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} skal indeholde mindst ét tal",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} skal indeholde mindst ét specialtegn",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "De indtastede adgangskoder er ikke ens",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Varenavn kan ikke være tomt",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Navnet må ikke overstige {maxLength} tegn",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Mængden må ikke være mindre end {minQuantity}",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Mængden må ikke overstige {maxQuantity}",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Enhedsprisen må ikke være negativ",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Enhedsprisen må ikke overstige {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Angiv venligst produktionsdato og holdbarhed for automatisk at beregne udløbsdatoen",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Indstil venligst købsdato og holdbarhed for automatisk at beregne garantiperioden",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Kan ikke oprette kalenderkonto, tjek venligst systemets kalenderindstillinger",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Testmeddelelse",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Dette er en testmeddelelse til at verificere den lokale påmindelsesfunktion",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "Dag",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} dage",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Varen er gemt",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Varen er opdateret",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Varen er tilføjet",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Gem succes",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Opdatering lykkedes",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Sletning lykkedes",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Gem mislykkedes",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Opdatering mislykkedes",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Sletning mislykkedes",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Sprogindstillinger",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Indstil appens visningssprog",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Systemstandard",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Brug systemets sprog",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Sprogændringen træder i kraft efter genstart af appen",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Nuværende valg: {days} dage",
+  "@current_selection": {
+    "description": "Aktuelt valgte dage vises",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

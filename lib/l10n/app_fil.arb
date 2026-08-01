@@ -1,0 +1,1625 @@
+{
+  "@@locale": "fil",
+  "app_name": "Lihim na puwang ng mga bagay",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Kanselahin",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Tiyak",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "I-save",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Tanggalin",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "I-edit",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Magdagdag",
+  "@add": {
+    "description": ""
+  },
+  "search": "Maghanap",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Mga setting",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Bumalik",
+  "@back": {
+    "description": ""
+  },
+  "next": "Susunod na hakbang",
+  "@next": {
+    "description": ""
+  },
+  "done": "Tapos na",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Nilo-load...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Mali",
+  "@error": {
+    "description": ""
+  },
+  "success": "Tagumpay",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Babala",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Impormasyon",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Pumili ng bilang ng araw ng paalala",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Pasadya",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Pasadyang ({days} na araw)",
+  "@custom_days": {
+    "description": "Araw na na-customize na may parameter",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Saklaw ng mga araw ng paalala: {min}-{max} araw",
+  "@alert_days_range": {
+    "description": "Paunawa sa saklaw ng araw na may parameter",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Paki-input ang bilang ng mga araw para sa paalala",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Araw",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Mangyaring ipasok ang numero sa pagitan ng {min}-{max}",
+  "@enter_valid_days": {
+    "description": "Mensahe ng Pagpapatunay ng Pag-input ng Araw",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Pagtatakda ng Babala",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Mga setting ng kalendaryo",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Pag-synchronize ng kalendaryo",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Papayagan ang request para sa pahintulot sa kalendaryo pagkatapos buksan",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Magdagdag ng kaganapan sa kalendaryo para sa pagsubok",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Paki-buksan muna ang switch na 'Calendar Sync'",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Mga setting ng paalala ng app",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Lokal na paalala",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Pagkatapos buksan, tumanggap ng mga paalala ng pag-expire sa loob ng app",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Magpadala ng abiso sa pagsubok",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Paki-buksan muna ang switch na 'Local Reminder'",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Pagtatakda ng bilang ng araw ng paalala",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Bilang ng araw ng maagang paalala",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Itakda kung ilang araw nang maaga paaalalahanan tungkol sa pag-expire ng item o pag-expire ng warranty",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Pahintulot sa Kalendaryo",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Kailangang magkaroon ng pahintulot sa kalendaryo upang ma-synchronize ang mga paalala ng item. Papayagan ba?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Pahintulutan",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Ibinigay na ang pahintulot sa kalendaryo, at nakabukas na ang pagsabay ng kalendaryo",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Tinanggihan ang permiso sa kalendaryo, hindi maaring buksan ang pagsabay ng kalendaryo",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Ang pahintulot ay permanenteng tinanggihan",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Ang pahintulot sa kalendaryo ay permanenteng tinanggihan, mangyaring manu-manong buksan ang pahintulot sa mga setting ng system.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Pumunta sa mga setting",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Naibigay na ang pahintulot sa kalendaryo, ngunit hindi makalikha ng account sa kalendaryo. Pakisuri ang mga setting ng kalendaryo ng sistema",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Naibigay na ang pahintulot sa kalendaryo, naitala na ang lokal na account sa kalendaryo",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Matagumpay na nalikha ang account sa kalendaryo, ngunit maaaring kailanganin ng ilang oras bago ito maging epektibo sa sistema",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Matagumpay na naidagdag ang kaganapan sa kalendaryo",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Nabigong idagdag ang test na kaganapan sa kalendaryo, pakisuri ang mga setting ng kalendaryo",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Kailangan ng pahintulot sa kalendaryo upang magdagdag ng test na kaganapan",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Naipadala na ang abiso ng pagsubok",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Nabigong magpadala ng test na abiso: {error}",
+  "@test_notification_failed": {
+    "description": "Abisuhan ang mensahe ng error",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Kailangan ng pahintulot sa abiso upang paganahin ang lokal na paalala",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Pagpalya sa operasyon: {error}",
+  "@operation_failed": {
+    "description": "Pangkalahatang mensahe ng error sa operasyon",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Abiso ng Babala sa Bagay",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Paalala sa pag-expire o paglipas ng warranty ng mga item",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Pagkain",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Pang-araw-araw na gamit",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Pampaganda",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Gamot",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Mga produktong elektroniko",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Kasangkapan",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Damit",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "mga aklat",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Iba pa",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Online na tindahan",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Tindahang pisikal",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "Supermarket",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Tanging tindahan",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Pangalawang-kamay na pamilihan",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Iba pa",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Iba pa",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Online na tindahan",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Pagsasailalim ng mga bagay sa klase",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Pasadyang kategorya",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "I-back up ang data",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "I-package ang lahat ng data (kasama ang mga larawan) sa isang ZIP file para sa backup",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "I-back up ang lahat ng data",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Matagumpay ang backup",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Backup nabigong gawin: {error}",
+  "@backup_failed": {
+    "description": "Mensahe ng error sa pagkabigong mag-backup",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Ibalik ang data",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Ibalik lahat ng data mula sa ZIP backup file",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "I-export ang data",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "I-export bilang CSV, TXT, SQL na format",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "I-import ang data",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "I-import ang data mula sa mga CSV, TXT, SQL na file",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Mga setting ng paalala sa kalendaryo at push notification ng app",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Tungkol sa",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Impormasyon ng Aplikasyon at Bersyon",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Mangyaring piliin muna ang backup na file",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Kumpirmahin ang pagbawi",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Ang pagbabalik ng backup ay magbubura ng lahat ng kasalukuyang data at papalitan ito ng backup na data, ang operasyon na ito ay hindi na mababawi. Sigurado ka bang gustong ipagpatuloy?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Kumpirmahin muli",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Sigurado ka bang gusto mong burahin ang lahat ng kasalukuyang data at ibalik ang backup? Ang operasyon na ito ay hindi na mababawi!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Tiyakin ang pagpapanumbalik",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Nabawi nang matagumpay, kabuuang {count} na item",
+  "@restore_success": {
+    "description": "Mensahe ng matagumpay na pagpapanumbalik",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Nabigong ibalik: {error}",
+  "@restore_failed": {
+    "description": "Nabigong ibalik ang mensahe ng error",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Pumili ng backup na file",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Ibalik ang backup",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Napiling file: {filename}",
+  "@selected_file": {
+    "description": "Napiling mensahe ng file",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Matagumpay na na-export ang data",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Nabigong i-export: {error}",
+  "@export_failed": {
+    "description": "Mensahe ng error sa pagkabigong i-export",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Paghawak ng paulit-ulit na data",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Natukoy ang paulit-ulit na data, mangyaring piliin ang paraan ng pagproseso:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Laktawan",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "takpan",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Laktawan ang lahat",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Saklaw ng lahat",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Mangyaring piliin muna ang format ng pag-import",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Kumpirmahin ang pag-import",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Ang pag-import ng data ay papalitan ang kasalukuyang data, at ang operasyong ito ay hindi maaaring bawiin. Sigurado ka bang nais ipagpatuloy?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Matagumpay ang pag-import ng data, kabuuang na-import ang {count} na item",
+  "@import_success": {
+    "description": "Tagumpay sa pag-import ng mensahe",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Pag-import nabigo: {error}",
+  "@import_failed": {
+    "description": "Mensahe ng error sa pagkabigong mag-import",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Pumili ng file",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Walang datos",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Walang datos sa ngayon, i-click ang button sa ibaba upang idagdag ang unang tala!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Nabigong mag-load",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Nabigong mag-load ang data, pakisuri ang koneksyon sa network at subukang muli",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Muling subukan",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Nabigo ang koneksyon sa network",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Pakisuri ang koneksyon sa internet at subukang muli",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Walang nahanap na resulta",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Subukan gumamit ng ibang mga keyword sa paghahanap",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "I-clear ang paghahanap",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Hindi sapat ang pahintulot",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Kailangan ng kaukulang permiso upang magamit ang tampok na ito",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Humiling ng pahintulot",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Impormasyon ng aplikasyon",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "Bersyon",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Developer",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Impormasyon ng kagamitan",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Modelo ng kagamitan",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "tatak",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Pangalan ng Kagamitan",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "produkto",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Hardware",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Bersyon ng Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Bersyon ng SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Pangalan ng Sistema",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Bersyon ng sistema",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Pagtukoy ng kagamitan",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Pangalan ng kompyuter",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Bersyon ng Numero",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Hindi makuha ang impormasyon ng aparato: {error}",
+  "@error_getting_device_info": {
+    "description": "Maling mensahe sa pagkuha ng impormasyon ng kagamitan",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Pagpapakilala ng Function",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Aplikasyon sa Pamamahala ng Matalinong Bagay",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Tinutulungan kang pamahalaan ang mga petsa ng pag-expire ng item, petsa ng warranty, at iba pang impormasyon, at nag-aalok ng matalinong function ng paalala.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Mga kailangan gastusin",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Matibay na produkto",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Pag-aayos ng pagkakasunod-sunod",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Pataas na pagkakasunod ayon sa pangalan",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Pababa ayon sa Pangalan",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Pataas na pagkakasunod-sunod ng petsa",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Pababa ayon sa petsa",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Pataas ng presyo bawat yunit",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Pababa ang Presyo kada Yunit",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Pataas na pagkakasunod-sunod ng dami",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Pababa ayon sa dami",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Pataas ayon sa kabuuang presyo",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Pababa ang kabuuang presyo",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "I-clear ang lahat ng mga filter",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "I-scan para sa pag-iimbak",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Naghahanap ng item...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Walang item",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "I-tap ang button sa ibaba upang idagdag ang unang item",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Nag-expire na",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Malapit nang mag-expire",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Wala nang bisa ang warranty",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Malapit nang mag-expire ang warranty",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Natitira pang {count} na araw",
+  "@days_remaining": {
+    "description": "Natitirang araw na may parameter",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Nag-expire na ng {count} araw",
+  "@expired_days_ago": {
+    "description": "Araw ng pag-expire na may parameter",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Tanggalin ang item",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Sigurado ka bang gusto mong tanggalin ang \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "Kumpirmasyon ng pagtanggal",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Ang item ay tinanggal na",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Hindi natanggal",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Hindi mai-delete ang item: {error}",
+  "@failed_to_delete_message": {
+    "description": "Tanggalin ang mensahe ng error",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Pagsala ng Saklaw ng Petsa",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Pagsala ng saklaw ng presyo",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Aking mga gamit",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "I-tap ang button sa ibabang kanang sulok upang magdagdag ng item",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Kumpirmahin ang pagtanggal",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Mga pagpipilian sa pagsala",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "I-filter ang mga item ayon sa uri, kategorya, at lokasyon",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} na kategorya",
+  "@categories_count": {
+    "description": "Ipinapakita ang bilang ng mga kategorya",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Lahat ng Kategorya",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Walang data para sa kategorya",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Lugar ng Imbakan",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} na mga lugar",
+  "@locations_count": {
+    "description": "Ipinapakita ang bilang ng mga lokasyon",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Lahat ng lugar",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Walang data ng lokasyon",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Saklaw ng petsa",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Piliin ang saklaw ng petsa",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Saklaw ng presyo",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Saklaw ng presyo bawat yunit",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Pinakamababang presyo kada yunit",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Pinakamataas na presyo kada yunit",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Saklaw ng kabuuang presyo",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Pinakamababang kabuuang presyo",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Pinakamataas na kabuuang presyo",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "I-clear ang filter ng presyo",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Ilagay ang barcode sa loob ng kahon para i-scan",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Ang produkto ay umiiral na",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Barcode: {barcode}",
+  "@barcode_with_value": {
+    "description": "Ang barcode ay nagpapakita ng mga parameter",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Pangalan: {name}",
+  "@name_with_value": {
+    "description": "Pangalan na nagpapakita ng may parameter",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Kategorya: {category}",
+  "@category_with_value": {
+    "description": "Ipakita ayon sa kategorya na may mga parameter",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Kasalukuyang bilang: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Ang kasalukuyang bilang ay ipinapakita kasama ang mga parameter",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Piliin ang operasyon:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Paglabas ng stock",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Pagpasok sa imbentaryo",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Dami ng Pagpasok sa Imbentaryo",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Dami ng inilabas mula sa bodega",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Dami",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Pakipasok ang dami ng ipapasok sa imbentaryo",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Pakipasok ang dami ng ilalabas sa bodega",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Nadagdagan na ang {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "Mensahe ng pagdagdag ng item",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Sigurado ka bang gusto mong tanggalin ang \"{name}\"? Ang pagkilos na ito ay hindi maaaring bawiin.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Alisin ang mensahe ng kumpirmasyon na may babalang hindi mababawi",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Bumaba na ng {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Mensahe ng pagbawas ng item",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Ang database ay na-reset na, muling gagawin ang istruktura ng mga talahanayan",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Nagkaroon ng error sa pag-reset ng database: {error}",
+  "@database_reset_error": {
+    "description": "Error sa pag-reset ng database",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Nabigong i-initialize ang simulated na data: {error}",
+  "@mock_data_init_failed": {
+    "description": "Nabigo ang pag-inisyalisa ng simulated na data",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Solusyon:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. I-uninstall ang app at i-reinstall",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. O linisin ang data ng app",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. O i-set ang resetDatabaseOnStart sa true at muling patakbuhin",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Nabigong i-initialize ang serbisyo ng paalala: {error}",
+  "@notification_service_init_failed": {
+    "description": "Nabigo ang pag-initialize ng serbisyo ng notification",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Nabigong suriin ang account ng kalendaryo: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Nabigong suriin ang account sa kalendaryo",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Nabigong lumikha ng kalendaryo: {error}",
+  "@create_calendar_failed": {
+    "description": "Nabigo ang paglikha ng kalendaryo",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Nabigong idagdag ang kaganapan sa kalendaryo: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Nabigong magdagdag ng kaganapan sa kalendaryo",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Nabigong tanggalin ang kaganapan sa kalendaryo: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Nabigong tanggalin ang kaganapan sa kalendaryo",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Nabigong itakda ang mensahe ng paalala sa pahintulot: {error}",
+  "@set_permission_message_failed": {
+    "description": "Nabigong mag-set ng mensahe ng permiso",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Matagumpay na na-initialize ang {count} na mga simulated na data",
+  "@mock_data_init_success": {
+    "description": "Matagumpay na na-initialize ang simulated na data",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Ang database ay mayroon nang {count} na datos, laktawan ang pagsisimula ng simulated na datos",
+  "@database_has_data": {
+    "description": "May datos na sa database",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Maaaring hindi tugma ang istruktura ng database, inirerekomenda na linisin ang data ng app o muling i-install.",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Tinanggal na ang lumang file ng database",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Walang laman ang backup na datos",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Ang backup na file ay hindi umiiral",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Ang encoding ng file ay hindi isang wastong format na UTF-8. Mangyaring tiyakin na ang file ay naka-save gamit ang UTF-8 na encoding. Detalye ng error: {error}",
+  "@file_not_utf8": {
+    "description": "Error sa pag-encode ng file",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Hindi umiiral ang file: {filePath}",
+  "@file_not_found": {
+    "description": "Error: Hindi umiiral ang file",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Walang laman ang dokumento: {filePath}",
+  "@file_empty": {
+    "description": "Error: Walang laman ang file",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Ang nilalaman ng file ay walang laman matapos ma-decode, maaaring hindi tumutugma ang encoding",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} ay hindi maaaring walang laman",
+  "@field_cannot_be_empty": {
+    "description": "Ang patlang ay hindi maaaring walang laman na pagpapatunay",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} ay hindi maaaring mas mababa sa {minLength} na karakter",
+  "@field_min_length": {
+    "description": "Pagpapatunay ng pinakamaliit na haba ng patlang",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} ay hindi maaaring lumampas sa {maxLength} na mga karakter",
+  "@field_max_length": {
+    "description": "Pagpapatunay ng pinakamahabang haba ng field",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Mangyaring ilagay ang wastong {fieldName} na address",
+  "@field_invalid_email": {
+    "description": "Pag-verify ng format ng email",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} ay dapat na {numberType}",
+  "@field_invalid_number": {
+    "description": "Pag-verify ng format ng numero",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} ay hindi maaaring mas mababa sa {min}",
+  "@field_min_value": {
+    "description": "Pagpapatunay ng pinakamaliit na halaga",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} ay hindi maaaring mas malaki kaysa sa {max}",
+  "@field_max_value": {
+    "description": "Pagpapatunay ng pinakamalaking halaga",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} ay dapat na positibong buong numero",
+  "@field_positive_integer": {
+    "description": "Pagsusuri ng positibong buong numero",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} ay dapat na mas malaki sa 0",
+  "@field_greater_than_zero": {
+    "description": "Pagpapatunay na higit sa zero",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} ay dapat na positibong numero",
+  "@field_positive_number": {
+    "description": "Pagsusuri ng positibong numero",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Mangyaring ipasok ang wastong {fieldName}",
+  "@field_invalid_date": {
+    "description": "Pagpapatunay ng format ng petsa",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} ay hindi pwedeng maging nakaraang petsa",
+  "@field_date_not_past": {
+    "description": "Ang petsa ay hindi maaaring nakaraan",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} ay hindi maaaring mas maaga kaysa sa {minDate}",
+  "@field_date_not_before": {
+    "description": "Ang petsa ay hindi maaaring mas maaga kaysa sa itinakdang petsa",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} ay hindi pwedeng maslate kaysa {maxDate}",
+  "@field_date_not_after": {
+    "description": "Hindi maaaring mas huli ang petsa kaysa sa itinakdang petsa",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Mangyaring ipasok ang wastong {fieldName}",
+  "@field_invalid_value": {
+    "description": "Pagpapatunay ng Di-wastong Halaga",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} ay hindi maaaring mas mababa sa 8 karakter",
+  "@password_min_length": {
+    "description": "Pagpapatunay ng pinakamababang haba ng password",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} ay dapat mayroong hindi bababa sa isang malaking titik",
+  "@password_uppercase_required": {
+    "description": "Ang password ay dapat maglaman ng malalaking titik",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} ay dapat mayroong kahit isang maliit na titik",
+  "@password_lowercase_required": {
+    "description": "Ang password ay dapat maglaman ng mga maliit na titik",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} ay dapat maglaman ng hindi bababa sa isang numero",
+  "@password_digit_required": {
+    "description": "Ang password ay dapat maglaman ng mga numero",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} ay dapat maglaman ng hindi bababa sa isang espesyal na karakter",
+  "@password_special_char_required": {
+    "description": "Ang password ay dapat maglaman ng espesyal na karakter",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Ang dalawang ipinasok na password ay hindi magkapareho",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Ang pangalan ng item ay hindi maaaring walang laman",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Ang pangalan ay hindi maaaring lumampas sa {maxLength} na mga character",
+  "@name_max_length": {
+    "description": "Pagpapatunay ng pinakamahabang haba ng pangalan",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Ang dami ay hindi maaaring mas mababa sa {minQuantity}",
+  "@quantity_min": {
+    "description": "Pagpapatunay ng pinakamaliit na halaga ng dami",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Ang dami ay hindi maaaring lumampas sa {maxQuantity}",
+  "@quantity_max": {
+    "description": "Pagpapatunay ng pinakamalaking dami",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Hindi maaaring maging negatibo ang presyo bawat yunit",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Ang presyo bawat yunit ay hindi dapat lumampas sa {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "Pagpapatunay ng pinakamataas na presyo kada yunit",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Pakiset ang petsa ng produksyon at ang shelf life upang awtomatikong makalkula ang bisa.",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Mangyaring itakda ang petsa ng pagbili at ang batayang petsa ng bisa upang awtomatikong kalkulahin ang warranty",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Hindi malikha ang account sa kalendaryo, pakisuri ang mga setting ng systema ng kalendaryo",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Pagsubok ng abiso",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Ito ay isang test na abiso, para subukan ang lokal na tampok ng paalala",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "langit",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} araw",
+  "@days_with_value": {
+    "description": "Araw na may parameter",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Naitabi na ang bagay",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Na-update na ang item",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Nagdagdag na ng item",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Matagumpay na na-save",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Matagumpay ang pag-update",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Matagumpay na natanggal",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Hindi nakasave",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Nabigong i-update",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Hindi natanggal",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Mga setting ng wika",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Itakda ang wika ng display ng app",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Default ng sistema",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Gamitin ang wika ng sistema",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Magsisimula ang pagbabago ng wika pagkatapos i-restart ang app",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Kasalukuyang pinili: {days} na araw",
+  "@current_selection": {
+    "description": "Ipinapakita ang kasalukuyang napiling mga araw",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

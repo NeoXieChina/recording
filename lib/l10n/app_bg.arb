@@ -1,0 +1,1625 @@
+{
+  "@@locale": "bg",
+  "app_name": "Място за съхранение на предмети",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Откажи",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Потвърди",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Запази",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Изтриване",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Редактиране",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Добавяне",
+  "@add": {
+    "description": ""
+  },
+  "search": "търсене",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Настройки",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Връщане",
+  "@back": {
+    "description": ""
+  },
+  "next": "Следваща стъпка",
+  "@next": {
+    "description": ""
+  },
+  "done": "Завършено",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Зареждане...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "грешка",
+  "@error": {
+    "description": ""
+  },
+  "success": "успех",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Предупреждение",
+  "@warning": {
+    "description": ""
+  },
+  "info": "информация",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Изберете броя дни за напомняне",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Персонализиран",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Персонализирано ({days} дни)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Обхват на броя дни за напомняне: {min}-{max} дни",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Моля, въведете броя дни за напомняне",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Дни",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Моля, въведете число между {min} и {max}",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Настройки за предупреждение",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Настройки на календара",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Синхронизация на календар",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "След включване ще се поиска разрешение за достъп до календара",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Добавяне на тестово календарно събитие",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Моля, първо включете превключвателя „Синхронизация на календара“",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Настройки на известията на приложението",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Местно напомняне",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "След включване получавайте напомняния за изтичане в приложението",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Изпращане на тестово известие",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Моля, първо включете превключвателя „Местни напомняния“",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Настройки на броя дни за напомняне",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Брой дни за предварително напомняне",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Настройте с колко дни предварително да се напомня за изтичане на срока на годност или гаранцията на артикулите",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Искане за достъп до календара",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Необходим е достъп до календара, за да се синхронизират напомнянията за артикулите. Разрешавате ли?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "позволявам",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Разрешенията за календара са предоставени, синхронизацията на календара е включена",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Достъпът до календара е отказан, не може да се включи синхронизацията на календара",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Достъпът е постоянно отказан",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Достъпът до календара е постоянно отказан, моля, активирайте разрешението ръчно в системните настройки.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Отидете в настройките",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Разрешенията за календара са дадени, но не може да се създаде календарен акаунт. Моля, проверете настройките на системния календар.",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Разрешенията за календара са предоставени, локален календарен акаунт е създаден",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Календарният акаунт е създаден успешно, но системата може да се нуждае от известно време, за да влезе в сила",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Тестът за добавяне на календарно събитие е успешен",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Неуспешно добавяне на тестово събитие в календара, моля, проверете настройките на календара",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Необходими са разрешения за календара, за да добавите тестово събитие",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Тестовото известие е изпратено",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Неуспешно изпращане на тестово уведомление: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Необходими са разрешения за уведомления, за да се активират местните напомняния",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Операцията е неуспешна: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Известие за предупреждение за предмети",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Напомняне за изтичане на срока на годност или гаранцията на предмети",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Храна",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Дневни стоки",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Козметика",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "лекарство",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "електронни продукти",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Мебели",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Облекло",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "книги",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Други",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Онлайн магазин",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Физически магазин",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "супермаркет",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "специализиран магазин",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Вторичен пазар",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Други",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Други",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Онлайн магазин",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Категоризация на предметите",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Персонализирана категория",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Архивиране на данни",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Архивирайте всички данни (включително изображения) като ZIP файл",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Архивиране на всички данни",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Архивирането е успешно",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Архивирането е неуспешно: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Възстановяване на данни",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Възстановяване на всички данни от ZIP архивен файл",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Експортиране на данни",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Експорт в CSV, TXT, SQL формат",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Импортиране на данни",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Импортиране на данни от CSV, TXT, SQL файлове",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Настройки за напомняне от календара и известия от приложения",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Относно",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Информация за приложението и версия",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Моля, първо изберете резервен файл",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Потвърдете възстановяването",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Възстановяването на резервното копие ще изтрие всички съществуващи данни и ще ги замени с данните от резервното копие. Тази операция не може да бъде отменена. Сигурни ли сте, че искате да продължите?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Потвърдете отново",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Сигурни ли сте, че искате да изтриете всички съществуващи данни и да възстановите резервното копие? Тази операция не може да бъде върната!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Потвърдете възстановяването",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Възстановяването е успешно, общо {count} предмета",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Възстановяване неуспешно: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Изберете резервния файл",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Възстановяване на резервно копие",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Файлът е избран: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Експортът на данни е успешен",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Експортът неуспешен: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Обработка на дублирани данни",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Открити са повтарящи се данни, моля изберете начин на обработка:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Пропусни",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "покривам",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Пропусни всичко",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Пълно покритие",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Моля, първо изберете формата за импортиране",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Потвърждаване на импортиране",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Импортирането на данни ще презапише съществуващите данни, тази операция не може да бъде отменена. Сигурни ли сте, че искате да продължите?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Данните бяха успешно импортирани, общо бяха импортирани {count} елемента",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Импортът не бе успешен: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Изберете файл",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Няма данни",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "В момента няма данни, кликнете върху бутона по-долу, за да добавите първия запис!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Зареждането е неуспешно",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Неуспешно зареждане на данни, моля, проверете мрежовата връзка и опитайте отново",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Опитайте отново",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Неуспешно свързване с мрежата",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Моля, проверете вашата интернет връзка и опитайте отново",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Не са намерени резултати",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Опитайте да търсите с други ключови думи",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Изчистване на търсенето",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Недостатъчни права",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Трябва да имате съответните разрешения, за да използвате тази функция",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Искане на разрешение",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Информация за приложението",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "версия",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Разработчик",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Информация за устройството",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Модел на устройството",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Марка",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Име на устройството",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "продукт",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "хардуер",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Версия на Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Версия на SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Име на системата",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Версия на системата",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Идентификация на устройството",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Име на компютъра",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Номер на версията",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Не може да се получи информация за устройството: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Представяне на функцията",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Приложение за управление на интелигентни предмети",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Помага ви да управлявате информация за датите на изтичане, датите на гаранция и т.н., и предоставя функция за интелигентни напомняния.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Консумативи",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Дълготрайни стоки",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "сортиране",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Име по възходящ ред",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Име в низходящ ред",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "По дата възходящо",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "По дата в низходящ ред",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Възходящ ред на единичната цена",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Низходящ ред по единична цена",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "По нарастващо количество",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Намаляващо по количество",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Обща цена във възходящ ред",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Обща цена в низходящ ред",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Изчисти всички филтри",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Сканирай и вкарай в склад",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Търсене на предмет...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Няма налични артикули",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Кликнете върху бутона по-долу, за да добавите първия артикул",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Изтекъл",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Ще изтече скоро",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Гаранцията е изтекла",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Гаранцията ще изтече скоро",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Остават {count} дни",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Изтекъл {count} дни",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Изтриване на елемент",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Наистина ли искате да изтриете \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Предметът е изтрит",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Неуспешно изтриване",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Не може да се изтрие предмет: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Филтър за диапазон от дати",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Филтър за ценови диапазон",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Моите вещи",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Кликнете върху бутона в долния десен ъгъл, за да добавите предмети",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Потвърди изтриването",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Филтриране на опции",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Филтрирайте предметите по тип, категория и местоположение",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} категории",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Всички категории",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Няма данни за категории",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Място за съхранение",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} места",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Всички места",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Няма данни за местоположението",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Период от дати",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Изберете диапазон от дати",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Ценови диапазон",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Ценови диапазон",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Най-ниска единична цена",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Най-висока единична цена",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Обща ценова гама",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Най-ниска обща цена",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Максимална обща цена",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Изчисти филтъра за цена",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Поставете баркода в рамката за сканиране",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Продуктът вече съществува",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Баркод: {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Име: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Категория: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Текущо количество: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Моля, изберете операция:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Изписване от склад",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Складиране",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Количество на склад",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Количество на изходящи стоки",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Количество",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Моля, въведете количеството за складиране",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Моля, въведете количеството за изписване от склада",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Вече е добавено {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Сигурни ли сте, че искате да изтриете „{name}“? Тази операция не може да бъде отменена.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Вече е намалено {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Базата данни е нулирана, таблиците ще бъдат създадени отново",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Грешка при нулиране на базата данни: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Неуспешно инициализиране на симулирани данни: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Решение:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Деинсталирайте приложението и го преинсталирайте",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Или изчистете данните на приложението",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Или задайте resetDatabaseOnStart на true и след това го стартирайте отново",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Неуспешно инициализиране на услугата за напомняне: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Неуспешна проверка на календарния акаунт: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Неуспешно създаване на календар: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Неуспешно добавяне на събитие в календара: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Неуспешно изтриване на събитие от календара: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Неуспешно задаване на съобщение за разрешения: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Успешно са инициализирани {count} симулирани данни",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Базата данни вече съдържа {count} записа, прескачане на инициализация на симулирани данни",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Възможно е структурата на базата данни да не съвпада, препоръчва се изчистване на данните на приложението или преинсталиране",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Старият файл на базата данни е изтрит",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Резервните данни са празни",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Файлът за резервно копие не съществува",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Кодировката на файла не е валиден UTF-8 формат. Моля, уверете се, че файлът е записан с кодировка UTF-8. Подробности за грешката: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Файлът не съществува: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Файлът е празен: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "След декодиране съдържанието на файла е празно, възможно е кодирането да не съвпада",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} не може да бъде празно",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} не може да бъде по-къс от {minLength} символа",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} не може да надвишава {maxLength} символа",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Моля, въведете валиден адрес на {fieldName}",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} трябва да бъде {numberType}",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} не може да бъде по-малко от {min}",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} не може да бъде по-голямо от {max}",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} трябва да бъде положително цяло число",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} трябва да бъде по-голямо от 0",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} трябва да бъде положително число",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Моля, въведете валиден {fieldName}",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} не може да бъде минала дата",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} не може да бъде по-рано от {minDate}",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} не може да бъде по-късно от {maxDate}",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Моля, въведете валиден {fieldName}",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} дължината не може да бъде по-малка от 8 символа",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} трябва да съдържа поне една главна буква",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} трябва да съдържа поне една малка буква",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} трябва да съдържа поне една цифра",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} трябва да съдържа поне един специален символ",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Въведените два пъти пароли не съвпадат",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Името на артикула не може да бъде празно",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Името не може да надвишава {maxLength} символа",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Количество не може да бъде по-малко от {minQuantity}",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Количество не може да надвишава {maxQuantity}",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Единичната цена не може да бъде отрицателна",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Единичната цена не може да надвишава {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Моля, задайте датата на производство и срока на годност, за да се изчисли автоматично валидността",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Моля, задайте дата на покупка и срок на годност, за да се изчисли автоматично гаранционният период",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Не може да се създаде календарен акаунт, моля, проверете настройките на системния календар",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Тестово уведомление",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Това е тестово уведомление, използвано за проверка на функцията за локални напомняния",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "небе",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} дни",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Артикулът е запазен",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Артикулът е обновен",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Артикулът е добавен",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Запазване успешно",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Актуализацията е успешна",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Изтриването е успешно",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Запазването не успя",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Актуализацията е неуспешна",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Неуспешно изтриване",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Езикови настройки",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Настройване на езика за показване на приложението",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Системни по подразбиране",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Използвай системния език",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Промяната на езика ще влезе в сила след рестартиране на приложението",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Текущ избор: {days} дни",
+  "@current_selection": {
+    "description": "Текущо избраното показване на дни",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

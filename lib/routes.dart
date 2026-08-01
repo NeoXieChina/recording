@@ -13,6 +13,7 @@ class AppRoutes {
   static const String import = '/settings/import';
   static const String alertsSettings = '/settings/alerts';
   static const String about = '/settings/about';
+  static const String languageSettings = '/settings/language';
 
   /// 路由参数键名
   static const String itemIdParam = 'itemId';

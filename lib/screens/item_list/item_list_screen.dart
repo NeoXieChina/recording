@@ -174,12 +174,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
           SliverAppBar.large(
             title: Consumer<ItemListProvider>(
               builder: (context, provider, _) {
-                return _buildTitle(
-                  context,
-                  provider,
-                  Theme.of(context).textTheme.titleLarge,
-                  showIcon: true,
-                );
+                return _buildTitle(context, provider, null, showIcon: true);
               },
             ),
             leading: IconButton(

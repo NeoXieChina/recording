@@ -1,0 +1,1625 @@
+{
+  "@@locale": "ca",
+  "app_name": "Guardar coses petites",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Cancel·lar",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Confirmar",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Desa",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Eliminar",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Editar",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Afegir",
+  "@add": {
+    "description": ""
+  },
+  "search": "Cercar",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Configuració",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Tornar",
+  "@back": {
+    "description": ""
+  },
+  "next": "Següent pas",
+  "@next": {
+    "description": ""
+  },
+  "done": "Completar",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Carregant...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "error",
+  "@error": {
+    "description": ""
+  },
+  "success": "èxit",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Advertència",
+  "@warning": {
+    "description": ""
+  },
+  "info": "informació",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Trieu el nombre de dies de recordatori",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Personalitzat",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Personalitzat ({days} dies)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Rang de dies d'avís: {min}-{max} dies",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Si us plau, introduïu el nombre de dies per al recordatori",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "dies",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Si us plau, introdueix un número entre {min} i {max}",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Configuració d’alerta",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Configuració del calendari",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Sincronització del calendari",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Després d'activar, es demanarà permís per al calendari",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Afegir esdeveniment de prova al calendari",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Si us plau, activa primer l'interruptor de 'sincronització del calendari'",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Configuració de recordatoris de l'app",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Recordatori local",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Rebre recordatoris d'expiració dins de l'aplicació després d'activar-lo",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Enviar notificació de prova",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Si us plau, activa primer l'interruptor de 'Recordatori local'",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Configuració del nombre de dies de recordatori",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Dies d'avís previ",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Configura quants dies abans recordar la caducitat dels articles o la finalització de la garantia",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Sol·licitud de permisos del calendari",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Cal accedir al permís del calendari per sincronitzar els recordatoris dels elements. Permetre-ho?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Permetre",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "S'han concedit els permisos del calendari i la sincronització del calendari està activada",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Permís del calendari denegat, no es pot activar la sincronització del calendari",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Permís denegat permanentment",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "El permís del calendari ha estat rebutjat de manera permanent, si us plau activa el permís manualment a la configuració del sistema.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Vés a la configuració",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "S'han concedit els permisos del calendari, però no es pot crear un compte de calendari. Si us plau, comprova la configuració del calendari del sistema.",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "S'han concedit els permisos del calendari i s'ha creat un compte de calendari local",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "El compte de calendari s'ha creat amb èxit, però el sistema pot necessitar una estona per fer efecte",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Prova d'afegiment d'esdeveniment del calendari amb èxit",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "No s'ha pogut afegir l'esdeveniment de prova al calendari, comprova la configuració del calendari",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Cal permís del calendari per afegir un esdeveniment de prova",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "La notificació de prova s'ha enviat",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Enviament de notificació de prova fallit: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Cal permís de notificació per activar els recordatoris locals",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Operació fallida: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Notificació d'alerta d'articles",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Recordatori de caducitat o garantia dels articles",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Aliments",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Articles d'ús quotidià",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Cosmètics",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Medicaments",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Productes electrònics",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "mobles",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Roba",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Llibres",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Altres",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Botiga en línia",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "botiga física",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "supermercat",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Botiga especialitzada",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "mercat de segona mà",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Altres",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Altres",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Botiga en línia",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Classificació d'articles",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Classificació personalitzada",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Fer una còpia de seguretat de les dades",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Fer una còpia de seguretat de totes les dades (incloses les imatges) empaquetant-les en un arxiu ZIP",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Fes una còpia de seguretat de totes les dades",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Còpia de seguretat completada amb èxit",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Còpia de seguretat fallida: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Recuperar dades",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Recuperar totes les dades des d'un fitxer de còpia de seguretat ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Exportar dades",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Exportar com a formats CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Importar dades",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Importar dades des de fitxers CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Configuració de recordatoris de calendari i notificacions de l'aplicació",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Sobre",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Informació de l'aplicació i versió",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Si us plau, seleccioneu primer el fitxer de còpia de seguretat",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Confirma la restauració",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Restaurar la còpia de seguretat esborrarà totes les dades existents i les substituirà per les dades de la còpia de seguretat, i aquesta operació no es pot desfer. Esteu segur que voleu continuar?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Tornar a confirmar",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Està segur que vol esborrar totes les dades existents i restaurar la còpia de seguretat? Aquesta acció no es podrà desfer!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Confirma la recuperació",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Recuperació exitosa, un total de {count} articles",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Restauració fallida: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Selecciona el fitxer de còpia de seguretat",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Restaurar còpia de seguretat",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "S'ha seleccionat el fitxer: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Exportació de dades exitosa",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Exportació fallida: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Processament de dades duplicades",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "S'han detectat dades duplicades, si us plau seleccioneu com procedir:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Saltar",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "cobrir",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Saltar tot",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Cobertura total",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Si us plau, seleccioneu primer el format d'importació",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Confirma la importació",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Importar dades substituirà les dades existents, aquesta acció no es pot desfer. Esteu segur que voleu continuar?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Importació de dades correcta, s'han importat un total de {count} articles",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Importació fallida: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Seleccionar fitxer",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Sense dades",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Actualment no hi ha dades, fes clic al botó de sota per afegir el primer registre!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Carrega fallida",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Error en carregar les dades, si us plau comprova la connexió a Internet i torna-ho a intentar",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Torna-ho a intentar",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Connexió de xarxa fallida",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Si us plau, comproveu la connexió a Internet i torneu-ho a provar",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "No s'han trobat resultats",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Prova de cercar amb altres paraules clau",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Esborra la cerca",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Permís insuficient",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Es necessiten els permisos corresponents per utilitzar aquesta funció",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Sol·licitar permisos",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Informació de l'aplicació",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "versió",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Desenvolupador",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Informació del dispositiu",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Model de dispositiu",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "marca",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Nom del dispositiu",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "producte",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "maquinari",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Versió d'Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Versió SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Nom del sistema",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Versió del sistema",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Identificador del dispositiu",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Nom de l'ordinador",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Número de versió",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "No es pot obtenir informació del dispositiu: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Introducció de funcions",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Aplicació de gestió d'articles intel·ligents",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Us ajuda a gestionar la data de caducitat dels objectes, la data de garantia i altra informació, i ofereix una funció d'avís intel·ligent.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Consumibles",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Béns duradors",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Ordenar",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Nom en ordre ascendent",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Nom en ordre descendent",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Ordre ascendent de dates",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Ordre descendent per data",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Preu unitari en ordre ascendent",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Preu unitari de manera descendent",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Ordre ascendent per quantitat",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Ordre descendent per quantitat",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Preu total ascendent",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Preu total descendent",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Esborra tots els filtres",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Escaneja el codi per emmagatzemar",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Cerca d'articles...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Cap article per ara",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Fes clic al botó de sota per afegir el primer article",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Caducat",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "A punt d'expirar",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "La garantia ha caducat",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "La garantia està a punt d'expirar",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Resten {count} dies",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Caducat fa {count} dies",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Eliminar article",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Estàs segur que vols eliminar \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "L'article ha estat eliminat",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Eliminació fallida",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "No es pot eliminar l'element: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Filtrar per rang de dates",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Filtrar per rang de preus",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Els meus articles",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Feu clic al botó a la cantonada inferior dreta per afegir articles",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Confirma l'eliminació",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Opcions de filtratge",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Filtra els articles per tipus, categoria i ubicació",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} categories",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Totes les categories",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Encara no hi ha dades classificades",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Lloc d'emmagatzematge",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} llocs",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Tots els llocs",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Encara no hi ha dades de lloc",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Interval de dates",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Selecciona l'interval de dates",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Rang de preus",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Rang de preu unitari",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "preu mínim unitari",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "preu unitari màxim",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Rang de preu total",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Preu total mínim",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "preu total màxim",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Esborra el filtre de preu",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Col·loqueu el codi de barres dins del marc per escanejar-lo",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "El producte ja existeix",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Codi de barres: {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Nom: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Categoria: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Quantitat actual: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Si us plau, seleccioneu l'operació:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Sortida d'emmagatzematge",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Emmagatzemat",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Quantitat d’entrada d’inventari",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Quantitat d'emmagatzematge sortint",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "quantitat",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Si us plau, introduïu la quantitat d'entrada a l'emmagatzematge",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Si us plau, introduïu la quantitat de sortida d'emmagatzematge",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "S'ha afegit {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Segur que vols eliminar «{name}»? Aquesta acció no es pot desfer.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "S'ha reduït {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "La base de dades s'ha reiniciat i es tornaran a crear les estructures de les taules",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "S'ha produït un error en reiniciar la base de dades: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "La inicialització de dades simulades ha fallat: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Solució:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Desinstal·la l'aplicació i torna-la a instal·lar",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. O esborrar les dades de l'aplicació",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. O bé configureu resetDatabaseOnStart a true i torneu a executar",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "La inicialització del servei de recordatori ha fallat: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Error en comprovar el compte del calendari: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Error en crear el calendari: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "No s'ha pogut afegir l'esdeveniment del calendari: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "No s'ha pogut eliminar l'esdeveniment del calendari: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Error en mostrar el missatge d'avís de permisos: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "S'han inicialitzat correctament {count} dades simulades",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "La base de dades ja té {count} registres, ometent la inicialització de dades simulades",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Pot ser que l'estructura de la base de dades no coincideixi; es recomana esborrar les dades de l'aplicació o reinstal·lar-la",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "S'han suprimit els fitxers antics de la base de dades",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Les dades de còpia de seguretat estan buides",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "El fitxer de còpia de seguretat no existeix",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "El codificació del fitxer no és un format UTF-8 vàlid. Si us plau, assegureu-vos que el fitxer està desat amb codificació UTF-8. Detalls de l'error: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "El fitxer no existeix: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "El fitxer està buit: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "El contingut del fitxer és buit després de desxifrar-lo, podria ser que la codificació no coincideixi",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} no pot estar buit",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "La longitud de {fieldName} no pot ser inferior a {minLength} caràcters",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "La longitud de {fieldName} no pot superar els {maxLength} caràcters",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Si us plau, introdueix una adreça {fieldName} vàlida",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} ha de ser {numberType}",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} no pot ser menor que {min}",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} no pot ser més gran que {max}",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} ha de ser un enter positiu",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} ha de ser més gran que 0",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} ha de ser un nombre positiu",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Si us plau, introduïu un {fieldName} vàlid",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} no pot ser una data passada",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} no pot ser anterior a {minDate}",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} no pot ser més tard que {maxDate}",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Si us plau, introduïu un {fieldName} vàlid",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "La longitud de {fieldName} no pot ser inferior a 8 caràcters",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} ha de contenir almenys una lletra majúscula",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} ha de contenir almenys una lletra minúscula",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} ha de contenir almenys un número",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} ha de contenir almenys un caràcter especial",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Les contrasenyes introduïdes dues vegades no coincideixen",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "El nom de l'article no pot estar buit",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "El nom no pot superar els {maxLength} caràcters",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "La quantitat no pot ser inferior a {minQuantity}",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "La quantitat no pot superar {maxQuantity}",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "El preu unitari no pot ser negatiu",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "El preu unitari no pot superar {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Si us plau, configureu la data de producció i el termini de validesa per calcular automàticament la data de caducitat",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Si us plau, configureu la data de compra i el termini de validesa per calcular automàticament el període de garantia",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "No es pot crear un compte de calendari, comprova la configuració del calendari del sistema",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Notificació de prova",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Aquesta és una notificació de prova, utilitzada per verificar la funció de recordatori local",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "cel",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} dies",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "L'objecte s'ha desat",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "L'article s'ha actualitzat",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "L'article s'ha afegit",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Desat correctament",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Actualització satisfactòria",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Eliminació correcta",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Error en desar",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Actualització fallida",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Eliminació fallida",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Configuració de l'idioma",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Configuració de l'idioma de visualització de l'aplicació",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Per defecte del sistema",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Utilitzar l’idioma del sistema",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "El canvi d'idioma tindrà efecte després de reiniciar l'aplicació",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Seleccionat actualment: {days} dies",
+  "@current_selection": {
+    "description": "Dies seleccionats actualment mostrats",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

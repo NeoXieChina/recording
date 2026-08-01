@@ -1,0 +1,1625 @@
+{
+  "@@locale": "cy",
+  "app_name": "Cynnyrch Cadw",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Diddymu",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Cadarnhau",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Cadw",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Dileu",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Golygu",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Ychwanegu",
+  "@add": {
+    "description": ""
+  },
+  "search": "Chwilio",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Gosodiadau",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Dychwelyd",
+  "@back": {
+    "description": ""
+  },
+  "next": "Cam nesaf",
+  "@next": {
+    "description": ""
+  },
+  "done": "Gorffen",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Yn llwytho...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Gwall",
+  "@error": {
+    "description": ""
+  },
+  "success": "Llwyddiant",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Rhybudd",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Gwybodaeth",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Dewis nifer y dyddiau rhybuddio",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Addasu",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Addasu ({days} diwrnod)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Amrediad dyddiau atgoffa: {min}-{max} dydd",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Rhowch nifer y dyddiau rhybudd",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Dyddiau",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Rhowch rif rhwng {min} a {max}",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Gosodiadau Rhybudd",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Gosodiadau Calendr",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Cydamseru Calendr",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Ar agor bydd yn gofyn am ganiatâd y calendr",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Ychwanegu digwyddiad prawf calendr",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Dewiswch y switsh 'Cydamseru Calendrau' yn gyntaf",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Gosodiadau Hysbysiadau Ap",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Hysbysiadau Lleol",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Ar ôl ei droi ymlaen, derbyniwch hysbysiadau dyddiad dod i ben yn yr ap",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Anfon hysbysiad prawf",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Agorwch y switsh \"Hysbysiad Lleol\" yn gyntaf",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Gosodiadau nifer y dyddiau hysbysu",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Nifer y dyddiau i rybuddio ymlaen llaw",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Gosod nifer y dyddiau ymlaen llaw i atgoffa am ddod i ben neu ddod i ben gwarant eitem",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Cais mynediad calendr",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Mae angen mynediad at y calendr i gynllunio atgoffaethau eitemau. A fyddwch chi'n caniatáu?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Caniatáu",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Mae mynediad i'r calendr wedi'i roi, mae cydamseru'r calendr wedi'i alluogi",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Wedi gwrthod caniatâd y calendr, ni ellir galluogi cydamseru calendr",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Caniatâd wedi ei wrthod yn barhaol",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Wedi gwrthod caniatâd calendr yn barhaol, ewch i osodiadau'r system i alluogi'r caniatâd yn llaw.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Ewch i osodiadau",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Mae’r caniatâd calendr wedi’i roi, ond ni ellir creu cyfrif calendr. Sicrhewch osodiadau calendr y system",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Mae’r caniatâd calendr wedi’i roi, a chrëwyd cyfrif calendr lleol",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Creu cyfrif calendr yn llwyddiannus, ond efallai y bydd y system angen rhywfaint o amser i weithredu",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Yn llwyddiannus ychwanegu digwyddiad calendr prawf",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Wedi methu ychwanegu digwyddiad calendr prawf, gwiriwch y gosodiadau calendr",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Mae angen caniatâd calendr i ychwanegu digwyddiad prawf",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Mae hysbysiad prawf wedi'i anfon",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Methu anfon hysbysiad prawf: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Mae angen caniatâd hysbysu i alluogi rhybuddion lleol",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Gweithrediad wedi methu: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Hysbysiad Rhybudd Eitem",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Rhybudd am eitem wedi dod i ben neu wedi gorffen ei warant",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Bwyd",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Nwyddau Dyddiol",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Cynhyrchion Harddwch",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Meddyginiaethau",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Cynhyrchion Electronig",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Dodrefn",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Dillad",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Llyfrau",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Eraill",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Siop ar-lein",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Siop gorfforol",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "Archfarchnad",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Siop arbenigol",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Marchnad eilaidd",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Arall",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Arall",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Siop Ar-lein",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Dosbarthiad Eitemau",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Dosbarthiad Custom",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Cadw Data",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Pecynnu'r holl ddata (gan gynnwys delweddau) fel ffeil ZIP wrth gefn",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Gwneud copi wrth gefn o'r holl ddata",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Copi wrth gefn wedi'i lwyddo",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Methiant wrth gefn: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Adfer Data",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Adfer yr holl ddata o ffeil gefn ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Allforio Data",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Allforio fel CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Mewnforio Data",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Mewngludo data o ffeiliau CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Gosodiadau atgoffa calendr a hysbysiadau App",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Ynghylch",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Gwybodaeth am y cais a fersiwn",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Dewiswch y ffeil copi wrth gefn yn gyntaf",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Cadarnhewch adfer",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Bydd adfer wrth gefn yn gwagio'r holl ddata presennol ac yn ei ddisodli gyda data wrth gefn, ac ni ellir gwrthdroi'r weithred hon. Ydych chi wir eisiau parhau?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Cadarnhau eto",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Ydych chi'n siŵr eich bod am ddileu'r holl ddata presennol a rhoi'r copi wrth gefn yn ôl? Ni ellir adfer y gweithred hon!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Cadarnhau Adfer",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Adferwyd yn llwyddiannus, cyfanswm o {count} eitemau",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Methu adfer: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Dewis ffeil wrth gefn",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Adfer wrth gefn",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Ffeil wedi'i dewis: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Allbwn data wedi llwyddo",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Methwyd â allforio: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Prosesu Data Dyblyg",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Canfuwyd data dyblyg, dewiswch sut i'w brosesu:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Drosi drosodd",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "Gor-lunio",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Drosolchi i gyd",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Cwmpasu i gyd",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Dewiswch y fformat mewnforio yn gyntaf",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Cadarnhau mewnforio",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Bydd mewnforio data yn lledi'r data presennol, ni ellir dadwneud y weithred hon. Ydych chi'n siŵr eich bod eisiau parhau?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Mewnforiwyd y data yn llwyddiannus, gyda chyfanswm o {count} eitemau wedi'u mewnforio",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Methiant mewnforio: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Dewis ffeil",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Dim data ar gael",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Does dim data ar hyn o bryd, cliciwch y botwm isod i ychwanegu'r cofnod cyntaf!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Methu llwytho",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Methwyd â llwytho data, gwiriwch eich cysylltiad rhwydwaith ac ailadroddiwch",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Ailadroddiwch",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Methiant cysylltiad rhwydwaith",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Gwiriwch eich cysylltiad rhwydwaith ac ailadroddiwch",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Dim canlyniadau wedi'u dod o hyd",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Ceisiwch chwilio gyda allweddeiriau eraill",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Clirio'r chwiliad",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Dim digon o ganiatâd",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Mae angen y cymwysiadau perthnasol i ddefnyddio'r nodwedd hon",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Gofyn am ganiatâd",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Gwybodaeth am y cais",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "Fersiwn",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Datblygwr",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Gwybodaeth ddyfais",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Model dyfais",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Brand",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Enw dyfais",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "Cynnyrch",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Caledwedd",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Fersiwn Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Fersiwn SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Enw System",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Fersiwn System",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Nodyn Dyfais",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Enw cyfrifiadur",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Rhif fersiwn",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Methu cael gwybodaeth am y ddyfais: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Cyflwyniad Nodwedd",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Cais Rheoli Eitemau Deallus",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Helpu i chi reoli dyddiadau dod i ben eitemau, dyddiadau gwarant ac ati, ac yn cynnig swyddogaeth atgoffa ddeallus.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Eitemau defnydd",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Eitemau para",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Trefn",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Enw yn esgynol",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Enw yn ddisgynol",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Dyddiad yn esgynol",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Dyddiad yn ddisgynol",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Uned Pris yn esgynol",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Disgyrchiant pris uned yn ddisgynnol",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Nifer yn ddisgynnol",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Nifer yn esgynnol",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Cyfanswm y pris yn esgynnol",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Cyfanswm y pris yn ddisgynnol",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Clirio'r holl hidlwyr",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Sganiwch i fewnforio i'r warws",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Chwilio am eitemau...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Dim eitemau ar hyn o bryd",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Cliciwch y botwm isod i ychwanegu'r eitem gyntaf",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Wedi dod i ben",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Yn dod i ben",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Wedi dod i ben gwarant",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Bydd y warant yn dod i ben yn fuan",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "{count} diwrnodau yn weddill",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Wedi dod i ben {count} diwrnod",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Dileu eitem",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Ydych chi eisiau dileu \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Mae'r eitem wedi'i dileu",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Methodd dileu",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Methu dileu eitem: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Hidlo am fetrau dyddiad",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Hidlo am fetrau pris",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Fy nwyddau",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Cliciwch y botwm isaf ar y dde i ychwanegu nwyddau",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Cadarnhau dileu",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Hidlo opsiynau",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Sievee eitemau yn ôl math, categori a lleoliad",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} o gategorïau",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Pob categori",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Dim data dosbarthiad",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Lleoliad storio",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} o leoliadau",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Pob lleoliad",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Dim data lleoliad ar hyn o bryd",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Ystod dyddiad",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Dewiswch ystod dyddiad",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Ystod pris",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Ystod pris uned",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Pris uned isaf",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Pris uned uchaf",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Ystod pris cyffredinol",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Cyfanswm isafswm",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Cyfanswm uchaf",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Clirio hidlydd prisiau",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Rhowch y cod bar i mewn i'r blwch i sganio",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Mae'r nwydd eisoes yn bodoli",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Cod Bar: {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Enw: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Categori: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Nifer cyfredol: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Dewiswch weithred:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Allgofnodi",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Mewngofnodi",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Nifer Mewngofnodi",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Nifer Allgofnodi",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Nifer",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Rhowch y nifer i'w fewngofnodi",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Rhowch y nifer i'w allforio",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Mae {name} {quantity} {unit} wedi'i ychwanegu",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Ydych chi wir am ddileu „{name}“? Ni ellir rhoi'r cam hwn yn ôl.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Wedi lleihau {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Mae'r cronfa ddata wedi'i hailosod, bydd strwythur y tabl yn cael ei greu eto",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Gwall wrth ailosod y gronfa ddata: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Methiant i gychwyn data efelychiad: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Ateb:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Dadddatrys y cais a'i ailosod",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Neu glirio data'r cais",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Neu ososod resetDatabaseOnStart i true ac yna ail-run",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Methwyd â chwblhau’r gwasanaeth atgoffa: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Gwirio methiant cyfrif calendr: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Methwyd creu calendr: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Methu ychwanegu digwyddiad i'r calendr: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Gwall wrth ddileu digwyddiad calendr: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Gwall wrth osod neges awgrym hawliau: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Wedi llwyddo i gychwynnoli {count} o ddata efelychiadol",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Mae gan y gronfa ddata eisoes {count} o ddata, hepgor cychwyn data efelychiedig",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Efallai nad yw strwythur y cronfa ddata yn cyd-fynd, argymhellir dileu data'r app neu ailosod",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Wedi dileu ffeiliau cronfa ddata hen",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Mae'r data wrth gefn yn wag",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Nid yw'r ffeil wrth gefn yn bodoli",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Nid yw codio'r ffeil yn fformat dilys UTF-8. Sicrhewch fod y ffeil wedi'i gadw gyda chodiad UTF-8. Manylion y gwall: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Ffeil ddim yn bodoli: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Mae'r ffeil yn wag: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Mae cynnwys y ffeil yn wag ar ôl dadgodio, efallai nad yw'r codio'n cyfateb",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} ni all fod yn wag",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "Ni all hyd {fieldName} fod yn llai na {minLength} nod",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "Ni all hyd {fieldName} fod yn fwy na {maxLength} nod",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Rhowch gyfeiriad {fieldName} dilys",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} rhaid iddo fod yn {numberType}",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} ni all fod yn llai na {min}",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} ni all fod yn fwy na {max}",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} yn rhaid i fod yn rhowch rhif positif",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} yn rhaid i fod yn fwy na 0",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} yn rhaid i fod yn raddfeydd positif",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Rhowch {fieldName} dilys",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} ni all fod yn ddyddiad yn y gorffennol",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} ni all fod yn gynharach na {minDate}",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} ni all fod yn hwy na {maxDate}",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Rhowch {fieldName} dilys",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} nid yw'n gallu bod yn llai na 8 cymeriad",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} rhaid i gynnwys o leiaf un llythyren fawr",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} rhaid i gynnwys o leiaf un llythyren fach",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} rhaid cynnwys o leiaf un rhif",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} rhaid i gynnwys o leiaf un cymeriad arbennig",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Mae'r cyfrinair a nodwyd ddwywaith yn wahanol",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Ni all enw'r eitem fod yn wag",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Ni all yr enw fod yn fwy nag {maxLength} nod",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Ni all y maint fod yn llai na {minQuantity}",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Ni all y nifer fod yn fwy na {maxQuantity}",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Ni all y pris unedol fod yn negatif",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Ni all pris uned fynd dros {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Gosodwch y dyddiad cynhyrchu a'r cyfnod cadw i gyfrifo cyfnod dilys yn awtomatig",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Dewiswch ddyddiad prynu a dyddiad gorffen cynhwysedd i gyfrifo cyfnod gwarant yn awtomatig",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Methu creu cyfrif calendr, gwiriwch leoliadau calendr y system",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Hysbysiad Profion",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Mae hwn yn hysbysiad prawf, wedi'i ddefnyddio i wirio swyddogaeth atgoffa lleol",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "Dydd",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} diwrnod",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Mae'r eitem wedi'i gadw",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Mae'r eitem wedi'i ddiweddaru",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Mae'r eitem wedi'i hychwanegu",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Cadw wedi llwyddo",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Diweddaru wedi llwyddo",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Dileu wedi llwyddo",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Methu cadw",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Methu diweddaru",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Methu dileu",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Gosodiadau iaith",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Gosod iaith arddangos yr app",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Diofyn y system",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Defnyddio iaith y system",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Bydd newid iaith yn dod i rym ar ôl ailgychwyn yr ap",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Dewis cyfredol: {days} diwrnod",
+  "@current_selection": {
+    "description": "Dangos y dyddiau a ddewiswyd ar hyn o bryd",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

@@ -1,0 +1,1625 @@
+{
+  "@@locale": "nl",
+  "app_name": "Het bewaren van voorwerpen",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Annuleren",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Bevestigen",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Opslaan",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Verwijderen",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Bewerken",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Toevoegen",
+  "@add": {
+    "description": ""
+  },
+  "search": "Zoeken",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Instellingen",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Terug",
+  "@back": {
+    "description": ""
+  },
+  "next": "Volgende stap",
+  "@next": {
+    "description": ""
+  },
+  "done": "Voltooid",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Laden...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Fout",
+  "@error": {
+    "description": ""
+  },
+  "success": "succes",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Waarschuwing",
+  "@warning": {
+    "description": ""
+  },
+  "info": "informatie",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Herinneringsdagen kiezen",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Aangepast",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Aangepast ({days} dagen)",
+  "@custom_days": {
+    "description": "Aangepaste dagen met parameters",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Herinneringsdagen bereik: {min}-{max} dagen",
+  "@alert_days_range": {
+    "description": "Bereik van herinneringsdagen met parameters",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Voer het aantal dagen voor de herinnering in",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "dagen",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Voer een nummer in tussen {min} en {max}",
+  "@enter_valid_days": {
+    "description": "Daginvoerverificatienotificatie",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Waarschuwingsinstellingen",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Kalenderinstellingen",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Agenda-synchronisatie",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Na inschakeling wordt toestemming gevraagd voor toegang tot de kalender",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Testagenda-item toevoegen",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Schakel eerst de schakelaar 'kalendersynchronisatie' in",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "App-meldingsinstellingen",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Lokale herinnering",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Inschakelen om vervaldatummeldingen binnen de app te ontvangen",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Verzend testmelding",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Schakel eerst de schakelaar 'Lokale herinnering' in",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Herinneringsdagen instellen",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Aantal dagen van tevoren herinneren",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Instellen hoeveel dagen van tevoren herinnerd moet worden aan het verlopen van een item of aan het verlopen van de garantie",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Agenda toestemmingsverzoek",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Toegang tot de kalender is nodig om herinneringen voor items te synchroniseren. Mag dit worden toegestaan?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "toestaan",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Kalenderrechten zijn verleend, kalendersynchronisatie is ingeschakeld",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Kalendermachtiging geweigerd, kan kalendersynchronisatie niet inschakelen",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Toestemming permanent geweigerd",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "De kalenderrechten zijn permanent geweigerd, schakel de rechten handmatig in in de systeeminstellingen.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Ga naar instellingen",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Kalenderrechten zijn verleend, maar het is niet mogelijk om een kalenderaccount te maken. Controleer de systeemkalenderinstellingen",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Kalendermachtigingen zijn verleend, een lokaal kalenderaccount is aangemaakt",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "De kalenderaccount is succesvol aangemaakt, maar het systeem kan enige tijd nodig hebben om van kracht te worden",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Test kalendergebeurtenis succesvol toegevoegd",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Het toevoegen van een testkalenderevenement is mislukt, controleer de kalenderinstellingen",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Kalendertoegang is vereist om een testgebeurtenis toe te voegen",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Testmelding is verzonden",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Mislukt om testmelding te verzenden: {error}",
+  "@test_notification_failed": {
+    "description": "Verkeermelding",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Toestemming voor meldingen is vereist om lokale herinneringen in te schakelen",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Operatie mislukt: {error}",
+  "@operation_failed": {
+    "description": "Algemene foutmelding bij bewerking",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Artikel waarschuwingmelding",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Herinnering voor verlopen of overgarantiegoed",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "voedsel",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Dagelijkse benodigdheden",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "cosmetica",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Medicijn",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "elektronische producten",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "meubels",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "kleding",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "boek",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Overig",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "online winkel",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "fysieke winkel",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "supermarkt",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "filiaalwinkel",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "tweedehandsmarkt",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Overig",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Overig",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "online winkel",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Itemclassificatie",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Aangepaste categorie",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Gegevens back-uppen",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Alles gegevens (inclusief afbeeldingen) verpakken als een ZIP-bestand voor back-up",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Alle gegevens back-uppen",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Back-up geslaagd",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Back-up mislukt: {error}",
+  "@backup_failed": {
+    "description": "Back-up mislukt foutmelding",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Gegevens herstellen",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Herstel alle gegevens van het ZIP-back-upbestand",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Gegevens exporteren",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Exporteren naar CSV-, TXT- en SQL-formaat",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Gegevens importeren",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Gegevens importeren uit CSV-, TXT- en SQL-bestanden",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Kalenderherinneringen en app-pushmeldingsinstellingen",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Over",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "App-informatie en versie",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Selecteer eerst het back-upbestand",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Bevestig herstel",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Het herstellen van een back-up zal alle bestaande gegevens wissen en vervangen door de back-upgegevens. Deze actie kan niet ongedaan worden gemaakt. Weet u zeker dat u wilt doorgaan?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Opnieuw bevestigen",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Weet u zeker dat u alle bestaande gegevens wilt wissen en een back-up wilt herstellen? Deze actie kan niet ongedaan worden gemaakt!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Bevestigen herstel",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Herstel succesvol, in totaal {count} items",
+  "@restore_success": {
+    "description": "Herstel succesvol bericht",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Herstel mislukt: {error}",
+  "@restore_failed": {
+    "description": "Herstel mislukt foutmelding",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Selecteer back-upbestand",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Back-up herstellen",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Geselecteerd bestand: {filename}",
+  "@selected_file": {
+    "description": "Geselecteerd bestand bericht",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Gegevens succesvol geëxporteerd",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Export mislukt: {error}",
+  "@export_failed": {
+    "description": "Export mislukt foutmelding",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Verwerking van dubbele gegevens",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Er zijn dubbele gegevens gedetecteerd, kies een verwerkingsmethode:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Overslaan",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "bedekken",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Alles overslaan",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "volledige dekking",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Selecteer eerst het importformaat",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Import bevestigen",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Het importeren van gegevens zal de bestaande gegevens overschrijven, deze handeling kan niet ongedaan worden gemaakt. Weet u zeker dat u wilt doorgaan?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Gegevens succesvol geïmporteerd, in totaal {count} items geïmporteerd",
+  "@import_success": {
+    "description": "Import succesvol bericht",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Import mislukt: {error}",
+  "@import_failed": {
+    "description": "Import mislukt foutmelding",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Bestand kiezen",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Geen gegevens",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Er zijn momenteel geen gegevens, klik op de onderstaande knop om het eerste record toe te voegen!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Laden mislukt",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Gegevens laden mislukt, controleer de netwerkverbinding en probeer het opnieuw",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Opnieuw proberen",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Verbinding met netwerk mislukt",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Controleer de netwerkverbinding en probeer het opnieuw",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Geen resultaten gevonden",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Probeer andere zoekwoorden te gebruiken",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Zoekopdracht wissen",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Onvoldoende machtigingen",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "U heeft de relevante machtigingen nodig om deze functie te gebruiken",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Toestemming aanvragen",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "App-informatie",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "versie",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Ontwikkelaar",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Apparaatgegevens",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Apparaatmodel",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "merk",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Apparaatnaam",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "Product",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "hardware",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android-versie",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK-versie",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Systeemnaam",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Systeemversie",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Apparaatid",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Computernaam",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "versienummer",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Kan apparaatinformatie niet ophalen: {error}",
+  "@error_getting_device_info": {
+    "description": "Foutmelding bij het ophalen van apparaatinformatie",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Functie-introductie",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Slimme voorwerpenbeheerapplicatie",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Helpt u de vervaldatum, garantiedatum en andere informatie van uw spullen te beheren en biedt slimme herinneringsfuncties.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Verbruiksartikelen",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "duurzaam product",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Sorteren",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Naam oplopend",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Naam aflopende volgorde",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Oplopende datum",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Datum aflopende volgorde",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Prijs oplopend",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Prijs aflopend",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Oplopende hoeveelheid",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Aantal aflopende volgorde",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Totale prijs oplopend",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Totale prijs aflopend",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Alle filters wissen",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Scan om op te slaan",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Zoek items...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Geen items",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Klik op de onderstaande knop om het eerste item toe te voegen",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Verlopen",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Bijna verlopen",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "De garantie is verlopen",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "De garantie verloopt binnenkort",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Nog {count} dagen",
+  "@days_remaining": {
+    "description": "Resterende dagen met parameter",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Verlopen sinds {count} dagen",
+  "@expired_days_ago": {
+    "description": "Vervaldagen met parameter",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Verwijder item",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Weet u zeker dat u \"{name}\" wilt verwijderen?",
+  "@delete_item_confirm": {
+    "description": "Verwijderbevestigingsbericht",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Item is verwijderd",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Verwijderen mislukt",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Kan item niet verwijderen: {error}",
+  "@failed_to_delete_message": {
+    "description": "Verwijder foutmelding",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Datumreeksfilter",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Prijsbereik filter",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Mijn spullen",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Klik op de knop rechtsonder om een item toe te voegen",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Bevestigen verwijderen",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Filteropties",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Filter items op type, categorie en locatie",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} categorieën",
+  "@categories_count": {
+    "description": "Aantal per categorie weergeven",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Alle categorieën",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Geen gecategoriseerde gegevens",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Opslaglocatie",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} locaties",
+  "@locations_count": {
+    "description": "Aantal locaties weergeven",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Alle locaties",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Geen locatiedata beschikbaar",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "dateringsbereik",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Selecteer datumbereik",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Prijsbereik",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Prijsbereik per eenheid",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Minimumprijs",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "hoogste eenheidsprijs",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Totale prijsklasse",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Laagste totale prijs",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Maximum totale prijs",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Prijsfilter wissen",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Plaats de barcode binnen het kader om te scannen",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Het product bestaat al",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Streepjescode: {barcode}",
+  "@barcode_with_value": {
+    "description": "Streepjescode toont met parameters",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Naam: {name}",
+  "@name_with_value": {
+    "description": "Naam weergeven met parameters",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Categorie: {category}",
+  "@category_with_value": {
+    "description": "Categorieën weergeven met parameters",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Huidig aantal: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Huidige hoeveelheid weergeven met parameters",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Selecteer een actie:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Uit voorraad",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "In voorraad opnemen",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Inkoophoeveelheid",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Uitgaande hoeveelheid",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "hoeveelheid",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Voer de voorraadhoeveelheid in",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Voer de uitgaande hoeveelheid in",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Er is {name} {quantity}{unit} toegevoegd",
+  "@item_increased": {
+    "description": "Item toevoegingsbericht",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Weet u zeker dat u „{name}” wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Verwijder bevestigingsbericht met onomkeerbare waarschuwing",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Al verminderd {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Itemvermindering bericht",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "De database is gereset en de tabelstructuur wordt opnieuw aangemaakt",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Fout bij het opnieuw instellen van de database: {error}",
+  "@database_reset_error": {
+    "description": "Database-resetfout",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Simulatiedatainitialisatie mislukt: {error}",
+  "@mock_data_init_failed": {
+    "description": "Simulatiedatainitialisatie mislukt",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Oplossing:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. De app deïnstalleren en opnieuw installeren",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Of wis de app-gegevens",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Of stel resetDatabaseOnStart in op true en voer het opnieuw uit",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Herinneringsservice initialisatie mislukt: {error}",
+  "@notification_service_init_failed": {
+    "description": "Meldingservice-initialisatie mislukt",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Het controleren van het kalenderaccount is mislukt: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Het controleren van het kalenderaccount is mislukt",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Mislukte het aanmaken van de kalender: {error}",
+  "@create_calendar_failed": {
+    "description": "Het aanmaken van de kalender is mislukt",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Het toevoegen van een agendagebeurtenis is mislukt: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Het toevoegen van een kalendergebeurtenis is mislukt",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Het verwijderen van de kalendergebeurtenis is mislukt: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Het verwijderen van de kalendergebeurtenis is mislukt",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Melding voor machtigingsinstelling mislukt: {error}",
+  "@set_permission_message_failed": {
+    "description": "Melding voor machtigingsinstelling mislukt",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Er is succesvol {count} simulatiedata geïnitialiseerd",
+  "@mock_data_init_success": {
+    "description": "Simulatiegegevens succesvol geïnitialiseerd",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "De database bevat al {count} records, het initialiseren van gesimuleerde gegevens wordt overgeslagen",
+  "@database_has_data": {
+    "description": "De database bevat al gegevens",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Het kan zijn dat de database-structuur niet overeenkomt, het wordt aanbevolen om de applicatiegegevens te wissen of de applicatie opnieuw te installeren",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Oude databasebestanden zijn verwijderd",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Back-upgegevens zijn leeg",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Back-upbestand bestaat niet",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Het bestand is geen geldig UTF-8-formaat. Zorg ervoor dat het bestand is opgeslagen met UTF-8-codering. Foutdetails: {error}",
+  "@file_not_utf8": {
+    "description": "Bestandscodering fout",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Bestand bestaat niet: {filePath}",
+  "@file_not_found": {
+    "description": "Bestand bestaat niet fout",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Het bestand is leeg: {filePath}",
+  "@file_empty": {
+    "description": "Bestand is leeg fout",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "De inhoud van het bestand is leeg na decodering, mogelijk is de codering niet compatibel",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} mag niet leeg zijn",
+  "@field_cannot_be_empty": {
+    "description": "Veld mag niet leeg zijn",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} lengte mag niet minder dan {minLength} tekens zijn",
+  "@field_min_length": {
+    "description": "Minimale veldlengtevalidatie",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} mag niet meer dan {maxLength} tekens bevatten",
+  "@field_max_length": {
+    "description": "Validatie van maximale veldlengte",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Voer een geldig {fieldName}-adres in",
+  "@field_invalid_email": {
+    "description": "E-mailformaatverificatie",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} moet {numberType} zijn",
+  "@field_invalid_number": {
+    "description": "Numeriek formaat verifiëren",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} mag niet kleiner zijn dan {min}",
+  "@field_min_value": {
+    "description": "Minimumwaardeverificatie",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} mag niet groter zijn dan {max}",
+  "@field_max_value": {
+    "description": "Maximumwaardeverificatie",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} moet een positief geheel getal zijn",
+  "@field_positive_integer": {
+    "description": "Verificatie van positieve gehele getallen",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} moet groter zijn dan 0",
+  "@field_greater_than_zero": {
+    "description": "Groter dan nul verificatie",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} moet een positief getal zijn",
+  "@field_positive_number": {
+    "description": "Positieve getalverificatie",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Voer alstublieft een geldige {fieldName} in",
+  "@field_invalid_date": {
+    "description": "Datumformaatverificatie",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} mag geen datum in het verleden zijn",
+  "@field_date_not_past": {
+    "description": "De datum mag niet in het verleden liggen",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} mag niet eerder zijn dan {minDate}",
+  "@field_date_not_before": {
+    "description": "De datum mag niet eerder zijn dan de opgegeven datum",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} mag niet later zijn dan {maxDate}",
+  "@field_date_not_after": {
+    "description": "De datum mag niet later zijn dan de opgegeven datum",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Voer alstublieft een geldige {fieldName} in",
+  "@field_invalid_value": {
+    "description": "Ongeldige waarde verificatie",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} lengte mag niet minder dan 8 tekens zijn",
+  "@password_min_length": {
+    "description": "Minimale wachtwoordlengtecontrole",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} moet ten minste één hoofdletter bevatten",
+  "@password_uppercase_required": {
+    "description": "Het wachtwoord moet hoofdletters bevatten",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} moet ten minste één kleine letter bevatten",
+  "@password_lowercase_required": {
+    "description": "Het wachtwoord moet kleine letters bevatten",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} moet minimaal één cijfer bevatten",
+  "@password_digit_required": {
+    "description": "Het wachtwoord moet cijfers bevatten",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} moet ten minste één speciaal teken bevatten",
+  "@password_special_char_required": {
+    "description": "Het wachtwoord moet speciale tekens bevatten",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "De twee ingevoerde wachtwoorden komen niet overeen",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "De naam van het artikel mag niet leeg zijn",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "De naam mag niet meer dan {maxLength} tekens bevatten",
+  "@name_max_length": {
+    "description": "Validatie van maximale naamlengte",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "De hoeveelheid mag niet kleiner zijn dan {minQuantity}",
+  "@quantity_min": {
+    "description": "Minimumhoeveelheidsvalidatie",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "De hoeveelheid mag niet meer dan {maxQuantity} zijn",
+  "@quantity_max": {
+    "description": "Validatie van maximale hoeveelheid",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Eenheidsprijs mag niet negatief zijn",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "De eenheidsprijs mag niet hoger zijn dan {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "Maximale prijs per eenheid validatie",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Stel alstublieft de productiedatum en houdbaarheidsdatum in om de geldigheidsduur automatisch te berekenen",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Stel de aankoopdatum en houdbaarheidsdatum in om de garantie automatisch te berekenen",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Kan geen kalenderaccount aanmaken, controleer de systeemkalenderinstellingen",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Testmelding",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Dit is een testmelding om de lokale herinneringsfunctie te verifiëren",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "hemel",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} dagen",
+  "@days_with_value": {
+    "description": "Aantal dagen met parameter",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Item is opgeslagen",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Het item is bijgewerkt",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Item is toegevoegd",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Succesvol opgeslagen",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Update geslaagd",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Verwijderen geslaagd",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Opslaan mislukt",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Update mislukt",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Verwijderen mislukt",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Taalinstellingen",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Instellingen voor de weergavetaal van de app",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Standaard systeem",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Systeemtaal gebruiken",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "De taalwijziging wordt van kracht na het opnieuw starten van de app",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Huidige selectie: {days} dagen",
+  "@current_selection": {
+    "description": "Huidig geselecteerde dagen weergeven",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

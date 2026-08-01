@@ -1,0 +1,1625 @@
+{
+  "@@locale": "ja",
+  "app_name": "物を収めるための心のひととき",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "キャンセル",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "確認する",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "保存",
+  "@save": {
+    "description": ""
+  },
+  "delete": "削除",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "編集",
+  "@edit": {
+    "description": ""
+  },
+  "add": "追加",
+  "@add": {
+    "description": ""
+  },
+  "search": "検索",
+  "@search": {
+    "description": ""
+  },
+  "settings": "設定",
+  "@settings": {
+    "description": ""
+  },
+  "back": "戻る",
+  "@back": {
+    "description": ""
+  },
+  "next": "次のステップ",
+  "@next": {
+    "description": ""
+  },
+  "done": "完成",
+  "@done": {
+    "description": ""
+  },
+  "loading": "読み込み中...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "エラー",
+  "@error": {
+    "description": ""
+  },
+  "success": "成功",
+  "@success": {
+    "description": ""
+  },
+  "warning": "警告",
+  "@warning": {
+    "description": ""
+  },
+  "info": "情報",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "リマインダー日数を選択",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "カスタム",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "カスタム（{days}日）",
+  "@custom_days": {
+    "description": "カスタム日数とパラメータ",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "リマインド日数の範囲：{min}-{max}日",
+  "@alert_days_range": {
+    "description": "リマインダー日数範囲にパラメータを付ける",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "リマインダー日数を入力してください",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "日数",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "{min}から{max}までの数字を入力してください",
+  "@enter_valid_days": {
+    "description": "日数入力検証メッセージ",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "警告設定",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "カレンダー設定",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "カレンダー同期",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "オンにするとカレンダーのアクセス権を要求します",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "テストカレンダーイベントを追加する",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "まず「カレンダー同期」スイッチをオンにしてください",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "アプリ通知設定",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "ローカル通知",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "オンにするとアプリ内の期限切れ通知を受け取ります",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "テスト通知を送信する",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "まず「ローカル通知」スイッチをオンにしてください",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "リマインダー日数の設定",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "事前通知日数",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "アイテムの期限切れや保証の満了を何日前に通知するかを設定する",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "カレンダーの権限リクエスト",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "アイテムのリマインダーを同期するためにカレンダーへのアクセス権が必要です。許可しますか？",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "許可する",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "カレンダーの権限が付与され、カレンダーの同期が有効になっています",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "カレンダーの権限が拒否されているため、カレンダーの同期を開始できません",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "権限が永久に拒否されました",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "カレンダーの権限が永久に拒否されました。システム設定で手動で権限を有効にしてください。",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "設定に行く",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "カレンダーの権限は付与されていますが、カレンダーアカウントを作成できません。システムのカレンダー設定を確認してください",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "カレンダーの権限が付与され、ローカルカレンダーアカウントが作成されました",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "カレンダーアカウントは作成されましたが、システムが反映されるまでに時間がかかる場合があります",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "カレンダーイベントの追加に成功しました",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "テストカレンダーのイベントの追加に失敗しました。カレンダーの設定を確認してください",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "テストイベントを追加するにはカレンダーの権限が必要です",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "テスト通知が送信されました",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "テスト通知の送信に失敗しました: {error}",
+  "@test_notification_failed": {
+    "description": "通知エラーメッセージ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "ローカル通知を有効にするには通知の権限が必要です",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "操作に失敗しました: {error}",
+  "@operation_failed": {
+    "description": "一般操作エラーメッセージ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "物品警告通知",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "物品の期限切れや保証切れの通知",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "食品",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "日用品",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "化粧品",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "薬品",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "電子製品",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "家具",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "服装",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "本",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "その他",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "オンラインストア",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "実店舗",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "スーパーマーケット",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "専門店",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "中古市場",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "その他",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "その他",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "オンラインストア",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "物品の分類",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "カスタム分類",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "データをバックアップする",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "すべてのデータ（画像を含む）をZIPファイルにまとめてバックアップする",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "すべてのデータをバックアップする",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "バックアップ成功",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "バックアップ失敗：{error}",
+  "@backup_failed": {
+    "description": "バックアップ失敗エラーメッセージ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "データを復元する",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ZIPバックアップファイルからすべてのデータを復元する",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "データをエクスポート",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "CSV、TXT、SQL形式でエクスポート",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "データをインポート",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "CSV、TXT、SQLファイルからデータをインポートする",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "カレンダーリマインダーとアプリ通知の設定",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "について",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "アプリ情報とバージョン",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "まずバックアップファイルを選択してください",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "復元を確認",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "バックアップを復元すると、すべての既存データが消去され、バックアップデータに置き換えられます。この操作は元に戻せません。続行してもよろしいですか？",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "再確認する",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "本当にすべての既存のデータを消去してバックアップを復元しますか？この操作は元に戻せません！",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "復元を確定",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "復元に成功しました、合計{count}件のアイテム",
+  "@restore_success": {
+    "description": "復元成功のメッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "復元に失敗しました：{error}",
+  "@restore_failed": {
+    "description": "復元失敗エラーメッセージ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "バックアップファイルを選択",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "バックアップを復元する",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "選択されたファイル：{filename}",
+  "@selected_file": {
+    "description": "選択されたファイルのメッセージ",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "データのエクスポートに成功しました",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "エクスポートに失敗しました：{error}",
+  "@export_failed": {
+    "description": "エクスポート失敗エラーメッセージ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "重複データ処理",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "重複データが検出されました。処理方法を選択してください：",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "スキップ",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "覆う",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "すべてスキップ",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "すべてをカバーする",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "まずインポート形式を選択してください",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "インポートを確認",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "データをインポートすると既存のデータが上書きされ、この操作は元に戻せません。続行してもよろしいですか？",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "データのインポートに成功しました。合計で{count}件のアイテムがインポートされました",
+  "@import_success": {
+    "description": "インポート成功メッセージ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "インポートに失敗しました：{error}",
+  "@import_failed": {
+    "description": "インポート失敗エラーメッセージ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "ファイルを選択",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "データはありません",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "現在データがありません。下のボタンをクリックして最初のレコードを追加しましょう！",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "読み込みに失敗しました",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "データの読み込みに失敗しました。ネットワーク接続を確認してから再試行してください",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "再試行",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "ネットワーク接続に失敗しました",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "ネットワーク接続を確認してから、もう一度お試しください",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "結果が見つかりませんでした",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "他のキーワードで検索してみてください",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "検索をクリア",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "権限が不足しています",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "この機能を使用するには、関連する権限が必要です",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "アクセス権をリクエストする",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "アプリ情報",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "バージョン",
+  "@version": {
+    "description": ""
+  },
+  "developer": "開発者",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "デバイス情報",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "機器のモデル",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "ブランド",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "機器名",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "製品",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "ハードウェア",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Androidバージョン",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDKバージョン",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "システム名",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "システムバージョン",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "デバイス識別",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "コンピュータ名",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "バージョン番号",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "デバイス情報を取得できません: {error}",
+  "@error_getting_device_info": {
+    "description": "デバイス情報取得エラーメッセージ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "機能紹介",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "スマートアイテム管理アプリ",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "アイテムの期限、保証期限などの情報を管理し、スマート通知機能を提供します。",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "消耗品",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "耐久消費財",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "並べ替え",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "名前昇順",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "名前の降順",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "日付昇順",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "日付降順",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "単価昇順",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "単価の降順",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "数量昇順",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "数量の降順",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "総額昇順",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "総額の降順",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "すべてのフィルターをクリア",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "コードをスキャンして入庫する",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "アイテムを検索...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "アイテムがありません",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "下のボタンをクリックして最初のアイテムを追加してください",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "期限切れ",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "間もなく期限切れ",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "保証期間が終了しました",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "保証期間がまもなく終了します",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "残り{count}日",
+  "@days_remaining": {
+    "description": "残り日数パラメータ付き",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "{count}日経過",
+  "@expired_days_ago": {
+    "description": "期限切れ日数とパラメータ",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "アイテムを削除",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "「{name}」を削除してもよろしいですか？",
+  "@delete_item_confirm": {
+    "description": "削除確認メッセージ",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "アイテムが削除されました",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "削除に失敗しました",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "アイテムを削除できません: {error}",
+  "@failed_to_delete_message": {
+    "description": "エラーメッセージを削除する",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "日付範囲フィルター",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "価格範囲のフィルター",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "私の物品",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "右下のボタンをクリックしてアイテムを追加する",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "削除を確認",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "フィルターオプション",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "種類、カテゴリー、場所でアイテムを絞り込む",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} 件のカテゴリ",
+  "@categories_count": {
+    "description": "カテゴリ数の表示",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "すべてのカテゴリー",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "分類データがありません",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "保存場所",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} か所の場所",
+  "@locations_count": {
+    "description": "地点数の表示",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "すべての地点",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "地点データはまだありません",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "日付範囲",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "日付範囲を選択",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "価格範囲",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "単価範囲",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "最低単価",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "最高単価",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "総価格の範囲",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "最低総額",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "最高総額",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "価格フィルターをクリア",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "バーコードを枠内に入れてスキャンしてください",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "商品は既に存在します",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "バーコード：{barcode}",
+  "@barcode_with_value": {
+    "description": "バーコード表示にパラメータ付き",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "名称：{name}",
+  "@name_with_value": {
+    "description": "名前にパラメータを表示",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "分類：{category}",
+  "@category_with_value": {
+    "description": "パラメータ付きで分類表示",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "現在の数量：{quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "現在の数量はパラメータ付きで表示されます",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "操作を選択してください：",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "出庫",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "入庫",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "入庫数量",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "出庫数量",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "数量",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "入庫数量を入力してください",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "出庫数量を入力してください",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "{name} {quantity}{unit} が追加されました",
+  "@item_increased": {
+    "description": "アイテム増加の通知",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "「{name}」を削除してもよろしいですか？この操作は取り消せません。",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "削除確認メッセージに取り消し不可の警告を付ける",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "{name} {quantity}{unit} が減りました",
+  "@item_decreased": {
+    "description": "物品減少の通知",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "データベースはリセットされ、テーブル構造が再作成されます",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "データベースのリセット中にエラーが発生しました: {error}",
+  "@database_reset_error": {
+    "description": "データベースリセットエラー",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "シミュレーションデータの初期化に失敗しました: {error}",
+  "@mock_data_init_failed": {
+    "description": "シミュレーションデータの初期化に失敗しました",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "解決策：",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. アプリをアンインストールして再インストールする",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. またはアプリのデータを消去する",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. または resetDatabaseOnStart を true に設定した後、再実行する",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "リマインダーサービスの初期化に失敗しました: {error}",
+  "@notification_service_init_failed": {
+    "description": "通知サービスの初期化に失敗しました",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "カレンダーアカウントの確認に失敗しました: {error}",
+  "@check_calendar_account_failed": {
+    "description": "カレンダーアカウントの確認に失敗しました",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "カレンダーの作成に失敗しました: {error}",
+  "@create_calendar_failed": {
+    "description": "カレンダーの作成に失敗しました",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "カレンダーイベントの追加に失敗しました: {error}",
+  "@add_calendar_event_failed": {
+    "description": "カレンダーイベントの追加に失敗しました",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "カレンダーイベントの削除に失敗しました: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "カレンダーイベントの削除に失敗しました",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "権限設定のメッセージの表示に失敗しました: {error}",
+  "@set_permission_message_failed": {
+    "description": "権限設定のメッセージの表示に失敗しました",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "{count} 件のモックデータが正常に初期化されました",
+  "@mock_data_init_success": {
+    "description": "シミュレーションデータの初期化に成功しました",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "データベースにはすでに {count} 件のデータがあり、シミュレーションデータの初期化をスキップします",
+  "@database_has_data": {
+    "description": "データベースに既にデータがあります",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "データベースの構造が一致しない可能性があります。アプリのデータを消去するか、再インストールすることをお勧めします。",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "古いデータベースファイルを削除しました",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "バックアップデータが空です",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "バックアップファイルが存在しません",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "ファイルのエンコードは有効なUTF-8形式ではありません。ファイルがUTF-8エンコードで保存されていることを確認してください。エラーの詳細: {error}",
+  "@file_not_utf8": {
+    "description": "ファイルのエンコードエラー",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "ファイルが存在しません: {filePath}",
+  "@file_not_found": {
+    "description": "ファイルが存在しないエラー",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "ファイルが空です: {filePath}",
+  "@file_empty": {
+    "description": "ファイルが空ですというエラー",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "ファイルの内容をデコードした後、空です。エンコードが一致しない可能性があります",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName}を空にすることはできません",
+  "@field_cannot_be_empty": {
+    "description": "フィールドは空にできませんの検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName}の長さは{minLength}文字未満にできません",
+  "@field_min_length": {
+    "description": "フィールドの最小長さ検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName}の長さは{maxLength}文字を超えることはできません",
+  "@field_max_length": {
+    "description": "フィールドの最大長さの検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "有効な{fieldName}アドレスを入力してください",
+  "@field_invalid_email": {
+    "description": "メールアドレス形式の確認",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName}は{numberType}でなければなりません",
+  "@field_invalid_number": {
+    "description": "数字形式の検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName}は{min}より小さくしてはいけません",
+  "@field_min_value": {
+    "description": "最小値の検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName}は{max}を超えることはできません",
+  "@field_max_value": {
+    "description": "最大値検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName}は正の整数でなければなりません",
+  "@field_positive_integer": {
+    "description": "正の整数の検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName}は0より大きくなければなりません",
+  "@field_greater_than_zero": {
+    "description": "ゼロより大きい検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName}は正の数でなければなりません",
+  "@field_positive_number": {
+    "description": "正の数の検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "有効な{fieldName}を入力してください",
+  "@field_invalid_date": {
+    "description": "日付形式の検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName}は過去の日付にできません",
+  "@field_date_not_past": {
+    "description": "日付は過去にすることはできません",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName}は{minDate}より前にすることはできません",
+  "@field_date_not_before": {
+    "description": "日付は指定された日付より前にできません",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName}は{maxDate}を過ぎてはいけません",
+  "@field_date_not_after": {
+    "description": "日付は指定された日付より遅くできません",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "有効な{fieldName}を入力してください",
+  "@field_invalid_value": {
+    "description": "無効値の検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName}の長さは8文字以上でなければなりません",
+  "@password_min_length": {
+    "description": "パスワード最小長さの検証",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName}は少なくとも1つの大文字を含める必要があります",
+  "@password_uppercase_required": {
+    "description": "パスワードには大文字を含める必要があります",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName}は少なくとも1つの小文字を含める必要があります",
+  "@password_lowercase_required": {
+    "description": "パスワードには小文字のアルファベットを含める必要があります",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName}は少なくとも1つの数字を含める必要があります",
+  "@password_digit_required": {
+    "description": "パスワードには数字を含める必要があります",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName}は少なくとも1つの特殊文字を含める必要があります",
+  "@password_special_char_required": {
+    "description": "パスワードには特殊文字を含める必要があります",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "2回入力したパスワードが一致しません",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "物品名を空にすることはできません",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "名称は{maxLength}文字を超えてはいけません",
+  "@name_max_length": {
+    "description": "名前の最大長さの検証",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "数量は{minQuantity}未満にできません",
+  "@quantity_min": {
+    "description": "数量の最小値検証",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "数量は{maxQuantity}を超えることはできません",
+  "@quantity_max": {
+    "description": "数量の最大値検証",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "単価は負の値にできません",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "単価は{maxUnitPrice}を超えてはいけません",
+  "@unit_price_max": {
+    "description": "単価最大値の検証",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "製造日と賞味期限を設定して、有効期限を自動計算してください",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "購入日と賞味期限を設定して、保証期間を自動計算してください",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "カレンダーアカウントを作成できません。システムのカレンダー設定を確認してください",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "テスト通知",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "これはローカル通知機能を確認するためのテスト通知です",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "天",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days}日",
+  "@days_with_value": {
+    "description": "日数パラメータ付き",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "アイテムが保存されました",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "アイテムが更新されました",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "アイテムが追加されました",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "保存成功",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "更新成功",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "削除に成功しました",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "保存に失敗しました",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "更新に失敗しました",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "削除に失敗しました",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "言語設定",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "アプリの表示言語を設定する",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "システムデフォルト",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "システム言語を使用する",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "言語の変更はアプリの再起動後に反映されます",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "現在の選択：{days}日",
+  "@current_selection": {
+    "description": "現在選択されている日数の表示",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

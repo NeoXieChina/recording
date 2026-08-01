@@ -1,0 +1,1625 @@
+{
+  "@@locale": "ht",
+  "app_name": "Ti espas pou estoke bagay",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Anile",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Konfime",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Sove",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Efase",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Ajoute",
+  "@add": {
+    "description": ""
+  },
+  "search": "Rechèch",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Anviwònman",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Retounen",
+  "@back": {
+    "description": ""
+  },
+  "next": "Pwochen etap",
+  "@next": {
+    "description": ""
+  },
+  "done": "Fini",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Ap chaje...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Erè",
+  "@error": {
+    "description": ""
+  },
+  "success": "Siksè",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Avètisman",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Enfòmasyon",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Chwazi kantite jou pou rapèl",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Pèsonalize",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Custom ({days} jou)",
+  "@custom_days": {
+    "description": "Jou pèsonalize ak paramèt",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Ranje jou rapèl: {min}-{max} jou",
+  "@alert_days_range": {
+    "description": "Ranje jou rapèl ak paramèt",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Tanpri antre kantite jou pou rapèl la",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "jou",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Tanpri antre yon nimewo ant {min} ak {max}",
+  "@enter_valid_days": {
+    "description": "Mesaj verifikasyon antre jou yo",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Anviwònman avètisman",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Anviwònman kalandriye",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Senkrone kalandriye",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Apre ou louvri, li pral mande pèmisyon kalandriye",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Ajoute yon evènman kalandriye tès",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Tanpri limen bouton 'senkronizasyon kalandriye' la an premye",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Anviwònman alèt App",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Rapèl lokal",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Louvri pou resevwa rapèl ekspirasyon nan aplikasyon an",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Voye avi tès",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Tanpri limen bouton 'Rapèl lokal' la anvan",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Mete kantite jou pou rapèl",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Kantite jou pou raple davans",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Mete konbyen jou anvan pou raple dat ekspirasyon oswa fen garanti yon atik",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Demann pou otorizasyon kalandriye",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Nou bezwen aksè nan kalandriye a pou senkronize rapèl atik yo. Èske ou pèmèt li?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Pèmèt",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Dwa kalandriye yo te bay, senkronizasyon kalandriye a te aktive",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Otorite kalandriye a refize, li pa posib pou aktive senkronizasyon kalandriye a",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Otorizasyon pèmanan refize",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Otorite kalandriye a refize pèmanan, tanpri aktive otorite a manyèlman nan anviwònman sistèm nan.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Ale nan anviwònman",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Otorizasyon kalandriye a te bay, men li enposib kreye yon kont kalandriye. Tanpri tcheke anviwònman kalandriye sistèm nan",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Dwa aksè nan kalandriye a deja bay, kont kalandriye lokal la te kreye",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Kont kalandriye a kreye avèk siksè, men sistèm nan ka bezwen kèk tan pou li vin efikas",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Tès evènman kalandriye a te ajoute avèk siksè",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Echwe pou ajoute evènman kalandriye tès la, tanpri tcheke anviwònman kalandriye a",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Ou bezwen pèmisyon kalandriye pou ajoute yon evènman tès",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Nòt tès la te voye",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Echwe voye notifikasyon tès: {error}",
+  "@test_notification_failed": {
+    "description": "Notifikasyon mesaj erè",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Bezwen pèmisyon pou notifikasyon pou aktive rapèl lokal yo",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Echèk operasyon: {error}",
+  "@operation_failed": {
+    "description": "Erè operasyon jeneral",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Alèt Avètisman Atik",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Rappel pou atik ekspire oswa depase peryòd garanti",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Manje",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Atik chak jou",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Pwodwi kosmetik",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Medikaman",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Pwodwi elektwonik",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Mèb",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Rad",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Liv",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Lòt",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Magazen sou entènèt",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Magazen fizik",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "sipermaket",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Magazen espesyalize",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Mache dezyèm men",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Lòt",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Lòt",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Magazen sou entènèt",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Klasifikasyon atik",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Klasifikasyon pèsonalize",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Fè bak done",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Pake tout done yo (enkli imaj yo) nan yon fichye ZIP pou fè sovgad",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Fè bak tout done yo",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Sove sekirite avèk siksè",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Backup echwe: {error}",
+  "@backup_failed": {
+    "description": "Erè mesaj backup echwe",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Rekuperasyon done",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Restauré tout done soti nan dosye backup ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Ekspòte done",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Eksporte kòm fòma CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Enpòte done",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Enpòte done soti nan dosye CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Ranmase alèt kalandriye ak notifikasyon aplikasyon",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Sou",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Enfòmasyon sou aplikasyon ak vèsyon",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Tanpri chwazi dosye sovgad la anvan",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Konfime rekòmanse",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Rekouvri sovgad la pral efase tout done ki egziste yo epi ranplase yo ak done sovgad la, aksyon sa a pa kapab anile. Èske ou sèten ou vle kontinye?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Konfime ankò",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Èske ou sèten ou vle efase tout done ki egziste kounye a epi restore backup la? Aksyon sa a pa ka refè!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Konfime rekòmanse",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Rekiperasyon reyisi, total {count} atik",
+  "@restore_success": {
+    "description": "Mesaj rekiperasyon avèk siksè",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Rekiperasyon echwe：{error}",
+  "@restore_failed": {
+    "description": "Mesaj erè rekiperasyon echwe",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Chwazi fichye sovgad",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Retabli sovgad",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Dosye chwazi a: {filename}",
+  "@selected_file": {
+    "description": "Mesaj fichye chwazi",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Ekspòtasyon done reyisi",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Echèk nan ekspòtasyon: {error}",
+  "@export_failed": {
+    "description": "Erè mesaj ekspòtasyon echwe",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Pwosesis done repete",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Yo detekte done ki repete, tanpri chwazi fason pou trete yo:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Sote",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "kouvri",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Sote tout",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Kouvri tout",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Tanpri chwazi fòma enpòte a an premye",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Konfime enpòte",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Enpòte done yo pral ranplase done ki egziste yo, aksyon sa a pa ka anile. Èske ou sèten ou vle kontinye?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Done enpòte done avèk siksè, total {count} atik yo te enpòte",
+  "@import_success": {
+    "description": "Mesaj enpòtasyon reyisi",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Echèk nan enpòtasyon: {error}",
+  "@import_failed": {
+    "description": "Erè chajman echwe",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Chwazi dosye",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Pa gen done",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Pa gen done kounye a, klike sou bouton anba a pou ajoute premye dosye a!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Chajman echwe",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Chajman done a echwe, tanpri tcheke koneksyon rezo a epi eseye ankò",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Reeseye",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Koneksyon rezo a echwe",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Tanpri tcheke koneksyon entènèt la epi eseye ankò",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Pa jwenn okenn rezilta",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Eseye itilize lòt mo kle pou fè rechèch",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Efase rechèch",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Pa gen ase dwa",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Ou bezwen otorizasyon ki apwopriye pou itilize fonksyon sa a",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Mande pèmisyon",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Enfòmasyon sou aplikasyon",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "Vèsyon",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Devlopè",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Enfòmasyon sou aparèy",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Modèl ekipman",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "mak",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Non aparèy",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "pwodwi",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Pyès ki nan konpitè",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Vèsyon Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Vèsyon SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Non sistèm",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Vèsyon sistèm",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Idantifikasyon ekipman",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Non òdinatè",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Nimewo vèsyon",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Pa kapab jwenn enfòmasyon sou aparèy la: {error}",
+  "@error_getting_device_info": {
+    "description": "Erè nan jwenn enfòmasyon sou aparèy la",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Entwodiksyon fonksyon",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Aplikasyon pou jere objè entèlijan",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Ede w jere dat ekspirasyon, dat garanti ak lòt enfòmasyon sou atik ou yo, epi bay fonksyon rapèl entèlijan.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Pwodwi konsomab",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "byen dirab",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Òd",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Non nan lòd alfabetik",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Desann nan non",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Dat nan lòd k ap ogmante",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Dat desann",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Pri inite nan lòd k ap ogmante",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Pri inite desandan",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Kantite nan lòd k ap grandi",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Desann selon kantite",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Pri total nan lòd k ap monte",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Pri total desann",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Efase tout filtraj",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Eskane kòd pou antre nan depo",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Chèche atik...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Pa gen okenn atik",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Klike sou bouton anba a pou ajoute premye atik la",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Ekspire",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Ap ekspire byento",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Garanti a ekspire",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Garanti a ap ekspire byento",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Rès {count} jou",
+  "@days_remaining": {
+    "description": "Rès jou ak paramèt",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Ekipase depi {count} jou",
+  "@expired_days_ago": {
+    "description": "Nimewo jou ekspire ak paramèt",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Efase atik",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Èske ou sèten ou vle efase \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "Konfimasyon pou efase",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Atik la te efase",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Pa kapab efase",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Pa kapab efase atik: {error}",
+  "@failed_to_delete_message": {
+    "description": "Efase mesaj erè",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Filtraj pa ranje dat",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Filtraj selon ranje pri",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Bagay mwen yo",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Klike sou bouton an nan kwen anba dwat la pou ajoute atik",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Konfime efase",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Opsyon filtre",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Filtre atik pa tip, kategori ak kote",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} kategori",
+  "@categories_count": {
+    "description": "Montre kantite pa kategori",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Tout kategori",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Pa gen done kategori pou kounye a",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Kote depo",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} kote",
+  "@locations_count": {
+    "description": "Kantite kote yo montre",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Tout kote",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Pa gen done sou kote pou kounye a",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Ranje Dat",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Chwazi ranje dat",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Ranje pri",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Ranje pri pou chak inite",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Pri minimòm pou chak inite",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Pri maksimòm pou chak inite",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Ranje pri total",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Pri total ki pi ba",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Pri maksimòm total",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Efase filtè pri",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Mete kòd bar nan bwat la pou eskane",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Pwodwi deja egziste",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Kòd bar: {barcode}",
+  "@barcode_with_value": {
+    "description": "Kòd bar montre ak paramèt",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Non: {name}",
+  "@name_with_value": {
+    "description": "Non montre ak paramèt",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Kategori: {category}",
+  "@category_with_value": {
+    "description": "Montre pa kategori ak paramèt",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Kantite aktyèl: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Kantite aktyèl la montre ak paramèt",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Tanpri chwazi operasyon an:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Soti nan depo",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Antre nan depo",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Kantite nan depo",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Kantite sòti nan depo",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "kantite",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Tanpri antre kantite pou depo",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Tanpri antre kantite pou sòti nan depo a",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Te ajoute {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "Mesaj sou ogmantasyon atik",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Èske ou sèten ou vle efase '{name}'? Aksyon sa a pa ka defèt.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Efase mesaj konfimasyon ak avètisman ki pa ka anile",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Te redwi {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Mesaj sou rediksyon atik",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Baz done a te reinitialise, yap rekreye estrikti tab la",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Erè lè w ap rézete baz done a: {error}",
+  "@database_reset_error": {
+    "description": "Erè reset baz done",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Echèk nan inisyalizasyon done simulation: {error}",
+  "@mock_data_init_failed": {
+    "description": "Inisyalizasyon done simile echwe",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Solisyon:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Dezinstale aplikasyon an epi re-enstale li",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Oswa efase done aplikasyon an",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Oswa mete resetDatabaseOnStart kòm true epi rekòmanse kouri",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Echèk nan inisyalizasyon sèvis rapèl: {error}",
+  "@notification_service_init_failed": {
+    "description": "Inisyalizasyon sèvis notifikasyon an echwe",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Echèk nan tcheke kont kalandriye: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Echwe pou tcheke kont kalandriye a",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Echwe kreye kalandriye: {error}",
+  "@create_calendar_failed": {
+    "description": "Echwe pou kreye kalandriye",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Echwe pou ajoute evènman nan kalandriye: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Echwe pou ajoute evènman nan kalandriye a",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Echwe pou efase evènman nan kalandriye: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Echwe pou efase evènman kalandriye a",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Echwe nan etabli mesaj avètisman pèmisyon: {error}",
+  "@set_permission_message_failed": {
+    "description": "Echwe pou mete mesaj avètisman pèmisyon",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Inisyalizasyon {count} done simulasyon fèt avèk siksè",
+  "@mock_data_init_success": {
+    "description": "Inisyalizasyon done simile reyisi",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Baz done a deja gen {count} ranje done, sote inisyalizasyon done simulasyon an",
+  "@database_has_data": {
+    "description": "Baz done deja gen done",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Li posib ke estrikti baz done a pa matche, li rekòmande pou efase done aplikasyon an oswa re-enstale li",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Fin efase ansyen fichye bazdone a",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Done sovgad la vid",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Fichye backup la pa egziste",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Kòd dosye a pa nan yon fòma UTF-8 ki valid. Tanpri asire w ke dosye a sove avèk kodaj UTF-8. Detay erè: {error}",
+  "@file_not_utf8": {
+    "description": "Erè kodaj dosye",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Fichye a pa egziste: {filePath}",
+  "@file_not_found": {
+    "description": "Erè dosye pa egziste",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Fichye a vid: {filePath}",
+  "@file_empty": {
+    "description": "Erè dosye a vid",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Kontni dokiman an vid apre dekodaj, li ka paske kodaj la pa matche",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} pa ka vid",
+  "@field_cannot_be_empty": {
+    "description": "Champs la pa ka vid",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "Longè {fieldName} pa ka mwens pase {minLength} karaktè",
+  "@field_min_length": {
+    "description": "Validasyon longè minimòm chan an",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} pa ka gen plis pase {maxLength} karaktè",
+  "@field_max_length": {
+    "description": "Verifikasyon longè maksimòm chan",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Tanpri antre yon adrès {fieldName} valab",
+  "@field_invalid_email": {
+    "description": "Validasyon fòma imel",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} dwe {numberType}",
+  "@field_invalid_number": {
+    "description": "Validasyon fòma chif",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} pa ka pi piti pase {min}",
+  "@field_min_value": {
+    "description": "Verifikasyon valè minimòm",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} pa ka pi gwo pase {max}",
+  "@field_max_value": {
+    "description": "Validasyon valè maksimòm",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} dwe yon nonb antye pozitif",
+  "@field_positive_integer": {
+    "description": "Verifikasyon nonb antye pozitif",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} dwe pi gran pase 0",
+  "@field_greater_than_zero": {
+    "description": "Verifikasyon plis pase zewo",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} dwe yon nonb pozitif",
+  "@field_positive_number": {
+    "description": "Validasyon nimewo pozitif",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Tanpri antre yon {fieldName} valab",
+  "@field_invalid_date": {
+    "description": "Validasyon fòma dat",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} pa ka yon dat ki deja pase",
+  "@field_date_not_past": {
+    "description": "Dat la pa ka nan tan pase",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} pa ka pi bonè pase {minDate}",
+  "@field_date_not_before": {
+    "description": "Dat la pa ka pi bonè pase dat ki espesifye a",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} pa ka pi ta pase {maxDate}",
+  "@field_date_not_after": {
+    "description": "Dat la pa ka pi ta pase dat ki espesifye a",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Tanpri antre yon {fieldName} valab",
+  "@field_invalid_value": {
+    "description": "Verifikasyon valè ki pa valab",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} pa ka gen mwens pase 8 karaktè",
+  "@password_min_length": {
+    "description": "Validasyon longè minimòm modpas",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} dwe gen omwen yon lèt majiskil",
+  "@password_uppercase_required": {
+    "description": "Modpas la dwe genyen lèt majiskil",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} dwe gen omwen yon lèt ti kras",
+  "@password_lowercase_required": {
+    "description": "Modpas la dwe genyen lèt ti kras",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} dwe gen omwen yon chif",
+  "@password_digit_required": {
+    "description": "Modpas la dwe gen ladan li chif",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} dwe gen omwen yon karaktè espesyal",
+  "@password_special_char_required": {
+    "description": "Modpas la dwe gen ladan karaktè espesyal",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Modpas yo antre de fwa pa koresponn",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Non atik la pa ka vid",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Non an pa ka depase {maxLength} karaktè",
+  "@name_max_length": {
+    "description": "Verifikasyon longè maksimòm non",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Kantite a pa ka mwens pase {minQuantity}",
+  "@quantity_min": {
+    "description": "Validasyon valè minimòm kantite",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Kantite a pa ka depase {maxQuantity}",
+  "@quantity_max": {
+    "description": "Verifikasyon kantite maksimòm",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Pri inite a pa ka negatif",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Pri inite a pa ka depase {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "Validasyon valè inite maksimòm",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Tanpri mete dat pwodiksyon ak dat ekspirasyon pou kalkile dat valab otomatikman",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Tanpri mete dat achte ak dat ekspirasyon pou kalkile peryòd garanti otomatikman",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Pa kapab kreye kont kalandriye a, tanpri tcheke anviwònman kalandriye sistèm lan",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Nòt tès",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Sa a se yon notifikasyon tès, li itilize pou verifye fonksyon alèt lokal la",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "syèl",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} jou",
+  "@days_with_value": {
+    "description": "Nimewo jou ak paramèt",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Atik la sove",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Atik la mete ajou",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Atik la te ajoute",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Sove avèk siksè",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Mizajou reyisi",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Efase avèk siksè",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Pa kapab sove",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Mizajou echwe",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Pa kapab efase",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Anviwònman lang",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Mete lang pou montre aplikasyon an",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Pa defo sistèm nan",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Sèvi ak lang sistèm nan",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Chanjman lang lan ap pran efè apre aplikasyon an rekòmanse",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Chwa aktyèl: {days} jou",
+  "@current_selection": {
+    "description": "Jou yo chwazi kounye a ap montre",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

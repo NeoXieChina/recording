@@ -1,0 +1,1625 @@
+{
+  "@@locale": "he",
+  "app_name": "חדר קטן לאחסון חפצים",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "בטל",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "אישור",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "שמירה",
+  "@save": {
+    "description": ""
+  },
+  "delete": "מחק",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "ערוך",
+  "@edit": {
+    "description": ""
+  },
+  "add": "להוסיף",
+  "@add": {
+    "description": ""
+  },
+  "search": "חיפוש",
+  "@search": {
+    "description": ""
+  },
+  "settings": "הגדרות",
+  "@settings": {
+    "description": ""
+  },
+  "back": "חזור",
+  "@back": {
+    "description": ""
+  },
+  "next": "הצעד הבא",
+  "@next": {
+    "description": ""
+  },
+  "done": "להשלים",
+  "@done": {
+    "description": ""
+  },
+  "loading": "טוען...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "שגיאה",
+  "@error": {
+    "description": ""
+  },
+  "success": "הצלחה",
+  "@success": {
+    "description": ""
+  },
+  "warning": "אזהרה",
+  "@warning": {
+    "description": ""
+  },
+  "info": "מידע",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "בחר מספר ימי התראה",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "מותאם אישית",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "מותאם אישית ({days} ימים)",
+  "@custom_days": {
+    "description": "זמנים מותאמים אישית עם פרמטרים",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "טווח ימי התראה: {min}-{max} ימים",
+  "@alert_days_range": {
+    "description": "זכור טווח ימים עם פרמטרים",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "אנא הזן את מספר הימים להכנה לתזכורת",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "ימים",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "אנא הזן מספר בין {min} ל-{max}",
+  "@enter_valid_days": {
+    "description": "הודעת אימות הזנת ימים",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "הגדרות התרעה מוקדמת",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "הגדרות לוח שנה",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "סנכרון לוח שנה",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "לאחר הפתיחה תתבקש הרשאת גישה ליומן",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "הוספת אירוע לוח שנה לבדיקה",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "אנא הפעל תחילה את מתג 'סנכרון לוח שנה'",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "הגדרות התראות של אפליקציה",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "תזכורת מקומית",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "לאחר הפעלה, קבל התראות על פג תוקף בתוך האפליקציה",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "שלח הודעת בדיקה",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "אנא הפעל תחילה את המתג 'התראות מקומיות'",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "הגדרת ימי תזכורת",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "מספר הימים להתרעה מראש",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "הגדר עד כמה ימים מראש להתריע על פקיעת תוקף המוצר או האחריות",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "בקשת הרשאה ללוח שנה",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "נדרש גישה ליומן על מנת לסנכרן תזכורות פריטים. האם לאשר?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "להרשות",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "הרשאת הלוח שנה ניתנה, סינכרון הלוח שנה הופעל",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "ההרשאה ללוח השנה נדחתה, לא ניתן להפעיל סנכרון לוח שנה",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "הזכויות נדחו לצמיתות",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "הרשאת היומן נדחתה לצמיתות, בבקשה הפעל את ההרשאה באופן ידני בהגדרות המערכת.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "לך להגדרות",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "הרשאות היומן ניתנו, אך לא ניתן ליצור חשבון יומן. אנא בדוק את הגדרות היומן במערכת",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "הרשאת היומן ניתנה, חשבון יומן מקומי נוצר",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "חשבון הלוח נוצר בהצלחה, אך ייתכן שהמערכת תצטרך קצת זמן כדי להיות פעילה",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "בדיקת הוספת אירוע ללוח שנה הצליחה",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "הוספת אירוע לוח השנה נכשלה, בבקשה בדוק את הגדרות לוח השנה",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "נדרשת גישה ליומן כדי להוסיף אירוע בדיקה",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "הודעת הבדיקה נשלחה",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "שליחת הודעת הבדיקה נכשלה: {error}",
+  "@test_notification_failed": {
+    "description": "הודעת שגיאה על התראה",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "יש צורך בהרשאת התראות כדי להפעיל תזכורות מקומיות",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "הפעולה נכשלה: {error}",
+  "@operation_failed": {
+    "description": "הודעת שגיאה כללית של פעולה",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "התראה על פריט",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "התראה על פג תוקף או אחריות של מוצרים",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "מזון",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "מוצרי בית יומיים",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "קוסמטיקה",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "תרופות",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "מוצרי אלקטרוניקה",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "ריהוט",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "ביגוד",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "ספרים",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "אחר",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "חנות מקוונת",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "חנות פיזית",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "סופרמרקט",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "חנות בלעדית",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "שוק יד שנייה",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "אחר",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "אחר",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "חנות מקוונת",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "מיון פריטים",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "קטגוריה מותאמת אישית",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "גיבוי נתונים",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "לארוז את כל הנתונים (כולל תמונות) כקובץ ZIP לגיבוי",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "גיבוי כל הנתונים",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "גיבוי הצליח",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "גיבוי נכשל: {error}",
+  "@backup_failed": {
+    "description": "הודעת שגיאה בגיבוי נכשל",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "שחזור נתונים",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "שחזר את כל הנתונים מקובץ הגיבוי ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "ייצוא נתונים",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "ייצוא לפורמטים CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "ייבוא נתונים",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "ייבוא נתונים מקבצי CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "הגדרות תזכורות בלוח שנה ובאפליקציה",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "על",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "מידע על יישום וגרסה",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "אנא בחר תחילה את קובץ הגיבוי",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "אשר שחזור",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "שחזור הגיבוי ימחוק את כל הנתונים הקיימים ויחליף אותם בנתוני הגיבוי, פעולה זו אינה ניתנת לביטול. האם אתה בטוח שברצונך להמשיך?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "לאשר שוב",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "האם אתה בטוח שברצונך למחוק את כל הנתונים הקיימים ולשחזר את הגיבוי? פעולה זו לא ניתנת לשחזור!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "אשר כדי לשחזר",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "שחזור הצליח, סך הכל {count} פריטים",
+  "@restore_success": {
+    "description": "החזרת ההצלחה של ההודעה",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "השחזור נכשל: {error}",
+  "@restore_failed": {
+    "description": "שגיאת כשל בשחזור",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "בחר קובץ גיבוי",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "שחזור גיבוי",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "הקובץ שנבחר: {filename}",
+  "@selected_file": {
+    "description": "הודעת הקובץ שנבחר",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "ייצוא הנתונים הצליח",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "הייצוא נכשל: {error}",
+  "@export_failed": {
+    "description": "שגיאת ייצוא נכשלה",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "טיפול בנתונים כפולים",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "זוהו נתונים כפולים, אנא בחרו את אופן הטיפול:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "דלג",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "לכסות",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "דלג על הכל",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "כיסוי מלא",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "אנא בחר תחילה את פורמט הייבוא",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "אשר ייבוא",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "ייבוא הנתונים ידרוס את הנתונים הקיימים, פעולה זו אינה ניתנת לביטול. האם אתה בטוח שברצונך להמשיך?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "ייבוא הנתונים הצליח, סך הכל יובאו {count} פריטים",
+  "@import_success": {
+    "description": "הודעת ייבוא מוצלחת",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "הייבוא נכשל: {error}",
+  "@import_failed": {
+    "description": "הזנת נתונים נכשלה הודעת שגיאה",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "בחר קובץ",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "אין נתונים זמינים",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "כרגע אין נתונים, הקש על הכפתור למטה להוספת הרשומה הראשונה!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "טעינה נכשלה",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "טעינת הנתונים נכשלה, אנא בדוק את חיבור הרשת ונסה שוב",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "נסה שוב",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "כשל בחיבור לרשת",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "אנא בדוק את חיבור האינטרנט ונסה שוב",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "לא נמצאו תוצאות",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "נסה לחפש במילות מפתח אחרות",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "נקה חיפוש",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "הרשאות לא מספיקות",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "יש צורך בהרשאות מתאימות כדי להשתמש בתכונה זו",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "בקשת הרשאה",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "מידע על האפליקציה",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "גרסה",
+  "@version": {
+    "description": ""
+  },
+  "developer": "מפתח",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "מידע על המכשיר",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "דגם הציוד",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "מותג",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "שם המכשיר",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "מוצר",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "חומרה",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "גרסת אנדרואיד",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "גרסת SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "שם המערכת",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "גרסת מערכת",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "זיהוי מכשיר",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "שם מחשב",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "גרסת מספר",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "לא ניתן לקבל מידע על המכשיר: {error}",
+  "@error_getting_device_info": {
+    "description": "שגיאת קבלת מידע על המכשיר",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "מבוא לתפקוד",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "יישום לניהול חפצים חכמים",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "לעזור לך לנהל את תאריכי התפוגה, תאריכי האחריות וכו' של הפריטים, ולספק פונקציית תזכורת חכמה.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "ציוד מתכלה",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "מוצר עמיד",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "מיון",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "מיון לפי שם בסדר עולה",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "מיון לפי שם בסדר יורד",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "סדר עולה לפי תאריך",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "סדר יורד לפי תאריך",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "מיון לפי מחיר יחידה בסדר עולה",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "מיון לפי מחיר יחידה בסדר יורד",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "סדר עולה לפי כמות",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "סדר יורד לפי כמות",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "מחיר כולל בסדר עולה",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "מיון לפי מחיר כולל מהגבוה לנמוך",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "נקה את כל המסננים",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "סרוק כדי להכניס למלאי",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "חיפוש פריטים...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "אין פריטים זמינים",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "לחץ על הכפתור למטה כדי להוסיף את הפריט הראשון",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "פג תוקף",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "עוד מעט פג תוקף",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "הזמן לשירות תחזוקה כבר פג",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "אחריות עומדת לפוג",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "נותרו {count} ימים",
+  "@days_remaining": {
+    "description": "ימים נותרו עם פרמטרים",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "פג תוקף {count} ימים",
+  "@expired_days_ago": {
+    "description": "זמן שפג תוקפו עם פרמטר",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "מחק פריט",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "האם אתה בטוח שברצונך למחוק את \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "אישור מחיקה",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "הפריט נמחק",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "המחיקה נכשלה",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "לא ניתן למחוק את הפריט: {error}",
+  "@failed_to_delete_message": {
+    "description": "מחק הודעת שגיאה",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "סינון לפי טווח תאריכים",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "סינון לפי טווח מחירים",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "החפצים שלי",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "לחץ על הכפתור בפינה הימנית התחתונה כדי להוסיף פריט",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "אשר מחיקה",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "אפשרויות סינון",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "לסנן פריטים לפי סוג, קטגוריה ומיקום",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} קטגוריות",
+  "@categories_count": {
+    "description": "הצגת מספר לפי קטגוריה",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "כל הקטגוריות",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "אין נתונים לפי קטגוריה",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "מקום אחסון",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} מקומות",
+  "@locations_count": {
+    "description": "הצגת מספר המקומות",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "כל המקומות",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "אין נתוני מיקום זמינים",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "טווח תאריכים",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "בחר טווח תאריכים",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "טווח מחירים",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "טווח מחירים ליחידה",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "מחיר ליחידה המינימלי",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "מחיר ליחידה הגבוה ביותר",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "טווח המחיר הכולל",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "מחיר כולל מינימלי",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "מחיר כולל מקסימלי",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "נקה את מסנן המחיר",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "הכנס את הברקוד למסגרת כדי לסרוק",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "המוצר כבר קיים",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "קוד בר: {barcode}",
+  "@barcode_with_value": {
+    "description": "הצגת ברקוד עם פרמטרים",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "שם: {name}",
+  "@name_with_value": {
+    "description": "השם מציג עם פרמטרים",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "קטגוריה: {category}",
+  "@category_with_value": {
+    "description": "הצגה מסווגת עם פרמטרים",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "כמות נוכחית: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "הכמות הנוכחית מוצגת עם פרמטרים",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "אנא בחר פעולה:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "יציאה מהמלאי",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "כניסה למחסן",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "כמות שנכנסה למלאי",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "כמות יצוא מהמלאי",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "כמות",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "אנא הזן את כמות הכניסה למלאי",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "אנא הזן את כמות היצוא מהמלאי",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "נוסף {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "הודעת הוספת פריט",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "האם אתה בטוח שברצונך למחוק את \"{name}\"? פעולה זו אינה ניתנת לביטול.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "הודעת אישור מחיקה עם אזהרה שלא ניתנת לביטול",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "צומצם ב-{name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "הודעת הפחתת פריטים",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "מאגר הנתונים אופס, הטבלאות ייבנו מחדש",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "שגיאה בעת איפוס מסד הנתונים: {error}",
+  "@database_reset_error": {
+    "description": "שגיאת איפוס מסד נתונים",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "אתחול נתוני הדמיה נכשל: {error}",
+  "@mock_data_init_failed": {
+    "description": "אתחול נתוני סימולציה נכשל",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "פתרון:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. הסר את ההתקנה של האפליקציה והתקן אותה מחדש",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. או לנקות נתוני אפליקציה",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. או להגדיר את resetDatabaseOnStart ל-true ואז להפעיל מחדש",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "נכשל אתחול שירות התזכורות: {error}",
+  "@notification_service_init_failed": {
+    "description": "אתחול שירות ההודעות נכשל",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "נכשל בבדיקת חשבון הלוח: {error}",
+  "@check_calendar_account_failed": {
+    "description": "נכשל בבדיקת חשבון היומן",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "יצירת לוח שנה נכשלה: {error}",
+  "@create_calendar_failed": {
+    "description": "יצירת לוח שנה נכשלה",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "הוספת אירוע ללוח השנה נכשלה: {error}",
+  "@add_calendar_event_failed": {
+    "description": "הוספת אירוע ליומן נכשלה",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "נכשל במחיקת אירוע לוח שנה: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "נכשל המחיקה של אירוע היומן",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "נכשל בהגדרת הודעת רשות: {error}",
+  "@set_permission_message_failed": {
+    "description": "הגדרת הודעת הרשאת כישלון",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "הצליח לאתחל {count} פריטי נתונים מדומים",
+  "@mock_data_init_success": {
+    "description": "אתחול נתוני סימולציה הצליח",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "בבסיס הנתונים קיימים {count} רשומות, דילוג על אתחול נתוני הדמיה",
+  "@database_has_data": {
+    "description": "המסד נתונים כבר מכיל נתונים",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "יכול להיות שמבנה מסד הנתונים אינו תואם, מומלץ לנקות את נתוני האפליקציה או להתקין מחדש",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "קובץ מסד הנתונים הישן נמחק",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "הגיבוי של הנתונים ריק",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "קובץ הגיבוי לא קיים",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "קידוד הקובץ אינו בפורמט UTF-8 חוקי. ודא שהקובץ נשמר בקידוד UTF-8. פרטי השגיאה: {error}",
+  "@file_not_utf8": {
+    "description": "שגיאת קידוד קובץ",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "הקובץ לא קיים: {filePath}",
+  "@file_not_found": {
+    "description": "שגיאת קובץ לא קיים",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "הקובץ ריק: {filePath}",
+  "@file_empty": {
+    "description": "שגיאת קובץ ריק",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "התוכן של הקובץ ריק לאחר הפענוח, ייתכן שאין התאמה בקידוד",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} לא יכול להיות ריק",
+  "@field_cannot_be_empty": {
+    "description": "השדה אינו יכול להיות ריק",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} אורך לא יכול להיות פחות מ-{minLength} תווים",
+  "@field_min_length": {
+    "description": "אימות אורך מינימלי של השדה",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} לא יכול להיות ארוך מ-{maxLength} תווים",
+  "@field_max_length": {
+    "description": "אימות אורך שדה מקסימלי",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "אנא הזן כתובת {fieldName} חוקית",
+  "@field_invalid_email": {
+    "description": "אימות פורמט דואר אלקטרוני",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} חייב להיות {numberType}",
+  "@field_invalid_number": {
+    "description": "אימות פורמט מספר",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} לא יכול להיות פחות מ-{min}",
+  "@field_min_value": {
+    "description": "אימות ערך מינימלי",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} לא יכול להיות גדול מ-{max}",
+  "@field_max_value": {
+    "description": "אימות ערך מרבי",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} חייב להיות מספר שלם חיובי",
+  "@field_positive_integer": {
+    "description": "אימות מספר שלם חיובי",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} חייב להיות גדול מ-0",
+  "@field_greater_than_zero": {
+    "description": "אימות גדול מאפס",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} חייב להיות מספר חיובי",
+  "@field_positive_number": {
+    "description": "אימות מספר חיובי",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "אנא הזן {fieldName} תקף",
+  "@field_invalid_date": {
+    "description": "אימות פורמט תאריך",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} לא יכול להיות תאריך מהעבר",
+  "@field_date_not_past": {
+    "description": "התאריך לא יכול להיות בעבר",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} לא יכול להיות מוקדם מ-{minDate}",
+  "@field_date_not_before": {
+    "description": "התאריך לא יכול להיות מוקדם מהתאריך שצוין",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} לא יכול להיות מאוחר מ-{maxDate}",
+  "@field_date_not_after": {
+    "description": "התאריך לא יכול להיות מאוחר מהתאריך שצוין",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "אנא הזן {fieldName} תקף",
+  "@field_invalid_value": {
+    "description": "אימות ערך לא חוקי",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} האורך לא יכול להיות פחות מ-8 תווים",
+  "@password_min_length": {
+    "description": "אימות אורך סיסמה מינימלי",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} חייב לכלול לפחות אות אחת גדולה",
+  "@password_uppercase_required": {
+    "description": "סיסמה חייבת להכיל אותיות גדולות",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} חייב לכלול לפחות אות קטנה אחת",
+  "@password_lowercase_required": {
+    "description": "הסיסמה חייבת לכלול אותיות קטנות",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} חייב לכלול לפחות מספר אחד",
+  "@password_digit_required": {
+    "description": "הסיסמה חייבת לכלול מספרים",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} חייב לכלול לפחות תו מיוחד אחד",
+  "@password_special_char_required": {
+    "description": "הסיסמה חייבת להכיל תווים מיוחדים",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "סיסמאות שהוזנו פעמיים אינן זהות",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "שם הפריט לא יכול להיות ריק",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "השֵם לא יכול לעלות על {maxLength} תווים",
+  "@name_max_length": {
+    "description": "אימות אורך השם המרבי",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "הכמות לא יכולה להיות פחות מ{minQuantity}",
+  "@quantity_min": {
+    "description": "אימות ערך מינימלי",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "הכמות לא יכולה להיות יותר מ־{maxQuantity}",
+  "@quantity_max": {
+    "description": "אימות ערך מקסימלי",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "המחיר ליחידה לא יכול להיות מספר שלילי",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "המחיר ליחידה לא יכול לעלות על {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "אימות ערך מקסימלי של מחיר יחידה",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "אנא קבע את תאריך הייצור ותוקף כדי לחשב אוטומטית את תקופת התוקף",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "אנא הגדר את תאריך הרכישה ותוקף המוצר כדי לחשב אוטומטית את תקופת האחריות",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "לא ניתן ליצור חשבון לוח שנה, אנא בדוק את הגדרות לוח השנה של המערכת",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "התראה לבדיקת",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "זוהי הודעת בדיקה, לשם אימות פונקציית התזכורות המקומיות",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "שמיים",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} ימים",
+  "@days_with_value": {
+    "description": "מספר הימים עם פרמטר",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "הפריט נשמר",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "הפריט עודכן",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "הפריט נוסף",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "שמירה הצליחה",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "העדכון הצליח",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "נמחק בהצלחה",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "שמירה נכשלה",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "העדכון נכשל",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "המחיקה נכשלה",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "הגדרות שפה",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "הגדר את שפת התצוגה של האפליקציה",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "ברירת המחדל של המערכת",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "השתמש בשפת המערכת",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "השפה תשתנה לאחר הפעלת האפליקציה מחדש",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "הבחירה הנוכחית: {days} ימים",
+  "@current_selection": {
+    "description": "הימים שנבחרו להצגה כרגע",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}

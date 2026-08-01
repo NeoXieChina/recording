@@ -189,7 +189,7 @@ class _ImportScreenState extends State<ImportScreen> {
       body: CustomScrollView(
         slivers: [
           SliverAppBar.large(
-            title: Text(l10n.import_data, style: theme.textTheme.titleLarge),
+            title: Text(l10n.import_data),
             leading: IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),

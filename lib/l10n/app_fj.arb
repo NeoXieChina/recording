@@ -1,0 +1,1625 @@
+{
+  "@@locale": "fj",
+  "app_name": "Veivakabibitaki ni iyaya ena dakuni",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Sega",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Vakadeitaka",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Maroroya",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Sokati",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Vakadewataka",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Vakuria",
+  "@add": {
+    "description": ""
+  },
+  "search": "Vakasaqara",
+  "@search": {
+    "description": ""
+  },
+  "settings": "iVale ni Veivakatorocaketaki",
+  "@settings": {
+    "description": ""
+  },
+  "back": "Lesu",
+  "@back": {
+    "description": ""
+  },
+  "next": "Lako ki na yasana tarava",
+  "@next": {
+    "description": ""
+  },
+  "done": "Vakakina",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Tukutuku tiko...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Daru",
+  "@error": {
+    "description": ""
+  },
+  "success": "Sega ni cava",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Valea",
+  "@warning": {
+    "description": ""
+  },
+  "info": "iVale ni Veika",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Digitaka na ilakolako ni veisau ni siga",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Valei ni vakadidike",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Vakailavo Yaloyalo ({days} siga)",
+  "@custom_days": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Vakacala na veikacacataka ni siga: {min}-{max} na siga",
+  "@alert_days_range": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Kerekere volai na ilimidavulu ni siga",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Siga",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Tomani na iwiliwili mai {min} ki {max}",
+  "@enter_valid_days": {
+    "description": "",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "iTuvatuva ni Kuwai Vakalailai",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "iTuvatuva ni Kalenda",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Vakatokai ni Kalenda",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Ni otā qai na kerea na tika ni kalendā",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Vakavei koya na gauna ni veivakatovolei",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Yalovinaka tekivu na 'vakadewataki ni kalenda'",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "iTuvatuva ni App",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "iTukutuku ena vanua",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Vakatadra ka qai rogoca na ivakatawase ni vakalailai ni app ena loma ni gauna ni kena vakayacori",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Tukuna na ivakamacala ni veivakatovolei",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Yalataka na 'ivolakerekere ni vanua' ena tikina batabata",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Veivakasaurarataki ni siga",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Veivosaki ena siga e liu",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Sokosoko na kena ivakaraitaki ni siga me tukuna kevaka sa rui mudu nai livaliva se na kena iwali ni ciqomi",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Kerekere ni itukutuku ni kaleniva",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "E tika mo veivakadonui ena nomu iwasewase ni kalendari me vakalewena na itukutuku ni iyaya. Dou na vakarautaka tiko ena ka?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "vakarautaka",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Na itavi ni kalenda sa solia, na veivakatorocaketaki ni kalenda sa tekivu",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Na itavi ni kalenda e laivi, e sega ni rawa ni vakatuburi na veivakarautaki ni kalenda",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Vakacalai tu na dodonu",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Na ilesilesi ni kalenda sa batilaki vakatotolo, yalovinaka vakatotolo mai na iyaya ni kena veisautaki na ilesilesi ena sitima.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Lako ki na veivakadinadina",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Na veivakacegui ni kalenda e sa solia oti, ia e sega ni rawa ni bulia na akaude kalenda. Kerekere mo raica na veika e tu ena kalenda ni sisitemu.",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Na tika ni kalendari e solia oti, sa buli oti na akaude ni kalendari vakavanua",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "E sa rawata na ilavo ni kalendari, ia e rawa ni gadrevi e dua na gauna me vakayagataki kina na iyaya ni kena cakacaka ena sisitemu",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Vakayagataka na kena vakuria na macawa ni gauna e yaco vinaka",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "E sega ni rawata na vakatotomuri ni veika e na kalenda ni vakatovolei, vakadinadinataka na veisau ni kalenda",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "E bibi na veika e vakatulewa kina na kalendari me rawa ni biuta e dua na cakacaka vakadidike",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Veivosaki ni vakatovolei sa tukuna oti",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Sega ni vakauta na ileso ni vakaraitaki: {error}",
+  "@test_notification_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "E bibi na itukutuku ni vakatulewa me rawa ni vakayagataki na vakatutu vaqaqacotaki ena vanua",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Sega ni yaco na cakacaka: {error}",
+  "@operation_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Vakaveitalia ni I Vola",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Tukutuku ni gauna ni iwalewale se kena qaiveina ena tikina batabata",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Kakanisa",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "iyaya ni siga kei na siga",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "iPapila ni Yago",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Vale ni vukei ni mate",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "iyaya ni mataveilawa",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "iVale ni iyaya",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Vale ni ulu",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Vale ni volavola",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Eso tale",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Vale ni volivoli ena initaneti",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Vale ni volivoli ena vanua",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "Vale ni volivoli levu",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Dua na sitoa ni volivoli vakatabakidua",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "makete vakavei ni iyaya",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Eso tale",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Eso tale",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Vale ni volivoli ena initaneti",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "iVeika e wasei",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Vakarautaka na itavi",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "iTukutuku ni Backup",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Vakavinakataka kece na itukutuku (okati kina na iyaloyalo) me vaka na faila ZIP me taqomaki",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Veivakabekataki ni veika kece me baleta na kena itukutuku",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Sa yaco vinaka na backup",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Na veisau ni iwalewale e caka vakamatei: {error}",
+  "@backup_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Vakatubura na iTukutuku",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Vakayacora tale na veika kece mai na faila ni back-up ni ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Vakatokai na iyaya ni itukutuku",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Vakatautauvata me CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Vakatokai na itukutuku",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Vakatavulica na iTukutuku mai na CSV, TXT, SQL iWasewase",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Vakatovolei ni kalendari kei na vakatovolei ni app",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Me baleta",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Veika e baleta na porokaramu kei na kena ivakataoti",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Yalovinaka digitaka na faila ni buli tale",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Vakatulewa me vakaukautaka tale",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Na vakatovolei ni vakauqeti na isau ena na vakavouya na veika kece e tiko ka vakauta vakadua na isau ni vakauqeti, e sega ni rawa ni vakasavi. O vinakata mo tomana tiko?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Vakaikonaki tale",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "O sa dauveibutumu me vakatotolo taucoko na itukutuku kece o ya ka vakavouya na veiliutaki ena imeli? Na cakacaka qo e na sega ni rawa ni vakalewena tale!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Vakaikonaki me vakaukauwataki",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Vakatokai vinaka, tiko {count} na iyaya",
+  "@restore_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Sega ni rawa ni vakavurea: {error}",
+  "@restore_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Digitaka na faila ni vakatulewa",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Vukea na isau ni kena mai vakalailai",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "E sa digitaki na faila: {filename}",
+  "@selected_file": {
+    "description": "",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Veivakabibitaki ni iyaya ena rawata na veiwekani",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Sega ni rawata na vakatulewa ni isala: {error}",
+  "@export_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Vakayacora tale na iwasewase ni itukutuku",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Kena vakadikevi na iwalewale e dua ga, yaco me digitaki na sala ni qarava: ",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Lako vata",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "sasa",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Tosokete kece",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Valea taucoko",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Yalovinaka digitaka na iwalewale ni vakau",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Vakadeitaka na isau ni imuntaraki",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Na vakauitukutuku na batabata na itukutuku e tiko, ena sega ni rawa ni veisau tale. O dou vinakata tiko beka ena toso tiko?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Sa yaco vinaka na vakatotolo ni iwiliwili, e {count} na iyaya sa vakatotolo",
+  "@import_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Sega ni vakadewataki na icavacava: {error}",
+  "@import_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Digitaka na faila",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Sega ni iYaloyalo",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Sega ni iulutaga ena gauna qo, kiliki na butoni ena ruku me vakalati ira na itukutuku taumada!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Valea na vakacalai ni livaliva",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Sa mai basika na kena buli na idusidusi, vakadikeva na nomu veisautaki ni matanitu ka vakayagataka tale",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Vakasosomitaka tale",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Sega ni rawa ni veisautaki na isema ni initaneti",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Kerekere vakadeitaka na nomu veisureti ni veivakacegui ka qai vakayagataka tale",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Sega ni kunea na iwiliwili",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Vakayagataka tale eso na vosa me baleta na kena vakasaqara",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Sosomi na vakasaqaqara",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Vale ni veiliutaki e sega ni vakakina",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Me tara na dodonu me rawa ni vakayagataki oqo na ituvaki",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Kerekere na iko me soli na ilesilesi",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Vale ni iVakadonui ni porokaramu",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "iVakatakilakila ni iwasewase",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Valei ni vakatorocaketaki",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Vale ni iyaloyalo ni iyaya",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Vale ni iyaya",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "iVale ni ivoli",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Yaca ni iyaya",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "iVakatakilakila ni iyaya",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Vale ni iyaya",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Vesion ni Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Vesion ni SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Vosa ni iVakatakilakila ni Ivu",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Vesion ni iYaya ni System",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "iTukutuku ni iyaya",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Yaca ni kompiuta",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Vale ni iwasewase",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Sega ni rawa ni kunea na itukutuku ni iyaya: {error}",
+  "@error_getting_device_info": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Vakatakilakila ni cakacaka",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "iVakayagataki ni iyaya matai me buli vinaka na iyaya",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Vakayagataka na veivuke me qarava na nomu itukutuku me baleta na gauna ni yabaki ni maliwa ni ivoli, gauna ni vakadeitaki, kei na so tale na itukutuku, ka solia talega na itukutuku vakatagi vakasemi.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "iYaya ni vakayagataki",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "iyaya e draki tawa vakalailai",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "iValei",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Yaca teitei ki loma",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Yaca vakasokalou",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "iTakitaki ni Siga ena Vakarautaki Rise",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "iTakitaki ni Siga Taucoko",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Veisau ni isau ena tarava ena i tika",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Veisau ni isau lailai ki levu",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "iTavi levu ena iwasewase ena iTavaki",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "i-lawa ni levu rawa",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Veisau ni isau taucoko ena i tika ni levu",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Veisau ni isau taucoko ena i tika ni loma",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Vakavei ira kece na vakaseketaki",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Vakatokai na iyaya me curu ena sitoka",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Vakatara na iyaya...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Sega ni iyaya",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Dinani na boto ena ra me vakuria na ka e vuqa ni imatai",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Sa cava na gauna",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Veisiga sa soli rawa",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Na gauna ni veiqaravi ni veivakadidike sa oti",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Na veivakadeitaki ena na cava tiko ena gauna lailai",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "E mai sivia tiko na {count} na siga",
+  "@days_remaining": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "E sa oti na {count} na siga",
+  "@expired_days_ago": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Sosomitaka na iyaya",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "O sa na cala me tosoveina {name}?",
+  "@delete_item_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Na iyaya sa vakarautaki",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Valea na cakacaka ni bibi",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Sega ni rawa ni biu na ka: {error}",
+  "@failed_to_delete_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Veivosaki ni gauna e toso",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Veisau ni iyaya ni isau",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Noqu iyaya",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Titikina na boto ena dakuni i cake ena kena i vakarua me vakuria na ka",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Vakaikonaki me toso",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Veisautaki ni digidigi",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Vakamacalataki na iyaya ena kena mataqali, iwasewase kei na vanua",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} na iwasewase",
+  "@categories_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Vakatakilakila kece",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Sega ni i tukutuku e vakavakarau me buli",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Yaca ni iLavo",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} na vanua",
+  "@locations_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Vale kece",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Sega ni i tukutuku ni vanua ena tiko",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Vale ni gauna",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Digitaka na yasana ni gauna",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Vale ni isau",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Yabaki ni isau",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Isau levu duadua",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Yau levu duadua",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Yau taucoko ni iwiliwili",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Yau levu duadua",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Yau levu duadua",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Vakavei na iwiliwili ni isau",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Tauta na bar code ena i box me vakadewataki",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Na iyaya e tiko oti",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Kodi ni Baumu: {barcode}",
+  "@barcode_with_value": {
+    "description": "",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Yaca: {name}",
+  "@name_with_value": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Vakarautaki ena iVolakerekere: {category}",
+  "@category_with_value": {
+    "description": "",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Lailai oqo: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Yalovinaka digitaka na cakacaka:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Vale ni volivoli",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Valei ni iyaya",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Yavu ni katuba",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "iNamba ni volitaka",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "iVale ni iwiliwili",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Kerekere volia na levu me tomani ena kabani",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Kerekere volia na levu ni isau me buli mai",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Sa vakuria {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "O cei mo vakamatei \"{name}\"? E sega ni rawa ni veisautaki oqo na cakacaka.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Kua ni sa lailai {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Na database sa vakavureti tale, ena buli tale na iwasewase ni tabula",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Sega ni cala ena kena vakacacani na database: {error}",
+  "@database_reset_error": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Na itinitini ni iulutaga ni kena vakatovotovo e sega ni yaco: {error}",
+  "@mock_data_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "iTuvatuva ni iwali",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Tadra na app ka vakatubura tale",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Se qai vakacina na iwasewase ni porokaramu",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Se rawa ni vakayacori tale na cakacaka ni wiliwili ni database ni vakatakila na resetDatabaseOnStart me vaka dina",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Na kena tekivu na veiqaravi vakamugala e sega ni yaco: {error}",
+  "@notification_service_init_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Vakatovotovo na akaude ni kalenda: {error}",
+  "@check_calendar_account_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Sega ni rawa ni bulia na kalendari: {error}",
+  "@create_calendar_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "E sega ni rawata me laivi na veika e caliqa ena kalenda: {error}",
+  "@add_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "E sega ni yaco na veika me vakarautaki kina na kalenda: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Vakatikora na iTukutuku ni vakatulewa ni lesilesi: {error}",
+  "@set_permission_message_failed": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "E sa rawata vinaka na vakat/initiate {count} na iyaya ni vakadinadina",
+  "@mock_data_init_success": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "E tiko ena database {count} na itukutuku, taura vakalailai na ituvatuva ni itukutuku ni vakasavu",
+  "@database_has_data": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "E rawa ni sega ni duidui na iwasewase ni database, e vakararavi me vakacava na kena vakaduiduitaki na data ni app se ena vakatotogitaki tale.",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Sa biuti na faila ni veika rara ni iVola vou",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Na iyaya ni itukutuku ni veisau e sega ni ilavo",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Na faila ni backup e sega ni tu",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Na ikavida ni ivola e sega ni iwalewale donu ni UTF-8. Kerekere mo vakadeitaka ni sa vakatututaka na ivola ena ivakatagedegede ni UTF-8. Na veika dina ni cala: {error}",
+  "@file_not_utf8": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Oqo na i vola e sega ni tiko: {filePath}",
+  "@file_not_found": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Na ivola e vakadavaki: {filePath}",
+  "@file_empty": {
+    "description": "",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Na iVola e vakadewataki oti e tu vakadua, e rawa ni sega ni salavata na itukutuku vakadewataki",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} e sega ni rawa ni vakacurumi",
+  "@field_cannot_be_empty": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} e sega ni rawata na rui lailai ni {minLength} mataqali itukutuku",
+  "@field_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} e sega ni rawa ni sivia {maxLength} na itukutuku",
+  "@field_max_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Kerekerei mo volavola e dua na {fieldName} i-yadra dodonu",
+  "@field_invalid_email": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} me vaka {numberType}",
+  "@field_invalid_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} e sega ni rawa ni lailai vei {min}",
+  "@field_min_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} e sega ni levu cake mai {max}",
+  "@field_max_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} e dodonu me dua na iwiliwili vinaka",
+  "@field_positive_integer": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} e dodonu me levu mai na 0",
+  "@field_greater_than_zero": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} e dodonu me dua na iwiliwili vinaka",
+  "@field_positive_number": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Yalataka na {fieldName} dodonu",
+  "@field_invalid_date": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} e sega ni rawa me dua na siga mai liu",
+  "@field_date_not_past": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} e sega ni rawa ni sala i liu vei {minDate}",
+  "@field_date_not_before": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} e sega ni bera sara mai vei {maxDate}",
+  "@field_date_not_after": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Yalataka na {fieldName} dodonu",
+  "@field_invalid_value": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} e sega ni rawa ni lailai mai na 8 na mataqali ulutaga",
+  "@password_min_length": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} e dodonu me okati e loma e dua na lewena levu",
+  "@password_uppercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} e dodonu me okati e loma e dua na lewena lailai",
+  "@password_lowercase_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} me vaka kina e dua ga na iwiliwili",
+  "@password_digit_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} e dodonu me okati e dua se vica na ivakatakilakila vakatani",
+  "@password_special_char_required": {
+    "description": "",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Na pasiwedi e laurai e rua e sega ni duidui",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Na yaca ni iyaya e sega ni rawa ni vakavuna",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Na yaca e sega ni rawa ni sivia na {maxLength} na inaki",
+  "@name_max_length": {
+    "description": "",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "E sega ni rawa ni lailai cake nai levu e {minQuantity}",
+  "@quantity_min": {
+    "description": "",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "E sega ni rawa ni sivia {maxQuantity} na iwiliwili",
+  "@quantity_max": {
+    "description": "",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Na isau e sega ni rawa ni bibi",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Na ilavo e rawa ni volia kina e sega ni sivia {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Yalataka na siga ni kena vakatubura kei na gauna ni bula me vakadodonutaki kina na gauna e vinaka kina",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Yalovinaka seti na siga ni volivoli kei na gauna ni bula ni iyaya me vakadodonutaki kina na gauna ni warranty",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "E sega ni rawa ni buli akauwese ni kalenda, vakadeitaka na kena isetiyasi ni kalenda ni sisitemu",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Vale ni veivosaki ni vakadidike",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Qo e dua na ivolakerekere ni vakadinadina me vakadeitaka na veiqaravi ni vakatutu e koro",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "lagi",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} siga",
+  "@days_with_value": {
+    "description": "",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Na iyaya sa volitaki",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Na iyaya sa vakavoui",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Veika sa vakuria",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Valea vinaka",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Vakatubura vinaka",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Valea vinaka",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Valea na vakasave",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Vakatakilakila ni vakavoutaki ena sega ni yaco",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Valea na cakacaka ni bibi mai",
+  "@delete_failed": {
+    "description": ""
+  },
+  "language_settings": "Vale ni vosa",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Veivakadeitaki ni vosa ni iwalewale ni kena vakaraitaki na porokaramu",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Vale ni sisiteme",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Vakayagataka na vosa ni sisitemu",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Na veisau ni vosa ena yaco kevea ni sa tekivu tale na porokaramu",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "current_selection": "Na veisautaki e cake nikua: {days} siga",
+  "@current_selection": {
+    "description": "Na veisiga e digitaki ena gauna qo e vakaraitaki",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  }
+}
