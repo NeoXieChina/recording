@@ -30,6 +30,12 @@ class AppLocalizationsFil extends AppLocalizations {
   String get add => 'Magdagdag';
 
   @override
+  String get edit_item => 'I-edit ang item';
+
+  @override
+  String get add_item => 'Magdagdag ng item';
+
+  @override
   String get search => 'Maghanap';
 
   @override
@@ -523,7 +529,13 @@ class AppLocalizationsFil extends AppLocalizations {
   String get system_name => 'Pangalan ng Sistema';
 
   @override
+  String get operating_system => 'Operating System';
+
+  @override
   String get system_version => 'Bersyon ng sistema';
+
+  @override
+  String get dart_version => 'Bersyon ng Dart';
 
   @override
   String get device_identifier => 'Pagtukoy ng kagamitan';
@@ -777,18 +789,8 @@ class AppLocalizationsFil extends AppLocalizations {
       'Pakipasok ang dami ng ilalabas sa bodega';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Nadagdagan na ang $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Sigurado ka bang gusto mong tanggalin ang \"$name\"? Ang pagkilos na ito ay hindi maaaring bawiin.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Bumaba na ng $name $quantity$unit';
   }
 
   @override
@@ -1075,4 +1077,110 @@ class AppLocalizationsFil extends AppLocalizations {
 
   @override
   String get delete_failed => 'Hindi natanggal';
+
+  @override
+  String get test_calendar_event => 'Pagsubok ng kaganapan sa kalendaryo';
+
+  @override
+  String get test_calendar_event_description =>
+      'Ito ay isang test event, na ginagamit upang suriin ang functionality ng kalendaryo';
+
+  @override
+  String get in_app => 'sa loob ng app';
+
+  @override
+  String get enable_alert => 'Paganahin ang paalala ng pag-expire';
+
+  @override
+  String get alert_method => 'Paraan ng paalala';
+
+  @override
+  String get alert_method_in_app => 'App lamang';
+
+  @override
+  String get alert_method_calendar => 'Kalendaryo lamang';
+
+  @override
+  String get alert_method_both => 'dalawa';
+
+  @override
+  String get alert_days_before => 'Bilang ng araw ng maagang paalala';
+
+  @override
+  String get use_global_setting => 'Gamitin ang mga global na setting';
+
+  @override
+  String get barcode_label => 'Barcode';
+
+  @override
+  String get name_label => 'Pangalan';
+
+  @override
+  String get category_label => 'Pag-uuri';
+
+  @override
+  String get current_quantity => 'Kasalukuyang dami';
+
+  @override
+  String get select_operation => 'Pumili ng operasyon';
+
+  @override
+  String get unit => 'yunit';
+
+  @override
+  String get custom_unit => 'Pasadyang yunit';
+
+  @override
+  String get enter_unit => 'Mangyaring maglagay ng yunit';
+
+  @override
+  String get custom_location => 'Pasadyang lokasyon';
+
+  @override
+  String get enter_storage_location => 'Paki-input ang lokasyon ng imbakan';
+
+  @override
+  String get scan => 'I-scan ang QR code';
+
+  @override
+  String get scan_to_stock => 'I-scan ang code para mag-imbak';
+
+  @override
+  String get item_categories => 'Pagsasailalim ng mga bagay sa klase';
+
+  @override
+  String get storage_locations => 'Lugar ng Imbakan';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Ilagay ang barcode sa loob ng kahon para i-scan';
+
+  @override
+  String get barcode => 'barcode';
+
+  @override
+  String get enter_barcode_or_scan => 'Mangyaring ipasok ang barcode o i-scan';
+
+  @override
+  String get basic_information => 'Pangunahing impormasyon';
+
+  @override
+  String get item_name => 'Pangalan ng Bagay';
+
+  @override
+  String get enter_item_name => 'Paki-input ang pangalan ng item';
+
+  @override
+  String get enter_category_name =>
+      'Mangyaring ilagay ang pangalan ng kategorya';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Nadagdagan na ang $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Bumaba na ng $itemName $quantity$unit';
+  }
 }

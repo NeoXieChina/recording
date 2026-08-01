@@ -30,6 +30,12 @@ class AppLocalizationsHu extends AppLocalizations {
   String get add => 'Hozzáad';
 
   @override
+  String get edit_item => 'Elem szerkesztése';
+
+  @override
+  String get add_item => 'Elem hozzáadása';
+
+  @override
   String get search => 'Keresés';
 
   @override
@@ -518,7 +524,13 @@ class AppLocalizationsHu extends AppLocalizations {
   String get system_name => 'Rendszer neve';
 
   @override
+  String get operating_system => 'Operációs rendszer';
+
+  @override
   String get system_version => 'Rendszerverzió';
+
+  @override
+  String get dart_version => 'Dart verzió';
 
   @override
   String get device_identifier => 'Eszközazonosító';
@@ -771,18 +783,8 @@ class AppLocalizationsHu extends AppLocalizations {
       'Kérjük, adja meg a kiszállított mennyiséget';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Hozzáadva $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Biztosan törölni szeretné a „$name” elemet? Ez a művelet nem vonható vissza.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Már csökkent $name $quantity$unit';
   }
 
   @override
@@ -1067,4 +1069,110 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get delete_failed => 'Törlés sikertelen';
+
+  @override
+  String get test_calendar_event => 'Naptáresemény tesztelése';
+
+  @override
+  String get test_calendar_event_description =>
+      'Ez egy tesztesemény a naptár funkciójának ellenőrzésére';
+
+  @override
+  String get in_app => 'alkalmazáson belüli';
+
+  @override
+  String get enable_alert => 'Engedélyezze a lejárati emlékeztetőt';
+
+  @override
+  String get alert_method => 'Emlékeztetési mód';
+
+  @override
+  String get alert_method_in_app => 'Csak alkalmazáson belül';
+
+  @override
+  String get alert_method_calendar => 'Csak naptár';
+
+  @override
+  String get alert_method_both => 'mindkettő';
+
+  @override
+  String get alert_days_before => 'Előzetes értesítés napjai';
+
+  @override
+  String get use_global_setting => 'Globális beállítások használata';
+
+  @override
+  String get barcode_label => 'Vonalkód';
+
+  @override
+  String get name_label => 'Név';
+
+  @override
+  String get category_label => 'Kategorizálás';
+
+  @override
+  String get current_quantity => 'Jelenlegi mennyiség';
+
+  @override
+  String get select_operation => 'Kérjük, válasszon műveletet';
+
+  @override
+  String get unit => 'egység';
+
+  @override
+  String get custom_unit => 'Egyéni egység';
+
+  @override
+  String get enter_unit => 'Kérjük, adja meg az egységet';
+
+  @override
+  String get custom_location => 'Egyéni hely';
+
+  @override
+  String get enter_storage_location => 'Kérjük, adja meg a tárolási helyet';
+
+  @override
+  String get scan => 'Kód beolvasása';
+
+  @override
+  String get scan_to_stock => 'Beolvasás a raktárba';
+
+  @override
+  String get item_categories => 'Árukategória';
+
+  @override
+  String get storage_locations => 'Tárolási hely';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Helyezze a vonalkódot a keretbe a beolvasáshoz';
+
+  @override
+  String get barcode => 'Vonalkód';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Kérjük, adja meg a vonalkódot vagy olvassa be a QR-kódot';
+
+  @override
+  String get basic_information => 'Alapinformáció';
+
+  @override
+  String get item_name => 'Áru neve';
+
+  @override
+  String get enter_item_name => 'Kérjük, adja meg a tárgy nevét';
+
+  @override
+  String get enter_category_name => 'Kérjük, adja meg a kategória nevét';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Hozzáadva $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Már csökkent $itemName $quantity$unit';
+  }
 }

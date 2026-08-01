@@ -30,6 +30,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get add => 'Add';
 
   @override
+  String get edit_item => 'Edit Item';
+
+  @override
+  String get add_item => 'Add Item';
+
+  @override
   String get search => 'Search';
 
   @override
@@ -515,7 +521,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get system_name => 'System Name';
 
   @override
+  String get operating_system => 'Operating System';
+
+  @override
   String get system_version => 'System Version';
+
+  @override
+  String get dart_version => 'Dart version';
 
   @override
   String get device_identifier => 'Device Identifier';
@@ -767,18 +779,8 @@ class AppLocalizationsEn extends AppLocalizations {
       'Please enter the quantity to be shipped';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Has added $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Are you sure you want to delete \"$name\"? This action cannot be undone.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Has been reduced by $name $quantity$unit';
   }
 
   @override
@@ -1062,4 +1064,110 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get delete_failed => 'Delete failed';
+
+  @override
+  String get test_calendar_event => 'Test Calendar Event';
+
+  @override
+  String get test_calendar_event_description =>
+      'This is a test event used to verify the calendar functionality';
+
+  @override
+  String get in_app => 'In-app';
+
+  @override
+  String get enable_alert => 'Enable expiration reminder';
+
+  @override
+  String get alert_method => 'Reminder method';
+
+  @override
+  String get alert_method_in_app => 'App only';
+
+  @override
+  String get alert_method_calendar => 'Calendar only';
+
+  @override
+  String get alert_method_both => 'Both';
+
+  @override
+  String get alert_days_before => 'Number of days for advance notice';
+
+  @override
+  String get use_global_setting => 'Use global settings';
+
+  @override
+  String get barcode_label => 'Barcode';
+
+  @override
+  String get name_label => 'Name';
+
+  @override
+  String get category_label => 'Classification';
+
+  @override
+  String get current_quantity => 'Current quantity';
+
+  @override
+  String get select_operation => 'Please select an operation';
+
+  @override
+  String get unit => 'unit';
+
+  @override
+  String get custom_unit => 'Custom Unit';
+
+  @override
+  String get enter_unit => 'Please enter the unit';
+
+  @override
+  String get custom_location => 'Custom Location';
+
+  @override
+  String get enter_storage_location => 'Please enter the storage location';
+
+  @override
+  String get scan => 'Scan the QR code';
+
+  @override
+  String get scan_to_stock => 'Scan code to enter inventory';
+
+  @override
+  String get item_categories => 'Item Classification';
+
+  @override
+  String get storage_locations => 'Storage location';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Place the barcode inside the frame to scan';
+
+  @override
+  String get barcode => 'Barcode';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Please enter the barcode or scan the code';
+
+  @override
+  String get basic_information => 'Basic Information';
+
+  @override
+  String get item_name => 'Item Name';
+
+  @override
+  String get enter_item_name => 'Please enter the item name';
+
+  @override
+  String get enter_category_name => 'Please enter the category name';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Has added $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Has been reduced by $itemName $quantity$unit';
+  }
 }

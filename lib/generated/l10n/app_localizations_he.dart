@@ -30,6 +30,12 @@ class AppLocalizationsHe extends AppLocalizations {
   String get add => 'להוסיף';
 
   @override
+  String get edit_item => 'ערוך פריט';
+
+  @override
+  String get add_item => 'הוסף פריט';
+
+  @override
   String get search => 'חיפוש';
 
   @override
@@ -509,7 +515,13 @@ class AppLocalizationsHe extends AppLocalizations {
   String get system_name => 'שם המערכת';
 
   @override
+  String get operating_system => 'מערכת הפעלה';
+
+  @override
   String get system_version => 'גרסת מערכת';
+
+  @override
+  String get dart_version => 'גרסת Dart';
 
   @override
   String get device_identifier => 'זיהוי מכשיר';
@@ -760,18 +772,8 @@ class AppLocalizationsHe extends AppLocalizations {
   String get enter_outbound_quantity => 'אנא הזן את כמות היצוא מהמלאי';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'נוסף $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'האם אתה בטוח שברצונך למחוק את \"$name\"? פעולה זו אינה ניתנת לביטול.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'צומצם ב-$name $quantity$unit';
   }
 
   @override
@@ -1054,4 +1056,109 @@ class AppLocalizationsHe extends AppLocalizations {
 
   @override
   String get delete_failed => 'המחיקה נכשלה';
+
+  @override
+  String get test_calendar_event => 'בדיקת אירוע לוח שנה';
+
+  @override
+  String get test_calendar_event_description =>
+      'זהו אירוע בדיקה, המשמש לאימות פונקציית היומן';
+
+  @override
+  String get in_app => 'בתוך האפליקציה';
+
+  @override
+  String get enable_alert => 'הפעל תזכורת פקיעה';
+
+  @override
+  String get alert_method => 'דרך התראה';
+
+  @override
+  String get alert_method_in_app => 'ביישום בלבד';
+
+  @override
+  String get alert_method_calendar => 'לוח שנה בלבד';
+
+  @override
+  String get alert_method_both => 'שניהם';
+
+  @override
+  String get alert_days_before => 'מספר הימים להודעה מוקדמת';
+
+  @override
+  String get use_global_setting => 'השתמש בהגדרות הגלובליות';
+
+  @override
+  String get barcode_label => 'קוד בר';
+
+  @override
+  String get name_label => 'שם';
+
+  @override
+  String get category_label => 'סיווג';
+
+  @override
+  String get current_quantity => 'כמות נוכחית';
+
+  @override
+  String get select_operation => 'אנא בחר פעולה';
+
+  @override
+  String get unit => 'יחידה';
+
+  @override
+  String get custom_unit => 'יחידה מותאמת אישית';
+
+  @override
+  String get enter_unit => 'אנא הזן יחידה';
+
+  @override
+  String get custom_location => 'מקום מותאם אישית';
+
+  @override
+  String get enter_storage_location => 'אנא הזן את מיקום האחסון';
+
+  @override
+  String get scan => 'סרוק את הקוד';
+
+  @override
+  String get scan_to_stock => 'סרוק כדי להכניס למלאי';
+
+  @override
+  String get item_categories => 'מיון פריטים';
+
+  @override
+  String get storage_locations => 'מקום אחסון';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'הכנס את הברקוד למסגרת כדי לסרוק';
+
+  @override
+  String get barcode => 'קוד בר';
+
+  @override
+  String get enter_barcode_or_scan => 'אנא הזן את הברקוד או סרוק אותו';
+
+  @override
+  String get basic_information => 'מידע בסיסי';
+
+  @override
+  String get item_name => 'שם הפריט';
+
+  @override
+  String get enter_item_name => 'אנא הזן את שם הפריט';
+
+  @override
+  String get enter_category_name => 'אנא הזן את שם הסיווג';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'נוסף $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'צומצם ב-$itemName $quantity$unit';
+  }
 }

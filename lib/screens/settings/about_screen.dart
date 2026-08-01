@@ -156,8 +156,8 @@ class AboutScreen extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          '操作系统',
+                         Text(
+                          l10n.operating_system,
                           style: theme.textTheme.bodyMedium?.copyWith(
                             fontWeight: FontWeight.w500,
                           ),
@@ -172,8 +172,8 @@ class AboutScreen extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(height: 12),
-                        Text(
-                          '系统版本',
+                         Text(
+                          l10n.system_version,
                           style: theme.textTheme.bodyMedium?.copyWith(
                             fontWeight: FontWeight.w500,
                           ),
@@ -188,8 +188,8 @@ class AboutScreen extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(height: 12),
-                        Text(
-                          'Dart版本',
+                         Text(
+                          l10n.dart_version,
                           style: theme.textTheme.bodyMedium?.copyWith(
                             fontWeight: FontWeight.w500,
                           ),

@@ -30,6 +30,12 @@ class AppLocalizationsAf extends AppLocalizations {
   String get add => 'Voeg by';
 
   @override
+  String get edit_item => 'Redigeer item';
+
+  @override
+  String get add_item => 'Voeg item by';
+
+  @override
   String get search => 'Soek';
 
   @override
@@ -518,7 +524,13 @@ class AppLocalizationsAf extends AppLocalizations {
   String get system_name => 'Stelselsnaam';
 
   @override
+  String get operating_system => 'Bedryfstelsel';
+
+  @override
   String get system_version => 'Stelselweergawe';
+
+  @override
+  String get dart_version => 'Dart-weergawe';
 
   @override
   String get device_identifier => 'Toerustingidentifikasie';
@@ -772,18 +784,8 @@ class AppLocalizationsAf extends AppLocalizations {
       'Voer asseblief die uitgaande hoeveelheid in';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Reeds bygevoeg $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Is jy seker jy wil „$name“ verwyder? Hierdie aksie kan nie ongedaan gemaak word nie.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Het verminder $name $quantity$unit';
   }
 
   @override
@@ -1071,4 +1073,110 @@ class AppLocalizationsAf extends AppLocalizations {
 
   @override
   String get delete_failed => 'Verwydering het misluk';
+
+  @override
+  String get test_calendar_event => 'Toets kalender gebeurtenis';
+
+  @override
+  String get test_calendar_event_description =>
+      'Dit is \'n toetsgebeurtenis om die kalenderfunksie te verifieer';
+
+  @override
+  String get in_app => 'In-toepassing';
+
+  @override
+  String get enable_alert => 'Skakel verloopsdatum waarskuwing aan';
+
+  @override
+  String get alert_method => 'Herinnering manier';
+
+  @override
+  String get alert_method_in_app => 'Slegs in die app';
+
+  @override
+  String get alert_method_calendar => 'Slegs kalender';
+
+  @override
+  String get alert_method_both => 'albei';
+
+  @override
+  String get alert_days_before => 'Aantal dae vantevore herinner';
+
+  @override
+  String get use_global_setting => 'Gebruik wêreldwye instellings';
+
+  @override
+  String get barcode_label => 'Streepkaart';
+
+  @override
+  String get name_label => 'Naam';
+
+  @override
+  String get category_label => 'Klassifikasie';
+
+  @override
+  String get current_quantity => 'Huidige hoeveelheid';
+
+  @override
+  String get select_operation => 'Kies asseblief \'n handeling';
+
+  @override
+  String get unit => 'eenheid';
+
+  @override
+  String get custom_unit => 'Pasgemaakte eenheid';
+
+  @override
+  String get enter_unit => 'Voer asseblief die eenheid in';
+
+  @override
+  String get custom_location => 'Pasgemaakte plek';
+
+  @override
+  String get enter_storage_location => 'Voer asseblief die stoorplek in';
+
+  @override
+  String get scan => 'Scan die kode';
+
+  @override
+  String get scan_to_stock => 'Scan om in te stoor';
+
+  @override
+  String get item_categories => 'Produk klassifikasie';
+
+  @override
+  String get storage_locations => 'Berging plek';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Plaas die strepieskode binne die raam om te skandeer';
+
+  @override
+  String get barcode => 'Streepkaart';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Voer asseblief die strepieskode in of skandeer dit';
+
+  @override
+  String get basic_information => 'Basiese inligting';
+
+  @override
+  String get item_name => 'Voorwerp Naam';
+
+  @override
+  String get enter_item_name => 'Voer asseblief die naam van die item in';
+
+  @override
+  String get enter_category_name => 'Voer asseblief die kategorie naam in';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Reeds bygevoeg $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Het verminder $itemName $quantity$unit';
+  }
 }

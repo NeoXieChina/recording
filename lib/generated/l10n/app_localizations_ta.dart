@@ -30,6 +30,12 @@ class AppLocalizationsTa extends AppLocalizations {
   String get add => 'சேர்';
 
   @override
+  String get edit_item => 'பொருளை தொகு';
+
+  @override
+  String get add_item => 'பொருளைச் சேர்க்கவும்';
+
+  @override
   String get search => 'தேடு';
 
   @override
@@ -522,7 +528,13 @@ class AppLocalizationsTa extends AppLocalizations {
   String get system_name => 'கணினி அமைப்பின் பெயர்';
 
   @override
+  String get operating_system => 'ஆபரேட்டிங் சிஸ்டம்';
+
+  @override
   String get system_version => 'சிஸ்டம் பதிப்பு';
+
+  @override
+  String get dart_version => 'Dart பதிப்பு';
 
   @override
   String get device_identifier => 'சாதன அடையாளம்';
@@ -775,18 +787,8 @@ class AppLocalizationsTa extends AppLocalizations {
       'தயவு செய்து வெளியீட்டு எண்ணிக்கையை உள்ளிடவும்';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return '$name $quantity$unit சேர்க்கப்பட்டுள்ளது';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'நீங்கள் \"$name\" ஐ நீக்க விரும்புகிறீர்களா? இந்த செயல்பாடு திரும்ப செல்ல முடியாது.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return '$name $quantity $unit குறைக்கப்பட்டது';
   }
 
   @override
@@ -1072,4 +1074,110 @@ class AppLocalizationsTa extends AppLocalizations {
 
   @override
   String get delete_failed => 'மறിച്ചெடுக்கும் நடவடிக்கை தோல்வியுற்றது';
+
+  @override
+  String get test_calendar_event => 'கணக்கு நாட்காட்டி நிகழ்வு';
+
+  @override
+  String get test_calendar_event_description =>
+      'இத یک சோதனை நிகழ்வு, காலண்டர் செயல்பாட்டை சோதிக்க பயன்படுத்தப்படுகிறது';
+
+  @override
+  String get in_app => 'ஆப் உள்ளே';
+
+  @override
+  String get enable_alert => 'காலாவதி நினைவூட்டலை செயல்படுத்தவும்';
+
+  @override
+  String get alert_method => 'மறைவிப்பது முறைகள்';
+
+  @override
+  String get alert_method_in_app => 'மாற்றம் மட்டும் பயன்பாட்டில்';
+
+  @override
+  String get alert_method_calendar => 'மாற்றம் தினசரி';
+
+  @override
+  String get alert_method_both => 'இரண்டும்';
+
+  @override
+  String get alert_days_before => 'முன்னதாக நினைவூட்டும் நாட்கள்';
+
+  @override
+  String get use_global_setting => 'உலகளாவிய அமைப்புகளைப் பயன்படுத்துக';
+
+  @override
+  String get barcode_label => 'பார்ம்கோட்';
+
+  @override
+  String get name_label => 'பெயர்';
+
+  @override
+  String get category_label => 'வகைப்படுத்துதல்';
+
+  @override
+  String get current_quantity => 'தற்போதைய எண்ணிக்கை';
+
+  @override
+  String get select_operation => 'செயல்பாட்டை தேர்வுசெய்க';
+
+  @override
+  String get unit => 'அலகு';
+
+  @override
+  String get custom_unit => 'தனிப்பயன் அலகு';
+
+  @override
+  String get enter_unit => 'தயவுசெய்து அலகை உள்ளிடவும்';
+
+  @override
+  String get custom_location => 'தனிப்பயன் இடம்';
+
+  @override
+  String get enter_storage_location => 'சேமிப்பு இடத்தை உள்ளிடவும்';
+
+  @override
+  String get scan => 'கோட் ஸ்கேன் செய்யவும்';
+
+  @override
+  String get scan_to_stock => 'ஸ்கேன் செய்து கையிருப்பில் சேர்க்கவும்';
+
+  @override
+  String get item_categories => 'பொருட்கள் வகைப்படுத்தல்';
+
+  @override
+  String get storage_locations => 'சேமிப்பு இடம்';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'பார்கோட்டை ஸ்கேன் செய்ய பெட்டிக்குள் வைத்து வையுங்கள்';
+
+  @override
+  String get barcode => 'பார்கோடு';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'தயவு செய்து பார் கோடு அல்லது ஸ்கேன் கோடு உள்ளிடவும்';
+
+  @override
+  String get basic_information => 'அடிப்படை தகவல்';
+
+  @override
+  String get item_name => 'பொருளின் பெயர்';
+
+  @override
+  String get enter_item_name => 'பொருளின் பெயரை உள்ளிடவும்';
+
+  @override
+  String get enter_category_name => 'தரவகை பெயரை உள்ளிடவும்';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return '$itemName $quantity$unit சேர்க்கப்பட்டுள்ளது';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return '$itemName $quantity $unit குறைக்கப்பட்டது';
+  }
 }

@@ -198,6 +198,7 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
 
   Future<void> _addTestCalendarEvent(BuildContext context) async {
     if (!context.mounted) return;
+    final l10n = AppLocalizations.of(context);
 
     // 检查日历权限
     final status = await Permission.calendarFullAccess.status;
@@ -269,9 +270,9 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
     );
     final endTime = startTime.add(const Duration(hours: 1));
     final success = await CalendarService.addEvent(
-      title: '测试日历事件',
-      description: '这是一个测试事件，用于验证日历功能',
-      location: '应用内',
+      title: l10n.test_calendar_event,
+      description: l10n.test_calendar_event_description,
+      location: l10n.in_app,
       startTime: startTime,
       endTime: endTime,
       reminderMinutes: 5,

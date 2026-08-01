@@ -55,6 +55,9 @@ class AppDatabase {
         barcode TEXT,
         imagePaths TEXT NOT NULL DEFAULT '',
         notes TEXT,
+        enableAlert INTEGER NOT NULL DEFAULT 1,
+        alertMethod INTEGER NOT NULL DEFAULT 0,
+        alertDaysBefore INTEGER,
         createdAt INTEGER NOT NULL,
         updatedAt INTEGER NOT NULL
       )
@@ -110,6 +113,18 @@ class AppDatabase {
       // 版本4升级到版本5：添加条码字段
       await db.execute('''
         ALTER TABLE items ADD COLUMN barcode TEXT
+      ''');
+    }
+    if (oldVersion < 6) {
+      // 版本5升级到版本6：添加提醒相关字段
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN enableAlert INTEGER NOT NULL DEFAULT 1
+      ''');
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN alertMethod INTEGER NOT NULL DEFAULT 0
+      ''');
+      await db.execute('''
+        ALTER TABLE items ADD COLUMN alertDaysBefore INTEGER
       ''');
     }
   }
@@ -204,7 +219,7 @@ class AppDatabase {
     final maps = await db.query(
       'items',
       where:
-          'itemType = ? AND expiryDate IS NOT NULL AND expiryDate <= ? AND expiryDate >= ?',
+          'itemType = ? AND expiryDate IS NOT NULL AND expiryDate <= ? AND expiryDate >= ? AND enableAlert = 1',
       whereArgs: [
         ItemType.consumable.index,
         threshold,
@@ -222,7 +237,7 @@ class AppDatabase {
     final maps = await db.query(
       'items',
       where:
-          'itemType = ? AND warrantyDate IS NOT NULL AND warrantyDate <= ? AND warrantyDate >= ?',
+          'itemType = ? AND warrantyDate IS NOT NULL AND warrantyDate <= ? AND warrantyDate >= ? AND enableAlert = 1',
       whereArgs: [
         ItemType.durable.index,
         threshold,

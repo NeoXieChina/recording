@@ -30,6 +30,12 @@ class AppLocalizationsKm extends AppLocalizations {
   String get add => 'បន្ថែម';
 
   @override
+  String get edit_item => 'កែសម្រួលអត្ថបទ';
+
+  @override
+  String get add_item => 'បន្ថែមទំនិញ';
+
+  @override
   String get search => 'ស្វែងរក';
 
   @override
@@ -514,7 +520,13 @@ class AppLocalizationsKm extends AppLocalizations {
   String get system_name => 'ឈ្មោះប្រព័ន្ធ';
 
   @override
+  String get operating_system => 'ប្រព័ន្ធប្រតិបត្តិការ';
+
+  @override
   String get system_version => 'កំណែប្រព័ន្ធ';
+
+  @override
+  String get dart_version => 'កំណែ Dart';
 
   @override
   String get device_identifier => 'សម្គាល់ឧបករណ៍';
@@ -764,18 +776,8 @@ class AppLocalizationsKm extends AppLocalizations {
   String get enter_outbound_quantity => 'សូមបញ្ចូលចំនួនចេញឃ្លាំង';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'បានបន្ថែម $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'តើអ្នកចង់លុប «$name» ដោយប្រាកដទេ? ការប្រតិបត្តិនេះមិនអាចដកថយបាន។';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'បានកាត់បន្ថយ $name $quantity$unit';
   }
 
   @override
@@ -1061,4 +1063,108 @@ class AppLocalizationsKm extends AppLocalizations {
 
   @override
   String get delete_failed => 'ការលុបបរាជ័យ';
+
+  @override
+  String get test_calendar_event => 'ព្រឹត្តិការណ៍ប្រតិទិនសាកល្បង';
+
+  @override
+  String get test_calendar_event_description =>
+      'នេះគឺជាព្រឹត្តិការណ៍សាកល្បង មួយ ដែលប្រើសម្រាប់ផ្ទៀងផ្ទាត់មុខងារទិន្នន័យប្រតិទិន';
+
+  @override
+  String get in_app => 'នៅក្នុងកម្មវិធី';
+
+  @override
+  String get enable_alert => 'បើកការរំលឹកការផុតកំណត់';
+
+  @override
+  String get alert_method => 'វិធីរំឮខ';
+
+  @override
+  String get alert_method_in_app => 'តែអាចប្រើបានក្នុងកម្មវិធី';
+
+  @override
+  String get alert_method_calendar => 'តែប្រតិទិន';
+
+  @override
+  String get alert_method_both => 'ទាំងពីរ';
+
+  @override
+  String get alert_days_before => 'ចំនួនថ្ងៃដើម្បីជូនការជូនដំណឹងមុន';
+
+  @override
+  String get use_global_setting => 'ប្រើការកំណត់សកល';
+
+  @override
+  String get barcode_label => 'កូដបារ';
+
+  @override
+  String get name_label => 'ឈ្មោះ';
+
+  @override
+  String get category_label => 'ចំណាត់ថ្នាក់';
+
+  @override
+  String get current_quantity => 'ចំនួន​បច្ចុប្បន្ន';
+
+  @override
+  String get select_operation => 'សូមជ្រើសរើសប្រតិបត្តិការ';
+
+  @override
+  String get unit => 'អង្គភាព';
+
+  @override
+  String get custom_unit => 'ឯកតាផ្ទាល់ខ្លួន';
+
+  @override
+  String get enter_unit => 'សូមបញ្ចូលខ្នាត';
+
+  @override
+  String get custom_location => 'កន្លែងដែលត្រូវប្ដូរតាមចិត្ត';
+
+  @override
+  String get enter_storage_location => 'សូមបញ្ចូលទីតាំងផ្ទុក';
+
+  @override
+  String get scan => 'ស្កេនកូដ';
+
+  @override
+  String get scan_to_stock => 'ស្កេនខូដដើម្បីចូលឃ្លាំង';
+
+  @override
+  String get item_categories => 'ចំណាត់ថ្នាក់វត្ថុ';
+
+  @override
+  String get storage_locations => 'កន្លែងផ្ទុក';
+
+  @override
+  String get place_barcode_in_frame_to_scan => 'ដាក់កូដបារ់ទៅក្នុងប្រអប់ស្កេន';
+
+  @override
+  String get barcode => 'កូដបារ';
+
+  @override
+  String get enter_barcode_or_scan => 'សូមបញ្ចូលកូដបារ៉ូឬស្កេន';
+
+  @override
+  String get basic_information => 'ព័ត៌មានមូលដ្ឋាន';
+
+  @override
+  String get item_name => 'ឈ្មោះទំនិញ';
+
+  @override
+  String get enter_item_name => 'សូមបញ្ចូលឈ្មោះទំនិញ';
+
+  @override
+  String get enter_category_name => 'សូមបញ្ចូលឈ្មោះចំណាត់ថ្នាក់';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'បានបន្ថែម $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'បានកាត់បន្ថយ $itemName $quantity$unit';
+  }
 }

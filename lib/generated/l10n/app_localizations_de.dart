@@ -30,6 +30,12 @@ class AppLocalizationsDe extends AppLocalizations {
   String get add => 'Hinzufügen';
 
   @override
+  String get edit_item => 'Artikel bearbeiten';
+
+  @override
+  String get add_item => 'Artikel hinzufügen';
+
+  @override
   String get search => 'Suchen';
 
   @override
@@ -521,7 +527,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get system_name => 'Systemname';
 
   @override
+  String get operating_system => 'Betriebssystem';
+
+  @override
   String get system_version => 'Systemversion';
+
+  @override
+  String get dart_version => 'Dart-Version';
 
   @override
   String get device_identifier => 'Gerätekennzeichnung';
@@ -773,18 +785,8 @@ class AppLocalizationsDe extends AppLocalizations {
       'Bitte geben Sie die Auslagerungsmenge ein';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return '$name $quantity$unit wurden hinzugefügt';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Möchten Sie „$name“ wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Wurde um $name $quantity$unit reduziert';
   }
 
   @override
@@ -1072,4 +1074,110 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get delete_failed => 'Löschen fehlgeschlagen';
+
+  @override
+  String get test_calendar_event => 'Kalenderereignis testen';
+
+  @override
+  String get test_calendar_event_description =>
+      'Dies ist ein Testereignis, um die Kalenderfunktion zu überprüfen';
+
+  @override
+  String get in_app => 'In-App';
+
+  @override
+  String get enable_alert => 'Ablaufbenachrichtigung aktivieren';
+
+  @override
+  String get alert_method => 'Erinnerungsmethode';
+
+  @override
+  String get alert_method_in_app => 'Nur in der App anwenden';
+
+  @override
+  String get alert_method_calendar => 'Nur Kalender';
+
+  @override
+  String get alert_method_both => 'beide';
+
+  @override
+  String get alert_days_before => 'Tage im Voraus erinnern';
+
+  @override
+  String get use_global_setting => 'Globale Einstellungen verwenden';
+
+  @override
+  String get barcode_label => 'Barcode';
+
+  @override
+  String get name_label => 'Name';
+
+  @override
+  String get category_label => 'Klassifizierung';
+
+  @override
+  String get current_quantity => 'Aktuelle Menge';
+
+  @override
+  String get select_operation => 'Bitte wählen Sie eine Aktion';
+
+  @override
+  String get unit => 'Einheit';
+
+  @override
+  String get custom_unit => 'Benutzerdefinierte Einheit';
+
+  @override
+  String get enter_unit => 'Bitte geben Sie die Einheit ein';
+
+  @override
+  String get custom_location => 'Benutzerdefinierter Ort';
+
+  @override
+  String get enter_storage_location => 'Bitte geben Sie den Speicherort ein';
+
+  @override
+  String get scan => 'QR-Code scannen';
+
+  @override
+  String get scan_to_stock => 'Scan zum Einlagern';
+
+  @override
+  String get item_categories => 'Artikelkategorie';
+
+  @override
+  String get storage_locations => 'Speicherort';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Legen Sie den Barcode zum Scannen in den Rahmen';
+
+  @override
+  String get barcode => 'Barcode';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Bitte geben Sie den Barcode ein oder scannen Sie ihn';
+
+  @override
+  String get basic_information => 'Basisinformationen';
+
+  @override
+  String get item_name => 'Artikelname';
+
+  @override
+  String get enter_item_name => 'Bitte geben Sie den Namen des Artikels ein';
+
+  @override
+  String get enter_category_name => 'Bitte geben Sie den Kategorienamen ein';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return '$itemName $quantity$unit wurden hinzugefügt';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Wurde um $itemName $quantity$unit reduziert';
+  }
 }

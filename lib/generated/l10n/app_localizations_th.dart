@@ -30,6 +30,12 @@ class AppLocalizationsTh extends AppLocalizations {
   String get add => 'เพิ่ม';
 
   @override
+  String get edit_item => 'แก้ไขรายการ';
+
+  @override
+  String get add_item => 'เพิ่มสิ่งของ';
+
+  @override
   String get search => 'ค้นหา';
 
   @override
@@ -512,7 +518,13 @@ class AppLocalizationsTh extends AppLocalizations {
   String get system_name => 'ชื่อระบบ';
 
   @override
+  String get operating_system => 'ระบบปฏิบัติการ';
+
+  @override
   String get system_version => 'เวอร์ชันระบบ';
+
+  @override
+  String get dart_version => 'เวอร์ชัน Dart';
 
   @override
   String get device_identifier => 'รหัสอุปกรณ์';
@@ -763,18 +775,8 @@ class AppLocalizationsTh extends AppLocalizations {
       'กรุณากรอกจำนวนสินค้าที่ต้องการนำออกจากคลัง';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'ได้เพิ่ม $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'คุณแน่ใจหรือไม่ว่าต้องการลบ \'$name\'? การดำเนินการนี้ไม่สามารถย้อนกลับได้';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'ลดลงแล้ว $name $quantity$unit';
   }
 
   @override
@@ -1058,4 +1060,109 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get delete_failed => 'ลบไม่สำเร็จ';
+
+  @override
+  String get test_calendar_event => 'ทดสอบเหตุการณ์ปฏิทิน';
+
+  @override
+  String get test_calendar_event_description =>
+      'นี่คือกิจกรรมทดสอบ ใช้เพื่อยืนยันฟังก์ชันปฏิทิน';
+
+  @override
+  String get in_app => 'ในแอป';
+
+  @override
+  String get enable_alert => 'เปิดแจ้งเตือนวันหมดอายุ';
+
+  @override
+  String get alert_method => 'วิธีการเตือน';
+
+  @override
+  String get alert_method_in_app => 'ใช้เฉพาะในแอป';
+
+  @override
+  String get alert_method_calendar => 'ปฏิทินเท่านั้น';
+
+  @override
+  String get alert_method_both => 'ทั้งสอง';
+
+  @override
+  String get alert_days_before => 'จำนวนวันที่แจ้งล่วงหน้า';
+
+  @override
+  String get use_global_setting => 'ใช้การตั้งค่าทั่วโลก';
+
+  @override
+  String get barcode_label => 'บาร์โค้ด';
+
+  @override
+  String get name_label => 'ชื่อ';
+
+  @override
+  String get category_label => 'การจัดประเภท';
+
+  @override
+  String get current_quantity => 'จำนวนปัจจุบัน';
+
+  @override
+  String get select_operation => 'กรุณาเลือกการดำเนินการ';
+
+  @override
+  String get unit => 'หน่วย';
+
+  @override
+  String get custom_unit => 'หน่วยกำหนดเอง';
+
+  @override
+  String get enter_unit => 'กรุณาใส่หน่วย';
+
+  @override
+  String get custom_location => 'สถานที่กำหนดเอง';
+
+  @override
+  String get enter_storage_location => 'กรุณาใส่สถานที่จัดเก็บ';
+
+  @override
+  String get scan => 'สแกนโค้ด';
+
+  @override
+  String get scan_to_stock => 'สแกนรหัสเพื่อเข้าคลัง';
+
+  @override
+  String get item_categories => 'การจัดหมวดหมู่ของสิ่งของ';
+
+  @override
+  String get storage_locations => 'สถานที่เก็บ';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'ใส่บาร์โค้ดไว้ในกรอบเพื่อต่อสแกน';
+
+  @override
+  String get barcode => 'บาร์โค้ด';
+
+  @override
+  String get enter_barcode_or_scan => 'โปรดป้อนรหัสบาร์โค้ดหรือสแกน';
+
+  @override
+  String get basic_information => 'ข้อมูลพื้นฐาน';
+
+  @override
+  String get item_name => 'ชื่อสิ่งของ';
+
+  @override
+  String get enter_item_name => 'กรุณากรอกชื่อสินค้า';
+
+  @override
+  String get enter_category_name => 'กรุณากรอกชื่อประเภท';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'ได้เพิ่ม $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'ลดลงแล้ว $itemName $quantity$unit';
+  }
 }

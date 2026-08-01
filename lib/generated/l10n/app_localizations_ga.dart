@@ -30,6 +30,12 @@ class AppLocalizationsGa extends AppLocalizations {
   String get add => 'Cuir leis';
 
   @override
+  String get edit_item => 'Eagar earra';
+
+  @override
+  String get add_item => 'Cuir earra leis';
+
+  @override
   String get search => 'Cuardach';
 
   @override
@@ -522,7 +528,13 @@ class AppLocalizationsGa extends AppLocalizations {
   String get system_name => 'Ainm an chórais';
 
   @override
+  String get operating_system => 'Córas Oibriúcháin';
+
+  @override
   String get system_version => 'Leagan an chórais';
+
+  @override
+  String get dart_version => 'Leagan Dart';
 
   @override
   String get device_identifier => 'Aitheantas trealaimh';
@@ -775,18 +787,8 @@ class AppLocalizationsGa extends AppLocalizations {
       'Iontráil líon na n-earraí atá ag imeacht as an stoc';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Tá $name $quantity$unit curtha leis';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'An bhfuil tú cinnte gur mhaith leat „$name“ a scriosadh? Ní féidir an gníomh seo a chealú.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Tá laghdaithe $name $quantity$unit';
   }
 
   @override
@@ -1074,4 +1076,109 @@ class AppLocalizationsGa extends AppLocalizations {
 
   @override
   String get delete_failed => 'Teip ar scriosadh';
+
+  @override
+  String get test_calendar_event => 'Tástáil imeachtaí féilire';
+
+  @override
+  String get test_calendar_event_description =>
+      'Is eachtra tástála é seo chun feidhmiúlacht an fhéilire a fhíorú';
+
+  @override
+  String get in_app => 'laistigh den aip';
+
+  @override
+  String get enable_alert => 'Cumasaigh Meabhrúchán Éaga';
+
+  @override
+  String get alert_method => 'Modh Meabhrúcháin';
+
+  @override
+  String get alert_method_in_app => 'Ar iarratas amháin';
+
+  @override
+  String get alert_method_calendar => 'Ar an bhféilire amháin';
+
+  @override
+  String get alert_method_both => 'beirt';
+
+  @override
+  String get alert_days_before => 'Lá réamhchuirteach';
+
+  @override
+  String get use_global_setting => 'Úsáid Socruithe Domhanda';
+
+  @override
+  String get barcode_label => 'Bharchód';
+
+  @override
+  String get name_label => 'Ainm';
+
+  @override
+  String get category_label => 'Rangú';
+
+  @override
+  String get current_quantity => 'Líon reatha';
+
+  @override
+  String get select_operation => 'Roghnaigh gníomh';
+
+  @override
+  String get unit => 'aonad';
+
+  @override
+  String get custom_unit => 'Aonaid shaincheaptha';
+
+  @override
+  String get enter_unit => 'Cuir isteach aonad';
+
+  @override
+  String get custom_location => 'Suíomh saincheaptha';
+
+  @override
+  String get enter_storage_location => 'Iontráil an áit stórála';
+
+  @override
+  String get scan => 'Scannán cód';
+
+  @override
+  String get scan_to_stock => 'Scan chun isteach sa stoc';
+
+  @override
+  String get item_categories => 'Catagóiriú earraí';
+
+  @override
+  String get storage_locations => 'Áit stórála';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Cuir an cód barra isteach sa bhosca chun scanadh';
+
+  @override
+  String get barcode => 'Bharchód';
+
+  @override
+  String get enter_barcode_or_scan => 'Iontráil an barrachód nó scanáil an cód';
+
+  @override
+  String get basic_information => 'Eolas bunúsach';
+
+  @override
+  String get item_name => 'Ainm an mhála';
+
+  @override
+  String get enter_item_name => 'Iontráil ainm an mhóta';
+
+  @override
+  String get enter_category_name => 'Cuir isteach ainm na catagóire';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Tá $itemName $quantity$unit curtha leis';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Tá laghdaithe $itemName $quantity$unit';
+  }
 }

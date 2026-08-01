@@ -30,6 +30,12 @@ class AppLocalizationsAz extends AppLocalizations {
   String get add => 'Əlavə et';
 
   @override
+  String get edit_item => 'Məhsulu redaktə et';
+
+  @override
+  String get add_item => 'Məhsul əlavə et';
+
+  @override
   String get search => 'Axtarış';
 
   @override
@@ -519,7 +525,13 @@ class AppLocalizationsAz extends AppLocalizations {
   String get system_name => 'Sistem adı';
 
   @override
+  String get operating_system => 'Əməliyyat sistemi';
+
+  @override
   String get system_version => 'Sistem versiyası';
+
+  @override
+  String get dart_version => 'Dart versiyası';
 
   @override
   String get device_identifier => 'Cihaz identifikasiyası';
@@ -772,18 +784,8 @@ class AppLocalizationsAz extends AppLocalizations {
       'Zəhmət olmasa, çıxış miqdarını daxil edin';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Artırıldı $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return '“$name” silmək istədiyinizə əminsiniz? Bu əməliyyat geri alınmaz.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Artıq $name $quantity$unit azaldılıb';
   }
 
   @override
@@ -1067,4 +1069,111 @@ class AppLocalizationsAz extends AppLocalizations {
 
   @override
   String get delete_failed => 'Silinmə uğursuz oldu';
+
+  @override
+  String get test_calendar_event => 'Təqvim hadisəsini sınaqdan keçirmək';
+
+  @override
+  String get test_calendar_event_description =>
+      'Bu, təqvim funksiyasını yoxlamaq üçün bir test hadisəsidir';
+
+  @override
+  String get in_app => 'Tətbiq daxilində';
+
+  @override
+  String get enable_alert => 'Müddət bitmə xəbərdarlığını aktivləşdir';
+
+  @override
+  String get alert_method => 'Xatırlatma üsulu';
+
+  @override
+  String get alert_method_in_app => 'Yalnız tətbiqdə';
+
+  @override
+  String get alert_method_calendar => 'Yalnız təqvim';
+
+  @override
+  String get alert_method_both => 'Hər ikisi';
+
+  @override
+  String get alert_days_before => 'Əvvəlcədən xəbərdarlıq edilməli günlər';
+
+  @override
+  String get use_global_setting => 'Qlobal parametrlərdən istifadə edin';
+
+  @override
+  String get barcode_label => 'Barkod';
+
+  @override
+  String get name_label => 'Ad';
+
+  @override
+  String get category_label => 'Təsnifat';
+
+  @override
+  String get current_quantity => 'Cari miqdar';
+
+  @override
+  String get select_operation => 'Zəhmət olmasa əməliyyatı seçin';
+
+  @override
+  String get unit => 'vahid';
+
+  @override
+  String get custom_unit => 'Fərdi vahid';
+
+  @override
+  String get enter_unit => 'Zəhmət olmasa vahidi daxil edin';
+
+  @override
+  String get custom_location => 'Fərdi yer';
+
+  @override
+  String get enter_storage_location =>
+      'Zəhmət olmasa saxlama yerini daxil edin';
+
+  @override
+  String get scan => 'Kod skan edin';
+
+  @override
+  String get scan_to_stock => 'Kodu skan edərək anbara daxil et';
+
+  @override
+  String get item_categories => 'Məhsul təsnifatı';
+
+  @override
+  String get storage_locations => 'Saxlama yeri';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Ştrixkodunu skan etmək üçün çərçivənin içərisinə yerləşdirin';
+
+  @override
+  String get barcode => 'Ştrixkod';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Zəhmət olmasa barkod daxil edin və ya skan edin';
+
+  @override
+  String get basic_information => 'Əsas məlumat';
+
+  @override
+  String get item_name => 'Məhsulun adı';
+
+  @override
+  String get enter_item_name => 'Zəhmət olmasa, əşyanın adını daxil edin';
+
+  @override
+  String get enter_category_name => 'Zəhmət olmasa kateqoriya adını daxil edin';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Artırıldı $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Artıq $itemName $quantity$unit azaldılıb';
+  }
 }

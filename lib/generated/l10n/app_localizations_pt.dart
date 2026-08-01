@@ -30,6 +30,12 @@ class AppLocalizationsPt extends AppLocalizations {
   String get add => 'Adicionar';
 
   @override
+  String get edit_item => 'Editar item';
+
+  @override
+  String get add_item => 'Adicionar item';
+
+  @override
   String get search => 'Pesquisar';
 
   @override
@@ -522,7 +528,13 @@ class AppLocalizationsPt extends AppLocalizations {
   String get system_name => 'Nome do sistema';
 
   @override
+  String get operating_system => 'Sistema operacional';
+
+  @override
   String get system_version => 'Versão do sistema';
+
+  @override
+  String get dart_version => 'Versão do Dart';
 
   @override
   String get device_identifier => 'Identificação do dispositivo';
@@ -777,18 +789,8 @@ class AppLocalizationsPt extends AppLocalizations {
       'Por favor, insira a quantidade a ser retirada do estoque';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Foi adicionado $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Tem certeza de que deseja excluir \"$name\"? Esta ação não pode ser desfeita.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Já foi reduzido $name $quantity$unit';
   }
 
   @override
@@ -1075,4 +1077,111 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get delete_failed => 'Falha ao excluir';
+
+  @override
+  String get test_calendar_event => 'Testar evento de calendário';
+
+  @override
+  String get test_calendar_event_description =>
+      'Este é um evento de teste, usado para verificar a funcionalidade do calendário';
+
+  @override
+  String get in_app => 'No aplicativo';
+
+  @override
+  String get enable_alert => 'Ativar lembrete de expiração';
+
+  @override
+  String get alert_method => 'Método de lembrete';
+
+  @override
+  String get alert_method_in_app => 'Apenas no aplicativo';
+
+  @override
+  String get alert_method_calendar => 'Somente calendário';
+
+  @override
+  String get alert_method_both => 'Ambos';
+
+  @override
+  String get alert_days_before => 'Número de dias de aviso antecipado';
+
+  @override
+  String get use_global_setting => 'Usar configurações globais';
+
+  @override
+  String get barcode_label => 'Código de barras';
+
+  @override
+  String get name_label => 'Nome';
+
+  @override
+  String get category_label => 'Categoria';
+
+  @override
+  String get current_quantity => 'Quantidade atual';
+
+  @override
+  String get select_operation => 'Por favor, selecione uma operação';
+
+  @override
+  String get unit => 'unidade';
+
+  @override
+  String get custom_unit => 'Unidade personalizada';
+
+  @override
+  String get enter_unit => 'Por favor, insira a unidade';
+
+  @override
+  String get custom_location => 'Local personalizado';
+
+  @override
+  String get enter_storage_location =>
+      'Por favor, insira o local de armazenamento';
+
+  @override
+  String get scan => 'Escanear código';
+
+  @override
+  String get scan_to_stock => 'Digitalizar código para entrada no estoque';
+
+  @override
+  String get item_categories => 'Classificação de itens';
+
+  @override
+  String get storage_locations => 'Local de armazenamento';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Coloque o código de barras dentro do quadro para escanear';
+
+  @override
+  String get barcode => 'Código de barras';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Por favor, insira o código de barras ou escaneie o código';
+
+  @override
+  String get basic_information => 'Informações básicas';
+
+  @override
+  String get item_name => 'Nome do item';
+
+  @override
+  String get enter_item_name => 'Por favor, insira o nome do item';
+
+  @override
+  String get enter_category_name => 'Por favor, insira o nome da categoria';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Foi adicionado $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Já foi reduzido $itemName $quantity$unit';
+  }
 }

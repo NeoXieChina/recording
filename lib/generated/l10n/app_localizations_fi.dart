@@ -30,6 +30,12 @@ class AppLocalizationsFi extends AppLocalizations {
   String get add => 'lisää';
 
   @override
+  String get edit_item => 'Muokkaa kohdetta';
+
+  @override
+  String get add_item => 'Lisää kohde';
+
+  @override
   String get search => 'Hae';
 
   @override
@@ -518,7 +524,13 @@ class AppLocalizationsFi extends AppLocalizations {
   String get system_name => 'Järjestelmän nimi';
 
   @override
+  String get operating_system => 'käyttöjärjestelmä';
+
+  @override
   String get system_version => 'Järjestelmäversio';
+
+  @override
+  String get dart_version => 'Dart-versio';
 
   @override
   String get device_identifier => 'Laitteen tunniste';
@@ -771,18 +783,8 @@ class AppLocalizationsFi extends AppLocalizations {
   String get enter_outbound_quantity => 'Syötä lähtevän varaston määrä';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'On lisätty $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Haluatko varmasti poistaa „$name“? Tätä toimintoa ei voi peruuttaa.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'On vähennetty $name $quantity$unit';
   }
 
   @override
@@ -1066,4 +1068,109 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get delete_failed => 'Poisto epäonnistui';
+
+  @override
+  String get test_calendar_event => 'Testaa kalenteritapahtuma';
+
+  @override
+  String get test_calendar_event_description =>
+      'Tämä on testitapahtuma kalenteritoiminnon tarkistamiseen varten';
+
+  @override
+  String get in_app => 'sovelluksen sisäinen';
+
+  @override
+  String get enable_alert => 'Ota käyttöön eräpäivämuistutus';
+
+  @override
+  String get alert_method => 'muistutustapa';
+
+  @override
+  String get alert_method_in_app => 'Vain sovelluksessa';
+
+  @override
+  String get alert_method_calendar => 'Vain kalenteri';
+
+  @override
+  String get alert_method_both => 'kumpikin';
+
+  @override
+  String get alert_days_before => 'Etukäteen muistutuspäivien määrä';
+
+  @override
+  String get use_global_setting => 'Käytä globaaleja asetuksia';
+
+  @override
+  String get barcode_label => 'viivakoodi';
+
+  @override
+  String get name_label => 'Nimi';
+
+  @override
+  String get category_label => 'luokittelu';
+
+  @override
+  String get current_quantity => 'Nykyinen määrä';
+
+  @override
+  String get select_operation => 'Valitse toiminto';
+
+  @override
+  String get unit => 'yksikkö';
+
+  @override
+  String get custom_unit => 'Mukautettu yksikkö';
+
+  @override
+  String get enter_unit => 'Anna yksikkö';
+
+  @override
+  String get custom_location => 'Mukautettu sijainti';
+
+  @override
+  String get enter_storage_location => 'Syötä tallennuspaikka';
+
+  @override
+  String get scan => 'Skannaa QR-koodi';
+
+  @override
+  String get scan_to_stock => 'Skannaa koodi varastoon kirjautumista varten';
+
+  @override
+  String get item_categories => 'Tavaroiden luokittelu';
+
+  @override
+  String get storage_locations => 'Tallennuspaikka';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Aseta viivakoodi kehyksen sisään skannattavaksi';
+
+  @override
+  String get barcode => 'viivakoodi';
+
+  @override
+  String get enter_barcode_or_scan => 'Syötä viivakoodi tai skannaa';
+
+  @override
+  String get basic_information => 'Perustiedot';
+
+  @override
+  String get item_name => 'Esineen nimi';
+
+  @override
+  String get enter_item_name => 'Syötä tuotteen nimi';
+
+  @override
+  String get enter_category_name => 'Anna luokan nimi';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'On lisätty $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'On vähennetty $itemName $quantity$unit';
+  }
 }

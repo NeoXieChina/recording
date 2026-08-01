@@ -30,6 +30,12 @@ class AppLocalizationsZh extends AppLocalizations {
   String get add => '添加';
 
   @override
+  String get edit_item => '编辑物品';
+
+  @override
+  String get add_item => '添加物品';
+
+  @override
   String get search => '搜索';
 
   @override
@@ -107,7 +113,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get alert_settings => '预警设置';
+  String get alert_settings => '提醒设置';
 
   @override
   String get calendar_settings => '日历设置';
@@ -486,7 +492,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get system_name => '系统名称';
 
   @override
+  String get operating_system => '操作系统';
+
+  @override
   String get system_version => '系统版本';
+
+  @override
+  String get dart_version => 'Dart版本';
 
   @override
   String get device_identifier => '设备标识';
@@ -733,18 +745,8 @@ class AppLocalizationsZh extends AppLocalizations {
   String get enter_outbound_quantity => '请输入出库数量';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return '已增加 $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return '确定要删除「$name」吗？此操作不可撤销。';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return '已减少 $name $quantity$unit';
   }
 
   @override
@@ -1020,6 +1022,109 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get delete_failed => '删除失败';
+
+  @override
+  String get test_calendar_event => '测试日历事件';
+
+  @override
+  String get test_calendar_event_description => '这是一个测试事件，用于验证日历功能';
+
+  @override
+  String get in_app => '应用内';
+
+  @override
+  String get enable_alert => '启用到期提醒';
+
+  @override
+  String get alert_method => '提醒方式';
+
+  @override
+  String get alert_method_in_app => '仅应用内';
+
+  @override
+  String get alert_method_calendar => '仅日历';
+
+  @override
+  String get alert_method_both => '两者';
+
+  @override
+  String get alert_days_before => '提前提醒天数';
+
+  @override
+  String get use_global_setting => '使用全局设置';
+
+  @override
+  String get barcode_label => '条码';
+
+  @override
+  String get name_label => '名称';
+
+  @override
+  String get category_label => '分类';
+
+  @override
+  String get current_quantity => '当前数量';
+
+  @override
+  String get select_operation => '请选择操作';
+
+  @override
+  String get unit => '单位';
+
+  @override
+  String get custom_unit => '自定义单位';
+
+  @override
+  String get enter_unit => '请输入单位';
+
+  @override
+  String get custom_location => '自定义地点';
+
+  @override
+  String get enter_storage_location => '请输入存储地点';
+
+  @override
+  String get scan => '扫码';
+
+  @override
+  String get scan_to_stock => '扫码入库';
+
+  @override
+  String get item_categories => '物品分类';
+
+  @override
+  String get storage_locations => '存储地点';
+
+  @override
+  String get place_barcode_in_frame_to_scan => '将条码放入框内扫描';
+
+  @override
+  String get barcode => '条码';
+
+  @override
+  String get enter_barcode_or_scan => '请输入条码或扫码';
+
+  @override
+  String get basic_information => '基础信息';
+
+  @override
+  String get item_name => '物品名称';
+
+  @override
+  String get enter_item_name => '请输入物品名称';
+
+  @override
+  String get enter_category_name => '请输入分类名称';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return '已增加 $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return '已减少 $itemName $quantity$unit';
+  }
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -1046,6 +1151,12 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get add => '添加';
+
+  @override
+  String get edit_item => '編輯物品';
+
+  @override
+  String get add_item => '添加物品';
 
   @override
   String get search => '搜尋';
@@ -1504,7 +1615,13 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get system_name => '系統名稱';
 
   @override
+  String get operating_system => '作業系統';
+
+  @override
   String get system_version => '系統版本';
+
+  @override
+  String get dart_version => 'Dart版本';
 
   @override
   String get device_identifier => '設備標識';
@@ -1751,18 +1868,8 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get enter_outbound_quantity => '請輸入出庫數量';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return '已增加 $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return '確定要刪除「$name」嗎？此操作不可撤銷。';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return '已減少 $name $quantity$unit';
   }
 
   @override
@@ -2038,4 +2145,107 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get delete_failed => '刪除失敗';
+
+  @override
+  String get test_calendar_event => '測試日曆事件';
+
+  @override
+  String get test_calendar_event_description => '這是一個測試事件，用於驗證日曆功能';
+
+  @override
+  String get in_app => '應用內';
+
+  @override
+  String get enable_alert => '啟用到期提醒';
+
+  @override
+  String get alert_method => '提醒方式';
+
+  @override
+  String get alert_method_in_app => '僅應用內';
+
+  @override
+  String get alert_method_calendar => '僅日曆';
+
+  @override
+  String get alert_method_both => '兩者';
+
+  @override
+  String get alert_days_before => '提前提醒天數';
+
+  @override
+  String get use_global_setting => '使用全局設定';
+
+  @override
+  String get barcode_label => '條碼';
+
+  @override
+  String get name_label => '名稱';
+
+  @override
+  String get category_label => '分類';
+
+  @override
+  String get current_quantity => '當前數量';
+
+  @override
+  String get select_operation => '請選擇操作';
+
+  @override
+  String get unit => '單位';
+
+  @override
+  String get custom_unit => '自訂單位';
+
+  @override
+  String get enter_unit => '請輸入單位';
+
+  @override
+  String get custom_location => '自訂地點';
+
+  @override
+  String get enter_storage_location => '請輸入存儲地點';
+
+  @override
+  String get scan => '掃碼';
+
+  @override
+  String get scan_to_stock => '掃碼入庫';
+
+  @override
+  String get item_categories => '物品分類';
+
+  @override
+  String get storage_locations => '存儲地點';
+
+  @override
+  String get place_barcode_in_frame_to_scan => '將條碼放入框內掃描';
+
+  @override
+  String get barcode => '條碼';
+
+  @override
+  String get enter_barcode_or_scan => '請輸入條碼或掃碼';
+
+  @override
+  String get basic_information => '基礎信息';
+
+  @override
+  String get item_name => '物品名稱';
+
+  @override
+  String get enter_item_name => '請輸入物品名稱';
+
+  @override
+  String get enter_category_name => '請輸入分類名稱';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return '已增加 $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return '已減少 $itemName $quantity$unit';
+  }
 }

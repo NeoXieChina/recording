@@ -81,8 +81,7 @@
     "description": "પરામિતી સાથે કસ્ટમ દિવસો",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "સૂચના દિવસો શ્રેણી સાથે પેરામીટર",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "દિવસો ઇનપુટ ચકાસણી સંદેશ",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "સૂચના ભૂલ સંદેશો",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "સામાન્ય કાર્ય ચલાવતી ખોટી સંદેશા",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "બેકઅપ નિષ્ફળ વિદેશ સંદેશ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "પુનઃપ્રાપ્તિ સફળ સંદેશ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "પૂનઃપ્રાપ્તિ નિષ્ફળ થયું ત્રુટિ સંદેશ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "ફાઇલ સંદેશા પસંદ કર્યું",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "નિકાસ નિષ્ફળ થઈ ગયો ભૂલ સંદેશ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "આયાત સફળતા સંદેશો",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "આયાત નિષ્ફળતા ભૂલ સંદેશ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "ઉપકરણ માહિતી મેળવવાની ભૂલ સંદેશ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "બાકી દિવસો પેરામિટર સાથે",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "અવધિ કાળ પસાર દિવસો પેરામીટર સાથે",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "ડિલીટ પુષ્ટિ સંદેશ",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "ત્રુટિ સંદેશો કાદ્ધો",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "શ્રેણી મુજબ સંખ્યા દર્શાવો",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "સ્થાનની સંખ્યા જોવા મળે છે",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "બારકોડ જોવા માટે પેરામીટર સાથે",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "નામ પેરામીટર સાથે દર્શાવવું",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "પેરામીટર સાથે વર્ગીકૃત વિઝ્યુઅલ પ્રદર્શન",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "વર્તમાન સંખ્યા પેરામીટર સાથે દર્શાવે છે",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "{name} {quantity}{unit} વધારી દીધા છે",
+  "item_increased": "{itemName} {quantity}{unit} વધારી દીધા છે",
   "@item_increased": {
     "description": "સામાન વધારવાની જાણ",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "ડિલીટ પુષ્ટિ સંદેશમાં અસ્વીકારી સૂચના દાખલ કરો",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "{name} {quantity}{unit} ઘટાડવામાં આવ્યા",
+  "item_decreased": "{itemName} {quantity}{unit} ઘટાડવામાં આવ્યા",
   "@item_decreased": {
     "description": "સામાન ઘટવાની માહિતી",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "ડેટાબેસ રીસેટ ભૂલ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "સિમ્યુલેશન ડેટા પ્રારંભિકકરણ નિષ્ફળ થયું",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "સૂચના સેવા પ્રારંભ કરવામાં વિફળ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "કેલેન્ડર અકાઉન્ટ ચકાસવામાં નિષ્ફળ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "કૅલેન્ડર બનાવવામાં નિષ્ફળ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "કેલેન્ડર ઇવેન્ટ ઉમેરવામાં નિષ્ફળ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "કેલેન્ડર ઇવેન્ટને કાઢી શકવામાં નિષ્ફળ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "અધિકાર સૂચના સંદેશ વિફળ થયો",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "સિમ્યુલેશન ડેટા પ્રારંભિકકરણ સફળ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "ડેટાબેઝમાં પહેલેથી જ ડેટા موجود છે",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "ફાઈલ કોડિંગ ભૂલ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "ફાઈલ અસ્તિત્વમાં નથી",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "ફાઈલ ખાલી છે ત્રુટિ",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "ફીલ્ડ ખાલી ન હોઈ શકે ચકાસણી",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "ક્ષેત્રનું ન્યૂનતમ લંબાઈ ચકાસણી",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "ક્ષેત્રનો મહત્તમ લંબાઈ વિલક્ષણ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "ઈમેલ ફોર્મેટ માન્યતા",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "આંકડાકીય ફોર્મેટ ચકાસણી",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "સર્વોચ્ચ મૂલ્ય કન્ત્રોલ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "ધન પૂર્ણાંક ચકાસણી",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "શૂન્ય કરતા મોટી ચકાસણી",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "ધનાત્મક સંખ્યા માન્યતા",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "તારીખ ફોર્મેટ માન્યતા",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "તારીખ ભૂતકાળમાં હોઈ શકે નહીં",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "તારીખ નિર્ધારિત તારીખથી વહેલી ન હોઈ શકે",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "તારીખ નિર્ધારિત તારીખની તુલનામાં મોડું ન હોઈ શકે",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "અમાન્ય મૂલ્ય ચકાસણી",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "પાસવર્ડનો ન્યૂનતમ લંબાઈ માન્યતા",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "પાસવર્ડમાં મોટા અક્ષરો હોવા જોઈએ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "પાસવર્ડમાં નાના અક્ષરો હોવા જોઈએ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "પાસવર્ડમાં સંખ્યાઓ હોવી જરૂરી છે",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "પાસવર્ડમાં ખાસ કૅરેક્ટર હોવા જોઈએ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "નામનો મહત્તમ લંબાઈ વિલક્ષણ",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "ન્યૂરમતમ કાઉન્ટ વિલિફિકેશન",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "સંક્યા મહત્તમ કીમત વિવેચન",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "એકમ કિંમતનો મહત્તમ મૂલ્ય ચકાસણી",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "દિન સાથે પેરામીટર",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "વર્તમાન પસંદ કરેલ દિવસો દર્શાવવામાં આવી રહ્યા છે",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "આઇટમ સંપાદિત કરો",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "વસ્તુ ઉમેરો",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "ઓપરેટિંગ સિસ્ટમ",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "ડાર્ટ સંસ્કરણ",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "કેલેન્ડર ઇવેન્ટનું પરીક્ષણ",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "આ એક ટેસ્ટ ઇવેન્ટ છે, કેલેન્ડર ફંક્શનને વેરિફાઇ કરવા માટે ઉપયોગ થાય છે",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "એપ્લિકેશનમાં",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "સમાપ્ત થવાની સૂચના સક્રિય કરો",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "સ્મરણ કરવાની રીત",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "ફક્ત એપ્લિકેશન અંદર",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "ફક્ત કેલેન્ડર",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "બન્ને",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "પૂર્વ સૂચિત દિવસો",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "ગ્લોબલ સેટિંગ્સ વાપરો",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "કોડ",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "નામ",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "વર્ગીકરણ",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "વર્તમાન સંખ્યા",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "કૃપા કરીને ક્રિયા પસંદ કરો",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "એકક",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "કસ્ટમ યુનિટ",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "કૃપા કરીને યુનિટ દાખલ કરો",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "કસ્ટમ સ્થાન",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "કૃપા કરીને 저장 સ્થાન દાખલ કરો",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "સ્કેન કરો",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "સ્કેન કરી જથ્થો દાખલ કરો",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "વસ્તુ વર્ગીકરણ",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "સંગ્રહ સ્થળ",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "બારકોટ બોક્સની અંદર મૂકીને સ્કેન કરો",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "કોડ",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "કૃપા કરીને બારકોડ દાખલ કરો અથવા સ્કેન કરો",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "મૂળભૂત માહિતી",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "વસ્તુનું નામ",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "કૃપા કરીને વસ્તુનું નામ દાખલ કરો",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "કૃપા કરીને શ્રેણીનું નામ દાખલ કરો",
+  "@enter_category_name": {
+    "description": ""
   }
 }

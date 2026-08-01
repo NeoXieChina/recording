@@ -101,8 +101,7 @@
     "description": "Hnub tsim tshwj xeeb nrog cov ntsiab lus",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -111,8 +110,7 @@
     "description": "Hnub xaiv tam sim no qhia",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -121,12 +119,10 @@
     "description": "Cov hnub ceeb toom nrog cov ntsiab lus",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -143,12 +139,10 @@
     "description": "Tus naj npawb hnub ntawm cov lus txheeb xyuas kev nkag",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -273,8 +267,7 @@
     "description": "Lus ceeb toom yuam kev",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -287,8 +280,7 @@
     "description": "Cov lus yuam kev ua haujlwm dav dav",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -397,8 +389,7 @@
     "description": "Backup tsis ua tiav lus yuam kev",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -467,8 +458,7 @@
     "description": "Rov qab tau cov lus ua tiav",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -477,8 +467,7 @@
     "description": "Cov lus yuam kev rov qab tsis ua tiav",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -495,8 +484,7 @@
     "description": "Cov lus xaiv hauv cov ntaub ntawv",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -509,8 +497,7 @@
     "description": "Xa tawm cov lus yuam kev tsis ua tiav",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -567,8 +554,7 @@
     "description": "Import Lus Ua Tau Zoo",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -577,8 +563,7 @@
     "description": "Import tsis ua tiav lus yuam kev",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -707,8 +692,7 @@
     "description": "Cov lus yuam kev nrhiav ntaub ntawv ntaus ntawv",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -817,8 +801,7 @@
     "description": "Cov hnub seem nrog cov ntsiab lus",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -827,8 +810,7 @@
     "description": "Hnub xaus nrog cov ntsiab lus",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -841,8 +823,7 @@
     "description": "Rho tawm lus lees paub",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -859,8 +840,7 @@
     "description": "Rho tawm cov lus yuam kev",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -897,8 +877,7 @@
     "description": "Qhia Tus Naj Npawb Pawg",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -919,8 +898,7 @@
     "description": "Tus naj npawb ntawm cov chaw uas qhia",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -985,8 +963,7 @@
     "description": "Barcode zaub nrog cov ntsiab lus",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -995,8 +972,7 @@
     "description": "Lub npe qhia nrog cov ntsiab lus",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -1005,8 +981,7 @@
     "description": "Qhia tawm raws pawg nrog cov ntsiab lus",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -1015,12 +990,10 @@
     "description": "Qhov ntau tam sim no qhia nrog cov parameter",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1056,17 +1029,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "Tau ntxiv {name} {quantity}{unit}",
+  "item_increased": "Tau ntxiv {itemName} {quantity}{unit}",
   "@item_increased": {
     "description": "Kev ceeb toom ntxiv yam khoom",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1079,22 +1052,21 @@
     "description": "Rho tawm lus lees paub nrog kev ceeb toom tsis hloov tau",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "Tau txo qis los ntawm {name} {quantity}{unit}",
+  "item_decreased": "Tau txo qis los ntawm {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "Lus txo khoom",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1111,8 +1083,7 @@
     "description": "Database reset yuam kev",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1121,8 +1092,7 @@
     "description": "Kev pib simulation data tsis ua tiav",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1117,7 @@
     "description": "Kev pib kev pabcuam ceeb toom tsis ua tiav",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1126,7 @@
     "description": "Tsis tau xyuas tus account calendar",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1135,7 @@
     "description": "Tsis tau tsim daim calendar",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1144,7 @@
     "description": "Tsis tau ntxiv qhov xwm txheej calendar",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1187,8 +1153,7 @@
     "description": "Tsis tau tshem tawm qhov xwm txheej calendar",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1197,8 +1162,7 @@
     "description": "Tsis tau teeb tsa permission prompt message",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1207,8 +1171,7 @@
     "description": "Cov ntaub ntawv mock tau pib ua tiav lawm",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1217,8 +1180,7 @@
     "description": "Lub database twb muaj cov ntaub ntawv lawm",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1243,8 +1205,7 @@
     "description": "Cov ntaub ntawv encoding yuam kev",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1253,8 +1214,7 @@
     "description": "Tsis pom ntaub ntawv yuam kev",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1263,8 +1223,7 @@
     "description": "File is empty yuam kev",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1277,8 +1236,7 @@
     "description": "Qhov chaw tsis tuaj yeem yog kev kuaj xyuas tsis muaj dab tsi",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1287,12 +1245,10 @@
     "description": "Kev txheeb xyuas qhov ntev tsawg kawg ntawm qhov chaw",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1301,12 +1257,10 @@
     "description": "Kev Tshawb Xyuas Qhov Ntev Tshaj Plaws Ntawm Qhov Chaw",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1315,8 +1269,7 @@
     "description": "Kev txheeb xyuas hom email",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1325,12 +1278,10 @@
     "description": "Kev txheeb xyuas hom lej",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1339,12 +1290,10 @@
     "description": "Kev Tshawb Xyuas Tus Nqi Tsawg Tshaj",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1353,12 +1302,10 @@
     "description": "Kev txheeb xyuas tus nqi siab tshaj plaws",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1367,8 +1314,7 @@
     "description": "Kev Tshawb Xyuas Integer Zoo",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1323,7 @@
     "description": "Kev txheeb xyuas ntau dua xoom",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,8 +1332,7 @@
     "description": "Kev Tshawb Xyuas Tus Naj Npawb Zoo",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1397,8 +1341,7 @@
     "description": "Kev txheeb xyuas hnub tim hom ntawv",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1407,8 +1350,7 @@
     "description": "Hnub tim tsis tuaj yeem yog yav dhau los",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1417,12 +1359,10 @@
     "description": "Hnub tim tsis tuaj yeem ua ntej hnub tim uas tau teev tseg",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1431,12 +1371,10 @@
     "description": "Hnub tim tsis tuaj yeem dhau hnub tim uas tau teev tseg",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1383,7 @@
     "description": "Kev txheeb xyuas nqi tsis raug",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1392,7 @@
     "description": "Kev txheeb xyuas qhov ntev tsawg kawg ntawm lo lus zais",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1401,7 @@
     "description": "Lo lus zais yuav tsum muaj cov ntawv loj",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1475,8 +1410,7 @@
     "description": "Lo lus zais yuav tsum muaj cov ntawv me me",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1485,8 +1419,7 @@
     "description": "Lo lus zais yuav tsum muaj cov lej",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1495,8 +1428,7 @@
     "description": "Lo lus zais yuav tsum muaj cov cim tshwj xeeb",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1513,8 +1445,7 @@
     "description": "Kev Txheeb Xyuas Ntev Tshaj Plaws ntawm Lub Npe",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1523,8 +1454,7 @@
     "description": "Kev Tshawb Xyuas Qhov Tsawg Tshaj Plaws",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1533,8 +1463,7 @@
     "description": "Kev Tshawb Xyuas Qhov Ntau Tshaj Plaws",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1547,8 +1476,7 @@
     "description": "Kev Tshawb Xyuas Tus Nqi Siab Tshaj Ib Nqe",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1581,8 +1509,7 @@
     "description": "Hnub nrog cov ntsiab lus",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1620,6 +1547,146 @@
   },
   "delete_failed": "Kev tshem tawm tsis ua tiav",
   "@delete_failed": {
+    "description": ""
+  },
+  "edit_item": "Kho Yam Khoom",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "Ntxiv yam khoom",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "Operating System",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Dart version",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "Kev Xeem Calendar Xwm Txheej",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "Qhov no yog ib qho kev sim siv los xyuas kom daim calendar ua haujlwm",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "Nyob hauv app",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "Qhib kev ceeb toom txog hnub tas sij hawm",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "Txoj kev ceeb toom",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "Tsuas yog app xwb",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "Tsuas yog daim calendar xwb",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "Ob qho tib si",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "Hnub rau kev ceeb toom ua ntej",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "Siv cov chaw teeb tsa thoob ntiaj teb",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "Barcode",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "Lub Npe",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "Kev faib pawg",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "Qhov ntau tam sim no",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "Thov xaiv ib qho kev ua haujlwm",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "chav",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Chav Ua Haujlwm Tshwj Xeeb",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "Thov nkag mus rau hauv chav",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "Chaw Tsim Kho",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "Thov sau qhov chaw khaws khoom",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "Luam QR code",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "Scan code kom nkag mus rau hauv cov khoom hauv khw",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "Kev faib khoom",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "Chaw cia khoom",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "Muab barcode tso rau hauv thav duab kom scan",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "Barcode",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "Thov sau barcode lossis scan code",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "Cov Lus Qhia Tseem Ceeb",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "Lub Npe Khoom",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "Thov sau lub npe khoom",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "Thov sau lub npe pawg",
+  "@enter_category_name": {
     "description": ""
   }
 }

@@ -30,6 +30,12 @@ class AppLocalizationsAs extends AppLocalizations {
   String get add => 'যোগ কৰক';
 
   @override
+  String get edit_item => 'বস্তু সম্পাদনা কৰক';
+
+  @override
+  String get add_item => 'বস্তু যোগ কৰক';
+
+  @override
   String get search => 'সন্ধান কৰক';
 
   @override
@@ -519,7 +525,13 @@ class AppLocalizationsAs extends AppLocalizations {
   String get system_name => 'প্ৰণালীৰ নাম';
 
   @override
+  String get operating_system => 'অপাৰেটিং চিষ্টেম';
+
+  @override
   String get system_version => 'প্ৰণালী সংস্কৰণ';
+
+  @override
+  String get dart_version => 'Dart সংস্কৰণ';
 
   @override
   String get device_identifier => 'সঁজুলিৰ পৰিচয়';
@@ -770,18 +782,8 @@ class AppLocalizationsAs extends AppLocalizations {
   String get enter_outbound_quantity => 'দয়া কৰি ওঠাটো পৰিমাণ লিখক';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'পূৰব্ধ হৈছে $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'আপুনি কি “$name” মচিবই বিচাৰে? এই কাৰ্য অপ্রত্যাহাৰযোগ্য।';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'হ্ৰাস কৰিছে $name $quantity$unit';
   }
 
   @override
@@ -1066,4 +1068,110 @@ class AppLocalizationsAs extends AppLocalizations {
 
   @override
   String get delete_failed => 'মচি পেল নাই';
+
+  @override
+  String get test_calendar_event => 'কেলেণ্ডাৰ পৰীক্ষা ঘটনা';
+
+  @override
+  String get test_calendar_event_description =>
+      'এইটো এটা পৰীক্ষা অনুষ্ঠান, কেলেণ্ডাৰ কাৰ্যক্ষমতা যাচাই কৰিবলৈ ব্যৱহাৰ কৰা হয়';
+
+  @override
+  String get in_app => 'এপ্লিকেশ্যনত';
+
+  @override
+  String get enable_alert => 'সময়সীমাৰ স্মৰণযোগ্য সক্ৰিয় কৰক';
+
+  @override
+  String get alert_method => 'সুঁচনাৰ পদ্ধতি';
+
+  @override
+  String get alert_method_in_app => 'কেৱল এপ্লিকেছনত';
+
+  @override
+  String get alert_method_calendar => 'কেৱল কেলেণ্ডাৰ';
+
+  @override
+  String get alert_method_both => 'দুয়োটা';
+
+  @override
+  String get alert_days_before => 'পূৰ্বে স্মৰণ কৰোৱাৰ দিনসমূহ';
+
+  @override
+  String get use_global_setting => 'সৰ্বজনীন ছেটিং ব্যৱহাৰ কৰা';
+
+  @override
+  String get barcode_label => 'বাৰকোড';
+
+  @override
+  String get name_label => 'নাম';
+
+  @override
+  String get category_label => 'শ্ৰেণীবিভাজন';
+
+  @override
+  String get current_quantity => 'বৰ্তমান সংখ্যা';
+
+  @override
+  String get select_operation => 'অনুগ্ৰহ কৰি অপাৰেচন বাছ কৰক';
+
+  @override
+  String get unit => 'একক';
+
+  @override
+  String get custom_unit => 'নিজৰ নিৰ্ধাৰিত একক';
+
+  @override
+  String get enter_unit => 'অনুগ্ৰহ কৰি এককটো প্ৰৱিষ্ট কৰক';
+
+  @override
+  String get custom_location => 'নিজৰ নিৰ্ধাৰিত স্থান';
+
+  @override
+  String get enter_storage_location => 'দয়া কৰি সঞ্চয় স্থান প্ৰৱিষ্ট কৰক';
+
+  @override
+  String get scan => 'স্কেন কৰা';
+
+  @override
+  String get scan_to_stock => 'স্কেন কৰি গোডাউনত প্ৰৱেশ কৰক';
+
+  @override
+  String get item_categories => 'বস্তুৰ শ্ৰেণীবিভাজন';
+
+  @override
+  String get storage_locations => 'সংগ্ৰহস্থল';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'বাৰক\'ডটো চাকি ভিতৰত ৰাখি স্কেন কৰক';
+
+  @override
+  String get barcode => 'বাৰক\'ড';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'অনুগ্ৰহ কৰি বাৰকোড প্ৰৱিষ্ট কৰক অথবা স্কেন কৰক';
+
+  @override
+  String get basic_information => 'মৌলিক তথ্য';
+
+  @override
+  String get item_name => 'বস্তুৰ নাম';
+
+  @override
+  String get enter_item_name => 'দয়া কৰি বস্তুৰ নাম প্ৰৱিষ্ট কৰক';
+
+  @override
+  String get enter_category_name => 'অনুগ্ৰহ কৰি শ্ৰেণীৰ নাম কৰক';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'পূৰব্ধ হৈছে $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'হ্ৰাস কৰিছে $itemName $quantity$unit';
+  }
 }

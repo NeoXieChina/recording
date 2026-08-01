@@ -30,6 +30,12 @@ class AppLocalizationsFj extends AppLocalizations {
   String get add => 'Vakuria';
 
   @override
+  String get edit_item => 'Vakatokai na iyaya';
+
+  @override
+  String get add_item => 'Vakayacora na iyaya';
+
+  @override
   String get search => 'Vakasaqara';
 
   @override
@@ -526,7 +532,13 @@ class AppLocalizationsFj extends AppLocalizations {
   String get system_name => 'Vosa ni iVakatakilakila ni Ivu';
 
   @override
+  String get operating_system => 'Vale ni cakacaka ni kompiuta';
+
+  @override
   String get system_version => 'Vesion ni iYaya ni System';
+
+  @override
+  String get dart_version => 'iVakataoti ni Dart';
 
   @override
   String get device_identifier => 'iTukutuku ni iyaya';
@@ -783,18 +795,8 @@ class AppLocalizationsFj extends AppLocalizations {
       'Kerekere volia na levu ni isau me buli mai';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Sa vakuria $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'O cei mo vakamatei \"$name\"? E sega ni rawa ni veisautaki oqo na cakacaka.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Kua ni sa lailai $name $quantity$unit';
   }
 
   @override
@@ -1082,4 +1084,112 @@ class AppLocalizationsFj extends AppLocalizations {
 
   @override
   String get delete_failed => 'Valea na cakacaka ni bibi mai';
+
+  @override
+  String get test_calendar_event => 'Veika ena Kalendari ni Vakarautaki';
+
+  @override
+  String get test_calendar_event_description =>
+      'Qo e dua na veika ni vakatovolei me vakadeitaka na cakacaka ni kalenda';
+
+  @override
+  String get in_app => 'Vakaikoya ena iwalewale ni app';
+
+  @override
+  String get enable_alert => 'Vakavei ni vakasama me baleta na gauna mai';
+
+  @override
+  String get alert_method => 'Valeitaka';
+
+  @override
+  String get alert_method_in_app => 'Vakarautaki ena app ga';
+
+  @override
+  String get alert_method_calendar => 'Kalendari ga';
+
+  @override
+  String get alert_method_both => 'rua';
+
+  @override
+  String get alert_days_before => 'Veivosaki ena siga e liu';
+
+  @override
+  String get use_global_setting =>
+      'Veiyalayalati na kena vakayagataki ena vanua taucoko';
+
+  @override
+  String get barcode_label => 'Valei waqa';
+
+  @override
+  String get name_label => 'Yaca';
+
+  @override
+  String get category_label => 'iVakatakilakila';
+
+  @override
+  String get current_quantity => 'Vale ni iwiliwili qo';
+
+  @override
+  String get select_operation => 'Vakayagataka na cakacaka';
+
+  @override
+  String get unit => 'iVunau';
+
+  @override
+  String get custom_unit => 'Yavu ni iyaya ni veisau';
+
+  @override
+  String get enter_unit => 'Valevolekinia na noda iyaya';
+
+  @override
+  String get custom_location => 'Vanua vakadewataki';
+
+  @override
+  String get enter_storage_location =>
+      'Kerekere volia na vanua me kauti kina na iyaya';
+
+  @override
+  String get scan => 'Sikeli koda';
+
+  @override
+  String get scan_to_stock => 'Vakatokai na iyaya me curu ena sitoka';
+
+  @override
+  String get item_categories => 'Vakarautaki ni iyaya';
+
+  @override
+  String get storage_locations => 'Yaca ni iLavo';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Tauta na bar code ena dakuna me vakadewataki';
+
+  @override
+  String get barcode => 'Valei waqa';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Vakacuruma na namba waika se vakatotolo na QR code';
+
+  @override
+  String get basic_information => 'Vale ni iwalewale';
+
+  @override
+  String get item_name => 'Yaca ni iyaya';
+
+  @override
+  String get enter_item_name => 'Kerekere volai na yaca ni ka';
+
+  @override
+  String get enter_category_name => 'Yacani na isulu ni icavacava';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Sa vakuria $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Kua ni sa lailai $itemName $quantity$unit';
+  }
 }

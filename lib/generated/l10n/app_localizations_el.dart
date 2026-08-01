@@ -30,6 +30,12 @@ class AppLocalizationsEl extends AppLocalizations {
   String get add => 'Προσθήκη';
 
   @override
+  String get edit_item => 'Επεξεργασία αντικειμένου';
+
+  @override
+  String get add_item => 'Προσθήκη αντικειμένου';
+
+  @override
   String get search => 'Αναζήτηση';
 
   @override
@@ -523,7 +529,13 @@ class AppLocalizationsEl extends AppLocalizations {
   String get system_name => 'Όνομα συστήματος';
 
   @override
+  String get operating_system => 'Λειτουργικό σύστημα';
+
+  @override
   String get system_version => 'Έκδοση συστήματος';
+
+  @override
+  String get dart_version => 'Έκδοση Dart';
 
   @override
   String get device_identifier => 'Αναγνωριστικό συσκευής';
@@ -777,18 +789,8 @@ class AppLocalizationsEl extends AppLocalizations {
       'Παρακαλώ εισαγάγετε την ποσότητα εξαγωγής από το αποθετήριο';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Έχει προστεθεί $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Είστε βέβαιοι ότι θέλετε να διαγράψετε «$name»; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Έχει μειωθεί $name $quantity$unit';
   }
 
   @override
@@ -1078,4 +1080,111 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get delete_failed => 'Διαγραφή απέτυχε';
+
+  @override
+  String get test_calendar_event => 'Δοκιμή γεγονότος ημερολογίου';
+
+  @override
+  String get test_calendar_event_description =>
+      'Αυτό είναι ένα δοκιμαστικό γεγονός για τον έλεγχο της λειτουργίας του ημερολογίου';
+
+  @override
+  String get in_app => 'εντός εφαρμογής';
+
+  @override
+  String get enable_alert => 'Ενεργοποίηση υπενθύμισης λήξης';
+
+  @override
+  String get alert_method => 'Τρόπος υπενθύμισης';
+
+  @override
+  String get alert_method_in_app => 'Μόνο εντός της εφαρμογής';
+
+  @override
+  String get alert_method_calendar => 'Μόνο ημερολόγιο';
+
+  @override
+  String get alert_method_both => 'και οι δύο';
+
+  @override
+  String get alert_days_before => 'Ημέρες προειδοποίησης εκ των προτέρων';
+
+  @override
+  String get use_global_setting => 'Χρήση των παγκόσμιων ρυθμίσεων';
+
+  @override
+  String get barcode_label => 'γραμμωτός κώδικας';
+
+  @override
+  String get name_label => 'Όνομα';
+
+  @override
+  String get category_label => 'Κατηγοριοποίηση';
+
+  @override
+  String get current_quantity => 'Τρέχουσα ποσότητα';
+
+  @override
+  String get select_operation => 'Παρακαλώ επιλέξτε λειτουργία';
+
+  @override
+  String get unit => 'μονάδα';
+
+  @override
+  String get custom_unit => 'Προσαρμοσμένη μονάδα';
+
+  @override
+  String get enter_unit => 'Παρακαλώ εισάγετε τη μονάδα';
+
+  @override
+  String get custom_location => 'Προσαρμοσμένη τοποθεσία';
+
+  @override
+  String get enter_storage_location =>
+      'Παρακαλώ εισαγάγετε τον τόπο αποθήκευσης';
+
+  @override
+  String get scan => 'Σάρωση κωδικού';
+
+  @override
+  String get scan_to_stock => 'Σάρωση κωδικού για εισαγωγή στο απόθεμα';
+
+  @override
+  String get item_categories => 'Κατηγοριοποίηση αντικειμένων';
+
+  @override
+  String get storage_locations => 'Τόπος αποθήκευσης';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Τοποθετήστε τον γραμμωτό κώδικα μέσα στο πλαίσιο για σάρωση';
+
+  @override
+  String get barcode => 'γραμμωτός κώδικας';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Παρακαλώ εισάγετε τον γραμμωτό κώδικα ή σαρώστε';
+
+  @override
+  String get basic_information => 'Βασικές πληροφορίες';
+
+  @override
+  String get item_name => 'Όνομα αντικειμένου';
+
+  @override
+  String get enter_item_name => 'Παρακαλώ εισαγάγετε το όνομα του αντικειμένου';
+
+  @override
+  String get enter_category_name => 'Παρακαλώ εισάγετε το όνομα της κατηγορίας';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Έχει προστεθεί $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Έχει μειωθεί $itemName $quantity$unit';
+  }
 }

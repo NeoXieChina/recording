@@ -30,6 +30,12 @@ class AppLocalizationsMww extends AppLocalizations {
   String get add => 'Ntxiv';
 
   @override
+  String get edit_item => 'Kho Yam Khoom';
+
+  @override
+  String get add_item => 'Ntxiv yam khoom';
+
+  @override
   String get search => 'Nrhiav';
 
   @override
@@ -519,7 +525,13 @@ class AppLocalizationsMww extends AppLocalizations {
   String get system_name => 'Lub Npe Txheej Txheem';
 
   @override
+  String get operating_system => 'Operating System';
+
+  @override
   String get system_version => 'System Version';
+
+  @override
+  String get dart_version => 'Dart version';
 
   @override
   String get device_identifier => 'Kev txheeb xyuas cuab yeej';
@@ -773,18 +785,8 @@ class AppLocalizationsMww extends AppLocalizations {
       'Thov sau tus naj npawb uas yuav xa tawm';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Tau ntxiv $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Koj puas paub tseeb tias koj xav tshem \"$name\"? Qhov kev ua no tsis tuaj yeem hloov tau.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Tau txo qis los ntawm $name $quantity$unit';
   }
 
   @override
@@ -1071,4 +1073,110 @@ class AppLocalizationsMww extends AppLocalizations {
 
   @override
   String get delete_failed => 'Kev tshem tawm tsis ua tiav';
+
+  @override
+  String get test_calendar_event => 'Kev Xeem Calendar Xwm Txheej';
+
+  @override
+  String get test_calendar_event_description =>
+      'Qhov no yog ib qho kev sim siv los xyuas kom daim calendar ua haujlwm';
+
+  @override
+  String get in_app => 'Nyob hauv app';
+
+  @override
+  String get enable_alert => 'Qhib kev ceeb toom txog hnub tas sij hawm';
+
+  @override
+  String get alert_method => 'Txoj kev ceeb toom';
+
+  @override
+  String get alert_method_in_app => 'Tsuas yog app xwb';
+
+  @override
+  String get alert_method_calendar => 'Tsuas yog daim calendar xwb';
+
+  @override
+  String get alert_method_both => 'Ob qho tib si';
+
+  @override
+  String get alert_days_before => 'Hnub rau kev ceeb toom ua ntej';
+
+  @override
+  String get use_global_setting => 'Siv cov chaw teeb tsa thoob ntiaj teb';
+
+  @override
+  String get barcode_label => 'Barcode';
+
+  @override
+  String get name_label => 'Lub Npe';
+
+  @override
+  String get category_label => 'Kev faib pawg';
+
+  @override
+  String get current_quantity => 'Qhov ntau tam sim no';
+
+  @override
+  String get select_operation => 'Thov xaiv ib qho kev ua haujlwm';
+
+  @override
+  String get unit => 'chav';
+
+  @override
+  String get custom_unit => 'Chav Ua Haujlwm Tshwj Xeeb';
+
+  @override
+  String get enter_unit => 'Thov nkag mus rau hauv chav';
+
+  @override
+  String get custom_location => 'Chaw Tsim Kho';
+
+  @override
+  String get enter_storage_location => 'Thov sau qhov chaw khaws khoom';
+
+  @override
+  String get scan => 'Luam QR code';
+
+  @override
+  String get scan_to_stock =>
+      'Scan code kom nkag mus rau hauv cov khoom hauv khw';
+
+  @override
+  String get item_categories => 'Kev faib khoom';
+
+  @override
+  String get storage_locations => 'Chaw cia khoom';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Muab barcode tso rau hauv thav duab kom scan';
+
+  @override
+  String get barcode => 'Barcode';
+
+  @override
+  String get enter_barcode_or_scan => 'Thov sau barcode lossis scan code';
+
+  @override
+  String get basic_information => 'Cov Lus Qhia Tseem Ceeb';
+
+  @override
+  String get item_name => 'Lub Npe Khoom';
+
+  @override
+  String get enter_item_name => 'Thov sau lub npe khoom';
+
+  @override
+  String get enter_category_name => 'Thov sau lub npe pawg';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Tau ntxiv $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Tau txo qis los ntawm $itemName $quantity$unit';
+  }
 }

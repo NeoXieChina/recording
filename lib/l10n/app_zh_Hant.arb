@@ -101,8 +101,7 @@
     "description": "自訂天數帶參數",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -111,8 +110,7 @@
     "description": "當前選擇的天數顯示",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -121,12 +119,10 @@
     "description": "提醒天數範圍帶參數",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -143,12 +139,10 @@
     "description": "天數輸入驗證消息",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -273,8 +267,7 @@
     "description": "通知錯誤消息",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -287,8 +280,7 @@
     "description": "通用操作錯誤消息",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -397,8 +389,7 @@
     "description": "備份失敗錯誤訊息",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -467,8 +458,7 @@
     "description": "恢復成功消息",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -477,8 +467,7 @@
     "description": "恢復失敗錯誤消息",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -495,8 +484,7 @@
     "description": "已選擇檔案訊息",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -509,8 +497,7 @@
     "description": "導出失敗錯誤訊息",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -567,8 +554,7 @@
     "description": "導入成功消息",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -577,8 +563,7 @@
     "description": "導入失敗錯誤訊息",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -707,8 +692,7 @@
     "description": "設備資訊獲取錯誤訊息",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -817,8 +801,7 @@
     "description": "剩餘天數帶參數",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -827,8 +810,7 @@
     "description": "過期天數帶參數",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -841,8 +823,7 @@
     "description": "刪除確認訊息",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -859,8 +840,7 @@
     "description": "刪除錯誤消息",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -897,8 +877,7 @@
     "description": "分類數量顯示",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -919,8 +898,7 @@
     "description": "地點數量顯示",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -985,8 +963,7 @@
     "description": "條碼顯示帶參數",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -995,8 +972,7 @@
     "description": "名稱顯示帶參數",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -1005,8 +981,7 @@
     "description": "分類顯示帶參數",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -1015,12 +990,10 @@
     "description": "當前數量顯示帶參數",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1056,17 +1029,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "已增加 {name} {quantity}{unit}",
+  "item_increased": "已增加 {itemName} {quantity}{unit}",
   "@item_increased": {
     "description": "物品增加消息",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1079,22 +1052,21 @@
     "description": "刪除確認訊息帶不可撤銷警告",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "已減少 {name} {quantity}{unit}",
+  "item_decreased": "已減少 {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "物品減少消息",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1111,8 +1083,7 @@
     "description": "資料庫重置錯誤",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1121,8 +1092,7 @@
     "description": "模擬數據初始化失敗",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1117,7 @@
     "description": "通知服務初始化失敗",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1126,7 @@
     "description": "檢查日曆帳戶失敗",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1135,7 @@
     "description": "創建日曆失敗",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1144,7 @@
     "description": "添加日曆事件失敗",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1187,8 +1153,7 @@
     "description": "刪除日曆事件失敗",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1197,8 +1162,7 @@
     "description": "設定權限提示消息失敗",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1207,8 +1171,7 @@
     "description": "模擬數據初始化成功",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1217,8 +1180,7 @@
     "description": "資料庫已有資料",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1243,8 +1205,7 @@
     "description": "檔案編碼錯誤",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1253,8 +1214,7 @@
     "description": "檔案不存在錯誤",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1263,8 +1223,7 @@
     "description": "檔案為空錯誤",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1277,8 +1236,7 @@
     "description": "欄位不能為空驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1287,12 +1245,10 @@
     "description": "欄位最小長度驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1301,12 +1257,10 @@
     "description": "字段最大長度驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1315,8 +1269,7 @@
     "description": "郵箱格式驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1325,12 +1278,10 @@
     "description": "數字格式驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1339,12 +1290,10 @@
     "description": "最小值驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1353,12 +1302,10 @@
     "description": "最大值驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1367,8 +1314,7 @@
     "description": "正整數驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1323,7 @@
     "description": "大於零驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,8 +1332,7 @@
     "description": "正數驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1397,8 +1341,7 @@
     "description": "日期格式驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1407,8 +1350,7 @@
     "description": "日期不能是過去",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1417,12 +1359,10 @@
     "description": "日期不能早於指定日期",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1431,12 +1371,10 @@
     "description": "日期不能晚於指定日期",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1383,7 @@
     "description": "無效值驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1392,7 @@
     "description": "密碼最小長度驗證",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1401,7 @@
     "description": "密碼必須包含大寫字母",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1475,8 +1410,7 @@
     "description": "密碼必須包含小寫字母",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1485,8 +1419,7 @@
     "description": "密碼必須包含數字",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1495,8 +1428,7 @@
     "description": "密碼必須包含特殊字符",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1513,8 +1445,7 @@
     "description": "名稱最大長度驗證",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1523,8 +1454,7 @@
     "description": "數量最小值驗證",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1533,8 +1463,7 @@
     "description": "數量最大值驗證",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1547,8 +1476,7 @@
     "description": "單價最大值驗證",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1581,8 +1509,7 @@
     "description": "天數帶參數",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1620,6 +1547,146 @@
   },
   "delete_failed": "刪除失敗",
   "@delete_failed": {
+    "description": ""
+  },
+  "edit_item": "編輯物品",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "添加物品",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "作業系統",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Dart版本",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "測試日曆事件",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "這是一個測試事件，用於驗證日曆功能",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "應用內",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "啟用到期提醒",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "提醒方式",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "僅應用內",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "僅日曆",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "兩者",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "提前提醒天數",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "使用全局設定",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "條碼",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "名稱",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "分類",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "當前數量",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "請選擇操作",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "單位",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "自訂單位",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "請輸入單位",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "自訂地點",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "請輸入存儲地點",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "掃碼",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "掃碼入庫",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "物品分類",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "存儲地點",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "將條碼放入框內掃描",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "條碼",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "請輸入條碼或掃碼",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "基礎信息",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "物品名稱",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "請輸入物品名稱",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "請輸入分類名稱",
+  "@enter_category_name": {
     "description": ""
   }
 }

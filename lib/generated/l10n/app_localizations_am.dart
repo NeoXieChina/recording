@@ -30,6 +30,12 @@ class AppLocalizationsAm extends AppLocalizations {
   String get add => 'አክል';
 
   @override
+  String get edit_item => 'ንጥል አርትዕ';
+
+  @override
+  String get add_item => 'ንጥል ጨምር';
+
+  @override
   String get search => 'ምፈልገው';
 
   @override
@@ -508,7 +514,13 @@ class AppLocalizationsAm extends AppLocalizations {
   String get system_name => 'የስርዓት ስም';
 
   @override
+  String get operating_system => 'የአሰራር ሂደት';
+
+  @override
   String get system_version => 'የስርዓት ስሪት';
+
+  @override
+  String get dart_version => 'የዳርት ስሪት';
 
   @override
   String get device_identifier => 'የመሣሪያ መለያ';
@@ -758,18 +770,8 @@ class AppLocalizationsAm extends AppLocalizations {
   String get enter_outbound_quantity => 'እባክዎ የሚላከውን መጠን ያስገቡ';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return '$name $quantity$unit ታክሏል';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'እርግጠኛ ነዎት \"$name\" መሰረዝ ይፈልጋሉ? ይህ እርምጃ ሊቀለበስ አይችልም።';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'ቀንሷል $name $quantity$unit';
   }
 
   @override
@@ -1053,4 +1055,108 @@ class AppLocalizationsAm extends AppLocalizations {
 
   @override
   String get delete_failed => 'ስረዛ አልተሳካም';
+
+  @override
+  String get test_calendar_event => 'የሙከራ ቀን መቁጠሪያ ክስተት';
+
+  @override
+  String get test_calendar_event_description =>
+      'ይህ የቀን መቁጠሪያውን ተግባር ለማረጋገጥ የሚያገለግል የሙከራ ክስተት ነው';
+
+  @override
+  String get in_app => 'ውስጠ-መተግበሪያ';
+
+  @override
+  String get enable_alert => 'ጊዜው የሚያበቃበት አስታዋሽ አንቃ';
+
+  @override
+  String get alert_method => 'የማስታወሻ ዘዴ';
+
+  @override
+  String get alert_method_in_app => 'መተግበሪያ ብቻ';
+
+  @override
+  String get alert_method_calendar => 'የቀን መቁጠሪያ ብቻ';
+
+  @override
+  String get alert_method_both => 'ሁለቱም';
+
+  @override
+  String get alert_days_before => 'ለቅድሚያ ማስታወቂያ የቀኖች ብዛት';
+
+  @override
+  String get use_global_setting => 'አለምአቀፍ ቅንብሮችን ተጠቀም';
+
+  @override
+  String get barcode_label => 'የአሞሌ';
+
+  @override
+  String get name_label => 'ስም';
+
+  @override
+  String get category_label => 'በዓይነቱ መመደብ';
+
+  @override
+  String get current_quantity => 'የአሁኑ ብዛት';
+
+  @override
+  String get select_operation => 'እባክዎ ክዋኔን ይምረጡ';
+
+  @override
+  String get unit => 'መለኪያ';
+
+  @override
+  String get custom_unit => 'ብጁ ክፍል';
+
+  @override
+  String get enter_unit => 'እባክዎ ክፍሉን ያስገቡ';
+
+  @override
+  String get custom_location => 'ብጁ አካባቢ';
+
+  @override
+  String get enter_storage_location => 'እባክዎ የማከማቻ ቦታውን ያስገቡ';
+
+  @override
+  String get scan => 'የQR ኮድን ይቃኙ';
+
+  @override
+  String get scan_to_stock => 'ቆጠራ ለማስገባት ኮድ ይቃኙ';
+
+  @override
+  String get item_categories => 'የንጥል ምደባ';
+
+  @override
+  String get storage_locations => 'የማከማቻ ቦታ';
+
+  @override
+  String get place_barcode_in_frame_to_scan => 'ለመቃኘት ባርኮዱን በፍሬም ውስጥ ያስቀምጡት';
+
+  @override
+  String get barcode => 'የአሞሌ';
+
+  @override
+  String get enter_barcode_or_scan => 'እባክዎ ባርኮድ ያስገቡ ወይም ኮዱን ይቃኙ';
+
+  @override
+  String get basic_information => 'መሰረታዊ መረጃ';
+
+  @override
+  String get item_name => 'የንጥል ስም';
+
+  @override
+  String get enter_item_name => 'እባክዎ የእቃውን ስም ያስገቡ';
+
+  @override
+  String get enter_category_name => 'እባክዎ የምድብ ስም ያስገቡ';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return '$itemName $quantity$unit ታክሏል';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'ቀንሷል $itemName $quantity$unit';
+  }
 }

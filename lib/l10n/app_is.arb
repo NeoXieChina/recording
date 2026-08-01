@@ -81,8 +81,7 @@
     "description": "Sérsníða daga með færibreytum",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "Bjóða upp á svið dagafjölda fyrir áminningu með breytu",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "Dagafjölda innsláttarskilaboð um staðfestingu",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "Tilkynning um villuskilaboð",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "Almennur villuskilaboð um aðgerð",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "Öryggisafrit mistókst villuskilaboð",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "Endurheimt tókst",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "Endurheimt mistókst villuskilaboð",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "Valin skráarboð",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "Útflutningur mistókst, villuskilaboð",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "Innflutningur tókst skilaboð",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "Innflutningsvilla skilaboð",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "Villa við að sækja tæknileg gögn",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "Eftirliggjandi dagar með breytu",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "Gildistími liðinn með færibreytu",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "Eyða staðfestingarskilaboðum",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "Eyða villuskilaboðum",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "Birting fjölda eftir flokkum",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "Fjöldi staða sýnd",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "Strikamerki sýnir með breytu",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "Nafn sýnt með breytum",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "Flokkað sýnt með breytum",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "Núverandi magn sýnt með færibreytu",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "Bætt við {name} {quantity}{unit}",
+  "item_increased": "Bætt við {itemName} {quantity}{unit}",
   "@item_increased": {
     "description": "Vara bætt við tilkynningu",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "Eyða staðfestingarskilaboðum með óafturkræfri viðvörun",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "Nú hefur verið minnkað {name} {quantity}{unit}",
+  "item_decreased": "Nú hefur verið minnkað {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "Vara dróst saman tilkynning",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "Villa við endurstillingu gagnagrunns",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "Upphafsstilling hermitölugagna mistókst",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "Tilkynningþjónusta mistókst við upphaf",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "Mistókst að athuga dagatnsreikning",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "Mistókst að búa til dagatal",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "Mistókst að bæta við dagatalsviðburði",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "Mistókst að eyða dagatburði",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "Mistókst að setja skilaboð um heimildarstillingu",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "Hermigögn upphafstillt með góðum árangri",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "Gagnagrunnur hefur þegar gögn",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "Villuskipun skráarinnar",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "Skrá finnst ekki villa",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "Skráin er tóm villa",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "Reit má ekki vera tómur",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "Lágmarkslengdarstaðfesting reits",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "Staðfesting hámarks lengdar reits",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "Netfangsformatað staðfesting",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "Stafrænt snið staðfesting",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "Lágmarksgildisstaðfesting",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "Hámarksgildisstaðfesting",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "Jákvæð heiltölusannprófun",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "Stærra en núll staðfesting",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "Jákvæð gildi staðfesting",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "Staðfesting dagsetningarforms",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "Dagsetning má ekki vera liðinn",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "Dagsetning má ekki vera fyrr en tiltekinn dagsetning",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "Dagsetning má ekki vera seinni en tiltekinn dagsetning",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "Ógild gildi staðfesting",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "Lágmarkslengdarstaðfesting lykilorðs",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "Lykilorðið verður að innihalda hástafi",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "Lykilorðið verður að innihalda lítilstafi.",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "Lykilorðið verður að innihalda tölustafi",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "Lykilorðið verður að innihalda sértákn",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "Staðfesting á hámarks lengd nafns",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "Lágmarksfjölda staðfesting",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "Stærstu gildi staðfesting",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "Stærsta einingaverðsstaðfesting",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "Dagar með breytu",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "Sýning á valda dagafjölda núna",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "Breyta hlut",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "Bæta við hlut",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "Stýrikerfi",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Dart útgáfa",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "Prófunardagatalviðburður",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "Þetta er tilraunaatburður til að sannreyna dagatalsaðgerðir",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "í forritinu",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "Virkja áminningu um útgáfu",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "Áminningaraðferð",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "Aðeins í forriti",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "Aðeins dagatal",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "Báðir",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "Fjöldi daga fyrirfram til að minna á",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "Notaðu alhliða stillingar",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "Strikamerki",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "Heiti",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "Flokkun",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "Núverandi magn",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "Vinsamlegast veldu aðgerð",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "eining",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Sérsniðin eining",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "Vinsamlegast sláðu inn einingu",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "Sérsniðið staðsetning",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "Vinsamlegast sláðu inn geymslustað",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "Skanna kóða",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "Skanna til að skrá inn á lager",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "Vöruflokkun",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "Geymslustaður",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "Settu strikamerkið í kassann til að skanna",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "Strikamerki",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "Vinsamlegast sláðu inn strikamerki eða skannaðu kóða",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "Grunnupplýsingar",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "Vörunafn",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "Vinsamlegast sláðu inn nafn hlutarins",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "Vinsamlegast sláðu inn flokkunarnafn",
+  "@enter_category_name": {
+    "description": ""
   }
 }

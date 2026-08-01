@@ -81,8 +81,7 @@
     "description": "사용자 정의 일수 매개변수 포함",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "알림 일수 범위 매개변수 포함",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "날짜 입력 검증 메시지",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "오류 메시지 알림",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "일반 운영 오류 메시지",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "백업 실패 오류 메시지",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "복구 성공 메시지",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "복원 실패 오류 메시지",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "선택한 파일 메시지",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "내보내기 실패 오류 메시지",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "가져오기 성공 메시지",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "가져오기 실패 오류 메시지",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "장치 정보 가져오기 오류 메시지",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "잔여 일수 매개변수 포함",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "만료일 수 매개변수 포함",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "삭제 확인 메시지",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "오류 메시지 삭제",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "분류 수 표시",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "장소 수 표시",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "바코드 표시 매개변수 포함",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "이름 표시 매개변수 포함",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "매개변수가 있는 분류 표시",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "현재 수량은 매개변수를 표시합니다",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "{name} {quantity}{unit}가 이미 추가되었습니다",
+  "item_increased": "{itemName} {quantity}{unit}가 이미 추가되었습니다",
   "@item_increased": {
     "description": "아이템 증가 메시지",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "삭제 확인 메시지에 취소할 수 없는 경고 포함",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "{name} {quantity}{unit}가 이미 감소했습니다",
+  "item_decreased": "{itemName} {quantity}{unit}가 이미 감소했습니다",
   "@item_decreased": {
     "description": "아이템 감소 메시지",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "데이터베이스 재설정 오류",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "모의 데이터 초기화 실패",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "알림 서비스 초기화 실패",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "캘린더 계정 확인 실패",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "캘린더 생성 실패",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "캘린더 이벤트 추가 실패",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "캘린더 이벤트 삭제 실패",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "권한 설정 알림 메시지 실패",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "모의 데이터 초기화 성공",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "데이터베이스에 이미 데이터가 있습니다",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "파일 인코딩 오류",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "파일이 존재하지 않는 오류",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "파일이 비어 있음 오류",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "필드는 비워둘 수 없습니다 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "필드 최소 길이 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "필드 최대 길이 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "이메일 형식 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "숫자 형식 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "최소값 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "최대값 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "양의 정수 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "0보다 큰지 확인",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "양수 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "날짜 형식 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "날짜는 과거일 수 없습니다",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "날짜는 지정된 날짜보다 이전일 수 없습니다",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "날짜는 지정된 날짜보다 늦을 수 없습니다",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "무효 값 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "비밀번호 최소 길이 검증",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "비밀번호에는 대문자가 포함되어야 합니다",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "비밀번호에는 소문자가 포함되어야 합니다",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "비밀번호는 숫자를 포함해야 합니다",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "비밀번호에는 특수 문자가 포함되어야 합니다",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "이름 최대 길이 검증",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "최소 수량 검증",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "수량 최대값 검증",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "단가 최대값 검증",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "일수 매개변수",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "현재 선택된 날짜 표시",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "물품 편집",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "아이템 추가",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "운영 체제",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Dart 버전",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "캘린더 이벤트 테스트",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "이것은 캘린더 기능을 검증하기 위한 테스트 이벤트입니다",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "앱 내",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "만료 알림 활성화",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "알림 방식",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "앱 내 전용",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "캘린더만",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "양쪽",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "사전 알림 일수",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "전역 설정 사용",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "바코드",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "이름",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "분류",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "현재 수량",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "작업을 선택하십시오",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "단위",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "사용자 정의 단위",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "단위를 입력하세요",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "사용자 정의 위치",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "저장 위치를 입력하세요",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "스캔 코드",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "스캔하여 입고",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "물품 분류",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "저장 장소",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "바코드를 프레임 안에 넣어 스캔하세요",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "바코드",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "바코드를 입력하거나 스캔하세요",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "기본 정보",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "물품 이름",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "상품 이름을 입력하세요",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "분류 이름을 입력하세요",
+  "@enter_category_name": {
+    "description": ""
   }
 }

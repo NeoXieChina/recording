@@ -30,6 +30,12 @@ class AppLocalizationsKo extends AppLocalizations {
   String get add => '추가';
 
   @override
+  String get edit_item => '물품 편집';
+
+  @override
+  String get add_item => '아이템 추가';
+
+  @override
   String get search => '검색';
 
   @override
@@ -493,7 +499,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get system_name => '시스템 이름';
 
   @override
+  String get operating_system => '운영 체제';
+
+  @override
   String get system_version => '시스템 버전';
+
+  @override
+  String get dart_version => 'Dart 버전';
 
   @override
   String get device_identifier => '장치 식별';
@@ -741,18 +753,8 @@ class AppLocalizationsKo extends AppLocalizations {
   String get enter_outbound_quantity => '출고 수량을 입력하세요';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return '$name $quantity$unit가 이미 추가되었습니다';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return '정말 \"$name\"을(를) 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return '$name $quantity$unit가 이미 감소했습니다';
   }
 
   @override
@@ -1032,4 +1034,108 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get delete_failed => '삭제 실패';
+
+  @override
+  String get test_calendar_event => '캘린더 이벤트 테스트';
+
+  @override
+  String get test_calendar_event_description =>
+      '이것은 캘린더 기능을 검증하기 위한 테스트 이벤트입니다';
+
+  @override
+  String get in_app => '앱 내';
+
+  @override
+  String get enable_alert => '만료 알림 활성화';
+
+  @override
+  String get alert_method => '알림 방식';
+
+  @override
+  String get alert_method_in_app => '앱 내 전용';
+
+  @override
+  String get alert_method_calendar => '캘린더만';
+
+  @override
+  String get alert_method_both => '양쪽';
+
+  @override
+  String get alert_days_before => '사전 알림 일수';
+
+  @override
+  String get use_global_setting => '전역 설정 사용';
+
+  @override
+  String get barcode_label => '바코드';
+
+  @override
+  String get name_label => '이름';
+
+  @override
+  String get category_label => '분류';
+
+  @override
+  String get current_quantity => '현재 수량';
+
+  @override
+  String get select_operation => '작업을 선택하십시오';
+
+  @override
+  String get unit => '단위';
+
+  @override
+  String get custom_unit => '사용자 정의 단위';
+
+  @override
+  String get enter_unit => '단위를 입력하세요';
+
+  @override
+  String get custom_location => '사용자 정의 위치';
+
+  @override
+  String get enter_storage_location => '저장 위치를 입력하세요';
+
+  @override
+  String get scan => '스캔 코드';
+
+  @override
+  String get scan_to_stock => '스캔하여 입고';
+
+  @override
+  String get item_categories => '물품 분류';
+
+  @override
+  String get storage_locations => '저장 장소';
+
+  @override
+  String get place_barcode_in_frame_to_scan => '바코드를 프레임 안에 넣어 스캔하세요';
+
+  @override
+  String get barcode => '바코드';
+
+  @override
+  String get enter_barcode_or_scan => '바코드를 입력하거나 스캔하세요';
+
+  @override
+  String get basic_information => '기본 정보';
+
+  @override
+  String get item_name => '물품 이름';
+
+  @override
+  String get enter_item_name => '상품 이름을 입력하세요';
+
+  @override
+  String get enter_category_name => '분류 이름을 입력하세요';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return '$itemName $quantity$unit가 이미 추가되었습니다';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return '$itemName $quantity$unit가 이미 감소했습니다';
+  }
 }

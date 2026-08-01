@@ -30,6 +30,12 @@ class AppLocalizationsEt extends AppLocalizations {
   String get add => 'Lisa';
 
   @override
+  String get edit_item => 'Redigeeri eset';
+
+  @override
+  String get add_item => 'Lisa ese';
+
+  @override
   String get search => 'Otsi';
 
   @override
@@ -518,7 +524,13 @@ class AppLocalizationsEt extends AppLocalizations {
   String get system_name => 'Süsteemi nimi';
 
   @override
+  String get operating_system => 'Operatsioonisüsteem';
+
+  @override
   String get system_version => 'Süsteemiversioon';
+
+  @override
+  String get dart_version => 'Darti versioon';
 
   @override
   String get device_identifier => 'Seadme identifikaator';
@@ -769,18 +781,8 @@ class AppLocalizationsEt extends AppLocalizations {
   String get enter_outbound_quantity => 'Palun sisestage väljastamise kogus';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'On lisatud $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Kas olete kindel, et soovite kustutada „$name“? Seda toimingut ei saa tagasi võtta.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'On vähendatud $name $quantity$unit';
   }
 
   @override
@@ -1064,4 +1066,109 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get delete_failed => 'Kustutamine ebaõnnestus';
+
+  @override
+  String get test_calendar_event => 'Kalendrisündmuse testimine';
+
+  @override
+  String get test_calendar_event_description =>
+      'See on testüritus, mis on mõeldud kalendrifunktsiooni kontrollimiseks';
+
+  @override
+  String get in_app => 'rakenduses';
+
+  @override
+  String get enable_alert => 'Luba aegumisteate';
+
+  @override
+  String get alert_method => 'meeldetuletuse viis';
+
+  @override
+  String get alert_method_in_app => 'Ainult rakenduses';
+
+  @override
+  String get alert_method_calendar => 'Ainult kalender';
+
+  @override
+  String get alert_method_both => 'mõlemad';
+
+  @override
+  String get alert_days_before => 'Etteteatamise päevade arv';
+
+  @override
+  String get use_global_setting => 'Kasuta globaalset seadet';
+
+  @override
+  String get barcode_label => 'vöötkood';
+
+  @override
+  String get name_label => 'Nimi';
+
+  @override
+  String get category_label => 'Klassifikatsioon';
+
+  @override
+  String get current_quantity => 'Praegune kogus';
+
+  @override
+  String get select_operation => 'Palun valige toiming';
+
+  @override
+  String get unit => 'üksus';
+
+  @override
+  String get custom_unit => 'Kohandatud ühik';
+
+  @override
+  String get enter_unit => 'Palun sisestage ühik';
+
+  @override
+  String get custom_location => 'Kohandatud koht';
+
+  @override
+  String get enter_storage_location => 'Palun sisestage salvestuskoht';
+
+  @override
+  String get scan => 'Skaneeri kood';
+
+  @override
+  String get scan_to_stock => 'Skaneeri koodi, et laosse sisestada';
+
+  @override
+  String get item_categories => 'Esmete klassifitseerimine';
+
+  @override
+  String get storage_locations => 'Salvestuskoht';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Aseta vöötkood kasti ja skaneeri';
+
+  @override
+  String get barcode => 'vöötkood';
+
+  @override
+  String get enter_barcode_or_scan => 'Sisestage vöötkood või skannige kood';
+
+  @override
+  String get basic_information => 'Põhiandmed';
+
+  @override
+  String get item_name => 'Eseme nimi';
+
+  @override
+  String get enter_item_name => 'Palun sisestage toote nimi';
+
+  @override
+  String get enter_category_name => 'Palun sisestage kategooria nimi';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'On lisatud $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'On vähendatud $itemName $quantity$unit';
+  }
 }

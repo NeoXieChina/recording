@@ -30,6 +30,12 @@ class AppLocalizationsIs extends AppLocalizations {
   String get add => 'Bæta við';
 
   @override
+  String get edit_item => 'Breyta hlut';
+
+  @override
+  String get add_item => 'Bæta við hlut';
+
+  @override
   String get search => 'Leita';
 
   @override
@@ -519,7 +525,13 @@ class AppLocalizationsIs extends AppLocalizations {
   String get system_name => 'Kerfisnafn';
 
   @override
+  String get operating_system => 'Stýrikerfi';
+
+  @override
   String get system_version => 'Kerfisútgáfa';
+
+  @override
+  String get dart_version => 'Dart útgáfa';
 
   @override
   String get device_identifier => 'Tæki auðkenni';
@@ -773,18 +785,8 @@ class AppLocalizationsIs extends AppLocalizations {
       'Vinsamlegast sláðu inn útflutningsmagn';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Bætt við $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Ertu viss um að þú viljir eyða „$name“? Þessi aðgerð er óafturkallanleg.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Nú hefur verið minnkað $name $quantity$unit';
   }
 
   @override
@@ -1069,4 +1071,110 @@ class AppLocalizationsIs extends AppLocalizations {
 
   @override
   String get delete_failed => 'Ekki tókst að eyða';
+
+  @override
+  String get test_calendar_event => 'Prófunardagatalviðburður';
+
+  @override
+  String get test_calendar_event_description =>
+      'Þetta er tilraunaatburður til að sannreyna dagatalsaðgerðir';
+
+  @override
+  String get in_app => 'í forritinu';
+
+  @override
+  String get enable_alert => 'Virkja áminningu um útgáfu';
+
+  @override
+  String get alert_method => 'Áminningaraðferð';
+
+  @override
+  String get alert_method_in_app => 'Aðeins í forriti';
+
+  @override
+  String get alert_method_calendar => 'Aðeins dagatal';
+
+  @override
+  String get alert_method_both => 'Báðir';
+
+  @override
+  String get alert_days_before => 'Fjöldi daga fyrirfram til að minna á';
+
+  @override
+  String get use_global_setting => 'Notaðu alhliða stillingar';
+
+  @override
+  String get barcode_label => 'Strikamerki';
+
+  @override
+  String get name_label => 'Heiti';
+
+  @override
+  String get category_label => 'Flokkun';
+
+  @override
+  String get current_quantity => 'Núverandi magn';
+
+  @override
+  String get select_operation => 'Vinsamlegast veldu aðgerð';
+
+  @override
+  String get unit => 'eining';
+
+  @override
+  String get custom_unit => 'Sérsniðin eining';
+
+  @override
+  String get enter_unit => 'Vinsamlegast sláðu inn einingu';
+
+  @override
+  String get custom_location => 'Sérsniðið staðsetning';
+
+  @override
+  String get enter_storage_location => 'Vinsamlegast sláðu inn geymslustað';
+
+  @override
+  String get scan => 'Skanna kóða';
+
+  @override
+  String get scan_to_stock => 'Skanna til að skrá inn á lager';
+
+  @override
+  String get item_categories => 'Vöruflokkun';
+
+  @override
+  String get storage_locations => 'Geymslustaður';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Settu strikamerkið í kassann til að skanna';
+
+  @override
+  String get barcode => 'Strikamerki';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Vinsamlegast sláðu inn strikamerki eða skannaðu kóða';
+
+  @override
+  String get basic_information => 'Grunnupplýsingar';
+
+  @override
+  String get item_name => 'Vörunafn';
+
+  @override
+  String get enter_item_name => 'Vinsamlegast sláðu inn nafn hlutarins';
+
+  @override
+  String get enter_category_name => 'Vinsamlegast sláðu inn flokkunarnafn';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Bætt við $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Nú hefur verið minnkað $itemName $quantity$unit';
+  }
 }

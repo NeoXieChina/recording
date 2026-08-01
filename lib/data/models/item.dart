@@ -26,6 +26,9 @@ class Item {
   final String? barcode;
   final List<String> imagePaths;
   final String? notes;
+  final bool enableAlert;
+  final int alertMethod;
+  final int? alertDaysBefore;
   final DateTime createdAt;
   final DateTime updatedAt;
 
@@ -50,6 +53,9 @@ class Item {
     this.barcode,
     this.imagePaths = const [],
     this.notes,
+    this.enableAlert = true,
+    this.alertMethod = 0,
+    this.alertDaysBefore,
     DateTime? createdAt,
     DateTime? updatedAt,
   }) : id = id ?? const Uuid().v4(),
@@ -76,6 +82,9 @@ class Item {
     String? barcode,
     List<String>? imagePaths,
     String? notes,
+    bool? enableAlert,
+    int? alertMethod,
+    int? alertDaysBefore,
   }) {
     return Item(
       id: id,
@@ -101,6 +110,9 @@ class Item {
       barcode: barcode ?? this.barcode,
       imagePaths: imagePaths ?? this.imagePaths,
       notes: notes ?? this.notes,
+      enableAlert: enableAlert ?? this.enableAlert,
+      alertMethod: alertMethod ?? this.alertMethod,
+      alertDaysBefore: alertDaysBefore ?? this.alertDaysBefore,
       createdAt: createdAt,
       updatedAt: DateTime.now(),
     );
@@ -130,6 +142,9 @@ class Item {
       'barcode': barcode,
       'imagePaths': imagePaths.join(';'),
       'notes': notes,
+      'enableAlert': enableAlert ? 1 : 0,
+      'alertMethod': alertMethod,
+      'alertDaysBefore': alertDaysBefore,
       'createdAt': createdAt.millisecondsSinceEpoch,
       'updatedAt': updatedAt.millisecondsSinceEpoch,
     };
@@ -170,6 +185,9 @@ class Item {
           ? (map['imagePaths'] as String).split(';')
           : [],
       notes: map['notes'] as String?,
+      enableAlert: (map['enableAlert'] as int?) == 1,
+      alertMethod: (map['alertMethod'] as int?) ?? 0,
+      alertDaysBefore: map['alertDaysBefore'] as int?,
       createdAt: DateTime.fromMillisecondsSinceEpoch(map['createdAt'] as int),
       updatedAt: DateTime.fromMillisecondsSinceEpoch(map['updatedAt'] as int),
     );

@@ -81,8 +81,7 @@
     "description": "தனிப்பயன் நாட்கள் உடன் பராம宿ி",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "நினைவூட்டும் நாட்கள் வரம்பு துணைநிலை",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "நாட்கள் உள்ளீட்டு சான்று செய்தி",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "தகவல் பிழை செய்தி",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "பொது செயல்பாட்டு பிழை செய்தி",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "பேக்கப் தோல்வி பிழை செய்தி",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "மீட்பு வெற்றிகரமான செய்தி",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "மீட்டமைப்பு தோல்வி பிழை செய்தி",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "தேர்ந்தெடுக்கப்பட்ட கோப்பு செய்தி",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "ஏற்றுமதி தோல்வி பிழை செய்தி",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "இறக்குமதி வெற்றிகரமான செய்தி",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "இறக்குமதி தோல்வி பிழை செய்தி",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "சாதனத்தின் தகவல்கள் பெறும் பொது தவறான செய்தி",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "மீதமுள்ள நாட்கள் உடன் அளவுருக்கள்",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "காலாவதி நாட்கள் உடன் அளவுரு",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "நீக்குதல் உறுதிப்படுத்தல் செய்தி",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "பிழை செய்தியை அழிக்கவும்",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "வகை எண்ணிக்கை காட்டும்",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "இடம் எண்ணிக்கை காட்டப்படுகிறது",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "பார்கோடு குறியீடு அளவுருக்கள் காட்டுகிறது",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "பெயர் காட்சியில் பராமெட்டர்களுடன்",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "பிரிவுகள் காட்டும் பராமெட்டர்களுடன்",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "தற்போதைய எண்ணிக்கை பராமீட்டுடன் காட்டப்படுகிறது",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "{name} {quantity}{unit} சேர்க்கப்பட்டுள்ளது",
+  "item_increased": "{itemName} {quantity}{unit} சேர்க்கப்பட்டுள்ளது",
   "@item_increased": {
     "description": "பொருள் சேர்க்கை செய்தி",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "அழிக்கும் உறுதிப்படுத்தல் கருத்தில் திரும்ப முடியாத எச்சரிக்கை சேர்க்கப்பட்டது",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "{name} {quantity} {unit} குறைக்கப்பட்டது",
+  "item_decreased": "{itemName} {quantity} {unit} குறைக்கப்பட்டது",
   "@item_decreased": {
     "description": "பொருட்கள் குறைவு செய்தி",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "தரவுத்தளத்தை மீட்டமைக்கும் பொது பிழை",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "பிரதி தரவு துவக்கிப்பு தோல்வியடைந்தது",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "அறிவிப்பு சேவை ஆரம்பப்படவில்லை",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "காலண்டர் கணக்கை சரிபார்க்க முடியவில்லை",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "கெலண்டரை உருவாக்க முடியவில்லை",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "காலண்டர் நிகழ்வை சேர்க்க முடியவில்லை",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "காலண்டர் நிகழ்வை அகற்றுவதில் தோல்வி",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "அனுமதி குறிப்பு செய்தியை அமைக்க தோல்வி",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "மாதிரி தரவு துவக்கிப்பு வெற்றிகரமாக முடிந்தது",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "தரவுத்தளத்தில் 이미 தரவு உள்ளது",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "கோப்பு குறியாக்க பிழை",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "கோப்பு இல்லை என்ற பிழை",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "கோப்பு காலியாக உள்ளது என்ற பிழை",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "புலம் காலியாக இருக்க முடியாது சான்று",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "புலத்தின் குறைந்தபட்ச நீளம் சரிபார்ப்பு",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "புலத்தின் அதிகபட்ச நீள நிலைச் சரிபார்ப்பு",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "மின்னஞ்சல்Formatting சரிபார்ப்பு",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "எண் வடிவFormatting சரிபார்ப்பு",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "குறைந்தபட்ச மதிப்புச் சோதனை",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "அதிகபட்ச மதிப்பின் சான்று",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "நேர்மையான முழு எண் சான்று",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "பூஜ்யத்தை கடந்த சரிபார்ப்பு",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "நெகட்டிவ் அல்லாத சோதனை",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "தேதியின் வடிவமைப்பு சரிபார்ப்பு",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "தேதி கடந்த காலமாக இருக்க முடியாது",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "தேதி குறிப்பிடப்பட்ட தேதிக்குக் க்கும் முன்னதாக இருக்கக்கூடாது",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "தேதி குறிப்பிடப்பட்ட தேதிக்குப் பிறகு இருக்கக் கூடாது",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "தவறான மதிப்பு சரிபார்ப்பு",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "கடவுச்சொல் குறைந்தது நீளம் சரிபார்ப்பு",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "கடவுச்சொல் பெரிய எழுத்துக்கள் கொண்டிருக்க வேண்டும்",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "கடவுச்சொல் சிறிய எழுத்துக்களை அடங்க வேண்டும்",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "கடவுச்சொல்லில் எண்ணிக்கைகள் இருக்க வேண்டும்",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "கடவுச்சொல்லில் சிறப்பு எழுத்துக்கள் இருக்க வேண்டும்",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "பெயரின் மிக அதிக நீள நிலை சரிபார்ப்பு",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "குறைந்தபட்ச மதிப்பு சரிபார்ப்பு",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "அதிகபட்ச அளவு சோதனை",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "அனைத்து முதலீட்டு விலைகளின் அதிகபட்ச மதிப்புகளைச் சரிபார்த்தல்",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "நாட்கள் அளவுருவுடன்",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "தற்போதைய தேர்வு செய்யப்பட்ட நாட்கள் காட்சி",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "பொருளை தொகு",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "பொருளைச் சேர்க்கவும்",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "ஆபரேட்டிங் சிஸ்டம்",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Dart பதிப்பு",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "கணக்கு நாட்காட்டி நிகழ்வு",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "இத یک சோதனை நிகழ்வு, காலண்டர் செயல்பாட்டை சோதிக்க பயன்படுத்தப்படுகிறது",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "ஆப் உள்ளே",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "காலாவதி நினைவூட்டலை செயல்படுத்தவும்",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "மறைவிப்பது முறைகள்",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "மாற்றம் மட்டும் பயன்பாட்டில்",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "மாற்றம் தினசரி",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "இரண்டும்",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "முன்னதாக நினைவூட்டும் நாட்கள்",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "உலகளாவிய அமைப்புகளைப் பயன்படுத்துக",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "பார்ம்கோட்",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "பெயர்",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "வகைப்படுத்துதல்",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "தற்போதைய எண்ணிக்கை",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "செயல்பாட்டை தேர்வுசெய்க",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "அலகு",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "தனிப்பயன் அலகு",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "தயவுசெய்து அலகை உள்ளிடவும்",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "தனிப்பயன் இடம்",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "சேமிப்பு இடத்தை உள்ளிடவும்",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "கோட் ஸ்கேன் செய்யவும்",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "ஸ்கேன் செய்து கையிருப்பில் சேர்க்கவும்",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "பொருட்கள் வகைப்படுத்தல்",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "சேமிப்பு இடம்",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "பார்கோட்டை ஸ்கேன் செய்ய பெட்டிக்குள் வைத்து வையுங்கள்",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "பார்கோடு",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "தயவு செய்து பார் கோடு அல்லது ஸ்கேன் கோடு உள்ளிடவும்",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "அடிப்படை தகவல்",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "பொருளின் பெயர்",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "பொருளின் பெயரை உள்ளிடவும்",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "தரவகை பெயரை உள்ளிடவும்",
+  "@enter_category_name": {
+    "description": ""
   }
 }

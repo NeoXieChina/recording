@@ -101,8 +101,7 @@
     "description": "Өөрийн тохируулсан өдрүүд параметртэй",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -111,8 +110,7 @@
     "description": "Одоогийн сонгогдсон өдрүүдийг харуулах",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -121,12 +119,10 @@
     "description": "Сэрэмжлүүлэх өдрийн хүрээ параметртэй",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -143,12 +139,10 @@
     "description": "Өдрийн тооны оруулгын баталгаажуулах мессеж",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -273,8 +267,7 @@
     "description": "Алдааны мэдэгдэл",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -287,8 +280,7 @@
     "description": "Ерөнхий үйлдлийн алдааны мессеж",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -397,8 +389,7 @@
     "description": "Нөөцлөлт амжилтгүй болсон алдааны мэдэгдэл",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -467,8 +458,7 @@
     "description": "Амжилттай сэргээх мэдээ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -477,8 +467,7 @@
     "description": "Сэргээх ялагдсан алдааны мессеж",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -495,8 +484,7 @@
     "description": "Сонгогдсон файлын мэдэгдэл",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -509,8 +497,7 @@
     "description": "Экспорт амжилтгүй боллоо алдааны мессеж",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -567,8 +554,7 @@
     "description": "Амжилттай импорт хийх мэдэгдэл",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -577,8 +563,7 @@
     "description": "Импортлох амжилтгүй болсон алдааны мессеж",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -707,8 +692,7 @@
     "description": "Төхөөрөмжийн мэдээлэл авахад алдаа гарлаа",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -817,8 +801,7 @@
     "description": "Үлдсэн өдрүүд параметртэй",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -827,8 +810,7 @@
     "description": "Хугацаа дууссан өдрийн параметр",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -841,8 +823,7 @@
     "description": "Устгах баталгаажуулах мэдэгдэл",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -859,8 +840,7 @@
     "description": "Алдааны мессежийг устгах",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -897,8 +877,7 @@
     "description": "Ангиллын тооны дэлгэц",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -919,8 +898,7 @@
     "description": "Байршлын тооны дэлгэц",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -985,8 +963,7 @@
     "description": "Шугаман код параметртэй үзүүлнэ",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -995,8 +972,7 @@
     "description": "Нэр параметртэйгээр харуулагдана",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -1005,8 +981,7 @@
     "description": "Параметртэй ангилсан үзүүлэлт",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -1015,12 +990,10 @@
     "description": "Одоогийн тоо параметр бүстэйгээр харуулах",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1056,17 +1029,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "Илүү нэмэгдсэн {name} {quantity}{unit}",
+  "item_increased": "Илүү нэмэгдсэн {itemName} {quantity}{unit}",
   "@item_increased": {
     "description": "Барааны нэмэгдсэн мэдээ",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1079,22 +1052,21 @@
     "description": "Устгах баталгаажуулах мессеж нь буцааж болшгүй анхааруулгыг агуулна",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "багассан {name} {quantity}{unit}",
+  "item_decreased": "багассан {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "Бараа багассан мэдээ",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1111,8 +1083,7 @@
     "description": "Мэдээллийн санг дахин тохируулах алдаа",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1121,8 +1092,7 @@
     "description": "Дагуул мэдээллийн эхлүүлэх процесс амжилтгүй боллоо",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1117,7 @@
     "description": "Мэдэгдэл үйлчилгээ эхлүүлэх процесс амжилтгүй боллоо",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1126,7 @@
     "description": "Төгөлдөрлөгийн дансыг шалгахад амжилтгүй боллоо",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1135,7 @@
     "description": "Мөнгөнд өдөрлөг үүсгэхэд бүтэлгүйтсэн",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1144,7 @@
     "description": "Хуанлийн арга хэмжээг нэмэхэд амжилтгүй боллоо",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1187,8 +1153,7 @@
     "description": "Хуанлийн арга хэмжээг устгах амжилтгүй боллоо",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1197,8 +1162,7 @@
     "description": "Зөвшөөрөл мэдэгдэл илгээхэд амжилтгүй боллоо",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1207,8 +1171,7 @@
     "description": "Симуляцийн өгөгдлийг амжилттай эхлүүлэв",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1217,8 +1180,7 @@
     "description": "Мэдээллийн санг аль хэдийн өгөгдөлтэй болгосон",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1243,8 +1205,7 @@
     "description": "Файлын кодчилол буруу",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1253,8 +1214,7 @@
     "description": "Файл байхгүй алдаа",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1263,8 +1223,7 @@
     "description": "Файл хоосон байна гэсэн алдаа",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1277,8 +1236,7 @@
     "description": "Талбар хоосон байж болохгүй гэж баталгаажуулна",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1287,12 +1245,10 @@
     "description": "Талбарын хамгийн бага уртын баталгаажуулалт",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1301,12 +1257,10 @@
     "description": "Талбарын хамгийн их уртын баталгаажуулалт",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1315,8 +1269,7 @@
     "description": "Имэйл хаягны форматыг баталгаажуулах",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1325,12 +1278,10 @@
     "description": "Тоон форматын баталгаажуулалт",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1339,12 +1290,10 @@
     "description": "Хамгийн бага утгын баталгаажуулалт",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1353,12 +1302,10 @@
     "description": "хамгийн их утгын баталгаажуулалт",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1367,8 +1314,7 @@
     "description": "Эерэг бүхэл тоог шалгах",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1323,7 @@
     "description": "тэгээс ихийг баталгаажуулах",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,8 +1332,7 @@
     "description": "Эерэг тооны баталгаажуулалт",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1397,8 +1341,7 @@
     "description": "Огнооны формат шалгалт",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1407,8 +1350,7 @@
     "description": "Огноо өнгөрсөн биш байх ёстой",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1417,12 +1359,10 @@
     "description": "Огноо заасан огнооноос эрт байж болохгүй",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1431,12 +1371,10 @@
     "description": "Огноо заасан огнооноос хоцрох ёсгүй",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1383,7 @@
     "description": "Үнэгүй утгын баталгаажуулалт",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1392,7 @@
     "description": "Нууц үгийн хамгийн бага урт баталгаажуулалт",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1401,7 @@
     "description": "Нууц үг нь том үсэг агуулсан байх ёстой",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1475,8 +1410,7 @@
     "description": "Нууц үг нь жижиг үсэг агуулсан байх ёстой",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1485,8 +1419,7 @@
     "description": "Нууц үг нь тоо агуулсан байх ёстой",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1495,8 +1428,7 @@
     "description": "Нууц үг нь тусгай тэмдэгт агуулсан байх ёстой",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1513,8 +1445,7 @@
     "description": "Нэрийн хамгийн урт уртыг баталгаажуулах",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1523,8 +1454,7 @@
     "description": "Хамгийн бага тооны баталгаажуулалт",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1533,8 +1463,7 @@
     "description": "Хамгийн их тоо шалгах",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1547,8 +1476,7 @@
     "description": "Нэгж үнийн хамгийн их утгын баталгаажуулалт",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1581,8 +1509,7 @@
     "description": "өдрийн тоо параметртэй",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1620,6 +1547,146 @@
   },
   "delete_failed": "Устгах амжилтгүй боллоо",
   "@delete_failed": {
+    "description": ""
+  },
+  "edit_item": "Барааг засварлах",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "Бараа нэмэх",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "Үйлдлийн систем",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Dart хувилбар",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "Туршилтын хуанлийн үйл явдал",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "Энэ нь хуанлийн функцийг баталгаажуулахад зориулсан туршилтын үйл явдал юм",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "програм дотор",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "Дуусахыг сануулахыг идэвхжүүлэх",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "сануулгын арга",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "Зөвхөн апп-д дотроо",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "Зөвхөн календараар",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "хоёул",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "урьдчилан сануулах өдрүүд",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "Дэлхийн тохиргоог ашиглах",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "Шугаман код",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "нэр",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "Ангилал",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "Одоогийн тоо хэмжээ",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "Үйлдлээ сонгоно уу",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "нэгж",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Өөрчлөн тохируулсан нэгж",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "Нэгжийг оруулна уу",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "Өөрийн тохируулсан газар",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "Хадгалах газрыг оруулна уу",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "Шугамын кодыг унших",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "Код уншуулж агуулахад оруулах",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "Барааны ангилал",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "хадгалах газар",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "Баркодыг хүрээний дотор тавьж сканнердаарай",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "Шошгоны код",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "Баркодыг оруулж эсвэл сканнердаж уншина уу",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "Үндсэн мэдээлэл",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "Барааны нэр",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "Барааны нэрийг оруулна уу",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "Ангиллын нэрийг оруулна уу",
+  "@enter_category_name": {
     "description": ""
   }
 }

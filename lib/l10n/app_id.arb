@@ -81,8 +81,7 @@
     "description": "Hari khusus dengan parameter",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "Rentang hari pengingat dengan parameter",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "Pesan verifikasi input hari",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "Pemberitahuan pesan kesalahan",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "Pesan kesalahan operasi umum",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "Pesan kesalahan cadangan gagal",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "Pesan pemulihan berhasil",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "Pesan kesalahan pemulihan gagal",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "Pesan file yang dipilih",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "Pesan kesalahan ekspor gagal",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "Pesan impor berhasil",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "Pesan kesalahan impor gagal",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "Pesan kesalahan pengambilan informasi perangkat",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "Sisa hari dengan parameter",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "Jumlah hari kedaluwarsa dengan parameter",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "Hapus pesan konfirmasi",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "Hapus pesan kesalahan",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "Jumlah kategori ditampilkan",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "Jumlah lokasi ditampilkan",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "Tampilan kode batang dengan parameter",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "Nama menampilkan dengan parameter",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "Tampilkan kategori dengan parameter",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "Jumlah saat ini ditampilkan dengan parameter",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "Telah ditambahkan {name} {quantity}{unit}",
+  "item_increased": "Telah ditambahkan {itemName} {quantity}{unit}",
   "@item_increased": {
     "description": "Pesan penambahan item",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "Hapus pesan konfirmasi dengan peringatan tidak dapat dibatalkan",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "Telah dikurangi {name} {quantity}{unit}",
+  "item_decreased": "Telah dikurangi {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "Pesan pengurangan barang",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "Kesalahan reset database",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "Inisialisasi data simulasi gagal",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "Inisialisasi layanan notifikasi gagal",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "Gagal memeriksa akun kalender",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "Gagal membuat kalender",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "Gagal menambahkan acara kalender",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "Gagal menghapus acara kalender",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "Gagal mengatur pesan izin",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "Inisialisasi data simulasi berhasil",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "Database sudah memiliki data",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "Kesalahan pengkodean file",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "Kesalahan file tidak ada",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "Kesalahan file kosong",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "Validasi kolom tidak boleh kosong",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "Validasi panjang minimum bidang",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "Validasi panjang maksimum bidang",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "Validasi format email",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "Validasi format angka",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "Validasi Nilai Minimum",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "Validasi nilai maksimum",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "Validasi bilangan bulat positif",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "Verifikasi lebih besar dari nol",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "Validasi angka positif",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "Validasi format tanggal",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "Tanggal tidak boleh di masa lalu",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "Tanggal tidak boleh lebih awal dari tanggal yang ditentukan",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "Tanggal tidak boleh lebih lambat dari tanggal yang ditentukan",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "Validasi Nilai Tidak Sah",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "Validasi panjang minimum kata sandi",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "Kata sandi harus mengandung huruf kapital",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "Kata sandi harus mengandung huruf kecil",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "Kata sandi harus mengandung angka",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "Kata sandi harus mengandung karakter khusus",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "Validasi panjang maksimum nama",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "Validasi nilai minimum kuantitas",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "Validasi Nilai Maksimum Kuantitas",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "Validasi nilai maksimum harga satuan",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "Jumlah hari dengan parameter",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "Jumlah hari yang dipilih saat ini ditampilkan",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "Sunting item",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "Tambah item",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "Sistem operasi",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Versi Dart",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "Uji acara kalender",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "Ini adalah acara percobaan untuk memverifikasi fungsi kalender",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "dalam aplikasi",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "Aktifkan pengingat kedaluwarsa",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "Metode pengingat",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "Hanya dalam aplikasi",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "Hanya kalender",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "Keduanya",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "Jumlah hari pemberitahuan sebelumnya",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "Gunakan pengaturan global",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "kode batang",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "Nama",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "Klasifikasi",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "Jumlah saat ini",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "Silakan pilih operasi",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "unit",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Unit kustom",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "Silakan masukkan unit",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "Tempat kustom",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "Silakan masukkan lokasi penyimpanan",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "Pindai kode",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "Pindai kode untuk masuk ke gudang",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "Klasifikasi barang",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "Tempat penyimpanan",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "Letakkan barcode di dalam kotak untuk dipindai",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "kode batang",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "Silakan masukkan kode batang atau pindai kode",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "Informasi Dasar",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "Nama Barang",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "Silakan masukkan nama barang",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "Silakan masukkan nama kategori",
+  "@enter_category_name": {
+    "description": ""
   }
 }

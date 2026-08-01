@@ -81,8 +81,7 @@
     "description": "གྲངས་ཀ་ཡོད་པའི་རང་གཤིས་ཀྱི་ཉིན་མོ།",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "དྲན་སྐུལ་ཉིན་མོའི་གྲངས་ཀ་དང་བསྡུར་ན་",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "ནང་འཇུག་ར་སྤྲོད་ཀྱི་ཆ་འཕྲིན་ཉིན་གྲངས་གྲངས།",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "བརྡ་ཐོའི་ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "སྤྱིར་བཏང་བཀོལ་སྤྱོད་ཀྱི་ནོར་འཁྲུལ་བརྡ་འཕྲིན་",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "རྗེས་གྲབས་འཐུས་ཤོར་བའི་ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "ལེགས་འགྲུབ་བྱུང་བའི་ཆ་འཕྲིན་སླར་གསོ་བྱེད་དགོས།",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "སླར་གསོ་བྱས་འཐུས་ཤོར་བའི་ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "བདམས་པའི་ཡིག་ཆའི་འཕྲིན་ཡིག",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "ཕྱིར་འདྲེན་འཐུས་ཤོར་བའི་ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "ལེགས་འགྲུབ་བྱུང་བའི་ཆ་འཕྲིན་ནང་འདྲེན་བྱས་པ།",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "ནང་འདྲེན་བྱས་འཐུས་ཤོར་བའི་ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "སྒྲིག་ཆས་ཀྱི་ཆ་འཕྲིན་འཚོལ་སྡུད་ཀྱི་ནོར་འཁྲུལ་བརྡ་འཕྲིན་",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "གྲངས་ཀ་ཡོད་པའི་ཉིན་ལྷག་མ་",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "གྲངས་ཀ་ཡོད་པའི་དུས་ལས་ཡོལ་བའི་ཉིན་མོ།",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "ཁས་ལེན་གྱི་བརྡ་འཕྲིན་བསུབ་པ།",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "ནོར་འཁྲུལ་གྱི་བརྡ་འཕྲིན་བསུབ་པ།",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "Category Count Display",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "མངོན་པའི་གནས་ཡུལ་གྱི་གྲངས་ཀ་",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "གྲངས་ཀ་ཡོད་པའི་ཨང་རྟགས་མངོན་པ",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "གྲངས་ཀ་ཡོད་པའི་མིང་གི་མངོན་ཚུལ་",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "གྲངས་ཀ་ཡོད་པའི་རིགས་དབྱེ་འགྲེམས་སྟོན་",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "མིག་སྔའི་གྲངས་ཚད་ལ་གྲངས་ཀ་མངོན་པ།",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "{name} {quantity}{unit}ཁ་སྣོན་བྱས་ཟིན།",
+  "item_increased": "{itemName} {quantity}{unit}ཁ་སྣོན་བྱས་ཟིན།",
   "@item_increased": {
     "description": "རྣམ་གྲངས་ཁ་སྣོན་བྱས་པའི་བརྡ་ཐོ།",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "ཕྱིར་འཐེན་བྱེད་མི་ཐུབ་པའི་ཉེན་བརྡ་ཡོད་པའི་ཁས་ལེན་ཡི་གེ་བསུབ་པ།",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "ཉུང་དུ་ཕྱིན་{name} {quantity}{unit}",
+  "item_decreased": "ཉུང་དུ་ཕྱིན་{itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "རྣམ་གྲངས་ཉུང་འཕྲིའི་བརྡ་འཕྲིན་",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "གཞི་གྲངས་མཛོད་བསྐྱར་སྒྲིག་གི་ནོར་འཁྲུལ་",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "ལད་མོ་བྱས་པའི་གྲངས་གཞི་འགོ་འཛུགས་མ་ཐུབ་པ།",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "བརྡ་ཐོ་ཞབས་ཞུ་འགོ་འཛུགས་མ་ཐུབ་པ།",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "ལོ་ཐོའི་རྩིས་ཐོ་ལ་ཞིབ་བཤེར་བྱེད་མ་ཐུབ་པ།",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "ལོ་ཐོ་གསར་བཟོ་བྱེད་མ་ཐུབ་པ།",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "ལོ་ཐོའི་དོན་རྐྱེན་ཁ་སྣོན་བྱེད་མ་ཐུབ་པ།",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "ལོ་ཐོའི་དོན་རྐྱེན་བསུབ་མ་ཐུབ་པ།",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "ཆོག་འཐུས་ཀྱི་བརྡ་འཕྲིན་སྒྲིག་མ་ཐུབ་པ།",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "ལད་མོ་བྱས་པའི་གྲངས་གཞི་ལེགས་འགྲུབ་བྱུང་བ།",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "གཞི་གྲངས་མཛོད་ལ་གཞི་གྲངས་ཡོད།",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "ཡིག་ཆའི་ཨང་སྒྲིག་གི་ནོར་འཁྲུལ་",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "ཡིག་ཆ་མ་རྙེད་པའི་ནོར་འཁྲུལ་",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "ཡིག་ཚགས་ནི་སྟོང་པའི་ནོར་འཁྲུལ་རེད།",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "ས་ཁོངས སྟོང་པ་ར་སྤྲོད་བྱེད་མི་ཉན།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "ཁྱབ་ཁོངས་ཀྱི་རིང་ཚད་དམའ་ཤོས་ཀྱི་ཚོད་ལྟ།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "ཁྱབ་ཁོངས་ཀྱི་རིང་ཚད་མཐོ་ཤོས་ར་སྤྲོད་",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "གློག་རྡུལ་ཡིག་རིགས་ཀྱི་རྣམ་གཞག་ཚོད་ལྟ།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "ཨང་གྲངས་རྣམ་གཞག་ཚོད་ལྟ།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "ཆེས་དམའ་བའི་རིན་ཐང་ཚོད་ལྟ།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "ཆེས་ཆེ་བའི་རིན་ཐང་ཚོད་ལྟ།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "དྲང་ཕྱོགས་ཀྱི་ཧྲིལ་གྲངས་ཞིབ་བཤེར།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "ཀླད་ཀོར་ལས་ལྷག་པའི་ཚོད་ལྟས་ར་སྤྲོད་བྱས་པ།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "དྲང་གྲངས་ཞིབ་བསྡུར་བྱས་པ།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "ཚེས་གྲངས་རྣམ་གཞག་ཚོད་ལྟ།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "ཚེས་གྲངས་དེ་འདས་ཟིན་མི་རུང་ལ།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "ཚེས་གྲངས་དེ་དམིགས་འཛུགས་བྱས་པའི་ཚེས་གྲངས་ལས་སྔ་མི་རུང་།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "ཚེས་གྲངས་དེ་གཏན་འབེབས་བྱས་པའི་དུས་ཚོད་ལས་རྗེས་སུ་ལུས་མི་རུང་།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "གོ་མི་ཆོད་པའི་རིན་ཐང་ཚོད་ལྟ།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "གསང་གྲངས་ཀྱི་རིང་ཚད་དམའ་ཤོས་ར་སྤྲོད་བྱས་པ།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "གསང་བའི་ནང་དུ་ངེས་པར་དུ་ཡིག་ཆེན་ཡོད་དགོས།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "གསང་བའི་ནང་དུ་ངེས་པར་དུ་གསལ་བྱེད་ཆུང་བ་ཡོད་དགོས།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "གསང་བའི་ནང་དུ་ངེས་པར་དུ་གྲངས་ཀ་ཡོད་དགོས།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "གསང་བའི་ནང་དུ་ངེས་པར་དུ་དམིགས་བསལ་གྱི་ཡི་གེ་ཡོད་དགོས།",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "ཆེས་མང་བའི་མིང་གི་རིང་ཚད་ཚོད་ལྟ།",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "གྲངས་ཚད་དམའ་ཤོས་ཀྱི་ཚོད་ལྟ།",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "གྲངས་ཚད་མཐོ་ཤོས་ཀྱི་ཚོད་ལྟ།",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "རྩིས་གཞིའི་རིན་གོང་གི་རིན་ཐང་མཐོ་ཤོས་ཀྱི་ཞིབ་དཔྱད།",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "གྲངས་ཀ་ཡོད་པའི་ཉིན་མོ།",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "མིག་སྔར་བདམས་པའི་ཉིན་མོའི་མངོན་ཚུལ་",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "རྩོམ་སྒྲིག་རྣམ་གྲངས་",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "རྣམ་གྲངས་ཁ་སྣོན་བྱས་པ།",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "བཀོལ་སྤྱོད་མ་ལག",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "མདུང་གི་པར་གཞི་",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "ཚོད་ལྟའི་ཉིན་ཐོའི་དོན་རྐྱེན།",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "འདི་ནི་ལོ་ཐོའི་བྱེད་ནུས་ལ་ཞིབ་དཔྱད་བྱེད་པར་སྤྱོད་པའི་ཚོད་ལྟའི་བྱ་འགུལ་ཞིག་ཡིན།",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "ནང་ལོགས་སུ་",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "དུས་ལས་ཡོལ་བའི་དྲན་སྐུལ་ལྕོགས་ཅན་བཟོ་དགོས།",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "དྲན་སྐུལ་བྱེད་ཐབས།",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "App ཁོ་ན",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "ལོ་ཐོ་ཁོ་ན་",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "དེ་གཉིས་ཀ",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "སྔོན་ཚུད་ནས་བརྡ་ཐོ་གཏོང་བའི་ཉིན་གྲངས་",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "གོ་ལ་ཧྲིལ་པོའི་སྒྲིག་སྟངས་སྤྱོད་དགོས།",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "ཨང་རྟགས་",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "མིང་",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "རིགས་དབྱེ",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "མིག་སྔའི་གྲངས་འབོར།",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "བཀོལ་སྤྱོད་ཅིག་འདེམས་རོགས།",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "སྡེ་ཚན།",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Custom Unit",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "ལས་ཁུངས་དེའི་ནང་དུ་ཞུགས་རོགས།",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "Custom Location",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "གསོག་ཉར་བྱེད་གནས་སུ་འཇུག་རོགས།",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "QRཨང་རྟགས་ལ་ཞིབ་ལྟ་བྱས།",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "ཚབ་རྟགས་ལ་བཤེར་བཤེར་བྱས་ནས་མཛོད་ཁང་ནང་འཇུག་དགོས།",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "རྣམ་གྲངས་ཀྱི་རིགས་དབྱེ།",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "གསོག་ཉར་ས་གནས།",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "ཨང་རྟགས་སྒྲོམ་གཞིའི་ནང་དུ་བཞག་ནས་པར་ལེན་བྱས།",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "ཨང་རྟགས་",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "ཁྱོད་ཀྱིས་ཨང་རྟགས་ནང་འཇུག་གམ་ཡང་ན་ཚབ་རྟགས་ལ་ཞིབ་ལྟ་བྱེད་རོགས།",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "གཞི་རྩའི་བརྡ་འཕྲིན།",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "རྣམ་གྲངས་ཀྱི་མིང་།",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "རྣམ་གྲངས་ཀྱི་མིང་ནང་འཇུག་རོགས།",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "རིགས་མིང་ནང་འཇུག་རོགས།",
+  "@enter_category_name": {
+    "description": ""
   }
 }

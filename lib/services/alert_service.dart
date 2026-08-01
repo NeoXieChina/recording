@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:recording/constants.dart';
 import 'package:recording/data/datasources/app_database.dart';
 import 'package:recording/services/notification_service.dart';
+import 'package:recording/services/calendar_service.dart';
 import 'package:workmanager/workmanager.dart';
 
 class AlertService {
@@ -89,36 +90,93 @@ class AlertService {
 
   static Future<void> _checkExpiryItems() async {
     final db = AppDatabase();
-    final alertDays = AppConstants.defaultAlertDays;
+    final globalAlertDays = AppConstants.defaultAlertDays;
 
-    final expiringItems = await db.getExpiringItems(alertDays);
+    // 检查日历账户是否可用
+    bool calendarAvailable = false;
+    try {
+      calendarAvailable = await CalendarService.hasCalendarAccount();
+      if (!calendarAvailable) {
+        // 尝试创建日历账户
+        calendarAvailable = await CalendarService.createCalendar();
+      }
+    } catch (e) {
+      debugPrint('日历账户检查失败: $e');
+    }
+
+    final expiringItems = await db.getExpiringItems(globalAlertDays);
     final ns = NotificationService();
     for (var i = 0; i < expiringItems.length; i++) {
       final item = expiringItems[i];
       if (item.expiryDate != null) {
         final remaining = item.expiryDate!.difference(DateTime.now()).inDays;
-        await ns.showItemExpiryAlert(
-          itemName: item.name,
-          expiryDate: item.expiryDate!,
-          remainingDays: remaining,
-          itemId: item.id,
-          id: 2000 + i,
-        );
+        // 发送应用内通知（如果启用）
+        if (item.alertMethod == 0 || item.alertMethod == 2) {
+          await ns.showItemExpiryAlert(
+            itemName: item.name,
+            expiryDate: item.expiryDate!,
+            remainingDays: remaining,
+            itemId: item.id,
+            id: 2000 + i,
+          );
+        }
+        // 创建日历事件（如果启用且日历可用）
+        if ((item.alertMethod == 1 || item.alertMethod == 2) && calendarAvailable) {
+          final daysBefore = item.alertDaysBefore ?? globalAlertDays;
+          final alertDate = item.expiryDate!.subtract(Duration(days: daysBefore));
+          // 如果提醒日期已经过去，则不创建事件
+          if (alertDate.isAfter(DateTime.now())) {
+            try {
+              await CalendarService.addEvent(
+                title: '物品过期提醒：${item.name}',
+                description: '物品 ${item.name} 将在 $remaining 天后过期',
+                location: item.storageLocation.isNotEmpty ? item.storageLocation : '未指定',
+                startTime: alertDate,
+                endTime: alertDate.add(const Duration(hours: 1)),
+                reminderMinutes: 0, // 日历事件自带提醒
+              );
+            } catch (e) {
+              debugPrint('创建日历事件失败: $e');
+            }
+          }
+        }
       }
     }
 
-    final warrantyItems = await db.getWarrantyExpiringItems(alertDays);
+    final warrantyItems = await db.getWarrantyExpiringItems(globalAlertDays);
     for (var i = 0; i < warrantyItems.length; i++) {
       final item = warrantyItems[i];
       if (item.warrantyDate != null) {
         final remaining = item.warrantyDate!.difference(DateTime.now()).inDays;
-        await ns.showItemWarrantyAlert(
-          itemName: item.name,
-          warrantyDate: item.warrantyDate!,
-          remainingDays: remaining,
-          itemId: item.id,
-          id: 3000 + i,
-        );
+        // 发送应用内通知（如果启用）
+        if (item.alertMethod == 0 || item.alertMethod == 2) {
+          await ns.showItemWarrantyAlert(
+            itemName: item.name,
+            warrantyDate: item.warrantyDate!,
+            remainingDays: remaining,
+            itemId: item.id,
+            id: 3000 + i,
+          );
+        }
+        // 创建日历事件（如果启用且日历可用）
+        if ((item.alertMethod == 1 || item.alertMethod == 2) && calendarAvailable) {
+          final daysBefore = item.alertDaysBefore ?? globalAlertDays;
+          final alertDate = item.warrantyDate!.subtract(Duration(days: daysBefore));
+          if (alertDate.isAfter(DateTime.now())) {
+            try {
+              await CalendarService.addEvent(
+                title: '保修到期提醒：${item.name}',
+                description: '物品 ${item.name} 的保修期将在 $remaining 天后到期',
+                location: item.storageLocation.isNotEmpty ? item.storageLocation : '未指定',
+                startTime: alertDate,
+                endTime: alertDate.add(const Duration(hours: 1)),
+                reminderMinutes: 0,
+              );
+            } catch (e) {
+              debugPrint('创建日历事件失败: $e');
+            }
+          }
+        }
       }
     }
   }

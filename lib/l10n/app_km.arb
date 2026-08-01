@@ -81,8 +81,7 @@
     "description": "ថ្ងៃផ្ទាល់ខ្លួនជាមួយប៉ារ៉ាម៉ែត្រ",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "ជួរពេលវេលាប្រកាសជាមួយប៉ារ៉ាម៉ែត្រ",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "សារ​ផ្ទៀងផ្ទាត់ការបញ្ចូលចំនួនថ្ងៃ",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "ព័ត៌មាន​​ខុស",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "សារកំហុសប្រតិបត្តិការទូទៅ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "សារ​បង្វិល​ការបញ្ជាក់​មិន​ជោគជ័យ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "សារគោរពការជោគជ័យในการស្ដារឡើងវិញ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "ការគប់សងបរាជ័យសារ​​កំហុស",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "បានជ្រើសរើសឯកសារទំនាក់ទំនង",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "ការនាំចេញបរាជ័យសារ​បញ្ជាក់​កំហុស",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "សារជោគជ័យនៃការនាំចូល",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "ការនាំចូលបរាជ័យសារ​បញ្ជាក់​កំហុស",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "សារកំហុសក្នុងការទទួលបានព័ត៌មានឧបករណ៍",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "ចំនួនថ្ងៃនៅសល់ជាមួយប៉ារ៉ាម៉ែត្រ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "ចំនួនថ្ងៃផុតកំណត់ជាមួយប៉ារ៉ាម៉ែត្រ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "ការបញ្ជាក់ការលុប",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "លុបសារ​កំហុស",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "បង្ហាញចំនួនប្រភេទ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "បង្ហាញចំនួនទីតាំង",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "បញ្ចាក់បារ៉ូដជាមួយប៉ារ៉ាម៉ែត្រ",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "បង្ហាញឈ្មោះជាមួយប៉ារ៉ាម៉ែត្រ",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "បង្ហាញចំណាត់ថ្នាក់ជាមួយប៉ារ៉ាម៉ែត្រ",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "បញ្ចាក់ចំនួនបច្ចុប្បន្នមានប៉ារ៉ាម៉ែត្រ",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "បានបន្ថែម {name} {quantity}{unit}",
+  "item_increased": "បានបន្ថែម {itemName} {quantity}{unit}",
   "@item_increased": {
     "description": "ព័ត៌មានបន្ថែមវត្ថុ",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "សារ​ផ្ទៀងផ្ទាត់លុបជាមួយការព្រមានមិនអាច​មិនត្រឡប់វិញបាន",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "បានកាត់បន្ថយ {name} {quantity}{unit}",
+  "item_decreased": "បានកាត់បន្ថយ {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "សារការកាត់បន្ថយទំនិញ",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "កំហុសការកំណត់ឡើងវិញរបស់មូលដ្ឋានទិន្នន័យ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "ការទាញទិន្នន័យក្លែងបន្លំបរាជ័យក្នុងការចាប់ផ្ដើម",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "ការគោរពសេវាកម្មប្រកាសបិទបរាជ័យ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "ពិនិត្យ​គណនីប្រតិទិនបរាជ័យ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "បរាជ័យក្នុងការបង្កើតប្រតិទិ៍វិស័យ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "បញ្ចូលព្រឹត្តិការណ៍ប្រតិទិនមិនបាន",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "ការលុបព្រឹត្តិការណ៍ប្រតិទិនបរាជ័យ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "ការកំណត់សិទ្ធិបរាជ័យក្នុងការបង្ហាញសារជូនដំណឹង",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "ការចាប់ផ្តើមទិន្នន័យសមល្បងបានជោគជ័យ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "មូលដ្ឋានទិន្នន័យមានទិន្នន័យរួចហើយ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "កំហុសកូដឯកសារ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "ឯកសារមិនមាន",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "ឯកសារទទេ",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "ការត្រួតពិនិត្យកំណត់វាលមិនអាចទទេ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "ការផ្ទៀងផ្ទាត់ប្រវែងអប្បបរមាផ្ទៃវាយ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "ការផ្ទៀងផ្ទាត់ប្រវែងអតិបរមារបស់វាល",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "ការត្រួតពិនិត្យទ្រង់ទ្រាយអ៊ីមែល",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "ការត្រួតពិនិត្យទ្រង់ទ្រាយលេខ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "ការផ្ទៀងផ្ទាត់តម្លៃតិចបំផុត",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "ការត្រួតពិនិត្យតម្លៃអតិបរមា",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "ការត្រួតពិនិត្យចំនួនគត់វិជ្ជមាន",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "បញ្ជាក់ថា ធំជាងសូន្យ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "ការត្រួតពិនិត្យលេខវិជ្ជមាន",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "ការត្រួតពិនិត្យទ្រង់ទ្រាយកាលបរិច្ឆេទ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "កាលបរិច្ឆេទមិនអាចជាអតីតកាលបាន",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "កាលបរិច្ឆេទមិនអាចមិចជាងកាលបរិច្ឆេទដែលបានកំណត់បាន",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "កាលបរិច្ឆេទមិនអាចយឺតជាងកាលបរិច្ឆេទដែលបានកំណត់បាន",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "ការផ្ទៀងផ្ទាត់តម្លៃមិនមានប្រសិទ្ធភាព",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "ការផ្ទៀងផ្ទាត់ប្រវែងលេខសំងាត់អប្បបរមា",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "ពាក្យសម្ងាត់ត្រូវតែមានអក្សរធំ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "ពាក្យសម្ងាត់ត្រូវតែមានអក្សរតូច",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "ពាក្យសម្ងាត់​ត្រូវតែមានលេខ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "ពាក្យសម្ងាត់ត្រូវតែមានអក្សរពិសេស",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "ការផ្ទៀងផ្ទាត់ប្រវែងអតិបរមារបស់ឈ្មោះ",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "ការផ្ទៀងផ្ទាត់តម្លៃអប្បបរមា",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "ការផ្ទៀងផ្ទាត់តម្លៃអតិបរមា",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "ការផ្ទៀងផ្ទាត់តម្លៃអតិផរណាផ្ទាល់ខ្លួនអតិបរមា",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "ចំនួនថ្ងៃជាមួយប៉ារ៉ាម៉ែត្រ",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "បង្ហាញចំនួនថ្ងៃដែលបានជ្រើសបច្ចុប្បន្ន",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "កែសម្រួលអត្ថបទ",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "បន្ថែមទំនិញ",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "ប្រព័ន្ធប្រតិបត្តិការ",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "កំណែ Dart",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "ព្រឹត្តិការណ៍ប្រតិទិនសាកល្បង",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "នេះគឺជាព្រឹត្តិការណ៍សាកល្បង មួយ ដែលប្រើសម្រាប់ផ្ទៀងផ្ទាត់មុខងារទិន្នន័យប្រតិទិន",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "នៅក្នុងកម្មវិធី",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "បើកការរំលឹកការផុតកំណត់",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "វិធីរំឮខ",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "តែអាចប្រើបានក្នុងកម្មវិធី",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "តែប្រតិទិន",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "ទាំងពីរ",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "ចំនួនថ្ងៃដើម្បីជូនការជូនដំណឹងមុន",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "ប្រើការកំណត់សកល",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "កូដបារ",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "ឈ្មោះ",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "ចំណាត់ថ្នាក់",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "ចំនួន​បច្ចុប្បន្ន",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "សូមជ្រើសរើសប្រតិបត្តិការ",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "អង្គភាព",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "ឯកតាផ្ទាល់ខ្លួន",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "សូមបញ្ចូលខ្នាត",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "កន្លែងដែលត្រូវប្ដូរតាមចិត្ត",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "សូមបញ្ចូលទីតាំងផ្ទុក",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "ស្កេនកូដ",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "ស្កេនខូដដើម្បីចូលឃ្លាំង",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "ចំណាត់ថ្នាក់វត្ថុ",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "កន្លែងផ្ទុក",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "ដាក់កូដបារ់ទៅក្នុងប្រអប់ស្កេន",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "កូដបារ",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "សូមបញ្ចូលកូដបារ៉ូឬស្កេន",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "ព័ត៌មានមូលដ្ឋាន",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "ឈ្មោះទំនិញ",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "សូមបញ្ចូលឈ្មោះទំនិញ",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "សូមបញ្ចូលឈ្មោះចំណាត់ថ្នាក់",
+  "@enter_category_name": {
+    "description": ""
   }
 }

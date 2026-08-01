@@ -30,6 +30,12 @@ class AppLocalizationsHt extends AppLocalizations {
   String get add => 'Ajoute';
 
   @override
+  String get edit_item => 'Edite atik';
+
+  @override
+  String get add_item => 'Ajoute atik';
+
+  @override
   String get search => 'Rechèch';
 
   @override
@@ -519,7 +525,13 @@ class AppLocalizationsHt extends AppLocalizations {
   String get system_name => 'Non sistèm';
 
   @override
+  String get operating_system => 'Sistèm operasyon';
+
+  @override
   String get system_version => 'Vèsyon sistèm';
+
+  @override
+  String get dart_version => 'Vèsyon Dart';
 
   @override
   String get device_identifier => 'Idantifikasyon ekipman';
@@ -771,18 +783,8 @@ class AppLocalizationsHt extends AppLocalizations {
       'Tanpri antre kantite pou sòti nan depo a';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Te ajoute $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Èske ou sèten ou vle efase \'$name\'? Aksyon sa a pa ka defèt.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Te redwi $name $quantity$unit';
   }
 
   @override
@@ -1066,4 +1068,109 @@ class AppLocalizationsHt extends AppLocalizations {
 
   @override
   String get delete_failed => 'Pa kapab efase';
+
+  @override
+  String get test_calendar_event => 'Teste evènman kalandriye';
+
+  @override
+  String get test_calendar_event_description =>
+      'Sa a se yon evènman tès, li itilize pou verifye fonksyon kalandriye a';
+
+  @override
+  String get in_app => 'Nan aplikasyon an';
+
+  @override
+  String get enable_alert => 'Pèmèt rapèl ekspirasyon';
+
+  @override
+  String get alert_method => 'Mòd rapèl';
+
+  @override
+  String get alert_method_in_app => 'Sèlman nan aplikasyon an';
+
+  @override
+  String get alert_method_calendar => 'Kalandriye sèlman';
+
+  @override
+  String get alert_method_both => 'Tou de';
+
+  @override
+  String get alert_days_before => 'Kantite jou pou raple davans';
+
+  @override
+  String get use_global_setting => 'Sèvi ak anviwònman mondyal';
+
+  @override
+  String get barcode_label => 'Kòd ba';
+
+  @override
+  String get name_label => 'Non';
+
+  @override
+  String get category_label => 'Klasifikasyon';
+
+  @override
+  String get current_quantity => 'Kantite aktyèl';
+
+  @override
+  String get select_operation => 'Tanpri chwazi operasyon an';
+
+  @override
+  String get unit => 'inyon';
+
+  @override
+  String get custom_unit => 'Inite pèsonalize';
+
+  @override
+  String get enter_unit => 'Tanpri antre inite a';
+
+  @override
+  String get custom_location => 'Kote pèsonalize';
+
+  @override
+  String get enter_storage_location => 'Tanpri antre kote depo a';
+
+  @override
+  String get scan => 'Eskane kòd la';
+
+  @override
+  String get scan_to_stock => 'Eskane kòd pou antre nan depo';
+
+  @override
+  String get item_categories => 'Klasifikasyon atik';
+
+  @override
+  String get storage_locations => 'Kote depo';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Mete kòd bar nan bwat la pou eskane';
+
+  @override
+  String get barcode => 'Kòd ba';
+
+  @override
+  String get enter_barcode_or_scan => 'Tanpri antre kòd bar oswa eskane kòd la';
+
+  @override
+  String get basic_information => 'Enfòmasyon debaz';
+
+  @override
+  String get item_name => 'Non atik';
+
+  @override
+  String get enter_item_name => 'Tanpri antre non atik la';
+
+  @override
+  String get enter_category_name => 'Tanpri antre non kategori a';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Te ajoute $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Te redwi $itemName $quantity$unit';
+  }
 }

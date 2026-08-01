@@ -30,6 +30,12 @@ class AppLocalizationsHr extends AppLocalizations {
   String get add => 'Dodaj';
 
   @override
+  String get edit_item => 'Uredi predmet';
+
+  @override
+  String get add_item => 'Dodaj stavku';
+
+  @override
   String get search => 'Pretraži';
 
   @override
@@ -519,7 +525,13 @@ class AppLocalizationsHr extends AppLocalizations {
   String get system_name => 'Naziv sustava';
 
   @override
+  String get operating_system => 'Operativni sustav';
+
+  @override
   String get system_version => 'Verzija sustava';
+
+  @override
+  String get dart_version => 'Verzija Darta';
 
   @override
   String get device_identifier => 'Oznaka uređaja';
@@ -772,18 +784,8 @@ class AppLocalizationsHr extends AppLocalizations {
   String get enter_outbound_quantity => 'Molimo unesite količinu za otpremu';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Dodano je $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Jeste li sigurni da želite izbrisati „$name“? Ova operacija se ne može poništiti.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Smanjeno za $name $quantity$unit';
   }
 
   @override
@@ -1070,4 +1072,109 @@ class AppLocalizationsHr extends AppLocalizations {
 
   @override
   String get delete_failed => 'Brisanje nije uspjelo';
+
+  @override
+  String get test_calendar_event => 'Testni kalendarski događaj';
+
+  @override
+  String get test_calendar_event_description =>
+      'Ovo je testni događaj koji služi za provjeru funkcionalnosti kalendara';
+
+  @override
+  String get in_app => 'Unutar aplikacije';
+
+  @override
+  String get enable_alert => 'Omogući podsjetnik za isteka';
+
+  @override
+  String get alert_method => 'Način podsjećanja';
+
+  @override
+  String get alert_method_in_app => 'Samo u aplikaciji';
+
+  @override
+  String get alert_method_calendar => 'Samo kalendar';
+
+  @override
+  String get alert_method_both => 'oboje';
+
+  @override
+  String get alert_days_before => 'Broj dana unaprijed za podsjetnik';
+
+  @override
+  String get use_global_setting => 'Koristi globalne postavke';
+
+  @override
+  String get barcode_label => 'Barkod';
+
+  @override
+  String get name_label => 'Naziv';
+
+  @override
+  String get category_label => 'Klasifikacija';
+
+  @override
+  String get current_quantity => 'Trenutna količina';
+
+  @override
+  String get select_operation => 'Odaberite operaciju';
+
+  @override
+  String get unit => 'jedinica';
+
+  @override
+  String get custom_unit => 'Prilagođena jedinica';
+
+  @override
+  String get enter_unit => 'Unesite jedinicu';
+
+  @override
+  String get custom_location => 'Prilagođena lokacija';
+
+  @override
+  String get enter_storage_location => 'Molimo unesite mjesto pohrane';
+
+  @override
+  String get scan => 'Skeniraj QR kod';
+
+  @override
+  String get scan_to_stock => 'Skeniraj kod za unos u skladište';
+
+  @override
+  String get item_categories => 'Klasifikacija predmeta';
+
+  @override
+  String get storage_locations => 'Mjesto pohrane';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Stavite barkod unutar okvira za skeniranje';
+
+  @override
+  String get barcode => 'Barkod';
+
+  @override
+  String get enter_barcode_or_scan => 'Unesite barkod ili skenirajte';
+
+  @override
+  String get basic_information => 'Osnovne informacije';
+
+  @override
+  String get item_name => 'Naziv predmeta';
+
+  @override
+  String get enter_item_name => 'Molimo unesite naziv predmeta';
+
+  @override
+  String get enter_category_name => 'Unesite naziv kategorije';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Dodano je $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Smanjeno za $itemName $quantity$unit';
+  }
 }

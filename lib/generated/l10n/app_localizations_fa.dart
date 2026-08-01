@@ -30,6 +30,12 @@ class AppLocalizationsFa extends AppLocalizations {
   String get add => 'اضافه کردن';
 
   @override
+  String get edit_item => 'ویرایش آیتم';
+
+  @override
+  String get add_item => 'افزودن مورد';
+
+  @override
   String get search => 'جستجو';
 
   @override
@@ -520,7 +526,13 @@ class AppLocalizationsFa extends AppLocalizations {
   String get system_name => 'نام سیستم';
 
   @override
+  String get operating_system => 'سیستم‌عامل';
+
+  @override
   String get system_version => 'نسخه سیستم';
+
+  @override
+  String get dart_version => 'نسخه Dart';
 
   @override
   String get device_identifier => 'شناسه دستگاه';
@@ -773,18 +785,8 @@ class AppLocalizationsFa extends AppLocalizations {
       'لطفاً تعداد خروج از انبار را وارد کنید';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'تعداد $name $quantity$unit افزایش یافت';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'آیا مطمئن هستید که می‌خواهید «$name» را حذف کنید؟ این عملیات قابل بازگردانی نیست.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'تعداد $name $quantity$unit کاهش یافته است';
   }
 
   @override
@@ -1068,4 +1070,109 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get delete_failed => 'حذف شکست خورد';
+
+  @override
+  String get test_calendar_event => 'آزمایش رویداد تقویم';
+
+  @override
+  String get test_calendar_event_description =>
+      'این یک رویداد آزمایشی است که برای بررسی عملکرد تقویم استفاده می‌شود';
+
+  @override
+  String get in_app => 'درون‌برنامه‌ای';
+
+  @override
+  String get enable_alert => 'فعال‌سازی یادآوری انقضا';
+
+  @override
+  String get alert_method => 'روش یادآوری';
+
+  @override
+  String get alert_method_in_app => 'فقط درون برنامه‌ای';
+
+  @override
+  String get alert_method_calendar => 'فقط تقویم';
+
+  @override
+  String get alert_method_both => 'هر دو';
+
+  @override
+  String get alert_days_before => 'تعداد روزهای یادآوری قبلی';
+
+  @override
+  String get use_global_setting => 'استفاده از تنظیمات سراسری';
+
+  @override
+  String get barcode_label => 'بارکد';
+
+  @override
+  String get name_label => 'نام';
+
+  @override
+  String get category_label => 'دسته‌بندی';
+
+  @override
+  String get current_quantity => 'مقدار فعلی';
+
+  @override
+  String get select_operation => 'لطفاً عملیات را انتخاب کنید';
+
+  @override
+  String get unit => 'واحد';
+
+  @override
+  String get custom_unit => 'واحد سفارشی';
+
+  @override
+  String get enter_unit => 'لطفاً واحد را وارد کنید';
+
+  @override
+  String get custom_location => 'مکان سفارشی';
+
+  @override
+  String get enter_storage_location => 'لطفاً مکان ذخیره‌سازی را وارد کنید';
+
+  @override
+  String get scan => 'اسکن کد QR';
+
+  @override
+  String get scan_to_stock => 'اسکن کد برای ورود به انبار';
+
+  @override
+  String get item_categories => 'دسته‌بندی اقلام';
+
+  @override
+  String get storage_locations => 'محل ذخیره‌سازی';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'بارکد را داخل قاب قرار دهید تا اسکن شود';
+
+  @override
+  String get barcode => 'بارکد';
+
+  @override
+  String get enter_barcode_or_scan => 'لطفاً بارکد را وارد کنید یا اسکن کنید';
+
+  @override
+  String get basic_information => 'اطلاعات پایه';
+
+  @override
+  String get item_name => 'نام کالا';
+
+  @override
+  String get enter_item_name => 'لطفاً نام کالا را وارد کنید';
+
+  @override
+  String get enter_category_name => 'لطفاً نام دسته‌بندی را وارد کنید';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'تعداد $itemName $quantity$unit افزایش یافت';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'تعداد $itemName $quantity$unit کاهش یافته است';
+  }
 }

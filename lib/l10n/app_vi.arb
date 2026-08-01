@@ -101,8 +101,7 @@
     "description": "Tùy chỉnh số ngày với tham số",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -111,8 +110,7 @@
     "description": "Hiển thị số ngày đang chọn",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -121,12 +119,10 @@
     "description": "Phạm vi số ngày nhắc nhở có kèm tham số",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -143,12 +139,10 @@
     "description": "Thông báo xác thực nhập số ngày",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -273,8 +267,7 @@
     "description": "Thông báo lỗi",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -287,8 +280,7 @@
     "description": "Thông báo lỗi thao tác chung",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -397,8 +389,7 @@
     "description": "Thông báo lỗi sao lưu thất bại",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -467,8 +458,7 @@
     "description": "Khôi phục thành công",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -477,8 +467,7 @@
     "description": "Thông báo lỗi khôi phục thất bại",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -495,8 +484,7 @@
     "description": "Thông báo tệp đã chọn",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -509,8 +497,7 @@
     "description": "Lỗi xuất khẩu",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -567,8 +554,7 @@
     "description": "Thông báo nhập khẩu thành công",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -577,8 +563,7 @@
     "description": "Lỗi nhập khẩu không thành công",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -707,8 +692,7 @@
     "description": "Lỗi nhận thông tin thiết bị",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -817,8 +801,7 @@
     "description": "Số ngày còn lại có tham số",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -827,8 +810,7 @@
     "description": "Số ngày quá hạn có tham số",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -841,8 +823,7 @@
     "description": "Xác nhận xoá",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -859,8 +840,7 @@
     "description": "Xóa thông báo lỗi",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -897,8 +877,7 @@
     "description": "Hiển thị số lượng theo phân loại",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -919,8 +898,7 @@
     "description": "Hiển thị số lượng địa điểm",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -985,8 +963,7 @@
     "description": "Mã vạch hiển thị có tham số",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -995,8 +972,7 @@
     "description": "Tên hiển thị có tham số",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -1005,8 +981,7 @@
     "description": "Hiển thị phân loại có tham số",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -1015,12 +990,10 @@
     "description": "Hiển thị số lượng hiện tại với tham số",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1056,17 +1029,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "Đã tăng thêm {name} {quantity}{unit}",
+  "item_increased": "Đã tăng thêm {itemName} {quantity}{unit}",
   "@item_increased": {
     "description": "Thông báo tăng vật phẩm",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1079,22 +1052,21 @@
     "description": "Xóa tin nhắn xác nhận kèm cảnh báo không thể thu hồi",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "Đã giảm {name} {quantity}{unit}",
+  "item_decreased": "Đã giảm {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "Thông báo giảm vật phẩm",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1111,8 +1083,7 @@
     "description": "Lỗi đặt lại cơ sở dữ liệu",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1121,8 +1092,7 @@
     "description": "Khởi tạo dữ liệu mô phỏng thất bại",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1117,7 @@
     "description": "Khởi tạo dịch vụ thông báo thất bại",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1126,7 @@
     "description": "Kiểm tra tài khoản lịch thất bại",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1135,7 @@
     "description": "Tạo lịch thất bại",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1144,7 @@
     "description": "Thêm sự kiện lịch thất bại",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1187,8 +1153,7 @@
     "description": "Xóa sự kiện lịch thất bại",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1197,8 +1162,7 @@
     "description": "Thiết lập thông báo quyền thất bại",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1207,8 +1171,7 @@
     "description": "Khởi tạo dữ liệu mô phỏng thành công",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1217,8 +1180,7 @@
     "description": "Cơ sở dữ liệu đã có dữ liệu",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1243,8 +1205,7 @@
     "description": "Lỗi mã hóa tệp",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1253,8 +1214,7 @@
     "description": "Lỗi không tồn tại tệp",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1263,8 +1223,7 @@
     "description": "Lỗi tệp trống",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1277,8 +1236,7 @@
     "description": "Trường không được để trống",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1287,12 +1245,10 @@
     "description": "Xác minh độ dài tối thiểu của trường",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1301,12 +1257,10 @@
     "description": "Xác thực độ dài tối đa của trường",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1315,8 +1269,7 @@
     "description": "Xác thực định dạng email",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1325,12 +1278,10 @@
     "description": "Xác thực định dạng số",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1339,12 +1290,10 @@
     "description": "Xác minh giá trị nhỏ nhất",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1353,12 +1302,10 @@
     "description": "Xác minh giá trị lớn nhất",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1367,8 +1314,7 @@
     "description": "Xác minh số nguyên dương",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1323,7 @@
     "description": "Xác minh lớn hơn không",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,8 +1332,7 @@
     "description": "Xác minh số dương",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1397,8 +1341,7 @@
     "description": "Xác thực định dạng ngày",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1407,8 +1350,7 @@
     "description": "Ngày không được ở quá khứ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1417,12 +1359,10 @@
     "description": "Ngày không thể sớm hơn ngày được chỉ định",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1431,12 +1371,10 @@
     "description": "Ngày không được muộn hơn ngày đã chỉ định",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1383,7 @@
     "description": "Xác thực giá trị không hợp lệ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1392,7 @@
     "description": "Xác minh độ dài tối thiểu của mật khẩu",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1401,7 @@
     "description": "Mật khẩu phải bao gồm chữ cái viết hoa",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1475,8 +1410,7 @@
     "description": "Mật khẩu phải bao gồm chữ cái thường",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1485,8 +1419,7 @@
     "description": "Mật khẩu phải bao gồm số",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1495,8 +1428,7 @@
     "description": "Mật khẩu phải bao gồm ký tự đặc biệt",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1513,8 +1445,7 @@
     "description": "Xác thực độ dài tối đa của tên",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1523,8 +1454,7 @@
     "description": "Xác minh giá trị tối thiểu của số lượng",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1533,8 +1463,7 @@
     "description": "Xác minh giá trị tối đa của số lượng",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1547,8 +1476,7 @@
     "description": "Xác minh giá đơn tối đa",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1581,8 +1509,7 @@
     "description": "Số ngày có tham số",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1620,6 +1547,146 @@
   },
   "delete_failed": "Xóa thất bại",
   "@delete_failed": {
+    "description": ""
+  },
+  "edit_item": "Chỉnh sửa vật phẩm",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "Thêm vật phẩm",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "Hệ điều hành",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Phiên bản Dart",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "Kiểm tra sự kiện lịch",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "Đây là một sự kiện thử nghiệm, dùng để xác minh chức năng lịch",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "Trong ứng dụng",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "Bật nhắc nhở hết hạn",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "Cách nhắc nhở",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "Chỉ trong ứng dụng",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "Chỉ lịch",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "Cả hai",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "Số ngày nhắc trước",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "Sử dụng cài đặt toàn cầu",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "Mã vạch",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "Tên",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "Phân loại",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "Số lượng hiện tại",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "Vui lòng chọn thao tác",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "Đơn vị",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Đơn vị tùy chỉnh",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "Vui lòng nhập đơn vị",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "Địa điểm tùy chỉnh",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "Vui lòng nhập vị trí lưu trữ",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "Quét mã",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "Quét mã để nhập kho",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "Phân loại vật phẩm",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "Nơi lưu trữ",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "Đặt mã vạch vào trong khung để quét",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "Mã vạch",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "Vui lòng nhập mã vạch hoặc quét mã",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "Thông tin cơ bản",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "Tên vật phẩm",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "Vui lòng nhập tên vật phẩm",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "Vui lòng nhập tên danh mục",
+  "@enter_category_name": {
     "description": ""
   }
 }

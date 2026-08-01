@@ -32,7 +32,7 @@ class ItemFormScreen extends StatelessWidget {
       child: Consumer<ItemFormProvider>(
         builder: (context, provider, _) {
           return Scaffold(
-            appBar: AppBar(title: Text(provider.isEditing ? '编辑物品' : '添加物品')),
+             appBar: AppBar(title: Text(provider.isEditing ? AppLocalizations.of(context).edit_item : AppLocalizations.of(context).add_item)),
             body: SingleChildScrollView(
               padding: const EdgeInsets.all(16),
               child: Column(
@@ -43,6 +43,8 @@ class ItemFormScreen extends StatelessWidget {
                   _buildTypeSwitchSection(context, provider),
                   const SizedBox(height: 24),
                   _buildMediaSection(context, provider),
+                  const SizedBox(height: 24),
+                  _buildAlertSettingsSection(context, provider),
                   const SizedBox(height: 24),
                   _buildNotesSection(context, provider),
                   const SizedBox(height: 32),
@@ -127,20 +129,21 @@ class ItemFormScreen extends StatelessWidget {
     String currentValue,
     ValueChanged<String> onChanged,
   ) {
+    final l10n = AppLocalizations.of(context);
     final controller = TextEditingController(text: currentValue);
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('自定义分类'),
+        title: Text(l10n.custom_category),
         content: TextField(
           controller: controller,
-          decoration: const InputDecoration(hintText: '请输入分类名称'),
+          decoration: InputDecoration(hintText: l10n.enter_category_name),
           autofocus: true,
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('取消'),
+            child: Text(AppLocalizations.of(context).cancel),
           ),
           TextButton(
             onPressed: () {
@@ -150,7 +153,7 @@ class ItemFormScreen extends StatelessWidget {
               }
               Navigator.pop(context);
             },
-            child: const Text('确定'),
+            child: Text(AppLocalizations.of(context).confirm),
           ),
         ],
       ),
@@ -164,6 +167,7 @@ class ItemFormScreen extends StatelessWidget {
   }) {
     return Consumer<ItemListProvider>(
       builder: (context, itemListProvider, _) {
+        final l10n = AppLocalizations.of(context);
         final predefinedUnits = const [
           '个',
           '件',
@@ -189,7 +193,7 @@ class ItemFormScreen extends StatelessWidget {
 
         return _buildStyledDropdownButtonFormField<String>(
           context: context,
-          label: '单位',
+          label: l10n.unit,
           value: hasCustomUnit ? 'custom' : value,
           items: [
             ...allUnits.map(
@@ -198,9 +202,9 @@ class ItemFormScreen extends StatelessWidget {
                 child: Text(u, overflow: TextOverflow.ellipsis),
               ),
             ),
-            const DropdownMenuItem(
+             DropdownMenuItem(
               value: 'custom',
-              child: Text('自定义', overflow: TextOverflow.ellipsis),
+              child: Text(l10n.custom, overflow: TextOverflow.ellipsis),
             ),
           ],
           onChanged: (v) {
@@ -232,20 +236,21 @@ class ItemFormScreen extends StatelessWidget {
     String currentValue,
     ValueChanged<String> onChanged,
   ) {
+    final l10n = AppLocalizations.of(context);
     final controller = TextEditingController(text: currentValue);
     showDialog(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('自定义单位'),
+       builder: (context) => AlertDialog(
+        title: Text(l10n.custom_unit),
         content: TextField(
           controller: controller,
-          decoration: const InputDecoration(hintText: '请输入单位'),
+          decoration: InputDecoration(hintText: l10n.enter_unit),
           autofocus: true,
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('取消'),
+            child: Text(AppLocalizations.of(context).cancel),
           ),
           TextButton(
             onPressed: () {
@@ -255,7 +260,7 @@ class ItemFormScreen extends StatelessWidget {
               }
               Navigator.pop(context);
             },
-            child: const Text('确定'),
+            child: Text(AppLocalizations.of(context).confirm),
           ),
         ],
       ),
@@ -267,20 +272,21 @@ class ItemFormScreen extends StatelessWidget {
     String currentValue,
     ValueChanged<String> onChanged,
   ) {
+    final l10n = AppLocalizations.of(context);
     final controller = TextEditingController(text: currentValue);
     showDialog(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('自定义地点'),
+       builder: (context) => AlertDialog(
+        title: Text(l10n.custom_location),
         content: TextField(
           controller: controller,
-          decoration: const InputDecoration(hintText: '请输入存储地点'),
+          decoration: InputDecoration(hintText: l10n.enter_storage_location),
           autofocus: true,
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('取消'),
+            child: Text(AppLocalizations.of(context).cancel),
           ),
           TextButton(
             onPressed: () {
@@ -290,7 +296,7 @@ class ItemFormScreen extends StatelessWidget {
               }
               Navigator.pop(context);
             },
-            child: const Text('确定'),
+            child: Text(AppLocalizations.of(context).confirm),
           ),
         ],
       ),
@@ -383,6 +389,7 @@ class ItemFormScreen extends StatelessWidget {
     required String value,
     required ValueChanged<String> onChanged,
   }) {
+    final l10n = AppLocalizations.of(context);
     final controller = TextEditingController(text: value);
 
     Future<void> scanBarcode() async {
@@ -392,7 +399,7 @@ class ItemFormScreen extends StatelessWidget {
         MaterialPageRoute(
           builder: (context) => Scaffold(
             appBar: AppBar(
-              title: const Text('扫码'),
+              title: Text(l10n.scan),
               backgroundColor: Theme.of(context).colorScheme.primary,
               foregroundColor: Theme.of(context).colorScheme.onPrimary,
               actions: [
@@ -429,7 +436,7 @@ class ItemFormScreen extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.all(16),
                     child: Text(
-                      '将条码放入框内扫描',
+                       l10n.place_barcode_in_frame_to_scan,
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.white,
@@ -455,8 +462,8 @@ class ItemFormScreen extends StatelessWidget {
     return TextField(
       controller: controller,
       decoration: InputDecoration(
-        labelText: '条码',
-        hintText: '请输入条码或扫码',
+        labelText: l10n.barcode,
+        hintText: l10n.enter_barcode_or_scan,
         prefixIcon: const Icon(Icons.qr_code),
         suffixIcon: IconButton(
           icon: const Icon(Icons.camera_alt),
@@ -480,15 +487,16 @@ class ItemFormScreen extends StatelessWidget {
     BuildContext context,
     ItemFormProvider provider,
   ) {
+    final l10n = AppLocalizations.of(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text('基础信息', style: Theme.of(context).textTheme.titleMedium),
+        Text(l10n.basic_information, style: Theme.of(context).textTheme.titleMedium),
         const SizedBox(height: 16),
         TextField(
           decoration: InputDecoration(
-            labelText: '物品名称',
-            hintText: '请输入物品名称',
+            labelText: l10n.item_name,
+            hintText: l10n.enter_item_name,
             errorText: provider.nameError,
             prefixIcon: const Icon(Icons.label),
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
@@ -965,6 +973,80 @@ class ItemFormScreen extends StatelessWidget {
             onPressed: () => provider.removeImage(index),
           ),
         ),
+      ],
+    );
+  }
+
+  Widget _buildAlertSettingsSection(BuildContext context, ItemFormProvider provider) {
+    final l10n = AppLocalizations.of(context);
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(l10n.alert_settings, style: Theme.of(context).textTheme.titleMedium),
+        const SizedBox(height: 16),
+        SwitchListTile(
+          title: Text(l10n.enable_alert),
+          value: provider.enableAlert,
+          onChanged: provider.setEnableAlert,
+        ),
+        if (provider.enableAlert) ...[
+          const SizedBox(height: 12),
+          Text(l10n.alert_method, style: Theme.of(context).textTheme.bodyMedium),
+          const SizedBox(height: 8),
+          SegmentedButton<int>(
+            segments: [
+              ButtonSegment<int>(
+                value: 0,
+                label: Text(l10n.alert_method_in_app),
+              ),
+              ButtonSegment<int>(
+                value: 1,
+                label: Text(l10n.alert_method_calendar),
+              ),
+              ButtonSegment<int>(
+                value: 2,
+                label: Text(l10n.alert_method_both),
+              ),
+            ],
+            selected: {provider.alertMethod},
+            onSelectionChanged: (Set<int> newSelection) {
+              provider.setAlertMethod(newSelection.first);
+            },
+          ),
+          const SizedBox(height: 12),
+          Row(
+            children: [
+              Expanded(
+                child: Text(l10n.alert_days_before),
+              ),
+              const SizedBox(width: 16),
+              Expanded(
+                child: TextField(
+                  decoration: InputDecoration(
+                    hintText: l10n.use_global_setting,
+                    border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
+                    contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+                    isDense: true,
+                  ),
+                  keyboardType: TextInputType.number,
+                  onChanged: (value) {
+                    if (value.isEmpty) {
+                      provider.setAlertDaysBefore(null);
+                    } else {
+                      final days = int.tryParse(value);
+                      if (days != null && days > 0) {
+                        provider.setAlertDaysBefore(days);
+                      }
+                    }
+                  },
+                  controller: TextEditingController(
+                    text: provider.alertDaysBefore?.toString() ?? '',
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ],
       ],
     );
   }

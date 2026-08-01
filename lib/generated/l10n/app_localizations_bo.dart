@@ -30,6 +30,12 @@ class AppLocalizationsBo extends AppLocalizations {
   String get add => 'ཁ་སྣོན་';
 
   @override
+  String get edit_item => 'རྩོམ་སྒྲིག་རྣམ་གྲངས་';
+
+  @override
+  String get add_item => 'རྣམ་གྲངས་ཁ་སྣོན་བྱས་པ།';
+
+  @override
   String get search => 'འཚོལ་ཞིབ།';
 
   @override
@@ -523,7 +529,13 @@ class AppLocalizationsBo extends AppLocalizations {
   String get system_name => 'མ་ལག་གི་མིང་།';
 
   @override
+  String get operating_system => 'བཀོལ་སྤྱོད་མ་ལག';
+
+  @override
   String get system_version => 'མ་ལག་གི་པར་གཞི།';
+
+  @override
+  String get dart_version => 'མདུང་གི་པར་གཞི་';
 
   @override
   String get device_identifier => 'སྒྲིག་ཆས་གསལ་འབྱེད།';
@@ -777,18 +789,8 @@ class AppLocalizationsBo extends AppLocalizations {
       'དབོར་འདྲེན་བྱེད་པའི་གྲངས་འབོར་ནང་དུ་འཇུག་རོགས།';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return '$name $quantity$unitཁ་སྣོན་བྱས་ཟིན།';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'ཁྱོད་ཀྱིས་དངོས་གནས་\"$name\"བསུབ་འདོད་དམ། བྱ་སྤྱོད་དེ་ཕྱིར་འཐེན་བྱེད་མི་ཉན།';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'ཉུང་དུ་ཕྱིན་$name $quantity$unit';
   }
 
   @override
@@ -1076,4 +1078,111 @@ class AppLocalizationsBo extends AppLocalizations {
 
   @override
   String get delete_failed => 'བསུབ་མ་ཚུགས་པ།';
+
+  @override
+  String get test_calendar_event => 'ཚོད་ལྟའི་ཉིན་ཐོའི་དོན་རྐྱེན།';
+
+  @override
+  String get test_calendar_event_description =>
+      'འདི་ནི་ལོ་ཐོའི་བྱེད་ནུས་ལ་ཞིབ་དཔྱད་བྱེད་པར་སྤྱོད་པའི་ཚོད་ལྟའི་བྱ་འགུལ་ཞིག་ཡིན།';
+
+  @override
+  String get in_app => 'ནང་ལོགས་སུ་';
+
+  @override
+  String get enable_alert => 'དུས་ལས་ཡོལ་བའི་དྲན་སྐུལ་ལྕོགས་ཅན་བཟོ་དགོས།';
+
+  @override
+  String get alert_method => 'དྲན་སྐུལ་བྱེད་ཐབས།';
+
+  @override
+  String get alert_method_in_app => 'App ཁོ་ན';
+
+  @override
+  String get alert_method_calendar => 'ལོ་ཐོ་ཁོ་ན་';
+
+  @override
+  String get alert_method_both => 'དེ་གཉིས་ཀ';
+
+  @override
+  String get alert_days_before => 'སྔོན་ཚུད་ནས་བརྡ་ཐོ་གཏོང་བའི་ཉིན་གྲངས་';
+
+  @override
+  String get use_global_setting => 'གོ་ལ་ཧྲིལ་པོའི་སྒྲིག་སྟངས་སྤྱོད་དགོས།';
+
+  @override
+  String get barcode_label => 'ཨང་རྟགས་';
+
+  @override
+  String get name_label => 'མིང་';
+
+  @override
+  String get category_label => 'རིགས་དབྱེ';
+
+  @override
+  String get current_quantity => 'མིག་སྔའི་གྲངས་འབོར།';
+
+  @override
+  String get select_operation => 'བཀོལ་སྤྱོད་ཅིག་འདེམས་རོགས།';
+
+  @override
+  String get unit => 'སྡེ་ཚན།';
+
+  @override
+  String get custom_unit => 'Custom Unit';
+
+  @override
+  String get enter_unit => 'ལས་ཁུངས་དེའི་ནང་དུ་ཞུགས་རོགས།';
+
+  @override
+  String get custom_location => 'Custom Location';
+
+  @override
+  String get enter_storage_location => 'གསོག་ཉར་བྱེད་གནས་སུ་འཇུག་རོགས།';
+
+  @override
+  String get scan => 'QRཨང་རྟགས་ལ་ཞིབ་ལྟ་བྱས།';
+
+  @override
+  String get scan_to_stock =>
+      'ཚབ་རྟགས་ལ་བཤེར་བཤེར་བྱས་ནས་མཛོད་ཁང་ནང་འཇུག་དགོས།';
+
+  @override
+  String get item_categories => 'རྣམ་གྲངས་ཀྱི་རིགས་དབྱེ།';
+
+  @override
+  String get storage_locations => 'གསོག་ཉར་ས་གནས།';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'ཨང་རྟགས་སྒྲོམ་གཞིའི་ནང་དུ་བཞག་ནས་པར་ལེན་བྱས།';
+
+  @override
+  String get barcode => 'ཨང་རྟགས་';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'ཁྱོད་ཀྱིས་ཨང་རྟགས་ནང་འཇུག་གམ་ཡང་ན་ཚབ་རྟགས་ལ་ཞིབ་ལྟ་བྱེད་རོགས།';
+
+  @override
+  String get basic_information => 'གཞི་རྩའི་བརྡ་འཕྲིན།';
+
+  @override
+  String get item_name => 'རྣམ་གྲངས་ཀྱི་མིང་།';
+
+  @override
+  String get enter_item_name => 'རྣམ་གྲངས་ཀྱི་མིང་ནང་འཇུག་རོགས།';
+
+  @override
+  String get enter_category_name => 'རིགས་མིང་ནང་འཇུག་རོགས།';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return '$itemName $quantity$unitཁ་སྣོན་བྱས་ཟིན།';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'ཉུང་དུ་ཕྱིན་$itemName $quantity$unit';
+  }
 }

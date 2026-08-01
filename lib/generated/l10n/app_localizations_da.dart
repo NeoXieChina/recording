@@ -30,6 +30,12 @@ class AppLocalizationsDa extends AppLocalizations {
   String get add => 'Tilføj';
 
   @override
+  String get edit_item => 'Rediger vare';
+
+  @override
+  String get add_item => 'Tilføj vare';
+
+  @override
   String get search => 'Søg';
 
   @override
@@ -516,7 +522,13 @@ class AppLocalizationsDa extends AppLocalizations {
   String get system_name => 'Systemnavn';
 
   @override
+  String get operating_system => 'Operativsystem';
+
+  @override
   String get system_version => 'Systemversion';
+
+  @override
+  String get dart_version => 'Dart-version';
 
   @override
   String get device_identifier => 'Enheds-id';
@@ -767,18 +779,8 @@ class AppLocalizationsDa extends AppLocalizations {
   String get enter_outbound_quantity => 'Indtast antallet til udlevering';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Er blevet tilføjet $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Er du sikker på, at du vil slette „$name“? Denne handling kan ikke fortrydes.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Er allerede reduceret med $name $quantity$unit';
   }
 
   @override
@@ -1062,4 +1064,109 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get delete_failed => 'Sletning mislykkedes';
+
+  @override
+  String get test_calendar_event => 'Test kalenderbegivenhed';
+
+  @override
+  String get test_calendar_event_description =>
+      'Dette er en testbegivenhed til at verificere kalenderfunktionen';
+
+  @override
+  String get in_app => 'i appen';
+
+  @override
+  String get enable_alert => 'Aktiver udløbs påmindelse';
+
+  @override
+  String get alert_method => 'påmindelsesmetode';
+
+  @override
+  String get alert_method_in_app => 'Kun i appen';
+
+  @override
+  String get alert_method_calendar => 'Kun kalender';
+
+  @override
+  String get alert_method_both => 'Begge';
+
+  @override
+  String get alert_days_before => 'Antal dage til påmindelse på forhånd';
+
+  @override
+  String get use_global_setting => 'Brug globale indstillinger';
+
+  @override
+  String get barcode_label => 'Stregkode';
+
+  @override
+  String get name_label => 'Navn';
+
+  @override
+  String get category_label => 'Klassificering';
+
+  @override
+  String get current_quantity => 'Nuværende antal';
+
+  @override
+  String get select_operation => 'Vælg handling';
+
+  @override
+  String get unit => 'enhed';
+
+  @override
+  String get custom_unit => 'Brugerdefineret enhed';
+
+  @override
+  String get enter_unit => 'Indtast venligst enhed';
+
+  @override
+  String get custom_location => 'Brugerdefineret sted';
+
+  @override
+  String get enter_storage_location => 'Indtast opbevaringssted';
+
+  @override
+  String get scan => 'Scan QR-kode';
+
+  @override
+  String get scan_to_stock => 'Scan for lagerindtastning';
+
+  @override
+  String get item_categories => 'Vareklassificering';
+
+  @override
+  String get storage_locations => 'Opbevaringssted';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Plac stregkoden inden for rammen for at scanne';
+
+  @override
+  String get barcode => 'Stregkode';
+
+  @override
+  String get enter_barcode_or_scan => 'Indtast stregkoden eller scan koden';
+
+  @override
+  String get basic_information => 'Grundlæggende information';
+
+  @override
+  String get item_name => 'Varenavn';
+
+  @override
+  String get enter_item_name => 'Indtast varenavn';
+
+  @override
+  String get enter_category_name => 'Indtast kategorinavn';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Er blevet tilføjet $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Er allerede reduceret med $itemName $quantity$unit';
+  }
 }

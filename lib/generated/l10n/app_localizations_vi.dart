@@ -30,6 +30,12 @@ class AppLocalizationsVi extends AppLocalizations {
   String get add => 'Thêm';
 
   @override
+  String get edit_item => 'Chỉnh sửa vật phẩm';
+
+  @override
+  String get add_item => 'Thêm vật phẩm';
+
+  @override
   String get search => 'Tìm kiếm';
 
   @override
@@ -516,7 +522,13 @@ class AppLocalizationsVi extends AppLocalizations {
   String get system_name => 'Tên hệ thống';
 
   @override
+  String get operating_system => 'Hệ điều hành';
+
+  @override
   String get system_version => 'Phiên bản hệ thống';
+
+  @override
+  String get dart_version => 'Phiên bản Dart';
 
   @override
   String get device_identifier => 'Nhận dạng thiết bị';
@@ -766,18 +778,8 @@ class AppLocalizationsVi extends AppLocalizations {
   String get enter_outbound_quantity => 'Vui lòng nhập số lượng xuất kho';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Đã tăng thêm $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Bạn có chắc chắn muốn xóa “$name” không? Hành động này không thể hoàn tác.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Đã giảm $name $quantity$unit';
   }
 
   @override
@@ -1061,4 +1063,109 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get delete_failed => 'Xóa thất bại';
+
+  @override
+  String get test_calendar_event => 'Kiểm tra sự kiện lịch';
+
+  @override
+  String get test_calendar_event_description =>
+      'Đây là một sự kiện thử nghiệm, dùng để xác minh chức năng lịch';
+
+  @override
+  String get in_app => 'Trong ứng dụng';
+
+  @override
+  String get enable_alert => 'Bật nhắc nhở hết hạn';
+
+  @override
+  String get alert_method => 'Cách nhắc nhở';
+
+  @override
+  String get alert_method_in_app => 'Chỉ trong ứng dụng';
+
+  @override
+  String get alert_method_calendar => 'Chỉ lịch';
+
+  @override
+  String get alert_method_both => 'Cả hai';
+
+  @override
+  String get alert_days_before => 'Số ngày nhắc trước';
+
+  @override
+  String get use_global_setting => 'Sử dụng cài đặt toàn cầu';
+
+  @override
+  String get barcode_label => 'Mã vạch';
+
+  @override
+  String get name_label => 'Tên';
+
+  @override
+  String get category_label => 'Phân loại';
+
+  @override
+  String get current_quantity => 'Số lượng hiện tại';
+
+  @override
+  String get select_operation => 'Vui lòng chọn thao tác';
+
+  @override
+  String get unit => 'Đơn vị';
+
+  @override
+  String get custom_unit => 'Đơn vị tùy chỉnh';
+
+  @override
+  String get enter_unit => 'Vui lòng nhập đơn vị';
+
+  @override
+  String get custom_location => 'Địa điểm tùy chỉnh';
+
+  @override
+  String get enter_storage_location => 'Vui lòng nhập vị trí lưu trữ';
+
+  @override
+  String get scan => 'Quét mã';
+
+  @override
+  String get scan_to_stock => 'Quét mã để nhập kho';
+
+  @override
+  String get item_categories => 'Phân loại vật phẩm';
+
+  @override
+  String get storage_locations => 'Nơi lưu trữ';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Đặt mã vạch vào trong khung để quét';
+
+  @override
+  String get barcode => 'Mã vạch';
+
+  @override
+  String get enter_barcode_or_scan => 'Vui lòng nhập mã vạch hoặc quét mã';
+
+  @override
+  String get basic_information => 'Thông tin cơ bản';
+
+  @override
+  String get item_name => 'Tên vật phẩm';
+
+  @override
+  String get enter_item_name => 'Vui lòng nhập tên vật phẩm';
+
+  @override
+  String get enter_category_name => 'Vui lòng nhập tên danh mục';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Đã tăng thêm $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Đã giảm $itemName $quantity$unit';
+  }
 }

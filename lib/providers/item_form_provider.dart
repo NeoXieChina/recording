@@ -34,6 +34,9 @@ class ItemFormProvider extends ChangeNotifier {
   String barcode = '';
   List<String> imagePaths = [];
   String? notes;
+  bool enableAlert = true;
+  int alertMethod = 0; // 0: 仅应用内, 1: 仅日历, 2: 两者
+  int? alertDaysBefore;
 
   bool _isSaving = false;
 
@@ -144,6 +147,21 @@ class ItemFormProvider extends ChangeNotifier {
 
   void setNotes(String? value) {
     notes = value;
+    notifyListeners();
+  }
+
+  void setEnableAlert(bool value) {
+    enableAlert = value;
+    notifyListeners();
+  }
+
+  void setAlertMethod(int value) {
+    alertMethod = value;
+    notifyListeners();
+  }
+
+  void setAlertDaysBefore(int? value) {
+    alertDaysBefore = value;
     notifyListeners();
   }
 
@@ -272,6 +290,9 @@ class ItemFormProvider extends ChangeNotifier {
     barcode = item.barcode ?? '';
     imagePaths = List.from(item.imagePaths);
     notes = item.notes;
+    enableAlert = item.enableAlert;
+    alertMethod = item.alertMethod;
+    alertDaysBefore = item.alertDaysBefore;
     clearErrors();
     notifyListeners();
   }
@@ -298,6 +319,9 @@ class ItemFormProvider extends ChangeNotifier {
     barcode = '';
     imagePaths = [];
     notes = null;
+    enableAlert = true;
+    alertMethod = 0;
+    alertDaysBefore = null;
     clearErrors();
     notifyListeners();
   }
@@ -396,6 +420,9 @@ class ItemFormProvider extends ChangeNotifier {
         barcode: barcode.trim().isNotEmpty ? barcode.trim() : null,
         imagePaths: imagePaths,
         notes: notes?.trim().isNotEmpty == true ? notes!.trim() : null,
+        enableAlert: enableAlert,
+        alertMethod: alertMethod,
+        alertDaysBefore: alertDaysBefore,
       );
 
       if (_editingId != null) {

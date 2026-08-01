@@ -30,6 +30,12 @@ class AppLocalizationsBg extends AppLocalizations {
   String get add => 'Добавяне';
 
   @override
+  String get edit_item => 'Редактиране на артикул';
+
+  @override
+  String get add_item => 'Добавяне на предмет';
+
+  @override
   String get search => 'търсене';
 
   @override
@@ -521,7 +527,13 @@ class AppLocalizationsBg extends AppLocalizations {
   String get system_name => 'Име на системата';
 
   @override
+  String get operating_system => 'Операционна система';
+
+  @override
   String get system_version => 'Версия на системата';
+
+  @override
+  String get dart_version => 'Версия на Dart';
 
   @override
   String get device_identifier => 'Идентификация на устройството';
@@ -776,18 +788,8 @@ class AppLocalizationsBg extends AppLocalizations {
       'Моля, въведете количеството за изписване от склада';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Вече е добавено $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Сигурни ли сте, че искате да изтриете „$name“? Тази операция не може да бъде отменена.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Вече е намалено $name $quantity$unit';
   }
 
   @override
@@ -1074,4 +1076,109 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String get delete_failed => 'Неуспешно изтриване';
+
+  @override
+  String get test_calendar_event => 'Тествайте календарно събитие';
+
+  @override
+  String get test_calendar_event_description =>
+      'Това е тестово събитие, използвано за проверка на функцията календар';
+
+  @override
+  String get in_app => 'в приложението';
+
+  @override
+  String get enable_alert => 'Включи напомняне за изтичане';
+
+  @override
+  String get alert_method => 'Начин на напомняне';
+
+  @override
+  String get alert_method_in_app => 'Само в приложението';
+
+  @override
+  String get alert_method_calendar => 'Само календар';
+
+  @override
+  String get alert_method_both => 'и двете';
+
+  @override
+  String get alert_days_before => 'Брой дни за предварително напомняне';
+
+  @override
+  String get use_global_setting => 'Използване на глобални настройки';
+
+  @override
+  String get barcode_label => 'Баркод';
+
+  @override
+  String get name_label => 'Име';
+
+  @override
+  String get category_label => 'Категория';
+
+  @override
+  String get current_quantity => 'Текущо количество';
+
+  @override
+  String get select_operation => 'Моля, изберете операция';
+
+  @override
+  String get unit => 'единица';
+
+  @override
+  String get custom_unit => 'Персонализирана единица';
+
+  @override
+  String get enter_unit => 'Моля, въведете единица';
+
+  @override
+  String get custom_location => 'Персонализирано местоположение';
+
+  @override
+  String get enter_storage_location => 'Моля, въведете мястото за съхранение';
+
+  @override
+  String get scan => 'Сканирай QR кода';
+
+  @override
+  String get scan_to_stock => 'Сканирай и складирай';
+
+  @override
+  String get item_categories => 'Категоризация на предметите';
+
+  @override
+  String get storage_locations => 'Място за съхранение';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Поставете баркода в рамката за сканиране';
+
+  @override
+  String get barcode => 'Баркод';
+
+  @override
+  String get enter_barcode_or_scan => 'Моля, въведете баркод или сканирайте';
+
+  @override
+  String get basic_information => 'Основна информация';
+
+  @override
+  String get item_name => 'Име на предмет';
+
+  @override
+  String get enter_item_name => 'Моля, въведете името на предмета';
+
+  @override
+  String get enter_category_name => 'Моля, въведете име на категория';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Вече е добавено $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Вече е намалено $itemName $quantity$unit';
+  }
 }

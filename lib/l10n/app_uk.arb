@@ -101,8 +101,7 @@
     "description": "Власні дні з параметрами",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -111,8 +110,7 @@
     "description": "Відображення поточно обраних днів",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -121,12 +119,10 @@
     "description": "Діапазон нагадувальних днів із параметрами",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -143,12 +139,10 @@
     "description": "Повідомлення про перевірку введення днів",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -273,8 +267,7 @@
     "description": "Повідомлення про помилку сповіщення",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -287,8 +280,7 @@
     "description": "Загальне повідомлення про помилку операції",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -397,8 +389,7 @@
     "description": "Повідомлення про помилку резервного копіювання",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -467,8 +458,7 @@
     "description": "Повідомлення про успішне відновлення",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -477,8 +467,7 @@
     "description": "Повідомлення про помилку відновлення не вдалося",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -495,8 +484,7 @@
     "description": "Повідомлення про обраний файл",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -509,8 +497,7 @@
     "description": "Помилка експорту",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -567,8 +554,7 @@
     "description": "Повідомлення про успішний імпорт",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -577,8 +563,7 @@
     "description": "Помилка імпортування",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -707,8 +692,7 @@
     "description": "Помилка отримання інформації про пристрій",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -817,8 +801,7 @@
     "description": "Залишилась кількість днів з параметром",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -827,8 +810,7 @@
     "description": "Прострочені дні з параметром",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -841,8 +823,7 @@
     "description": "Підтвердження видалення",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -859,8 +840,7 @@
     "description": "Видалити повідомлення про помилку",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -897,8 +877,7 @@
     "description": "Показ кількості за категоріями",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -919,8 +898,7 @@
     "description": "Відображення кількості місць",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -985,8 +963,7 @@
     "description": "Штрих-код відображає параметри",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -995,8 +972,7 @@
     "description": "Відображення назви з параметрами",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -1005,8 +981,7 @@
     "description": "Відображення за категоріями з параметрами",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -1015,12 +990,10 @@
     "description": "Поточна кількість відображається з параметром",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1056,17 +1029,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "Вже додано {name} {quantity}{unit}",
+  "item_increased": "Вже додано {itemName} {quantity}{unit}",
   "@item_increased": {
     "description": "Повідомлення про додавання предмета",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1079,22 +1052,21 @@
     "description": "Повідомлення підтвердження видалення з попередженням про незворотність",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "Вже зменшено {name} {quantity}{unit}",
+  "item_decreased": "Вже зменшено {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "Повідомлення про зменшення предметів",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1111,8 +1083,7 @@
     "description": "Помилка скидання бази даних",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1121,8 +1092,7 @@
     "description": "Ініціалізація імітованих даних не вдалася",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1117,7 @@
     "description": "Ініціалізація служби сповіщень не вдалася",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1126,7 @@
     "description": "Не вдалося перевірити обліковий запис календаря",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1135,7 @@
     "description": "Створення календаря не вдалося",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1144,7 @@
     "description": "Не вдалося додати подію у календар",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1187,8 +1153,7 @@
     "description": "Не вдалося видалити подію календаря",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1197,8 +1162,7 @@
     "description": "Не вдалося встановити повідомлення про дозвіл",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1207,8 +1171,7 @@
     "description": "Ініціалізація імітованих даних успішна",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1217,8 +1180,7 @@
     "description": "У базі даних вже є дані",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1243,8 +1205,7 @@
     "description": "Помилка кодування файлу",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1253,8 +1214,7 @@
     "description": "Помилка: файл не існує",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1263,8 +1223,7 @@
     "description": "Помилка: файл порожній",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1277,8 +1236,7 @@
     "description": "Перевірка: поле не може бути порожнім",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1287,12 +1245,10 @@
     "description": "Перевірка мінімальної довжини поля",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1301,12 +1257,10 @@
     "description": "Перевірка максимальної довжини поля",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1315,8 +1269,7 @@
     "description": "Перевірка формату електронної пошти",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1325,12 +1278,10 @@
     "description": "Перевірка формату числа",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1339,12 +1290,10 @@
     "description": "Перевірка мінімального значення",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1353,12 +1302,10 @@
     "description": "Перевірка максимального значення",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1367,8 +1314,7 @@
     "description": "Перевірка на додатні цілі числа",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1323,7 @@
     "description": "Перевірка більше нуля",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,8 +1332,7 @@
     "description": "Перевірка на додатні числа",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1397,8 +1341,7 @@
     "description": "Перевірка формату дати",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1407,8 +1350,7 @@
     "description": "Дата не може бути в минулому",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1417,12 +1359,10 @@
     "description": "Дата не може бути раніше зазначеної дати",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1431,12 +1371,10 @@
     "description": "Дата не може бути пізніше зазначеної дати",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1383,7 @@
     "description": "Перевірка недійсного значення",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1392,7 @@
     "description": "Перевірка мінімальної довжини пароля",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1401,7 @@
     "description": "Пароль повинен містити великі літери",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1475,8 +1410,7 @@
     "description": "Пароль повинен містити малу літеру",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1485,8 +1419,7 @@
     "description": "Пароль повинен містити цифри",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1495,8 +1428,7 @@
     "description": "Пароль повинен містити спеціальні символи",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1513,8 +1445,7 @@
     "description": "Перевірка максимальної довжини назви",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1523,8 +1454,7 @@
     "description": "Перевірка на мінімальне значення кількості",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1533,8 +1463,7 @@
     "description": "Перевірка максимальної кількості",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1547,8 +1476,7 @@
     "description": "Перевірка максимальної одиничної ціни",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1581,8 +1509,7 @@
     "description": "Дні з параметром",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1620,6 +1547,146 @@
   },
   "delete_failed": "Видалення не вдалося",
   "@delete_failed": {
+    "description": ""
+  },
+  "edit_item": "Редагувати предмет",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "Додати предмет",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "Операційна система",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Версія Dart",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "Тест події календаря",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "Це тестова подія, призначена для перевірки функції календаря",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "у застосунку",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "Увімкнути нагадування про закінчення терміну",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "спосіб нагадування",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "Лише в додатку",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "Лише календар",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "обидва",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "Кількість днів попередження",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "Використовувати глобальні налаштування",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "штрих-код",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "Назва",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "Категорія",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "Поточна кількість",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "Будь ласка, виберіть дію",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "одиниця",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Користувацька одиниця",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "Будь ласка, введіть одиницю",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "Налаштоване місце",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "Будь ласка, введіть місце зберігання",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "Сканувати код",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "Сканувати для зберігання у складі",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "Категоризація предметів",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "Місце зберігання",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "Розмістіть штрих-код у рамці для сканування",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "штрих-код",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "Будь ласка, введіть штрих-код або відскануйте його",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "Базова інформація",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "Назва предмета",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "Будь ласка, введіть назву предмета",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "Будь ласка, введіть назву категорії",
+  "@enter_category_name": {
     "description": ""
   }
 }

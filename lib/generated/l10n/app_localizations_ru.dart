@@ -30,6 +30,12 @@ class AppLocalizationsRu extends AppLocalizations {
   String get add => 'Добавить';
 
   @override
+  String get edit_item => 'Редактировать предмет';
+
+  @override
+  String get add_item => 'Добавить предмет';
+
+  @override
   String get search => 'поиск';
 
   @override
@@ -522,7 +528,13 @@ class AppLocalizationsRu extends AppLocalizations {
   String get system_name => 'название системы';
 
   @override
+  String get operating_system => 'Операционная система';
+
+  @override
   String get system_version => 'Версия системы';
+
+  @override
+  String get dart_version => 'Версия Dart';
 
   @override
   String get device_identifier => 'Идентификатор устройства';
@@ -776,18 +788,8 @@ class AppLocalizationsRu extends AppLocalizations {
       'Пожалуйста, введите количество для отгрузки';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Добавлено $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Вы уверены, что хотите удалить «$name»? Это действие нельзя отменить.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Уменьшено на $name $quantity$unit';
   }
 
   @override
@@ -1073,4 +1075,111 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get delete_failed => 'Удаление не удалось';
+
+  @override
+  String get test_calendar_event => 'Тестовое событие календаря';
+
+  @override
+  String get test_calendar_event_description =>
+      'Это тестовое событие, предназначенное для проверки функции календаря';
+
+  @override
+  String get in_app => 'в приложении';
+
+  @override
+  String get enable_alert => 'Включить напоминание об истечении срока';
+
+  @override
+  String get alert_method => 'Способ напоминания';
+
+  @override
+  String get alert_method_in_app => 'Только в приложении';
+
+  @override
+  String get alert_method_calendar => 'Только календарь';
+
+  @override
+  String get alert_method_both => 'оба';
+
+  @override
+  String get alert_days_before =>
+      'Количество дней предварительного уведомления';
+
+  @override
+  String get use_global_setting => 'Использовать глобальные настройки';
+
+  @override
+  String get barcode_label => 'штрихкод';
+
+  @override
+  String get name_label => 'Название';
+
+  @override
+  String get category_label => 'Классификация';
+
+  @override
+  String get current_quantity => 'Текущее количество';
+
+  @override
+  String get select_operation => 'Пожалуйста, выберите действие';
+
+  @override
+  String get unit => 'единица';
+
+  @override
+  String get custom_unit => 'Пользовательская единица';
+
+  @override
+  String get enter_unit => 'Пожалуйста, введите единицу';
+
+  @override
+  String get custom_location => 'Пользовательское место';
+
+  @override
+  String get enter_storage_location => 'Пожалуйста, введите место хранения';
+
+  @override
+  String get scan => 'Сканировать QR-код';
+
+  @override
+  String get scan_to_stock => 'Сканировать код для поступления на склад';
+
+  @override
+  String get item_categories => 'Категория предметов';
+
+  @override
+  String get storage_locations => 'Место хранения';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Поместите штрихкод в рамку для сканирования';
+
+  @override
+  String get barcode => 'штрихкод';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Пожалуйста, введите штрихкод или отсканируйте его';
+
+  @override
+  String get basic_information => 'Основная информация';
+
+  @override
+  String get item_name => 'Название предмета';
+
+  @override
+  String get enter_item_name => 'Пожалуйста, введите название предмета';
+
+  @override
+  String get enter_category_name => 'Пожалуйста, введите название категории';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Добавлено $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Уменьшено на $itemName $quantity$unit';
+  }
 }

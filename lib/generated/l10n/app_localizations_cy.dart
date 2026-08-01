@@ -30,6 +30,12 @@ class AppLocalizationsCy extends AppLocalizations {
   String get add => 'Ychwanegu';
 
   @override
+  String get edit_item => 'Golygu eitem';
+
+  @override
+  String get add_item => 'Ychwanegu eitem';
+
+  @override
   String get search => 'Chwilio';
 
   @override
@@ -518,7 +524,13 @@ class AppLocalizationsCy extends AppLocalizations {
   String get system_name => 'Enw System';
 
   @override
+  String get operating_system => 'Systemau gweithredu';
+
+  @override
   String get system_version => 'Fersiwn System';
+
+  @override
+  String get dart_version => 'Fersiwn Dart';
 
   @override
   String get device_identifier => 'Nodyn Dyfais';
@@ -770,18 +782,8 @@ class AppLocalizationsCy extends AppLocalizations {
   String get enter_outbound_quantity => 'Rhowch y nifer i\'w allforio';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Mae $name $quantity $unit wedi\'i ychwanegu';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Ydych chi wir am ddileu „$name“? Ni ellir rhoi\'r cam hwn yn ôl.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Wedi lleihau $name $quantity$unit';
   }
 
   @override
@@ -1066,4 +1068,109 @@ class AppLocalizationsCy extends AppLocalizations {
 
   @override
   String get delete_failed => 'Methu dileu';
+
+  @override
+  String get test_calendar_event => 'Prawf Digwyddiadau Calendr';
+
+  @override
+  String get test_calendar_event_description =>
+      'Mae hwn yn ddigwyddiad prawf i wirio swyddogaeth y calendr';
+
+  @override
+  String get in_app => 'O fewn y cais';
+
+  @override
+  String get enable_alert => 'Galluogi rhybuddion dod i ben';
+
+  @override
+  String get alert_method => 'Dull atgoffa';
+
+  @override
+  String get alert_method_in_app => 'Dim ond yn yr app';
+
+  @override
+  String get alert_method_calendar => 'Calendr yn unig';
+
+  @override
+  String get alert_method_both => 'Y ddau';
+
+  @override
+  String get alert_days_before => 'Dileu rhybudd dyddiau ymlaen llaw';
+
+  @override
+  String get use_global_setting => 'Defnyddio gosodiadau byd-eang';
+
+  @override
+  String get barcode_label => 'Cod Bar';
+
+  @override
+  String get name_label => 'Enw';
+
+  @override
+  String get category_label => 'Categoreiddio';
+
+  @override
+  String get current_quantity => 'Nifer presennol';
+
+  @override
+  String get select_operation => 'Dewiswch weithred';
+
+  @override
+  String get unit => 'Uned';
+
+  @override
+  String get custom_unit => 'Uned wedi\'i addasu';
+
+  @override
+  String get enter_unit => 'Os gwelwch yn dda teipiwch uned';
+
+  @override
+  String get custom_location => 'Lleoliad wedi\'i deilwra';
+
+  @override
+  String get enter_storage_location => 'Rhowch le storio';
+
+  @override
+  String get scan => 'Sganiwch y côd';
+
+  @override
+  String get scan_to_stock => 'Sganio i mewn i stoc';
+
+  @override
+  String get item_categories => 'Dosbarthiad eitemau';
+
+  @override
+  String get storage_locations => 'Lle storio';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Rhowch y cod bar i mewn i\'r ffrâm i sganio';
+
+  @override
+  String get barcode => 'Cod Bar';
+
+  @override
+  String get enter_barcode_or_scan => 'Rhowch y côd bar neu sganio\'r côd';
+
+  @override
+  String get basic_information => 'Gwybodaeth Sylfaenol';
+
+  @override
+  String get item_name => 'Enw Eitem';
+
+  @override
+  String get enter_item_name => 'Rhowch enw\'r eitem';
+
+  @override
+  String get enter_category_name => 'Rhowch enw\'r categori';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Mae $itemName $quantity $unit wedi\'i ychwanegu';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Wedi lleihau $itemName $quantity$unit';
+  }
 }

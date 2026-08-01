@@ -30,6 +30,12 @@ class AppLocalizationsJa extends AppLocalizations {
   String get add => '追加';
 
   @override
+  String get edit_item => 'アイテムを編集';
+
+  @override
+  String get add_item => 'アイテムを追加';
+
+  @override
   String get search => '検索';
 
   @override
@@ -496,7 +502,13 @@ class AppLocalizationsJa extends AppLocalizations {
   String get system_name => 'システム名';
 
   @override
+  String get operating_system => 'オペレーティングシステム';
+
+  @override
   String get system_version => 'システムバージョン';
+
+  @override
+  String get dart_version => 'Dartバージョン';
 
   @override
   String get device_identifier => 'デバイス識別';
@@ -743,18 +755,8 @@ class AppLocalizationsJa extends AppLocalizations {
   String get enter_outbound_quantity => '出庫数量を入力してください';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return '$name $quantity$unit が追加されました';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return '「$name」を削除してもよろしいですか？この操作は取り消せません。';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return '$name $quantity$unit が減りました';
   }
 
   @override
@@ -1035,4 +1037,107 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get delete_failed => '削除に失敗しました';
+
+  @override
+  String get test_calendar_event => 'カレンダーイベントをテストする';
+
+  @override
+  String get test_calendar_event_description => 'これはカレンダー機能を検証するためのテストイベントです';
+
+  @override
+  String get in_app => 'アプリ内';
+
+  @override
+  String get enable_alert => '期限到通知を有効にする';
+
+  @override
+  String get alert_method => 'リマインダーの方法';
+
+  @override
+  String get alert_method_in_app => 'アプリ内のみ';
+
+  @override
+  String get alert_method_calendar => 'カレンダーのみ';
+
+  @override
+  String get alert_method_both => '両方';
+
+  @override
+  String get alert_days_before => '事前通知日数';
+
+  @override
+  String get use_global_setting => 'グローバル設定を使用する';
+
+  @override
+  String get barcode_label => 'バーコード';
+
+  @override
+  String get name_label => '名称';
+
+  @override
+  String get category_label => '分類';
+
+  @override
+  String get current_quantity => '現在の数量';
+
+  @override
+  String get select_operation => '操作を選択してください';
+
+  @override
+  String get unit => '単位';
+
+  @override
+  String get custom_unit => 'カスタム単位';
+
+  @override
+  String get enter_unit => '単位を入力してください';
+
+  @override
+  String get custom_location => 'カスタム場所';
+
+  @override
+  String get enter_storage_location => '保存場所を入力してください';
+
+  @override
+  String get scan => 'コードをスキャン';
+
+  @override
+  String get scan_to_stock => 'コードをスキャンして入庫する';
+
+  @override
+  String get item_categories => '物品の分類';
+
+  @override
+  String get storage_locations => '保管場所';
+
+  @override
+  String get place_barcode_in_frame_to_scan => 'バーコードを枠内に入れてスキャンしてください';
+
+  @override
+  String get barcode => 'バーコード';
+
+  @override
+  String get enter_barcode_or_scan => 'バーコードを入力するか、スキャンしてください';
+
+  @override
+  String get basic_information => '基本情報';
+
+  @override
+  String get item_name => '品物の名前';
+
+  @override
+  String get enter_item_name => 'アイテム名を入力してください';
+
+  @override
+  String get enter_category_name => 'カテゴリ名を入力してください';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return '$itemName $quantity$unit が追加されました';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return '$itemName $quantity$unit が減りました';
+  }
 }

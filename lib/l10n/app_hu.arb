@@ -81,8 +81,7 @@
     "description": "Egyéni napok paraméterrel",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "Emlékeztető napok tartománya paraméterrel",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "Napok bevitelének érvényesítési üzenete",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "Értesítési hibaüzenet",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "Általános műveleti hibák üzenete",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "A biztonsági mentés sikertelen hibajelzés",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "Visszaállítás sikeres üzenet",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "A helyreállítás sikertelen hibája",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "Kiválasztott fájl üzenet",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "Exportálás sikertelen hibaüzenet",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "Importálás sikeres üzenet",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "Importálás sikertelen hibaüzenet",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "Eszközinformációs hibaküldés",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "Hátralévő napok paraméterekkel",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "lejárt napok paraméterrel",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "Törlés megerősítése üzenet",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "Hib üzenet törlése",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "Kategória mennyiség megjelenítése",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "Helyszínek száma megjelenítve",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "A vonalkód paraméterekkel jelenik meg",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "Név megjelenítése paraméterekkel",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "Paraméterekkel rendelkező kategóriák megjelenítése",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "A jelenlegi mennyiség paraméterekkel jelenik meg",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "Hozzáadva {name} {quantity}{unit}",
+  "item_increased": "Hozzáadva {itemName} {quantity}{unit}",
   "@item_increased": {
     "description": "Tárgy hozzáadási üzenet",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "Törlés megerősítő üzenet visszavonhatatlan figyelmeztetéssel",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "Már csökkent {name} {quantity}{unit}",
+  "item_decreased": "Már csökkent {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "Tárgy csökkentési üzenet",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "Adatbázis visszaállítási hiba",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "A szimulált adatok inicializálása sikertelen",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "Értesítési szolgáltatás inicializálása sikertelen",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "A naptárfiók ellenőrzése sikertelen",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "Naptár létrehozása sikertelen",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "A naptári esemény hozzáadása sikertelen",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "A naptári esemény törlése sikertelen",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "A jogosultsági üzenet beállítása sikertelen",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "A szimulált adatok inicializálása sikeres",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "Az adatbázisban már vannak adatok",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "Fájl kódolási hiba",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "A fájl nem létezik hiba",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "A fájl üres hibája",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "A mező nem lehet üres",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "Mező minimális hosszának ellenőrzése",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "Mező maximális hosszának ellenőrzése",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "E-mail cím formátum ellenőrzése",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "Számformátum ellenőrzése",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "Minimum érték ellenőrzése",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "Maximális érték ellenőrzése",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "Pozitív egész szám ellenőrzése",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "Nagyobb, mint nulla ellenőrzés",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "Pozitív szám ellenőrzése",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "Dátumformátum ellenőrzés",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "A dátum nem lehet múltbéli",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "A dátum nem lehet korábbi a megadott dátumnál",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "A dátum nem lehet későbbi a megadott dátumnál",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "Érvénytelen érték ellenőrzése",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "A jelszó minimális hosszának ellenőrzése",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "A jelszónak tartalmaznia kell nagybetűt",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "A jelszónak tartalmaznia kell kisbetűket",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "A jelszónak számokat kell tartalmaznia",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "A jelszónak tartalmaznia kell speciális karaktereket",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "Név maximális hosszának ellenőrzése",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "A minimális mennyiség ellenőrzése",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "A mennyiség felső korlátának ellenőrzése",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "Egységár maximum érték ellenőrzése",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "Napok paraméterrel",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "A jelenleg kiválasztott napok megjelenítése",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "Elem szerkesztése",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "Elem hozzáadása",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "Operációs rendszer",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Dart verzió",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "Naptáresemény tesztelése",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "Ez egy tesztesemény a naptár funkciójának ellenőrzésére",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "alkalmazáson belüli",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "Engedélyezze a lejárati emlékeztetőt",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "Emlékeztetési mód",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "Csak alkalmazáson belül",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "Csak naptár",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "mindkettő",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "Előzetes értesítés napjai",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "Globális beállítások használata",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "Vonalkód",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "Név",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "Kategorizálás",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "Jelenlegi mennyiség",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "Kérjük, válasszon műveletet",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "egység",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Egyéni egység",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "Kérjük, adja meg az egységet",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "Egyéni hely",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "Kérjük, adja meg a tárolási helyet",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "Kód beolvasása",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "Beolvasás a raktárba",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "Árukategória",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "Tárolási hely",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "Helyezze a vonalkódot a keretbe a beolvasáshoz",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "Vonalkód",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "Kérjük, adja meg a vonalkódot vagy olvassa be a QR-kódot",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "Alapinformáció",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "Áru neve",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "Kérjük, adja meg a tárgy nevét",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "Kérjük, adja meg a kategória nevét",
+  "@enter_category_name": {
+    "description": ""
   }
 }

@@ -30,6 +30,12 @@ class AppLocalizationsKk extends AppLocalizations {
   String get add => 'Қосу';
 
   @override
+  String get edit_item => 'Заттарды өңдеу';
+
+  @override
+  String get add_item => 'Зат қосу';
+
+  @override
   String get search => 'Іздеу';
 
   @override
@@ -519,7 +525,13 @@ class AppLocalizationsKk extends AppLocalizations {
   String get system_name => 'Жүйенің атауы';
 
   @override
+  String get operating_system => 'Операциялық жүйе';
+
+  @override
   String get system_version => 'Жүйенің нұсқасы';
+
+  @override
+  String get dart_version => 'Dart нұсқасы';
 
   @override
   String get device_identifier => 'Құрылғының идентификаторы';
@@ -771,18 +783,8 @@ class AppLocalizationsKk extends AppLocalizations {
   String get enter_outbound_quantity => 'Шығару санын енгізіңіз';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Қосылды $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return '«$name»-ны жойғыңыз келе ме? Бұл әрекетті кері қайтаруға болмайды.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return '_${name}_ _$quantity${unit}_ азайтылды';
   }
 
   @override
@@ -1067,4 +1069,109 @@ class AppLocalizationsKk extends AppLocalizations {
 
   @override
   String get delete_failed => 'Жою сәтсіз болды';
+
+  @override
+  String get test_calendar_event => 'Күнтізбе оқиғасын сынау';
+
+  @override
+  String get test_calendar_event_description =>
+      'Бұл сынақ оқиға, күнтізбе функциясын тексеру үшін';
+
+  @override
+  String get in_app => 'қосымша ішіндегі';
+
+  @override
+  String get enable_alert => 'Мерзім аяқталу еске салғышын қосу';
+
+  @override
+  String get alert_method => 'Ескерту тәсілі';
+
+  @override
+  String get alert_method_in_app => 'Тек қосымша ішінде';
+
+  @override
+  String get alert_method_calendar => 'Тек күнтізбе';
+
+  @override
+  String get alert_method_both => 'екі жақ';
+
+  @override
+  String get alert_days_before => 'Алдын ала еске салу күндері';
+
+  @override
+  String get use_global_setting => 'Жаһандық баптауларды пайдалану';
+
+  @override
+  String get barcode_label => 'штрихкод';
+
+  @override
+  String get name_label => 'Атауы';
+
+  @override
+  String get category_label => 'Санаттау';
+
+  @override
+  String get current_quantity => 'Ағымдағы сан';
+
+  @override
+  String get select_operation => 'Әрекетті таңдаңыз';
+
+  @override
+  String get unit => 'бірлік';
+
+  @override
+  String get custom_unit => 'Бапталған бірлік';
+
+  @override
+  String get enter_unit => 'Бірлікті енгізіңіз';
+
+  @override
+  String get custom_location => 'Бапталған орын';
+
+  @override
+  String get enter_storage_location => 'Сақтау орнын енгізіңіз';
+
+  @override
+  String get scan => 'Сканерлеу';
+
+  @override
+  String get scan_to_stock => 'Сканерлеу арқылы қоймаға енгізу';
+
+  @override
+  String get item_categories => 'Заттарды жіктеу';
+
+  @override
+  String get storage_locations => 'сақтау орны';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Штрихкодты сканерлеу үшін қорапқа салыңыз';
+
+  @override
+  String get barcode => 'штрихкод';
+
+  @override
+  String get enter_barcode_or_scan => 'Штрихкодты енгізіңіз немесе сканерлеңіз';
+
+  @override
+  String get basic_information => 'Негізгі ақпарат';
+
+  @override
+  String get item_name => 'тауар атауы';
+
+  @override
+  String get enter_item_name => 'Заттың атауын енгізіңіз';
+
+  @override
+  String get enter_category_name => 'Санат атауын енгізіңіз';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Қосылды $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return '_${itemName}_ _$quantity${unit}_ азайтылды';
+  }
 }

@@ -30,6 +30,12 @@ class AppLocalizationsKn extends AppLocalizations {
   String get add => 'ಸೇರಿಸು';
 
   @override
+  String get edit_item => 'ಐಟಂಗಳನ್ನು ಸಂಪಾದಿಸಿ';
+
+  @override
+  String get add_item => 'ಐಟಂಗಳನ್ನು ಸೇರಿಸಿ';
+
+  @override
   String get search => 'ಹುಡುಕಿ';
 
   @override
@@ -521,7 +527,13 @@ class AppLocalizationsKn extends AppLocalizations {
   String get system_name => 'ಸಿಸ್ಟಮ್ ಹೆಸರು';
 
   @override
+  String get operating_system => 'ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಮ್';
+
+  @override
   String get system_version => 'ಸಿಸ್ಟಮ್ ಆವೃತ್ತಿ';
+
+  @override
+  String get dart_version => 'ಡಾರ್ಟ್ ಆವೃತ್ತಿ';
 
   @override
   String get device_identifier => 'ಸಾಧನ ಗುರುತು';
@@ -776,18 +788,8 @@ class AppLocalizationsKn extends AppLocalizations {
       'ದಯವಿಟ್ಟು ಶಿಪ್ಮೆಂಟ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'ಹೆಚ್ಚಿಸಲಾಗಿದೆ $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'ನೀವು \"$name\" ಅನ್ನು ಅಳಿಸಲು ಖಾತ್ರಿ ಪಡುತ್ತೀರಾ? ಈ ಕ್ರಿಯೆಯನ್ನು ಮರುಪಡೆಯಲಾಗುವುದಿಲ್ಲ.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'ಎಲ್ಲಾ ಕಡಿಮೆ ಮಾಡಲಾಗಿದೆ $name $quantity$unit';
   }
 
   @override
@@ -1073,4 +1075,110 @@ class AppLocalizationsKn extends AppLocalizations {
 
   @override
   String get delete_failed => 'ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ';
+
+  @override
+  String get test_calendar_event => 'ಕಾಲೆಂಡರ್ ಘಟನೆಗಳನ್ನು ಪರೀಕ್ಷೆ ಮಾಡಿ';
+
+  @override
+  String get test_calendar_event_description =>
+      'ಇದು ಕ್ಯಾಲೆಂಡರ್ ಕಾರ್ಯಕ್ಷಮತೆಯನ್ನು ಪರಿಶೀಲಿಸಲು ಬಳಸುವ ಒಂದು ಪರೀಕ್ಷಾ ಘಟನೆ';
+
+  @override
+  String get in_app => 'ಆ್ಯಪ್‌ ಒಳಗೆ';
+
+  @override
+  String get enable_alert => 'ಮ್ಯಾಡ್‌ವಾನ್ಸ್ ನೋಟಿಫಿಕೇಶನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ';
+
+  @override
+  String get alert_method => 'ಸ್ಮರಣೆಯ ವಿಧಾನ';
+
+  @override
+  String get alert_method_in_app => 'ಮಾತ್ರ ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ';
+
+  @override
+  String get alert_method_calendar => 'ಕ್ಯಾಲೆಂಡರ್ ಮಾತ್ರ';
+
+  @override
+  String get alert_method_both => 'ಎರಡೂ';
+
+  @override
+  String get alert_days_before => 'ಮುನ್ನೋಟ ಸೂಚನೆ ದಿನಗಳು';
+
+  @override
+  String get use_global_setting => 'ಗ್ಲೋಬಲ್ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬಳಸುವುದು';
+
+  @override
+  String get barcode_label => 'ಬಾರ್ಕೋಡ್';
+
+  @override
+  String get name_label => 'ಹೆಸರು';
+
+  @override
+  String get category_label => 'ವರ್ಗೀಕರಣ';
+
+  @override
+  String get current_quantity => 'ಪ್ರಸ್ತುತ ಪ್ರಮಾಣ';
+
+  @override
+  String get select_operation => 'ದಯವಿಟ್ಟು ಕಾರ್ಯವನ್ನು ಆರಿಸಿ';
+
+  @override
+  String get unit => 'ಘಟಕ';
+
+  @override
+  String get custom_unit => 'ಸ್ವಯಂ ಪ್ರಕಾರದ ಘಟಕ';
+
+  @override
+  String get enter_unit => 'ದಯವಿಟ್ಟು ಯೂನಿಟ್ ನಮೂದಿಸಿ';
+
+  @override
+  String get custom_location => 'ಸ್ವಯಂ ಪ್ರಕಾರದ ಸ್ಥಳ';
+
+  @override
+  String get enter_storage_location => 'ದಯವಿಟ್ಟು ಸಂಗ್ರಹಣಾ ಸ್ಥಳವನ್ನು ನಮೂದಿಸಿ';
+
+  @override
+  String get scan => 'ಸ್ಕ್ಯಾನ್ ಕೋಡ್';
+
+  @override
+  String get scan_to_stock => 'ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ನுழைவಾಯಿಲಿಗೆ';
+
+  @override
+  String get item_categories => 'ವಸ್ತುಗಳನ್ನು ವರ್ಗಾವಣೆ ಮಾಡುವುದು';
+
+  @override
+  String get storage_locations => 'ಸಂಗ್ರಹಸ್ಥಳ';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'ಬಾರ್‌ಕೋಡ್ ಅನ್ನು ಫ್ರೇಮ್ ಒಳಗೆ ಇರಿಸಿ اسڪ್ಯಾನ್ ಮಾಡಿ';
+
+  @override
+  String get barcode => 'ಬಾರ್ಕೋಡ್';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'ದಯವಿಟ್ಟು ಬಾರ್ಕೋಡ್ ಅನ್ನು ಟೈಪ್ ಮಾಡಿ ಅಥವಾ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ';
+
+  @override
+  String get basic_information => 'ಮೂಲ ಮಾಹಿತಿ';
+
+  @override
+  String get item_name => 'ವಸ್ತು ಹೆಸರು';
+
+  @override
+  String get enter_item_name => 'ದಯವಿಟ್ಟು ವಸ್ತುವಿನ ಹೆಸರು ನಮೂದಿಸಿ';
+
+  @override
+  String get enter_category_name => 'ದಯವಿಟ್ಟು ವರ್ಗದ ಹೆಸರು ನಮೂದಿಸಿ';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'ಹೆಚ್ಚಿಸಲಾಗಿದೆ $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'ಎಲ್ಲಾ ಕಡಿಮೆ ಮಾಡಲಾಗಿದೆ $itemName $quantity$unit';
+  }
 }

@@ -81,8 +81,7 @@
     "description": "Araw na na-customize na may parameter",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "Paunawa sa saklaw ng araw na may parameter",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "Mensahe ng Pagpapatunay ng Pag-input ng Araw",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "Abisuhan ang mensahe ng error",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "Pangkalahatang mensahe ng error sa operasyon",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "Mensahe ng error sa pagkabigong mag-backup",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "Mensahe ng matagumpay na pagpapanumbalik",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "Nabigong ibalik ang mensahe ng error",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "Napiling mensahe ng file",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "Mensahe ng error sa pagkabigong i-export",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "Tagumpay sa pag-import ng mensahe",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "Mensahe ng error sa pagkabigong mag-import",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "Maling mensahe sa pagkuha ng impormasyon ng kagamitan",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "Natitirang araw na may parameter",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "Araw ng pag-expire na may parameter",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "Kumpirmasyon ng pagtanggal",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "Tanggalin ang mensahe ng error",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "Ipinapakita ang bilang ng mga kategorya",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "Ipinapakita ang bilang ng mga lokasyon",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "Ang barcode ay nagpapakita ng mga parameter",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "Pangalan na nagpapakita ng may parameter",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "Ipakita ayon sa kategorya na may mga parameter",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "Ang kasalukuyang bilang ay ipinapakita kasama ang mga parameter",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "Nadagdagan na ang {name} {quantity}{unit}",
+  "item_increased": "Nadagdagan na ang {itemName} {quantity}{unit}",
   "@item_increased": {
     "description": "Mensahe ng pagdagdag ng item",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "Alisin ang mensahe ng kumpirmasyon na may babalang hindi mababawi",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "Bumaba na ng {name} {quantity}{unit}",
+  "item_decreased": "Bumaba na ng {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "Mensahe ng pagbawas ng item",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "Error sa pag-reset ng database",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "Nabigo ang pag-inisyalisa ng simulated na data",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "Nabigo ang pag-initialize ng serbisyo ng notification",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "Nabigong suriin ang account sa kalendaryo",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "Nabigo ang paglikha ng kalendaryo",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "Nabigong magdagdag ng kaganapan sa kalendaryo",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "Nabigong tanggalin ang kaganapan sa kalendaryo",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "Nabigong mag-set ng mensahe ng permiso",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "Matagumpay na na-initialize ang simulated na data",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "May datos na sa database",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "Error sa pag-encode ng file",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "Error: Hindi umiiral ang file",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "Error: Walang laman ang file",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "Ang patlang ay hindi maaaring walang laman na pagpapatunay",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "Pagpapatunay ng pinakamaliit na haba ng patlang",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "Pagpapatunay ng pinakamahabang haba ng field",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "Pag-verify ng format ng email",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "Pag-verify ng format ng numero",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "Pagpapatunay ng pinakamaliit na halaga",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "Pagpapatunay ng pinakamalaking halaga",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "Pagsusuri ng positibong buong numero",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "Pagpapatunay na higit sa zero",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "Pagsusuri ng positibong numero",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "Pagpapatunay ng format ng petsa",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "Ang petsa ay hindi maaaring nakaraan",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "Ang petsa ay hindi maaaring mas maaga kaysa sa itinakdang petsa",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "Hindi maaaring mas huli ang petsa kaysa sa itinakdang petsa",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "Pagpapatunay ng Di-wastong Halaga",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "Pagpapatunay ng pinakamababang haba ng password",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "Ang password ay dapat maglaman ng malalaking titik",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "Ang password ay dapat maglaman ng mga maliit na titik",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "Ang password ay dapat maglaman ng mga numero",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "Ang password ay dapat maglaman ng espesyal na karakter",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "Pagpapatunay ng pinakamahabang haba ng pangalan",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "Pagpapatunay ng pinakamaliit na halaga ng dami",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "Pagpapatunay ng pinakamalaking dami",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "Pagpapatunay ng pinakamataas na presyo kada yunit",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "Araw na may parameter",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "Ipinapakita ang kasalukuyang napiling mga araw",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "I-edit ang item",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "Magdagdag ng item",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "Operating System",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Bersyon ng Dart",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "Pagsubok ng kaganapan sa kalendaryo",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "Ito ay isang test event, na ginagamit upang suriin ang functionality ng kalendaryo",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "sa loob ng app",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "Paganahin ang paalala ng pag-expire",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "Paraan ng paalala",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "App lamang",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "Kalendaryo lamang",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "dalawa",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "Bilang ng araw ng maagang paalala",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "Gamitin ang mga global na setting",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "Barcode",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "Pangalan",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "Pag-uuri",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "Kasalukuyang dami",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "Pumili ng operasyon",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "yunit",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Pasadyang yunit",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "Mangyaring maglagay ng yunit",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "Pasadyang lokasyon",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "Paki-input ang lokasyon ng imbakan",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "I-scan ang QR code",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "I-scan ang code para mag-imbak",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "Pagsasailalim ng mga bagay sa klase",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "Lugar ng Imbakan",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "Ilagay ang barcode sa loob ng kahon para i-scan",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "barcode",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "Mangyaring ipasok ang barcode o i-scan",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "Pangunahing impormasyon",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "Pangalan ng Bagay",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "Paki-input ang pangalan ng item",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "Mangyaring ilagay ang pangalan ng kategorya",
+  "@enter_category_name": {
+    "description": ""
   }
 }

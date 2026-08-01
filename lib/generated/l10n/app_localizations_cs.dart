@@ -30,6 +30,12 @@ class AppLocalizationsCs extends AppLocalizations {
   String get add => 'Přidat';
 
   @override
+  String get edit_item => 'Upravit předmět';
+
+  @override
+  String get add_item => 'Přidat položku';
+
+  @override
   String get search => 'Hledat';
 
   @override
@@ -518,7 +524,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get system_name => 'Název systému';
 
   @override
+  String get operating_system => 'operační systém';
+
+  @override
   String get system_version => 'Verze systému';
+
+  @override
+  String get dart_version => 'Verze Dart';
 
   @override
   String get device_identifier => 'Identifikace zařízení';
@@ -770,18 +782,8 @@ class AppLocalizationsCs extends AppLocalizations {
   String get enter_outbound_quantity => 'Zadejte množství k výdeji';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Bylo přidáno $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Opravdu chcete smazat „$name“? Tuto akci nelze vrátit zpět.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Bylo sníženo $name $quantity$unit';
   }
 
   @override
@@ -1066,4 +1068,109 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get delete_failed => 'Odstranění selhalo';
+
+  @override
+  String get test_calendar_event => 'Testovací událost kalendáře';
+
+  @override
+  String get test_calendar_event_description =>
+      'Toto je testovací událost pro ověření funkce kalendáře';
+
+  @override
+  String get in_app => 'v aplikaci';
+
+  @override
+  String get enable_alert => 'Povolit upozornění na vypršení platnosti';
+
+  @override
+  String get alert_method => 'způsob připomenutí';
+
+  @override
+  String get alert_method_in_app => 'Pouze v aplikaci';
+
+  @override
+  String get alert_method_calendar => 'Pouze kalendář';
+
+  @override
+  String get alert_method_both => 'oba';
+
+  @override
+  String get alert_days_before => 'Počet dnů předem pro připomenutí';
+
+  @override
+  String get use_global_setting => 'Použít globální nastavení';
+
+  @override
+  String get barcode_label => 'Čárový kód';
+
+  @override
+  String get name_label => 'název';
+
+  @override
+  String get category_label => 'kategorizace';
+
+  @override
+  String get current_quantity => 'Aktuální množství';
+
+  @override
+  String get select_operation => 'Vyberte akci';
+
+  @override
+  String get unit => 'jednotka';
+
+  @override
+  String get custom_unit => 'Vlastní jednotka';
+
+  @override
+  String get enter_unit => 'Prosím, zadejte jednotku';
+
+  @override
+  String get custom_location => 'Vlastní místo';
+
+  @override
+  String get enter_storage_location => 'Prosím zadejte místo uložení';
+
+  @override
+  String get scan => 'Skenovat QR kód';
+
+  @override
+  String get scan_to_stock => 'Naskenujte k přijetí do skladu';
+
+  @override
+  String get item_categories => 'Kategorizace položek';
+
+  @override
+  String get storage_locations => 'Místo úložiště';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Umístěte čárový kód do rámečku pro skenování';
+
+  @override
+  String get barcode => 'Čárový kód';
+
+  @override
+  String get enter_barcode_or_scan => 'Zadejte čárový kód nebo naskenujte kód';
+
+  @override
+  String get basic_information => 'Základní informace';
+
+  @override
+  String get item_name => 'Název položky';
+
+  @override
+  String get enter_item_name => 'Prosím zadejte název položky';
+
+  @override
+  String get enter_category_name => 'Prosím, zadejte název kategorie';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Bylo přidáno $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Bylo sníženo $itemName $quantity$unit';
+  }
 }

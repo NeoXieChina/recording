@@ -30,6 +30,12 @@ class AppLocalizationsUg extends AppLocalizations {
   String get add => 'قوشۇش';
 
   @override
+  String get edit_item => 'بايلىقنى تەھرىرلەش';
+
+  @override
+  String get add_item => 'بايراق قوشۇش';
+
+  @override
   String get search => 'ئىزدەش';
 
   @override
@@ -519,7 +525,13 @@ class AppLocalizationsUg extends AppLocalizations {
   String get system_name => 'سىستېما نامى';
 
   @override
+  String get operating_system => 'ئاپېرىراتسىيون سىستېمىسى';
+
+  @override
   String get system_version => 'سىستېما نەشرى';
+
+  @override
+  String get dart_version => 'Dart نەشرى';
 
   @override
   String get device_identifier => ' ئۈسكۈنىنى تەڭشەش';
@@ -770,18 +782,8 @@ class AppLocalizationsUg extends AppLocalizations {
   String get enter_outbound_quantity => 'چۇقۇر ساندىنى كىرگۈزۈڭ';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'ئارتۇرۇلدى $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return '«$name»نى چۈشۈرۈشكە مەيىل قىلدىڭىزمۇ؟ بۇ مەشغۇلاتنى ئورۇنلىغاندىن كېيىن قايتۇرۇش بولمايدۇ.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'ئازايتىلدى $name $quantity$unit';
   }
 
   @override
@@ -1066,4 +1068,110 @@ class AppLocalizationsUg extends AppLocalizations {
 
   @override
   String get delete_failed => 'ئۆچۈرۈش مەغلۇپ بولدى';
+
+  @override
+  String get test_calendar_event => 'تەجرىبە كەلەندىر ۋەقەسى';
+
+  @override
+  String get test_calendar_event_description =>
+      'بۇ بىر سىناق پائالىيىتى بولۇپ، تەقۋىم ئىقتىدارىنى تەكشۈرۈش ئۈچۈن ئىشلىتىلىدۇ';
+
+  @override
+  String get in_app => 'ئەپ ئىچىدە';
+
+  @override
+  String get enable_alert => 'ۋاقىت ئۆتكەن ئەسكەرتىشنى چالدۇرىش';
+
+  @override
+  String get alert_method => 'ئەسكەرتىش ئۇسۇلى';
+
+  @override
+  String get alert_method_in_app => 'پەقەت ئىچىدە قوللىنىلىدۇ';
+
+  @override
+  String get alert_method_calendar => 'پەقەت كالېندار';
+
+  @override
+  String get alert_method_both => 'ئىككىلەرى';
+
+  @override
+  String get alert_days_before => 'ئالدىن سۆزلەپ ئەسكەرتىش كۈنلىرى';
+
+  @override
+  String get use_global_setting =>
+      'ھەرىكەتتىكى بۈتۈن سېتىلغان تەڭشەكلەرنى ئىشلىتىش';
+
+  @override
+  String get barcode_label => 'باركود';
+
+  @override
+  String get name_label => 'نام';
+
+  @override
+  String get category_label => 'تۈرلەش';
+
+  @override
+  String get current_quantity => 'ھازىرقى سان';
+
+  @override
+  String get select_operation => 'مەشغۇلات تاللاڭ';
+
+  @override
+  String get unit => 'بىرلىك';
+
+  @override
+  String get custom_unit => 'بايراملىق بىرلەشتۈرۈش';
+
+  @override
+  String get enter_unit => 'ئۇنۋاننى كىرگۈزۈڭ';
+
+  @override
+  String get custom_location => 'بايراملىق ئورۇن';
+
+  @override
+  String get enter_storage_location => ' ساقلاش ئورنىنى كىرگۈزۈڭ';
+
+  @override
+  String get scan => 'كودنى ساقلاپ ئوقۇش';
+
+  @override
+  String get scan_to_stock => 'باھالىق كودنى سىكانىرلاپ كىرىش';
+
+  @override
+  String get item_categories => 'مال تۈرىگە ئايرىش';
+
+  @override
+  String get storage_locations => 'ساقلاش ئورنى';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'بارات كودنى قۇرۇقدىكى ئىچىگە سېلىپ سىكان قىلڭ';
+
+  @override
+  String get barcode => 'باركود';
+
+  @override
+  String get enter_barcode_or_scan => 'باركودنى كىرگۈزۈڭ ياكى سكىنېر قىلىڭ';
+
+  @override
+  String get basic_information => 'اساسىي ئۇچۇر';
+
+  @override
+  String get item_name => 'بايقۇل نامى';
+
+  @override
+  String get enter_item_name => 'تەڭشەلمەكچى بولغان نەرسە نامىنى كىرگۈزۈڭ';
+
+  @override
+  String get enter_category_name => 'تۈر نامىنى كىرگۈزۈڭ';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'ئارتۇرۇلدى $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'ئازايتىلدى $itemName $quantity$unit';
+  }
 }

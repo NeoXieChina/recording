@@ -30,6 +30,12 @@ class AppLocalizationsIu extends AppLocalizations {
   String get add => 'ᐃᓚᓗᒍ';
 
   @override
+  String get edit_item => 'ᐋᖅᑭᒋᐊᕐᓗᒍ ᐱᔾᔪᑕᐅᔪᖅ';
+
+  @override
+  String get add_item => 'ᐃᓚᓗᒍ';
+
+  @override
   String get search => 'ᕿᓂᕐᓂᖅ';
 
   @override
@@ -516,7 +522,13 @@ class AppLocalizationsIu extends AppLocalizations {
   String get system_name => 'ᐱᓕᕆᔾᔪᓯᐅᑉ ᐊᑎᖓ';
 
   @override
+  String get operating_system => 'ᐊᐅᓚᑦᑎᔾᔪᑎᑦ';
+
+  @override
   String get system_version => 'ᐱᓕᕆᔾᔪᓯᐅᑉ ᖃᓄᐃᓕᖓᓂᖓ';
+
+  @override
+  String get dart_version => 'ᓇᐅᒃᑲᖅᑕᐅᑎᙳᐊᖅ';
 
   @override
   String get device_identifier => 'ᐱᖁᑎᐅᑉ ᓇᓗᓇᐃᒃᑯᑕᖓ';
@@ -767,18 +779,8 @@ class AppLocalizationsIu extends AppLocalizations {
   String get enter_outbound_quantity => 'ᑎᑎᕋᕐᓗᒍ ᖃᔅᓯᐅᓂᖓ ᐊᐅᓪᓚᖅᑎᑕᐅᓂᐊᖅᑐᖅ';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return '$name $quantity$unit ᐃᓚᔭᐅᓯᒪᓕᖅᑐᖅ';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'ᐲᖅᓯᔪᒪᓪᓚᑦᑖᖅᐲᑦ \"$name\"? ᑕᒪᓐᓇ ᐱᓕᕆᓂᐅᔪᖅ ᓄᖅᑲᖅᑎᑕᐅᔪᓐᓇᙱᓚᖅ.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'ᒥᒃᖠᕚᓪᓕᖅᓯᒪᕗᖅ $name $quantity$unit';
   }
 
   @override
@@ -1062,4 +1064,109 @@ class AppLocalizationsIu extends AppLocalizations {
 
   @override
   String get delete_failed => 'ᐲᖅᓯᓂᖅ ᑲᔪᓯᓚᐅᙱᑦᑐᖅ';
+
+  @override
+  String get test_calendar_event => 'ᖃᐅᔨᓴᕐᓂᕐᒧᑦ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᖃᓄᐃᓕᐅᕐᓂᐅᔪᖅ';
+
+  @override
+  String get test_calendar_event_description =>
+      'ᑖᓐᓇ ᖃᐅᔨᓴᕈᑕᐅᕗᖅ ᐊᑐᖅᑕᐅᕙᒃᖢᓂ ᓇᓗᓇᐃᖅᓯᔾᔪᑕᐅᓪᓗᓂ ᐅᓪᓗᖅᓯᐅᑎᐅᑉ ᐊᐅᓚᓂᖓᓂᒃ';
+
+  @override
+  String get in_app => 'ᖃᕋᓴᐅᔭᒃᑰᕈᑎᒃᑯᑦ';
+
+  @override
+  String get enable_alert => 'ᐊᑐᓕᖅᑎᓪᓗᒍ ᐃᓱᓕᕝᕕᒃᓴᖓᓄᑦ ᐃᖅᑲᐃᑎᑦᑎᔾᔪᑎ';
+
+  @override
+  String get alert_method => 'ᐃᖅᑲᐃᓯᒋᐊᕈᑎ';
+
+  @override
+  String get alert_method_in_app => 'ᖃᕋᓴᐅᔭᒃᑰᕈᑎᑐᐊᑦ';
+
+  @override
+  String get alert_method_calendar => 'ᐅᓪᓗᖅᓯᐅᑎᑐᐊᑦ';
+
+  @override
+  String get alert_method_both => 'ᑕᒪᕐᒥᒃ';
+
+  @override
+  String get alert_days_before => 'ᐅᓪᓗᑦ ᖃᔅᓯᐅᓂᖏᑦ ᓯᕗᓂᐊᒍᑦ ᖃᐅᔨᒃᑲᐃᔾᔪᑎ';
+
+  @override
+  String get use_global_setting => 'ᐊᑐᕐᓗᒋᑦ ᓄᓇᕐᔪᐊᓕᒫᒥ ᐋᖅᑭᒃᓯᒪᔪᑦ';
+
+  @override
+  String get barcode_label => 'ᓇᓗᓇᐃᒃᑯᑖ';
+
+  @override
+  String get name_label => 'ᐊᑎᖓ';
+
+  @override
+  String get category_label => 'ᓇᓃᓐᓂᖓ';
+
+  @override
+  String get current_quantity => 'ᒫᓐᓇ ᖃᔅᓯᐅᓂᖏᑦ';
+
+  @override
+  String get select_operation => 'ᓂᕈᐊᕐᓗᒍ ᐊᐅᓚᓂᐅᔪᖅ';
+
+  @override
+  String get unit => 'ᐃᒡᓗ';
+
+  @override
+  String get custom_unit => 'Custom Unit';
+
+  @override
+  String get enter_unit => 'ᑎᑎᕋᕐᓗᒍ ᐃᒡᓗ';
+
+  @override
+  String get custom_location => 'ᐃᓂᒋᒐᔪᒃᑕᖓ';
+
+  @override
+  String get enter_storage_location => 'ᑐᖅᑯᐃᕝᕕᐅᑉ ᐃᓂᒋᔭᖓ ᑎᑎᕋᕐᓗᒍ';
+
+  @override
+  String get scan => 'ᐊᔾᔨᓕᐅᕐᓗᒍ QR ᓇᓗᓇᐃᒃᑯᑕᖅ';
+
+  @override
+  String get scan_to_stock =>
+      'ᐊᔾᔨᓕᐅᕐᓗᒍ ᓇᓗᓇᐃᒃᑯᑖ ᑎᑎᕋᕐᓂᐊᕐᓗᒍ ᓈᓴᖅᓯᒪᔪᑦ ᓇᖕᒥᓂᖁᑎᒋᔭᑦ ᐱᖁᑎᖏᑦ';
+
+  @override
+  String get item_categories => 'ᐱᖁᑎᑦ ᓇᓃᓐᓂᖏᑦ';
+
+  @override
+  String get storage_locations => 'ᓯᕐᓗᐊᖃᕐᕕᐅᑉ ᐃᓂᖓ';
+
+  @override
+  String get place_barcode_in_frame_to_scan => 'ᐃᓕᓗᒍ ᓇᓗᓇᐃᒃᑯᑖ ᐃᓗᐊᒍᑦ ᐊᔾᔨᓕᐅᕐᓂᐊᕐᓗᒍ';
+
+  @override
+  String get barcode => 'ᓇᓗᓇᐃᒃᑯᑖ';
+
+  @override
+  String get enter_barcode_or_scan => 'ᐃᓕᓗᒍ ᓇᓗᓇᐃᒃᑯᑖ ᐊᔾᔨᓕᐅᕐᓗᒍᓘᓐᓃᑦ ᓇᓗᓇᐃᒃᑯᑖ';
+
+  @override
+  String get basic_information => 'ᑐᓴᖅᑕᐅᑎᑦᑎᔾᔪᑎᓪᓗᐊᑕᑦ';
+
+  @override
+  String get item_name => 'ᐱᖁᑎᐅᑉ ᐊᑎᖓ';
+
+  @override
+  String get enter_item_name => 'ᑎᑎᕋᕐᓗᒍ ᐱᖁᑎᐅᑉ ᐊᑎᖓ';
+
+  @override
+  String get enter_category_name => 'ᑎᑎᕋᕐᓗᒍ ᖃᓄᐃᑦᑑᓂᖓᑕ ᐊᑎᖓ';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return '$itemName $quantity$unit ᐃᓚᔭᐅᓯᒪᓕᖅᑐᖅ';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'ᒥᒃᖠᕚᓪᓕᖅᓯᒪᕗᖅ $itemName $quantity$unit';
+  }
 }

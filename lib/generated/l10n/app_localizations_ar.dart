@@ -30,6 +30,12 @@ class AppLocalizationsAr extends AppLocalizations {
   String get add => 'إضافة';
 
   @override
+  String get edit_item => 'تحرير العناصر';
+
+  @override
+  String get add_item => 'إضافة عنصر';
+
+  @override
   String get search => 'بحث';
 
   @override
@@ -514,7 +520,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get system_name => 'اسم النظام';
 
   @override
+  String get operating_system => 'نظام التشغيل';
+
+  @override
   String get system_version => 'إصدار النظام';
+
+  @override
+  String get dart_version => 'نسخة Dart';
 
   @override
   String get device_identifier => 'معرّف الجهاز';
@@ -766,18 +778,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get enter_outbound_quantity => 'الرجاء إدخال كمية الخروج من المخزن';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'تمت إضافة $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'هل أنت متأكد أنك تريد حذف «$name»؟ لا يمكن التراجع عن هذا الإجراء.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'تم تقليل $name $quantity$unit';
   }
 
   @override
@@ -1062,4 +1064,109 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get delete_failed => 'فشل الحذف';
+
+  @override
+  String get test_calendar_event => 'اختبار حدث التقويم';
+
+  @override
+  String get test_calendar_event_description =>
+      'هذا حدث تجريبي للتحقق من وظيفة التقويم';
+
+  @override
+  String get in_app => 'داخل التطبيق';
+
+  @override
+  String get enable_alert => 'تمكين تذكير الانتهاء';
+
+  @override
+  String get alert_method => 'طريقة التذكير';
+
+  @override
+  String get alert_method_in_app => 'متاح داخل التطبيق فقط';
+
+  @override
+  String get alert_method_calendar => 'التقويم فقط';
+
+  @override
+  String get alert_method_both => 'كلاهما';
+
+  @override
+  String get alert_days_before => 'أيام التذكير المسبق';
+
+  @override
+  String get use_global_setting => 'استخدام الإعدادات العامة';
+
+  @override
+  String get barcode_label => 'الرمز الشريطي';
+
+  @override
+  String get name_label => 'الاسم';
+
+  @override
+  String get category_label => 'تصنيف';
+
+  @override
+  String get current_quantity => 'الكمية الحالية';
+
+  @override
+  String get select_operation => 'يرجى اختيار العملية';
+
+  @override
+  String get unit => 'وحدة';
+
+  @override
+  String get custom_unit => 'الوحدة المخصصة';
+
+  @override
+  String get enter_unit => 'يرجى إدخال الوحدة';
+
+  @override
+  String get custom_location => 'موقع مخصص';
+
+  @override
+  String get enter_storage_location => 'الرجاء إدخال موقع التخزين';
+
+  @override
+  String get scan => 'مسح الرمز';
+
+  @override
+  String get scan_to_stock => 'مسح الرمز لإدخال المخزون';
+
+  @override
+  String get item_categories => 'تصنيف الأشياء';
+
+  @override
+  String get storage_locations => 'مكان التخزين';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'ضع الرمز الشريطي داخل الإطار للمسح';
+
+  @override
+  String get barcode => 'الرمز الشريطي';
+
+  @override
+  String get enter_barcode_or_scan => 'يرجى إدخال الرمز الشريطي أو مسحه ضوئياً';
+
+  @override
+  String get basic_information => 'المعلومات الأساسية';
+
+  @override
+  String get item_name => 'اسم العنصر';
+
+  @override
+  String get enter_item_name => 'الرجاء إدخال اسم العنصر';
+
+  @override
+  String get enter_category_name => 'الرجاء إدخال اسم التصنيف';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'تمت إضافة $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'تم تقليل $itemName $quantity$unit';
+  }
 }

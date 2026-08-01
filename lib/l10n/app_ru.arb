@@ -81,8 +81,7 @@
     "description": "Настраиваемое количество дней с параметром",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "Диапазон дней напоминания с параметрами",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "Сообщение проверки ввода количества дней",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "Уведомление об ошибке",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "Общее сообщение об ошибке операции",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "Сообщение об ошибке резервного копирования",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "Сообщение об успешном восстановлении",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "Ошибка восстановления неудачна",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "Выбранный файл сообщения",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "Ошибка при экспорте",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "Сообщение об успешном импорте",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "Ошибка при импорте",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "Сообщение об ошибке получения информации об устройстве",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "Оставшиеся дни с параметрами",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "Количество дней просрочки с параметрами",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "Сообщение подтверждения удаления",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "Удалить сообщение об ошибке",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "Показать количество по категориям",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "Количество мест",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "Штрихкод с отображением параметров",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "Название отображается с параметрами",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "Показать по категориям с параметрами",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "Текущее количество отображается с параметрами",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "Добавлено {name} {quantity}{unit}",
+  "item_increased": "Добавлено {itemName} {quantity}{unit}",
   "@item_increased": {
     "description": "Сообщение о добавлении предмета",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "Сообщение подтверждения удаления с предупреждением о необратимости",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "Уменьшено на {name} {quantity}{unit}",
+  "item_decreased": "Уменьшено на {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "Сообщение о снижении количества предметов",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "Ошибка сброса базы данных",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "Инициализация имитационных данных не удалась",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "Инициализация служба уведомлений не удалась",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "Не удалось проверить учетную запись календаря",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "Не удалось создать календарь",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "Добавлено событие по календарю, не получилось",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "Не удалось удалить событие календаря",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "Не удалось установить сообщение с подсказкой прав",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "Инициализация имитационных данных успешна",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "В базе данных уже есть данные",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "Ошибка кодировки файла",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "Ошибка: файл не существует",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "Ошибка: файл пуст",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "Проверка: поле не может быть пустым",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "Проверка минимальной длины поля",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "Проверка максимальной длины поля",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "Проверка формата электронной почты",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "Проверка цифрового формата",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "Проверка минимального значения",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "Проверка максимального значения",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "Проверка положительных целых чисел",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "Проверка больше нуля",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "Проверка положительных чисел",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "Проверка формата даты",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "Дата не может быть прошлой",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "Дата не может быть раньше указанной даты",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "Дата не может быть позже указанной даты",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "Проверка недействительных значений",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "Проверка минимальной длины пароля",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "Пароль должен содержать заглавные буквы",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "Пароль должен содержать строчные буквы",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "Пароль должен содержать цифры",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "Пароль должен содержать специальные символы",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "Проверка максимальной длины имени",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "Проверка минимального значения количества",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "Проверка максимального количества",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "Проверка максимального значения цены за единицу",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "Дни с параметрами",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "Отображение выбранного количества дней",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "Редактировать предмет",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "Добавить предмет",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "Операционная система",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Версия Dart",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "Тестовое событие календаря",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "Это тестовое событие, предназначенное для проверки функции календаря",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "в приложении",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "Включить напоминание об истечении срока",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "Способ напоминания",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "Только в приложении",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "Только календарь",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "оба",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "Количество дней предварительного уведомления",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "Использовать глобальные настройки",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "штрихкод",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "Название",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "Классификация",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "Текущее количество",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "Пожалуйста, выберите действие",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "единица",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Пользовательская единица",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "Пожалуйста, введите единицу",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "Пользовательское место",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "Пожалуйста, введите место хранения",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "Сканировать QR-код",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "Сканировать код для поступления на склад",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "Категория предметов",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "Место хранения",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "Поместите штрихкод в рамку для сканирования",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "штрихкод",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "Пожалуйста, введите штрихкод или отсканируйте его",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "Основная информация",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "Название предмета",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "Пожалуйста, введите название предмета",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "Пожалуйста, введите название категории",
+  "@enter_category_name": {
+    "description": ""
   }
 }

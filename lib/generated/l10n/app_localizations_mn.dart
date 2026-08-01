@@ -30,6 +30,12 @@ class AppLocalizationsMn extends AppLocalizations {
   String get add => 'нэмэх';
 
   @override
+  String get edit_item => 'Барааг засварлах';
+
+  @override
+  String get add_item => 'Бараа нэмэх';
+
+  @override
   String get search => 'Хайх';
 
   @override
@@ -520,7 +526,13 @@ class AppLocalizationsMn extends AppLocalizations {
   String get system_name => 'Тогтолцооны нэр';
 
   @override
+  String get operating_system => 'Үйлдлийн систем';
+
+  @override
   String get system_version => 'Системийн хувилбар';
+
+  @override
+  String get dart_version => 'Dart хувилбар';
 
   @override
   String get device_identifier => 'Төхөөрөмжийн таних тэмдэг';
@@ -773,18 +785,8 @@ class AppLocalizationsMn extends AppLocalizations {
   String get enter_outbound_quantity => 'Гарах нөөцийн тоог оруулаарай';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Илүү нэмэгдсэн $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Та \"$name\"-ыг устгахдаа итгэлтэй байна уу? Энэ үйлдлийг буцаах боломжгүй.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'багассан $name $quantity$unit';
   }
 
   @override
@@ -1069,4 +1071,110 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get delete_failed => 'Устгах амжилтгүй боллоо';
+
+  @override
+  String get test_calendar_event => 'Туршилтын хуанлийн үйл явдал';
+
+  @override
+  String get test_calendar_event_description =>
+      'Энэ нь хуанлийн функцийг баталгаажуулахад зориулсан туршилтын үйл явдал юм';
+
+  @override
+  String get in_app => 'програм дотор';
+
+  @override
+  String get enable_alert => 'Дуусахыг сануулахыг идэвхжүүлэх';
+
+  @override
+  String get alert_method => 'сануулгын арга';
+
+  @override
+  String get alert_method_in_app => 'Зөвхөн апп-д дотроо';
+
+  @override
+  String get alert_method_calendar => 'Зөвхөн календараар';
+
+  @override
+  String get alert_method_both => 'хоёул';
+
+  @override
+  String get alert_days_before => 'урьдчилан сануулах өдрүүд';
+
+  @override
+  String get use_global_setting => 'Дэлхийн тохиргоог ашиглах';
+
+  @override
+  String get barcode_label => 'Шугаман код';
+
+  @override
+  String get name_label => 'нэр';
+
+  @override
+  String get category_label => 'Ангилал';
+
+  @override
+  String get current_quantity => 'Одоогийн тоо хэмжээ';
+
+  @override
+  String get select_operation => 'Үйлдлээ сонгоно уу';
+
+  @override
+  String get unit => 'нэгж';
+
+  @override
+  String get custom_unit => 'Өөрчлөн тохируулсан нэгж';
+
+  @override
+  String get enter_unit => 'Нэгжийг оруулна уу';
+
+  @override
+  String get custom_location => 'Өөрийн тохируулсан газар';
+
+  @override
+  String get enter_storage_location => 'Хадгалах газрыг оруулна уу';
+
+  @override
+  String get scan => 'Шугамын кодыг унших';
+
+  @override
+  String get scan_to_stock => 'Код уншуулж агуулахад оруулах';
+
+  @override
+  String get item_categories => 'Барааны ангилал';
+
+  @override
+  String get storage_locations => 'хадгалах газар';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Баркодыг хүрээний дотор тавьж сканнердаарай';
+
+  @override
+  String get barcode => 'Шошгоны код';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Баркодыг оруулж эсвэл сканнердаж уншина уу';
+
+  @override
+  String get basic_information => 'Үндсэн мэдээлэл';
+
+  @override
+  String get item_name => 'Барааны нэр';
+
+  @override
+  String get enter_item_name => 'Барааны нэрийг оруулна уу';
+
+  @override
+  String get enter_category_name => 'Ангиллын нэрийг оруулна уу';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Илүү нэмэгдсэн $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'багассан $itemName $quantity$unit';
+  }
 }

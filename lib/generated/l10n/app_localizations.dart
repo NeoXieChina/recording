@@ -248,6 +248,18 @@ abstract class AppLocalizations {
   ///
   ///
   /// In zh, this message translates to:
+  /// **'编辑物品'**
+  String get edit_item;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'添加物品'**
+  String get add_item;
+
+  ///
+  ///
+  /// In zh, this message translates to:
   /// **'搜索'**
   String get search;
 
@@ -386,7 +398,7 @@ abstract class AppLocalizations {
   ///
   ///
   /// In zh, this message translates to:
-  /// **'预警设置'**
+  /// **'提醒设置'**
   String get alert_settings;
 
   ///
@@ -1106,8 +1118,20 @@ abstract class AppLocalizations {
   ///
   ///
   /// In zh, this message translates to:
+  /// **'操作系统'**
+  String get operating_system;
+
+  ///
+  ///
+  /// In zh, this message translates to:
   /// **'系统版本'**
   String get system_version;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'Dart版本'**
+  String get dart_version;
 
   ///
   ///
@@ -1553,23 +1577,11 @@ abstract class AppLocalizations {
   /// **'请输入出库数量'**
   String get enter_outbound_quantity;
 
-  /// 物品增加消息
-  ///
-  /// In zh, this message translates to:
-  /// **'已增加 {name} {quantity}{unit}'**
-  String item_increased(String name, String quantity, String unit);
-
   /// 删除确认消息带不可撤销警告
   ///
   /// In zh, this message translates to:
   /// **'确定要删除「{name}」吗？此操作不可撤销。'**
   String delete_item_confirm_with_irreversible(String name);
-
-  /// 物品减少消息
-  ///
-  /// In zh, this message translates to:
-  /// **'已减少 {name} {quantity}{unit}'**
-  String item_decreased(String name, String quantity, String unit);
 
   ///
   ///
@@ -1966,6 +1978,204 @@ abstract class AppLocalizations {
   /// In zh, this message translates to:
   /// **'删除失败'**
   String get delete_failed;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'测试日历事件'**
+  String get test_calendar_event;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'这是一个测试事件，用于验证日历功能'**
+  String get test_calendar_event_description;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'应用内'**
+  String get in_app;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'启用到期提醒'**
+  String get enable_alert;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'提醒方式'**
+  String get alert_method;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'仅应用内'**
+  String get alert_method_in_app;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'仅日历'**
+  String get alert_method_calendar;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'两者'**
+  String get alert_method_both;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'提前提醒天数'**
+  String get alert_days_before;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'使用全局设置'**
+  String get use_global_setting;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'条码'**
+  String get barcode_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'名称'**
+  String get name_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'分类'**
+  String get category_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'当前数量'**
+  String get current_quantity;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'请选择操作'**
+  String get select_operation;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'单位'**
+  String get unit;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'自定义单位'**
+  String get custom_unit;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'请输入单位'**
+  String get enter_unit;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'自定义地点'**
+  String get custom_location;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'请输入存储地点'**
+  String get enter_storage_location;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'扫码'**
+  String get scan;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'扫码入库'**
+  String get scan_to_stock;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'物品分类'**
+  String get item_categories;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'存储地点'**
+  String get storage_locations;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'将条码放入框内扫描'**
+  String get place_barcode_in_frame_to_scan;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'条码'**
+  String get barcode;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'请输入条码或扫码'**
+  String get enter_barcode_or_scan;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'基础信息'**
+  String get basic_information;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'物品名称'**
+  String get item_name;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'请输入物品名称'**
+  String get enter_item_name;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'请输入分类名称'**
+  String get enter_category_name;
+
+  /// 物品增加通知消息
+  ///
+  /// In zh, this message translates to:
+  /// **'已增加 {itemName} {quantity}{unit}'**
+  String item_increased(String itemName, String quantity, String unit);
+
+  /// 物品减少通知消息
+  ///
+  /// In zh, this message translates to:
+  /// **'已减少 {itemName} {quantity}{unit}'**
+  String item_decreased(String itemName, String quantity, String unit);
 }
 
 class _AppLocalizationsDelegate

@@ -30,6 +30,12 @@ class AppLocalizationsUk extends AppLocalizations {
   String get add => 'додати';
 
   @override
+  String get edit_item => 'Редагувати предмет';
+
+  @override
+  String get add_item => 'Додати предмет';
+
+  @override
   String get search => 'Пошук';
 
   @override
@@ -521,7 +527,13 @@ class AppLocalizationsUk extends AppLocalizations {
   String get system_name => 'Назва системи';
 
   @override
+  String get operating_system => 'Операційна система';
+
+  @override
   String get system_version => 'Версія системи';
+
+  @override
+  String get dart_version => 'Версія Dart';
 
   @override
   String get device_identifier => 'Ідентифікатор обладнання';
@@ -773,18 +785,8 @@ class AppLocalizationsUk extends AppLocalizations {
   String get enter_outbound_quantity => 'Введіть кількість на складі';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Вже додано $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Ви впевнені, що хочете видалити «$name»? Цю дію не можна скасувати.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Вже зменшено $name $quantity$unit';
   }
 
   @override
@@ -1069,4 +1071,110 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get delete_failed => 'Видалення не вдалося';
+
+  @override
+  String get test_calendar_event => 'Тест події календаря';
+
+  @override
+  String get test_calendar_event_description =>
+      'Це тестова подія, призначена для перевірки функції календаря';
+
+  @override
+  String get in_app => 'у застосунку';
+
+  @override
+  String get enable_alert => 'Увімкнути нагадування про закінчення терміну';
+
+  @override
+  String get alert_method => 'спосіб нагадування';
+
+  @override
+  String get alert_method_in_app => 'Лише в додатку';
+
+  @override
+  String get alert_method_calendar => 'Лише календар';
+
+  @override
+  String get alert_method_both => 'обидва';
+
+  @override
+  String get alert_days_before => 'Кількість днів попередження';
+
+  @override
+  String get use_global_setting => 'Використовувати глобальні налаштування';
+
+  @override
+  String get barcode_label => 'штрих-код';
+
+  @override
+  String get name_label => 'Назва';
+
+  @override
+  String get category_label => 'Категорія';
+
+  @override
+  String get current_quantity => 'Поточна кількість';
+
+  @override
+  String get select_operation => 'Будь ласка, виберіть дію';
+
+  @override
+  String get unit => 'одиниця';
+
+  @override
+  String get custom_unit => 'Користувацька одиниця';
+
+  @override
+  String get enter_unit => 'Будь ласка, введіть одиницю';
+
+  @override
+  String get custom_location => 'Налаштоване місце';
+
+  @override
+  String get enter_storage_location => 'Будь ласка, введіть місце зберігання';
+
+  @override
+  String get scan => 'Сканувати код';
+
+  @override
+  String get scan_to_stock => 'Сканувати для зберігання у складі';
+
+  @override
+  String get item_categories => 'Категоризація предметів';
+
+  @override
+  String get storage_locations => 'Місце зберігання';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Розмістіть штрих-код у рамці для сканування';
+
+  @override
+  String get barcode => 'штрих-код';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Будь ласка, введіть штрих-код або відскануйте його';
+
+  @override
+  String get basic_information => 'Базова інформація';
+
+  @override
+  String get item_name => 'Назва предмета';
+
+  @override
+  String get enter_item_name => 'Будь ласка, введіть назву предмета';
+
+  @override
+  String get enter_category_name => 'Будь ласка, введіть назву категорії';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Вже додано $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Вже зменшено $itemName $quantity$unit';
+  }
 }

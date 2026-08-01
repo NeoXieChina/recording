@@ -30,6 +30,12 @@ class AppLocalizationsHy extends AppLocalizations {
   String get add => 'ավելացնել';
 
   @override
+  String get edit_item => 'Խմբագրել առարկան';
+
+  @override
+  String get add_item => 'Ավելացնել տարր';
+
+  @override
   String get search => 'Որոնել';
 
   @override
@@ -523,7 +529,13 @@ class AppLocalizationsHy extends AppLocalizations {
   String get system_name => 'համակարգի անուն';
 
   @override
+  String get operating_system => 'Օպերացիոն համակարգ';
+
+  @override
   String get system_version => 'համակարգի տարբերակ';
+
+  @override
+  String get dart_version => 'Dart տարբերակ';
 
   @override
   String get device_identifier => 'Գործիքի նույնացում';
@@ -777,18 +789,8 @@ class AppLocalizationsHy extends AppLocalizations {
       'Խնդրում ենք մուտքագրել դուրս հանման քանակը';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Ավելացված է $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Համարո՞ւմ եք հեռացնել «$name»: Այս գործողությունը չի կարող հետկանգնվել։';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Կրճատվել է $name $quantity$unit';
   }
 
   @override
@@ -1073,4 +1075,112 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get delete_failed => 'Վերացնելը ձախողվեց';
+
+  @override
+  String get test_calendar_event => 'Թեստային օրացույցի իրադարձություն';
+
+  @override
+  String get test_calendar_event_description =>
+      'Սա թեստային իրադարձություն է՝ օրացույցի ֆունկցիան ստուգելու համար';
+
+  @override
+  String get in_app => 'էջում';
+
+  @override
+  String get enable_alert => 'Միացնել ժամկետի ավարտի հիշեցումը';
+
+  @override
+  String get alert_method => 'հուշման մեթոդ';
+
+  @override
+  String get alert_method_in_app => 'Միայն հավելվածում';
+
+  @override
+  String get alert_method_calendar => 'Միայն օրացույց';
+
+  @override
+  String get alert_method_both => ' երկուսն էլ';
+
+  @override
+  String get alert_days_before => 'Նախապես հիշեցնելու օրերի թիվ';
+
+  @override
+  String get use_global_setting => 'Օգտագործել գլոբալ կարգավորումները';
+
+  @override
+  String get barcode_label => 'Պատվերով կոդ';
+
+  @override
+  String get name_label => 'Անուն';
+
+  @override
+  String get category_label => 'ԱԿԱՏԵԳՈՐԻԱՑՈՒՄ';
+
+  @override
+  String get current_quantity => 'Ընթացիկ քանակը';
+
+  @override
+  String get select_operation => 'Ընտրեք գործողությունը';
+
+  @override
+  String get unit => 'միավոր';
+
+  @override
+  String get custom_unit => 'Հարմարեցված միավոր';
+
+  @override
+  String get enter_unit => 'Խնդրում ենք ներմուծել միավոր';
+
+  @override
+  String get custom_location => 'Հարմարեցված վայր';
+
+  @override
+  String get enter_storage_location =>
+      'Խնդրում ենք մուտքագրել պահեստավորման վայրը';
+
+  @override
+  String get scan => 'Սքանավորել կոդը';
+
+  @override
+  String get scan_to_stock => 'Քոդը սկանավորել պահեստամասային մուտքի համար';
+
+  @override
+  String get item_categories => 'Գործարքի դասակարգում';
+
+  @override
+  String get storage_locations => 'Պահեստավորման վայր';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Դնել զտակոդը շրջանակի մեջ զանգահարելու համար';
+
+  @override
+  String get barcode => 'Պատվերով կոդ';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Խնդրում ենք մուտքագրել բարկոդը կամ սկանավորել';
+
+  @override
+  String get basic_information => 'Ընդհանուր տեղեկատվություն';
+
+  @override
+  String get item_name => 'Ապրանքի անուն';
+
+  @override
+  String get enter_item_name => 'Խնդրում ենք մուտքագրել ապրանքի անունը';
+
+  @override
+  String get enter_category_name =>
+      'Խնդրում ենք ներմուծել դասակարգման անվանումը';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Ավելացված է $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Կրճատվել է $itemName $quantity$unit';
+  }
 }

@@ -81,8 +81,7 @@
     "description": "ᐅᓪᓗᐃᑦ ᐋᖅᑭᓱᖅᓯᒪᓂᖏᑦ ᑭᓪᓕᖃᖅᓱᑎᒃ",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "ᐃᖅᑲᐃᓯᒋᐊᕈᑎᑦ ᐅᓪᓗᐃᑦ ᐊᔾᔨᒌᙱᓐᓂᖏᑦ ᑭᒡᓕᖃᖅᖢᑎᒃ",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "ᐅᓪᓗᐃᑦ ᖃᔅᓯᐅᓂᖏᑦ ᐃᓕᐅᖅᑲᐃᓂᕐᒧᑦ ᓇᓗᓇᐃᖅᓯᔾᔪᑎ ᑐᓴᒐᒃᓴᖅ",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "ᖃᐅᔨᒃᑲᐃᔾᔪᑎ ᑕᒻᒪᖅᓯᒪᔪᖅ ᑐᓴᒐᒃᓴᖅ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "ᐊᐅᓚᑦᑎᔾᔪᑕᐅᒐᔪᒃᑐᑦ ᑕᒻᒪᖅᓯᒪᔪᑦ ᑐᓴᖅᑕᐅᔪᒃᓴᑦ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "ᑭᖑᕝᕕᐅᑎᔪᒃᓴᖅ ᐊᔪᖅᑐᖅ ᑕᒻᒪᖅᓯᒪᔪᖅ ᑐᓴᒐᒃᓴᖅ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "ᐅᑎᖅᑎᓪᓗᒍ ᑲᔪᓯᑦᑎᐊᕐᓂᕐᒧᑦ ᑐᓴᒐᒃᓴᖅ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "ᐅᑎᖅᑎᑦᑎᓇᓱᖕᓂᖅ ᐊᔪᖅᑐᖅ ᑕᒻᒪᖅᓯᒪᔪᖅ ᑐᓴᒐᒃᓴᖅ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "ᓂᕈᐊᖅᑕᖅ ᑎᑎᖅᑲᒃᑯᕕᖕᒧᑦ ᑐᓴᒐᒃᓴᖅ",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "Export failed error message",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "ᓇᒃᓯᐅᔾᔨᓂᖅ ᑲᔪᓯᓂᖃᑦᑎᐊᖅᑐᒥᒃ ᑐᓴᖅᑕᐅᔪᒃᓴᒥᒃ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "Import failed error message",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "ᐅᖃᓘᑎᕋᓛᑉ ᒥᒃᓵᓅᖓᔪᓂᒃ ᐅᑎᖅᑎᑦᑎᔪᓐᓇᕐᓂᕐᒧᑦ ᑕᒻᒪᖅᓯᒪᔪᒥᒃ ᑐᓴᖅᑎᑦᑎᔾᔪᑎ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "ᐊᒥᐊᒃᑯᖏᑦ ᐅᓪᓗᐃᑦ ᑭᓪᓕᖃᖅᓱᑎᒃ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "ᐃᓱᓕᕝᕕᒃᓴᓖᑦ ᐅᓪᓗᐃᑦ ᑭᒡᓕᖃᖅᖢᑎᒃ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "ᐲᕐᓗᒍ ᓇᓗᓇᐃᖅᓯᔾᔪᑎ ᑐᓴᒐᒃᓴᖅ",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "ᐲᕐᓗᒍ ᑕᒻᒪᖅᓯᒪᔪᖅ ᑐᓴᒐᒃᓴᖅ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "ᖃᓄᐃᑦᑑᓂᖏᑦ ᓈᓴᖅᑕᐅᔪᑦ ᓴᖅᑭᔮᖅᑎᑕᐅᔪᑦ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "ᖃᔅᓯᐅᓂᖏᑦ ᐃᓂᒋᔭᐅᔪᑦ ᑕᑯᒃᓴᐅᑎᑕᐅᔪᑦ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "Barcode ᓴᖅᑭᔮᖅᑎᑕᐅᔪᖅ ᑭᒡᓕᖃᖅᖢᓂ",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "ᐊᑎᖏᑦ ᑕᑯᒃᓴᐅᑎᑕᐅᔪᑦ ᑭᒡᓕᖃᖅᖢᑎᒃ",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "ᖃᓄᐃᑦᑑᓂᖏᑦ ᑕᑯᒃᓴᐅᑎᑕᐅᔪᑦ ᑭᒡᓕᖃᖅᖢᑎᒃ",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "ᒫᓐᓇ ᐊᖏᓂᖓ ᑕᑯᒃᓴᐅᑎᑕᐅᔪᖅ ᑭᒡᓕᖃᖅᖢᑎᒃ",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "{name} {quantity}{unit} ᐃᓚᔭᐅᓯᒪᓕᖅᑐᖅ",
+  "item_increased": "{itemName} {quantity}{unit} ᐃᓚᔭᐅᓯᒪᓕᖅᑐᖅ",
   "@item_increased": {
     "description": "ᐃᓚᔭᐅᓯᒪᔪᖅ ᖃᐅᔨᒃᑲᐃᔾᔪᑎ",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "ᐲᕐᓗᒍ ᓇᓗᓇᐃᖅᓯᔾᔪᑎ ᑐᓴᒐᒃᓴᖅ ᐃᓂᖅᑎᖅᑕᐅᔪᓐᓇᙱᖦᖢᓂ",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "ᒥᒃᖠᕚᓪᓕᖅᓯᒪᕗᖅ {name} {quantity}{unit}",
+  "item_decreased": "ᒥᒃᖠᕚᓪᓕᖅᓯᒪᕗᖅ {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "ᒥᒃᖠᕚᓪᓕᖅᑎᑦᑎᓂᕐᒧᑦ ᑐᓴᖅᑕᐅᔪᒃᓴᖅ",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "ᖃᕆᓴᐅᔭᒃᑯᑦ ᑐᖅᑯᖅᑐᐃᕝᕕᒃ ᐋᖅᑭᒋᐊᖅᑕᐅᒃᑲᓐᓂᕐᓂᖓᓄᑦ ᑕᒻᒪᖅᓯᒪᔪᖅ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ ᐱᒋᐊᕐᓂᖓᓂ ᐊᔪᖅᑐᖅ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "ᖃᐅᔨᒃᑲᐃᔾᔪᑎ ᐱᔨᑦᑎᕋᐅᑎ ᐱᒋᐊᕐᓂᖓ ᐊᔪᖅᑐᖅ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "ᖃᐅᔨᒋᐊᙱᖦᖢᒍ ᐅᓪᓗᖅᓯᐅᑎᐅᑉ ᓇᓕᖅᑲᖓ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "ᐅᓪᓗᖅᓯᐅᑎᓕᐅᕈᓐᓇᙱᑦᑐᖓ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "ᐃᓚᓯᓚᐅᙱᑦᑐᖅ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᖃᓄᐃᓕᐅᕐᓂᐅᔪᒥᑦ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "ᐲᖅᓯᔪᓐᓇᙱᖦᖢᖓ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᖃᓄᐃᓕᐅᕐᓂᐅᓚᐅᖅᑐᒥᒃ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "ᐋᖅᑭᒃᓯᔪᓐᓇᙱᖦᖢᖓ ᐱᔪᓐᓇᖅᑎᑦᑎᔾᔪᑎᒥᒃ ᑐᓴᖅᑎᑦᑎᔾᔪᑎᒥᒃ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "ᑎᑎᕋᖅᓯᒪᔪᑦ ᖃᐅᔨᓴᖅᑕᐅᓂᑯᐃᑦ ᐱᒋᐊᖅᑕᐅᑦᑎᐊᖅᑐᑦ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "ᑐᓴᒐᒃᓴᓂᒃ ᑲᑎᖅᓱᐃᕝᕕᒃ ᑎᑎᖅᑲᖃᖅᐸᒌᖅᑐᖅ",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "ᑐᖅᑯᖅᓯᒪᕝᕕᖕᒥ ᓇᓗᓇᐃᒃᑯᑦᑎᖅᓱᐃᓂᕐᒧᑦ ᑕᒻᒪᖅᓯᒪᔪᖅ",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "ᑎᑎᖅᑲᑦ ᓇᓂᔭᐅᙱᑦᑐᑦ ᑕᒻᒪᖅᓯᒪᔪᑦ",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "File is empty error",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "ᐃᓂᐅᔪᖅ ᐃᓗᓕᖃᙱᑦᑑᔭᕆᐊᖃᙱᓚᖅ ᓱᓕᓂᕋᐃᔾᔪᑎᒥᒃ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "ᖃᐅᔨᓴᕐᕕᖕᒥ ᒥᑭᓛᒥᒃ ᑕᑭᓂᖓᑕ ᓈᒻᒪᖕᓂᖓ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "ᖃᐅᔨᓴᕐᕕᖕᒥ ᐊᖏᓛᕆᔪᓐᓇᖅᑕᖓ ᑕᑭᓂᖓᑕ ᓈᒻᒪᒃᓯᑎᑕᐅᓂᖓ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "ᐃᕐᖐᓐᓈᖅᑕᐅᑦ ᐋᖅᑭᒃᓯᒪᓂᖓ ᓇᓗᓇᐃᖅᓯᓂᖅ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "ᖃᕆᑕᐅᔭᒃᑯᑦ ᐋᖅᑭᒃᓯᒪᓂᖓᓂᒃ ᓇᓗᓇᐃᖅᓯᓂᖅ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "ᐊᑭᑭᓛᕆᔪᓐᓇᖅᑕᖓ ᓱᓕᓂᕋᐃᓂᖅ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "ᐊᖏᓛᕆᔪᓐᓇᖅᑕᖓ ᐊᑭᖓ ᓱᓕᓂᕋᐃᓂᖅ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "ᐱᐅᔪᒥᒃ ᓈᓴᐅᑎᒥᒃ ᓇᓗᓇᐃᖅᓯᓂᖅ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "ᐊᖏᓂᖅᓴᖅ 0−ᒥᑦ ᓱᓕᓂᕋᐃᔾᔪᑎ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "ᓈᓴᐅᑎᓪᓚᑦᑖᑦ ᓇᓗᓇᐃᖅᑕᐅᓂᖏᑦ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "ᐅᓪᓗᖅ ᐋᖅᑭᒃᓯᒪᓂᖓ ᓈᒻᒪᖕᓂᖓ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "ᐅᓪᓗᖓ ᖄᖏᖅᓯᒪᔭᕆᐊᖃᙱᓚᖅ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "ᐅᓪᓗᖓ ᓯᕗᓂᐊᓃᑦᑕᕆᐊᖃᙱᓚᖅ ᓇᓗᓇᐃᖅᑕᐅᓯᒪᔪᒥᑦ ᐅᓪᓗᖓᓂᑦ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "ᐅᓪᓗᖓ ᐅᖓᑖᓅᕆᐊᖃᙱᑦᑐᖅ ᓇᓗᓇᐃᖅᑕᐅᓯᒪᔪᒧᑦ ᐅᓪᓗᕐᒧᑦ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "ᐊᑑᑎᖃᙱᑦᑐᖅ ᐊᑭᖓᓄᑦ ᓇᓗᓇᐃᖅᓯᔾᔪᑎ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "ᐃᓯᕈᓐᓇᐅᑖ ᒥᑭᓛᖅ ᑕᑭᓂᖓ ᓇᓗᓇᐃᖅᓯᔾᔪᑎ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "ᐃᓯᕈᓐᓇᐅᑖ ᐊᖏᔫᑕᐅᓂᖅᓴᓂᒃ ᑎᑎᖅᑲᖃᕆᐊᓕᒃ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "ᐃᓯᕈᓐᓇᐅᑖ ᒥᑭᑦᑑᑕᐅᓂᖅᓴᓂᒃ ᑎᑎᖅᑲᖃᕆᐊᓕᒃ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "ᐃᓯᕈᓐᓇᐅᑖ ᓈᓴᐅᑎᖃᕆᐊᓕᒃ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "ᐃᓯᕈᓐᓇᐅᑖ ᐊᔾᔨᐅᙱᑦᑐᓂᑦ ᑎᑎᖅᑲᖃᕆᐊᓕᒃ",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "ᐊᖏᓛᕆᔪᓐᓇᖅᑕᖓ ᐊᑎᖓ ᑕᑭᓂᖓ ᓱᓕᓂᕋᐃᓂᖅ",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "ᐅᓄᙱᓛᑦ ᖃᔅᓯᐅᓂᖏᓐᓄᑦ ᓈᒻᒪᒃᓯᓕᖅᓯᒪᔪᑦ",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "ᐊᖏᓛᕆᔪᓐᓇᖅᑕᖓ ᓈᒻᒪᖕᓂᖓ",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "ᐊᑕᐅᓯᖅ ᐊᑭᖓᑕ ᐊᖏᓛᕆᔪᓐᓇᖅᑕᖓ ᐊᑭᖓ ᓇᓗᓇᐃᖅᑕᐅᓂᖓ",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "ᐅᓪᓗᐃᑦ ᑭᒡᓕᖃᖅᑐᑦ",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "ᑕᑯᒃᓴᐅᑎᑕᐅᓂᖏᑦ ᒫᓐᓇ ᓂᕈᐊᖅᑕᐅᓯᒪᔪᑦ ᐅᓪᓗᐃᑦ",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "ᐋᖅᑭᒋᐊᕐᓗᒍ ᐱᔾᔪᑕᐅᔪᖅ",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "ᐃᓚᓗᒍ",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "ᐊᐅᓚᑦᑎᔾᔪᑎᑦ",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "ᓇᐅᒃᑲᖅᑕᐅᑎᙳᐊᖅ",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "ᖃᐅᔨᓴᕐᓂᕐᒧᑦ ᐅᓪᓗᖅᓯᐅᑎᒧᑦ ᖃᓄᐃᓕᐅᕐᓂᐅᔪᖅ",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "ᑖᓐᓇ ᖃᐅᔨᓴᕈᑕᐅᕗᖅ ᐊᑐᖅᑕᐅᕙᒃᖢᓂ ᓇᓗᓇᐃᖅᓯᔾᔪᑕᐅᓪᓗᓂ ᐅᓪᓗᖅᓯᐅᑎᐅᑉ ᐊᐅᓚᓂᖓᓂᒃ",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "ᖃᕋᓴᐅᔭᒃᑰᕈᑎᒃᑯᑦ",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "ᐊᑐᓕᖅᑎᓪᓗᒍ ᐃᓱᓕᕝᕕᒃᓴᖓᓄᑦ ᐃᖅᑲᐃᑎᑦᑎᔾᔪᑎ",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "ᐃᖅᑲᐃᓯᒋᐊᕈᑎ",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "ᖃᕋᓴᐅᔭᒃᑰᕈᑎᑐᐊᑦ",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "ᐅᓪᓗᖅᓯᐅᑎᑐᐊᑦ",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "ᑕᒪᕐᒥᒃ",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "ᐅᓪᓗᑦ ᖃᔅᓯᐅᓂᖏᑦ ᓯᕗᓂᐊᒍᑦ ᖃᐅᔨᒃᑲᐃᔾᔪᑎ",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "ᐊᑐᕐᓗᒋᑦ ᓄᓇᕐᔪᐊᓕᒫᒥ ᐋᖅᑭᒃᓯᒪᔪᑦ",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "ᓇᓗᓇᐃᒃᑯᑖ",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "ᐊᑎᖓ",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "ᓇᓃᓐᓂᖓ",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "ᒫᓐᓇ ᖃᔅᓯᐅᓂᖏᑦ",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "ᓂᕈᐊᕐᓗᒍ ᐊᐅᓚᓂᐅᔪᖅ",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "ᐃᒡᓗ",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Custom Unit",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "ᑎᑎᕋᕐᓗᒍ ᐃᒡᓗ",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "ᐃᓂᒋᒐᔪᒃᑕᖓ",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "ᑐᖅᑯᐃᕝᕕᐅᑉ ᐃᓂᒋᔭᖓ ᑎᑎᕋᕐᓗᒍ",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "ᐊᔾᔨᓕᐅᕐᓗᒍ QR ᓇᓗᓇᐃᒃᑯᑕᖅ",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "ᐊᔾᔨᓕᐅᕐᓗᒍ ᓇᓗᓇᐃᒃᑯᑖ ᑎᑎᕋᕐᓂᐊᕐᓗᒍ ᓈᓴᖅᓯᒪᔪᑦ ᓇᖕᒥᓂᖁᑎᒋᔭᑦ ᐱᖁᑎᖏᑦ",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "ᐱᖁᑎᑦ ᓇᓃᓐᓂᖏᑦ",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "ᓯᕐᓗᐊᖃᕐᕕᐅᑉ ᐃᓂᖓ",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "ᐃᓕᓗᒍ ᓇᓗᓇᐃᒃᑯᑖ ᐃᓗᐊᒍᑦ ᐊᔾᔨᓕᐅᕐᓂᐊᕐᓗᒍ",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "ᓇᓗᓇᐃᒃᑯᑖ",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "ᐃᓕᓗᒍ ᓇᓗᓇᐃᒃᑯᑖ ᐊᔾᔨᓕᐅᕐᓗᒍᓘᓐᓃᑦ ᓇᓗᓇᐃᒃᑯᑖ",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "ᑐᓴᖅᑕᐅᑎᑦᑎᔾᔪᑎᓪᓗᐊᑕᑦ",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "ᐱᖁᑎᐅᑉ ᐊᑎᖓ",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "ᑎᑎᕋᕐᓗᒍ ᐱᖁᑎᐅᑉ ᐊᑎᖓ",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "ᑎᑎᕋᕐᓗᒍ ᖃᓄᐃᑦᑑᓂᖓᑕ ᐊᑎᖓ",
+  "@enter_category_name": {
+    "description": ""
   }
 }

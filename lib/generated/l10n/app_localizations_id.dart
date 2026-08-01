@@ -30,6 +30,12 @@ class AppLocalizationsId extends AppLocalizations {
   String get add => 'Tambah';
 
   @override
+  String get edit_item => 'Sunting item';
+
+  @override
+  String get add_item => 'Tambah item';
+
+  @override
   String get search => 'Cari';
 
   @override
@@ -518,7 +524,13 @@ class AppLocalizationsId extends AppLocalizations {
   String get system_name => 'Nama sistem';
 
   @override
+  String get operating_system => 'Sistem operasi';
+
+  @override
   String get system_version => 'Versi sistem';
+
+  @override
+  String get dart_version => 'Versi Dart';
 
   @override
   String get device_identifier => 'Identifikasi perangkat';
@@ -770,18 +782,8 @@ class AppLocalizationsId extends AppLocalizations {
   String get enter_outbound_quantity => 'Silakan masukkan jumlah keluar gudang';
 
   @override
-  String item_increased(String name, String quantity, String unit) {
-    return 'Telah ditambahkan $name $quantity$unit';
-  }
-
-  @override
   String delete_item_confirm_with_irreversible(String name) {
     return 'Apakah Anda yakin ingin menghapus \"$name\"? Tindakan ini tidak bisa dibatalkan.';
-  }
-
-  @override
-  String item_decreased(String name, String quantity, String unit) {
-    return 'Telah dikurangi $name $quantity$unit';
   }
 
   @override
@@ -1066,4 +1068,110 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get delete_failed => 'Penghapusan gagal';
+
+  @override
+  String get test_calendar_event => 'Uji acara kalender';
+
+  @override
+  String get test_calendar_event_description =>
+      'Ini adalah acara percobaan untuk memverifikasi fungsi kalender';
+
+  @override
+  String get in_app => 'dalam aplikasi';
+
+  @override
+  String get enable_alert => 'Aktifkan pengingat kedaluwarsa';
+
+  @override
+  String get alert_method => 'Metode pengingat';
+
+  @override
+  String get alert_method_in_app => 'Hanya dalam aplikasi';
+
+  @override
+  String get alert_method_calendar => 'Hanya kalender';
+
+  @override
+  String get alert_method_both => 'Keduanya';
+
+  @override
+  String get alert_days_before => 'Jumlah hari pemberitahuan sebelumnya';
+
+  @override
+  String get use_global_setting => 'Gunakan pengaturan global';
+
+  @override
+  String get barcode_label => 'kode batang';
+
+  @override
+  String get name_label => 'Nama';
+
+  @override
+  String get category_label => 'Klasifikasi';
+
+  @override
+  String get current_quantity => 'Jumlah saat ini';
+
+  @override
+  String get select_operation => 'Silakan pilih operasi';
+
+  @override
+  String get unit => 'unit';
+
+  @override
+  String get custom_unit => 'Unit kustom';
+
+  @override
+  String get enter_unit => 'Silakan masukkan unit';
+
+  @override
+  String get custom_location => 'Tempat kustom';
+
+  @override
+  String get enter_storage_location => 'Silakan masukkan lokasi penyimpanan';
+
+  @override
+  String get scan => 'Pindai kode';
+
+  @override
+  String get scan_to_stock => 'Pindai kode untuk masuk ke gudang';
+
+  @override
+  String get item_categories => 'Klasifikasi barang';
+
+  @override
+  String get storage_locations => 'Tempat penyimpanan';
+
+  @override
+  String get place_barcode_in_frame_to_scan =>
+      'Letakkan barcode di dalam kotak untuk dipindai';
+
+  @override
+  String get barcode => 'kode batang';
+
+  @override
+  String get enter_barcode_or_scan =>
+      'Silakan masukkan kode batang atau pindai kode';
+
+  @override
+  String get basic_information => 'Informasi Dasar';
+
+  @override
+  String get item_name => 'Nama Barang';
+
+  @override
+  String get enter_item_name => 'Silakan masukkan nama barang';
+
+  @override
+  String get enter_category_name => 'Silakan masukkan nama kategori';
+
+  @override
+  String item_increased(String itemName, String quantity, String unit) {
+    return 'Telah ditambahkan $itemName $quantity$unit';
+  }
+
+  @override
+  String item_decreased(String itemName, String quantity, String unit) {
+    return 'Telah dikurangi $itemName $quantity$unit';
+  }
 }

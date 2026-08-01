@@ -81,8 +81,7 @@
     "description": "Lá saincheaptha le paraiméadar",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -91,12 +90,10 @@
     "description": "Raon laethanta foláirimh le paraiméadar",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -113,12 +110,10 @@
     "description": "Teachtaireacht fíoraithe ionchur laethanta",
     "placeholders": {
       "min": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       },
       "max": {
-        "type": "int",
-        "example": "30"
+        "type": "int"
       }
     }
   },
@@ -243,8 +238,7 @@
     "description": "Fógra teachtaireachta earráide",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -257,8 +251,7 @@
     "description": "Teachtaireacht earráide oibriúcháin ghinearálta",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -367,8 +360,7 @@
     "description": "Teachtaireacht earráide teipe cúltaca",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -437,8 +429,7 @@
     "description": "Teachtaireacht Téarnaimh Ratha",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -447,8 +438,7 @@
     "description": "Teachtaireacht earráide teipe téarnaimh",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -465,8 +455,7 @@
     "description": "Teachtaireacht comhaid roghnaithe",
     "placeholders": {
       "filename": {
-        "type": "String",
-        "example": "backup.zip"
+        "type": "String"
       }
     }
   },
@@ -479,8 +468,7 @@
     "description": "Teachtaireacht earráide easpórtála",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -537,8 +525,7 @@
     "description": "Teachtaireacht rathúil allmhairithe",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -547,8 +534,7 @@
     "description": "Teachtaireacht earráide teipe allmhairithe",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -677,8 +663,7 @@
     "description": "Teachtaireacht earráide faigh faisnéis trealaimh",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -787,8 +772,7 @@
     "description": "Lá atá fágtha le paraiméadar",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -797,8 +781,7 @@
     "description": "Láta teipe a bhfuil paraiméadar acu",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -811,8 +794,7 @@
     "description": "Físeán dearbhaithe scriosta",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -829,8 +811,7 @@
     "description": "Scrios teachtaireacht earráide",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -867,8 +848,7 @@
     "description": "Taispeántas líonra de chatagóirí",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -889,8 +869,7 @@
     "description": "Taispeántar líon na suíomhanna",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -955,8 +934,7 @@
     "description": "Táirgeann an barra cód paraiméadair",
     "placeholders": {
       "barcode": {
-        "type": "String",
-        "example": "1234567890"
+        "type": "String"
       }
     }
   },
@@ -965,8 +943,7 @@
     "description": "Taispeánann ainm le paraiméadar",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
@@ -975,8 +952,7 @@
     "description": "Taispeáin catagóirí le paraiméadar",
     "placeholders": {
       "category": {
-        "type": "String",
-        "example": "食品"
+        "type": "String"
       }
     }
   },
@@ -985,12 +961,10 @@
     "description": "Tá líon reatha le paraiméadar le feiceáil",
     "placeholders": {
       "quantity": {
-        "type": "String",
-        "example": "10"
+        "type": "String"
       },
       "unit": {
-        "type": "String",
-        "example": "个"
+        "type": "String"
       }
     }
   },
@@ -1026,17 +1000,17 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "Tá {name} {quantity}{unit} curtha leis",
+  "item_increased": "Tá {itemName} {quantity}{unit} curtha leis",
   "@item_increased": {
     "description": "Teachtaireacht maidir le míreanna a chur leis",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "5"
       },
       "unit": {
         "type": "String",
@@ -1049,22 +1023,21 @@
     "description": "Fógra dearbhaithe scriosta le rabhaidh nach féidir a aisiompú",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "物品名称"
+        "type": "String"
       }
     }
   },
-  "item_decreased": "Tá laghdaithe {name} {quantity}{unit}",
+  "item_decreased": "Tá laghdaithe {itemName} {quantity}{unit}",
   "@item_decreased": {
     "description": "Teachtaireacht laghdaithe earraí",
     "placeholders": {
-      "name": {
+      "itemName": {
         "type": "String",
-        "example": "物品名称"
+        "example": "苹果"
       },
       "quantity": {
         "type": "String",
-        "example": "10"
+        "example": "3"
       },
       "unit": {
         "type": "String",
@@ -1081,8 +1054,7 @@
     "description": "Earráid athshocraithe bunachar sonraí",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1091,8 +1063,7 @@
     "description": "Theip ar thosú sonraí insamhalta",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1117,8 +1088,7 @@
     "description": "Theip ar thosú seirbhíse fógra",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1127,8 +1097,7 @@
     "description": "Theip ar sheiceáil cuntas féilire",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1137,8 +1106,7 @@
     "description": "Theip ar chruthú féilire",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1147,8 +1115,7 @@
     "description": "Theip ar chur teagmhas féilire",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1157,8 +1124,7 @@
     "description": "Theip ar dhíbirt eachtra féilire",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1167,8 +1133,7 @@
     "description": "Theip ar theachtaireacht foláirimh ceadanna a shocrú",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1177,8 +1142,7 @@
     "description": "Rathúil ar thosú sonraí sampláilte",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1187,8 +1151,7 @@
     "description": "Tá sonraí ar fáil cheana sa bhunachar sonraí",
     "placeholders": {
       "count": {
-        "type": "int",
-        "example": "5"
+        "type": "int"
       }
     }
   },
@@ -1213,8 +1176,7 @@
     "description": "Earráid códaithe comhaid",
     "placeholders": {
       "error": {
-        "type": "String",
-        "example": "错误信息"
+        "type": "String"
       }
     }
   },
@@ -1223,8 +1185,7 @@
     "description": "Earráid: Níl an comhad ann",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1233,8 +1194,7 @@
     "description": "Earráid comhad folamh",
     "placeholders": {
       "filePath": {
-        "type": "String",
-        "example": "/path/to/file"
+        "type": "String"
       }
     }
   },
@@ -1247,8 +1207,7 @@
     "description": "Ní féidir leis an réimse a bheith folamh",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1257,12 +1216,10 @@
     "description": "Fíorú fad íosta réimse",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minLength": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1271,12 +1228,10 @@
     "description": "Fíorú fad uasta an réimse",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1285,8 +1240,7 @@
     "description": "Bailíochtú formáide ríomhphoist",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1295,12 +1249,10 @@
     "description": "Bailíochtú Formáid Uimhreach",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "numberType": {
-        "type": "String",
-        "example": "整数"
+        "type": "String"
       }
     }
   },
@@ -1309,12 +1261,10 @@
     "description": "Fíorú luach íosta",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "min": {
-        "type": "double",
-        "example": "1.0"
+        "type": "double"
       }
     }
   },
@@ -1323,12 +1273,10 @@
     "description": "Deimhniú uachtaráin",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "max": {
-        "type": "double",
-        "example": "30.0"
+        "type": "double"
       }
     }
   },
@@ -1337,8 +1285,7 @@
     "description": "Deimhniú uimhreacha dearfacha iomlána",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1347,8 +1294,7 @@
     "description": "Fíorú níos mó ná nialas",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1357,8 +1303,7 @@
     "description": "Deimhniú dearfach",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1367,8 +1312,7 @@
     "description": "Bailíochtú formáid dáta",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1377,8 +1321,7 @@
     "description": "Ní féidir leis an dáta a bheith sa stair",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1387,12 +1330,10 @@
     "description": "Ní féidir an dáta a bheith níos luaithe ná an dáta sonraithe",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "minDate": {
-        "type": "String",
-        "example": "示例minDate"
+        "type": "String"
       }
     }
   },
@@ -1401,12 +1342,10 @@
     "description": "Ní féidir an dáta a bheith níos déanaí ná an dáta sonraithe",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       },
       "maxDate": {
-        "type": "String",
-        "example": "示例maxDate"
+        "type": "String"
       }
     }
   },
@@ -1415,8 +1354,7 @@
     "description": "Fíorú luach neamhbhailí",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1425,8 +1363,7 @@
     "description": "Fíorú fad íosta pasfhocail",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1435,8 +1372,7 @@
     "description": "Caithfidh an focal faire litir mhór a áireamh",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1445,8 +1381,7 @@
     "description": "Caithfidh an focal faire litir bheag a áireamh",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1455,8 +1390,7 @@
     "description": "Ní mór go mbeadh uimhreacha sa phasfhocal",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1465,8 +1399,7 @@
     "description": "Ní mór go mbeadh carachtair speisialta sa phasfhocal",
     "placeholders": {
       "fieldName": {
-        "type": "String",
-        "example": "用户名"
+        "type": "String"
       }
     }
   },
@@ -1483,8 +1416,7 @@
     "description": "Fíorú fad uasta ainm",
     "placeholders": {
       "maxLength": {
-        "type": "int",
-        "example": "50"
+        "type": "int"
       }
     }
   },
@@ -1493,8 +1425,7 @@
     "description": "Fíorú luach is lú",
     "placeholders": {
       "minQuantity": {
-        "type": "int",
-        "example": "1"
+        "type": "int"
       }
     }
   },
@@ -1503,8 +1434,7 @@
     "description": "Fíorú ar an Uasmhéid",
     "placeholders": {
       "maxQuantity": {
-        "type": "int",
-        "example": "999"
+        "type": "int"
       }
     }
   },
@@ -1517,8 +1447,7 @@
     "description": "Fíorú luach uasta an phraghais aonad",
     "placeholders": {
       "maxUnitPrice": {
-        "type": "double",
-        "example": "999999.99"
+        "type": "double"
       }
     }
   },
@@ -1551,8 +1480,7 @@
     "description": "Laethanta le paraiméadar",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
   },
@@ -1617,9 +1545,148 @@
     "description": "Lá atá roghnaithe faoi láthair le taispeáint",
     "placeholders": {
       "days": {
-        "type": "int",
-        "example": "7"
+        "type": "int"
       }
     }
+  },
+  "edit_item": "Eagar earra",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "Cuir earra leis",
+  "@add_item": {
+    "description": ""
+  },
+  "operating_system": "Córas Oibriúcháin",
+  "@operating_system": {
+    "description": ""
+  },
+  "dart_version": "Leagan Dart",
+  "@dart_version": {
+    "description": ""
+  },
+  "test_calendar_event": "Tástáil imeachtaí féilire",
+  "@test_calendar_event": {
+    "description": ""
+  },
+  "test_calendar_event_description": "Is eachtra tástála é seo chun feidhmiúlacht an fhéilire a fhíorú",
+  "@test_calendar_event_description": {
+    "description": ""
+  },
+  "in_app": "laistigh den aip",
+  "@in_app": {
+    "description": ""
+  },
+  "enable_alert": "Cumasaigh Meabhrúchán Éaga",
+  "@enable_alert": {
+    "description": ""
+  },
+  "alert_method": "Modh Meabhrúcháin",
+  "@alert_method": {
+    "description": ""
+  },
+  "alert_method_in_app": "Ar iarratas amháin",
+  "@alert_method_in_app": {
+    "description": ""
+  },
+  "alert_method_calendar": "Ar an bhféilire amháin",
+  "@alert_method_calendar": {
+    "description": ""
+  },
+  "alert_method_both": "beirt",
+  "@alert_method_both": {
+    "description": ""
+  },
+  "alert_days_before": "Lá réamhchuirteach",
+  "@alert_days_before": {
+    "description": ""
+  },
+  "use_global_setting": "Úsáid Socruithe Domhanda",
+  "@use_global_setting": {
+    "description": ""
+  },
+  "barcode_label": "Bharchód",
+  "@barcode_label": {
+    "description": ""
+  },
+  "name_label": "Ainm",
+  "@name_label": {
+    "description": ""
+  },
+  "category_label": "Rangú",
+  "@category_label": {
+    "description": ""
+  },
+  "current_quantity": "Líon reatha",
+  "@current_quantity": {
+    "description": ""
+  },
+  "select_operation": "Roghnaigh gníomh",
+  "@select_operation": {
+    "description": ""
+  },
+  "unit": "aonad",
+  "@unit": {
+    "description": ""
+  },
+  "custom_unit": "Aonaid shaincheaptha",
+  "@custom_unit": {
+    "description": ""
+  },
+  "enter_unit": "Cuir isteach aonad",
+  "@enter_unit": {
+    "description": ""
+  },
+  "custom_location": "Suíomh saincheaptha",
+  "@custom_location": {
+    "description": ""
+  },
+  "enter_storage_location": "Iontráil an áit stórála",
+  "@enter_storage_location": {
+    "description": ""
+  },
+  "scan": "Scannán cód",
+  "@scan": {
+    "description": ""
+  },
+  "scan_to_stock": "Scan chun isteach sa stoc",
+  "@scan_to_stock": {
+    "description": ""
+  },
+  "item_categories": "Catagóiriú earraí",
+  "@item_categories": {
+    "description": ""
+  },
+  "storage_locations": "Áit stórála",
+  "@storage_locations": {
+    "description": ""
+  },
+  "place_barcode_in_frame_to_scan": "Cuir an cód barra isteach sa bhosca chun scanadh",
+  "@place_barcode_in_frame_to_scan": {
+    "description": ""
+  },
+  "barcode": "Bharchód",
+  "@barcode": {
+    "description": ""
+  },
+  "enter_barcode_or_scan": "Iontráil an barrachód nó scanáil an cód",
+  "@enter_barcode_or_scan": {
+    "description": ""
+  },
+  "basic_information": "Eolas bunúsach",
+  "@basic_information": {
+    "description": ""
+  },
+  "item_name": "Ainm an mhála",
+  "@item_name": {
+    "description": ""
+  },
+  "enter_item_name": "Iontráil ainm an mhóta",
+  "@enter_item_name": {
+    "description": ""
+  },
+  "enter_category_name": "Cuir isteach ainm na catagóire",
+  "@enter_category_name": {
+    "description": ""
   }
 }
