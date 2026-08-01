@@ -16,7 +16,7 @@ class _ExportScreenState extends State<ExportScreen> {
 
   Future<void> _exportData() async {
     final currentContext = context;
-    final l10n = AppLocalizations.of(currentContext)!;
+    final l10n = AppLocalizations.of(currentContext);
     setState(() {
       _isExporting = true;
     });
@@ -28,9 +28,12 @@ class _ExportScreenState extends State<ExportScreen> {
       if (!currentContext.mounted) return;
 
       final fileExtension = _getFileExtension(_selectedExportFormat);
-      final timestamp = DateTime.now().toIso8601String().replaceAll(':', '-').replaceAll('.', '-');
+      final timestamp = DateTime.now()
+          .toIso8601String()
+          .replaceAll(':', '-')
+          .replaceAll('.', '-');
       final defaultFileName = 'export_$timestamp.$fileExtension';
-      
+
       // 直接使用FilePicker保存文件，它会处理Android SAF URI
       final savePath = await FilePicker.saveFile(
         dialogTitle: l10n.export_data,
@@ -54,9 +57,9 @@ class _ExportScreenState extends State<ExportScreen> {
         _isExporting = false;
       });
 
-       ScaffoldMessenger.of(
-         currentContext,
-       ).showSnackBar(SnackBar(content: Text(l10n.export_success)));
+      ScaffoldMessenger.of(
+        currentContext,
+      ).showSnackBar(SnackBar(content: Text(l10n.export_success)));
     } catch (e) {
       if (!currentContext.mounted) return;
 
@@ -64,15 +67,13 @@ class _ExportScreenState extends State<ExportScreen> {
         _isExporting = false;
       });
 
-       ScaffoldMessenger.of(
-         currentContext,
-       ).showSnackBar(SnackBar(content: Text(l10n.export_failed(e.toString()))));
+      ScaffoldMessenger.of(
+        currentContext,
+      ).showSnackBar(SnackBar(content: Text(l10n.export_failed(e.toString()))));
     }
   }
 
   /// 从路径或URI中提取文件名
-
-
 
   String _getFileExtension(ExportFormat format) {
     switch (format) {
@@ -98,14 +99,14 @@ class _ExportScreenState extends State<ExportScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
+    final l10n = AppLocalizations.of(context);
     final theme = Theme.of(context);
 
     return Scaffold(
       body: CustomScrollView(
         slivers: [
           SliverAppBar.large(
-             title: Text(l10n.export_data, style: theme.textTheme.titleLarge),
+            title: Text(l10n.export_data, style: theme.textTheme.titleLarge),
             leading: IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),
@@ -140,18 +141,22 @@ class _ExportScreenState extends State<ExportScreen> {
                     },
                   ),
                   const SizedBox(height: 32),
-                   SizedBox(
+                  SizedBox(
                     width: double.infinity,
                     height: 56,
                     child: ElevatedButton(
                       onPressed: _isExporting ? null : _exportData,
-                       style: ElevatedButton.styleFrom(
-                         backgroundColor: _isExporting 
-                             ? theme.colorScheme.onSurface.withAlpha(31)  // 0.12 opacity
-                             : theme.colorScheme.primary,
-                         foregroundColor: _isExporting 
-                             ? theme.colorScheme.onSurface.withAlpha(97)  // 0.38 opacity
-                             : theme.colorScheme.onPrimary,
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: _isExporting
+                            ? theme.colorScheme.onSurface.withAlpha(
+                                31,
+                              ) // 0.12 opacity
+                            : theme.colorScheme.primary,
+                        foregroundColor: _isExporting
+                            ? theme.colorScheme.onSurface.withAlpha(
+                                97,
+                              ) // 0.38 opacity
+                            : theme.colorScheme.onPrimary,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(25),
                         ),
@@ -162,14 +167,14 @@ class _ExportScreenState extends State<ExportScreen> {
                               height: 24,
                               child: CircularProgressIndicator(strokeWidth: 3),
                             )
-                           : Text(
-                               l10n.export_data,
-                               style: TextStyle(
-                                 fontSize: 16,
-                                 fontWeight: FontWeight.w500,
-                                 color: theme.colorScheme.onPrimary,
-                               ),
-                             ),
+                          : Text(
+                              l10n.export_data,
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w500,
+                                color: theme.colorScheme.onPrimary,
+                              ),
+                            ),
                     ),
                   ),
                 ],

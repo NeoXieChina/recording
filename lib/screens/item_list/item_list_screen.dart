@@ -6,6 +6,7 @@ import 'package:intl/intl.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:provider/provider.dart';
 import 'package:recording/data/models/item.dart';
+import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/providers/item_list_provider.dart';
 import 'package:recording/screens/item_form/item_form_screen.dart';
 import 'package:recording/screens/settings/settings_screen.dart';
@@ -35,7 +36,13 @@ class _ItemListScreenState extends State<ItemListScreen> {
     });
   }
 
-  Widget _buildTitle(BuildContext context, ItemListProvider provider, TextStyle? textStyle, {bool showIcon = true}) {
+  Widget _buildTitle(
+    BuildContext context,
+    ItemListProvider provider,
+    TextStyle? textStyle, {
+    bool showIcon = true,
+  }) {
+    final l10n = AppLocalizations.of(context);
     final location = provider.filterLocation;
     final type = provider.filterType;
     final category = provider.filterCategory;
@@ -49,11 +56,12 @@ class _ItemListScreenState extends State<ItemListScreen> {
     if (location != null && location.isNotEmpty) {
       return Row(
         children: [
-          if (showIcon) Icon(
-            Icons.place,
-            size: 20,
-            color: Theme.of(context).colorScheme.primary,
-          ),
+          if (showIcon)
+            Icon(
+              Icons.place,
+              size: 20,
+              color: Theme.of(context).colorScheme.primary,
+            ),
           if (showIcon) const SizedBox(width: 8),
           Expanded(
             child: Text(
@@ -66,16 +74,19 @@ class _ItemListScreenState extends State<ItemListScreen> {
         ],
       );
     } else if (type != null) {
-      final typeName = type == ItemType.consumable ? '消耗品' : '耐用品';
+      final typeName = type == ItemType.consumable
+          ? l10n.consumable
+          : l10n.durable;
       return Row(
         children: [
-          if (showIcon) Icon(
-            type == ItemType.consumable
-                ? Icons.local_grocery_store
-                : Icons.construction,
-            size: 20,
-            color: Theme.of(context).colorScheme.primary,
-          ),
+          if (showIcon)
+            Icon(
+              type == ItemType.consumable
+                  ? Icons.local_grocery_store
+                  : Icons.construction,
+              size: 20,
+              color: Theme.of(context).colorScheme.primary,
+            ),
           if (showIcon) const SizedBox(width: 8),
           Expanded(
             child: Text(
@@ -90,11 +101,12 @@ class _ItemListScreenState extends State<ItemListScreen> {
     } else if (category != null && category.isNotEmpty) {
       return Row(
         children: [
-          if (showIcon) Icon(
-            Icons.category,
-            size: 20,
-            color: Theme.of(context).colorScheme.primary,
-          ),
+          if (showIcon)
+            Icon(
+              Icons.category,
+              size: 20,
+              color: Theme.of(context).colorScheme.primary,
+            ),
           if (showIcon) const SizedBox(width: 8),
           Expanded(
             child: Text(
@@ -109,15 +121,16 @@ class _ItemListScreenState extends State<ItemListScreen> {
     } else if (dateRange != null) {
       return Row(
         children: [
-          if (showIcon) Icon(
-            Icons.date_range,
-            size: 20,
-            color: Theme.of(context).colorScheme.primary,
-          ),
+          if (showIcon)
+            Icon(
+              Icons.date_range,
+              size: 20,
+              color: Theme.of(context).colorScheme.primary,
+            ),
           if (showIcon) const SizedBox(width: 8),
           Expanded(
             child: Text(
-              '日期范围筛选',
+              l10n.date_range_filter,
               style: textStyle,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
@@ -128,15 +141,16 @@ class _ItemListScreenState extends State<ItemListScreen> {
     } else if (hasPriceFilter) {
       return Row(
         children: [
-          if (showIcon) Icon(
-            Icons.attach_money,
-            size: 20,
-            color: Theme.of(context).colorScheme.primary,
-          ),
+          if (showIcon)
+            Icon(
+              Icons.attach_money,
+              size: 20,
+              color: Theme.of(context).colorScheme.primary,
+            ),
           if (showIcon) const SizedBox(width: 8),
           Expanded(
             child: Text(
-              '价格范围筛选',
+              l10n.price_range_filter,
               style: textStyle,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
@@ -146,31 +160,29 @@ class _ItemListScreenState extends State<ItemListScreen> {
       );
     }
 
-    return Text(
-      '我的物品',
-      style: textStyle,
-    );
+    return Text(l10n.my_items, style: textStyle);
   }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     return Scaffold(
       key: _scaffoldKey,
       drawer: _buildLocationDrawer(),
       body: CustomScrollView(
         slivers: [
-           SliverAppBar.large(
-             title: Consumer<ItemListProvider>(
-               builder: (context, provider, _) {
-                 return _buildTitle(
-                   context,
-                   provider,
-                     Theme.of(context).textTheme.titleLarge,
-                   showIcon: true,
-                 );
-               },
-             ),
-             leading: IconButton(
+          SliverAppBar.large(
+            title: Consumer<ItemListProvider>(
+              builder: (context, provider, _) {
+                return _buildTitle(
+                  context,
+                  provider,
+                  Theme.of(context).textTheme.titleLarge,
+                  showIcon: true,
+                );
+              },
+            ),
+            leading: IconButton(
               icon: const Icon(Icons.menu),
               onPressed: () => _scaffoldKey.currentState?.openDrawer(),
             ),
@@ -178,6 +190,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
               // 排序按钮
               Consumer<ItemListProvider>(
                 builder: (context, provider, _) {
+                  final l10n = AppLocalizations.of(context);
                   // 根据排序字段选择图标
                   IconData getSortIcon() {
                     switch (provider.sortField) {
@@ -214,7 +227,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                         ),
                       ],
                     ),
-                    tooltip: '排序',
+                    tooltip: l10n.sort,
                     onSelected: (value) {
                       final parts = value.split('_');
                       final field = parts[0];
@@ -236,7 +249,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   : null,
                             ),
                             const SizedBox(width: 8),
-                            Text('名称升序'),
+                            Text(l10n.name_asc),
                             if (provider.sortField == 'name' &&
                                 provider.sortAscending)
                               Icon(
@@ -261,7 +274,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   : null,
                             ),
                             const SizedBox(width: 8),
-                            Text('名称降序'),
+                            Text(l10n.name_desc),
                             if (provider.sortField == 'name' &&
                                 !provider.sortAscending)
                               Icon(
@@ -481,6 +494,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
               // 清除筛选按钮
               Consumer<ItemListProvider>(
                 builder: (context, provider, _) {
+                  final l10n = AppLocalizations.of(context);
                   final hasLocationFilter =
                       provider.filterLocation != null &&
                       provider.filterLocation!.isNotEmpty;
@@ -504,7 +518,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                       onPressed: () {
                         provider.clearAllFilters();
                       },
-                      tooltip: '清除所有筛选',
+                      tooltip: l10n.clear_all_filters,
                     );
                   }
                   return const SizedBox.shrink();
@@ -513,7 +527,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
               IconButton(
                 icon: const Icon(Icons.qr_code_scanner),
                 onPressed: _scanBarcode,
-                tooltip: '扫码入库',
+                tooltip: l10n.scan_barcode,
               ),
               IconButton(
                 icon: const Icon(Icons.settings),
@@ -527,6 +541,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
           SliverToBoxAdapter(child: _buildSearchBar()),
           Consumer<ItemListProvider>(
             builder: (context, provider, _) {
+              final l10n = AppLocalizations.of(context);
               if (provider.isLoading) {
                 return const SliverFillRemaining(
                   child: Center(child: CircularProgressIndicator()),
@@ -545,7 +560,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                         ),
                         const SizedBox(height: 16),
                         Text(
-                          '暂无物品',
+                          l10n.no_items,
                           style: Theme.of(context).textTheme.titleMedium
                               ?.copyWith(
                                 color: Theme.of(context).colorScheme.outline,
@@ -553,7 +568,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                         ),
                         const SizedBox(height: 8),
                         Text(
-                          '点击右下角按钮添加物品',
+                          l10n.click_fab_to_add_item,
                           style: Theme.of(context).textTheme.bodySmall
                               ?.copyWith(
                                 color: Theme.of(context).colorScheme.outline,
@@ -591,11 +606,12 @@ class _ItemListScreenState extends State<ItemListScreen> {
   Widget _buildSearchBar() {
     return Consumer<ItemListProvider>(
       builder: (context, provider, _) {
+        final l10n = AppLocalizations.of(context);
         return Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           child: TextField(
             decoration: InputDecoration(
-              hintText: '搜索物品...',
+              hintText: l10n.search_items,
               prefixIcon: const Icon(Icons.search),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(50.0),
@@ -832,6 +848,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
   }
 
   Widget _buildTypeChip(Item item) {
+    final l10n = AppLocalizations.of(context);
     final isC = item.itemType == ItemType.consumable;
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
@@ -842,7 +859,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
         borderRadius: BorderRadius.circular(6),
       ),
       child: Text(
-        isC ? '消耗品' : '耐用品',
+        isC ? l10n.consumable : l10n.durable,
         style: Theme.of(context).textTheme.labelSmall?.copyWith(
           fontSize: 10,
           color: isC
@@ -924,15 +941,16 @@ class _ItemListScreenState extends State<ItemListScreen> {
   }
 
   void _confirmDelete(Item item, ItemListProvider provider) {
+    final l10n = AppLocalizations.of(context);
     showDialog(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text('确认删除'),
-        content: Text('确定要删除「${item.name}」吗？此操作不可撤销。'),
+        title: Text(l10n.confirm_delete),
+        content: Text(l10n.delete_item_confirm_with_irreversible(item.name)),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx),
-            child: const Text('取消'),
+            child: Text(l10n.cancel),
           ),
           FilledButton(
             onPressed: () {
@@ -942,7 +960,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
             style: FilledButton.styleFrom(
               backgroundColor: Theme.of(context).colorScheme.error,
             ),
-            child: const Text('删除'),
+            child: Text(l10n.delete),
           ),
         ],
       ),
@@ -957,6 +975,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
     return Drawer(
       child: Consumer<ItemListProvider>(
         builder: (context, provider, _) {
+          final l10n = AppLocalizations.of(context);
           final locations = provider.getLocations();
           final categories = provider.getCategories();
           final currentLocationFilter = provider.filterLocation;
@@ -980,13 +999,13 @@ class _ItemListScreenState extends State<ItemListScreen> {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      '筛选选项',
+                      l10n.filter_options,
                       style: Theme.of(context).textTheme.titleLarge?.copyWith(
                         color: Theme.of(context).colorScheme.onPrimaryContainer,
                       ),
                     ),
                     Text(
-                      '按类型、分类和地点筛选物品',
+                      l10n.filter_by_type_category_location,
                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
                         color: Theme.of(context).colorScheme.onPrimaryContainer,
                       ),

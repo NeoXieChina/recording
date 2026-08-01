@@ -67,11 +67,13 @@ class PrimaryButton extends StatelessWidget {
             foregroundColor ??
             (isDark ? theme.colorScheme.onPrimary : Colors.white),
         disabledBackgroundColor: isDark
-            ? theme.colorScheme.primary.withAlpha(102)  // 0.4 opacity
-            : theme.colorScheme.primary.withAlpha(102),  // 0.4 opacity
+            ? theme.colorScheme.primary.withAlpha(102) // 0.4 opacity
+            : theme.colorScheme.primary.withAlpha(102),
+        // 0.4 opacity
         disabledForegroundColor: isDark
-            ? theme.colorScheme.onPrimary.withAlpha(153)  // 0.6 opacity
-            : Colors.white.withAlpha(153),  // 0.6 opacity
+            ? theme.colorScheme.onPrimary.withAlpha(153) // 0.6 opacity
+            : Colors.white.withAlpha(153),
+        // 0.6 opacity
         padding:
             padding ?? const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
         shape: RoundedRectangleBorder(

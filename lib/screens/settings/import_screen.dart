@@ -1,4 +1,5 @@
 import 'dart:io';
+
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:path/path.dart' as p;
@@ -22,9 +23,9 @@ class _ImportScreenState extends State<ImportScreen> {
   Future<DuplicateAction?> _showDuplicateActionDialog() async {
     final currentContext = context;
     if (!currentContext.mounted) return null;
-    
-    final l10n = AppLocalizations.of(currentContext)!;
-    
+
+    final l10n = AppLocalizations.of(currentContext);
+
     return await showDialog<DuplicateAction>(
       context: currentContext,
       builder: (context) => AlertDialog(
@@ -44,7 +45,8 @@ class _ImportScreenState extends State<ImportScreen> {
             child: Text(l10n.skip_all),
           ),
           TextButton(
-            onPressed: () => Navigator.pop(context, DuplicateAction.overwriteAll),
+            onPressed: () =>
+                Navigator.pop(context, DuplicateAction.overwriteAll),
             child: Text(l10n.overwrite_all),
           ),
         ],
@@ -54,7 +56,7 @@ class _ImportScreenState extends State<ImportScreen> {
 
   Future<void> _importData() async {
     final currentContext = context;
-    final l10n = AppLocalizations.of(currentContext)!;
+    final l10n = AppLocalizations.of(currentContext);
     if (_selectedImportFormat == null) {
       if (!currentContext.mounted) return;
       ScaffoldMessenger.of(
@@ -77,7 +79,9 @@ class _ImportScreenState extends State<ImportScreen> {
 
       // 将字节写入临时文件（避免SAF URI路径问题）
       final tempDir = await getTemporaryDirectory();
-      final tempFile = File('${tempDir.path}/import_${DateTime.now().millisecondsSinceEpoch}.${_getFileExtension(_selectedImportFormat!)}');
+      final tempFile = File(
+        '${tempDir.path}/import_${DateTime.now().millisecondsSinceEpoch}.${_getFileExtension(_selectedImportFormat!)}',
+      );
       await tempFile.writeAsBytes(file.bytes!);
       final filePath = tempFile.path;
 
@@ -93,19 +97,19 @@ class _ImportScreenState extends State<ImportScreen> {
     if (!currentContext.mounted) return;
     final confirm = await showDialog<bool>(
       context: currentContext,
-       builder: (context) => AlertDialog(
-         title: Text(l10n.confirm_import),
-         content: Text(l10n.confirm_import_message),
-         actions: [
-           TextButton(
-             onPressed: () => Navigator.pop(context, false),
-             child: Text(l10n.cancel),
-           ),
-           TextButton(
-             onPressed: () => Navigator.pop(context, true),
-             child: Text(l10n.confirm),
-           ),
-         ],
+      builder: (context) => AlertDialog(
+        title: Text(l10n.confirm_import),
+        content: Text(l10n.confirm_import_message),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: Text(l10n.cancel),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: Text(l10n.confirm),
+          ),
+        ],
       ),
     );
 
@@ -135,9 +139,9 @@ class _ImportScreenState extends State<ImportScreen> {
         _isImporting = false;
       });
 
-       ScaffoldMessenger.of(
-         currentContext,
-       ).showSnackBar(SnackBar(content: Text(l10n.import_success(importedCount))));
+      ScaffoldMessenger.of(currentContext).showSnackBar(
+        SnackBar(content: Text(l10n.import_success(importedCount))),
+      );
       setState(() {
         _importFilePath = null;
       });
@@ -148,9 +152,9 @@ class _ImportScreenState extends State<ImportScreen> {
         _isImporting = false;
       });
 
-       ScaffoldMessenger.of(
-         currentContext,
-       ).showSnackBar(SnackBar(content: Text(l10n.import_failed(e.toString()))));
+      ScaffoldMessenger.of(
+        currentContext,
+      ).showSnackBar(SnackBar(content: Text(l10n.import_failed(e.toString()))));
     }
   }
 
@@ -178,29 +182,26 @@ class _ImportScreenState extends State<ImportScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
+    final l10n = AppLocalizations.of(context);
     final theme = Theme.of(context);
-    
+
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-           SliverAppBar.large(
-              title: Text(
-                l10n.import_data,
-                  style: theme.textTheme.titleLarge,
-              ),
-             leading: IconButton(
-               icon: const Icon(Icons.arrow_back),
-               onPressed: () => Navigator.of(context).pop(),
-             ),
-             centerTitle: false,
-             elevation: 0,
-             pinned: true,
-           ),
+          SliverAppBar.large(
+            title: Text(l10n.import_data, style: theme.textTheme.titleLarge),
+            leading: IconButton(
+              icon: const Icon(Icons.arrow_back),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+            centerTitle: false,
+            elevation: 0,
+            pinned: true,
+          ),
           SliverPadding(
             padding: const EdgeInsets.all(24),
             sliver: SliverToBoxAdapter(
-               child: Column(
+              child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SegmentedButton<ExportFormat>(
@@ -232,11 +233,13 @@ class _ImportScreenState extends State<ImportScreen> {
                   if (_importFilePath != null)
                     Padding(
                       padding: const EdgeInsets.only(bottom: 16),
-                       child: Text(
-                          l10n.selected_file(p.basename(_importFilePath!)),
-                          style: theme.textTheme.bodyMedium?.copyWith(
-                           color: theme.colorScheme.onSurface.withAlpha((0.8 * 255).round()),
-                         ),
+                      child: Text(
+                        l10n.selected_file(p.basename(_importFilePath!)),
+                        style: theme.textTheme.bodyMedium?.copyWith(
+                          color: theme.colorScheme.onSurface.withAlpha(
+                            (0.8 * 255).round(),
+                          ),
+                        ),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
@@ -245,12 +248,16 @@ class _ImportScreenState extends State<ImportScreen> {
                     children: [
                       Expanded(
                         child: OutlinedButton(
-                           onPressed: () async {
-                            final localL10n = AppLocalizations.of(context)!;
+                          onPressed: () async {
+                            final localL10n = AppLocalizations.of(context);
                             if (_selectedImportFormat == null) {
                               if (context.mounted) {
                                 ScaffoldMessenger.of(context).showSnackBar(
-                                  SnackBar(content: Text(localL10n.select_import_format_first)),
+                                  SnackBar(
+                                    content: Text(
+                                      localL10n.select_import_format_first,
+                                    ),
+                                  ),
                                 );
                               }
                               return;
@@ -267,31 +274,33 @@ class _ImportScreenState extends State<ImportScreen> {
                             if (result != null && result.files.isNotEmpty) {
                               final file = result.files.single;
                               if (file.bytes == null) return;
-                              
+
                               // 将字节写入临时文件（避免SAF URI路径问题）
                               final tempDir = await getTemporaryDirectory();
-                              final tempFile = File('${tempDir.path}/import_${DateTime.now().millisecondsSinceEpoch}.${_getFileExtension(_selectedImportFormat!)}');
+                              final tempFile = File(
+                                '${tempDir.path}/import_${DateTime.now().millisecondsSinceEpoch}.${_getFileExtension(_selectedImportFormat!)}',
+                              );
                               await tempFile.writeAsBytes(file.bytes!);
                               final filePath = tempFile.path;
-                              
+
                               setState(() {
                                 _importFilePath = filePath;
                               });
                             }
                           },
-                           style: OutlinedButton.styleFrom(
-                             shape: RoundedRectangleBorder(
+                          style: OutlinedButton.styleFrom(
+                            shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(25),
                             ),
                             padding: const EdgeInsets.symmetric(vertical: 16),
                           ),
-                           child: Text(
-                             l10n.select_file,
-                             style: TextStyle(
-                               fontSize: 16,
-                               fontWeight: FontWeight.w500,
-                             ),
-                           ),
+                          child: Text(
+                            l10n.select_file,
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
                         ),
                       ),
                       const SizedBox(width: 12),
@@ -300,8 +309,8 @@ class _ImportScreenState extends State<ImportScreen> {
                           onPressed: _isImporting || _importFilePath == null
                               ? null
                               : _importData,
-                           style: ElevatedButton.styleFrom(
-                             shape: RoundedRectangleBorder(
+                          style: ElevatedButton.styleFrom(
+                            shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(25),
                             ),
                             padding: const EdgeInsets.symmetric(vertical: 16),
@@ -314,13 +323,13 @@ class _ImportScreenState extends State<ImportScreen> {
                                     strokeWidth: 3,
                                   ),
                                 )
-                               : Text(
-                                   l10n.import_data,
-                                   style: TextStyle(
-                                     fontSize: 16,
-                                     fontWeight: FontWeight.w500,
-                                   ),
-                                 ),
+                              : Text(
+                                  l10n.import_data,
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                                ),
                         ),
                       ),
                     ],

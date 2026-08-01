@@ -386,7 +386,7 @@ class ItemListProvider extends ChangeNotifier {
       // 获取拼音字符串（不带音调，空格分隔）
       final pinyinA = PinyinHelper.getPinyinE(a, separator: ' ', defPinyin: '');
       final pinyinB = PinyinHelper.getPinyinE(b, separator: ' ', defPinyin: '');
-      
+
       // 比较拼音字符串
       return pinyinA.compareTo(pinyinB);
     } catch (e) {

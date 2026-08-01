@@ -22,7 +22,7 @@ class DataExportService {
 
   Future<String> exportData(ExportFormat format, {String? savePath}) async {
     final bytes = await exportDataToBytes(format);
-    
+
     if (savePath != null) {
       final file = File(savePath);
       await file.writeAsBytes(bytes);
@@ -62,7 +62,7 @@ class DataExportService {
         content = _exportToSql(items, reminders);
         break;
     }
-    
+
     // 使用UTF-8编码导出
     return Uint8List.fromList(utf8.encode(content));
   }
@@ -85,7 +85,10 @@ class DataExportService {
 
     // 首先检查并移除UTF-8 BOM (EF BB BF)
     List<int> contentBytes = bytes;
-    if (bytes.length >= 3 && bytes[0] == 0xEF && bytes[1] == 0xBB && bytes[2] == 0xBF) {
+    if (bytes.length >= 3 &&
+        bytes[0] == 0xEF &&
+        bytes[1] == 0xBB &&
+        bytes[2] == 0xBF) {
       contentBytes = bytes.sublist(3);
     }
 
@@ -123,7 +126,7 @@ class DataExportService {
     final bytes = await file.readAsBytes();
     // 使用多种编码尝试解码
     final content = _decodeWithFallback(bytes);
-    
+
     // 检查解码后的内容是否为空
     if (content.isEmpty) {
       throw Exception('文件内容解码后为空，可能是编码不匹配');

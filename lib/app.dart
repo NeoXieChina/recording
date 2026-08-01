@@ -5,13 +5,13 @@ import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/providers/item_list_provider.dart';
 import 'package:recording/providers/settings_provider.dart';
 import 'package:recording/screens/item_list/item_list_screen.dart';
-import 'package:recording/screens/settings/settings_screen.dart';
+import 'package:recording/screens/settings/about_screen.dart';
+import 'package:recording/screens/settings/alerts_settings_screen.dart';
 import 'package:recording/screens/settings/backup_screen.dart';
-import 'package:recording/screens/settings/restore_screen.dart';
 import 'package:recording/screens/settings/export_screen.dart';
 import 'package:recording/screens/settings/import_screen.dart';
-import 'package:recording/screens/settings/alerts_settings_screen.dart';
-import 'package:recording/screens/settings/about_screen.dart';
+import 'package:recording/screens/settings/restore_screen.dart';
+import 'package:recording/screens/settings/settings_screen.dart';
 import 'package:recording/theme/app_theme.dart';
 
 class App extends StatelessWidget {
@@ -27,8 +27,7 @@ class App extends StatelessWidget {
       child: Builder(
         builder: (context) {
           return MaterialApp(
-            title: '藏物方寸',
-            onGenerateTitle: (context) => AppLocalizations.of(context)!.app_name,
+            title: 'Recording App',
             localizationsDelegates: const [
               AppLocalizations.delegate,
               GlobalMaterialLocalizations.delegate,

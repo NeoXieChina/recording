@@ -6,6 +6,7 @@ import 'package:path/path.dart' as p;
 import 'package:recording/constants.dart';
 import 'package:recording/data/datasources/app_database.dart';
 import 'package:recording/data/models/item.dart';
+import 'package:recording/utils/log_localization.dart';
 import 'package:sqflite/sqflite.dart';
 
 /// 模拟数据服务
@@ -288,13 +289,15 @@ class MockDataService {
           await _db.insertItem(item);
         }
 
-        debugPrint('✅ 已成功初始化 ${mockItems.length} 条模拟数据');
+        debugPrint(
+          '✅ ${LogLocalization.mockDataInitSuccess(mockItems.length)}',
+        );
       } else {
-        debugPrint('📊 数据库已有 $itemCount 条数据，跳过模拟数据初始化');
+        debugPrint('📊 ${LogLocalization.databaseHasData(itemCount)}');
       }
     } catch (e) {
-      debugPrint('❌ 初始化模拟数据时出错: $e');
-      debugPrint('⚠️ 可能是数据库结构不匹配，建议清除应用数据或重新安装');
+      debugPrint('❌ ${LogLocalization.mockDataInitFailed(e.toString())}');
+      debugPrint('⚠️ ${LogLocalization.databaseStructureMismatch}');
     }
   }
 
@@ -308,10 +311,10 @@ class MockDataService {
       final file = File(path);
       if (await file.exists()) {
         await file.delete();
-        debugPrint('🗑️ 已删除旧数据库文件');
+        debugPrint('🗑️ ${LogLocalization.oldDatabaseDeleted}');
       }
     } catch (e) {
-      debugPrint('❌ 重置数据库时出错: $e');
+      debugPrint('❌ ${LogLocalization.databaseResetError(e.toString())}');
     }
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/theme/app_theme.dart';
 
 /// 统一的应用脚手架组件
@@ -89,11 +90,13 @@ class AppScaffold extends StatelessWidget {
 
   /// 创建带错误状态的脚手架
   static Widget withError({
+    required BuildContext context,
     required String title,
     required String errorMessage,
     VoidCallback? onRetry,
     List<Widget> actions = const [],
   }) {
+    final l10n = AppLocalizations.of(context);
     return AppScaffold(
       title: title,
       actions: actions,
@@ -104,7 +107,7 @@ class AppScaffold extends StatelessWidget {
             const Icon(Icons.error_outline, size: 64, color: Colors.red),
             const SizedBox(height: 16),
             Text(
-              '加载失败',
+              l10n.load_failed,
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
@@ -125,7 +128,7 @@ class AppScaffold extends StatelessWidget {
               ElevatedButton.icon(
                 onPressed: onRetry,
                 icon: const Icon(Icons.refresh),
-                label: const Text('重试'),
+                label: Text(l10n.retry),
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 24,
@@ -142,12 +145,14 @@ class AppScaffold extends StatelessWidget {
 
   /// 创建带空状态的脚手架
   static Widget withEmpty({
+    required BuildContext context,
     required String title,
     required String emptyMessage,
     String? actionText,
     VoidCallback? onAction,
     List<Widget> actions = const [],
   }) {
+    final l10n = AppLocalizations.of(context);
     return AppScaffold(
       title: title,
       actions: actions,
@@ -162,7 +167,7 @@ class AppScaffold extends StatelessWidget {
             ),
             const SizedBox(height: 16),
             Text(
-              '暂无数据',
+              l10n.no_data,
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,

@@ -137,7 +137,7 @@ class BackupService {
     final List<dynamic> jsonList = _jsonDecode(jsonStr);
     for (final map in jsonList) {
       final item = Item.fromMap(map as Map<String, dynamic>);
-      
+
       // 更新图片路径：将旧路径转换为新设备的路径
       final updatedImagePaths = <String>[];
       for (final imagePath in item.imagePaths) {
@@ -145,7 +145,7 @@ class BackupService {
           // 从原始路径中提取相对路径（相对于item_images目录）
           String relativePath = '';
           final imageDirName = AppConstants.imageDirectory;
-          
+
           // 尝试从路径中提取item_images之后的部分
           final normalizedPath = imagePath.replaceAll('\\', '/');
           final dirIndex = normalizedPath.indexOf('$imageDirName/');
@@ -156,18 +156,18 @@ class BackupService {
               relativePath = normalizedPath.substring(startIndex);
             }
           }
-          
+
           // 如果无法提取相对路径，则只使用文件名
           if (relativePath.isEmpty) {
             relativePath = p.basename(imagePath);
           }
-          
+
           // 构建新路径
           final newPath = p.join(appDirPath, imageDirName, relativePath);
           updatedImagePaths.add(newPath);
         }
       }
-      
+
       // 创建更新后的物品
       final updatedItem = item.copyWith(imagePaths: updatedImagePaths);
       final existing = await _db.getItemById(updatedItem.id);

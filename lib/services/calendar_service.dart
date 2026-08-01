@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
+import 'package:recording/utils/log_localization.dart';
 
 class CalendarService {
   static const MethodChannel _channel = MethodChannel(
@@ -12,7 +13,9 @@ class CalendarService {
       final result = await _channel.invokeMethod<bool>('hasCalendarAccount');
       return result ?? false;
     } on PlatformException catch (e) {
-      debugPrint('检查日历账户失败: ${e.message}');
+      debugPrint(
+        '❌ ${LogLocalization.checkCalendarAccountFailed(e.message ?? e.toString())}',
+      );
       return false;
     }
   }
@@ -23,7 +26,9 @@ class CalendarService {
       final result = await _channel.invokeMethod<bool>('createCalendar');
       return result ?? false;
     } on PlatformException catch (e) {
-      debugPrint('创建日历失败: ${e.message}');
+      debugPrint(
+        '❌ ${LogLocalization.createCalendarFailed(e.message ?? e.toString())}',
+      );
       return false;
     }
   }
@@ -48,7 +53,9 @@ class CalendarService {
       });
       return result ?? false;
     } on PlatformException catch (e) {
-      debugPrint('添加日历事件失败: ${e.message}');
+      debugPrint(
+        '❌ ${LogLocalization.addCalendarEventFailed(e.message ?? e.toString())}',
+      );
       return false;
     }
   }
@@ -61,7 +68,9 @@ class CalendarService {
       });
       return result ?? false;
     } on PlatformException catch (e) {
-      debugPrint('删除日历事件失败: ${e.message}');
+      debugPrint(
+        '❌ ${LogLocalization.deleteCalendarEventFailed(e.message ?? e.toString())}',
+      );
       return false;
     }
   }
@@ -73,7 +82,9 @@ class CalendarService {
         'message': message,
       });
     } on PlatformException catch (e) {
-      debugPrint('设置权限提示消息失败: ${e.message}');
+      debugPrint(
+        '❌ ${LogLocalization.setPermissionMessageFailed(e.message ?? e.toString())}',
+      );
     }
   }
 }

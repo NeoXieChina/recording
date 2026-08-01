@@ -34,7 +34,7 @@ class AppTheme {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
       ),
-       elevatedButtonTheme: ElevatedButtonThemeData(
+      elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
           backgroundColor: colorScheme.primary.withAlpha(51),
           foregroundColor: colorScheme.onPrimary,
@@ -49,7 +49,9 @@ class AppTheme {
         style: TextButton.styleFrom(
           foregroundColor: colorScheme.onSurface,
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(25),
+          ),
         ),
       ),
       outlinedButtonTheme: OutlinedButtonThemeData(
@@ -66,7 +68,10 @@ class AppTheme {
         backgroundColor: colorScheme.primary,
         foregroundColor: colorScheme.onPrimary,
         elevation: 4,
-        largeSizeConstraints: const BoxConstraints.tightFor(width: 72, height: 72),
+        largeSizeConstraints: const BoxConstraints.tightFor(
+          width: 72,
+          height: 72,
+        ),
       ),
       chipTheme: ChipThemeData(
         backgroundColor: colorScheme.primaryContainer,
@@ -122,7 +127,7 @@ class AppTheme {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
       ),
-       elevatedButtonTheme: ElevatedButtonThemeData(
+      elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
           backgroundColor: colorScheme.primary.withAlpha(51),
           foregroundColor: colorScheme.onPrimary,
@@ -137,7 +142,9 @@ class AppTheme {
         style: TextButton.styleFrom(
           foregroundColor: colorScheme.onSurface,
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(25),
+          ),
         ),
       ),
       outlinedButtonTheme: OutlinedButtonThemeData(

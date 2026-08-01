@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/theme/app_theme.dart';
 import 'package:recording/widgets/common/primary_button.dart';
 import 'package:recording/widgets/common/secondary_button.dart';
@@ -138,7 +139,8 @@ class EmptyState extends StatelessWidget {
 
   /// 创建无数据空状态
   static Widget noData({
-    String title = '暂无数据',
+    required BuildContext context,
+    String? title,
     String? description,
     EmptyStateAction? primaryAction,
     EmptyStateAction? secondaryAction,
@@ -149,10 +151,11 @@ class EmptyState extends StatelessWidget {
     TextStyle? descriptionStyle,
     double actionsSpacing = 16,
   }) {
+    final l10n = AppLocalizations.of(context);
     return EmptyState(
       icon: Icons.inventory_2_outlined,
-      title: title,
-      description: description ?? '当前没有数据，点击下方按钮添加第一条记录吧！',
+      title: title ?? l10n.no_data,
+      description: description ?? l10n.no_data_description,
       primaryAction: primaryAction,
       secondaryAction: secondaryAction,
       padding: padding,
@@ -166,7 +169,8 @@ class EmptyState extends StatelessWidget {
 
   /// 创建加载失败空状态
   static Widget error({
-    String title = '加载失败',
+    required BuildContext context,
+    String? title,
     String? description,
     required VoidCallback onRetry,
     EmptyStateAction? secondaryAction,
@@ -177,12 +181,13 @@ class EmptyState extends StatelessWidget {
     TextStyle? descriptionStyle,
     double actionsSpacing = 16,
   }) {
+    final l10n = AppLocalizations.of(context);
     return EmptyState(
       icon: Icons.error_outline,
-      title: title,
-      description: description ?? '数据加载失败，请检查网络连接后重试',
+      title: title ?? l10n.load_failed,
+      description: description ?? l10n.load_failed_description,
       primaryAction: EmptyStateAction(
-        text: '重试',
+        text: l10n.retry,
         icon: Icons.refresh,
         onPressed: onRetry,
       ),
@@ -198,7 +203,8 @@ class EmptyState extends StatelessWidget {
 
   /// 创建无网络空状态
   static Widget noNetwork({
-    String title = '网络连接失败',
+    required BuildContext context,
+    String? title,
     String? description,
     required VoidCallback onRetry,
     EmptyStateAction? secondaryAction,
@@ -209,12 +215,13 @@ class EmptyState extends StatelessWidget {
     TextStyle? descriptionStyle,
     double actionsSpacing = 16,
   }) {
+    final l10n = AppLocalizations.of(context);
     return EmptyState(
       icon: Icons.wifi_off,
-      title: title,
-      description: description ?? '请检查网络连接后重试',
+      title: title ?? l10n.network_connection_failed,
+      description: description ?? l10n.network_connection_failed_description,
       primaryAction: EmptyStateAction(
-        text: '重试',
+        text: l10n.retry,
         icon: Icons.refresh,
         onPressed: onRetry,
       ),
@@ -230,7 +237,8 @@ class EmptyState extends StatelessWidget {
 
   /// 创建搜索无结果空状态
   static Widget noResults({
-    String title = '未找到结果',
+    required BuildContext context,
+    String? title,
     String? description,
     VoidCallback? onClearSearch,
     EmptyStateAction? secondaryAction,
@@ -241,13 +249,14 @@ class EmptyState extends StatelessWidget {
     TextStyle? descriptionStyle,
     double actionsSpacing = 16,
   }) {
+    final l10n = AppLocalizations.of(context);
     return EmptyState(
       icon: Icons.search_off,
-      title: title,
-      description: description ?? '尝试使用其他关键词搜索',
+      title: title ?? l10n.no_results,
+      description: description ?? l10n.no_results_description,
       primaryAction: onClearSearch != null
           ? EmptyStateAction(
-              text: '清除搜索',
+              text: l10n.clear_search,
               icon: Icons.clear,
               onPressed: onClearSearch,
             )
@@ -264,7 +273,8 @@ class EmptyState extends StatelessWidget {
 
   /// 创建无权限空状态
   static Widget noPermission({
-    String title = '权限不足',
+    required BuildContext context,
+    String? title,
     String? description,
     required VoidCallback onRequestPermission,
     EmptyStateAction? secondaryAction,
@@ -275,12 +285,13 @@ class EmptyState extends StatelessWidget {
     TextStyle? descriptionStyle,
     double actionsSpacing = 16,
   }) {
+    final l10n = AppLocalizations.of(context);
     return EmptyState(
       icon: Icons.lock_outline,
-      title: title,
-      description: description ?? '需要相关权限才能使用此功能',
+      title: title ?? l10n.insufficient_permission,
+      description: description ?? l10n.insufficient_permission_description,
       primaryAction: EmptyStateAction(
-        text: '请求权限',
+        text: l10n.request_permission,
         icon: Icons.lock_open,
         onPressed: onRequestPermission,
       ),

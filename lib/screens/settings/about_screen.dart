@@ -1,40 +1,43 @@
 import 'dart:io';
+
+import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:recording/constants.dart';
-import 'package:device_info_plus/device_info_plus.dart';
+import 'package:recording/generated/l10n/app_localizations.dart';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
 
-  Future<Map<String, String>> _getDeviceInfo() async {
+  Future<Map<String, String>> _getDeviceInfo(BuildContext context) async {
     final deviceInfo = DeviceInfoPlugin();
     final Map<String, String> info = {};
+    final l10n = AppLocalizations.of(context);
 
     try {
       if (Platform.isAndroid) {
         final androidInfo = await deviceInfo.androidInfo;
-        info['设备型号'] = androidInfo.model;
-        info['品牌'] = androidInfo.brand;
-        info['设备名称'] = androidInfo.device;
-        info['产品'] = androidInfo.product;
-        info['硬件'] = androidInfo.hardware;
-        info['Android版本'] = androidInfo.version.release;
-        info['SDK版本'] = androidInfo.version.sdkInt.toString();
+        info[l10n.device_model] = androidInfo.model;
+        info[l10n.brand] = androidInfo.brand;
+        info[l10n.device_name] = androidInfo.device;
+        info[l10n.product] = androidInfo.product;
+        info[l10n.hardware] = androidInfo.hardware;
+        info[l10n.android_version] = androidInfo.version.release;
+        info[l10n.sdk_version] = androidInfo.version.sdkInt.toString();
       } else if (Platform.isIOS) {
         final iosInfo = await deviceInfo.iosInfo;
-        info['设备型号'] = iosInfo.model;
-        info['系统名称'] = iosInfo.systemName;
-        info['系统版本'] = iosInfo.systemVersion;
-        info['设备名称'] = iosInfo.name;
-        info['设备标识'] = iosInfo.identifierForVendor ?? '未知';
+        info[l10n.device_model] = iosInfo.model;
+        info[l10n.system_name] = iosInfo.systemName;
+        info[l10n.system_version] = iosInfo.systemVersion;
+        info[l10n.device_name] = iosInfo.name;
+        info[l10n.device_identifier] = iosInfo.identifierForVendor ?? '未知';
       } else if (Platform.isWindows) {
         final windowsInfo = await deviceInfo.windowsInfo;
-        info['计算机名'] = windowsInfo.computerName;
-        info['系统版本'] = windowsInfo.displayVersion;
-        info['版本号'] = windowsInfo.buildNumber.toString();
+        info[l10n.computer_name] = windowsInfo.computerName;
+        info[l10n.system_version] = windowsInfo.displayVersion;
+        info[l10n.build_number] = windowsInfo.buildNumber.toString();
       }
     } catch (e) {
-      info['错误'] = '无法获取设备信息: $e';
+      info[l10n.error] = l10n.error_getting_device_info(e.toString());
     }
 
     return info;
@@ -43,12 +46,13 @@ class AboutScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final l10n = AppLocalizations.of(context);
 
     return Scaffold(
       body: CustomScrollView(
         slivers: [
           SliverAppBar.large(
-            title: Text('关于', style: theme.textTheme.titleLarge),
+            title: Text(l10n.about, style: theme.textTheme.titleLarge),
             leading: IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),
@@ -64,7 +68,7 @@ class AboutScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    '应用信息',
+                    l10n.app_info,
                     style: theme.textTheme.bodySmall?.copyWith(
                       color: theme.colorScheme.onSurface.withAlpha(
                         (0.6 * 255).round(),
@@ -83,7 +87,7 @@ class AboutScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          '应用名称',
+                          l10n.app_name,
                           style: theme.textTheme.bodyMedium?.copyWith(
                             fontWeight: FontWeight.w500,
                           ),
@@ -99,7 +103,7 @@ class AboutScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 12),
                         Text(
-                          '版本',
+                          l10n.version,
                           style: theme.textTheme.bodyMedium?.copyWith(
                             fontWeight: FontWeight.w500,
                           ),
@@ -115,7 +119,7 @@ class AboutScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 12),
                         Text(
-                          '开发者',
+                          l10n.developer,
                           style: theme.textTheme.bodyMedium?.copyWith(
                             fontWeight: FontWeight.w500,
                           ),
@@ -134,7 +138,7 @@ class AboutScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 24),
                   Text(
-                    '设备信息',
+                    l10n.device_info,
                     style: theme.textTheme.bodySmall?.copyWith(
                       color: theme.colorScheme.onSurface.withAlpha(
                         (0.6 * 255).round(),
@@ -201,12 +205,12 @@ class AboutScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 4),
                         FutureBuilder<Map<String, String>>(
-                          future: _getDeviceInfo(),
+                          future: _getDeviceInfo(context),
                           builder: (context, snapshot) {
                             if (snapshot.connectionState ==
                                 ConnectionState.waiting) {
                               return Text(
-                                '加载中...',
+                                l10n.loading,
                                 style: theme.textTheme.bodySmall?.copyWith(
                                   color: theme.colorScheme.onSurface.withAlpha(
                                     (0.6 * 255).round(),
@@ -216,7 +220,7 @@ class AboutScreen extends StatelessWidget {
                             }
                             if (snapshot.hasError) {
                               return Text(
-                                '无法获取设备信息',
+                                l10n.error,
                                 style: theme.textTheme.bodySmall?.copyWith(
                                   color: theme.colorScheme.onSurface.withAlpha(
                                     (0.6 * 255).round(),
@@ -264,7 +268,7 @@ class AboutScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 24),
                   Text(
-                    '功能介绍',
+                    l10n.features,
                     style: theme.textTheme.bodySmall?.copyWith(
                       color: theme.colorScheme.onSurface.withAlpha(
                         (0.6 * 255).round(),
@@ -283,14 +287,14 @@ class AboutScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          '智能物品管理应用',
+                          l10n.app_description,
                           style: theme.textTheme.bodyMedium?.copyWith(
                             fontWeight: FontWeight.w500,
                           ),
                         ),
                         const SizedBox(height: 4),
                         Text(
-                          '帮助您管理物品的过期日期、保修日期等信息，并提供智能提醒功能。',
+                          l10n.app_description_detail,
                           style: theme.textTheme.bodySmall?.copyWith(
                             color: theme.colorScheme.onSurface.withAlpha(
                               (0.6 * 255).round(),

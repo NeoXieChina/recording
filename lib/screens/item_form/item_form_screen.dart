@@ -64,10 +64,10 @@ class ItemFormScreen extends StatelessWidget {
   }) {
     return Consumer<ItemListProvider>(
       builder: (context, itemListProvider, _) {
-        final l10n = AppLocalizations.of(context)!;
+        final l10n = AppLocalizations.of(context);
         final predefinedCategoryKeys = AppConstants.itemCategoryKeys;
         final customCategories = itemListProvider.getCategories();
-        
+
         final allCategories = <String>{}
           ..addAll(predefinedCategoryKeys)
           ..addAll(customCategories)
@@ -92,7 +92,10 @@ class ItemFormScreen extends StatelessWidget {
             ),
             DropdownMenuItem(
               value: 'custom',
-              child: Text(l10n.custom_category, overflow: TextOverflow.ellipsis),
+              child: Text(
+                l10n.custom_category,
+                overflow: TextOverflow.ellipsis,
+              ),
             ),
           ],
           onChanged: (v) {
@@ -354,14 +357,15 @@ class ItemFormScreen extends StatelessWidget {
           ),
         ),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-        contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+        contentPadding: const EdgeInsets.symmetric(
+          horizontal: 12,
+          vertical: 16,
+        ),
         isDense: true,
       ),
       keyboardType: TextInputType.numberWithOptions(decimal: !isInteger),
       textAlign: TextAlign.center,
-      style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-        fontSize: 16,
-      ),
+      style: Theme.of(context).textTheme.bodyLarge?.copyWith(fontSize: 16),
       onChanged: (v) {
         if (isInteger) {
           final n = int.tryParse(v);
@@ -459,15 +463,16 @@ class ItemFormScreen extends StatelessWidget {
           onPressed: scanBarcode,
         ),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-        contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+        contentPadding: const EdgeInsets.symmetric(
+          horizontal: 12,
+          vertical: 16,
+        ),
         isDense: true,
       ),
       onChanged: onChanged,
       keyboardType: TextInputType.text,
       textAlign: TextAlign.center,
-      style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-        fontSize: 16,
-      ),
+      style: Theme.of(context).textTheme.bodyLarge?.copyWith(fontSize: 16),
     );
   }
 
@@ -487,7 +492,10 @@ class ItemFormScreen extends StatelessWidget {
             errorText: provider.nameError,
             prefixIcon: const Icon(Icons.label),
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-            contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+            contentPadding: const EdgeInsets.symmetric(
+              horizontal: 12,
+              vertical: 16,
+            ),
             isDense: true,
           ),
           onChanged: provider.setName,
@@ -496,9 +504,7 @@ class ItemFormScreen extends StatelessWidget {
               TextPosition(offset: provider.name.length),
             ),
           textAlign: TextAlign.center,
-          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-            fontSize: 16,
-          ),
+          style: Theme.of(context).textTheme.bodyLarge?.copyWith(fontSize: 16),
         ),
         const SizedBox(height: 16),
         _buildBarcodeInput(
@@ -784,7 +790,9 @@ class ItemFormScreen extends StatelessWidget {
                       return Theme(
                         data: Theme.of(context).copyWith(
                           dialogTheme: DialogThemeData(
-                            backgroundColor: Theme.of(context).colorScheme.surface,
+                            backgroundColor: Theme.of(
+                              context,
+                            ).colorScheme.surface,
                           ),
                         ),
                         child: child!,
@@ -837,7 +845,8 @@ class ItemFormScreen extends StatelessWidget {
               contentPadding: const EdgeInsets.symmetric(
                 horizontal: 12,
                 vertical: 16,
-              ), // 统一内边距
+              ),
+              // 统一内边距
               isDense: true,
             ),
             child: Text(
@@ -970,7 +979,10 @@ class ItemFormScreen extends StatelessWidget {
           decoration: InputDecoration(
             hintText: '添加备注信息（选填）',
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-            contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+            contentPadding: const EdgeInsets.symmetric(
+              horizontal: 12,
+              vertical: 16,
+            ),
             isDense: true,
           ),
           maxLines: 3,
@@ -979,9 +991,7 @@ class ItemFormScreen extends StatelessWidget {
             ..selection = TextSelection.fromPosition(
               TextPosition(offset: (provider.notes ?? '').length),
             ),
-          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-            fontSize: 16,
-          ),
+          style: Theme.of(context).textTheme.bodyLarge?.copyWith(fontSize: 16),
         ),
       ],
     );
@@ -1111,9 +1121,9 @@ class ItemFormScreen extends StatelessWidget {
               onChanged(value);
             },
             textAlign: TextAlign.center,
-            style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-              fontSize: 16,
-            ),
+            style: Theme.of(
+              context,
+            ).textTheme.bodyLarge?.copyWith(fontSize: 16),
           );
         }
 
@@ -1161,11 +1171,15 @@ class ItemFormScreen extends StatelessWidget {
         onPressed: provider.isSaving
             ? null
             : () async {
-                final item = await provider.save();
+                final item = await provider.save(context);
                 if (item != null && context.mounted) {
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(
-                      content: Text(provider.isEditing ? '物品已更新' : '物品已添加'),
+                      content: Text(
+                        provider.isEditing
+                            ? AppLocalizations.of(context).item_updated
+                            : AppLocalizations.of(context).item_added,
+                      ),
                     ),
                   );
                   Navigator.pop(context);
@@ -1314,7 +1328,10 @@ class ItemFormScreen extends StatelessWidget {
             prefixIcon: icon != null ? Icon(icon) : null,
             suffixIcon: Icon(Icons.arrow_drop_down),
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
-            contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
+            contentPadding: const EdgeInsets.symmetric(
+              horizontal: 12,
+              vertical: 16,
+            ),
             isDense: true,
           ),
           child: Row(
@@ -1322,17 +1339,14 @@ class ItemFormScreen extends StatelessWidget {
             children: [
               Expanded(
                 child: selectedChild != null
-                    ? Align(
-                        alignment: Alignment.center,
-                        child: selectedChild,
-                      )
+                    ? Align(alignment: Alignment.center, child: selectedChild)
                     : Text(
                         selectedText ?? label,
                         overflow: TextOverflow.ellipsis,
                         textAlign: TextAlign.center,
-                        style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                          fontSize: 16,
-                        ),
+                        style: Theme.of(
+                          context,
+                        ).textTheme.bodyLarge?.copyWith(fontSize: 16),
                       ),
               ),
             ],
@@ -1342,7 +1356,10 @@ class ItemFormScreen extends StatelessWidget {
     );
   }
 
-  String _getCategoryDisplayText(String categoryKeyOrName, AppLocalizations l10n) {
+  String _getCategoryDisplayText(
+    String categoryKeyOrName,
+    AppLocalizations l10n,
+  ) {
     // 检查是否为预定义分类键
     if (AppConstants.itemCategoryKeys.contains(categoryKeyOrName)) {
       // 根据键返回本地化文本

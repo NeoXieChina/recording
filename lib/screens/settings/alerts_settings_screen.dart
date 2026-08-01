@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
+import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/providers/settings_provider.dart';
+import 'package:recording/screens/settings/alert_days_selection_screen.dart';
 import 'package:recording/services/calendar_service.dart';
 import 'package:recording/services/notification_service.dart';
-import 'package:recording/screens/settings/alert_days_selection_screen.dart';
 
 class AlertsSettingsScreen extends StatefulWidget {
   const AlertsSettingsScreen({super.key});
@@ -14,19 +15,20 @@ class AlertsSettingsScreen extends StatefulWidget {
 }
 
 class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
-
-
   // 构建提醒天数选择器 - 显示当前值并允许点击导航到选择页面
-  Widget _buildAlertDaysSelector(BuildContext context, SettingsProvider provider) {
+  Widget _buildAlertDaysSelector(
+    BuildContext context,
+    SettingsProvider provider,
+  ) {
     final currentValue = provider.alertDays;
     String displayText;
-    
+
     if (currentValue >= 1 && currentValue <= 30) {
-      displayText = '$currentValue天';
+      displayText = AppLocalizations.of(context).days_with_value(currentValue);
     } else {
-      displayText = '自定义（$currentValue天）';
+      displayText = AppLocalizations.of(context).custom_days(currentValue);
     }
-    
+
     return GestureDetector(
       onTap: () {
         Navigator.push(
@@ -47,9 +49,9 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
           children: [
             Text(
               displayText,
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                fontSize: 16,
-              ),
+              style: Theme.of(
+                context,
+              ).textTheme.bodyLarge?.copyWith(fontSize: 16),
             ),
             const SizedBox(width: 8),
             const Icon(Icons.arrow_forward_ios, size: 16),
@@ -58,8 +60,6 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
       ),
     );
   }
-  
-
 
   Future<void> _requestCalendarPermission(
     BuildContext context,
@@ -88,16 +88,16 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
     final result = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('日历权限请求'),
-        content: const Text('需要访问日历权限来同步物品提醒。是否允许？'),
+        title: Text(AppLocalizations.of(context).calendar_permission_request),
+        content: Text(AppLocalizations.of(context).calendar_permission_desc),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('取消'),
+            child: Text(AppLocalizations.of(context).cancel),
           ),
           TextButton(
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('允许'),
+            child: Text(AppLocalizations.of(context).allow),
           ),
         ],
       ),
@@ -116,9 +116,11 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
             provider.setCalendarSync(false);
             if (!context.mounted) return;
             ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text('日历权限已授予，但无法创建日历账户。请检查系统日历设置'),
-                duration: Duration(seconds: 3),
+              SnackBar(
+                content: Text(
+                  AppLocalizations.of(context).calendar_account_failed,
+                ),
+                duration: const Duration(seconds: 3),
               ),
             );
             return;
@@ -132,18 +134,22 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
           if (!hasAccount) {
             if (context.mounted) {
               ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(
-                  content: Text('日历账户创建成功，但系统可能需要一些时间生效'),
-                  duration: Duration(seconds: 3),
+                SnackBar(
+                  content: Text(
+                    AppLocalizations.of(context).calendar_account_creating,
+                  ),
+                  duration: const Duration(seconds: 3),
                 ),
               );
             }
             // 即使hasAccount为false，也继续尝试添加事件
           } else if (context.mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text('日历权限已授予，已创建本地日历账户'),
-                duration: Duration(seconds: 2),
+              SnackBar(
+                content: Text(
+                  AppLocalizations.of(context).calendar_account_created,
+                ),
+                duration: const Duration(seconds: 2),
               ),
             );
           }
@@ -166,19 +172,27 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
         showDialog(
           context: context,
           builder: (context) => AlertDialog(
-            title: const Text('权限被永久拒绝'),
-            content: const Text('日历权限被永久拒绝，请在系统设置中手动开启权限。'),
+            title: Text(
+              AppLocalizations.of(
+                context,
+              ).calendar_permission_permanently_denied,
+            ),
+            content: Text(
+              AppLocalizations.of(
+                context,
+              ).calendar_permission_permanently_denied_desc,
+            ),
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(context),
-                child: const Text('取消'),
+                child: Text(AppLocalizations.of(context).cancel),
               ),
               TextButton(
                 onPressed: () {
                   Navigator.pop(context);
                   openAppSettings();
                 },
-                child: const Text('去设置'),
+                child: Text(AppLocalizations.of(context).go_to_settings),
               ),
             ],
           ),
@@ -191,9 +205,11 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
           return;
         }
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('日历权限被拒绝，无法开启日历同步'),
-            duration: Duration(seconds: 2),
+          SnackBar(
+            content: Text(
+              AppLocalizations.of(context).calendar_permission_denied,
+            ),
+            duration: const Duration(seconds: 2),
           ),
         );
         provider.setCalendarSync(false);
@@ -214,9 +230,11 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
       if (!permissionStatus.isGranted) {
         if (context.mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text('需要日历权限才能添加测试事件'),
-              duration: Duration(seconds: 2),
+            SnackBar(
+              content: Text(
+                AppLocalizations.of(context).calendar_permission_required,
+              ),
+              duration: const Duration(seconds: 2),
             ),
           );
         }
@@ -232,9 +250,11 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
       if (!created) {
         if (context.mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text('无法创建日历账户，请检查系统日历设置'),
-              duration: Duration(seconds: 3),
+            SnackBar(
+              content: Text(
+                AppLocalizations.of(context).calendar_account_creation_failed,
+              ),
+              duration: const Duration(seconds: 3),
             ),
           );
         }
@@ -249,9 +269,11 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
       if (!hasAccount) {
         if (context.mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text('日历账户创建成功，但系统可能需要一些时间生效'),
-              duration: Duration(seconds: 3),
+            SnackBar(
+              content: Text(
+                AppLocalizations.of(context).calendar_account_creating,
+              ),
+              duration: const Duration(seconds: 3),
             ),
           );
         }
@@ -281,16 +303,18 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
     if (!context.mounted) return;
     if (success) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('测试日历事件添加成功'),
-          duration: Duration(seconds: 2),
+        SnackBar(
+          content: Text(AppLocalizations.of(context).test_calendar_event_added),
+          duration: const Duration(seconds: 2),
         ),
       );
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('添加测试日历事件失败，请检查日历设置'),
-          duration: Duration(seconds: 3),
+        SnackBar(
+          content: Text(
+            AppLocalizations.of(context).test_calendar_event_failed,
+          ),
+          duration: const Duration(seconds: 3),
         ),
       );
     }
@@ -303,16 +327,16 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
 
     try {
       await notificationService.showInstantNotification(
-        title: '测试通知',
-        body: '这是一个测试通知，用于验证本地提醒功能',
+        title: AppLocalizations.of(context).test_notification,
+        body: AppLocalizations.of(context).test_notification_description,
         payload: 'test_notification',
         id: 9999,
       );
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('测试通知已发送'),
-            duration: Duration(seconds: 2),
+          SnackBar(
+            content: Text(AppLocalizations.of(context).test_notification_sent),
+            duration: const Duration(seconds: 2),
           ),
         );
       }
@@ -331,22 +355,19 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    
+
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-           SliverAppBar.large(
-             title: Text(
-               '预警设置',
-                 style: theme.textTheme.titleLarge,
-             ),
-             leading: IconButton(
-               icon: const Icon(Icons.arrow_back),
-               onPressed: () => Navigator.of(context).pop(),
-             ),
-             centerTitle: false,
-             elevation: 0,
-             pinned: true,
+          SliverAppBar.large(
+            title: Text('预警设置', style: theme.textTheme.titleLarge),
+            leading: IconButton(
+              icon: const Icon(Icons.arrow_back),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+            centerTitle: false,
+            elevation: 0,
+            pinned: true,
           ),
           SliverPadding(
             padding: const EdgeInsets.all(24),
@@ -354,7 +375,7 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                   Consumer<SettingsProvider>(
+                  Consumer<SettingsProvider>(
                     builder: (context, provider, _) {
                       return Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -363,7 +384,9 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                           Text(
                             '日历设置',
                             style: theme.textTheme.bodySmall?.copyWith(
-                              color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                              color: theme.colorScheme.onSurface.withAlpha(
+                                (0.6 * 255).round(),
+                              ),
                             ),
                           ),
                           const SizedBox(height: 8),
@@ -373,43 +396,54 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                             value: provider.calendarSync,
                             onChanged: (v) async {
                               if (v) {
-                                await _requestCalendarPermission(context, provider);
+                                await _requestCalendarPermission(
+                                  context,
+                                  provider,
+                                );
                               } else {
                                 provider.setCalendarSync(false);
                               }
                             },
                           ),
                           const SizedBox(height: 8),
-                           SizedBox(
-                             width: double.infinity,
-                             child: OutlinedButton(
-                               onPressed: provider.calendarSync ? () => _addTestCalendarEvent(context) : null,
-                               style: OutlinedButton.styleFrom(
-                                  shape: RoundedRectangleBorder(
-                                   borderRadius: BorderRadius.circular(25),
-                                 ),
-                                 padding: const EdgeInsets.symmetric(vertical: 12),
-                               ),
-                               child: const Text('添加测试日历事件'),
-                             ),
-                           ),
-                           if (!provider.calendarSync)
-                             Padding(
-                               padding: const EdgeInsets.only(top: 4),
-                               child: Text(
-                                 '请先开启"日历同步"开关',
-                                 style: theme.textTheme.bodySmall?.copyWith(
-                                   color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
-                                 ),
-                               ),
-                             ),
+                          SizedBox(
+                            width: double.infinity,
+                            child: OutlinedButton(
+                              onPressed: provider.calendarSync
+                                  ? () => _addTestCalendarEvent(context)
+                                  : null,
+                              style: OutlinedButton.styleFrom(
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(25),
+                                ),
+                                padding: const EdgeInsets.symmetric(
+                                  vertical: 12,
+                                ),
+                              ),
+                              child: const Text('添加测试日历事件'),
+                            ),
+                          ),
+                          if (!provider.calendarSync)
+                            Padding(
+                              padding: const EdgeInsets.only(top: 4),
+                              child: Text(
+                                '请先开启"日历同步"开关',
+                                style: theme.textTheme.bodySmall?.copyWith(
+                                  color: theme.colorScheme.onSurface.withAlpha(
+                                    (0.6 * 255).round(),
+                                  ),
+                                ),
+                              ),
+                            ),
                           const SizedBox(height: 24),
-                          
+
                           // App提醒设置部分
                           Text(
                             'App提醒设置',
                             style: theme.textTheme.bodySmall?.copyWith(
-                              color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                              color: theme.colorScheme.onSurface.withAlpha(
+                                (0.6 * 255).round(),
+                              ),
                             ),
                           ),
                           const SizedBox(height: 8),
@@ -444,43 +478,54 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                             },
                           ),
                           const SizedBox(height: 8),
-                           SizedBox(
-                             width: double.infinity,
-                             child: OutlinedButton(
-                               onPressed: provider.localAlertsEnabled ? () => _sendTestNotification(context) : null,
-                               style: OutlinedButton.styleFrom(
-                                  shape: RoundedRectangleBorder(
-                                   borderRadius: BorderRadius.circular(25),
-                                 ),
-                                 padding: const EdgeInsets.symmetric(vertical: 12),
-                               ),
-                               child: const Text('发送测试通知'),
-                             ),
-                           ),
-                           if (!provider.localAlertsEnabled)
-                             Padding(
-                               padding: const EdgeInsets.only(top: 4),
-                               child: Text(
-                                 '请先开启"本地提醒"开关',
-                                 style: theme.textTheme.bodySmall?.copyWith(
-                                   color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
-                                 ),
-                               ),
-                             ),
+                          SizedBox(
+                            width: double.infinity,
+                            child: OutlinedButton(
+                              onPressed: provider.localAlertsEnabled
+                                  ? () => _sendTestNotification(context)
+                                  : null,
+                              style: OutlinedButton.styleFrom(
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(25),
+                                ),
+                                padding: const EdgeInsets.symmetric(
+                                  vertical: 12,
+                                ),
+                              ),
+                              child: const Text('发送测试通知'),
+                            ),
+                          ),
+                          if (!provider.localAlertsEnabled)
+                            Padding(
+                              padding: const EdgeInsets.only(top: 4),
+                              child: Text(
+                                '请先开启"本地提醒"开关',
+                                style: theme.textTheme.bodySmall?.copyWith(
+                                  color: theme.colorScheme.onSurface.withAlpha(
+                                    (0.6 * 255).round(),
+                                  ),
+                                ),
+                              ),
+                            ),
                           const SizedBox(height: 24),
-                          
+
                           // 提醒天数设置部分
                           Text(
                             '提醒天数设置',
                             style: theme.textTheme.bodySmall?.copyWith(
-                              color: theme.colorScheme.onSurface.withAlpha((0.6 * 255).round()),
+                              color: theme.colorScheme.onSurface.withAlpha(
+                                (0.6 * 255).round(),
+                              ),
                             ),
                           ),
                           const SizedBox(height: 8),
                           ListTile(
                             title: const Text('提前提醒天数'),
                             subtitle: const Text('设置提前多少天提醒物品过期或保修到期'),
-                            trailing: _buildAlertDaysSelector(context, provider),
+                            trailing: _buildAlertDaysSelector(
+                              context,
+                              provider,
+                            ),
                           ),
                         ],
                       );

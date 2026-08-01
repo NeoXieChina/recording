@@ -1,13 +1,14 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:image/image.dart' as img;
+import 'package:image_picker/image_picker.dart';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:recording/constants.dart';
 import 'package:recording/data/datasources/app_database.dart';
 import 'package:recording/data/models/item.dart';
+import 'package:recording/generated/l10n/app_localizations.dart';
 
 class ItemFormProvider extends ChangeNotifier {
   final AppDatabase _db = AppDatabase();
@@ -179,40 +180,44 @@ class ItemFormProvider extends ChangeNotifier {
       // 读取原始图片
       final originalBytes = await File(xFile.path).readAsBytes();
       final originalImage = img.decodeImage(originalBytes);
-      
+
       if (originalImage != null) {
         // 计算缩放尺寸，保持宽高比，限制最大尺寸为720p（1280x720）
         final maxWidth = AppConstants.imageMaxWidth;
         final maxHeight = AppConstants.imageMaxHeight;
-        
+
         int targetWidth = originalImage.width;
         int targetHeight = originalImage.height;
-        
+
         // 如果图片宽度超过最大宽度，按比例缩放
         if (targetWidth > maxWidth) {
           final ratio = maxWidth / targetWidth;
           targetWidth = maxWidth;
           targetHeight = (targetHeight * ratio).round();
         }
-        
+
         // 如果缩放后高度超过最大高度，再次按比例缩放
         if (targetHeight > maxHeight) {
           final ratio = maxHeight / targetHeight;
           targetHeight = maxHeight;
           targetWidth = (targetWidth * ratio).round();
         }
-        
+
         // 如果图片尺寸已经小于最大尺寸，保持原尺寸
-        if (targetWidth < originalImage.width || targetHeight < originalImage.height) {
+        if (targetWidth < originalImage.width ||
+            targetHeight < originalImage.height) {
           final resizedImage = img.copyResize(
             originalImage,
             width: targetWidth,
             height: targetHeight,
             maintainAspect: true,
           );
-          
+
           // 保存为JPEG格式，使用指定质量
-          final compressedBytes = img.encodeJpg(resizedImage, quality: AppConstants.imageQuality);
+          final compressedBytes = img.encodeJpg(
+            resizedImage,
+            quality: AppConstants.imageQuality,
+          );
           await File(destPath).writeAsBytes(compressedBytes);
         } else {
           // 图片尺寸已经合适，直接复制
@@ -304,45 +309,57 @@ class ItemFormProvider extends ChangeNotifier {
     dateError = null;
   }
 
-  bool validate() {
+  bool validate(BuildContext context) {
     clearErrors();
     bool isValid = true;
 
     if (name.trim().isEmpty) {
-      nameError = '物品名称不能为空';
+      nameError = AppLocalizations.of(context).item_name_cannot_be_empty;
       isValid = false;
     } else if (name.length > AppConstants.maxNameLength) {
-      nameError = '名称不能超过${AppConstants.maxNameLength}个字符';
+      nameError = AppLocalizations.of(
+        context,
+      ).name_max_length(AppConstants.maxNameLength);
       isValid = false;
     }
 
     if (quantity < AppConstants.minQuantity) {
-      quantityError = '数量不能小于${AppConstants.minQuantity}';
+      quantityError = AppLocalizations.of(
+        context,
+      ).quantity_min(AppConstants.minQuantity);
       isValid = false;
     } else if (quantity > AppConstants.maxQuantity) {
-      quantityError = '数量不能超过${AppConstants.maxQuantity}';
+      quantityError = AppLocalizations.of(
+        context,
+      ).quantity_max(AppConstants.maxQuantity);
       isValid = false;
     }
 
     if (unitPrice < AppConstants.minUnitPrice) {
-      unitPriceError = '单价不能为负数';
+      unitPriceError = AppLocalizations.of(context).unit_price_not_negative;
       isValid = false;
     } else if (unitPrice > AppConstants.maxUnitPrice) {
-      unitPriceError = '单价不能超过${AppConstants.maxUnitPrice}';
+      unitPriceError = AppLocalizations.of(
+        context,
+      ).unit_price_max(AppConstants.maxUnitPrice);
       isValid = false;
     }
 
     if (itemType == ItemType.consumable) {
       // 总是自动计算模式：检查是否有足够的计算信息
       if (expiryDate == null && !_canCalculateExpiryDate()) {
-        dateError = '请设置生产日期和保质期来自动计算有效期';
+        dateError = AppLocalizations.of(
+          context,
+        ).set_production_expiry_for_validity;
         isValid = false;
       }
     }
     if (itemType == ItemType.durable) {
       // 总是自动计算模式：检查是否有足够的计算信息
       if (warrantyDate == null && !_canCalculateWarrantyDate()) {
-        dateError = '请设置购买日期和保质期来自动计算保修期';
+        dateError = AppLocalizations.of(
+          context,
+        ).set_purchase_warranty_for_validity;
         isValid = false;
       }
     }
@@ -351,8 +368,8 @@ class ItemFormProvider extends ChangeNotifier {
     return isValid;
   }
 
-  Future<Item?> save() async {
-    if (!validate()) return null;
+  Future<Item?> save(BuildContext context) async {
+    if (!validate(context)) return null;
 
     _isSaving = true;
     notifyListeners();

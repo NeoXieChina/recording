@@ -3,6 +3,7 @@ import 'package:recording/app.dart';
 import 'package:recording/data/datasources/app_database.dart';
 import 'package:recording/services/alert_service.dart';
 import 'package:recording/services/mock_data_service.dart';
+import 'package:recording/utils/log_localization.dart';
 
 /// 调试模式标志 - 控制是否启用模拟数据
 ///
@@ -26,9 +27,9 @@ void main() async {
       final db = AppDatabase();
       final mockService = MockDataService(db);
       await mockService.resetDatabaseForDebug();
-      debugPrint('🗑️ 数据库已重置，将重新创建表结构');
+      debugPrint('🗑️ ${LogLocalization.databaseReset}');
     } catch (e) {
-      debugPrint('❌ 重置数据库时出错: $e');
+      debugPrint('❌ ${LogLocalization.databaseResetError(e.toString())}');
     }
   }
 
@@ -40,11 +41,11 @@ void main() async {
       await mockService.initializeMockData();
     } catch (e) {
       // 使用 debugPrint 代替 print，避免在生产环境中输出
-      debugPrint('模拟数据初始化失败: $e');
-      debugPrint('💡 解决方案：');
-      debugPrint('1. 卸载应用重新安装');
-      debugPrint('2. 或清除应用数据');
-      debugPrint('3. 或将 resetDatabaseOnStart 设为 true 后重新运行');
+      debugPrint('❌ ${LogLocalization.mockDataInitFailed(e.toString())}');
+      debugPrint('💡 ${LogLocalization.solutionSteps}');
+      debugPrint(LogLocalization.solutionStep1);
+      debugPrint(LogLocalization.solutionStep2);
+      debugPrint(LogLocalization.solutionStep3);
     }
   }
 
@@ -52,7 +53,9 @@ void main() async {
   try {
     await AlertService().initialize();
   } catch (e) {
-    debugPrint('提醒服务初始化失败: $e');
+    debugPrint(
+      '❌ ${LogLocalization.notificationServiceInitFailed(e.toString())}',
+    );
   }
 
   runApp(const App());

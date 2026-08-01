@@ -71,11 +71,12 @@ class SecondaryButton extends StatelessWidget {
             foregroundColor ??
             (isDark ? theme.colorScheme.onSurface : theme.colorScheme.primary),
         disabledBackgroundColor: isDark
-            ? theme.colorScheme.surface.withAlpha(20)  // 0.08 opacity
+            ? theme.colorScheme.surface.withAlpha(20) // 0.08 opacity
             : Colors.grey.shade100,
         disabledForegroundColor: isDark
-            ? theme.colorScheme.onSurface.withAlpha(97)  // 0.38 opacity
-            : theme.colorScheme.primary.withAlpha(97),  // 0.38 opacity
+            ? theme.colorScheme.onSurface.withAlpha(97) // 0.38 opacity
+            : theme.colorScheme.primary.withAlpha(97),
+        // 0.38 opacity
         side: BorderSide(
           color:
               borderColor ??
