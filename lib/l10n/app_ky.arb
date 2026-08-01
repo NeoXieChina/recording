@@ -1,0 +1,1625 @@
+{
+  "@@locale": "ky",
+  "app_name": "Материалды сактоого жер",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "жокко чыгаруу",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Тастыктоо",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Сактоо",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Өчүрүү",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Редакциялоо",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Кошуу",
+  "@add": {
+    "description": ""
+  },
+  "search": "издөө",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Орнотуулар",
+  "@settings": {
+    "description": ""
+  },
+  "language_settings": "Тил орнотуулары",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Колдонмонун көрүү тилин орнотуңуз",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Система боюнча демейки",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Системанын тилин колдонуу",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Тилди өзгөртүү тиркемени кайра иштеткенден кийин күчүнө кирет",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "back": "Кайтуу",
+  "@back": {
+    "description": ""
+  },
+  "next": "Кийинки кадам",
+  "@next": {
+    "description": ""
+  },
+  "done": "Аяктады",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Жүктөлүп жатат...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Ката",
+  "@error": {
+    "description": ""
+  },
+  "success": "Ийгилик",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Эскертүү",
+  "@warning": {
+    "description": ""
+  },
+  "info": "маалымат",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Эскертүү күндөрүн тандаңыз",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Ыңгайлаштырылган",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Өзгөчөлөштүрүлгөн ({days} күн)",
+  "@custom_days": {
+    "description": "Параметр менен өзгөчөлөнтүлгөн күндөр",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "current_selection": "Азыркы тандоо: {days} күн",
+  "@current_selection": {
+    "description": "Азыркы тандалган күндөрдү көрсөтүү",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Эскертип коё турган күндөрдүн диапазону: {min}-{max} күн",
+  "@alert_days_range": {
+    "description": "Эскертүү күндөрүнүн чектерин параметр менен көрсөтүү",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Эскертүү күндөрүн киргизиңиз",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "күндөр",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Сураныч, {min} менен {max} ортосундагы санды киргизиңиз",
+  "@enter_valid_days": {
+    "description": "Күндөрдү киргизүүнү текшерүү маалыматы",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Эскертүү настройкалары",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Жылнаама жөндөлүшү",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Жылдыз календарь синхрондоштуруу",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Иштеткенден кийин календарга кирүү уруксатын сурайт",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Сынак календардык окуясын кошуу",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Өтүнөм, алды менен \"Күн тартибин синхрондоштурууну\" күйгүзүңүз",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Приложение эскертмелерди орнотуу",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Жергиликтүү эскертүү",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Ачкандан кийин тиркемедеги мөөнөтү өткөн эскертүүлөрдү кабыл алуу",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Сынак билдирүүсүн жөнөтүү",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Өтүнөм, алды менен \"Жергиликтүү эскертүүлөр\" колдоочу орнотууну күйгүзүңүз",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Эскертүү күндөрүн аныктоо",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Мурунтан эскертүү күндөрү",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Материалдын мөөнөтү аягына чыгарын же кепилдик мөөнөтү бүтөөрүн канча күн алдын ала эскертип коюуну орнотуу",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Календарга уруксат суроо",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Элемент эскертүүлөрүн синхрондоштуруу үчүн календарга кирүү уруксат талап кылынат. Жарашат беле?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Рөхсәт берүү",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Күн тартиби уруксат берилди, күн тартиби синхрондоштуруу күйгүзүлгөн",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Күн тартиби уруксат берүүдөн баш тартылды, күн тартиби синхронизациясын ачууга болбойт",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Сырсөзүмү түбөлүккө баш тартылды",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Жылдык күнтүзмө укугу түбөлүккө баш тартылды, системанын жөндөөлөрүндө кол менен уруксатты күйгүзүңүз.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Жөндөөлөргө өт",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Күнтүзмө укуктары берилди, бирок күнтүзмө аккаунт түзүлбөйт. Системанын күнтүзмө жөндөөлөрүн текшериңиз",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Календар уруксаттары берилди, жергиликтүү календар аккаунту түзүлдү",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Календарь аккаунту ийгиликтүү түзүлдү, бирок системанын иштей баштоосу үчүн айрым убакыт керек болушу мүмкүн",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Күн тартибиндеги окуяны кошуу ийгиликтүү болду",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Сынак күнтүзмө окуясын кошуу мүмкүн болбоду, күнтүзмө жөндөөлөрүн текшериңиз",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Сынак окуяларын кошуу үчүн календарга уруксат керек",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Сынак билдирүүсү жөнөтүлдү",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Тесттик билдирүүнү жөнөтүү мүмкүн болгон жок: {error}",
+  "@test_notification_failed": {
+    "description": "Ката жөнүндө билдирүү",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Жергиликтүү эскертмени иштетүү үчүн билдирүү уруксаты керек",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Иштөө ишке болбой калды: {error}",
+  "@operation_failed": {
+    "description": "Жалпы операциялык ката билдирүүлөрү",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Элементтер боюнча эскертүү билдирүүсү",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Эморун мөөнөтү өтүп кеткен же кепилдик мөөнөтүн эскертүү",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "азык-түлүк",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Күнүмдүк керектелүүчү товарлар",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Косметика",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Дары",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Электрондук продуктылар",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Мебель",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Кийим",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Китеп",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Башкалар",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Онлайн соода борбору",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Физикалык дүкөн",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "супермаркет",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "айрыкча дүкөн",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "экинчи кол базар",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Башкалар",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Башкалар",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Онлайн соода борбору",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Эркектерди классификациялоо",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Ыңгайлаштырылган классификация",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Маалыматты камдык сактоо",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Бардык маалыматтарды (сүрөттөрдү кошо) ZIP файлга топтоп камдык көчүрмөнү сактоо",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Бардык маалыматтарды резервдөө",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Сактоо ийгиликтүү болду",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Сактык көчүрмө жасалбады: {error}",
+  "@backup_failed": {
+    "description": "Сактык көчүрмө жасоодо ката тууралуу билдирүү",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Маалыматты калыбына келтирүү",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "ZIP камдык көчүрмө файлынан бардык маалыматтарды калыбына келтирүү",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Маалыматты экспорттоо",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "CSV, TXT, SQL форматында экспорттоо",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Маалыматтарды импорттоо",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "CSV, TXT, SQL файлдарынан маалыматтарды импорттоо",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Календардагы эскертмелер жана тиркеме билдирмелерин орнотуу",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Туурасында",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Колдонмо маалыматтары жана версия",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Эң алды менен камдык көчүрмө файлын тандаңыз",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Кайра калыбына келтирүүнү тастыктоо",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Сакталган көчүрмөнү калыбына келтирүү бардык учурдагы маалыматтарды өчүрүп, сакталган көчүрмө менен алмаштырат, бул операцияны кайтаруу мүмкүн эмес. Улантууну каалайсызбы?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "кайра тастыктоо",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Сиз чын эле бар болгону бардык маалыматты тазалап, камдык көчүрмөнү калыбына келтиргиңиз келеби? Бул операцияны калыбына келтирүү мүмкүн эмес!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Кайра калыбына келтирүүнү тастыктоо",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Калыбына келтирүү ийгиликтүү болду, жалпы {count} предмет",
+  "@restore_success": {
+    "description": "Калыбына келтирүү ийгиликтүү болду деген билдирүү",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Калыбына келтирүү ишке ашкан жок: {error}",
+  "@restore_failed": {
+    "description": "Калыбына келтирүү ийгиликсиз болуу катасы",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Көшүрмө файлын тандаңыз",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Копияны калыбына келтирүү",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Тандалган файл: {filename}",
+  "@selected_file": {
+    "description": "Тандалган файл жөнүндө билдирүү",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Маалыматты ийгиликтүү экспорттоо",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Экспорттоо ийгиликсиз болду: {error}",
+  "@export_failed": {
+    "description": "Экспорттоо мүмкүн болбой калды катанын билдирүүсү",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Кайталоо маалыматтарын кайра иштетүү",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Кайталанган маалымат аныкталды, иш алып баруунун ыкмасын тандаңыз:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Өткөрүү",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "каптоо",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Бардысын өткөрүп жибер",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Баарын камтуу",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Эң алды менен импорттоо форматтарын тандаңыз",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Импорттоону ырастоо",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Маалыматты импорттоо бар болгон маалыматты алмаштырат, бул операцияны калыбына келтирүүгө болбойт. Улантууну каалайсызбы?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Маалыматтарды импорттоо ийгиликтүү болду, жалпы {count} предмет импорттолду",
+  "@import_success": {
+    "description": "Импорт ийгиликтүү болду деген кабар",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Импорттоо ийгиликсиз болду: {error}",
+  "@import_failed": {
+    "description": "Импорттоо мүмкүн болбой калды катасынын билдирүүсү",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Файлды тандаңыз",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Маалымат жок",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Азыр маалымат жок, төмөнкү баскычты басып биринчи жазууну кошуңуз!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Жүктөө мүмкүн болгон жок",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Маалыматтарды жүктөө ишке ашкан жок, тармактык байланышты текшерип кайра аракет кылыңыз",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Кайра аракет кылуу",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Тор байланышы ийгиликсиз болду",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Тармакка туташканыңызды текшерип, кайра аракет кылыңыз",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Натыйжалар табылган жок",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Башка ачкыч сөздөрдү колдонуп издөөнү аракет кылыңыз",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Издөөнү тазалоо",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Жетишсиз уруксат",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Бул функцияны колдонуу үчүн тиешелүү уруксаттар керек",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Рухсат сурайт",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Колдонмо маалыматтары",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "Нуска",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Өнүктүрүүчү",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Жабдыктын маалыматы",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Жабдыктын модели",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Бренд",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Жабдыктын аты",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "Продукт",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "аппараттык камсыздоо",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android нускасы",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK версиясы",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Системанын аты",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Система версиясы",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Жабдуу идентификатору",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Компьютердин аты",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Нускасынын номери",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Өткөрмөчү түзмөктүн маалыматын алуу мүмкүн эмес: {error}",
+  "@error_getting_device_info": {
+    "description": "Жабдуу маалыматтарын алуу катасы жөнүндө билдирүү",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Функцияны тааныштыруу",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Акылдуу буюмдарды башкаруу тиркемеси",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Сизге буюмдардын мөөнөтү өтүү датасын, кепилдик мөөнөтүн жана башка маалыматтарды башкарууга жардам берет жана акылдуу эскертүү функциясын камсыз кылат.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "жок кылынуучу буюмдар",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Туруктуу буюмдар",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Тартуу",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Атын көбөйтүп иреттөө",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Атын азайтуу боюнча даражалоо",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Дата боюнча өсүп жатат",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Дата боюнча кыскарган тартип",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Бирдик баасы боюнча өскөн тартип",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Бирдик баасы боюнча төмөндөн жогору",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Саны боюнча өсүүчү тартип",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Саны боюнча төмөндөн жогору",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Жалпы баанын өсүүчү тартиби",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Жалпы баанын төмөндөн жогоруруу тартиби",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Бардык фильтрлерди тазалоо",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Кодду сканерлөө менен кампага киргизүү",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Элементтерди издөө...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Азырынча буюм жок",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Төмөнкү баскычты басып биринчи нерсени кошуңуз",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Мудасы өтүп кеткен",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Мудасы өтө элек",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Кепилдик мөөнөтү бүткөн",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Кепилдик мөөнөтү жакында аяктайт",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Калган {count} күн",
+  "@days_remaining": {
+    "description": "Калган күндөр параметр менен",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "{count} күн мурун эскирген",
+  "@expired_days_ago": {
+    "description": "Мөөнөтү өткөн күндөр параметри менен",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Элементти жок кылуу",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "«{name}» өчүрүлүшүн каалайсызбы?",
+  "@delete_item_confirm": {
+    "description": "Очун текшерүү билдирүүсү",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Элемент өчүрүлдү",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Өчүрүү ишке ашпай калды",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Элементти өчүрүү мүмкүн эмес: {error}",
+  "@failed_to_delete_message": {
+    "description": "Ката билдирүүнү өчүрүү",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Дата диапазонун тандоо",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Баа диапазонун фильтрлөө",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Менин буюмдарым",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Оң жердеги ылдыйкы бурчтагы баскычты басып, нерселерди кошуңуз",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Жок кылууну ырастоо",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Фильтр тандоолору",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Өнүмдөрдү түрү, категориясы жана жайгашкан жерине карап сүзүү",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} категория",
+  "@categories_count": {
+    "description": "Санат боюнча сан көргөзүү",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Бардык категориялар",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Азырынча категория боюнча маалымат жок",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Сактоо жери",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} жерлер",
+  "@locations_count": {
+    "description": "Жергиликтин саны көрсөтүлөт",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Бардык жерлер",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Азырынча жер маалыматтары жок",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Дата диапазону",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Дата диапазонун тандаңыз",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Баа диапазону",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Бирдик баасынын диапазону",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Эң төмөнкү бирдик баасы",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Эң жогорку бирдик баа",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Жалпы баа диапазону",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Эң төмөнкү жалпы баа",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Эң жогорку жалпы баа",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Баа фильтрлерин тазалоо",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Штрих-кодду кутучага салып сканердеңиз",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Продукция буга чейин бар",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Штрихкод: {barcode}",
+  "@barcode_with_value": {
+    "description": "Штрих-код параметрлер менен көрсөтүлөт",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Аты: {name}",
+  "@name_with_value": {
+    "description": "Аталышы параметрлер менен көрсөтүлөт",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Категория:{category}",
+  "@category_with_value": {
+    "description": "Параметр менен категориялап көрсөтүү",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Азыркы санда: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Азыркы саны параметр менен көрсөтүлөт",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Иштөө ыкмасын тандаңыз:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "Жеткирүү",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "камдыкка киргизүү",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Жеткирилген сандары",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Жеткирилген сандары",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "сан",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Сактоого алынуучу санын киргизиңиз",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Сураныч, чыгаруу санын киргизиңиз",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "_{name} {quantity}{unit} кошулду",
+  "@item_increased": {
+    "description": "Элемент кошуу жөнүндө кабар",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "«{name}» өчүрүлүшүн чындап каалайсызбы? Бул аракет кайтарылгыс.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Жок кылуу тастыктоо билдирүүсү кайтарылгыс эскертүү менен",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Азайган {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Элементтин азайгандыгы тууралуу билдирүү",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Маалымат базасы кайра орнотулду, таблицанын структурасы кайра түзүлөт",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Мелдеш базасын кайра орнотуу учурунда ката кетти: {error}",
+  "@database_reset_error": {
+    "description": "Маалымат базасын кайра түзүү катасы",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Симуляциялык маалыматтарды инициализациялоо ишке ашкан жок: {error}",
+  "@mock_data_init_failed": {
+    "description": "Имитация маалыматтарын инициализациялоо ийгиликсиз болду",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Чечүү жолу:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Колдонмону өчүрүп кайра орнотуу",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Же колдонмо маалыматтарын тазалоо",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. же resetDatabaseOnStart маанисин true кылып коюп кайра иштетүү",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Эскертме кызматы башталбады: {error}",
+  "@notification_service_init_failed": {
+    "description": "Билдирүү кызматынын инициализациясы ишке аша калган жок",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Календарь эсеп жазуу катасы: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Күнтүзмө аккаунтун текшерүү мүмкүн болбой калган",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Күнтүзмө түзүү мүмкүн болбой калды: {error}",
+  "@create_calendar_failed": {
+    "description": "Календарды түзүү ийгиликсиз болду",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Calendar окуясын кошуу мүмкүн болбой калды: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Күнтүзүм окуясын кошууга болбой калды",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Calendar окуясын өчүрүү мүмкүн болгон жок: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Күн тартибиндеги окуяны өчүрүү мүмкүн болбой калды",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Рўксат берүү эскертүү билдирүүсүн орнотуу ийгиликсиз болду: {error}",
+  "@set_permission_message_failed": {
+    "description": "Сырсөз жооп берүү билдирүүсүн орнотуу мүмкүн болбой жатат",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "{count} сандагы имитациялык маалымат ийгиликтүү башталды",
+  "@mock_data_init_success": {
+    "description": "Имитация маалыматтарын ийгиликтүү инициализациялоо",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Маалымдар базасында {count} маалыматтар бар, симуляцияланган маалыматтарды инициализациялоодон өтүп кетти",
+  "@database_has_data": {
+    "description": "Маалымат базасында маалымат бар",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Мүмкүн базанын түзүмү дал келбейт, колдонума байланыштуу маалыматтарды тазалоону же кайра орнотууну сунуштаймыз",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Эски маалымат базасы файлы өчүрүлдү",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Сакталган маалымат бош",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Көшүрмө файл жок",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Файлдын коддолушу жарактуу UTF-8 форматында эмес. Файл UTF-8 коддолушунда сакталганына ынанууңузду суранабыз. Ката жөнүндө маалымат: {error}",
+  "@file_not_utf8": {
+    "description": "Файл коддоо катасы",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Файл табылган жок: {filePath}",
+  "@file_not_found": {
+    "description": "Файл жок катасы",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Файл бош: {filePath}",
+  "@file_empty": {
+    "description": "Файл бош ката",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Файлдын мазмуну декоддоодон кийин бош, мүмкүн коддоо туура келбейт",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} бош болбошу керек",
+  "@field_cannot_be_empty": {
+    "description": "Майдан бош боло албайт текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} узундугу {minLength} белгиден азыраак болбошу керек",
+  "@field_min_length": {
+    "description": "Талондун минималдуу узундугун текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} узундугу {maxLength} белгиден ашпашы керек",
+  "@field_max_length": {
+    "description": "Талдоо талаасынын максималдуу узундугун текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Жарамдуу {fieldName} дарегин киргизиңиз",
+  "@field_invalid_email": {
+    "description": "Электрондук почта форматын текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} милдеттүү түрдө {numberType} болушу керек",
+  "@field_invalid_number": {
+    "description": "санFormatting текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} {min}дан аз болбошу керек",
+  "@field_min_value": {
+    "description": "Минималдык текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} {max}дан чоң болбошу керек",
+  "@field_max_value": {
+    "description": "Эң чоң маанини текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} милдеттендирилгендей оң бүтүн сан болушу керек",
+  "@field_positive_integer": {
+    "description": "Оң бүтүн санды текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} 0дон чоң болушу керек",
+  "@field_greater_than_zero": {
+    "description": "Нөлдөн чоң экенин текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} оң сан болушу керек",
+  "@field_positive_number": {
+    "description": "Оң сан текшерүүсү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Өтүнмө анын жарактуу {fieldName} киргизиңиз",
+  "@field_invalid_date": {
+    "description": "Дата формат текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} өтө мурунку дата болбойт",
+  "@field_date_not_past": {
+    "description": "Дата мурунку болбогон керек",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} {minDate} датасынан эрте болбошу керек",
+  "@field_date_not_before": {
+    "description": "Дата көрсөтүлгөн датадан эртерээк болбошу керек",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} {maxDate}дан кеч болбошу керек",
+  "@field_date_not_after": {
+    "description": "Дата көрсөтүлгөн датадан кеч болбошу керек",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Өтүнмөк анын жарактуу {fieldName} киргизиңиз",
+  "@field_invalid_value": {
+    "description": "Жараксыз маанини текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} узундугу 8 белгиден аз болбошу керек",
+  "@password_min_length": {
+    "description": "Паролдун минималдык узундугун текшерүү",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} кеминде бир баскычы чоң тамгасын камтышы керек",
+  "@password_uppercase_required": {
+    "description": "Купуя сөз чоң тамгаларды камтышы керек",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} кеминде бир кичине тамга камтышы керек",
+  "@password_lowercase_required": {
+    "description": "Купуя сөз кичине тамгаларды камтышы керек",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} жок дегенде бир сан камтышы керек",
+  "@password_digit_required": {
+    "description": "Сырсөздө сан болушу керек",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} кеминде бир атайын символду камтышы керек",
+  "@password_special_char_required": {
+    "description": "Пароль атайын символдорду камтышы керек",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Эки жолу киргизилген сырсөз дал келбейт",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Элементтин аты бош болбошу керек",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Аты {maxLength} символдон ашып кетпеши керек",
+  "@name_max_length": {
+    "description": "Аттын эң узунун текшерүү",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Саны {minQuantity} дан аз болбошу керек",
+  "@quantity_min": {
+    "description": "Эң аз сандын текшерүүлөрү",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Саны {maxQuantity} ашпашы керек",
+  "@quantity_max": {
+    "description": "Мaksimalдуу санды текшерүү",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Бирдик баасы терс болушу мүмкүн эмес",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Бирдиктик баасы {maxUnitPrice} ашып кетпеши керек",
+  "@unit_price_max": {
+    "description": "Бирдик баанын максималдык текшерүүсү",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Сураныч, жарактуулук мөөнөтүн автоматтык түрдө эсептөө үчүн өндүрүш датасын жана сактоо мөөнөтүн орнотуңуз",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Сураныч, кепилдик мөөнөтүн автоматтык түрдө эсептөө үчүн сатып алуу датасын жана сактоо мөөнөтүн орнотуңуз",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Календар аккаунтын түзө албай жатат, системанын календарь жөндөмдөрүн текшериңиз",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Сынак Билдирүүсү",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Бул жергиликтүү эскертүү функциясын текшерүү үчүн тесттик билдирүү",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "асман",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} күн",
+  "@days_with_value": {
+    "description": "Күндөр параметр менен",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Элемент сакталды",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Элемент жаңыртылды",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Элемент кошулду",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Сактоо ийгиликтүү болду",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Жаңылоо ийгиликтүү болду",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Иш-аракет ийгиликтүү аткарылды",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Сактоо мүмкүн болгон жок",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Жаңыртуу ишке ашпай калды",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Өчүрүү ишке болгон жок",
+  "@delete_failed": {
+    "description": ""
+  }
+}

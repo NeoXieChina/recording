@@ -45,7 +45,10 @@ import 'app_localizations_kk.dart';
 import 'app_localizations_km.dart';
 import 'app_localizations_kn.dart';
 import 'app_localizations_ko.dart';
+import 'app_localizations_ky.dart';
+import 'app_localizations_mn.dart';
 import 'app_localizations_ms.dart';
+import 'app_localizations_mww.dart';
 import 'app_localizations_nl.dart';
 import 'app_localizations_pt.dart';
 import 'app_localizations_ru.dart';
@@ -54,6 +57,7 @@ import 'app_localizations_th.dart';
 import 'app_localizations_tr.dart';
 import 'app_localizations_ug.dart';
 import 'app_localizations_uk.dart';
+import 'app_localizations_vi.dart';
 import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
@@ -183,7 +187,10 @@ abstract class AppLocalizations {
     Locale('km'),
     Locale('kn'),
     Locale('ko'),
+    Locale('ky'),
+    Locale('mn'),
     Locale('ms'),
+    Locale('mww'),
     Locale('nl'),
     Locale('pt'),
     Locale('ru'),
@@ -192,6 +199,8 @@ abstract class AppLocalizations {
     Locale('tr'),
     Locale('ug'),
     Locale('uk'),
+    Locale('vi'),
+    Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
   ];
 
   ///
@@ -248,31 +257,31 @@ abstract class AppLocalizations {
   /// **'设置'**
   String get settings;
 
-  /// No description provided for @language_settings.
+  ///
   ///
   /// In zh, this message translates to:
   /// **'语言设置'**
   String get language_settings;
 
-  /// No description provided for @language_settings_description.
+  ///
   ///
   /// In zh, this message translates to:
   /// **'设置应用显示语言'**
   String get language_settings_description;
 
-  /// No description provided for @system_default.
+  ///
   ///
   /// In zh, this message translates to:
   /// **'系统默认'**
   String get system_default;
 
-  /// No description provided for @use_system_language.
+  ///
   ///
   /// In zh, this message translates to:
   /// **'使用系统语言'**
   String get use_system_language;
 
-  /// No description provided for @language_change_hint.
+  ///
   ///
   /// In zh, this message translates to:
   /// **'语言更改将在应用重启后生效'**
@@ -2010,7 +2019,10 @@ class _AppLocalizationsDelegate
     'km',
     'kn',
     'ko',
+    'ky',
+    'mn',
     'ms',
+    'mww',
     'nl',
     'pt',
     'ru',
@@ -2019,6 +2031,7 @@ class _AppLocalizationsDelegate
     'tr',
     'ug',
     'uk',
+    'vi',
     'zh',
   ].contains(locale.languageCode);
 
@@ -2027,6 +2040,18 @@ class _AppLocalizationsDelegate
 }
 
 AppLocalizations lookupAppLocalizations(Locale locale) {
+  // Lookup logic when language+script codes are specified.
+  switch (locale.languageCode) {
+    case 'zh':
+      {
+        switch (locale.scriptCode) {
+          case 'Hant':
+            return AppLocalizationsZhHant();
+        }
+        break;
+      }
+  }
+
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
     case 'af':
@@ -2109,8 +2134,14 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsKn();
     case 'ko':
       return AppLocalizationsKo();
+    case 'ky':
+      return AppLocalizationsKy();
+    case 'mn':
+      return AppLocalizationsMn();
     case 'ms':
       return AppLocalizationsMs();
+    case 'mww':
+      return AppLocalizationsMww();
     case 'nl':
       return AppLocalizationsNl();
     case 'pt':
@@ -2127,6 +2158,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsUg();
     case 'uk':
       return AppLocalizationsUk();
+    case 'vi':
+      return AppLocalizationsVi();
     case 'zh':
       return AppLocalizationsZh();
   }

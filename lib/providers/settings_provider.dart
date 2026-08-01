@@ -90,7 +90,7 @@ class SettingsProvider extends ChangeNotifier {
       }
     } catch (e) {
       // 忽略错误，使用默认设置
-      print('Failed to load locale: $e');
+      // print('Failed to load locale: $e');
     }
   }
 
@@ -107,7 +107,7 @@ class SettingsProvider extends ChangeNotifier {
         await prefs.setString(_localeKey, localeString);
       }
     } catch (e) {
-      print('Failed to save locale: $e');
+      // print('Failed to save locale: $e');
     }
     notifyListeners();
   }

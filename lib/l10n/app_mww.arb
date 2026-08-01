@@ -1,0 +1,1625 @@
+{
+  "@@locale": "mww",
+  "app_name": "Khoom muaj nqis hauv ib qho chaw me me",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Tshem tawm",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Xyuas kom meej",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Txuag",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Rho tawm",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Kho kom raug",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Ntxiv",
+  "@add": {
+    "description": ""
+  },
+  "search": "Nrhiav",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Chaw teeb tsa",
+  "@settings": {
+    "description": ""
+  },
+  "language_settings": "Chaw teeb tsa lus",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Teem hom lus qhia app",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "System Default",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Siv lus system",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Kev hloov lus yuav muaj txiaj ntsig tom qab daim ntawv thov rov pib dua.",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "back": "Rov qab los",
+  "@back": {
+    "description": ""
+  },
+  "next": "Kauj ruam tom ntej",
+  "@next": {
+    "description": ""
+  },
+  "done": "Ua tiav",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Tab tom thauj khoom...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Yuav ua yuam kev",
+  "@error": {
+    "description": ""
+  },
+  "success": "Kev vam meej",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Ceeb toom",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Cov ntaub ntawv",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Xaiv hnub ceeb toom",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Kev cai",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Kev cai ({days} hnub)",
+  "@custom_days": {
+    "description": "Hnub tsim tshwj xeeb nrog cov ntsiab lus",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "current_selection": "Kev xaiv tam sim no: {days} hnub",
+  "@current_selection": {
+    "description": "Hnub xaiv tam sim no qhia",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Hnub ceeb toom: {min}-{max} hnub",
+  "@alert_days_range": {
+    "description": "Cov hnub ceeb toom nrog cov ntsiab lus",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Thov sau hnub ceeb toom",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Tus naj npawb hnub",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Thov sau ib tus lej ntawm {min} thiab {max}",
+  "@enter_valid_days": {
+    "description": "Tus naj npawb hnub ntawm cov lus txheeb xyuas kev nkag",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Chaw Ceeb Toom",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Chaw Teeb Tsa Calendar",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Calendar Sync",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Yuav thov kev tso cai calendar thaum qhib",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Ntxiv kev tshwm sim hauv daim ntawv qhia hnub sim",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Thov qhib 'Calendar Sync' hloov ua ntej",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "App Ceeb Toom Teeb Meem",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Ceeb toom hauv zos",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Tau txais kev ceeb toom txog hnub tas sij hawm hauv app tom qab qhib",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Xa ntawv ceeb toom kuaj",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Thov qhib 'Local Notifications' switch ua ntej",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Kev teeb tsa hnub ceeb toom",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Hnub rau kev ceeb toom ua ntej",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Teem pes tsawg hnub ua ntej kom nco txog hnub tas sij hawm lossis warranty",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Kev thov tso cai rau daim ntawv qhia hnub",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Yuav tsum tau nkag mus rau daim calendar thiaj li sync tau cov lus ceeb toom txog yam khoom. Pub?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Cia",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Kev tso cai calendar tau muab lawm, thiab kev sync calendar tau qhib",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Kev tso cai calendar raug tsis lees paub, tsis tuaj yeem qhib kev sync calendar",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Kev tso cai raug tsis lees txais mus tas mus li",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Kev tso cai rau daim ntawv qhia hnub tim tau raug tsis lees paub tas mus li. Thov manually qhib qhov kev tso cai hauv system settings.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Mus rau chaw teeb tsa",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Kev tso cai calendar twb tau muab lawm, tab sis tsis tuaj yeem tsim ib tus account calendar. Thov xyuas cov chaw teeb tsa ntawm lub system calendar.",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Kev tso cai calendar tau muab lawm, thiab ib tus account calendar hauv zos tau tsim",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Tus account calendar tau tsim tiav lawm, tab sis lub system yuav siv sijhawm me ntsis thiaj li ua haujlwm.",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Kev sim calendar event tau ntxiv tiav lawm",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Tsis tau ntxiv qhov xwm txheej hnub tim kuaj, thov xyuas cov chaw teem sijhawm",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Yuav tsum muaj kev tso cai calendar thiaj li ntxiv tau ib qho kev sim",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Kev ceeb toom kuaj tau xa lawm",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Tsis tau xa ntawv ceeb toom kuaj: {error}",
+  "@test_notification_failed": {
+    "description": "Lus ceeb toom yuam kev",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Yuav tsum muaj kev tso cai ceeb toom kom qhib tau kev ceeb toom hauv zos",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Kev ua haujlwm tsis tau: {error}",
+  "@operation_failed": {
+    "description": "Cov lus yuam kev ua haujlwm dav dav",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Ceeb toom txog yam khoom",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Kev ceeb toom txog khoom tas sij hawm lossis warranty",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "Zaub mov",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Cov khoom siv txhua hnub",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Khoom zoo nkauj",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Kev kho mob",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Cov khoom hluav taws xob",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Cov rooj tog",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Khaub ncaws",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Phau Ntawv",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Lwm yam",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Khw muag khoom hauv online",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Khw muag khoom tiag tiag",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "khw muag khoom loj",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "Khw tshwj xeeb",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "Kev lag luam siv dua",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Lwm yam",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Lwm yam",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Khw muag khoom hauv online",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Kev faib khoom",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Qeb tshwj xeeb",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Thaub qab cov ntaub ntawv",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Ntim tag nrho cov ntaub ntawv (xws li duab) rau hauv ib daim ZIP ntaub ntawv rau thaub qab",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Thaub qab tag nrho cov ntaub ntawv",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Thaub qab ua tiav",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Thaub qab tsis tau: {error}",
+  "@backup_failed": {
+    "description": "Backup tsis ua tiav lus yuam kev",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Rov qab tau cov ntaub ntawv",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Rov qab tag nrho cov ntaub ntawv los ntawm ZIP backup file",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Xa tawm cov ntaub ntawv",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Xa tawm ua CSV, TXT, SQL hom ntawv",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Import Cov Ntaub Ntawv",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Ntshuam cov ntaub ntawv los ntawm CSV, TXT, SQL cov ntaub ntawv",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Kev ceeb toom hauv daim calendar thiab kev teeb tsa app push notification",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Hais Txog",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "App Cov Ntaub Ntawv thiab Version",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Thov xaiv ib daim backup file ua ntej",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Xyuas kom rov qab tau",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Rov qab thaub qab yuav tshem tag nrho cov ntaub ntawv uas twb muaj lawm thiab hloov nrog cov ntaub ntawv thaub qab. Qhov kev ua no tsis tuaj yeem hloov tau. Koj puas paub tseeb tias koj xav txuas ntxiv?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Xyuas dua",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Koj puas paub tseeb tias koj xav tshem tag nrho cov ntaub ntawv uas twb muaj lawm thiab rov qab tau backup? Qhov kev ua no tsis tuaj yeem hloov tau!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Xyuas kom rov qab tau",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Kev kho dua tshiab ua tiav, tag nrho muaj {count} yam khoom",
+  "@restore_success": {
+    "description": "Rov qab tau cov lus ua tiav",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Kev rov qab tsis tau: {error}",
+  "@restore_failed": {
+    "description": "Cov lus yuam kev rov qab tsis ua tiav",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Xaiv cov ntaub ntawv thaub qab",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Rov qab thaub qab",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Cov ntaub ntawv xaiv: {filename}",
+  "@selected_file": {
+    "description": "Cov lus xaiv hauv cov ntaub ntawv",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Kev xa tawm ntaub ntawv ua tiav",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Export tsis tau: {error}",
+  "@export_failed": {
+    "description": "Xa tawm cov lus yuam kev tsis ua tiav",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Kev ua ntaub ntawv rov ua dua",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Yog pom cov ntaub ntawv rov ua dua, thov xaiv txoj kev tswj:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Hla",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "npog",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Hla tag nrho",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Kev npog tag nrho",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Thov xaiv hom import ua ntej",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Xyuas kom nkag tau",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Import cov ntaub ntawv yuav overwrite cov ntaub ntawv uas twb muaj lawm. Qhov kev ua no tsis tuaj yeem hloov tau. Koj puas paub tseeb tias koj xav txuas ntxiv?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Kev xa ntaub ntawv ua tiav, tag nrho {count} yam khoom tau xa tuaj",
+  "@import_success": {
+    "description": "Import Lus Ua Tau Zoo",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Import tsis tau: {error}",
+  "@import_failed": {
+    "description": "Import tsis ua tiav lus yuam kev",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Xaiv Cov Ntaub Ntawv",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Tsis muaj ntaub ntawv",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Tam sim no tsis muaj ntaub ntawv. Nyem lub pob hauv qab no kom ntxiv zaj nkauj thawj!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Thauj khoom tsis tau",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Kev thauj ntaub ntawv tsis tau, thov xyuas koj qhov kev txuas network thiab sim dua",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "rov sim dua",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Kev txuas network tsis ua tiav",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Thov xyuas koj qhov kev txuas network thiab sim dua",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Tsis pom txiaj ntsig",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Sim tshawb nrhiav nrog lwm lo lus tseem ceeb",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Ntxuav Kev Tshawb Nrhiav",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Kev tso cai tsis txaus",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Koj yuav tsum muaj kev tso cai tsim nyog thiaj siv tau qhov feature no",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Thov kev tso cai",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Cov ntaub ntawv thov",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "Version",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Tus tsim kho",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Cov Ntaub Ntawv Txog Cov Khoom Siv",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Qauv Khoom Siv",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "Hom",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Lub Npe Khoom Siv",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "Khoom",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Kho vajtse",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android version",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK Version",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Lub Npe Txheej Txheem",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "System Version",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Kev txheeb xyuas cuab yeej",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Lub Npe Computer",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Version number",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Tsis tau txais cov ntaub ntawv ntaus ntawv: {error}",
+  "@error_getting_device_info": {
+    "description": "Cov lus yuam kev nrhiav ntaub ntawv ntaus ntawv",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Kev Taw Qhia Txog Kev Ua Haujlwm",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Daim ntawv thov tswj khoom ntse",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Pab koj tswj cov ntaub ntawv xws li hnub tas sij hawm thiab hnub lav ntawm cov khoom, thiab muab cov haujlwm ceeb toom ntse.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Cov khoom siv tas",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Cov khoom ruaj khov",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Sort",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Lub npe nce mus",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Lub npe nqis los ntawm qis",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Hnub tim nce mus",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Hnub tim txo qis",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Tus nqi ib qho nce ntxiv",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Tus nqi ib chav poob qis",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Kev txiav txim siab nce ntawm qhov ntau",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Tus naj npawb nqis qis",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Tus Nqi Tag Nrho Nce",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Tus nqi tag nrho poob qis",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Rho tawm tag nrho cov lim",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Scan code kom nkag mus rau hauv cov khoom hauv khw",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Nrhiav cov khoom...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Tam sim no tsis muaj khoom",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Nyem lub pob hauv qab no kom ntxiv thawj yam khoom",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Tas sij hawm lawm",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "Yuav xaus sai sai no",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Kev lav phib xaub twb tas lawm",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Kev lav phib xaub yuav xaus sai sai no",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Hnub {count} tshuav",
+  "@days_remaining": {
+    "description": "Cov hnub seem nrog cov ntsiab lus",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Xaus {count} hnub",
+  "@expired_days_ago": {
+    "description": "Hnub xaus nrog cov ntsiab lus",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Rho tawm yam khoom",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Koj puas paub tseeb tias koj xav tshem \"{name}\"?",
+  "@delete_item_confirm": {
+    "description": "Rho tawm lus lees paub",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Yam khoom tau raug tshem tawm",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Kev tshem tawm tsis ua tiav",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Tsis tuaj yeem rho tawm yam khoom: {error}",
+  "@failed_to_delete_message": {
+    "description": "Rho tawm cov lus yuam kev",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Lim hnub tim",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Nqe lim",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Kuv cov khoom",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Nyem lub pob hauv qab sab xis kom ntxiv ib yam khoom",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Xyuas kom meej tias tau tshem tawm",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Kev xaiv lim",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Lim cov khoom raws li hom, pawg, thiab qhov chaw",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} pawg",
+  "@categories_count": {
+    "description": "Qhia Tus Naj Npawb Pawg",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Tag nrho pawg",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Tsis muaj cov ntaub ntawv pawg",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Chaw khaws cia",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} chaw",
+  "@locations_count": {
+    "description": "Tus naj npawb ntawm cov chaw uas qhia",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Txhua qhov chaw",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Tsis muaj ntaub ntawv chaw nyob",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Date Range",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Xaiv hnub tim",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Nqe Nqe",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Tus nqi ib qho",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Tus nqi tsawg kawg nkaus ib chav",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Tus nqi siab tshaj plaws ib qho khoom",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Tag nrho tus nqi",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Tus nqi tsawg kawg nkaus tag nrho",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Tus nqi siab tshaj plaws tag nrho",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Lim nqi meej",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Muab barcode tso rau hauv thav duab kom scan",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Cov khoom twb muaj lawm",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Barcode: {barcode}",
+  "@barcode_with_value": {
+    "description": "Barcode zaub nrog cov ntsiab lus",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Lub npe: {name}",
+  "@name_with_value": {
+    "description": "Lub npe qhia nrog cov ntsiab lus",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Qeb: {category}",
+  "@category_with_value": {
+    "description": "Qhia tawm raws pawg nrog cov ntsiab lus",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Tam sim no muaj ntau: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Qhov ntau tam sim no qhia nrog cov parameter",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Thov xaiv ib qho kev ua:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "tawm mus",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "Kev nkag mus khaws cia",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Qhov ntau tuaj",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "qhov ntau tawm",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Qhov ntau",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Thov sau tus naj npawb uas yuav muaj",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Thov sau tus naj npawb uas yuav xa tawm",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Tau ntxiv {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "Kev ceeb toom ntxiv yam khoom",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Koj puas paub tseeb tias koj xav tshem \"{name}\"? Qhov kev ua no tsis tuaj yeem hloov tau.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Rho tawm lus lees paub nrog kev ceeb toom tsis hloov tau",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Tau txo qis los ntawm {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Lus txo khoom",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Lub database tau rov pib dua, thiab lub qauv rooj yuav tsim dua tshiab.",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Yuav ua yuam kev rov kho database: {error}",
+  "@database_reset_error": {
+    "description": "Database reset yuam kev",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Kev pib ua qauv ntaub ntawv tsis ua tiav: {error}",
+  "@mock_data_init_failed": {
+    "description": "Kev pib simulation data tsis ua tiav",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Kev daws teeb meem:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Tshem tawm app thiab rov nruab dua",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Los yog tshem tawm cov ntaub ntawv app",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Los yog teeb resetDatabaseOnStart rau true thiab khiav dua",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Kev pib kev pabcuam ceeb toom tsis ua tiav: {error}",
+  "@notification_service_init_failed": {
+    "description": "Kev pib kev pabcuam ceeb toom tsis ua tiav",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Tsis tau xyuas tus account calendar: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Tsis tau xyuas tus account calendar",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Tsis tau tsim calendar: {error}",
+  "@create_calendar_failed": {
+    "description": "Tsis tau tsim daim calendar",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Tsis tau ntxiv qhov xwm txheej calendar: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Tsis tau ntxiv qhov xwm txheej calendar",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Tsis tau tshem tawm qhov xwm txheej calendar: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Tsis tau tshem tawm qhov xwm txheej calendar",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Tsis tau teeb tsa permission prompt message: {error}",
+  "@set_permission_message_failed": {
+    "description": "Tsis tau teeb tsa permission prompt message",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Tau pib ua tiav {count} daim ntaub ntawv simulation",
+  "@mock_data_init_success": {
+    "description": "Cov ntaub ntawv mock tau pib ua tiav lawm",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Lub database twb muaj cov ntaub ntawv {count} lawm, tsis tas yuav pib mock data",
+  "@database_has_data": {
+    "description": "Lub database twb muaj cov ntaub ntawv lawm",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Tej zaum yog vim muaj kev tsis sib haum hauv cov qauv database. Pom zoo kom tshem tawm cov ntaub ntawv app lossis rov nruab dua.",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Cov ntaub ntawv database qub twb raug tshem tawm lawm",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Cov ntaub ntawv thaub qab tsis muaj dab tsi",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Cov ntaub ntawv thaub qab tsis muaj",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Cov ntaub ntawv encoding tsis yog ib hom UTF-8 raug cai. Thov xyuas kom cov ntaub ntawv tau khaws tseg siv UTF-8 encoding. Cov ntsiab lus yuam kev: {error}",
+  "@file_not_utf8": {
+    "description": "Cov ntaub ntawv encoding yuam kev",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Cov ntaub ntawv tsis muaj: {filePath}",
+  "@file_not_found": {
+    "description": "Tsis pom ntaub ntawv yuam kev",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Cov ntaub ntawv tsis muaj dab tsi: {filePath}",
+  "@file_empty": {
+    "description": "File is empty yuam kev",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Cov ntaub ntawv tsis muaj dab tsi tom qab decode, tej zaum vim muaj kev tsis sib haum encoding",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} tsis tuaj yeem yog qhov khoob",
+  "@field_cannot_be_empty": {
+    "description": "Qhov chaw tsis tuaj yeem yog kev kuaj xyuas tsis muaj dab tsi",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} ntev tsis pub tsawg dua {minLength} tus cim",
+  "@field_min_length": {
+    "description": "Kev txheeb xyuas qhov ntev tsawg kawg ntawm qhov chaw",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} ntev tsis pub tshaj {maxLength} tus cim",
+  "@field_max_length": {
+    "description": "Kev Tshawb Xyuas Qhov Ntev Tshaj Plaws Ntawm Qhov Chaw",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Thov sau ib qho chaw {fieldName} raug cai",
+  "@field_invalid_email": {
+    "description": "Kev txheeb xyuas hom email",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} yuav tsum {numberType}",
+  "@field_invalid_number": {
+    "description": "Kev txheeb xyuas hom lej",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} tsis tuaj yeem tsawg dua {min}",
+  "@field_min_value": {
+    "description": "Kev Tshawb Xyuas Tus Nqi Tsawg Tshaj",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} tsis tuaj yeem loj tshaj {max}",
+  "@field_max_value": {
+    "description": "Kev txheeb xyuas tus nqi siab tshaj plaws",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} yuav tsum yog tus lej zoo",
+  "@field_positive_integer": {
+    "description": "Kev Tshawb Xyuas Integer Zoo",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} yuav tsum loj dua 0",
+  "@field_greater_than_zero": {
+    "description": "Kev txheeb xyuas ntau dua xoom",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} yuav tsum yog tus lej zoo",
+  "@field_positive_number": {
+    "description": "Kev Tshawb Xyuas Tus Naj Npawb Zoo",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Thov sau ib daim ntawv thov {fieldName}",
+  "@field_invalid_date": {
+    "description": "Kev txheeb xyuas hnub tim hom ntawv",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} tsis tuaj yeem yog hnub dhau los",
+  "@field_date_not_past": {
+    "description": "Hnub tim tsis tuaj yeem yog yav dhau los",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} tsis tuaj yeem ua ntej {minDate}",
+  "@field_date_not_before": {
+    "description": "Hnub tim tsis tuaj yeem ua ntej hnub tim uas tau teev tseg",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} tsis tuaj yeem lig dua {maxDate}",
+  "@field_date_not_after": {
+    "description": "Hnub tim tsis tuaj yeem dhau hnub tim uas tau teev tseg",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Thov sau ib daim ntawv thov {fieldName}",
+  "@field_invalid_value": {
+    "description": "Kev txheeb xyuas nqi tsis raug",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} tsis pub tsawg dua 8 tus cim ntev",
+  "@password_min_length": {
+    "description": "Kev txheeb xyuas qhov ntev tsawg kawg ntawm lo lus zais",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} yuav tsum muaj tsawg kawg ib tsab ntawv loj",
+  "@password_uppercase_required": {
+    "description": "Lo lus zais yuav tsum muaj cov ntawv loj",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} yuav tsum muaj tsawg kawg ib tsab ntawv me",
+  "@password_lowercase_required": {
+    "description": "Lo lus zais yuav tsum muaj cov ntawv me me",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} yuav tsum muaj tsawg kawg ib tus lej",
+  "@password_digit_required": {
+    "description": "Lo lus zais yuav tsum muaj cov lej",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} yuav tsum muaj tsawg kawg ib tus cim tshwj xeeb",
+  "@password_special_char_required": {
+    "description": "Lo lus zais yuav tsum muaj cov cim tshwj xeeb",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Ob lo lus zais uas tau sau tsis phim",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Lub npe khoom tsis tuaj yeem yog khoob",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Lub npe tsis pub tshaj {maxLength} tus cim",
+  "@name_max_length": {
+    "description": "Kev Txheeb Xyuas Ntev Tshaj Plaws ntawm Lub Npe",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Qhov ntau tsis pub tsawg dua {minQuantity}",
+  "@quantity_min": {
+    "description": "Kev Tshawb Xyuas Qhov Tsawg Tshaj Plaws",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Qhov ntau tsis pub tshaj {maxQuantity}",
+  "@quantity_max": {
+    "description": "Kev Tshawb Xyuas Qhov Ntau Tshaj Plaws",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Tus nqi ib qho tsis tuaj yeem yog tus nqi tsis zoo",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Tus nqi ib chav tsis pub tshaj {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "Kev Tshawb Xyuas Tus Nqi Siab Tshaj Ib Nqe",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Thov teeb hnub tsim khoom thiab lub neej khaws cia kom nws suav tau lub sijhawm siv tau tsis siv neeg",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Thov teeb hnub yuav khoom thiab lub neej txee kom suav tau lub sijhawm lav phib xaub tau",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Tsis tuaj yeem tsim ib tus account calendar, thov xyuas cov chaw teeb tsa ntawm system calendar",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Kev Ceeb Toom Kuaj",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Qhov no yog ib qho kev ceeb toom kuaj, siv los xyuas kom meej txog local reminder function",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "Ntuj",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} hnub",
+  "@days_with_value": {
+    "description": "Hnub nrog cov ntsiab lus",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Yam khoom tau khaws cia lawm",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Yam khoom tau hloov tshiab",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Yam khoom tau ntxiv lawm",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Txuag tau zoo",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Hloov tshiab tau ua tiav",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Rho tawm tiav lawm",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Txuag tsis tau",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Hloov tshiab tsis ua tiav",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Kev tshem tawm tsis ua tiav",
+  "@delete_failed": {
+    "description": ""
+  }
+}

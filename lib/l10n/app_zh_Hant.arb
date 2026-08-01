@@ -1,0 +1,1625 @@
+{
+  "@@locale": "zh_Hant",
+  "app_name": "藏物方寸",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "取消",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "確定",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "保存",
+  "@save": {
+    "description": ""
+  },
+  "delete": "刪除",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "編輯",
+  "@edit": {
+    "description": ""
+  },
+  "add": "添加",
+  "@add": {
+    "description": ""
+  },
+  "search": "搜尋",
+  "@search": {
+    "description": ""
+  },
+  "settings": "設定",
+  "@settings": {
+    "description": ""
+  },
+  "language_settings": "語言設定",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "設定應用顯示語言",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "系統默認",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "使用系統語言",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "語言更改將在應用重啟後生效",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "back": "返回",
+  "@back": {
+    "description": ""
+  },
+  "next": "下一步",
+  "@next": {
+    "description": ""
+  },
+  "done": "完成",
+  "@done": {
+    "description": ""
+  },
+  "loading": "加載中...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "錯誤",
+  "@error": {
+    "description": ""
+  },
+  "success": "成功",
+  "@success": {
+    "description": ""
+  },
+  "warning": "警告",
+  "@warning": {
+    "description": ""
+  },
+  "info": "資訊",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "選擇提醒天數",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "自訂",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "自訂（{days}天）",
+  "@custom_days": {
+    "description": "自訂天數帶參數",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "current_selection": "當前選擇：{days}天",
+  "@current_selection": {
+    "description": "當前選擇的天數顯示",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "提醒天數範圍：{min}-{max}天",
+  "@alert_days_range": {
+    "description": "提醒天數範圍帶參數",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "請輸入提醒天數",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "天數",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "請輸入{min}-{max}之間的數字",
+  "@enter_valid_days": {
+    "description": "天數輸入驗證消息",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "預警設置",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "日曆設定",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "日曆同步",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "開啟後將請求日曆權限",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "添加測試日曆事件",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "請先開啟「日曆同步」開關",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "App提醒設定",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "本地提醒",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "開啟後接收應用內過期提醒",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "發送測試通知",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "請先開啟「本地提醒」開關",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "提醒天數設置",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "提前提醒天數",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "設定提前多少天提醒物品過期或保修到期",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "日曆權限請求",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "需要訪問日曆權限來同步物品提醒。是否允許？",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "允許",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "日曆權限已授予，日曆同步已開啟",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "日曆權限被拒絕，無法開啟日曆同步",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "權限被永久拒絕",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "日曆權限被永久拒絕，請在系統設定中手動開啟權限。",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "去設置",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "日曆權限已授予，但無法創建日曆帳戶。請檢查系統日曆設定",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "日曆權限已授予，已創建本地日曆帳戶",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "日曆帳戶創建成功，但系統可能需要一些時間生效",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "測試日曆事件添加成功",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "添加測試日曆事件失敗，請檢查日曆設置",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "需要日曆權限才能添加測試事件",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "測試通知已發送",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "發送測試通知失敗: {error}",
+  "@test_notification_failed": {
+    "description": "通知錯誤消息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "需要通知權限才能啟用本地提醒",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "操作失敗: {error}",
+  "@operation_failed": {
+    "description": "通用操作錯誤消息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "物品預警通知",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "物品過期或過保提醒",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "食品",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "日用品",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "化妝品",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "藥品",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "電子產品",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "家具",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "服裝",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "書籍",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "其他",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "線上商城",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "實體店",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "超市",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "專賣店",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "二手市場",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "其他",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "其他",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "線上商城",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "物品分類",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "自訂分類",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "備份資料",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "將全部數據（包括圖片）打包為ZIP文件備份",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "備份全部資料",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "備份成功",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "備份失敗：{error}",
+  "@backup_failed": {
+    "description": "備份失敗錯誤訊息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "恢復資料",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "從ZIP備份文件恢復全部數據",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "導出資料",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "導出為CSV、TXT、SQL格式",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "導入資料",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "從CSV、TXT、SQL文件導入數據",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "日曆提醒和App推送提醒設置",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "關於",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "應用資訊和版本",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "請先選擇備份文件",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "確認恢復",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "恢復備份將清空所有現有數據並替換為備份數據，此操作不可撤銷。確定要繼續嗎？",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "再次確認",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "您確定要清空所有現有數據並恢復備份嗎？此操作將無法恢復！",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "確定恢復",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "恢復成功，共{count}條物品",
+  "@restore_success": {
+    "description": "恢復成功消息",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "恢復失敗：{error}",
+  "@restore_failed": {
+    "description": "恢復失敗錯誤消息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "選擇備份文件",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "恢復備份",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "已選擇檔案：{filename}",
+  "@selected_file": {
+    "description": "已選擇檔案訊息",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "數據導出成功",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "導出失敗：{error}",
+  "@export_failed": {
+    "description": "導出失敗錯誤訊息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "重複數據處理",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "檢測到重複數據，請選擇處理方式：",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "跳過",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "覆蓋",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "全部跳過",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "全部覆蓋",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "請先選擇導入格式",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "確認導入",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "導入資料將覆蓋現有資料，此操作不可撤銷。確定要繼續嗎？",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "數據導入成功，共導入{count}條物品",
+  "@import_success": {
+    "description": "導入成功消息",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "導入失敗：{error}",
+  "@import_failed": {
+    "description": "導入失敗錯誤訊息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "選擇文件",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "暫無資料",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "當前沒有資料，點擊下方按鈕添加第一條記錄吧！",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "加載失敗",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "數據加載失敗，請檢查網絡連接後重試",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "重試",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "網絡連接失敗",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "請檢查網絡連接後重試",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "未找到結果",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "嘗試使用其他關鍵詞搜索",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "清除搜尋",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "權限不足",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "需要相關權限才能使用此功能",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "請求權限",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "應用資訊",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "版本",
+  "@version": {
+    "description": ""
+  },
+  "developer": "開發者",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "設備資訊",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "設備型號",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "品牌",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "設備名稱",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "產品",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "硬體",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Android版本",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "SDK版本",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "系統名稱",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "系統版本",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "設備標識",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "電腦名稱",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "版本號",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "無法獲取設備資訊: {error}",
+  "@error_getting_device_info": {
+    "description": "設備資訊獲取錯誤訊息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "功能介紹",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "智慧物品管理應用",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "幫助您管理物品的過期日期、保固日期等資訊，並提供智慧提醒功能。",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "消耗品",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "耐用品",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "排序",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "名稱升序",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "名稱降序",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "日期升序",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "日期降序",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "單價升序",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "單價降序",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "數量升序",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "數量降序",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "總價升序",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "總價降序",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "清除所有篩選",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "掃碼入庫",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "搜尋物品...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "暫無物品",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "點擊下方按鈕添加第一個物品",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "已過期",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "即將過期",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "保修已過期",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "保修即將到期",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "剩餘{count}天",
+  "@days_remaining": {
+    "description": "剩餘天數帶參數",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "已過期{count}天",
+  "@expired_days_ago": {
+    "description": "過期天數帶參數",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "刪除物品",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "確定要刪除\"{name}\"嗎？",
+  "@delete_item_confirm": {
+    "description": "刪除確認訊息",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "物品已刪除",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "刪除失敗",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "無法刪除物品: {error}",
+  "@failed_to_delete_message": {
+    "description": "刪除錯誤消息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "日期範圍篩選",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "價格範圍篩選",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "我的物品",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "點擊右下角按鈕添加物品",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "確認刪除",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "篩選選項",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "按類型、分類和地點篩選物品",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} 個分類",
+  "@categories_count": {
+    "description": "分類數量顯示",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "全部分類",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "暫無分類數據",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "存儲地點",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} 個地點",
+  "@locations_count": {
+    "description": "地點數量顯示",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "全部地點",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "暫無地點資料",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "日期範圍",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "選擇日期範圍",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "價格範圍",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "單價範圍",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "最低單價",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "最高單價",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "總價範圍",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "最低總價",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "最高總價",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "清除價格篩選",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "將條碼放入框內掃描",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "商品已存在",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "條碼：{barcode}",
+  "@barcode_with_value": {
+    "description": "條碼顯示帶參數",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "名稱：{name}",
+  "@name_with_value": {
+    "description": "名稱顯示帶參數",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "分類：{category}",
+  "@category_with_value": {
+    "description": "分類顯示帶參數",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "當前數量：{quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "當前數量顯示帶參數",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "請選擇操作：",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "出庫",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "入庫",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "入庫數量",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "出庫數量",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "數量",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "請輸入入庫數量",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "請輸入出庫數量",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "已增加 {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "物品增加消息",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "確定要刪除「{name}」嗎？此操作不可撤銷。",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "刪除確認訊息帶不可撤銷警告",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "已減少 {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "物品減少消息",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "資料庫已重置，將重新創建表結構",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "重置資料庫時出錯: {error}",
+  "@database_reset_error": {
+    "description": "資料庫重置錯誤",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "模擬數據初始化失敗: {error}",
+  "@mock_data_init_failed": {
+    "description": "模擬數據初始化失敗",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "解決方案：",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. 卸載應用重新安裝",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. 或清除應用資料",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. 或將 resetDatabaseOnStart 設為 true 後重新運行",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "提醒服務初始化失敗: {error}",
+  "@notification_service_init_failed": {
+    "description": "通知服務初始化失敗",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "檢查日曆帳戶失敗: {error}",
+  "@check_calendar_account_failed": {
+    "description": "檢查日曆帳戶失敗",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "創建日曆失敗: {error}",
+  "@create_calendar_failed": {
+    "description": "創建日曆失敗",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "添加日曆事件失敗: {error}",
+  "@add_calendar_event_failed": {
+    "description": "添加日曆事件失敗",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "刪除日曆事件失敗: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "刪除日曆事件失敗",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "設定權限提示訊息失敗: {error}",
+  "@set_permission_message_failed": {
+    "description": "設定權限提示消息失敗",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "已成功初始化 {count} 條模擬資料",
+  "@mock_data_init_success": {
+    "description": "模擬數據初始化成功",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "資料庫已有 {count} 條數據，跳過模擬數據初始化",
+  "@database_has_data": {
+    "description": "資料庫已有資料",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "可能是資料庫結構不匹配，建議清除應用資料或重新安裝",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "已刪除舊資料庫檔案",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "備份數據為空",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "備份文件不存在",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "文件編碼不是有效的UTF-8格式。請確保文件使用UTF-8編碼保存。錯誤詳情: {error}",
+  "@file_not_utf8": {
+    "description": "檔案編碼錯誤",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "文件不存在: {filePath}",
+  "@file_not_found": {
+    "description": "檔案不存在錯誤",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "文件為空: {filePath}",
+  "@file_empty": {
+    "description": "檔案為空錯誤",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "文件內容解碼後為空，可能是編碼不匹配",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName}不能為空",
+  "@field_cannot_be_empty": {
+    "description": "欄位不能為空驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName}長度不能少於{minLength}個字符",
+  "@field_min_length": {
+    "description": "欄位最小長度驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName}長度不能超過{maxLength}個字符",
+  "@field_max_length": {
+    "description": "字段最大長度驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "請輸入有效的{fieldName}地址",
+  "@field_invalid_email": {
+    "description": "郵箱格式驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName}必須是{numberType}",
+  "@field_invalid_number": {
+    "description": "數字格式驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName}不能小於{min}",
+  "@field_min_value": {
+    "description": "最小值驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName}不能大於{max}",
+  "@field_max_value": {
+    "description": "最大值驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName}必須是正整數",
+  "@field_positive_integer": {
+    "description": "正整數驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName}必須大於0",
+  "@field_greater_than_zero": {
+    "description": "大於零驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName}必須是正數",
+  "@field_positive_number": {
+    "description": "正數驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "請輸入有效的{fieldName}",
+  "@field_invalid_date": {
+    "description": "日期格式驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName}不能是過去日期",
+  "@field_date_not_past": {
+    "description": "日期不能是過去",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName}不能早於{minDate}",
+  "@field_date_not_before": {
+    "description": "日期不能早於指定日期",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName}不能晚於{maxDate}",
+  "@field_date_not_after": {
+    "description": "日期不能晚於指定日期",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "請輸入有效的{fieldName}",
+  "@field_invalid_value": {
+    "description": "無效值驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName}長度不能少於8個字元",
+  "@password_min_length": {
+    "description": "密碼最小長度驗證",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName}必須包含至少一個大寫字母",
+  "@password_uppercase_required": {
+    "description": "密碼必須包含大寫字母",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName}必須包含至少一個小寫字母",
+  "@password_lowercase_required": {
+    "description": "密碼必須包含小寫字母",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName}必須包含至少一個數字",
+  "@password_digit_required": {
+    "description": "密碼必須包含數字",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName}必須包含至少一個特殊字符",
+  "@password_special_char_required": {
+    "description": "密碼必須包含特殊字符",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "兩次輸入的密碼不一致",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "物品名稱不能為空",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "名稱不能超過{maxLength}個字元",
+  "@name_max_length": {
+    "description": "名稱最大長度驗證",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "數量不能小於{minQuantity}",
+  "@quantity_min": {
+    "description": "數量最小值驗證",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "數量不能超過{maxQuantity}",
+  "@quantity_max": {
+    "description": "數量最大值驗證",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "單價不能為負數",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "單價不能超過{maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "單價最大值驗證",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "請設定生產日期和保質期來自動計算有效期",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "請設定購買日期和保質期來自動計算保修期",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "無法建立行事曆帳戶，請檢查系統行事曆設定",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "測試通知",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "這是一個測試通知，用於驗證本地提醒功能",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "天",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days}天",
+  "@days_with_value": {
+    "description": "天數帶參數",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "物品已保存",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "物品已更新",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "物品已添加",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "保存成功",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "更新成功",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "刪除成功",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "保存失敗",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "更新失敗",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "刪除失敗",
+  "@delete_failed": {
+    "description": ""
+  }
+}

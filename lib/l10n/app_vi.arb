@@ -1,0 +1,1625 @@
+{
+  "@@locale": "vi",
+  "app_name": "Kho báu trong lòng bàn tay",
+  "@app_name": {
+    "description": ""
+  },
+  "cancel": "Hủy",
+  "@cancel": {
+    "description": ""
+  },
+  "confirm": "Xác nhận",
+  "@confirm": {
+    "description": ""
+  },
+  "save": "Lưu",
+  "@save": {
+    "description": ""
+  },
+  "delete": "Xóa",
+  "@delete": {
+    "description": ""
+  },
+  "edit": "Chỉnh sửa",
+  "@edit": {
+    "description": ""
+  },
+  "add": "Thêm",
+  "@add": {
+    "description": ""
+  },
+  "search": "Tìm kiếm",
+  "@search": {
+    "description": ""
+  },
+  "settings": "Cài đặt",
+  "@settings": {
+    "description": ""
+  },
+  "language_settings": "Cài đặt ngôn ngữ",
+  "@language_settings": {
+    "description": ""
+  },
+  "language_settings_description": "Thiết lập ngôn ngữ hiển thị của ứng dụng",
+  "@language_settings_description": {
+    "description": ""
+  },
+  "system_default": "Mặc định hệ thống",
+  "@system_default": {
+    "description": ""
+  },
+  "use_system_language": "Sử dụng ngôn ngữ hệ thống",
+  "@use_system_language": {
+    "description": ""
+  },
+  "language_change_hint": "Thay đổi ngôn ngữ sẽ có hiệu lực sau khi ứng dụng khởi động lại",
+  "@language_change_hint": {
+    "description": ""
+  },
+  "back": "Quay lại",
+  "@back": {
+    "description": ""
+  },
+  "next": "Bước tiếp theo",
+  "@next": {
+    "description": ""
+  },
+  "done": "hoàn thành",
+  "@done": {
+    "description": ""
+  },
+  "loading": "Đang tải...",
+  "@loading": {
+    "description": ""
+  },
+  "error": "Lỗi",
+  "@error": {
+    "description": ""
+  },
+  "success": "thành công",
+  "@success": {
+    "description": ""
+  },
+  "warning": "Cảnh báo",
+  "@warning": {
+    "description": ""
+  },
+  "info": "Thông tin",
+  "@info": {
+    "description": ""
+  },
+  "select_alert_days": "Chọn số ngày nhắc nhở",
+  "@select_alert_days": {
+    "description": ""
+  },
+  "custom": "Tùy chỉnh",
+  "@custom": {
+    "description": ""
+  },
+  "custom_days": "Tùy chỉnh ({days} ngày)",
+  "@custom_days": {
+    "description": "Tùy chỉnh số ngày với tham số",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "current_selection": "Lựa chọn hiện tại: {days} ngày",
+  "@current_selection": {
+    "description": "Hiển thị số ngày đang chọn",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "alert_days_range": "Phạm vi số ngày nhắc nhở: {min}-{max} ngày",
+  "@alert_days_range": {
+    "description": "Phạm vi số ngày nhắc nhở có kèm tham số",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "enter_days": "Vui lòng nhập số ngày nhắc nhở",
+  "@enter_days": {
+    "description": ""
+  },
+  "days": "Số ngày",
+  "@days": {
+    "description": ""
+  },
+  "enter_valid_days": "Vui lòng nhập một số giữa {min} và {max}",
+  "@enter_valid_days": {
+    "description": "Thông báo xác thực nhập số ngày",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1"
+      },
+      "max": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "alert_settings": "Cài đặt cảnh báo",
+  "@alert_settings": {
+    "description": ""
+  },
+  "calendar_settings": "Cài đặt lịch",
+  "@calendar_settings": {
+    "description": ""
+  },
+  "calendar_sync": "Đồng bộ lịch",
+  "@calendar_sync": {
+    "description": ""
+  },
+  "calendar_sync_desc": "Khi bật sẽ yêu cầu quyền truy cập lịch",
+  "@calendar_sync_desc": {
+    "description": ""
+  },
+  "add_test_calendar_event": "Thêm sự kiện lịch thử nghiệm",
+  "@add_test_calendar_event": {
+    "description": ""
+  },
+  "enable_calendar_sync_first": "Vui lòng bật trước công tắc 'Đồng bộ lịch'",
+  "@enable_calendar_sync_first": {
+    "description": ""
+  },
+  "app_alert_settings": "Cài đặt thông báo ứng dụng",
+  "@app_alert_settings": {
+    "description": ""
+  },
+  "local_alerts": "Nhắc nhở địa phương",
+  "@local_alerts": {
+    "description": ""
+  },
+  "local_alerts_desc": "Bật để nhận thông báo hết hạn trong ứng dụng",
+  "@local_alerts_desc": {
+    "description": ""
+  },
+  "send_test_notification": "Gửi thông báo kiểm tra",
+  "@send_test_notification": {
+    "description": ""
+  },
+  "enable_local_alerts_first": "Vui lòng bật trước công tắc 'Nhắc nhở tại chỗ'",
+  "@enable_local_alerts_first": {
+    "description": ""
+  },
+  "alert_days_settings": "Cài đặt số ngày nhắc nhở",
+  "@alert_days_settings": {
+    "description": ""
+  },
+  "advance_alert_days": "Số ngày nhắc trước",
+  "@advance_alert_days": {
+    "description": ""
+  },
+  "advance_alert_days_desc": "Thiết lập cảnh báo trước bao nhiêu ngày khi hàng hóa hết hạn hoặc bảo hành hết hạn",
+  "@advance_alert_days_desc": {
+    "description": ""
+  },
+  "calendar_permission_request": "Yêu cầu quyền truy cập lịch",
+  "@calendar_permission_request": {
+    "description": ""
+  },
+  "calendar_permission_desc": "Cần quyền truy cập lịch để đồng bộ nhắc nhở mục. Có cho phép không?",
+  "@calendar_permission_desc": {
+    "description": ""
+  },
+  "allow": "Cho phép",
+  "@allow": {
+    "description": ""
+  },
+  "calendar_permission_granted": "Quyền truy cập lịch đã được cấp, đồng bộ lịch đã được bật",
+  "@calendar_permission_granted": {
+    "description": ""
+  },
+  "calendar_permission_denied": "Quyền truy cập lịch bị từ chối, không thể bật đồng bộ lịch",
+  "@calendar_permission_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied": "Quyền bị từ chối vĩnh viễn",
+  "@calendar_permission_permanently_denied": {
+    "description": ""
+  },
+  "calendar_permission_permanently_denied_desc": "Quyền truy cập lịch đã bị từ chối vĩnh viễn, vui lòng bật quyền này thủ công trong cài đặt hệ thống.",
+  "@calendar_permission_permanently_denied_desc": {
+    "description": ""
+  },
+  "go_to_settings": "Đi đến cài đặt",
+  "@go_to_settings": {
+    "description": ""
+  },
+  "calendar_account_failed": "Quyền truy cập lịch đã được cấp, nhưng không thể tạo tài khoản lịch. Vui lòng kiểm tra cài đặt lịch hệ thống",
+  "@calendar_account_failed": {
+    "description": ""
+  },
+  "calendar_account_created": "Quyền lịch đã được cấp, tài khoản lịch cục bộ đã được tạo",
+  "@calendar_account_created": {
+    "description": ""
+  },
+  "calendar_account_creating": "Tài khoản lịch đã được tạo thành công, nhưng hệ thống có thể cần một thời gian để có hiệu lực",
+  "@calendar_account_creating": {
+    "description": ""
+  },
+  "test_calendar_event_added": "Kiểm tra sự kiện lịch thêm thành công",
+  "@test_calendar_event_added": {
+    "description": ""
+  },
+  "test_calendar_event_failed": "Thêm sự kiện lịch thử nghiệm thất bại, vui lòng kiểm tra cài đặt lịch",
+  "@test_calendar_event_failed": {
+    "description": ""
+  },
+  "calendar_permission_required": "Cần quyền truy cập lịch để thêm sự kiện thử nghiệm",
+  "@calendar_permission_required": {
+    "description": ""
+  },
+  "test_notification_sent": "Thông báo kiểm tra đã được gửi",
+  "@test_notification_sent": {
+    "description": ""
+  },
+  "test_notification_failed": "Gửi thông báo thử nghiệm thất bại: {error}",
+  "@test_notification_failed": {
+    "description": "Thông báo lỗi",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_permission_required": "Cần quyền thông báo để bật nhắc nhở cục bộ",
+  "@notification_permission_required": {
+    "description": ""
+  },
+  "operation_failed": "Thao tác thất bại: {error}",
+  "@operation_failed": {
+    "description": "Thông báo lỗi thao tác chung",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "notification_channel_name": "Thông báo cảnh báo vật phẩm",
+  "@notification_channel_name": {
+    "description": ""
+  },
+  "notification_channel_description": "Nhắc nhở khi hàng hóa hết hạn hoặc quá bảo hành",
+  "@notification_channel_description": {
+    "description": ""
+  },
+  "item_category_food": "thực phẩm",
+  "@item_category_food": {
+    "description": ""
+  },
+  "item_category_daily_necessities": "Đồ dùng hàng ngày",
+  "@item_category_daily_necessities": {
+    "description": ""
+  },
+  "item_category_cosmetics": "Mỹ phẩm",
+  "@item_category_cosmetics": {
+    "description": ""
+  },
+  "item_category_medicine": "Thuốc",
+  "@item_category_medicine": {
+    "description": ""
+  },
+  "item_category_electronics": "Sản phẩm điện tử",
+  "@item_category_electronics": {
+    "description": ""
+  },
+  "item_category_furniture": "Đồ nội thất",
+  "@item_category_furniture": {
+    "description": ""
+  },
+  "item_category_clothing": "Trang phục",
+  "@item_category_clothing": {
+    "description": ""
+  },
+  "item_category_books": "Sách",
+  "@item_category_books": {
+    "description": ""
+  },
+  "item_category_other": "Khác",
+  "@item_category_other": {
+    "description": ""
+  },
+  "purchase_channel_online_mall": "Cửa hàng trực tuyến",
+  "@purchase_channel_online_mall": {
+    "description": ""
+  },
+  "purchase_channel_physical_store": "Cửa hàng thực thể",
+  "@purchase_channel_physical_store": {
+    "description": ""
+  },
+  "purchase_channel_supermarket": "siêu thị",
+  "@purchase_channel_supermarket": {
+    "description": ""
+  },
+  "purchase_channel_specialty_store": "cửa hàng độc quyền",
+  "@purchase_channel_specialty_store": {
+    "description": ""
+  },
+  "purchase_channel_secondhand_market": "thị trường đồ cũ",
+  "@purchase_channel_secondhand_market": {
+    "description": ""
+  },
+  "purchase_channel_other": "Khác",
+  "@purchase_channel_other": {
+    "description": ""
+  },
+  "default_category": "Khác",
+  "@default_category": {
+    "description": ""
+  },
+  "default_purchase_channel": "Cửa hàng trực tuyến",
+  "@default_purchase_channel": {
+    "description": ""
+  },
+  "item_category": "Phân loại vật phẩm",
+  "@item_category": {
+    "description": ""
+  },
+  "custom_category": "Phân loại tùy chỉnh",
+  "@custom_category": {
+    "description": ""
+  },
+  "backup_data": "Sao lưu dữ liệu",
+  "@backup_data": {
+    "description": ""
+  },
+  "backup_data_description": "Đóng gói tất cả dữ liệu (bao gồm hình ảnh) thành tệp ZIP để sao lưu",
+  "@backup_data_description": {
+    "description": ""
+  },
+  "backup_all_data": "Sao lưu tất cả dữ liệu",
+  "@backup_all_data": {
+    "description": ""
+  },
+  "backup_success": "Sao lưu thành công",
+  "@backup_success": {
+    "description": ""
+  },
+  "backup_failed": "Sao lưu thất bại: {error}",
+  "@backup_failed": {
+    "description": "Thông báo lỗi sao lưu thất bại",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "restore_data": "Khôi phục dữ liệu",
+  "@restore_data": {
+    "description": ""
+  },
+  "restore_data_description": "Phục hồi toàn bộ dữ liệu từ tệp sao lưu ZIP",
+  "@restore_data_description": {
+    "description": ""
+  },
+  "export_data": "Xuất dữ liệu",
+  "@export_data": {
+    "description": ""
+  },
+  "export_data_description": "Xuất ra định dạng CSV, TXT, SQL",
+  "@export_data_description": {
+    "description": ""
+  },
+  "import_data": "Nhập dữ liệu",
+  "@import_data": {
+    "description": ""
+  },
+  "import_data_description": "Nhập dữ liệu từ tệp CSV, TXT, SQL",
+  "@import_data_description": {
+    "description": ""
+  },
+  "alert_settings_description": "Cài đặt nhắc nhở lịch và nhắc nhở ứng dụng",
+  "@alert_settings_description": {
+    "description": ""
+  },
+  "about": "Về",
+  "@about": {
+    "description": ""
+  },
+  "about_description": "Thông tin ứng dụng và phiên bản",
+  "@about_description": {
+    "description": ""
+  },
+  "select_backup_file_first": "Vui lòng chọn tệp sao lưu trước",
+  "@select_backup_file_first": {
+    "description": ""
+  },
+  "confirm_restore": "Xác nhận khôi phục",
+  "@confirm_restore": {
+    "description": ""
+  },
+  "confirm_restore_message": "Phục hồi bản sao lưu sẽ xóa tất cả dữ liệu hiện có và thay thế bằng dữ liệu sao lưu, thao tác này không thể hoàn tác. Bạn có chắc muốn tiếp tục không?",
+  "@confirm_restore_message": {
+    "description": ""
+  },
+  "confirm_again": "Xác nhận lại",
+  "@confirm_again": {
+    "description": ""
+  },
+  "confirm_restore_warning": "Bạn có chắc chắn muốn xóa tất cả dữ liệu hiện có và khôi phục bản sao lưu không? Hành động này sẽ không thể phục hồi!",
+  "@confirm_restore_warning": {
+    "description": ""
+  },
+  "confirm_restore_button": "Xác nhận khôi phục",
+  "@confirm_restore_button": {
+    "description": ""
+  },
+  "restore_success": "Khôi phục thành công, tổng cộng {count} mục",
+  "@restore_success": {
+    "description": "Khôi phục thành công",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "restore_failed": "Phục hồi thất bại: {error}",
+  "@restore_failed": {
+    "description": "Thông báo lỗi khôi phục thất bại",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_backup_file": "Chọn tệp sao lưu",
+  "@select_backup_file": {
+    "description": ""
+  },
+  "restore_backup": "Phục hồi sao lưu",
+  "@restore_backup": {
+    "description": ""
+  },
+  "selected_file": "Tệp đã chọn: {filename}",
+  "@selected_file": {
+    "description": "Thông báo tệp đã chọn",
+    "placeholders": {
+      "filename": {
+        "type": "String",
+        "example": "backup.zip"
+      }
+    }
+  },
+  "export_success": "Dữ liệu xuất thành công",
+  "@export_success": {
+    "description": ""
+  },
+  "export_failed": "Xuất không thành công: {error}",
+  "@export_failed": {
+    "description": "Lỗi xuất khẩu",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "format_csv": "CSV",
+  "@format_csv": {
+    "description": ""
+  },
+  "format_txt": "TXT",
+  "@format_txt": {
+    "description": ""
+  },
+  "format_sql": "SQL",
+  "@format_sql": {
+    "description": ""
+  },
+  "duplicate_data_handling": "Xử lý dữ liệu trùng lặp",
+  "@duplicate_data_handling": {
+    "description": ""
+  },
+  "duplicate_data_detected": "Phát hiện dữ liệu trùng lặp, vui lòng chọn cách xử lý:",
+  "@duplicate_data_detected": {
+    "description": ""
+  },
+  "skip": "Bỏ qua",
+  "@skip": {
+    "description": ""
+  },
+  "overwrite": "bao phủ",
+  "@overwrite": {
+    "description": ""
+  },
+  "skip_all": "Bỏ qua tất cả",
+  "@skip_all": {
+    "description": ""
+  },
+  "overwrite_all": "Bao phủ toàn bộ",
+  "@overwrite_all": {
+    "description": ""
+  },
+  "select_import_format_first": "Vui lòng chọn định dạng nhập trước",
+  "@select_import_format_first": {
+    "description": ""
+  },
+  "confirm_import": "Xác nhận nhập khẩu",
+  "@confirm_import": {
+    "description": ""
+  },
+  "confirm_import_message": "Nhập dữ liệu sẽ ghi đè dữ liệu hiện có, thao tác này không thể hoàn tác. Bạn có chắc muốn tiếp tục không?",
+  "@confirm_import_message": {
+    "description": ""
+  },
+  "import_success": "Dữ liệu đã nhập thành công, tổng cộng đã nhập {count} mục",
+  "@import_success": {
+    "description": "Thông báo nhập khẩu thành công",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "import_failed": "Nhập khẩu thất bại: {error}",
+  "@import_failed": {
+    "description": "Lỗi nhập khẩu không thành công",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "select_file": "Chọn tệp",
+  "@select_file": {
+    "description": ""
+  },
+  "no_data": "Chưa có dữ liệu",
+  "@no_data": {
+    "description": ""
+  },
+  "no_data_description": "Hiện tại chưa có dữ liệu, nhấn nút bên dưới để thêm bản ghi đầu tiên nhé!",
+  "@no_data_description": {
+    "description": ""
+  },
+  "load_failed": "Tải thất bại",
+  "@load_failed": {
+    "description": ""
+  },
+  "load_failed_description": "Tải dữ liệu thất bại, vui lòng kiểm tra kết nối mạng và thử lại",
+  "@load_failed_description": {
+    "description": ""
+  },
+  "retry": "Thử lại",
+  "@retry": {
+    "description": ""
+  },
+  "network_connection_failed": "Kết nối mạng thất bại",
+  "@network_connection_failed": {
+    "description": ""
+  },
+  "network_connection_failed_description": "Vui lòng kiểm tra kết nối mạng và thử lại",
+  "@network_connection_failed_description": {
+    "description": ""
+  },
+  "no_results": "Không tìm thấy kết quả",
+  "@no_results": {
+    "description": ""
+  },
+  "no_results_description": "Thử sử dụng các từ khóa khác để tìm kiếm",
+  "@no_results_description": {
+    "description": ""
+  },
+  "clear_search": "Xóa tìm kiếm",
+  "@clear_search": {
+    "description": ""
+  },
+  "insufficient_permission": "Quyền hạn không đủ",
+  "@insufficient_permission": {
+    "description": ""
+  },
+  "insufficient_permission_description": "Cần có quyền tương ứng để sử dụng chức năng này",
+  "@insufficient_permission_description": {
+    "description": ""
+  },
+  "request_permission": "Yêu cầu quyền",
+  "@request_permission": {
+    "description": ""
+  },
+  "app_info": "Thông tin ứng dụng",
+  "@app_info": {
+    "description": ""
+  },
+  "version": "Phiên bản",
+  "@version": {
+    "description": ""
+  },
+  "developer": "Nhà phát triển",
+  "@developer": {
+    "description": ""
+  },
+  "device_info": "Thông tin thiết bị",
+  "@device_info": {
+    "description": ""
+  },
+  "device_model": "Mẫu thiết bị",
+  "@device_model": {
+    "description": ""
+  },
+  "brand": "thương hiệu",
+  "@brand": {
+    "description": ""
+  },
+  "device_name": "Tên thiết bị",
+  "@device_name": {
+    "description": ""
+  },
+  "product": "sản phẩm",
+  "@product": {
+    "description": ""
+  },
+  "hardware": "Phần cứng",
+  "@hardware": {
+    "description": ""
+  },
+  "android_version": "Phiên bản Android",
+  "@android_version": {
+    "description": ""
+  },
+  "sdk_version": "Phiên bản SDK",
+  "@sdk_version": {
+    "description": ""
+  },
+  "system_name": "Tên hệ thống",
+  "@system_name": {
+    "description": ""
+  },
+  "system_version": "Phiên bản hệ thống",
+  "@system_version": {
+    "description": ""
+  },
+  "device_identifier": "Nhận dạng thiết bị",
+  "@device_identifier": {
+    "description": ""
+  },
+  "computer_name": "Tên máy tính",
+  "@computer_name": {
+    "description": ""
+  },
+  "build_number": "Số phiên bản",
+  "@build_number": {
+    "description": ""
+  },
+  "error_getting_device_info": "Không thể lấy thông tin thiết bị: {error}",
+  "@error_getting_device_info": {
+    "description": "Lỗi nhận thông tin thiết bị",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "features": "Giới thiệu chức năng",
+  "@features": {
+    "description": ""
+  },
+  "app_description": "Ứng dụng quản lý đồ vật thông minh",
+  "@app_description": {
+    "description": ""
+  },
+  "app_description_detail": "Giúp bạn quản lý ngày hết hạn, ngày bảo hành của các vật phẩm, đồng thời cung cấp chức năng nhắc nhở thông minh.",
+  "@app_description_detail": {
+    "description": ""
+  },
+  "consumable": "Vật tư tiêu hao",
+  "@consumable": {
+    "description": ""
+  },
+  "durable": "Hàng bền",
+  "@durable": {
+    "description": ""
+  },
+  "sort": "Sắp xếp",
+  "@sort": {
+    "description": ""
+  },
+  "name_asc": "Tăng dần theo tên",
+  "@name_asc": {
+    "description": ""
+  },
+  "name_desc": "Tên giảm dần",
+  "@name_desc": {
+    "description": ""
+  },
+  "date_asc": "Ngày tăng dần",
+  "@date_asc": {
+    "description": ""
+  },
+  "date_desc": "Ngày giảm dần",
+  "@date_desc": {
+    "description": ""
+  },
+  "price_asc": "Đơn giá tăng dần",
+  "@price_asc": {
+    "description": ""
+  },
+  "price_desc": "Giá đơn hàng giảm dần",
+  "@price_desc": {
+    "description": ""
+  },
+  "quantity_asc": "Tăng dần theo số lượng",
+  "@quantity_asc": {
+    "description": ""
+  },
+  "quantity_desc": "Số lượng giảm dần",
+  "@quantity_desc": {
+    "description": ""
+  },
+  "total_price_asc": "Tổng giá tăng dần",
+  "@total_price_asc": {
+    "description": ""
+  },
+  "total_price_desc": "Giá tổng giảm dần",
+  "@total_price_desc": {
+    "description": ""
+  },
+  "clear_all_filters": "Xóa tất cả bộ lọc",
+  "@clear_all_filters": {
+    "description": ""
+  },
+  "scan_barcode": "Quét mã để nhập kho",
+  "@scan_barcode": {
+    "description": ""
+  },
+  "search_items": "Tìm kiếm vật phẩm...",
+  "@search_items": {
+    "description": ""
+  },
+  "no_items": "Tạm thời không có vật phẩm",
+  "@no_items": {
+    "description": ""
+  },
+  "no_items_description": "Nhấn nút bên dưới để thêm mục đầu tiên",
+  "@no_items_description": {
+    "description": ""
+  },
+  "expired": "Đã hết hạn",
+  "@expired": {
+    "description": ""
+  },
+  "expiring_soon": "sắp hết hạn",
+  "@expiring_soon": {
+    "description": ""
+  },
+  "warranty_expired": "Bảo hành đã hết hạn",
+  "@warranty_expired": {
+    "description": ""
+  },
+  "warranty_expiring_soon": "Bảo hành sắp hết hạn",
+  "@warranty_expiring_soon": {
+    "description": ""
+  },
+  "days_remaining": "Còn lại {count} ngày",
+  "@days_remaining": {
+    "description": "Số ngày còn lại có tham số",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "expired_days_ago": "Đã quá hạn {count} ngày",
+  "@expired_days_ago": {
+    "description": "Số ngày quá hạn có tham số",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "delete_item": "Xóa vật phẩm",
+  "@delete_item": {
+    "description": ""
+  },
+  "delete_item_confirm": "Bạn có chắc chắn muốn xóa \"{name}\" không?",
+  "@delete_item_confirm": {
+    "description": "Xác nhận xoá",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_deleted": "Vật phẩm đã bị xóa",
+  "@item_deleted": {
+    "description": ""
+  },
+  "failed_to_delete": "Xóa thất bại",
+  "@failed_to_delete": {
+    "description": ""
+  },
+  "failed_to_delete_message": "Không thể xóa vật phẩm: {error}",
+  "@failed_to_delete_message": {
+    "description": "Xóa thông báo lỗi",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "date_range_filter": "Lọc theo khoảng ngày",
+  "@date_range_filter": {
+    "description": ""
+  },
+  "price_range_filter": "Lọc theo khoảng giá",
+  "@price_range_filter": {
+    "description": ""
+  },
+  "my_items": "Đồ của tôi",
+  "@my_items": {
+    "description": ""
+  },
+  "click_fab_to_add_item": "Nhấn nút ở góc dưới bên phải để thêm vật phẩm",
+  "@click_fab_to_add_item": {
+    "description": ""
+  },
+  "confirm_delete": "Xác nhận xóa",
+  "@confirm_delete": {
+    "description": ""
+  },
+  "filter_options": "Lọc tùy chọn",
+  "@filter_options": {
+    "description": ""
+  },
+  "filter_by_type_category_location": "Lọc vật phẩm theo loại, phân loại và địa điểm",
+  "@filter_by_type_category_location": {
+    "description": ""
+  },
+  "categories_count": "{count} danh mục",
+  "@categories_count": {
+    "description": "Hiển thị số lượng theo phân loại",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_categories": "Tất cả danh mục",
+  "@all_categories": {
+    "description": ""
+  },
+  "no_category_data": "Chưa có dữ liệu phân loại",
+  "@no_category_data": {
+    "description": ""
+  },
+  "storage_location": "Nơi lưu trữ",
+  "@storage_location": {
+    "description": ""
+  },
+  "locations_count": "{count} địa điểm",
+  "@locations_count": {
+    "description": "Hiển thị số lượng địa điểm",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "all_locations": "Tất cả địa điểm",
+  "@all_locations": {
+    "description": ""
+  },
+  "no_location_data": "Tạm thời không có dữ liệu địa điểm",
+  "@no_location_data": {
+    "description": ""
+  },
+  "date_range": "Khoảng ngày",
+  "@date_range": {
+    "description": ""
+  },
+  "select_date_range": "Chọn phạm vi ngày",
+  "@select_date_range": {
+    "description": ""
+  },
+  "price_range": "Phạm vi giá",
+  "@price_range": {
+    "description": ""
+  },
+  "unit_price_range": "Phạm vi đơn giá",
+  "@unit_price_range": {
+    "description": ""
+  },
+  "min_unit_price": "Giá thấp nhất",
+  "@min_unit_price": {
+    "description": ""
+  },
+  "max_unit_price": "Đơn giá cao nhất",
+  "@max_unit_price": {
+    "description": ""
+  },
+  "total_price_range": "Phạm vi tổng giá",
+  "@total_price_range": {
+    "description": ""
+  },
+  "min_total_price": "Tổng giá thấp nhất",
+  "@min_total_price": {
+    "description": ""
+  },
+  "max_total_price": "Tổng giá tối đa",
+  "@max_total_price": {
+    "description": ""
+  },
+  "clear_price_filter": "Xóa bộ lọc giá",
+  "@clear_price_filter": {
+    "description": ""
+  },
+  "place_barcode_in_frame": "Đặt mã vạch vào trong khung để quét",
+  "@place_barcode_in_frame": {
+    "description": ""
+  },
+  "item_already_exists": "Sản phẩm đã tồn tại",
+  "@item_already_exists": {
+    "description": ""
+  },
+  "barcode_with_value": "Mã vạch: {barcode}",
+  "@barcode_with_value": {
+    "description": "Mã vạch hiển thị có tham số",
+    "placeholders": {
+      "barcode": {
+        "type": "String",
+        "example": "1234567890"
+      }
+    }
+  },
+  "name_with_value": "Tên: {name}",
+  "@name_with_value": {
+    "description": "Tên hiển thị có tham số",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "category_with_value": "Phân loại: {category}",
+  "@category_with_value": {
+    "description": "Hiển thị phân loại có tham số",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "食品"
+      }
+    }
+  },
+  "current_quantity_with_value": "Số lượng hiện tại: {quantity}{unit}",
+  "@current_quantity_with_value": {
+    "description": "Hiển thị số lượng hiện tại với tham số",
+    "placeholders": {
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "please_select_operation": "Vui lòng chọn thao tác:",
+  "@please_select_operation": {
+    "description": ""
+  },
+  "outbound": "xuất kho",
+  "@outbound": {
+    "description": ""
+  },
+  "inbound": "nhập kho",
+  "@inbound": {
+    "description": ""
+  },
+  "inbound_quantity": "Số lượng nhập kho",
+  "@inbound_quantity": {
+    "description": ""
+  },
+  "outbound_quantity": "Số lượng xuất kho",
+  "@outbound_quantity": {
+    "description": ""
+  },
+  "quantity": "Số lượng",
+  "@quantity": {
+    "description": ""
+  },
+  "enter_inbound_quantity": "Vui lòng nhập số lượng nhập kho",
+  "@enter_inbound_quantity": {
+    "description": ""
+  },
+  "enter_outbound_quantity": "Vui lòng nhập số lượng xuất kho",
+  "@enter_outbound_quantity": {
+    "description": ""
+  },
+  "item_increased": "Đã tăng thêm {name} {quantity}{unit}",
+  "@item_increased": {
+    "description": "Thông báo tăng vật phẩm",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "delete_item_confirm_with_irreversible": "Bạn có chắc chắn muốn xóa “{name}” không? Hành động này không thể hoàn tác.",
+  "@delete_item_confirm_with_irreversible": {
+    "description": "Xóa tin nhắn xác nhận kèm cảnh báo không thể thu hồi",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      }
+    }
+  },
+  "item_decreased": "Đã giảm {name} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Thông báo giảm vật phẩm",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "物品名称"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "10"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "database_reset": "Cơ sở dữ liệu đã được đặt lại, sẽ tái tạo lại cấu trúc bảng",
+  "@database_reset": {
+    "description": ""
+  },
+  "database_reset_error": "Lỗi khi đặt lại cơ sở dữ liệu: {error}",
+  "@database_reset_error": {
+    "description": "Lỗi đặt lại cơ sở dữ liệu",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_failed": "Khởi tạo dữ liệu mô phỏng thất bại: {error}",
+  "@mock_data_init_failed": {
+    "description": "Khởi tạo dữ liệu mô phỏng thất bại",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "solution_steps": "Giải pháp:",
+  "@solution_steps": {
+    "description": ""
+  },
+  "solution_step_1": "1. Gỡ ứng dụng và cài đặt lại",
+  "@solution_step_1": {
+    "description": ""
+  },
+  "solution_step_2": "2. Hoặc xóa dữ liệu ứng dụng",
+  "@solution_step_2": {
+    "description": ""
+  },
+  "solution_step_3": "3. Hoặc có thể đặt resetDatabaseOnStart thành true rồi chạy lại",
+  "@solution_step_3": {
+    "description": ""
+  },
+  "notification_service_init_failed": "Khởi tạo dịch vụ nhắc nhở thất bại: {error}",
+  "@notification_service_init_failed": {
+    "description": "Khởi tạo dịch vụ thông báo thất bại",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "check_calendar_account_failed": "Kiểm tra tài khoản lịch thất bại: {error}",
+  "@check_calendar_account_failed": {
+    "description": "Kiểm tra tài khoản lịch thất bại",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "create_calendar_failed": "Tạo lịch thất bại: {error}",
+  "@create_calendar_failed": {
+    "description": "Tạo lịch thất bại",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "add_calendar_event_failed": "Thêm sự kiện lịch thất bại: {error}",
+  "@add_calendar_event_failed": {
+    "description": "Thêm sự kiện lịch thất bại",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "delete_calendar_event_failed": "Xóa sự kiện lịch thất bại: {error}",
+  "@delete_calendar_event_failed": {
+    "description": "Xóa sự kiện lịch thất bại",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "set_permission_message_failed": "Thiết lập thông báo gợi ý quyền thất bại: {error}",
+  "@set_permission_message_failed": {
+    "description": "Thiết lập thông báo quyền thất bại",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "mock_data_init_success": "Đã khởi tạo thành công {count} dữ liệu mô phỏng",
+  "@mock_data_init_success": {
+    "description": "Khởi tạo dữ liệu mô phỏng thành công",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_has_data": "Cơ sở dữ liệu đã có {count} dữ liệu, bỏ qua khởi tạo dữ liệu mô phỏng",
+  "@database_has_data": {
+    "description": "Cơ sở dữ liệu đã có dữ liệu",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "database_structure_mismatch": "Có thể là cấu trúc cơ sở dữ liệu không khớp, đề nghị xóa dữ liệu ứng dụng hoặc cài đặt lại",
+  "@database_structure_mismatch": {
+    "description": ""
+  },
+  "old_database_deleted": "Đã xóa tệp cơ sở dữ liệu cũ",
+  "@old_database_deleted": {
+    "description": ""
+  },
+  "backup_data_empty": "Dữ liệu sao lưu trống",
+  "@backup_data_empty": {
+    "description": ""
+  },
+  "backup_file_not_found": "Tệp sao lưu không tồn tại",
+  "@backup_file_not_found": {
+    "description": ""
+  },
+  "file_not_utf8": "Mã hóa tệp không phải là định dạng UTF-8 hợp lệ. Vui lòng đảm bảo tệp được lưu bằng mã hóa UTF-8. Chi tiết lỗi: {error}",
+  "@file_not_utf8": {
+    "description": "Lỗi mã hóa tệp",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "错误信息"
+      }
+    }
+  },
+  "file_not_found": "Tệp không tồn tại: {filePath}",
+  "@file_not_found": {
+    "description": "Lỗi không tồn tại tệp",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_empty": "Tệp trống: {filePath}",
+  "@file_empty": {
+    "description": "Lỗi tệp trống",
+    "placeholders": {
+      "filePath": {
+        "type": "String",
+        "example": "/path/to/file"
+      }
+    }
+  },
+  "file_content_empty": "Nội dung tệp sau khi giải mã trống, có thể là do mã hóa không khớp",
+  "@file_content_empty": {
+    "description": ""
+  },
+  "field_cannot_be_empty": "{fieldName} không được để trống",
+  "@field_cannot_be_empty": {
+    "description": "Trường không được để trống",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_min_length": "{fieldName} không được ít hơn {minLength} ký tự",
+  "@field_min_length": {
+    "description": "Xác minh độ dài tối thiểu của trường",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minLength": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "field_max_length": "{fieldName} không được vượt quá {maxLength} ký tự",
+  "@field_max_length": {
+    "description": "Xác thực độ dài tối đa của trường",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "field_invalid_email": "Vui lòng nhập địa chỉ {fieldName} hợp lệ",
+  "@field_invalid_email": {
+    "description": "Xác thực định dạng email",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_number": "{fieldName} phải là {numberType}",
+  "@field_invalid_number": {
+    "description": "Xác thực định dạng số",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "numberType": {
+        "type": "String",
+        "example": "整数"
+      }
+    }
+  },
+  "field_min_value": "{fieldName} không thể nhỏ hơn {min}",
+  "@field_min_value": {
+    "description": "Xác minh giá trị nhỏ nhất",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "min": {
+        "type": "double",
+        "example": "1.0"
+      }
+    }
+  },
+  "field_max_value": "{fieldName} không thể lớn hơn {max}",
+  "@field_max_value": {
+    "description": "Xác minh giá trị lớn nhất",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "max": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "field_positive_integer": "{fieldName} phải là số nguyên dương",
+  "@field_positive_integer": {
+    "description": "Xác minh số nguyên dương",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_greater_than_zero": "{fieldName} phải lớn hơn 0",
+  "@field_greater_than_zero": {
+    "description": "Xác minh lớn hơn không",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_positive_number": "{fieldName} phải là số dương",
+  "@field_positive_number": {
+    "description": "Xác minh số dương",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_invalid_date": "Vui lòng nhập {fieldName} hợp lệ",
+  "@field_invalid_date": {
+    "description": "Xác thực định dạng ngày",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_past": "{fieldName} không thể là ngày trong quá khứ",
+  "@field_date_not_past": {
+    "description": "Ngày không được ở quá khứ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "field_date_not_before": "{fieldName} không thể sớm hơn {minDate}",
+  "@field_date_not_before": {
+    "description": "Ngày không thể sớm hơn ngày được chỉ định",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "minDate": {
+        "type": "String",
+        "example": "示例minDate"
+      }
+    }
+  },
+  "field_date_not_after": "{fieldName} không thể muộn hơn {maxDate}",
+  "@field_date_not_after": {
+    "description": "Ngày không được muộn hơn ngày đã chỉ định",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      },
+      "maxDate": {
+        "type": "String",
+        "example": "示例maxDate"
+      }
+    }
+  },
+  "field_invalid_value": "Vui lòng nhập {fieldName} hợp lệ",
+  "@field_invalid_value": {
+    "description": "Xác thực giá trị không hợp lệ",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_min_length": "{fieldName} chiều dài không được ít hơn 8 ký tự",
+  "@password_min_length": {
+    "description": "Xác minh độ dài tối thiểu của mật khẩu",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_uppercase_required": "{fieldName} phải chứa ít nhất một chữ cái viết hoa",
+  "@password_uppercase_required": {
+    "description": "Mật khẩu phải bao gồm chữ cái viết hoa",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_lowercase_required": "{fieldName} phải chứa ít nhất một chữ cái thường",
+  "@password_lowercase_required": {
+    "description": "Mật khẩu phải bao gồm chữ cái thường",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_digit_required": "{fieldName} phải chứa ít nhất một chữ số",
+  "@password_digit_required": {
+    "description": "Mật khẩu phải bao gồm số",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "password_special_char_required": "{fieldName} phải chứa ít nhất một ký tự đặc biệt",
+  "@password_special_char_required": {
+    "description": "Mật khẩu phải bao gồm ký tự đặc biệt",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "用户名"
+      }
+    }
+  },
+  "passwords_not_match": "Mật khẩu nhập hai lần không khớp",
+  "@passwords_not_match": {
+    "description": ""
+  },
+  "item_name_cannot_be_empty": "Tên vật phẩm không được để trống",
+  "@item_name_cannot_be_empty": {
+    "description": ""
+  },
+  "name_max_length": "Tên không được vượt quá {maxLength} ký tự",
+  "@name_max_length": {
+    "description": "Xác thực độ dài tối đa của tên",
+    "placeholders": {
+      "maxLength": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "quantity_min": "Số lượng không được nhỏ hơn {minQuantity}",
+  "@quantity_min": {
+    "description": "Xác minh giá trị tối thiểu của số lượng",
+    "placeholders": {
+      "minQuantity": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "quantity_max": "Số lượng không được vượt quá {maxQuantity}",
+  "@quantity_max": {
+    "description": "Xác minh giá trị tối đa của số lượng",
+    "placeholders": {
+      "maxQuantity": {
+        "type": "int",
+        "example": "999"
+      }
+    }
+  },
+  "unit_price_not_negative": "Đơn giá không được âm",
+  "@unit_price_not_negative": {
+    "description": ""
+  },
+  "unit_price_max": "Đơn giá không được vượt quá {maxUnitPrice}",
+  "@unit_price_max": {
+    "description": "Xác minh giá đơn tối đa",
+    "placeholders": {
+      "maxUnitPrice": {
+        "type": "double",
+        "example": "999999.99"
+      }
+    }
+  },
+  "set_production_expiry_for_validity": "Vui lòng đặt ngày sản xuất và thời hạn sử dụng để tự động tính toán thời gian hiệu lực",
+  "@set_production_expiry_for_validity": {
+    "description": ""
+  },
+  "set_purchase_warranty_for_validity": "Vui lòng thiết lập ngày mua và hạn sử dụng để tự động tính toán thời gian bảo hành",
+  "@set_purchase_warranty_for_validity": {
+    "description": ""
+  },
+  "calendar_account_creation_failed": "Không thể tạo tài khoản lịch, vui lòng kiểm tra cài đặt lịch hệ thống",
+  "@calendar_account_creation_failed": {
+    "description": ""
+  },
+  "test_notification": "Thông báo thử nghiệm",
+  "@test_notification": {
+    "description": ""
+  },
+  "test_notification_description": "Đây là một thông báo thử nghiệm, dùng để xác minh chức năng nhắc nhở cục bộ",
+  "@test_notification_description": {
+    "description": ""
+  },
+  "day_unit": "trời",
+  "@day_unit": {
+    "description": ""
+  },
+  "days_with_value": "{days} ngày",
+  "@days_with_value": {
+    "description": "Số ngày có tham số",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "item_saved": "Vật phẩm đã được lưu",
+  "@item_saved": {
+    "description": ""
+  },
+  "item_updated": "Vật phẩm đã được cập nhật",
+  "@item_updated": {
+    "description": ""
+  },
+  "item_added": "Đã thêm vật phẩm",
+  "@item_added": {
+    "description": ""
+  },
+  "save_success": "Lưu thành công",
+  "@save_success": {
+    "description": ""
+  },
+  "update_success": "Cập nhật thành công",
+  "@update_success": {
+    "description": ""
+  },
+  "delete_success": "Xóa thành công",
+  "@delete_success": {
+    "description": ""
+  },
+  "save_failed": "Lưu thất bại",
+  "@save_failed": {
+    "description": ""
+  },
+  "update_failed": "Cập nhật thất bại",
+  "@update_failed": {
+    "description": ""
+  },
+  "delete_failed": "Xóa thất bại",
+  "@delete_failed": {
+    "description": ""
+  }
+}
