@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/providers/settings_provider.dart';
 import 'package:recording/screens/settings/alert_days_selection_screen.dart';
-
 import 'package:recording/services/calendar_service.dart';
 import 'package:recording/services/notification_service.dart';
 
@@ -41,7 +40,7 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
     SettingsProvider provider,
   ) async {
     if (!context.mounted) return;
-    
+
     final l10n = AppLocalizations.of(context);
 
     // 检查当前权限状态
@@ -339,7 +338,7 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-           SliverAppBar.large(
+          SliverAppBar.large(
             title: Text(l10n.alert_settings),
             leading: IconButton(
               icon: const Icon(Icons.arrow_back),
@@ -360,7 +359,7 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                       return Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                           // 日历设置部分
+                          // 日历设置部分
                           Text(
                             l10n.calendar_settings,
                             style: theme.textTheme.bodySmall?.copyWith(
@@ -406,7 +405,7 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                           if (!provider.calendarSync)
                             Padding(
                               padding: const EdgeInsets.only(top: 4),
-                               child: Text(
+                              child: Text(
                                 l10n.enable_calendar_sync_first,
                                 style: theme.textTheme.bodySmall?.copyWith(
                                   color: theme.colorScheme.onSurface.withAlpha(
@@ -417,7 +416,7 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                             ),
                           const SizedBox(height: 24),
 
-                           // App提醒设置部分
+                          // App提醒设置部分
                           Text(
                             l10n.app_alert_settings,
                             style: theme.textTheme.bodySmall?.copyWith(
@@ -439,7 +438,9 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                                   if (context.mounted) {
                                     ScaffoldMessenger.of(context).showSnackBar(
                                       SnackBar(
-                                        content: Text(l10n.notification_permission_required),
+                                        content: Text(
+                                          l10n.notification_permission_required,
+                                        ),
                                         duration: const Duration(seconds: 2),
                                       ),
                                     );
@@ -478,7 +479,7 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                           if (!provider.localAlertsEnabled)
                             Padding(
                               padding: const EdgeInsets.only(top: 4),
-                               child: Text(
+                              child: Text(
                                 l10n.enable_local_alerts_first,
                                 style: theme.textTheme.bodySmall?.copyWith(
                                   color: theme.colorScheme.onSurface.withAlpha(
@@ -489,7 +490,7 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                             ),
                           const SizedBox(height: 24),
 
-                           // 提醒天数设置部分
+                          // 提醒天数设置部分
                           Text(
                             l10n.alert_days_settings,
                             style: theme.textTheme.bodySmall?.copyWith(
@@ -502,15 +503,13 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                           ListTile(
                             title: Text(l10n.advance_alert_days),
                             subtitle: Text(l10n.advance_alert_days_desc),
-                            trailing: _buildAlertDaysDisplay(
-                              context,
-                              provider,
-                            ),
+                            trailing: _buildAlertDaysDisplay(context, provider),
                             onTap: () {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => const AlertDaysSelectionScreen(),
+                                  builder: (context) =>
+                                      const AlertDaysSelectionScreen(),
                                 ),
                               );
                             },

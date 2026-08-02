@@ -11,7 +11,7 @@ import 'package:recording/utils/log_localization.dart';
 /// 设置为 false：禁用模拟数据，适用于生产环境
 ///
 /// 上线前请务必将此标志设为 false
-const bool enableMockData = true;
+const bool enableMockData = false;
 
 /// 开发工具：重置数据库标志
 /// 设置为 true 将在启动时删除并重新创建数据库

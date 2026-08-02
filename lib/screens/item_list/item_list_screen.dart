@@ -1023,33 +1023,34 @@ class _ItemListScreenState extends State<ItemListScreen> {
                 ),
                 childrenPadding: const EdgeInsets.only(bottom: 8),
                 shape: const RoundedRectangleBorder(),
-                 title: Row(
-                   children: [
-                     Icon(
-                       Icons.category,
-                       size: 20,
-                       color: Theme.of(context).colorScheme.primary,
-                     ),
-                     const SizedBox(width: 8),
-                     Expanded(
-                       child: Text(
-                         l10n.item_categories,
-                         style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                           color: Theme.of(context).colorScheme.primary,
-                           fontWeight: FontWeight.bold,
-                         ),
-                         overflow: TextOverflow.ellipsis,
-                       ),
-                     ),
-                     const SizedBox(width: 8),
-                     Text(
-                       l10n.categories_count(categories.length),
-                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                         color: Theme.of(context).colorScheme.outline,
-                       ),
-                     ),
-                   ],
-                 ),
+                title: Row(
+                  children: [
+                    Icon(
+                      Icons.category,
+                      size: 20,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        l10n.item_categories,
+                        style: Theme.of(context).textTheme.titleMedium
+                            ?.copyWith(
+                              color: Theme.of(context).colorScheme.primary,
+                              fontWeight: FontWeight.bold,
+                            ),
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      l10n.categories_count(categories.length),
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Theme.of(context).colorScheme.outline,
+                      ),
+                    ),
+                  ],
+                ),
                 children: [
                   ListTile(
                     leading: Icon(
@@ -1058,17 +1059,17 @@ class _ItemListScreenState extends State<ItemListScreen> {
                           ? Theme.of(context).colorScheme.primary
                           : Theme.of(context).colorScheme.onSurfaceVariant,
                     ),
-                     title: Text(
-                       l10n.all_categories,
-                       style: TextStyle(
-                         fontWeight: currentCategoryFilter == null
-                             ? FontWeight.bold
-                             : FontWeight.normal,
-                         color: currentCategoryFilter == null
-                             ? Theme.of(context).colorScheme.primary
-                             : null,
-                       ),
-                     ),
+                    title: Text(
+                      l10n.all_categories,
+                      style: TextStyle(
+                        fontWeight: currentCategoryFilter == null
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                        color: currentCategoryFilter == null
+                            ? Theme.of(context).colorScheme.primary
+                            : null,
+                      ),
+                    ),
                     trailing: currentCategoryFilter == null
                         ? Icon(
                             Icons.check,
@@ -1140,33 +1141,34 @@ class _ItemListScreenState extends State<ItemListScreen> {
                 ),
                 childrenPadding: const EdgeInsets.only(bottom: 8),
                 shape: const RoundedRectangleBorder(),
-                 title: Row(
-                   children: [
-                     Icon(
-                       Icons.location_on,
-                       size: 20,
-                       color: Theme.of(context).colorScheme.primary,
-                     ),
-                     const SizedBox(width: 8),
-                     Expanded(
-                       child: Text(
-                         l10n.storage_locations,
-                         style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                           color: Theme.of(context).colorScheme.primary,
-                           fontWeight: FontWeight.bold,
-                         ),
-                         overflow: TextOverflow.ellipsis,
-                       ),
-                     ),
-                     const SizedBox(width: 8),
-                     Text(
-                       l10n.locations_count(locations.length),
-                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                         color: Theme.of(context).colorScheme.outline,
-                       ),
-                     ),
-                   ],
-                 ),
+                title: Row(
+                  children: [
+                    Icon(
+                      Icons.location_on,
+                      size: 20,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        l10n.storage_locations,
+                        style: Theme.of(context).textTheme.titleMedium
+                            ?.copyWith(
+                              color: Theme.of(context).colorScheme.primary,
+                              fontWeight: FontWeight.bold,
+                            ),
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      l10n.locations_count(locations.length),
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Theme.of(context).colorScheme.outline,
+                      ),
+                    ),
+                  ],
+                ),
                 children: [
                   ListTile(
                     leading: Icon(
@@ -1175,17 +1177,17 @@ class _ItemListScreenState extends State<ItemListScreen> {
                           ? Theme.of(context).colorScheme.primary
                           : Theme.of(context).colorScheme.onSurfaceVariant,
                     ),
-                     title: Text(
-                       l10n.all_locations,
-                       style: TextStyle(
-                         fontWeight: currentLocationFilter == null
-                             ? FontWeight.bold
-                             : FontWeight.normal,
-                         color: currentLocationFilter == null
-                             ? Theme.of(context).colorScheme.primary
-                             : null,
-                       ),
-                     ),
+                    title: Text(
+                      l10n.all_locations,
+                      style: TextStyle(
+                        fontWeight: currentLocationFilter == null
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                        color: currentLocationFilter == null
+                            ? Theme.of(context).colorScheme.primary
+                            : null,
+                      ),
+                    ),
                     trailing: currentLocationFilter == null
                         ? Icon(
                             Icons.check,
@@ -1231,7 +1233,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                     ),
                   ),
                   if (locations.isEmpty) ...[
-                     Padding(
+                    Padding(
                       padding: const EdgeInsets.all(16.0),
                       child: Text(
                         l10n.no_location_data,
@@ -1257,26 +1259,27 @@ class _ItemListScreenState extends State<ItemListScreen> {
                 ),
                 childrenPadding: const EdgeInsets.only(bottom: 8),
                 shape: const RoundedRectangleBorder(),
-                 title: Row(
-                   children: [
-                     Icon(
-                       Icons.calendar_today,
-                       size: 20,
-                       color: Theme.of(context).colorScheme.primary,
-                     ),
-                     const SizedBox(width: 8),
-                     Expanded(
-                       child: Text(
-                         l10n.date_range,
-                         style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                           color: Theme.of(context).colorScheme.primary,
-                           fontWeight: FontWeight.bold,
-                         ),
-                         overflow: TextOverflow.ellipsis,
-                       ),
-                     ),
-                   ],
-                 ),
+                title: Row(
+                  children: [
+                    Icon(
+                      Icons.calendar_today,
+                      size: 20,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        l10n.date_range,
+                        style: Theme.of(context).textTheme.titleMedium
+                            ?.copyWith(
+                              color: Theme.of(context).colorScheme.primary,
+                              fontWeight: FontWeight.bold,
+                            ),
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                  ],
+                ),
                 children: [
                   ListTile(
                     leading: Icon(
@@ -1284,9 +1287,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                       color: Theme.of(context).colorScheme.onSurfaceVariant,
                     ),
                     title: Text(
-                       provider.dateRange == null
-                           ? l10n.select_date_range
-                           : '${_formatDate(provider.dateRange!.start)} - ${_formatDate(provider.dateRange!.end)}',
+                      provider.dateRange == null
+                          ? l10n.select_date_range
+                          : '${_formatDate(provider.dateRange!.start)} - ${_formatDate(provider.dateRange!.end)}',
                       style: TextStyle(
                         color: provider.dateRange == null
                             ? Theme.of(context).colorScheme.onSurfaceVariant
@@ -1340,26 +1343,27 @@ class _ItemListScreenState extends State<ItemListScreen> {
                 ),
                 childrenPadding: const EdgeInsets.only(bottom: 8),
                 shape: const RoundedRectangleBorder(),
-                 title: Row(
-                   children: [
-                     Icon(
-                       Icons.attach_money,
-                       size: 20,
-                       color: Theme.of(context).colorScheme.primary,
-                     ),
-                     const SizedBox(width: 8),
-                     Expanded(
-                       child: Text(
-                         l10n.price_range,
-                         style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                           color: Theme.of(context).colorScheme.primary,
-                           fontWeight: FontWeight.bold,
-                         ),
-                         overflow: TextOverflow.ellipsis,
-                       ),
-                     ),
-                   ],
-                 ),
+                title: Row(
+                  children: [
+                    Icon(
+                      Icons.attach_money,
+                      size: 20,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        l10n.price_range,
+                        style: Theme.of(context).textTheme.titleMedium
+                            ?.copyWith(
+                              color: Theme.of(context).colorScheme.primary,
+                              fontWeight: FontWeight.bold,
+                            ),
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                  ],
+                ),
                 children: [
                   // 单价范围
                   Padding(
@@ -1370,11 +1374,11 @@ class _ItemListScreenState extends State<ItemListScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                         Text(
-                           l10n.unit_price_range,
-                           style: Theme.of(context).textTheme.bodyMedium
-                               ?.copyWith(fontWeight: FontWeight.bold),
-                         ),
+                        Text(
+                          l10n.unit_price_range,
+                          style: Theme.of(context).textTheme.bodyMedium
+                              ?.copyWith(fontWeight: FontWeight.bold),
+                        ),
                         const SizedBox(height: 8),
                         Row(
                           children: [
@@ -1388,7 +1392,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                       '',
                                 ),
                                 decoration: InputDecoration(
-                                   hintText: l10n.min_unit_price,
+                                  hintText: l10n.min_unit_price,
                                   prefixText: '¥',
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(8),
@@ -1426,7 +1430,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                       '',
                                 ),
                                 decoration: InputDecoration(
-                                   hintText: l10n.max_unit_price,
+                                  hintText: l10n.max_unit_price,
                                   prefixText: '¥',
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(8),
@@ -1462,11 +1466,11 @@ class _ItemListScreenState extends State<ItemListScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                         Text(
-                           l10n.total_price_range,
-                           style: Theme.of(context).textTheme.bodyMedium
-                               ?.copyWith(fontWeight: FontWeight.bold),
-                         ),
+                        Text(
+                          l10n.total_price_range,
+                          style: Theme.of(context).textTheme.bodyMedium
+                              ?.copyWith(fontWeight: FontWeight.bold),
+                        ),
                         const SizedBox(height: 8),
                         Row(
                           children: [
@@ -1480,7 +1484,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                       '',
                                 ),
                                 decoration: InputDecoration(
-                                   hintText: l10n.min_total_price,
+                                  hintText: l10n.min_total_price,
                                   prefixText: '¥',
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(8),
@@ -1518,7 +1522,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                       '',
                                 ),
                                 decoration: InputDecoration(
-                                   hintText: l10n.max_total_price,
+                                  hintText: l10n.max_total_price,
                                   prefixText: '¥',
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(8),
@@ -1560,7 +1564,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                               provider.setTotalPriceRange(null, null);
                             },
                             icon: const Icon(Icons.clear_all, size: 16),
-                             label: Text(l10n.clear_price_filter),
+                            label: Text(l10n.clear_price_filter),
                           ),
                         ),
                       ],
@@ -1578,7 +1582,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
                     Navigator.pop(context);
                   },
                   icon: const Icon(Icons.clear_all),
-                   label: Text(l10n.clear_all_filters),
+                  label: Text(l10n.clear_all_filters),
                   style: FilledButton.styleFrom(
                     minimumSize: const Size(double.infinity, 48),
                   ),
@@ -1600,7 +1604,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
       MaterialPageRoute(
         builder: (context) => Scaffold(
           appBar: AppBar(
-             title: Text(l10n.scan_to_stock),
+            title: Text(l10n.scan_to_stock),
             backgroundColor: Theme.of(context).colorScheme.primary,
             foregroundColor: Theme.of(context).colorScheme.onPrimary,
             actions: [
@@ -1636,16 +1640,16 @@ class _ItemListScreenState extends State<ItemListScreen> {
                 right: 0,
                 child: Container(
                   padding: const EdgeInsets.all(16),
-                   child: Text(
-                     l10n.place_barcode_in_frame_to_scan,
-                     textAlign: TextAlign.center,
-                     style: TextStyle(
-                       color: Colors.white,
-                       fontSize: 16,
-                       fontWeight: FontWeight.bold,
-                       backgroundColor: Colors.black54,
-                     ),
-                   ),
+                  child: Text(
+                    l10n.place_barcode_in_frame_to_scan,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      backgroundColor: Colors.black54,
+                    ),
+                  ),
                 ),
               ),
             ],
@@ -1666,18 +1670,23 @@ class _ItemListScreenState extends State<ItemListScreen> {
       final operation = await showDialog<String>(
         context: context,
         builder: (context) => AlertDialog(
-           title: Text(AppLocalizations.of(context).item_already_exists),
+          title: Text(AppLocalizations.of(context).item_already_exists),
           content: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-               Text('${l10n.barcode_label}：$barcodeResult'),
+              Text('${l10n.barcode_label}：$barcodeResult'),
               const SizedBox(height: 8),
-               Text('${l10n.name_label}：${existingItem.name}'),
-               Text('${l10n.category_label}：${existingItem.category}'),
-               Text(l10n.current_quantity_with_value(existingItem.quantity.toString(), existingItem.unit)),
+              Text('${l10n.name_label}：${existingItem.name}'),
+              Text('${l10n.category_label}：${existingItem.category}'),
+              Text(
+                l10n.current_quantity_with_value(
+                  existingItem.quantity.toString(),
+                  existingItem.unit,
+                ),
+              ),
               const SizedBox(height: 16),
-               Text(l10n.please_select_operation),
+              Text(l10n.please_select_operation),
             ],
           ),
           actions: [
@@ -1708,30 +1717,36 @@ class _ItemListScreenState extends State<ItemListScreen> {
       final quantity = await showDialog<int>(
         context: context,
         builder: (context) => AlertDialog(
-           title: Text(operation == 'inbound' ? l10n.inbound_quantity : l10n.outbound_quantity),
+          title: Text(
+            operation == 'inbound'
+                ? l10n.inbound_quantity
+                : l10n.outbound_quantity,
+          ),
           content: TextField(
             controller: quantityController,
             decoration: InputDecoration(
-               labelText: l10n.quantity,
-               hintText: operation == 'inbound' ? l10n.enter_inbound_quantity : l10n.enter_outbound_quantity,
+              labelText: l10n.quantity,
+              hintText: operation == 'inbound'
+                  ? l10n.enter_inbound_quantity
+                  : l10n.enter_outbound_quantity,
             ),
             keyboardType: TextInputType.number,
             autofocus: true,
           ),
           actions: [
-             TextButton(
-               onPressed: () => Navigator.pop(context),
-               child: Text(AppLocalizations.of(context).cancel),
-             ),
-             FilledButton(
-               onPressed: () {
-                 final quantity = int.tryParse(quantityController.text.trim());
-                 if (quantity != null && quantity > 0) {
-                   Navigator.pop(context, quantity);
-                 }
-               },
-               child: Text(AppLocalizations.of(context).confirm),
-             ),
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: Text(AppLocalizations.of(context).cancel),
+            ),
+            FilledButton(
+              onPressed: () {
+                final quantity = int.tryParse(quantityController.text.trim());
+                if (quantity != null && quantity > 0) {
+                  Navigator.pop(context, quantity);
+                }
+              },
+              child: Text(AppLocalizations.of(context).confirm),
+            ),
           ],
         ),
       );
@@ -1742,11 +1757,19 @@ class _ItemListScreenState extends State<ItemListScreen> {
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
-                content: Text(
-                  operation == 'inbound'
-                      ? l10n.item_increased(existingItem.name, quantity.toString(), existingItem.unit)
-                      : l10n.item_decreased(existingItem.name, quantity.toString(), existingItem.unit),
-                ),
+              content: Text(
+                operation == 'inbound'
+                    ? l10n.item_increased(
+                        existingItem.name,
+                        quantity.toString(),
+                        existingItem.unit,
+                      )
+                    : l10n.item_decreased(
+                        existingItem.name,
+                        quantity.toString(),
+                        existingItem.unit,
+                      ),
+              ),
               duration: const Duration(seconds: 2),
             ),
           );

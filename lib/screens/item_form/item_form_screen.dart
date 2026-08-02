@@ -32,7 +32,13 @@ class ItemFormScreen extends StatelessWidget {
       child: Consumer<ItemFormProvider>(
         builder: (context, provider, _) {
           return Scaffold(
-             appBar: AppBar(title: Text(provider.isEditing ? AppLocalizations.of(context).edit_item : AppLocalizations.of(context).add_item)),
+            appBar: AppBar(
+              title: Text(
+                provider.isEditing
+                    ? AppLocalizations.of(context).edit_item
+                    : AppLocalizations.of(context).add_item,
+              ),
+            ),
             body: SingleChildScrollView(
               padding: const EdgeInsets.all(16),
               child: Column(
@@ -202,7 +208,7 @@ class ItemFormScreen extends StatelessWidget {
                 child: Text(u, overflow: TextOverflow.ellipsis),
               ),
             ),
-             DropdownMenuItem(
+            DropdownMenuItem(
               value: 'custom',
               child: Text(l10n.custom, overflow: TextOverflow.ellipsis),
             ),
@@ -240,7 +246,7 @@ class ItemFormScreen extends StatelessWidget {
     final controller = TextEditingController(text: currentValue);
     showDialog(
       context: context,
-       builder: (context) => AlertDialog(
+      builder: (context) => AlertDialog(
         title: Text(l10n.custom_unit),
         content: TextField(
           controller: controller,
@@ -276,7 +282,7 @@ class ItemFormScreen extends StatelessWidget {
     final controller = TextEditingController(text: currentValue);
     showDialog(
       context: context,
-       builder: (context) => AlertDialog(
+      builder: (context) => AlertDialog(
         title: Text(l10n.custom_location),
         content: TextField(
           controller: controller,
@@ -436,7 +442,7 @@ class ItemFormScreen extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.all(16),
                     child: Text(
-                       l10n.place_barcode_in_frame_to_scan,
+                      l10n.place_barcode_in_frame_to_scan,
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.white,
@@ -491,7 +497,10 @@ class ItemFormScreen extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(l10n.basic_information, style: Theme.of(context).textTheme.titleMedium),
+        Text(
+          l10n.basic_information,
+          style: Theme.of(context).textTheme.titleMedium,
+        ),
         const SizedBox(height: 16),
         TextField(
           decoration: InputDecoration(
@@ -977,12 +986,18 @@ class ItemFormScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildAlertSettingsSection(BuildContext context, ItemFormProvider provider) {
+  Widget _buildAlertSettingsSection(
+    BuildContext context,
+    ItemFormProvider provider,
+  ) {
     final l10n = AppLocalizations.of(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(l10n.alert_settings, style: Theme.of(context).textTheme.titleMedium),
+        Text(
+          l10n.alert_settings,
+          style: Theme.of(context).textTheme.titleMedium,
+        ),
         const SizedBox(height: 16),
         SwitchListTile(
           title: Text(l10n.enable_alert),
@@ -991,7 +1006,10 @@ class ItemFormScreen extends StatelessWidget {
         ),
         if (provider.enableAlert) ...[
           const SizedBox(height: 12),
-          Text(l10n.alert_method, style: Theme.of(context).textTheme.bodyMedium),
+          Text(
+            l10n.alert_method,
+            style: Theme.of(context).textTheme.bodyMedium,
+          ),
           const SizedBox(height: 8),
           SegmentedButton<int>(
             segments: [
@@ -1003,10 +1021,7 @@ class ItemFormScreen extends StatelessWidget {
                 value: 1,
                 label: Text(l10n.alert_method_calendar),
               ),
-              ButtonSegment<int>(
-                value: 2,
-                label: Text(l10n.alert_method_both),
-              ),
+              ButtonSegment<int>(value: 2, label: Text(l10n.alert_method_both)),
             ],
             selected: {provider.alertMethod},
             onSelectionChanged: (Set<int> newSelection) {
@@ -1016,16 +1031,19 @@ class ItemFormScreen extends StatelessWidget {
           const SizedBox(height: 12),
           Row(
             children: [
-              Expanded(
-                child: Text(l10n.alert_days_before),
-              ),
+              Expanded(child: Text(l10n.alert_days_before)),
               const SizedBox(width: 16),
               Expanded(
                 child: TextField(
                   decoration: InputDecoration(
                     hintText: l10n.use_global_setting,
-                    border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
-                    contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    contentPadding: const EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 10,
+                    ),
                     isDense: true,
                   ),
                   keyboardType: TextInputType.number,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:recording/constants.dart';
 import 'package:recording/data/datasources/app_database.dart';
-import 'package:recording/services/notification_service.dart';
 import 'package:recording/services/calendar_service.dart';
+import 'package:recording/services/notification_service.dart';
 import 'package:workmanager/workmanager.dart';
 
 class AlertService {
@@ -121,16 +121,21 @@ class AlertService {
           );
         }
         // 创建日历事件（如果启用且日历可用）
-        if ((item.alertMethod == 1 || item.alertMethod == 2) && calendarAvailable) {
+        if ((item.alertMethod == 1 || item.alertMethod == 2) &&
+            calendarAvailable) {
           final daysBefore = item.alertDaysBefore ?? globalAlertDays;
-          final alertDate = item.expiryDate!.subtract(Duration(days: daysBefore));
+          final alertDate = item.expiryDate!.subtract(
+            Duration(days: daysBefore),
+          );
           // 如果提醒日期已经过去，则不创建事件
           if (alertDate.isAfter(DateTime.now())) {
             try {
               await CalendarService.addEvent(
                 title: '物品过期提醒：${item.name}',
                 description: '物品 ${item.name} 将在 $remaining 天后过期',
-                location: item.storageLocation.isNotEmpty ? item.storageLocation : '未指定',
+                location: item.storageLocation.isNotEmpty
+                    ? item.storageLocation
+                    : '未指定',
                 startTime: alertDate,
                 endTime: alertDate.add(const Duration(hours: 1)),
                 reminderMinutes: 0, // 日历事件自带提醒
@@ -159,15 +164,20 @@ class AlertService {
           );
         }
         // 创建日历事件（如果启用且日历可用）
-        if ((item.alertMethod == 1 || item.alertMethod == 2) && calendarAvailable) {
+        if ((item.alertMethod == 1 || item.alertMethod == 2) &&
+            calendarAvailable) {
           final daysBefore = item.alertDaysBefore ?? globalAlertDays;
-          final alertDate = item.warrantyDate!.subtract(Duration(days: daysBefore));
+          final alertDate = item.warrantyDate!.subtract(
+            Duration(days: daysBefore),
+          );
           if (alertDate.isAfter(DateTime.now())) {
             try {
               await CalendarService.addEvent(
                 title: '保修到期提醒：${item.name}',
                 description: '物品 ${item.name} 的保修期将在 $remaining 天后到期',
-                location: item.storageLocation.isNotEmpty ? item.storageLocation : '未指定',
+                location: item.storageLocation.isNotEmpty
+                    ? item.storageLocation
+                    : '未指定',
                 startTime: alertDate,
                 endTime: alertDate.add(const Duration(hours: 1)),
                 reminderMinutes: 0,

@@ -7,7 +7,8 @@ class LanguageSelectionScreen extends StatefulWidget {
   const LanguageSelectionScreen({super.key});
 
   @override
-  State<LanguageSelectionScreen> createState() => _LanguageSelectionScreenState();
+  State<LanguageSelectionScreen> createState() =>
+      _LanguageSelectionScreenState();
 }
 
 class _LanguageSelectionScreenState extends State<LanguageSelectionScreen> {
@@ -76,12 +77,12 @@ class _LanguageSelectionScreenState extends State<LanguageSelectionScreen> {
     if (locale.languageCode == 'zh' && locale.scriptCode == 'Hant') {
       return '中文 (繁體)';
     }
-    
+
     // 处理西里尔蒙古语特殊情况
     if (locale.languageCode == 'mn' && locale.scriptCode == 'Cyrl') {
       return 'Монгол хэл (Кирилл)';
     }
-    
+
     switch (locale.languageCode) {
       case 'zh':
         return '中文 (简体)';
@@ -205,7 +206,10 @@ class _LanguageSelectionScreenState extends State<LanguageSelectionScreen> {
       body: CustomScrollView(
         slivers: [
           SliverAppBar.large(
-            title: Text(l10n.language_settings, style: theme.textTheme.titleLarge),
+            title: Text(
+              l10n.language_settings,
+              style: theme.textTheme.titleLarge,
+            ),
             leading: IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () => Navigator.of(context).pop(),
@@ -220,7 +224,7 @@ class _LanguageSelectionScreenState extends State<LanguageSelectionScreen> {
               child: Consumer<SettingsProvider>(
                 builder: (context, provider, _) {
                   final currentLocale = provider.locale;
-                  
+
                   return Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -230,7 +234,10 @@ class _LanguageSelectionScreenState extends State<LanguageSelectionScreen> {
                         title: Text(l10n.system_default),
                         subtitle: Text(l10n.use_system_language),
                         trailing: currentLocale == null
-                            ? Icon(Icons.check, color: theme.colorScheme.primary)
+                            ? Icon(
+                                Icons.check,
+                                color: theme.colorScheme.primary,
+                              )
                             : null,
                         onTap: () {
                           provider.setLocale(null);
@@ -238,24 +245,28 @@ class _LanguageSelectionScreenState extends State<LanguageSelectionScreen> {
                         },
                       ),
                       const Divider(),
-                      
+
                       // 语言选项列表
                       for (final locale in supportedLocales)
-                         ListTile(
-                           leading: Icon(Icons.language),
+                        ListTile(
+                          leading: Icon(Icons.language),
                           title: Text(_getLanguageName(locale)),
                           subtitle: Text(locale.languageCode.toUpperCase()),
-                          trailing: currentLocale?.languageCode == locale.languageCode
-                              ? Icon(Icons.check, color: theme.colorScheme.primary)
+                          trailing:
+                              currentLocale?.languageCode == locale.languageCode
+                              ? Icon(
+                                  Icons.check,
+                                  color: theme.colorScheme.primary,
+                                )
                               : null,
                           onTap: () {
                             provider.setLocale(locale);
                             Navigator.pop(context);
                           },
                         ),
-                      
+
                       const SizedBox(height: 16),
-                      
+
                       // 说明文本
                       Padding(
                         padding: const EdgeInsets.all(16.0),

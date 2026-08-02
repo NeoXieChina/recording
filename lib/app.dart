@@ -4,17 +4,17 @@ import 'package:provider/provider.dart';
 import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/providers/item_list_provider.dart';
 import 'package:recording/providers/settings_provider.dart';
+import 'package:recording/routes.dart';
 import 'package:recording/screens/item_list/item_list_screen.dart';
 import 'package:recording/screens/settings/about_screen.dart';
 import 'package:recording/screens/settings/alerts_settings_screen.dart';
 import 'package:recording/screens/settings/backup_screen.dart';
 import 'package:recording/screens/settings/export_screen.dart';
 import 'package:recording/screens/settings/import_screen.dart';
+import 'package:recording/screens/settings/language_selection_screen.dart';
 import 'package:recording/screens/settings/restore_screen.dart';
 import 'package:recording/screens/settings/settings_screen.dart';
-import 'package:recording/screens/settings/language_selection_screen.dart';
 import 'package:recording/theme/app_theme.dart';
-import 'package:recording/routes.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -54,7 +54,7 @@ class App extends StatelessWidget {
                   if (settingsProvider.locale != null) {
                     return settingsProvider.locale;
                   }
-                  
+
                   // 否则使用系统语言，如果系统语言不支持则使用英语
                   if (locale != null) {
                     for (var supportedLocale in supportedLocales) {
@@ -63,7 +63,7 @@ class App extends StatelessWidget {
                       }
                     }
                   }
-                  
+
                   // 默认使用英语
                   return const Locale('en');
                 },
@@ -81,7 +81,8 @@ class App extends StatelessWidget {
                   '/settings/import': (_) => const ImportScreen(),
                   '/settings/alerts': (_) => const AlertsSettingsScreen(),
                   '/settings/about': (_) => const AboutScreen(),
-                  AppRoutes.languageSettings: (_) => const LanguageSelectionScreen(),
+                  AppRoutes.languageSettings: (_) =>
+                      const LanguageSelectionScreen(),
                 },
               );
             },

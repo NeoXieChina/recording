@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:recording/constants.dart';
 import 'package:recording/services/alert_service.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class SettingsProvider extends ChangeNotifier {
   static const String _localeKey = 'selected_locale';
-  
+
   bool _calendarSync = false;
   int _alertDays = AppConstants.defaultAlertDays;
   bool _isExporting = false;

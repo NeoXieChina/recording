@@ -121,7 +121,10 @@ class SettingsScreen extends StatelessWidget {
                     leading: Icon(Icons.language, color: colorScheme.primary),
                     title: Text(l10n.language_settings),
                     subtitle: Text(l10n.language_settings_description),
-                    onTap: () => Navigator.pushNamed(context, AppRoutes.languageSettings),
+                    onTap: () => Navigator.pushNamed(
+                      context,
+                      AppRoutes.languageSettings,
+                    ),
                   ),
                 ),
                 const SizedBox(height: 12),

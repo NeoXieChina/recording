@@ -13,7 +13,6 @@ class AlertDaysSelectionScreen extends StatefulWidget {
 }
 
 class _AlertDaysSelectionScreenState extends State<AlertDaysSelectionScreen> {
-
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -61,12 +60,15 @@ class _AlertDaysSelectionScreenState extends State<AlertDaysSelectionScreen> {
                   // 排序
                   final sortedDays = daysToShow.toList()..sort();
 
-                   return Column(
+                  return Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       // 当前选择显示
                       Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 16.0,
+                          vertical: 8.0,
+                        ),
                         child: Text(
                           l10n.current_selection(currentValue),
                           style: theme.textTheme.bodyMedium?.copyWith(
@@ -76,7 +78,7 @@ class _AlertDaysSelectionScreenState extends State<AlertDaysSelectionScreen> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      
+
                       // 预置天数选项
                       for (final days in sortedDays)
                         ListTile(
@@ -100,13 +102,14 @@ class _AlertDaysSelectionScreenState extends State<AlertDaysSelectionScreen> {
                           },
                         ),
 
-
-
                       // 说明文本
                       Padding(
                         padding: const EdgeInsets.all(16.0),
                         child: Text(
-                           l10n.alert_days_range(AppConstants.minAlertDays, AppConstants.maxAlertDays),
+                          l10n.alert_days_range(
+                            AppConstants.minAlertDays,
+                            AppConstants.maxAlertDays,
+                          ),
                           style: theme.textTheme.bodySmall?.copyWith(
                             color: theme.colorScheme.onSurface.withAlpha(
                               (0.6 * 255).round(),
