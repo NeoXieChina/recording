@@ -29,40 +29,108 @@ class ItemFormScreen extends StatelessWidget {
         }
         return provider;
       },
-      child: Consumer<ItemFormProvider>(
+       child: Consumer<ItemFormProvider>(
         builder: (context, provider, _) {
-          return Scaffold(
-            appBar: AppBar(
-              title: Text(
-                provider.isEditing
-                    ? AppLocalizations.of(context).edit_item
-                    : AppLocalizations.of(context).add_item,
-              ),
-            ),
-            body: SingleChildScrollView(
-              padding: const EdgeInsets.all(16),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  _buildBasicInfoSection(context, provider),
-                  const SizedBox(height: 24),
-                  _buildTypeSwitchSection(context, provider),
-                  const SizedBox(height: 24),
-                  _buildMediaSection(context, provider),
-                  const SizedBox(height: 24),
-                  _buildAlertSettingsSection(context, provider),
-                  const SizedBox(height: 24),
-                  _buildNotesSection(context, provider),
-                  const SizedBox(height: 32),
-                  _buildSaveButton(context, provider),
-                  const SizedBox(height: 32),
-                ],
+           return PopScope(
+            canPop: !provider.isDirty,
+            onPopInvokedWithResult: (bool didPop, Object? result) async {
+              if (!didPop && provider.isDirty) {
+                final dialogResult = await showDialog<int>(
+                  context: context,
+                   builder: (context) => AlertDialog(
+                     title: Text('未保存的更改'),
+                     content: Text('您有未保存的更改，请选择操作：'),
+                     actions: [
+                       TextButton(
+                         onPressed: () => Navigator.pop(context, 0), // 取消
+                         child: Text(AppLocalizations.of(context).cancel),
+                       ),
+                       TextButton(
+                         onPressed: () => Navigator.pop(context, 1), // 放弃
+                         child: Text('放弃'),
+                       ),
+                     ],
+                   ),
+                );
+                
+                 if (dialogResult == 1) {
+                   // 放弃更改
+                   if (context.mounted) {
+                     Navigator.pop(context);
+                   }
+                 }
+                // dialogResult == 0 取消，不做任何操作
+              }
+            },
+            child: Scaffold(
+               appBar: AppBar(
+                 title: Text(
+                   provider.isEditing
+                       ? AppLocalizations.of(context).edit_item
+                       : AppLocalizations.of(context).add_item,
+                 ),
+                 actions: [
+                   IconButton(
+                     icon: provider.isSaving
+                         ? const SizedBox(
+                             width: 20,
+                             height: 20,
+                             child: CircularProgressIndicator(strokeWidth: 2),
+                           )
+                         : const Icon(Icons.check),
+                     onPressed: provider.isSaving
+                         ? null
+                         : () async {
+                             final item = await provider.save(context);
+                             if (item != null && context.mounted) {
+                               ScaffoldMessenger.of(context).showSnackBar(
+                                 SnackBar(
+                                   content: Text(
+                                     provider.isEditing
+                                         ? AppLocalizations.of(context).item_updated
+                                         : AppLocalizations.of(context).item_added,
+                                   ),
+                                 ),
+                               );
+                               Navigator.pop(context);
+                             }
+                           },
+                   ),
+                 ],
+               ),
+              body: SingleChildScrollView(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    _buildBasicInfoSection(context, provider),
+                    const SizedBox(height: 24),
+                    _buildTypeSwitchSection(context, provider),
+                    const SizedBox(height: 24),
+                    _buildMediaSection(context, provider),
+                    const SizedBox(height: 24),
+                    _buildAlertSettingsSection(context, provider),
+                    const SizedBox(height: 24),
+                    _buildNotesSection(context, provider),
+
+                  ],
+                ),
               ),
             ),
           );
         },
       ),
     );
+  }
+
+  String _mapCategoryToDisplay(String category) {
+    // 如果 category 是预定义分类键，返回对应的中文分类名
+    final index = AppConstants.itemCategoryKeys.indexOf(category);
+    if (index != -1) {
+      return AppConstants.itemCategories[index];
+    }
+    // 否则直接返回 category（可能是中文分类名或自定义分类）
+    return category;
   }
 
   Widget _buildCategoryInput({
@@ -73,27 +141,44 @@ class ItemFormScreen extends StatelessWidget {
     return Consumer<ItemListProvider>(
       builder: (context, itemListProvider, _) {
         final l10n = AppLocalizations.of(context);
-        final predefinedCategoryKeys = AppConstants.itemCategoryKeys;
+        // 预定义分类使用中文名称
+        final predefinedCategories = AppConstants.itemCategories;
+        // 自定义分类（可能包含键或中文名称）
         final customCategories = itemListProvider.getCategories();
 
-        final allCategories = <String>{}
-          ..addAll(predefinedCategoryKeys)
-          ..addAll(customCategories)
+        // 将自定义分类中的键转换为中文名称，以便显示
+        final customDisplayCategories = customCategories.map((c) => _mapCategoryToDisplay(c)).toSet();
+
+        // 所有分类（显示用）
+        final allDisplayCategories = <String>{}
+          ..addAll(predefinedCategories)
+          ..addAll(customDisplayCategories)
           ..removeWhere((c) => c.isEmpty);
 
+        // 映射：显示名称 -> 原始值（用于保存）
+        final displayToOriginalMap = <String, String>{};
+        for (final c in predefinedCategories) {
+          displayToOriginalMap[c] = c; // 预定义分类原始值就是中文名称
+        }
+        for (final c in customCategories) {
+          displayToOriginalMap[_mapCategoryToDisplay(c)] = c;
+        }
+
+        // 当前值的显示文本
+        final displayValue = _mapCategoryToDisplay(value);
         final hasCustomCategory =
-            !allCategories.contains(value) && value.isNotEmpty;
+            !allDisplayCategories.contains(displayValue) && value.isNotEmpty;
 
         return _buildStyledDropdownButtonFormField<String>(
           context: context,
           label: l10n.item_category,
-          value: hasCustomCategory ? 'custom' : value,
+          value: hasCustomCategory ? 'custom' : displayValue,
           items: [
-            ...allCategories.map(
-              (c) => DropdownMenuItem(
-                value: c,
+            ...allDisplayCategories.map(
+              (display) => DropdownMenuItem(
+                value: display,
                 child: Text(
-                  _getCategoryDisplayText(c, l10n),
+                  display,
                   overflow: TextOverflow.ellipsis,
                 ),
               ),
@@ -119,7 +204,9 @@ class ItemFormScreen extends StatelessWidget {
                   }
                 });
               } else {
-                onChanged(v);
+                // 根据显示名称找到原始值
+                final original = displayToOriginalMap[v] ?? v;
+                onChanged(original);
               }
             }
           },
@@ -690,16 +777,22 @@ class ItemFormScreen extends StatelessWidget {
               label: Text('耐用品'),
               icon: Icon(Icons.chair),
             ),
+            ButtonSegment(
+              value: ItemType.none,
+              label: Text('无日期'),
+              icon: Icon(Icons.event_busy),
+            ),
           ],
           selected: {provider.itemType},
           onSelectionChanged: (s) => provider.setItemType(s.first),
         ),
         const SizedBox(height: 16),
-        _buildDateAndShelfLifeSection(
-          context: context,
-          provider: provider,
-          isConsumable: provider.itemType == ItemType.consumable,
-        ),
+        if (provider.itemType != ItemType.none)
+          _buildDateAndShelfLifeSection(
+            context: context,
+            provider: provider,
+            isConsumable: provider.itemType == ItemType.consumable,
+          ),
       ],
     );
   }
@@ -709,6 +802,9 @@ class ItemFormScreen extends StatelessWidget {
     required ItemFormProvider provider,
     required bool isConsumable,
   }) {
+    if (provider.noDate) {
+      return const SizedBox.shrink();
+    }
     final dateLabel = isConsumable ? '有效期' : '保修到期日';
     final dateIcon = isConsumable ? Icons.event : Icons.verified_user;
 
@@ -990,6 +1086,11 @@ class ItemFormScreen extends StatelessWidget {
     BuildContext context,
     ItemFormProvider provider,
   ) {
+    // 无日期类型不显示提醒设置
+    if (provider.itemType == ItemType.none) {
+      return const SizedBox.shrink();
+    }
+    
     final l10n = AppLocalizations.of(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -1264,43 +1365,7 @@ class ItemFormScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildSaveButton(BuildContext context, ItemFormProvider provider) {
-    return SizedBox(
-      width: double.infinity,
-      child: FilledButton(
-        onPressed: provider.isSaving
-            ? null
-            : () async {
-                final item = await provider.save(context);
-                if (item != null && context.mounted) {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(
-                      content: Text(
-                        provider.isEditing
-                            ? AppLocalizations.of(context).item_updated
-                            : AppLocalizations.of(context).item_added,
-                      ),
-                    ),
-                  );
-                  Navigator.pop(context);
-                }
-              },
-        style: FilledButton.styleFrom(
-          padding: const EdgeInsets.symmetric(vertical: 16),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(12),
-          ),
-        ),
-        child: provider.isSaving
-            ? const SizedBox(
-                width: 20,
-                height: 20,
-                child: CircularProgressIndicator(strokeWidth: 2),
-              )
-            : const Text('保存'),
-      ),
-    );
-  }
+
 
   Widget _buildStyledDropdownButtonFormField<T>({
     required BuildContext context,
@@ -1456,39 +1521,7 @@ class ItemFormScreen extends StatelessWidget {
     );
   }
 
-  String _getCategoryDisplayText(
-    String categoryKeyOrName,
-    AppLocalizations l10n,
-  ) {
-    // 检查是否为预定义分类键
-    if (AppConstants.itemCategoryKeys.contains(categoryKeyOrName)) {
-      // 根据键返回本地化文本
-      switch (categoryKeyOrName) {
-        case 'item_category_food':
-          return l10n.item_category_food;
-        case 'item_category_daily_necessities':
-          return l10n.item_category_daily_necessities;
-        case 'item_category_cosmetics':
-          return l10n.item_category_cosmetics;
-        case 'item_category_medicine':
-          return l10n.item_category_medicine;
-        case 'item_category_electronics':
-          return l10n.item_category_electronics;
-        case 'item_category_furniture':
-          return l10n.item_category_furniture;
-        case 'item_category_clothing':
-          return l10n.item_category_clothing;
-        case 'item_category_books':
-          return l10n.item_category_books;
-        case 'item_category_other':
-          return l10n.item_category_other;
-        default:
-          return categoryKeyOrName;
-      }
-    }
-    // 自定义分类，直接返回名称
-    return categoryKeyOrName;
-  }
+
 }
 
 class _DashedBorderPainter extends CustomPainter {

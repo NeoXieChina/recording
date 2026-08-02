@@ -30,6 +30,8 @@ class ItemFormProvider extends ChangeNotifier {
   bool usePurchaseDateForCalculation = false;
   bool useProductionDateForCalculation = false;
   bool useManualDateEntry = false; // true表示手动输入最终日期，false表示自动计算
+  bool noShelfLife = false; // true表示无保质期/保修期
+  bool noDate = false; // true表示无日期（隐藏所有日期相关输入）
   String storageLocation = '';
   String barcode = '';
   List<String> imagePaths = [];
@@ -39,8 +41,10 @@ class ItemFormProvider extends ChangeNotifier {
   int? alertDaysBefore;
 
   bool _isSaving = false;
+  bool _isDirty = false;
 
   bool get isSaving => _isSaving;
+  bool get isDirty => _isDirty;
 
   String? nameError;
   String? quantityError;
@@ -55,114 +59,192 @@ class ItemFormProvider extends ChangeNotifier {
     itemType = type;
     if (type == ItemType.consumable) {
       warrantyDate = null;
-    } else {
+      noDate = false;
+      noShelfLife = false; // 消耗品必须有保质期
+    } else if (type == ItemType.durable) {
       expiryDate = null;
+      noDate = false;
+      noShelfLife = false; // 耐用品必须有保修期
+    } else if (type == ItemType.none) {
+      // 无日期选项：清除所有日期相关字段
+      expiryDate = null;
+      warrantyDate = null;
+      purchaseDate = null;
+      productionDate = null;
+      shelfLifeMonths = null;
+      shelfLifeDays = null;
+      noDate = true;
+      noShelfLife = true; // 无日期类型无保质期
+      enableAlert = false; // 无日期类型禁用提醒
     }
     clearErrors();
+    markDirty();
     notifyListeners();
   }
 
   void setName(String value) {
     name = value;
     nameError = null;
+    markDirty();
     notifyListeners();
   }
 
   void setCategory(String value) {
     category = value;
+    markDirty();
     notifyListeners();
   }
 
   void setQuantity(int value) {
     quantity = value;
     quantityError = null;
+    markDirty();
     notifyListeners();
   }
 
   void setUnit(String value) {
     unit = value;
+    markDirty();
     notifyListeners();
   }
 
   void setUnitPrice(double value) {
     unitPrice = value;
     unitPriceError = null;
+    markDirty();
     notifyListeners();
   }
 
   void setCurrencySymbol(String value) {
     currencySymbol = value;
+    markDirty();
     notifyListeners();
   }
 
   void setExpiryDate(DateTime? value) {
-    // 现在只允许自动计算，不允许手动设置有效期
-    // 保留方法但不做任何操作，因为有效期由系统自动计算
+    expiryDate = value;
+    // 手动设置有效期时，启用手动输入模式
+    useManualDateEntry = true;
+    markDirty();
+    notifyListeners();
   }
 
   void setWarrantyDate(DateTime? value) {
-    // 现在只允许自动计算，不允许手动设置保修期
-    // 保留方法但不做任何操作，因为保修期由系统自动计算
+    warrantyDate = value;
+    // 手动设置保修期时，启用手动输入模式
+    useManualDateEntry = true;
+    markDirty();
+    notifyListeners();
   }
 
   void setPurchaseDate(DateTime? value) {
     purchaseDate = value;
-    // 总是自动计算
+    // 切换到自动计算模式
     usePurchaseDateForCalculation = value != null;
     useProductionDateForCalculation = false;
+    useManualDateEntry = false;
     _calculateExpiryOrWarrantyDate();
+    markDirty();
     notifyListeners();
   }
 
   void setProductionDate(DateTime? value) {
     productionDate = value;
-    // 总是自动计算
+    // 切换到自动计算模式
     useProductionDateForCalculation = value != null;
     usePurchaseDateForCalculation = false;
+    useManualDateEntry = false;
     _calculateExpiryOrWarrantyDate();
+    markDirty();
     notifyListeners();
   }
 
   void setShelfLifeMonths(int? value) {
     shelfLifeMonths = value;
+    // 切换到自动计算模式
+    useManualDateEntry = false;
     _calculateExpiryOrWarrantyDate();
+    markDirty();
     notifyListeners();
   }
 
   void setShelfLifeDays(int? value) {
     shelfLifeDays = value;
+    // 切换到自动计算模式
+    useManualDateEntry = false;
     _calculateExpiryOrWarrantyDate();
+    markDirty();
     notifyListeners();
   }
 
   void setStorageLocation(String value) {
     storageLocation = value;
+    markDirty();
     notifyListeners();
   }
 
   void setBarcode(String value) {
     barcode = value;
+    markDirty();
     notifyListeners();
   }
 
   void setNotes(String? value) {
     notes = value;
+    markDirty();
     notifyListeners();
   }
 
   void setEnableAlert(bool value) {
+    if (noShelfLife && value) {
+      // 无保质期时不允许启用提醒
+      return;
+    }
     enableAlert = value;
+    markDirty();
     notifyListeners();
   }
 
   void setAlertMethod(int value) {
     alertMethod = value;
+    markDirty();
     notifyListeners();
   }
 
   void setAlertDaysBefore(int? value) {
     alertDaysBefore = value;
     notifyListeners();
+  }
+
+  void setUseManualDateEntry(bool value) {
+    useManualDateEntry = value;
+    // 如果切换到自动模式，重新计算日期
+    if (!value) {
+      _calculateExpiryOrWarrantyDate();
+    }
+    markDirty();
+    notifyListeners();
+  }
+
+  void setNoShelfLife(bool value) {
+    // 只有无日期类型可以设置无保质期
+    if (itemType == ItemType.none) {
+      noShelfLife = value;
+      if (value) {
+        // 清除保质期相关字段
+        shelfLifeMonths = null;
+        shelfLifeDays = null;
+        expiryDate = null;
+        warrantyDate = null;
+        // 切换到自动计算模式（无保质期意味着无需计算）
+        useManualDateEntry = false;
+        // 无保质期时自动禁用提醒
+        enableAlert = false;
+      }
+      markDirty();
+      notifyListeners();
+    }
+    // 消耗品和耐用品不允许设置无保质期
   }
 
   Future<void> pickImages() async {
@@ -279,6 +361,15 @@ class ItemFormProvider extends ChangeNotifier {
     productionDate = item.productionDate;
     shelfLifeMonths = item.shelfLifeMonths;
     shelfLifeDays = item.shelfLifeDays;
+    // 设置无日期标志
+    noDate = item.itemType == ItemType.none;
+    // 设置无保质期标志
+    if (item.itemType == ItemType.none) {
+      noShelfLife = true;
+    } else {
+      // 消耗品和耐用品必须有保质期/保修期
+      noShelfLife = false;
+    }
     // 自动设置计算标志
     usePurchaseDateForCalculation =
         item.itemType == ItemType.durable && item.purchaseDate != null;
@@ -294,6 +385,7 @@ class ItemFormProvider extends ChangeNotifier {
     alertMethod = item.alertMethod;
     alertDaysBefore = item.alertDaysBefore;
     clearErrors();
+    resetDirty();
     notifyListeners();
   }
 
@@ -315,6 +407,8 @@ class ItemFormProvider extends ChangeNotifier {
     usePurchaseDateForCalculation = false;
     useProductionDateForCalculation = false;
     useManualDateEntry = false;
+    noShelfLife = false;
+    noDate = false;
     storageLocation = '';
     barcode = '';
     imagePaths = [];
@@ -323,6 +417,7 @@ class ItemFormProvider extends ChangeNotifier {
     alertMethod = 0;
     alertDaysBefore = null;
     clearErrors();
+    resetDirty();
     notifyListeners();
   }
 
@@ -331,6 +426,16 @@ class ItemFormProvider extends ChangeNotifier {
     quantityError = null;
     unitPriceError = null;
     dateError = null;
+  }
+
+  void markDirty() {
+    _isDirty = true;
+    notifyListeners();
+  }
+
+  void resetDirty() {
+    _isDirty = false;
+    notifyListeners();
   }
 
   bool validate(BuildContext context) {
@@ -377,8 +482,7 @@ class ItemFormProvider extends ChangeNotifier {
         ).set_production_expiry_for_validity;
         isValid = false;
       }
-    }
-    if (itemType == ItemType.durable) {
+    } else if (itemType == ItemType.durable) {
       // 总是自动计算模式：检查是否有足够的计算信息
       if (warrantyDate == null && !_canCalculateWarrantyDate()) {
         dateError = AppLocalizations.of(
@@ -387,6 +491,7 @@ class ItemFormProvider extends ChangeNotifier {
         isValid = false;
       }
     }
+    // ItemType.none 不需要日期验证
 
     notifyListeners();
     return isValid;
@@ -412,17 +517,17 @@ class ItemFormProvider extends ChangeNotifier {
         warrantyDate: warrantyDate,
         purchaseDate: purchaseDate,
         productionDate: productionDate,
-        shelfLifeMonths: shelfLifeMonths,
-        shelfLifeDays: shelfLifeDays,
+        shelfLifeMonths: noShelfLife ? null : shelfLifeMonths,
+        shelfLifeDays: noShelfLife ? null : shelfLifeDays,
         usePurchaseDateForCalculation: usePurchaseDateForCalculation,
         useProductionDateForCalculation: useProductionDateForCalculation,
         storageLocation: storageLocation,
         barcode: barcode.trim().isNotEmpty ? barcode.trim() : null,
         imagePaths: imagePaths,
         notes: notes?.trim().isNotEmpty == true ? notes!.trim() : null,
-        enableAlert: enableAlert,
+        enableAlert: noShelfLife ? false : enableAlert,
         alertMethod: alertMethod,
-        alertDaysBefore: alertDaysBefore,
+        alertDaysBefore: noShelfLife ? null : alertDaysBefore,
       );
 
       if (_editingId != null) {
@@ -450,6 +555,7 @@ class ItemFormProvider extends ChangeNotifier {
   }
 
   void _calculateExpiryDate() {
+    if (useManualDateEntry) return;
     if (!usePurchaseDateForCalculation && !useProductionDateForCalculation) {
       return;
     }
@@ -479,6 +585,7 @@ class ItemFormProvider extends ChangeNotifier {
   }
 
   void _calculateWarrantyDate() {
+    if (useManualDateEntry) return;
     if (!usePurchaseDateForCalculation && !useProductionDateForCalculation) {
       return;
     }

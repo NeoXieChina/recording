@@ -1,7 +1,7 @@
 import 'package:recording/constants.dart';
 import 'package:uuid/uuid.dart';
 
-enum ItemType { consumable, durable }
+enum ItemType { consumable, durable, none }
 
 class Item {
   final String id;
