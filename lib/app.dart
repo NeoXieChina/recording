@@ -5,7 +5,7 @@ import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/providers/item_list_provider.dart';
 import 'package:recording/providers/settings_provider.dart';
 import 'package:recording/routes.dart';
-import 'package:recording/screens/item_list/item_list_screen.dart';
+import 'package:recording/screens/item_list/item_master_detail_screen.dart';
 import 'package:recording/screens/settings/about_screen.dart';
 import 'package:recording/screens/settings/alerts_settings_screen.dart';
 import 'package:recording/screens/settings/backup_screen.dart';
@@ -71,9 +71,8 @@ class App extends StatelessWidget {
                 darkTheme: AppTheme.darkTheme,
                 themeMode: ThemeMode.system,
                 debugShowCheckedModeBanner: false,
-                initialRoute: '/',
+                home: const ItemMasterDetailScreen(),
                 routes: {
-                  '/': (_) => const ItemListScreen(),
                   '/settings': (_) => const SettingsScreen(),
                   '/settings/backup': (_) => const BackupScreen(),
                   '/settings/restore': (_) => const RestoreScreen(),

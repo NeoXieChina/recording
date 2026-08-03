@@ -13,7 +13,26 @@ import 'package:recording/screens/settings/settings_screen.dart';
 import 'package:recording/utils/format.dart';
 
 class ItemListScreen extends StatefulWidget {
-  const ItemListScreen({super.key});
+  final bool isEmbedded;
+  final String? selectedItemId;
+  final ValueChanged<Item>? onItemTap;
+  final VoidCallback? onAddTap;
+  final ValueChanged<String>? onAddWithBarcode;
+  final ValueChanged<String>? onItemDeleted;
+  final VoidCallback? onSettingsRequested;
+  final VoidCallback? onScanRequested;
+
+  const ItemListScreen({
+    super.key,
+    this.isEmbedded = false,
+    this.selectedItemId,
+    this.onItemTap,
+    this.onAddTap,
+    this.onAddWithBarcode,
+    this.onItemDeleted,
+    this.onSettingsRequested,
+    this.onScanRequested,
+  });
 
   @override
   State<ItemListScreen> createState() => _ItemListScreenState();
@@ -521,15 +540,16 @@ class _ItemListScreenState extends State<ItemListScreen> {
               ),
               IconButton(
                 icon: const Icon(Icons.qr_code_scanner),
-                onPressed: _scanBarcode,
+                onPressed: widget.onScanRequested ?? _scanBarcode,
                 tooltip: l10n.scan_barcode,
               ),
               IconButton(
                 icon: const Icon(Icons.settings),
-                onPressed: () => Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => const SettingsScreen()),
-                ),
+                onPressed: widget.onSettingsRequested ?? () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (_) => const SettingsScreen()),
+                        ),
               ),
             ],
           ),
@@ -629,6 +649,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
     final cs = Theme.of(context).colorScheme;
     final isWarning = item.isExpiringSoon || item.isWarrantyExpiringSoon;
     final isDanger = item.isExpired || item.isWarrantyExpired;
+    final isSelected = widget.isEmbedded && widget.selectedItemId == item.id;
 
     return Padding(
       padding: const EdgeInsets.only(bottom: 8),
@@ -660,7 +681,14 @@ class _ItemListScreenState extends State<ItemListScreen> {
           margin: const EdgeInsets.symmetric(horizontal: 8),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
+            side: isSelected
+                ? BorderSide(
+                    color: cs.primary,
+                    width: 2,
+                  )
+                : BorderSide.none,
           ),
+          color: isSelected ? cs.primaryContainer : null,
           child: InkWell(
             onTap: () {
               _navigateToEdit(item);
@@ -947,11 +975,12 @@ class _ItemListScreenState extends State<ItemListScreen> {
             onPressed: () => Navigator.pop(ctx),
             child: Text(l10n.cancel),
           ),
-          FilledButton(
-            onPressed: () {
-              Navigator.pop(ctx);
-              provider.deleteItem(item.id);
-            },
+            FilledButton(
+              onPressed: () {
+                Navigator.pop(ctx);
+                provider.deleteItem(item.id);
+                widget.onItemDeleted?.call(item.id);
+              },
             style: FilledButton.styleFrom(
               backgroundColor: Theme.of(context).colorScheme.error,
             ),
@@ -1777,22 +1806,28 @@ class _ItemListScreenState extends State<ItemListScreen> {
       }
     } else {
       if (!mounted) return;
-      // 新商品，跳转到添加页面并预填条码
-      await Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (_) => ItemFormScreen(initialBarcode: barcodeResult),
-        ),
-      ).then((_) {
-        // 返回后刷新列表
-        if (mounted) {
-          provider.refresh();
-        }
-      });
+      if (widget.onAddWithBarcode != null) {
+        widget.onAddWithBarcode!(barcodeResult);
+      } else {
+        await Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (_) => ItemFormScreen(initialBarcode: barcodeResult),
+          ),
+        ).then((_) {
+          if (mounted) {
+            provider.refresh();
+          }
+        });
+      }
     }
   }
 
   Future<void> _navigateToAdd() async {
+    if (widget.onAddTap != null) {
+      widget.onAddTap!();
+      return;
+    }
     await Navigator.push(
       context,
       MaterialPageRoute(builder: (_) => const ItemFormScreen()),
@@ -1803,6 +1838,10 @@ class _ItemListScreenState extends State<ItemListScreen> {
   }
 
   Future<void> _navigateToEdit(Item item) async {
+    if (widget.onItemTap != null) {
+      widget.onItemTap!(item);
+      return;
+    }
     await Navigator.push(
       context,
       MaterialPageRoute(builder: (_) => ItemFormScreen(item: item)),

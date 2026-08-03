@@ -13,8 +13,18 @@ import 'package:recording/utils/format.dart';
 class ItemFormScreen extends StatelessWidget {
   final Item? item;
   final String? initialBarcode;
+  final bool isEmbedded;
+  final ValueChanged<Item>? onSaved;
+  final VoidCallback? onClosed;
 
-  const ItemFormScreen({super.key, this.item, this.initialBarcode});
+  const ItemFormScreen({
+    super.key,
+    this.item,
+    this.initialBarcode,
+    this.isEmbedded = false,
+    this.onSaved,
+    this.onClosed,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -29,98 +39,141 @@ class ItemFormScreen extends StatelessWidget {
         }
         return provider;
       },
-       child: Consumer<ItemFormProvider>(
+      child: Consumer<ItemFormProvider>(
         builder: (context, provider, _) {
-           return PopScope(
+          final scaffold = Scaffold(
+            appBar: AppBar(
+              leading: isEmbedded
+                  ? IconButton(
+                      icon: const Icon(Icons.close),
+                      onPressed: () => _handleClose(context, provider),
+                    )
+                  : null,
+              title: Text(
+                provider.isEditing
+                    ? AppLocalizations.of(context).edit_item
+                    : AppLocalizations.of(context).add_item,
+              ),
+              actions: [
+                IconButton(
+                  icon: provider.isSaving
+                      ? const SizedBox(
+                          width: 20,
+                          height: 20,
+                          child: CircularProgressIndicator(strokeWidth: 2),
+                        )
+                      : const Icon(Icons.check),
+                  onPressed: provider.isSaving
+                      ? null
+                      : () async {
+                          final savedItem = await provider.save(context);
+                          if (savedItem != null && context.mounted) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              SnackBar(
+                                content: Text(
+                                  provider.isEditing
+                                      ? AppLocalizations.of(context)
+                                          .item_updated
+                                      : AppLocalizations.of(context)
+                                          .item_added,
+                                ),
+                              ),
+                            );
+                            if (isEmbedded) {
+                              onSaved?.call(savedItem);
+                            } else {
+                              Navigator.pop(context);
+                            }
+                          }
+                        },
+                ),
+              ],
+            ),
+            body: SingleChildScrollView(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  _buildBasicInfoSection(context, provider),
+                  const SizedBox(height: 24),
+                  _buildTypeSwitchSection(context, provider),
+                  const SizedBox(height: 24),
+                  _buildMediaSection(context, provider),
+                  const SizedBox(height: 24),
+                  _buildAlertSettingsSection(context, provider),
+                  const SizedBox(height: 24),
+                  _buildNotesSection(context, provider),
+                ],
+              ),
+            ),
+          );
+
+          if (isEmbedded) {
+            return scaffold;
+          }
+
+          return PopScope(
             canPop: !provider.isDirty,
             onPopInvokedWithResult: (bool didPop, Object? result) async {
               if (!didPop && provider.isDirty) {
                 final dialogResult = await showDialog<int>(
                   context: context,
-                   builder: (context) => AlertDialog(
-                     title: Text('未保存的更改'),
-                     content: Text('您有未保存的更改，请选择操作：'),
-                     actions: [
-                       TextButton(
-                         onPressed: () => Navigator.pop(context, 0), // 取消
-                         child: Text(AppLocalizations.of(context).cancel),
-                       ),
-                       TextButton(
-                         onPressed: () => Navigator.pop(context, 1), // 放弃
-                         child: Text('放弃'),
-                       ),
-                     ],
-                   ),
+                  builder: (context) => AlertDialog(
+                    title: Text('未保存的更改'),
+                    content: Text('您有未保存的更改，请选择操作：'),
+                    actions: [
+                      TextButton(
+                        onPressed: () => Navigator.pop(context, 0),
+                        child: Text(AppLocalizations.of(context).cancel),
+                      ),
+                      TextButton(
+                        onPressed: () => Navigator.pop(context, 1),
+                        child: Text('放弃'),
+                      ),
+                    ],
+                  ),
                 );
-                
-                 if (dialogResult == 1) {
-                   // 放弃更改
-                   if (context.mounted) {
-                     Navigator.pop(context);
-                   }
-                 }
-                // dialogResult == 0 取消，不做任何操作
+
+                if (dialogResult == 1) {
+                  if (context.mounted) {
+                    Navigator.pop(context);
+                  }
+                }
               }
             },
-            child: Scaffold(
-               appBar: AppBar(
-                 title: Text(
-                   provider.isEditing
-                       ? AppLocalizations.of(context).edit_item
-                       : AppLocalizations.of(context).add_item,
-                 ),
-                 actions: [
-                   IconButton(
-                     icon: provider.isSaving
-                         ? const SizedBox(
-                             width: 20,
-                             height: 20,
-                             child: CircularProgressIndicator(strokeWidth: 2),
-                           )
-                         : const Icon(Icons.check),
-                     onPressed: provider.isSaving
-                         ? null
-                         : () async {
-                             final item = await provider.save(context);
-                             if (item != null && context.mounted) {
-                               ScaffoldMessenger.of(context).showSnackBar(
-                                 SnackBar(
-                                   content: Text(
-                                     provider.isEditing
-                                         ? AppLocalizations.of(context).item_updated
-                                         : AppLocalizations.of(context).item_added,
-                                   ),
-                                 ),
-                               );
-                               Navigator.pop(context);
-                             }
-                           },
-                   ),
-                 ],
-               ),
-              body: SingleChildScrollView(
-                padding: const EdgeInsets.all(16),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    _buildBasicInfoSection(context, provider),
-                    const SizedBox(height: 24),
-                    _buildTypeSwitchSection(context, provider),
-                    const SizedBox(height: 24),
-                    _buildMediaSection(context, provider),
-                    const SizedBox(height: 24),
-                    _buildAlertSettingsSection(context, provider),
-                    const SizedBox(height: 24),
-                    _buildNotesSection(context, provider),
-
-                  ],
-                ),
-              ),
-            ),
+            child: scaffold,
           );
         },
       ),
     );
+  }
+
+  Future<void> _handleClose(
+      BuildContext context, ItemFormProvider provider) async {
+    if (provider.isDirty) {
+      final dialogResult = await showDialog<int>(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: Text('未保存的更改'),
+          content: Text('您有未保存的更改，请选择操作：'),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context, 0),
+              child: Text(AppLocalizations.of(context).cancel),
+            ),
+            TextButton(
+              onPressed: () => Navigator.pop(context, 1),
+              child: Text('放弃'),
+            ),
+          ],
+        ),
+      );
+      if (dialogResult == 1 && context.mounted) {
+        onClosed?.call();
+      }
+    } else {
+      onClosed?.call();
+    }
   }
 
   String _mapCategoryToDisplay(String category) {

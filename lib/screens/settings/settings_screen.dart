@@ -3,7 +3,18 @@ import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/routes.dart';
 
 class SettingsScreen extends StatelessWidget {
-  const SettingsScreen({super.key});
+  final bool isEmbedded;
+  final String? selectedRoute;
+  final ValueChanged<String>? onRouteSelected;
+  final VoidCallback? onBack;
+
+  const SettingsScreen({
+    super.key,
+    this.isEmbedded = false,
+    this.selectedRoute,
+    this.onRouteSelected,
+    this.onBack,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -15,6 +26,12 @@ class SettingsScreen extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverAppBar.large(
+            leading: isEmbedded
+                ? IconButton(
+                    icon: const Icon(Icons.arrow_back),
+                    onPressed: onBack,
+                  )
+                : null,
             title: Text(AppLocalizations.of(context).settings),
             centerTitle: false,
             elevation: 0,
@@ -24,7 +41,6 @@ class SettingsScreen extends StatelessWidget {
             padding: const EdgeInsets.all(24),
             sliver: SliverList(
               delegate: SliverChildListDelegate([
-                // 数据管理卡片
                 Card(
                   elevation: 0,
                   shape: RoundedRectangleBorder(
@@ -33,12 +49,12 @@ class SettingsScreen extends StatelessWidget {
                   color: colorScheme.surfaceContainerLow,
                   child: Column(
                     children: [
-                      ListTile(
-                        leading: Icon(Icons.backup, color: colorScheme.primary),
-                        title: Text(l10n.backup_data),
-                        subtitle: Text(l10n.backup_data_description),
-                        onTap: () =>
-                            Navigator.pushNamed(context, AppRoutes.backup),
+                      _buildSettingsTile(
+                        context: context,
+                        icon: Icons.backup,
+                        title: l10n.backup_data,
+                        subtitle: l10n.backup_data_description,
+                        route: AppRoutes.backup,
                       ),
                       Divider(
                         height: 1,
@@ -46,15 +62,12 @@ class SettingsScreen extends StatelessWidget {
                         endIndent: 16,
                         color: colorScheme.outlineVariant,
                       ),
-                      ListTile(
-                        leading: Icon(
-                          Icons.restore,
-                          color: colorScheme.primary,
-                        ),
-                        title: Text(l10n.restore_data),
-                        subtitle: Text(l10n.restore_data_description),
-                        onTap: () =>
-                            Navigator.pushNamed(context, AppRoutes.restore),
+                      _buildSettingsTile(
+                        context: context,
+                        icon: Icons.restore,
+                        title: l10n.restore_data,
+                        subtitle: l10n.restore_data_description,
+                        route: AppRoutes.restore,
                       ),
                       Divider(
                         height: 1,
@@ -62,15 +75,12 @@ class SettingsScreen extends StatelessWidget {
                         endIndent: 16,
                         color: colorScheme.outlineVariant,
                       ),
-                      ListTile(
-                        leading: Icon(
-                          Icons.download,
-                          color: colorScheme.primary,
-                        ),
-                        title: Text(l10n.export_data),
-                        subtitle: Text(l10n.export_data_description),
-                        onTap: () =>
-                            Navigator.pushNamed(context, AppRoutes.export),
+                      _buildSettingsTile(
+                        context: context,
+                        icon: Icons.download,
+                        title: l10n.export_data,
+                        subtitle: l10n.export_data_description,
+                        route: AppRoutes.export,
                       ),
                       Divider(
                         height: 1,
@@ -78,69 +88,59 @@ class SettingsScreen extends StatelessWidget {
                         endIndent: 16,
                         color: colorScheme.outlineVariant,
                       ),
-                      ListTile(
-                        leading: Icon(Icons.upload, color: colorScheme.primary),
-                        title: Text(l10n.import_data),
-                        subtitle: Text(l10n.import_data_description),
-                        onTap: () =>
-                            Navigator.pushNamed(context, AppRoutes.import),
+                      _buildSettingsTile(
+                        context: context,
+                        icon: Icons.upload,
+                        title: l10n.import_data,
+                        subtitle: l10n.import_data_description,
+                        route: AppRoutes.import,
                       ),
                     ],
                   ),
                 ),
                 const SizedBox(height: 12),
-
-                // 预警设置卡片
                 Card(
                   elevation: 0,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(25),
                   ),
                   color: colorScheme.surfaceContainerLow,
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.notifications_active,
-                      color: colorScheme.primary,
-                    ),
-                    title: Text(l10n.alert_settings),
-                    subtitle: Text(l10n.alert_settings_description),
-                    onTap: () =>
-                        Navigator.pushNamed(context, AppRoutes.alertsSettings),
+                  child: _buildSettingsTile(
+                    context: context,
+                    icon: Icons.notifications_active,
+                    title: l10n.alert_settings,
+                    subtitle: l10n.alert_settings_description,
+                    route: AppRoutes.alertsSettings,
                   ),
                 ),
                 const SizedBox(height: 12),
-
-                // 语言设置卡片
                 Card(
                   elevation: 0,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(25),
                   ),
                   color: colorScheme.surfaceContainerLow,
-                  child: ListTile(
-                    leading: Icon(Icons.language, color: colorScheme.primary),
-                    title: Text(l10n.language_settings),
-                    subtitle: Text(l10n.language_settings_description),
-                    onTap: () => Navigator.pushNamed(
-                      context,
-                      AppRoutes.languageSettings,
-                    ),
+                  child: _buildSettingsTile(
+                    context: context,
+                    icon: Icons.language,
+                    title: l10n.language_settings,
+                    subtitle: l10n.language_settings_description,
+                    route: AppRoutes.languageSettings,
                   ),
                 ),
                 const SizedBox(height: 12),
-
-                // 关于卡片
                 Card(
                   elevation: 0,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(25),
                   ),
                   color: colorScheme.surfaceContainerLow,
-                  child: ListTile(
-                    leading: Icon(Icons.info, color: colorScheme.primary),
-                    title: Text(l10n.about),
-                    subtitle: Text(l10n.about_description),
-                    onTap: () => Navigator.pushNamed(context, AppRoutes.about),
+                  child: _buildSettingsTile(
+                    context: context,
+                    icon: Icons.info,
+                    title: l10n.about,
+                    subtitle: l10n.about_description,
+                    route: AppRoutes.about,
                   ),
                 ),
               ]),
@@ -148,6 +148,40 @@ class SettingsScreen extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+
+  Widget _buildSettingsTile({
+    required BuildContext context,
+    required IconData icon,
+    required String title,
+    required String subtitle,
+    required String route,
+  }) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final isSelected = isEmbedded && selectedRoute == route;
+
+    return ListTile(
+      leading: Icon(icon, color: colorScheme.primary),
+      title: Text(
+        title,
+        style: isSelected
+            ? TextStyle(
+                fontWeight: FontWeight.bold,
+                color: colorScheme.primary,
+              )
+            : null,
+      ),
+      subtitle: Text(subtitle),
+      selected: isSelected,
+      selectedTileColor: colorScheme.primaryContainer.withValues(alpha: 0.3),
+      onTap: () {
+        if (isEmbedded && onRouteSelected != null) {
+          onRouteSelected!(route);
+        } else {
+          Navigator.pushNamed(context, route);
+        }
+      },
     );
   }
 }
