@@ -45,6 +45,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
   bool _dateExpanded = false;
   bool _priceExpanded = false;
 
+  bool _isSelectionMode = false;
+  final Set<String> _selectedItemIds = {};
+
   @override
   void initState() {
     super.initState();
@@ -61,6 +64,21 @@ class _ItemListScreenState extends State<ItemListScreen> {
     TextStyle? textStyle, {
     bool showIcon = true,
   }) {
+    if (_isSelectionMode) {
+      return Row(
+        children: [
+          Expanded(
+            child: Text(
+              '已选择 ${_selectedItemIds.length} 项',
+              style: textStyle,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+        ],
+      );
+    }
+
     final l10n = AppLocalizations.of(context);
     final location = provider.filterLocation;
     final type = provider.filterType;
@@ -196,362 +214,392 @@ class _ItemListScreenState extends State<ItemListScreen> {
                 return _buildTitle(context, provider, null, showIcon: true);
               },
             ),
-            leading: IconButton(
-              icon: const Icon(Icons.menu),
-              onPressed: () => _scaffoldKey.currentState?.openDrawer(),
-            ),
-            actions: [
-              // 排序按钮
-              Consumer<ItemListProvider>(
-                builder: (context, provider, _) {
-                  final l10n = AppLocalizations.of(context);
-                  // 根据排序字段选择图标
-                  IconData getSortIcon() {
-                    switch (provider.sortField) {
-                      case 'name':
-                        return Icons.sort_by_alpha;
-                      case 'date':
-                        return Icons.calendar_today;
-                      case 'price':
-                        return Icons.attach_money;
-                      case 'quantity':
-                        return Icons.format_list_numbered;
-                      case 'totalPrice':
-                        return Icons.money;
-                      default:
-                        return Icons.sort;
-                    }
-                  }
-
-                  return PopupMenuButton<String>(
-                    icon: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Icon(
-                          getSortIcon(),
-                          color: Theme.of(context).colorScheme.primary,
-                        ),
-                        const SizedBox(width: 2),
-                        Icon(
-                          provider.sortAscending
-                              ? Icons.arrow_upward
-                              : Icons.arrow_downward,
-                          size: 14,
-                          color: Theme.of(context).colorScheme.primary,
-                        ),
-                      ],
-                    ),
-                    tooltip: l10n.sort,
-                    onSelected: (value) {
-                      final parts = value.split('_');
-                      final field = parts[0];
-                      final ascending = parts[1] == 'asc';
-                      provider.setSort(field, ascending);
-                    },
-                    itemBuilder: (context) => [
-                      PopupMenuItem<String>(
-                        value: 'name_asc',
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.sort_by_alpha,
-                              size: 20,
-                              color:
-                                  provider.sortField == 'name' &&
-                                      provider.sortAscending
-                                  ? Theme.of(context).colorScheme.primary
-                                  : null,
-                            ),
-                            const SizedBox(width: 8),
-                            Text(l10n.name_asc),
-                            if (provider.sortField == 'name' &&
-                                provider.sortAscending)
-                              Icon(
-                                Icons.check,
-                                size: 16,
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                          ],
-                        ),
-                      ),
-                      PopupMenuItem<String>(
-                        value: 'name_desc',
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.sort_by_alpha,
-                              size: 20,
-                              color:
-                                  provider.sortField == 'name' &&
-                                      !provider.sortAscending
-                                  ? Theme.of(context).colorScheme.primary
-                                  : null,
-                            ),
-                            const SizedBox(width: 8),
-                            Text(l10n.name_desc),
-                            if (provider.sortField == 'name' &&
-                                !provider.sortAscending)
-                              Icon(
-                                Icons.check,
-                                size: 16,
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                          ],
-                        ),
-                      ),
-                      const PopupMenuDivider(),
-                      PopupMenuItem<String>(
-                        value: 'date_asc',
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.calendar_today,
-                              size: 20,
-                              color:
-                                  provider.sortField == 'date' &&
-                                      provider.sortAscending
-                                  ? Theme.of(context).colorScheme.primary
-                                  : null,
-                            ),
-                            const SizedBox(width: 8),
-                            Text(l10n.date_asc),
-                            if (provider.sortField == 'date' &&
-                                provider.sortAscending)
-                              Icon(
-                                Icons.check,
-                                size: 16,
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                          ],
-                        ),
-                      ),
-                      PopupMenuItem<String>(
-                        value: 'date_desc',
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.calendar_today,
-                              size: 20,
-                              color:
-                                  provider.sortField == 'date' &&
-                                      !provider.sortAscending
-                                  ? Theme.of(context).colorScheme.primary
-                                  : null,
-                            ),
-                            const SizedBox(width: 8),
-                            Text(l10n.date_desc),
-                            if (provider.sortField == 'date' &&
-                                !provider.sortAscending)
-                              Icon(
-                                Icons.check,
-                                size: 16,
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                          ],
-                        ),
-                      ),
-                      const PopupMenuDivider(),
-                      PopupMenuItem<String>(
-                        value: 'price_asc',
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.attach_money,
-                              size: 20,
-                              color:
-                                  provider.sortField == 'price' &&
-                                      provider.sortAscending
-                                  ? Theme.of(context).colorScheme.primary
-                                  : null,
-                            ),
-                            const SizedBox(width: 8),
-                            Text(l10n.price_asc),
-                            if (provider.sortField == 'price' &&
-                                provider.sortAscending)
-                              Icon(
-                                Icons.check,
-                                size: 16,
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                          ],
-                        ),
-                      ),
-                      PopupMenuItem<String>(
-                        value: 'price_desc',
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.attach_money,
-                              size: 20,
-                              color:
-                                  provider.sortField == 'price' &&
-                                      !provider.sortAscending
-                                  ? Theme.of(context).colorScheme.primary
-                                  : null,
-                            ),
-                            const SizedBox(width: 8),
-                            Text(l10n.price_desc),
-                            if (provider.sortField == 'price' &&
-                                !provider.sortAscending)
-                              Icon(
-                                Icons.check,
-                                size: 16,
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                          ],
-                        ),
-                      ),
-                      PopupMenuItem<String>(
-                        value: 'quantity_asc',
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.format_list_numbered,
-                              size: 20,
-                              color:
-                                  provider.sortField == 'quantity' &&
-                                      provider.sortAscending
-                                  ? Theme.of(context).colorScheme.primary
-                                  : null,
-                            ),
-                            const SizedBox(width: 8),
-                            Text(l10n.quantity_asc),
-                            if (provider.sortField == 'quantity' &&
-                                provider.sortAscending)
-                              Icon(
-                                Icons.check,
-                                size: 16,
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                          ],
-                        ),
-                      ),
-                      PopupMenuItem<String>(
-                        value: 'quantity_desc',
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.format_list_numbered,
-                              size: 20,
-                              color:
-                                  provider.sortField == 'quantity' &&
-                                      !provider.sortAscending
-                                  ? Theme.of(context).colorScheme.primary
-                                  : null,
-                            ),
-                            const SizedBox(width: 8),
-                            Text(l10n.quantity_desc),
-                            if (provider.sortField == 'quantity' &&
-                                !provider.sortAscending)
-                              Icon(
-                                Icons.check,
-                                size: 16,
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                          ],
-                        ),
-                      ),
-                      PopupMenuItem<String>(
-                        value: 'totalPrice_asc',
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.money,
-                              size: 20,
-                              color:
-                                  provider.sortField == 'totalPrice' &&
-                                      provider.sortAscending
-                                  ? Theme.of(context).colorScheme.primary
-                                  : null,
-                            ),
-                            const SizedBox(width: 8),
-                            Text(l10n.total_price_asc),
-                            if (provider.sortField == 'totalPrice' &&
-                                provider.sortAscending)
-                              Icon(
-                                Icons.check,
-                                size: 16,
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                          ],
-                        ),
-                      ),
-                      PopupMenuItem<String>(
-                        value: 'totalPrice_desc',
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.money,
-                              size: 20,
-                              color:
-                                  provider.sortField == 'totalPrice' &&
-                                      !provider.sortAscending
-                                  ? Theme.of(context).colorScheme.primary
-                                  : null,
-                            ),
-                            const SizedBox(width: 8),
-                            Text(l10n.total_price_desc),
-                            if (provider.sortField == 'totalPrice' &&
-                                !provider.sortAscending)
-                              Icon(
-                                Icons.check,
-                                size: 16,
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  );
-                },
-              ),
-              // 清除筛选按钮
-              Consumer<ItemListProvider>(
-                builder: (context, provider, _) {
-                  final l10n = AppLocalizations.of(context);
-                  final hasLocationFilter =
-                      provider.filterLocation != null &&
-                      provider.filterLocation!.isNotEmpty;
-                  final hasTypeFilter = provider.filterType != null;
-                  final hasCategoryFilter =
-                      provider.filterCategory != null &&
-                      provider.filterCategory!.isNotEmpty;
-                  final hasDateFilter = provider.dateRange != null;
-                  final hasPriceFilter =
-                      provider.minUnitPrice != null ||
-                      provider.maxUnitPrice != null ||
-                      provider.minTotalPrice != null ||
-                      provider.maxTotalPrice != null;
-                  if (hasLocationFilter ||
-                      hasTypeFilter ||
-                      hasCategoryFilter ||
-                      hasDateFilter ||
-                      hasPriceFilter) {
-                    return IconButton(
-                      icon: const Icon(Icons.clear),
-                      onPressed: () {
-                        provider.clearAllFilters();
+            leading: _isSelectionMode
+                ? IconButton(
+                    icon: const Icon(Icons.close),
+                    onPressed: _exitSelectionMode,
+                    tooltip: l10n.cancel,
+                  )
+                : IconButton(
+                    icon: const Icon(Icons.menu),
+                    onPressed: () => _scaffoldKey.currentState?.openDrawer(),
+                  ),
+            actions: _isSelectionMode
+                ? [
+                    Consumer<ItemListProvider>(
+                      builder: (context, provider, _) {
+                        return IconButton(
+                          icon: _selectedItemIds.length < provider.items.length
+                              ? const Icon(Icons.select_all)
+                              : const Icon(Icons.deselect),
+                          onPressed: _toggleSelectAll,
+                          tooltip: _selectedItemIds.length < provider.items.length
+                              ? '全选'
+                              : '取消全选',
+                        );
                       },
-                      tooltip: l10n.clear_all_filters,
-                    );
-                  }
-                  return const SizedBox.shrink();
-                },
-              ),
-              IconButton(
-                icon: const Icon(Icons.qr_code_scanner),
-                onPressed: widget.onScanRequested ?? _scanBarcode,
-                tooltip: l10n.scan_barcode,
-              ),
-              IconButton(
-                icon: const Icon(Icons.settings),
-                onPressed: widget.onSettingsRequested ?? () => Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (_) => const SettingsScreen()),
-                        ),
-              ),
-            ],
+                    ),
+                    IconButton(
+                      icon: const Icon(Icons.location_on),
+                      onPressed: _selectedItemIds.isEmpty ? null : _batchChangeLocation,
+                      tooltip: '批量调换存储地点',
+                    ),
+                    IconButton(
+                      icon: const Icon(Icons.delete),
+                      onPressed: _selectedItemIds.isEmpty ? null : _batchDelete,
+                      tooltip: l10n.delete,
+                    ),
+                  ]
+                : [
+                    Consumer<ItemListProvider>(
+                      builder: (context, provider, _) {
+                        final l10n = AppLocalizations.of(context);
+                        IconData getSortIcon() {
+                          switch (provider.sortField) {
+                            case 'name':
+                              return Icons.sort_by_alpha;
+                            case 'date':
+                              return Icons.calendar_today;
+                            case 'price':
+                              return Icons.attach_money;
+                            case 'quantity':
+                              return Icons.format_list_numbered;
+                            case 'totalPrice':
+                              return Icons.money;
+                            default:
+                              return Icons.sort;
+                          }
+                        }
+
+                        return PopupMenuButton<String>(
+                          icon: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Icon(
+                                getSortIcon(),
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                              const SizedBox(width: 2),
+                              Icon(
+                                provider.sortAscending
+                                    ? Icons.arrow_upward
+                                    : Icons.arrow_downward,
+                                size: 14,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                            ],
+                          ),
+                          tooltip: l10n.sort,
+                          onSelected: (value) {
+                            final parts = value.split('_');
+                            final field = parts[0];
+                            final ascending = parts[1] == 'asc';
+                            provider.setSort(field, ascending);
+                          },
+                          itemBuilder: (context) => [
+                            PopupMenuItem<String>(
+                              value: 'name_asc',
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.sort_by_alpha,
+                                    size: 20,
+                                    color: provider.sortField == 'name' &&
+                                            provider.sortAscending
+                                        ? Theme.of(context).colorScheme.primary
+                                        : null,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(l10n.name_asc),
+                                  if (provider.sortField == 'name' &&
+                                      provider.sortAscending)
+                                    Icon(
+                                      Icons.check,
+                                      size: 16,
+                                      color:
+                                          Theme.of(context).colorScheme.primary,
+                                    ),
+                                ],
+                              ),
+                            ),
+                            PopupMenuItem<String>(
+                              value: 'name_desc',
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.sort_by_alpha,
+                                    size: 20,
+                                    color: provider.sortField == 'name' &&
+                                            !provider.sortAscending
+                                        ? Theme.of(context).colorScheme.primary
+                                        : null,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(l10n.name_desc),
+                                  if (provider.sortField == 'name' &&
+                                      !provider.sortAscending)
+                                    Icon(
+                                      Icons.check,
+                                      size: 16,
+                                      color:
+                                          Theme.of(context).colorScheme.primary,
+                                    ),
+                                ],
+                              ),
+                            ),
+                            const PopupMenuDivider(),
+                            PopupMenuItem<String>(
+                              value: 'date_asc',
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.calendar_today,
+                                    size: 20,
+                                    color: provider.sortField == 'date' &&
+                                            provider.sortAscending
+                                        ? Theme.of(context).colorScheme.primary
+                                        : null,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(l10n.date_asc),
+                                  if (provider.sortField == 'date' &&
+                                      provider.sortAscending)
+                                    Icon(
+                                      Icons.check,
+                                      size: 16,
+                                      color:
+                                          Theme.of(context).colorScheme.primary,
+                                    ),
+                                ],
+                              ),
+                            ),
+                            PopupMenuItem<String>(
+                              value: 'date_desc',
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.calendar_today,
+                                    size: 20,
+                                    color: provider.sortField == 'date' &&
+                                            !provider.sortAscending
+                                        ? Theme.of(context).colorScheme.primary
+                                        : null,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(l10n.date_desc),
+                                  if (provider.sortField == 'date' &&
+                                      !provider.sortAscending)
+                                    Icon(
+                                      Icons.check,
+                                      size: 16,
+                                      color:
+                                          Theme.of(context).colorScheme.primary,
+                                    ),
+                                ],
+                              ),
+                            ),
+                            const PopupMenuDivider(),
+                            PopupMenuItem<String>(
+                              value: 'price_asc',
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.attach_money,
+                                    size: 20,
+                                    color: provider.sortField == 'price' &&
+                                            provider.sortAscending
+                                        ? Theme.of(context).colorScheme.primary
+                                        : null,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(l10n.price_asc),
+                                  if (provider.sortField == 'price' &&
+                                      provider.sortAscending)
+                                    Icon(
+                                      Icons.check,
+                                      size: 16,
+                                      color:
+                                          Theme.of(context).colorScheme.primary,
+                                    ),
+                                ],
+                              ),
+                            ),
+                            PopupMenuItem<String>(
+                              value: 'price_desc',
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.attach_money,
+                                    size: 20,
+                                    color: provider.sortField == 'price' &&
+                                            !provider.sortAscending
+                                        ? Theme.of(context).colorScheme.primary
+                                        : null,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(l10n.price_desc),
+                                  if (provider.sortField == 'price' &&
+                                      !provider.sortAscending)
+                                    Icon(
+                                      Icons.check,
+                                      size: 16,
+                                      color:
+                                          Theme.of(context).colorScheme.primary,
+                                    ),
+                                ],
+                              ),
+                            ),
+                            PopupMenuItem<String>(
+                              value: 'quantity_asc',
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.format_list_numbered,
+                                    size: 20,
+                                    color: provider.sortField == 'quantity' &&
+                                            provider.sortAscending
+                                        ? Theme.of(context).colorScheme.primary
+                                        : null,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(l10n.quantity_asc),
+                                  if (provider.sortField == 'quantity' &&
+                                      provider.sortAscending)
+                                    Icon(
+                                      Icons.check,
+                                      size: 16,
+                                      color:
+                                          Theme.of(context).colorScheme.primary,
+                                    ),
+                                ],
+                              ),
+                            ),
+                            PopupMenuItem<String>(
+                              value: 'quantity_desc',
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.format_list_numbered,
+                                    size: 20,
+                                    color: provider.sortField == 'quantity' &&
+                                            !provider.sortAscending
+                                        ? Theme.of(context).colorScheme.primary
+                                        : null,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(l10n.quantity_desc),
+                                  if (provider.sortField == 'quantity' &&
+                                      !provider.sortAscending)
+                                    Icon(
+                                      Icons.check,
+                                      size: 16,
+                                      color:
+                                          Theme.of(context).colorScheme.primary,
+                                    ),
+                                ],
+                              ),
+                            ),
+                            PopupMenuItem<String>(
+                              value: 'totalPrice_asc',
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.money,
+                                    size: 20,
+                                    color: provider.sortField == 'totalPrice' &&
+                                            provider.sortAscending
+                                        ? Theme.of(context).colorScheme.primary
+                                        : null,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(l10n.total_price_asc),
+                                  if (provider.sortField == 'totalPrice' &&
+                                      provider.sortAscending)
+                                    Icon(
+                                      Icons.check,
+                                      size: 16,
+                                      color:
+                                          Theme.of(context).colorScheme.primary,
+                                    ),
+                                ],
+                              ),
+                            ),
+                            PopupMenuItem<String>(
+                              value: 'totalPrice_desc',
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.money,
+                                    size: 20,
+                                    color: provider.sortField == 'totalPrice' &&
+                                            !provider.sortAscending
+                                        ? Theme.of(context).colorScheme.primary
+                                        : null,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(l10n.total_price_desc),
+                                  if (provider.sortField == 'totalPrice' &&
+                                      !provider.sortAscending)
+                                    Icon(
+                                      Icons.check,
+                                      size: 16,
+                                      color:
+                                          Theme.of(context).colorScheme.primary,
+                                    ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        );
+                      },
+                    ),
+                    Consumer<ItemListProvider>(
+                      builder: (context, provider, _) {
+                        final l10n = AppLocalizations.of(context);
+                        final hasLocationFilter =
+                            provider.filterLocation != null &&
+                            provider.filterLocation!.isNotEmpty;
+                        final hasTypeFilter = provider.filterType != null;
+                        final hasCategoryFilter =
+                            provider.filterCategory != null &&
+                            provider.filterCategory!.isNotEmpty;
+                        final hasDateFilter = provider.dateRange != null;
+                        final hasPriceFilter =
+                            provider.minUnitPrice != null ||
+                            provider.maxUnitPrice != null ||
+                            provider.minTotalPrice != null ||
+                            provider.maxTotalPrice != null;
+                        if (hasLocationFilter ||
+                            hasTypeFilter ||
+                            hasCategoryFilter ||
+                            hasDateFilter ||
+                            hasPriceFilter) {
+                          return IconButton(
+                            icon: const Icon(Icons.clear),
+                            onPressed: () {
+                              provider.clearAllFilters();
+                            },
+                            tooltip: l10n.clear_all_filters,
+                          );
+                        }
+                        return const SizedBox.shrink();
+                      },
+                    ),
+                    IconButton(
+                      icon: const Icon(Icons.qr_code_scanner),
+                      onPressed: widget.onScanRequested ?? _scanBarcode,
+                      tooltip: l10n.scan_barcode,
+                    ),
+                    IconButton(
+                      icon: const Icon(Icons.settings),
+                      onPressed: widget.onSettingsRequested ??
+                          () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => const SettingsScreen()),
+                              ),
+                    ),
+                  ],
           ),
           SliverToBoxAdapter(child: _buildSearchBar()),
           Consumer<ItemListProvider>(
@@ -650,6 +698,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
     final isWarning = item.isExpiringSoon || item.isWarrantyExpiringSoon;
     final isDanger = item.isExpired || item.isWarrantyExpired;
     final isSelected = widget.isEmbedded && widget.selectedItemId == item.id;
+    final isMultiSelected = _selectedItemIds.contains(item.id);
 
     return Padding(
       padding: const EdgeInsets.only(bottom: 8),
@@ -681,26 +730,44 @@ class _ItemListScreenState extends State<ItemListScreen> {
           margin: const EdgeInsets.symmetric(horizontal: 8),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
-            side: isSelected
+            side: isSelected || isMultiSelected
                 ? BorderSide(
                     color: cs.primary,
                     width: 2,
                   )
                 : BorderSide.none,
           ),
-          color: isSelected ? cs.primaryContainer : null,
+          color: isSelected || isMultiSelected ? cs.primaryContainer : null,
           child: InkWell(
             onTap: () {
-              _navigateToEdit(item);
+              if (_isSelectionMode) {
+                _toggleItemSelection(item);
+              } else {
+                _navigateToEdit(item);
+              }
+            },
+            onLongPress: () {
+              _enterSelectionMode(item);
             },
             borderRadius: BorderRadius.circular(12),
             child: IntrinsicHeight(
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  // 左侧图片区域 - 固定宽度正方形
+                  if (_isSelectionMode)
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 12),
+                      child: Center(
+                        child: Checkbox(
+                          value: isMultiSelected,
+                          onChanged: (_) => _toggleItemSelection(item),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(4),
+                          ),
+                        ),
+                      ),
+                    ),
                   _buildThumbnail(item),
-                  // 右侧内容区域
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.all(12),
@@ -1724,21 +1791,21 @@ class _ItemListScreenState extends State<ItemListScreen> {
               child: Text(AppLocalizations.of(context).cancel),
             ),
             FilledButton(
-              onPressed: () => Navigator.pop(context, 'outbound'),
-              child: Text(AppLocalizations.of(context).outbound),
-            ),
-            FilledButton(
               onPressed: () => Navigator.pop(context, 'inbound'),
               child: Text(AppLocalizations.of(context).inbound),
+            ),
+            FilledButton(
+              onPressed: () => Navigator.pop(context, 'outbound'),
+              child: Text(AppLocalizations.of(context).outbound),
             ),
           ],
         ),
       );
 
-      if (operation == null) {
-        // 用户取消，返回
-        return;
-      }
+    if (operation == null) {
+      // 用户取消，返回
+      return;
+    }
 
       if (!mounted) return;
       // 询问数量
@@ -1849,5 +1916,145 @@ class _ItemListScreenState extends State<ItemListScreen> {
     if (mounted) {
       context.read<ItemListProvider>().refresh();
     }
+  }
+
+  void _enterSelectionMode(Item item) {
+    setState(() {
+      _isSelectionMode = true;
+      _selectedItemIds.clear();
+      _selectedItemIds.add(item.id);
+    });
+  }
+
+  void _toggleItemSelection(Item item) {
+    setState(() {
+      if (_selectedItemIds.contains(item.id)) {
+        _selectedItemIds.remove(item.id);
+        if (_selectedItemIds.isEmpty) {
+          _isSelectionMode = false;
+        }
+      } else {
+        _selectedItemIds.add(item.id);
+      }
+    });
+  }
+
+  void _exitSelectionMode() {
+    setState(() {
+      _isSelectionMode = false;
+      _selectedItemIds.clear();
+    });
+  }
+
+  void _toggleSelectAll() {
+    final provider = context.read<ItemListProvider>();
+    setState(() {
+      if (_selectedItemIds.length < provider.items.length) {
+        _selectedItemIds.addAll(provider.items.map((item) => item.id));
+      } else {
+        _selectedItemIds.clear();
+        _isSelectionMode = false;
+      }
+    });
+  }
+
+  void _batchDelete() {
+    final provider = context.read<ItemListProvider>();
+    final l10n = AppLocalizations.of(context);
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(l10n.confirm_delete),
+        content: Text('确定删除选中的 ${_selectedItemIds.length} 个物品吗？'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: Text(l10n.cancel),
+          ),
+          FilledButton(
+            onPressed: () {
+              Navigator.pop(ctx);
+              for (final itemId in _selectedItemIds) {
+                provider.deleteItem(itemId);
+              }
+              _exitSelectionMode();
+              if (mounted) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text('已删除 ${_selectedItemIds.length} 个物品'),
+                    duration: const Duration(seconds: 2),
+                  ),
+                );
+              }
+            },
+            style: FilledButton.styleFrom(
+              backgroundColor: Theme.of(context).colorScheme.error,
+            ),
+            child: Text(l10n.delete),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _batchChangeLocation() {
+    final provider = context.read<ItemListProvider>();
+    final l10n = AppLocalizations.of(context);
+    final locations = provider.getLocations();
+
+    if (locations.isEmpty) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('暂无存储地点可选'),
+            duration: Duration(seconds: 2),
+          ),
+        );
+      }
+      return;
+    }
+
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('批量调换存储地点'),
+        content: SizedBox(
+          width: double.maxFinite,
+          child: ListView.builder(
+            shrinkWrap: true,
+            itemCount: locations.length,
+            itemBuilder: (context, index) {
+              final location = locations[index];
+              return ListTile(
+                title: Text(location),
+                onTap: () {
+                  Navigator.pop(ctx);
+                  final count = _selectedItemIds.length;
+                  for (final itemId in _selectedItemIds) {
+                    final item = provider.items.firstWhere((i) => i.id == itemId);
+                    provider.updateItem(item.copyWith(storageLocation: location));
+                  }
+                  _exitSelectionMode();
+                  if (mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text('已将 $count 个物品移动到 $location'),
+                        duration: const Duration(seconds: 2),
+                      ),
+                    );
+                  }
+                },
+              );
+            },
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: Text(l10n.cancel),
+          ),
+        ],
+      ),
+    );
   }
 }
