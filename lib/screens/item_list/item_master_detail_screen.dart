@@ -13,6 +13,7 @@ import 'package:recording/screens/settings/backup_screen.dart';
 import 'package:recording/screens/settings/export_screen.dart';
 import 'package:recording/screens/settings/import_screen.dart';
 import 'package:recording/screens/settings/language_selection_screen.dart';
+import 'package:recording/screens/settings/operation_log_screen.dart';
 import 'package:recording/screens/settings/restore_screen.dart';
 import 'package:recording/screens/settings/settings_screen.dart';
 
@@ -402,6 +403,8 @@ class _ItemMasterDetailScreenState extends State<ItemMasterDetailScreen> {
         return const AboutScreen();
       case AppRoutes.languageSettings:
         return const LanguageSelectionScreen();
+      case AppRoutes.operationLog:
+        return const OperationLogScreen();
       default:
         return const SizedBox.shrink();
     }

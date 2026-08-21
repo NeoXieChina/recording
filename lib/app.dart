@@ -12,6 +12,7 @@ import 'package:recording/screens/settings/backup_screen.dart';
 import 'package:recording/screens/settings/export_screen.dart';
 import 'package:recording/screens/settings/import_screen.dart';
 import 'package:recording/screens/settings/language_selection_screen.dart';
+import 'package:recording/screens/settings/operation_log_screen.dart';
 import 'package:recording/screens/settings/restore_screen.dart';
 import 'package:recording/screens/settings/settings_screen.dart';
 import 'package:recording/theme/app_theme.dart';
@@ -82,6 +83,7 @@ class App extends StatelessWidget {
                   '/settings/about': (_) => const AboutScreen(),
                   AppRoutes.languageSettings: (_) =>
                       const LanguageSelectionScreen(),
+                  AppRoutes.operationLog: (_) => const OperationLogScreen(),
                 },
               );
             },

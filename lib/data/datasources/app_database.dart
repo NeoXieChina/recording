@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:path/path.dart' as p;
 import 'package:recording/constants.dart';
 import 'package:recording/data/models/item.dart';
+import 'package:recording/data/models/operation_log.dart';
 import 'package:recording/data/models/reminder.dart';
 import 'package:sqflite/sqflite.dart';
 
@@ -73,6 +74,17 @@ class AppDatabase {
         FOREIGN KEY (itemId) REFERENCES items (id) ON DELETE CASCADE
       )
     ''');
+
+    await db.execute('''
+      CREATE TABLE operation_logs (
+        id TEXT PRIMARY KEY,
+        operationType INTEGER NOT NULL,
+        itemData TEXT NOT NULL,
+        quantityChange INTEGER,
+        fieldChanges TEXT,
+        createdAt INTEGER NOT NULL
+      )
+    ''');
   }
 
   Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
@@ -125,6 +137,33 @@ class AppDatabase {
       ''');
       await db.execute('''
         ALTER TABLE items ADD COLUMN alertDaysBefore INTEGER
+      ''');
+    }
+    if (oldVersion < 7) {
+      // 版本6升级到版本7：添加操作日志表
+      await db.execute('''
+        CREATE TABLE operation_logs (
+          id TEXT PRIMARY KEY,
+          operationType INTEGER NOT NULL,
+          itemData TEXT NOT NULL,
+          createdAt INTEGER NOT NULL
+        )
+      ''');
+    }
+    if (oldVersion < 8) {
+      // 版本7升级到版本8：清空旧格式的操作日志数据
+      await db.delete('operation_logs');
+    }
+    if (oldVersion < 9) {
+      // 版本8升级到版本9：添加数量变化字段
+      await db.execute('''
+        ALTER TABLE operation_logs ADD COLUMN quantityChange INTEGER
+      ''');
+    }
+    if (oldVersion < 10) {
+      // 版本9升级到版本10：添加字段变化字段
+      await db.execute('''
+        ALTER TABLE operation_logs ADD COLUMN fieldChanges TEXT
       ''');
     }
   }
@@ -288,5 +327,54 @@ class AppDatabase {
     final db = await database;
     final result = await db.rawQuery('SELECT COUNT(*) as count FROM items');
     return Sqflite.firstIntValue(result) ?? 0;
+  }
+
+  Future<OperationLog> insertOperationLog(OperationLog log) async {
+    final db = await database;
+    await db.insert('operation_logs', log.toMap());
+    return log;
+  }
+
+  Future<List<OperationLog>> getRecentOperationLogs(int limit) async {
+    final db = await database;
+    final maps = await db.query(
+      'operation_logs',
+      orderBy: 'createdAt DESC',
+      limit: limit,
+    );
+    return maps.map((m) => OperationLog.fromMap(m)).toList();
+  }
+
+  Future<void> deleteOperationLog(String id) async {
+    final db = await database;
+    await db.delete('operation_logs', where: 'id = ?', whereArgs: [id]);
+  }
+
+  Future<void> clearOldOperationLogs(int keepCount) async {
+    final db = await database;
+    final allLogs = await db.query(
+      'operation_logs',
+      orderBy: 'createdAt DESC',
+    );
+    if (allLogs.length > keepCount) {
+      final logsToDelete = allLogs.skip(keepCount);
+      for (final log in logsToDelete) {
+        await db.delete(
+          'operation_logs',
+          where: 'id = ?',
+          whereArgs: [log['id']],
+        );
+      }
+    }
+  }
+
+  Future<void> updateItemQuantity(String itemId, int additionalQuantity) async {
+    final item = await getItemById(itemId);
+    if (item != null) {
+      final updatedItem = item.copyWith(
+        quantity: item.quantity + additionalQuantity,
+      );
+      await updateItem(updatedItem);
+    }
   }
 }

@@ -1974,6 +1974,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
           FilledButton(
             onPressed: () {
               Navigator.pop(ctx);
+              final count = _selectedItemIds.length;
               for (final itemId in _selectedItemIds) {
                 provider.deleteItem(itemId);
               }
@@ -1981,7 +1982,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
               if (mounted) {
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
-                    content: Text('已删除 ${_selectedItemIds.length} 个物品'),
+                    content: Text('已删除 $count 个物品'),
                     duration: const Duration(seconds: 2),
                   ),
                 );

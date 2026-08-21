@@ -122,6 +122,21 @@ class SettingsScreen extends StatelessWidget {
                   color: colorScheme.surfaceContainerLow,
                   child: _buildSettingsTile(
                     context: context,
+                    icon: Icons.history,
+                    title: '操作日志',
+                    subtitle: '查看和恢复操作记录',
+                    route: AppRoutes.operationLog,
+                  ),
+                ),
+                const SizedBox(height: 12),
+                Card(
+                  elevation: 0,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(25),
+                  ),
+                  color: colorScheme.surfaceContainerLow,
+                  child: _buildSettingsTile(
+                    context: context,
                     icon: Icons.language,
                     title: l10n.language_settings,
                     subtitle: l10n.language_settings_description,

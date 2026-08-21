@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:lpinyin/lpinyin.dart';
 import 'package:recording/data/datasources/app_database.dart';
 import 'package:recording/data/models/item.dart';
+import 'package:recording/data/models/operation_log.dart';
+import 'package:recording/providers/operation_log_provider.dart';
 
 class ItemListProvider extends ChangeNotifier {
   final AppDatabase _db = AppDatabase();
+  final OperationLogProvider _logProvider = OperationLogProvider();
 
   List<Item> _items = [];
   final Set<String> _customLocations = {};
@@ -249,6 +252,7 @@ class ItemListProvider extends ChangeNotifier {
     try {
       final newItem = await _db.insertItem(item);
       _items.insert(0, newItem);
+      await _logProvider.logOperation(OperationType.create, newItem);
       notifyListeners();
     } catch (e) {
       _error = e.toString();
@@ -256,12 +260,20 @@ class ItemListProvider extends ChangeNotifier {
     }
   }
 
-  Future<void> updateItem(Item item) async {
+  Future<void> updateItem(Item item, {bool logOperation = true}) async {
     try {
       await _db.updateItem(item);
       final index = _items.indexWhere((i) => i.id == item.id);
       if (index != -1) {
+        final oldItem = _items[index];
         _items[index] = item;
+        if (logOperation) {
+          await _logProvider.logOperation(
+            OperationType.update,
+            item,
+            oldItem: oldItem,
+          );
+        }
       }
       notifyListeners();
     } catch (e) {
@@ -272,7 +284,9 @@ class ItemListProvider extends ChangeNotifier {
 
   Future<void> deleteItem(String id) async {
     try {
+      final item = _items.firstWhere((i) => i.id == id);
       await _db.deleteItem(id);
+      await _logProvider.logOperation(OperationType.delete, item);
       _items.removeWhere((i) => i.id == id);
       notifyListeners();
     } catch (e) {
@@ -370,6 +384,14 @@ class ItemListProvider extends ChangeNotifier {
           quantity: item.quantity + additionalQuantity,
         );
         await _db.updateItem(updatedItem);
+        final operationType = additionalQuantity > 0
+            ? OperationType.inbound
+            : OperationType.outbound;
+        await _logProvider.logOperation(
+          operationType,
+          item,
+          quantityChange: additionalQuantity,
+        );
         _items[itemIndex] = updatedItem;
         notifyListeners();
       }

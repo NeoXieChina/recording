@@ -14,6 +14,7 @@ class AppRoutes {
   static const String alertsSettings = '/settings/alerts';
   static const String about = '/settings/about';
   static const String languageSettings = '/settings/language';
+  static const String operationLog = '/settings/operation-log';
 
   /// 路由参数键名
   static const String itemIdParam = 'itemId';
