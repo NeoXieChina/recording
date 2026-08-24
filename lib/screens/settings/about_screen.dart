@@ -29,7 +29,7 @@ class AboutScreen extends StatelessWidget {
         info[l10n.system_name] = iosInfo.systemName;
         info[l10n.system_version] = iosInfo.systemVersion;
         info[l10n.device_name] = iosInfo.name;
-        info[l10n.device_identifier] = iosInfo.identifierForVendor ?? '未知';
+        info[l10n.device_identifier] = iosInfo.identifierForVendor ?? l10n.unknown;
       } else if (Platform.isWindows) {
         final windowsInfo = await deviceInfo.windowsInfo;
         info[l10n.computer_name] = windowsInfo.computerName;
@@ -126,7 +126,7 @@ class AboutScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 4),
                         Text(
-                          '雷欧',
+                          l10n.developer_name,
                           style: theme.textTheme.bodySmall?.copyWith(
                             color: theme.colorScheme.onSurface.withAlpha(
                               (0.6 * 255).round(),

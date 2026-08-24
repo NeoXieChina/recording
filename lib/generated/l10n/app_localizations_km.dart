@@ -1167,4 +1167,285 @@ class AppLocalizationsKm extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'បានកាត់បន្ថយ $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'ការផ្លាស់ប្តូរដែលមិនបានរក្សាទុក';
+
+  @override
+  String get unsaved_changes_message =>
+      'អ្នកមានការផ្លាស់ប្តូរដែលមិនទាន់បានរក្សា សូមជ្រើសរើសសកម្មភាព៖';
+
+  @override
+  String get discard => 'បោះបង';
+
+  @override
+  String get unit_piece => 'ក';
+
+  @override
+  String get unit_item => 'ខណ្ឌ';
+
+  @override
+  String get unit_box => 'ប្រអប់';
+
+  @override
+  String get unit_package => 'កាបូប';
+
+  @override
+  String get unit_bottle => 'កំប៉ុង';
+
+  @override
+  String get unit_carton => 'ប្រអប់';
+
+  @override
+  String get unit_set => 'កំណាត់';
+
+  @override
+  String get unit_kg => 'គីឡូក្រាម';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'មីលីលីត្រ';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'សង់ទីម៉ែត្រ';
+
+  @override
+  String get quantity_label => 'ចំនួន';
+
+  @override
+  String get unit_price_label => 'តម្លៃឯកតា';
+
+  @override
+  String get currency_label => 'រូបិយប័ណ្ណ';
+
+  @override
+  String get total_price_label => 'តម្លៃសរុប៖';
+
+  @override
+  String get storage_location_label => 'កន្លែងផ្ទុក';
+
+  @override
+  String get item_properties => 'លក្ខណៈទំនិញ';
+
+  @override
+  String get expiry_date_label => 'អាយុកាល';
+
+  @override
+  String get warranty_expiry_date_label => 'ថ្ងៃផុតកំណត់ការធានា';
+
+  @override
+  String get production_date_label => 'កាលបរិច្ឆេទផលិត';
+
+  @override
+  String get purchase_date_label => 'កាលបរិច្ឆេទទិញ';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'គិតគណនាដោយស្វ័យប្រវត្តិផ្អែកលើ $dateType និងអាយុកាលផ្ទុក';
+  }
+
+  @override
+  String get auto_calculated => 'គណនាផ្អែកលើស្វ័យប្រវត្តិ';
+
+  @override
+  String get images_label => 'រូបភាព';
+
+  @override
+  String get notes_label => 'កំណត់សម្គាល់';
+
+  @override
+  String get add_notes_hint => 'បន្ថែមព័ត៌មានកំណត់សម្គាល់ (ជាជំរើស)';
+
+  @override
+  String get year_label => 'ឆ្នាំ';
+
+  @override
+  String get month_label => 'ខែ';
+
+  @override
+  String get day_label => 'មេឃ';
+
+  @override
+  String selected_count(int count) {
+    return 'បានជ្រើសរើស $count ធាតុ';
+  }
+
+  @override
+  String get select_all => 'ជ្រើសទាំងអស់';
+
+  @override
+  String get deselect_all => 'លុបការជ្រើសរើសទាំងអស់';
+
+  @override
+  String get batch_change_location => 'ប្ដូរទីតាំងផ្ទុកច្រើនក្នុងមួយដង';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'តើអ្នកចង់លុបធាតុ $count ដែលបានជ្រើសរើសមែនទេ?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'បានលុប $count ទំនិញ';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'មិនមានកន្លែងផ្ទុកដែលអាចជ្រើសបានទេ';
+
+  @override
+  String get batch_change_location_title => 'ប្ដូរទីតាំងផ្ទុកច្រើនក្នុងមួយលើក';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'បានផ្ទេរប្រភេទទំនិញ $count ទៅ $location';
+  }
+
+  @override
+  String get operation_type_create => 'បញ្ចូល';
+
+  @override
+  String get operation_type_update => 'កែសម្រួល';
+
+  @override
+  String get operation_type_delete => 'លុប';
+
+  @override
+  String get operation_type_inbound => 'ចូលក្នុងឃ្លាំង';
+
+  @override
+  String get operation_type_outbound => 'ចេញពីឃ្លាំង';
+
+  @override
+  String export_failed_message(String error) {
+    return 'នាំចេញបរាជ័យ: $error';
+  }
+
+  @override
+  String get clear_logs => 'លុបបញ្ជីកំណត់ត្រា';
+
+  @override
+  String get confirm_clear_logs =>
+      'តើអ្នកប្រាកដថាចង់លុបប្រតិបត្តិការទាំងអស់មែនទេ? ការប្រតិបត្តិនេះមិនអាចស្ដារឡើងវិញបាន។';
+
+  @override
+  String get logs_cleared => 'កំណត់ហេតុត្រូវបានសម្អាត';
+
+  @override
+  String get operation_logs_title => 'កំណត់ហេតុប្រតិបត្តិការ';
+
+  @override
+  String get export_logs => 'នាំចេញកំណត់ហេតុ';
+
+  @override
+  String get clear_logs_tooltip => 'លុបបញ្ជីកំណត់ត្រា';
+
+  @override
+  String get no_operation_logs => 'មិនមានកំណត់ហេតុប្រតិបត្តិការណ៍ទេ';
+
+  @override
+  String get log_item_label => 'វត្ថុ:';
+
+  @override
+  String get log_category_label => 'ចំណាត់ថ្នាក់៖';
+
+  @override
+  String get log_type_label => 'ប្រភេទ៖';
+
+  @override
+  String get log_quantity_label => 'ចំនួន៖';
+
+  @override
+  String get log_unit_price_label => 'តម្លៃរាយខ្ទង់';
+
+  @override
+  String get log_total_price_label => 'តម្លៃសរុប៖';
+
+  @override
+  String get log_expiry_date_label => 'ថ្ងៃផុតកំណត់ៈ';
+
+  @override
+  String get log_warranty_date_label => 'កាលបរិច្ឆេទធានា';
+
+  @override
+  String get log_purchase_date_label => 'កាលបរិច្ឆេទទិញ';
+
+  @override
+  String get log_production_date_label => 'កាលបរិច្ឆេទផលិត';
+
+  @override
+  String get log_shelf_life_label => 'អង្សទុកថ្មីរបស់ផលិតផល:';
+
+  @override
+  String get log_storage_location_label => 'ទីតាំងផ្ទុក';
+
+  @override
+  String get log_barcode_label => 'លេខបារ';
+
+  @override
+  String get log_notes_label => 'កំណត់សម្គាល់៖';
+
+  @override
+  String get log_alert_label => 'ការព្រមាន';
+
+  @override
+  String get log_alert_days_label => 'ចំនួនថ្ងៃ​ព្រមាន';
+
+  @override
+  String get log_quantity_change_label => 'ការផ្លាស់ប្តូរចំនួន៖';
+
+  @override
+  String get log_field_changes_label => 'កែសម្រួលជួរឈរ:';
+
+  @override
+  String get log_not_set => 'មិនបានកំណត់';
+
+  @override
+  String get log_empty => 'ខ空';
+
+  @override
+  String get log_alert_enabled => 'បើក';
+
+  @override
+  String get log_alert_disabled => 'បិទ';
+
+  @override
+  String get operation_logs_menu => 'កំណត់ហេតុប្រតិបត្ដិការ';
+
+  @override
+  String get operation_logs_description => 'ពិនិត្យនិងស្តារកំណត់ត្រាសកម្មភាព';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'ប្រតិបត្តិការបរាជ័យ: $error';
+  }
+
+  @override
+  String get no_date => 'គ្មានកាលបរិច្ឆេទ';
+
+  @override
+  String get shelf_life_months_suffix => 'ខែ';
+
+  @override
+  String get shelf_life_days_suffix => 'មេឃ';
+
+  @override
+  String get alert_days_suffix => 'មេឃ';
+
+  @override
+  String get unknown => 'មិនស្គាល់';
+
+  @override
+  String get developer_name => 'លីអូ';
+
+  @override
+  String get log_operation_date_label => 'កាលបរិច្ឆេទប្រតិបត្ដិការ';
 }

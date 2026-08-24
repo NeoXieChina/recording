@@ -1181,4 +1181,288 @@ class AppLocalizationsKn extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'ಎಲ್ಲಾ ಕಡಿಮೆ ಮಾಡಲಾಗಿದೆ $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'ಸೇಫ್ ಆಗದ ಬದಲಾವಣೆಗಳು';
+
+  @override
+  String get unsaved_changes_message =>
+      'ನಿಮ್ಮಲ್ಲಿ ಉಳಿಸಿಕೊಂಡಿಲ್ಲದ ಬದಲಾವಣೆಗಳಿವೆ, ದಯವಿಟ್ಟು ಕಾರ್ಯವನ್ನು ಆರಿಸಿ:';
+
+  @override
+  String get discard => 'ತ್ಯಜಿಸು';
+
+  @override
+  String get unit_piece => 'ಒಂದು';
+
+  @override
+  String get unit_item => 'ವಸ್ತು';
+
+  @override
+  String get unit_box => 'ಪೆಟ್ಟಿಗೆ';
+
+  @override
+  String get unit_package => 'ಪ್ಯಾಕ್';
+
+  @override
+  String get unit_bottle => 'ಬಾಟಲಿ';
+
+  @override
+  String get unit_carton => 'ಪೆಟ್ಟಿಗೆ';
+
+  @override
+  String get unit_set => 'ಸೆಟ್';
+
+  @override
+  String get unit_kg => 'ಕಿಲೋಗ್ರಾಂ';
+
+  @override
+  String get unit_g => 'ಜಿ';
+
+  @override
+  String get unit_l => 'ಎಲ್';
+
+  @override
+  String get unit_ml => 'ಮಿಲಿಲಿಟರ್';
+
+  @override
+  String get unit_m => 'ಎಂ';
+
+  @override
+  String get unit_cm => 'ಸೆಂಮೀ';
+
+  @override
+  String get quantity_label => 'ಪ್ರಮಾಣ';
+
+  @override
+  String get unit_price_label => 'ಪ್ರತಿಯೂನಿಟ್ ಬೆಲೆ';
+
+  @override
+  String get currency_label => 'ಕರೆನ್ಸಿ';
+
+  @override
+  String get total_price_label => 'ಒಟ್ಟು ಬೆಲೆ:';
+
+  @override
+  String get storage_location_label => 'ಸಂಗ್ರಹಸ್ಥಳ';
+
+  @override
+  String get item_properties => 'ವಸ್ತು ಗುಣಲಕ್ಷಣಗಳು';
+
+  @override
+  String get expiry_date_label => 'ಕಾಲಮಾನ';
+
+  @override
+  String get warranty_expiry_date_label => 'ಗೂಡಿಕೆಯ ಅವಧಿಯ ಕೊನೆಯ ದಿನ';
+
+  @override
+  String get production_date_label => 'ಉತ್ಪಾದನೆಯ ದಿನಾಂಕ';
+
+  @override
+  String get purchase_date_label => 'ಖರೀದಿ ದಿನಾಂಕ';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return '_${dateType}_ ಮತ್ತು ಶೆಲ್ಫ್ ಲೈಫ್ ಆಧರಿಸಿ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಲೆಕ್ಕಹಾಕಿ';
+  }
+
+  @override
+  String get auto_calculated => 'ಸ್ವಯಂಚಾಲಿತ ಗಣನೆ';
+
+  @override
+  String get images_label => 'ಚಿತ್ರ';
+
+  @override
+  String get notes_label => 'ಟಿಪ್ಪಣಿ';
+
+  @override
+  String get add_notes_hint => 'ಟಿಪ್ಪಣಿಗಳನ್ನು ಸೇರಿಸಿ (ಐಚ್ಛಿಕ)';
+
+  @override
+  String get year_label => 'ವರ್ಷ';
+
+  @override
+  String get month_label => 'ಚಂದ್ರ';
+
+  @override
+  String get day_label => 'ಆಕಾಶ';
+
+  @override
+  String selected_count(int count) {
+    return 'ನಿರ್ದೇಶಿತ $count ಐಟಂಗಳು';
+  }
+
+  @override
+  String get select_all => 'ಎಲ್ಲಾ ಆಯ್ಕೆಮಾಡಿ';
+
+  @override
+  String get deselect_all => 'ಎಲ್ಲಾ ಆಯ್ಕೆ ತೆರವುಮಾಡಿ';
+
+  @override
+  String get batch_change_location =>
+      'ಸಂಗ್ರಹಣ ಸ್ಥಳಗಳನ್ನು ಹ್ತುಕಟ್ಟಾಗಿ ಬದಲಾಯಿಸುವುದು';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'ನಿರ್ಧರಿಸಲಾಗಿದೆ ಆಯ್ದ $count ವಸ್ತುಗಳನ್ನು ಅಳಿಸಲು嗎?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count ಐಟಂಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'ಈಗಾಗಲೇ ಯಾವುದೇ ಸಂಗ್ರಹ ಸ್ಥಳವನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಲಭ್ಯವಿಲ್ಲ';
+
+  @override
+  String get batch_change_location_title =>
+      'ಸಂಗ್ರಹಣ ಸ್ಥಳಗಳನ್ನು ಹ್ತುಕಟ್ಟಾಗಿ ಬದಲಾಯಿಸುವುದು';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count ಐಟಂಗಳನ್ನು $location ಗೆ ಸ್ಥಳಾಂತರಿಸಲಾಗಿದೆ';
+  }
+
+  @override
+  String get operation_type_create => 'ಎಂಟರ್ ಮಾಡುವುದು';
+
+  @override
+  String get operation_type_update => 'ಸಂಪಾದನೆ';
+
+  @override
+  String get operation_type_delete => 'ಅಳಿಸು';
+
+  @override
+  String get operation_type_inbound => 'ಖಾತೆಯಲ್ಲಿ ಸೇರ್ಪಡೆ';
+
+  @override
+  String get operation_type_outbound => 'ಖಾತೆಯಿಂದ ಹೊರಹರಿಸಿದೆ';
+
+  @override
+  String export_failed_message(String error) {
+    return 'ಎಗ್ಸ್ಪೋರ್ಟ್ ವಿಫಲವಾಗಿದೆ: $error';
+  }
+
+  @override
+  String get clear_logs => 'ಲಾಗ್ ತೆರವುಗೊಳಿಸಿ';
+
+  @override
+  String get confirm_clear_logs =>
+      'ಎಲ್ಲಾ ಕಾರ್ಯ ದಾಖಲೆಗಳನ್ನು ಮರುಹೊಂದಿಸಲಾಗದಂತೆ ಸಂಪೂರ್ಣವಾಗಿ ಶೂನ್ಯಗೊಳಿಸಲು ಖಚಿತವೇ?';
+
+  @override
+  String get logs_cleared => 'ಲಾಗ್ ಕ್ಲೀರ್ ಮಾಡಿಸಲಾಗಿದೆ';
+
+  @override
+  String get operation_logs_title => 'ಆಪರೇಶನ್ ಲಾಗ್';
+
+  @override
+  String get export_logs => 'ಲಾಗ್ ರಫ್ತುಮಾಡಿ';
+
+  @override
+  String get clear_logs_tooltip => 'ಲಾಗ್ ತೆರವುಗೊಳಿಸಿ';
+
+  @override
+  String get no_operation_logs => 'ಇಷ್ಟೆ ಪ್ರಚಾಲನಾ ಲಾಗ್ ಇಲ್ಲ';
+
+  @override
+  String get log_item_label => 'ವಸ್ತು:';
+
+  @override
+  String get log_category_label => 'ವರ್ಗೀಕರಣ:';
+
+  @override
+  String get log_type_label => 'ಪ್ರಕಾರ:';
+
+  @override
+  String get log_quantity_label => 'ಪ್ರಮಾಣ: ';
+
+  @override
+  String get log_unit_price_label => 'એકમ ಬೆಲೆ:';
+
+  @override
+  String get log_total_price_label => 'ಒಟ್ಟು ಬೆಲೆ:';
+
+  @override
+  String get log_expiry_date_label => 'ಮಾರ್ಗ ಮಾಯದ ದಿನಾಂಕ:';
+
+  @override
+  String get log_warranty_date_label => 'ವಾರಂಟಿ ದಿನಾಂಕ:';
+
+  @override
+  String get log_purchase_date_label => 'ಖರೀದಿ ದಿನಾಂಕ:';
+
+  @override
+  String get log_production_date_label => 'ಉತ್ಪಾದನಾ ದಿನಾಂಕ:';
+
+  @override
+  String get log_shelf_life_label => 'ಮಾರಾಟದ ಅವಧಿ:';
+
+  @override
+  String get log_storage_location_label => 'ಸಂಗ್ರಹಣ ಸ್ಥಳ:';
+
+  @override
+  String get log_barcode_label => 'ಬಾರ್ ಕೋಡ್:';
+
+  @override
+  String get log_notes_label => 'ಕಮೆಂಟ್:';
+
+  @override
+  String get log_alert_label => 'ಎಚ್ಚರಿಕೆ:';
+
+  @override
+  String get log_alert_days_label => 'ಎಚ್ಚರಿಕೆ ದಿನಗಳು:';
+
+  @override
+  String get log_quantity_change_label => 'ಮಾತ್ರೆಯ ಬದಲಾವಣೆ:';
+
+  @override
+  String get log_field_changes_label => 'ಕ್ಷೇತ್ರಗಳನ್ನು ಸಂಪಾದಿಸಿ:';
+
+  @override
+  String get log_not_set => 'ಸೆಟ್ ಮಾಡಲಾಗಿಲ್ಲ';
+
+  @override
+  String get log_empty => 'ಖಾಲಿ';
+
+  @override
+  String get log_alert_enabled => 'ಮುಂದುವರಿಸಿ';
+
+  @override
+  String get log_alert_disabled => 'ಮುಚ್ಚು';
+
+  @override
+  String get operation_logs_menu => 'ಆಪರೇಶನ್ ಲಾಗ್';
+
+  @override
+  String get operation_logs_description =>
+      'ಆಪರೇಷನ್ ದಾಖಲೆಯನ್ನು ವೀಕ್ಷಿಸಿ ಮತ್ತು ಪುನಃಸ್ಥಾಪಿಸಿ';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'ಚಾಲನೆ ವಿಫಲವಾಗಿದೆ: $error';
+  }
+
+  @override
+  String get no_date => 'ದಿನಾಂಕವಿಲ್ಲ';
+
+  @override
+  String get shelf_life_months_suffix => 'ತಿಂಗಳ';
+
+  @override
+  String get shelf_life_days_suffix => 'ಆಕಾಶ';
+
+  @override
+  String get alert_days_suffix => 'ಆಕಾಶ';
+
+  @override
+  String get unknown => 'ಅಜ್ಞಾತ';
+
+  @override
+  String get developer_name => 'ಲಿಯೋ';
+
+  @override
+  String get log_operation_date_label => 'ಕಾರ್ಯಾಚರಣೆಯ ದಿನಾಂಕ:';
 }

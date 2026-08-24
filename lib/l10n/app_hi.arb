@@ -1688,5 +1688,395 @@
   "enter_category_name": "कृपया श्रेणी का नाम दर्ज करें",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "असुरक्षित बदलाव",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "आपके पास अनसेव किए गए बदलाव हैं, कृपया कार्रवाई चुनें:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "त्याग देना",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "个",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "सामान",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "डिब्बा",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "पैकेज",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "बोतल",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "डिब्बा",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "सूट",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "किलो",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "जी",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "एल",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "मिलीलीटर",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "म",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "सेमी",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "संख्या",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "单价",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "मुद्रा",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "कुल मूल्य：",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "भंडारण स्थान",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "वस्तु गुण",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "मियाद",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "गारंटी समाप्ति तिथि",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "उत्पादन तिथि",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "खरीदारी की तारीख",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "{dateType} और शेल्फ लाइफ के आधार पर स्वचालित रूप से गणना करें",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "स्वचालित गणना",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "छवि",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "备注",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "टिप्पणी जानकारी जोड़ें (वैकल्पिक)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "साल",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "चंद्रमा",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "आकाश",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} आइटम चुने गए हैं",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "सभी चयनित करें",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "सभी चयन रद्द करें",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "स्टोरेज स्थान का थोक स्थानांतरण",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "क्या आप चुनिंदा {count} आइटम हटाना चाहते हैं?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "डिलीट किया गया {count} आइटम",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "अभी कोई संग्रह स्थान उपलब्ध नहीं है",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "स्टोरेज स्थान का थोक स्थानांतरण",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} आइटम {location} में स्थानांतरित कर दिए गए हैं",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "प्रविष्ट करना",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "संपादित करें",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "हटाएँ",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "भंडारण में प्रवेश",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "वितरण के लिए स्टॉक से बाहर निकलना",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "निर्यात विफल: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "लॉग साफ़ करें",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "क्या आप वाकई सभी ऑपरेशन लॉग को साफ करना चाहते हैं? यह कार्रवाई अपरिवर्तनीय है।",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "लॉग साफ़ कर दिया गया है",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "ऑपरेशन लॉग",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "लॉग निर्यात करें",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "लॉग साफ़ करें",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "अभी कोई संचालन लॉग नहीं है",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "वस्तु:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "श्रेणी:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "प्रकार：",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "मात्रा:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "单价：",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "कुल मूल्य：",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "समाप्ति तिथि:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "वारंटी की तारीख:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "खरीद की तारीख:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "निर्माण तिथि:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "संग्रहन अवधि:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "संग्रहण स्थान:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "बारकोड:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "टिप्पणी:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "चेतावनी:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "पूर्व चेतावनी दिन:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "数量 में बदलाव：",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "फ़ील्ड संशोधित करें:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "सेट नहीं किया गया",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "खाली",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "खोलना",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "बंद करें",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "ऑपरेशन लॉग",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "ऑपरेशन रिकॉर्ड देखें और पुनर्स्थापित करें",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "संचालन विफल: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "तारीख़ नहीं",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "महीने",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "आकाश",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "आसमान",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "अज्ञात",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "लियो",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "ऑपरेशन की तारीख:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

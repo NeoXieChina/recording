@@ -1165,4 +1165,285 @@ class AppLocalizationsTh extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'ลดลงแล้ว $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'การเปลี่ยนแปลงที่ยังไม่ได้บันทึก';
+
+  @override
+  String get unsaved_changes_message =>
+      'คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก กรุณาเลือกการดำเนินการ:';
+
+  @override
+  String get discard => 'ยอมแพ้';
+
+  @override
+  String get unit_piece => 'อัน';
+
+  @override
+  String get unit_item => 'ชิ้น';
+
+  @override
+  String get unit_box => 'กล่อง';
+
+  @override
+  String get unit_package => 'กระเป๋า';
+
+  @override
+  String get unit_bottle => 'ขวด';
+
+  @override
+  String get unit_carton => 'กล่อง';
+
+  @override
+  String get unit_set => 'ชุด';
+
+  @override
+  String get unit_kg => 'กก.';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'มล';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'เซนติเมตร';
+
+  @override
+  String get quantity_label => 'จำนวน';
+
+  @override
+  String get unit_price_label => 'ราคาต่อหน่วย';
+
+  @override
+  String get currency_label => 'สกุลเงิน';
+
+  @override
+  String get total_price_label => 'ราคารวม:';
+
+  @override
+  String get storage_location_label => 'สถานที่เก็บ';
+
+  @override
+  String get item_properties => 'คุณสมบัติของสิ่งของ';
+
+  @override
+  String get expiry_date_label => 'วันหมดอายุ';
+
+  @override
+  String get warranty_expiry_date_label => 'วันหมดประกัน';
+
+  @override
+  String get production_date_label => 'วันที่ผลิต';
+
+  @override
+  String get purchase_date_label => 'วันที่ซื้อ';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'คำนวณโดยอัตโนมัติตาม $dateType และระยะเวลาการเก็บรักษา';
+  }
+
+  @override
+  String get auto_calculated => 'คำนวณอัตโนมัติ';
+
+  @override
+  String get images_label => 'รูปภาพ';
+
+  @override
+  String get notes_label => 'หมายเหตุ';
+
+  @override
+  String get add_notes_hint => 'เพิ่มหมายเหตุ (ไม่บังคับ)';
+
+  @override
+  String get year_label => 'ปี';
+
+  @override
+  String get month_label => 'เดือน';
+
+  @override
+  String get day_label => 'ฟ้า';
+
+  @override
+  String selected_count(int count) {
+    return 'ได้เลือก $count รายการแล้ว';
+  }
+
+  @override
+  String get select_all => 'เลือกทั้งหมด';
+
+  @override
+  String get deselect_all => 'ยกเลิกการเลือกทั้งหมด';
+
+  @override
+  String get batch_change_location => 'สลับสถานที่จัดเก็บเป็นกลุ่ม';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'คุณแน่ใจหรือไม่ว่าต้องการลบ $count รายการที่เลือก?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'ได้ลบ $count ไอเท็มแล้ว';
+  }
+
+  @override
+  String get no_storage_location_available => 'ยังไม่มีสถานที่จัดเก็บให้เลือก';
+
+  @override
+  String get batch_change_location_title => 'สลับสถานที่จัดเก็บเป็นกลุ่ม';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'ได้ย้าย $count รายการไปยัง $location';
+  }
+
+  @override
+  String get operation_type_create => 'กรอกข้อมูล';
+
+  @override
+  String get operation_type_update => 'แก้ไข';
+
+  @override
+  String get operation_type_delete => 'ลบ';
+
+  @override
+  String get operation_type_inbound => 'เข้าคลัง';
+
+  @override
+  String get operation_type_outbound => 'เบิกสินค้าออกจากคลัง';
+
+  @override
+  String export_failed_message(String error) {
+    return 'ส่งออกล้มเหลว: $error';
+  }
+
+  @override
+  String get clear_logs => 'ล้างบันทึก';
+
+  @override
+  String get confirm_clear_logs =>
+      'คุณแน่ใจหรือว่าต้องการลบประวัติการทำงานทั้งหมด? การกระทำนี้ไม่สามารถกู้คืนได้.';
+
+  @override
+  String get logs_cleared => 'บันทึกถูกล้างเรียบร้อยแล้ว';
+
+  @override
+  String get operation_logs_title => 'บันทึกการดำเนินการ';
+
+  @override
+  String get export_logs => 'ส่งออกบันทึก';
+
+  @override
+  String get clear_logs_tooltip => 'ล้างบันทึก';
+
+  @override
+  String get no_operation_logs => 'ยังไม่มีบันทึกการดำเนินการ';
+
+  @override
+  String get log_item_label => 'รายการสิ่งของ:';
+
+  @override
+  String get log_category_label => 'ประเภท：';
+
+  @override
+  String get log_type_label => 'ประเภท：';
+
+  @override
+  String get log_quantity_label => 'จำนวน:';
+
+  @override
+  String get log_unit_price_label => 'ราคาต่อหน่วย:';
+
+  @override
+  String get log_total_price_label => 'ราคารวม:';
+
+  @override
+  String get log_expiry_date_label => 'วันหมดอายุ:';
+
+  @override
+  String get log_warranty_date_label => 'วันที่รับประกัน:';
+
+  @override
+  String get log_purchase_date_label => 'วันที่ซื้อ:';
+
+  @override
+  String get log_production_date_label => 'วันที่ผลิต：';
+
+  @override
+  String get log_shelf_life_label => 'อายุการเก็บรักษา:';
+
+  @override
+  String get log_storage_location_label => 'สถานที่เก็บ';
+
+  @override
+  String get log_barcode_label => 'รหัสบาร์โค้ด：';
+
+  @override
+  String get log_notes_label => 'หมายเหตุ：';
+
+  @override
+  String get log_alert_label => 'เตือนล่วงหน้า:';
+
+  @override
+  String get log_alert_days_label => 'จำนวนวันเตือนภัย:';
+
+  @override
+  String get log_quantity_change_label => 'การเปลี่ยนแปลงของปริมาณ:';
+
+  @override
+  String get log_field_changes_label => 'แก้ไขฟิลด์:';
+
+  @override
+  String get log_not_set => 'ไม่ได้ตั้งค่า';
+
+  @override
+  String get log_empty => 'ว่าง';
+
+  @override
+  String get log_alert_enabled => 'เปิด';
+
+  @override
+  String get log_alert_disabled => 'ปิด';
+
+  @override
+  String get operation_logs_menu => 'บันทึกการดำเนินการ';
+
+  @override
+  String get operation_logs_description =>
+      'ตรวจสอบและกู้คืนประวัติการดำเนินการ';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'การดำเนินการล้มเหลว: $error';
+  }
+
+  @override
+  String get no_date => 'ไม่มีวันที่';
+
+  @override
+  String get shelf_life_months_suffix => 'เดือน';
+
+  @override
+  String get shelf_life_days_suffix => 'ฟ้า';
+
+  @override
+  String get alert_days_suffix => 'ฟ้า';
+
+  @override
+  String get unknown => 'ไม่ทราบ';
+
+  @override
+  String get developer_name => 'เรโอ';
+
+  @override
+  String get log_operation_date_label => 'วันที่ดำเนินการ:';
 }

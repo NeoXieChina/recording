@@ -1688,5 +1688,395 @@
   "enter_category_name": "אנא הזן את שם הסיווג",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "שינויים שלא נשמרו",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "יש לכם שינויים שלא נשמרו, אנא בחרו פעולה:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "ויתר",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "יחידה",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "פריט",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "קופסה",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "תיק",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "בקבוק",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "קופסה",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "סט",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "ק\"ג",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "ג",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "טחנה",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "מ",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "סימ",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "כמות",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "מחיר יחידה",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "מטבע",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "מחיר כולל:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "מקום אחסון",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "מאפייני פריט",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "תוקף",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "תאריך תפוגת האחריות",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "תאריך ייצור",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "תאריך הקנייה",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "חישוב אוטומטי בהתאם ל{dateType} ולתוקף",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "חישוב אוטומטי",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "תמונה",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "הערה",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "הוסף הערות (לא חובה)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "שנה",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "ירח",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "שמיים",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "נבחרו {count} פריטים",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "בחר הכל",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "בטל בחירה הכול",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "החלפת מיקום אחסון בכמות גדולה",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "האם למחוק את ה-{count} פריטים שנבחרו?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "נמחקו {count} פריטים",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "אין מיקום אחסון זמין",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "החלפת מיקום אחסון בכמות גדולה",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "כבר הועברו {count} פריטים אל {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "הזנה",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "ערוך",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "מחק",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "כניסה למחסן",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "יציאה מהמלאי",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "ייצוא נכשל: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "נקה יומנים",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "האם אתה בטוח שברצונך למחוק את כל יומני הפעולות? פעולה זו אינה ניתנת לשחזור.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "יומן נמחק",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "יומן פעולות",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "ייצוא יומן",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "נקה יומנים",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "אין יומן פעולות זמני",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "פריטים:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "קטגוריה:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "סוג:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "כמות:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "מחיר ליחידה:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "מחיר כולל:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "תאריך תפוגה:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "תאריך אחריות:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "תאריך רכישה:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "תאריך ייצור:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "תאריך תפוגה:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "מקום אחסון:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "ברקוד:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "הערה:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "אזהרה מוקדמת:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "מספר ימי האזהרה:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "שינוי בכמות:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "ערוך שדה:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "לא הוגדר",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "ריק",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "להפעיל",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "סגור",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "יומן פעולות",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "צפה ושחזר את רשומות הפעולה",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "הפעולה נכשלה: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "ללא תאריך",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "חודשים",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "שמיים",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "שמיים",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "לא נודע",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "ליאו",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "תאריך הפעלה:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

@@ -1702,5 +1702,395 @@
   },
   "@delete_failed": {
     "description": ""
+  },
+  "unsaved_changes": "未保存的更改",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "您有未保存的更改，请选择操作：",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "放弃",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "个",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "件",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "箱",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "包",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "瓶",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "盒",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "套",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "数量",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "单价",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "货币",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "总价：",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "存储地点",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "物品属性",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "有效期",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "保修到期日",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "生产日期",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "购买日期",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "根据{dateType}和保质期自动计算",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "自动计算",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "图片",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "备注",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "添加备注信息（选填）",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "年",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "月",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "天",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "已选择 {count} 项",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "全选",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "取消全选",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "批量调换存储地点",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "确定删除选中的 {count} 个物品吗？",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "已删除 {count} 个物品",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "暂无存储地点可选",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "批量调换存储地点",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "已将 {count} 个物品移动到 {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "录入",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "编辑",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "删除",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "入库",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "出库",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "导出失败：{error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "清空日志",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "确定要清空所有操作日志吗？此操作不可恢复。",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "日志已清空",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "操作日志",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "导出日志",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "清空日志",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "暂无操作日志",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "物品：",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "分类：",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "类型：",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "数量：",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "单价：",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "总价：",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "过期日期：",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "保修日期：",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "购买日期：",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "生产日期：",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "保质期：",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "存储地点：",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "条码：",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "备注：",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "预警：",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "预警天数：",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "数量变化：",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "修改字段：",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "未设置",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "空",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "开启",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "关闭",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "操作日志",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "查看和恢复操作记录",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "操作失败：{error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "无日期",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "个月",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "天",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "天",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "未知",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "雷欧",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "操作日期：",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

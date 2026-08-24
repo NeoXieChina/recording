@@ -28,6 +28,14 @@
   "@add": {
     "description": ""
   },
+  "edit_item": "編輯物品",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "添加物品",
+  "@add_item": {
+    "description": ""
+  },
   "search": "搜尋",
   "@search": {
     "description": ""
@@ -146,7 +154,7 @@
       }
     }
   },
-  "alert_settings": "預警設置",
+  "alert_settings": "提醒設置",
   "@alert_settings": {
     "description": ""
   },
@@ -190,7 +198,7 @@
   "@enable_local_alerts_first": {
     "description": ""
   },
-  "alert_days_settings": "提醒天數設置",
+  "alert_days_settings": "提醒天數設定",
   "@alert_days_settings": {
     "description": ""
   },
@@ -397,7 +405,7 @@
   "@restore_data": {
     "description": ""
   },
-  "restore_data_description": "從ZIP備份文件恢復全部數據",
+  "restore_data_description": "從ZIP備份檔案恢復全部資料",
   "@restore_data_description": {
     "description": ""
   },
@@ -481,7 +489,7 @@
   },
   "selected_file": "已選擇檔案：{filename}",
   "@selected_file": {
-    "description": "已選擇檔案訊息",
+    "description": "已選擇檔案消息",
     "placeholders": {
       "filename": {
         "type": "String"
@@ -571,7 +579,7 @@
   "@select_file": {
     "description": ""
   },
-  "no_data": "暫無資料",
+  "no_data": "暫無數據",
   "@no_data": {
     "description": ""
   },
@@ -671,8 +679,16 @@
   "@system_name": {
     "description": ""
   },
+  "operating_system": "操作系統",
+  "@operating_system": {
+    "description": ""
+  },
   "system_version": "系統版本",
   "@system_version": {
+    "description": ""
+  },
+  "dart_version": "Dart版本",
+  "@dart_version": {
     "description": ""
   },
   "device_identifier": "設備標識",
@@ -1029,48 +1045,12 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "已增加 {itemName} {quantity}{unit}",
-  "@item_increased": {
-    "description": "物品增加消息",
-    "placeholders": {
-      "itemName": {
-        "type": "String",
-        "example": "苹果"
-      },
-      "quantity": {
-        "type": "String",
-        "example": "5"
-      },
-      "unit": {
-        "type": "String",
-        "example": "个"
-      }
-    }
-  },
   "delete_item_confirm_with_irreversible": "確定要刪除「{name}」嗎？此操作不可撤銷。",
   "@delete_item_confirm_with_irreversible": {
     "description": "刪除確認訊息帶不可撤銷警告",
     "placeholders": {
       "name": {
         "type": "String"
-      }
-    }
-  },
-  "item_decreased": "已減少 {itemName} {quantity}{unit}",
-  "@item_decreased": {
-    "description": "物品減少消息",
-    "placeholders": {
-      "itemName": {
-        "type": "String",
-        "example": "苹果"
-      },
-      "quantity": {
-        "type": "String",
-        "example": "3"
-      },
-      "unit": {
-        "type": "String",
-        "example": "个"
       }
     }
   },
@@ -1104,7 +1084,7 @@
   "@solution_step_1": {
     "description": ""
   },
-  "solution_step_2": "2. 或清除應用資料",
+  "solution_step_2": "2. 或清除應用數據",
   "@solution_step_2": {
     "description": ""
   },
@@ -1177,14 +1157,14 @@
   },
   "database_has_data": "資料庫已有 {count} 條數據，跳過模擬數據初始化",
   "@database_has_data": {
-    "description": "資料庫已有資料",
+    "description": "資料庫已有數據",
     "placeholders": {
       "count": {
         "type": "int"
       }
     }
   },
-  "database_structure_mismatch": "可能是資料庫結構不匹配，建議清除應用資料或重新安裝",
+  "database_structure_mismatch": "可能是資料庫結構不匹配，建議清除應用數據或重新安裝",
   "@database_structure_mismatch": {
     "description": ""
   },
@@ -1387,7 +1367,7 @@
       }
     }
   },
-  "password_min_length": "{fieldName}長度不能少於8個字元",
+  "password_min_length": "{fieldName}長度不能少於8個字符",
   "@password_min_length": {
     "description": "密碼最小長度驗證",
     "placeholders": {
@@ -1549,22 +1529,6 @@
   "@delete_failed": {
     "description": ""
   },
-  "edit_item": "編輯物品",
-  "@edit_item": {
-    "description": ""
-  },
-  "add_item": "添加物品",
-  "@add_item": {
-    "description": ""
-  },
-  "operating_system": "作業系統",
-  "@operating_system": {
-    "description": ""
-  },
-  "dart_version": "Dart版本",
-  "@dart_version": {
-    "description": ""
-  },
   "test_calendar_event": "測試日曆事件",
   "@test_calendar_event": {
     "description": ""
@@ -1687,6 +1651,432 @@
   },
   "enter_category_name": "請輸入分類名稱",
   "@enter_category_name": {
+    "description": ""
+  },
+  "item_increased": "已增加 {itemName} {quantity}{unit}",
+  "@item_increased": {
+    "description": "物品增加通知消息",
+    "placeholders": {
+      "itemName": {
+        "type": "String",
+        "example": "苹果"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "5"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "item_decreased": "已減少 {itemName} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "物品減少通知消息",
+    "placeholders": {
+      "itemName": {
+        "type": "String",
+        "example": "苹果"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "3"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "unsaved_changes": "未儲存的更改",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "您有未保存的更改，請選擇操作：",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "放棄",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "個",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "件",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "箱",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "包",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "瓶",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "盒",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "套",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "厘米",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "數量",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "單價",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "貨幣",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "總價：",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "存儲地點",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "物品屬性",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "有效期",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "保修到期日",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "生產日期",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "購買日期",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "根據{dateType}和保質期自動計算",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "自動計算",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "圖片",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "備註",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "添加備註信息（選填）",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "年",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "月",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "天",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "已選擇 {count} 項",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "全選",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "取消全選",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "批量調換存儲地點",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "確定刪除選中的 {count} 個物品嗎？",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "已刪除 {count} 個物品",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "暫無儲存地點可選",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "批量調換存儲地點",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "已將 {count} 個物品移動到 {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "錄入",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "編輯",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "刪除",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "入庫",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "出庫",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "導出失敗: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "清空日誌",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "確定要清空所有操作日誌嗎？此操作不可恢復。",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "日誌已清空",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "操作日誌",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "導出日誌",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "清空日誌",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "暫無操作日誌",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "物品：",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "分類：",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "類型：",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "數量：",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "單價：",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "總價：",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "過期日期：",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "保修日期：",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "購買日期：",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "生產日期：",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "保質期：",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "存儲地點：",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "條碼：",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "備註：",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "預警：",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "預警天數：",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "數量變化：",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "修改字段：",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "未設置",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "空",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "開啟",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "關閉",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "操作日誌",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "查看和恢復操作記錄",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "操作失敗: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "無日期",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "個月",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "天",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "天",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "未知",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "雷歐",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "操作日期：",
+  "@log_operation_date_label": {
     "description": ""
   }
 }

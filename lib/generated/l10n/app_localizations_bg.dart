@@ -1181,4 +1181,288 @@ class AppLocalizationsBg extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Вече е намалено $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Незапазени промени';
+
+  @override
+  String get unsaved_changes_message =>
+      'Имате незапазени промени, моля изберете действие:';
+
+  @override
+  String get discard => 'Отказвам се';
+
+  @override
+  String get unit_piece => '个';
+
+  @override
+  String get unit_item => 'част';
+
+  @override
+  String get unit_box => 'кутия';
+
+  @override
+  String get unit_package => 'чанта';
+
+  @override
+  String get unit_bottle => 'бутилка';
+
+  @override
+  String get unit_carton => 'кутия';
+
+  @override
+  String get unit_set => 'комплект';
+
+  @override
+  String get unit_kg => 'кг';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'мл';
+
+  @override
+  String get unit_m => 'м';
+
+  @override
+  String get unit_cm => 'см';
+
+  @override
+  String get quantity_label => 'Количество';
+
+  @override
+  String get unit_price_label => 'Единична цена';
+
+  @override
+  String get currency_label => 'валута';
+
+  @override
+  String get total_price_label => 'Обща цена:';
+
+  @override
+  String get storage_location_label => 'Място за съхранение';
+
+  @override
+  String get item_properties => 'Свойства на предмети';
+
+  @override
+  String get expiry_date_label => 'Срок на валидност';
+
+  @override
+  String get warranty_expiry_date_label => 'Дата на изтичане на гаранцията';
+
+  @override
+  String get production_date_label => 'Дата на производство';
+
+  @override
+  String get purchase_date_label => 'Дата на покупка';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Автоматично изчисляване според $dateType и срока на годност';
+  }
+
+  @override
+  String get auto_calculated => 'Автоматично изчисление';
+
+  @override
+  String get images_label => 'картина';
+
+  @override
+  String get notes_label => 'Бележка';
+
+  @override
+  String get add_notes_hint => 'Добавете бележка (по избор)';
+
+  @override
+  String get year_label => 'година';
+
+  @override
+  String get month_label => 'месец';
+
+  @override
+  String get day_label => 'небе';
+
+  @override
+  String selected_count(int count) {
+    return 'Избрани са $count елемента';
+  }
+
+  @override
+  String get select_all => 'Избери всички';
+
+  @override
+  String get deselect_all => 'Отмени избора на всичко';
+
+  @override
+  String get batch_change_location =>
+      'Масово преместване на местоположението на съхранение';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Сигурни ли сте, че искате да изтриете избраните $count артикула?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Изтрити са $count артикула';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Няма налични опции за място за съхранение';
+
+  @override
+  String get batch_change_location_title =>
+      'Масово преместване на местоположението на съхранение';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'Преместени са $count предмета в $location';
+  }
+
+  @override
+  String get operation_type_create => 'Въвеждане';
+
+  @override
+  String get operation_type_update => 'Редактиране';
+
+  @override
+  String get operation_type_delete => 'Изтриване';
+
+  @override
+  String get operation_type_inbound => 'Складиране';
+
+  @override
+  String get operation_type_outbound => 'Изписване от склад';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Експортът неуспешен: $error';
+  }
+
+  @override
+  String get clear_logs => 'Изчистване на журнала';
+
+  @override
+  String get confirm_clear_logs =>
+      'Наистина ли искате да изчистите всички операции и записи? Тази операция не може да бъде възстановена.';
+
+  @override
+  String get logs_cleared => 'Журналът е изчистен';
+
+  @override
+  String get operation_logs_title => 'Дневник на операциите';
+
+  @override
+  String get export_logs => 'Експортиране на дневници';
+
+  @override
+  String get clear_logs_tooltip => 'Изчистване на журнала';
+
+  @override
+  String get no_operation_logs => 'Няма записи на операциите';
+
+  @override
+  String get log_item_label => 'Предмет:';
+
+  @override
+  String get log_category_label => 'Категория:';
+
+  @override
+  String get log_type_label => 'Тип:';
+
+  @override
+  String get log_quantity_label => 'Количество:';
+
+  @override
+  String get log_unit_price_label => 'Единична цена:';
+
+  @override
+  String get log_total_price_label => 'Обща цена:';
+
+  @override
+  String get log_expiry_date_label => 'Годност до:';
+
+  @override
+  String get log_warranty_date_label => 'Гаранционен период:';
+
+  @override
+  String get log_purchase_date_label => 'Дата на покупка:';
+
+  @override
+  String get log_production_date_label => 'Дата на производство:';
+
+  @override
+  String get log_shelf_life_label => 'Гаранционен срок:';
+
+  @override
+  String get log_storage_location_label => 'Място за съхранение:';
+
+  @override
+  String get log_barcode_label => 'Баркод:';
+
+  @override
+  String get log_notes_label => 'Бележка:';
+
+  @override
+  String get log_alert_label => 'Предупреждение:';
+
+  @override
+  String get log_alert_days_label => 'Дни на предупреждение:';
+
+  @override
+  String get log_quantity_change_label => 'Промяна в количеството:';
+
+  @override
+  String get log_field_changes_label => 'Промяна на поле:';
+
+  @override
+  String get log_not_set => 'Не е зададено';
+
+  @override
+  String get log_empty => 'празно';
+
+  @override
+  String get log_alert_enabled => 'Включване';
+
+  @override
+  String get log_alert_disabled => 'Затвори';
+
+  @override
+  String get operation_logs_menu => 'Дневник на операциите';
+
+  @override
+  String get operation_logs_description =>
+      'Преглед и възстановяване на записите на операциите';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Операцията е неуспешна: $error';
+  }
+
+  @override
+  String get no_date => 'Без дата';
+
+  @override
+  String get shelf_life_months_suffix => 'месец';
+
+  @override
+  String get shelf_life_days_suffix => 'небе';
+
+  @override
+  String get alert_days_suffix => 'небе';
+
+  @override
+  String get unknown => 'неизвестен';
+
+  @override
+  String get developer_name => 'Лео';
+
+  @override
+  String get log_operation_date_label => 'Дата на операцията:';
 }

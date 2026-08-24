@@ -1174,4 +1174,287 @@ class AppLocalizationsUg extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'ئازايتىلدى $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'ساقلانمىغان ئۆزگەرتىشلەر';
+
+  @override
+  String get unsaved_changes_message =>
+      'سىزنىڭ ساقلانمىغان ئۆزگەرتىشلەر بار، ھەرىكەت تاللاڭ：';
+
+  @override
+  String get discard => 'تاشلاپ قويۇش';
+
+  @override
+  String get unit_piece => 'بىر';
+
+  @override
+  String get unit_item => 'پارچە';
+
+  @override
+  String get unit_box => 'ساقلايدىغان قۇتى';
+
+  @override
+  String get unit_package => 'يۈك';
+
+  @override
+  String get unit_bottle => 'چىچان';
+
+  @override
+  String get unit_carton => 'تەخسى';
+
+  @override
+  String get unit_set => 'تاقىم';
+
+  @override
+  String get unit_kg => 'كىلوگرام';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'مىلىلىتىر';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'سېنتىمېتىر';
+
+  @override
+  String get quantity_label => 'مىقدار';
+
+  @override
+  String get unit_price_label => 'Birlik bahasi';
+
+  @override
+  String get currency_label => 'پۇل';
+
+  @override
+  String get total_price_label => 'جەمئىي باھا:';
+
+  @override
+  String get storage_location_label => 'ساقلاش ئورنى';
+
+  @override
+  String get item_properties => 'بايلىق خۇسۇسىيىتى';
+
+  @override
+  String get expiry_date_label => 'مەددىي كۈتۈش ۋاقتى';
+
+  @override
+  String get warranty_expiry_date_label => 'كاپالىق مۇددىتىنىڭ ئاخىرلىشىش كۈنى';
+
+  @override
+  String get production_date_label => 'ئىشلەپچىقىرىش ۋاقتى';
+
+  @override
+  String get purchase_date_label => 'سېتىۋېلىش كېچىك كۈنى';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return '$dateType ۋە ساقلاش مۇددىتىگە ئاساسەن ئاپتوماتىك ھېسابلاش';
+  }
+
+  @override
+  String get auto_calculated => 'ئاپتوماتىك ھېسابلاش';
+
+  @override
+  String get images_label => 'رەسىم';
+
+  @override
+  String get notes_label => 'ئىزاھات';
+
+  @override
+  String get add_notes_hint => 'ئۇچۇر ئىزاھاتىنى قوشۇڭ (تاللاش)';
+
+  @override
+  String get year_label => 'يىل';
+
+  @override
+  String get month_label => 'ئاىي';
+
+  @override
+  String get day_label => 'كۆك';
+
+  @override
+  String selected_count(int count) {
+    return 'ئەللە $count تۇم تېپىلمىش';
+  }
+
+  @override
+  String get select_all => 'ھەممىنى تاللاش';
+
+  @override
+  String get deselect_all => 'ھەممىنى تاللاشنى بىكار قىلىش';
+
+  @override
+  String get batch_change_location => 'ئۇچۇر ساقلاش ئورنىنى بىر تەرەپ قىلىش';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'تاللانغان $count دانە ئەشىيانى ئۆچۈرەمسىز؟';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count دانە بۇيۇم ئۆچۈرۈلدى';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'ھازىرچە ساقلاش ئورنىنى تاللاشقا بولمايدۇ';
+
+  @override
+  String get batch_change_location_title =>
+      'ئۇچۇر ساقلاش ئورنىنى بىر تەرەپ قىلىش';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '已将 $count 个物品移动到 $location';
+  }
+
+  @override
+  String get operation_type_create => 'كىرگۈزۈش';
+
+  @override
+  String get operation_type_update => 'تەھرىرلەش';
+
+  @override
+  String get operation_type_delete => 'ئۆچۈرۈش';
+
+  @override
+  String get operation_type_inbound => 'مال ساقلاشقا كىرگۈزۈش';
+
+  @override
+  String get operation_type_outbound => 'مال ساتуға чиқириш';
+
+  @override
+  String export_failed_message(String error) {
+    return 'چىقىرىش مەغلۇب بولدۇ: $error';
+  }
+
+  @override
+  String get clear_logs => 'تاريخچىلارنى تەكشى قىلىش';
+
+  @override
+  String get confirm_clear_logs =>
+      'ھەممە ئامەل خاتىرىلەرنى ئۆچۈرۈشنى راستلاختامسىز؟ بۇ ئامەلنى قايتا ئەسلىگە كەلتۈرۈش مۇمكىن ئەمەس.';
+
+  @override
+  String get logs_cleared => '日志已清空';
+
+  @override
+  String get operation_logs_title => 'ئەمەلگە ئاشۇرۇش خاتىرىسى';
+
+  @override
+  String get export_logs => 'تاريخچىلارنى چىقىرىش';
+
+  @override
+  String get clear_logs_tooltip => 'تاريخچىلارنى تەكشى قىلىش';
+
+  @override
+  String get no_operation_logs => 'ھازىرچە ئامەلگە ئاشۇرۇلغان خاتىرە يوق';
+
+  @override
+  String get log_item_label => 'بايقۇلگەن نەرسە:';
+
+  @override
+  String get log_category_label => 'تۈرلەش:';
+
+  @override
+  String get log_type_label => 'تۈر:';
+
+  @override
+  String get log_quantity_label => 'سانى:';
+
+  @override
+  String get log_unit_price_label => 'باھاسى: ';
+
+  @override
+  String get log_total_price_label => 'جەمئىي باھا:';
+
+  @override
+  String get log_expiry_date_label => 'مۇددىتى ئۆتكەن كۈنى:';
+
+  @override
+  String get log_warranty_date_label => 'كاپالىق ۋاقتى:';
+
+  @override
+  String get log_purchase_date_label => 'سېتىۋېلىش ۋاقتى:';
+
+  @override
+  String get log_production_date_label => 'ئىشلەپچىقىرىشچې كۈنى:';
+
+  @override
+  String get log_shelf_life_label => ' ساقلاش مۇددىتى：';
+
+  @override
+  String get log_storage_location_label => ' ساقلاش ئورنى：';
+
+  @override
+  String get log_barcode_label => 'باھالىق كودى:';
+
+  @override
+  String get log_notes_label => 'ئىزاھات：';
+
+  @override
+  String get log_alert_label => 'ئەۋەتىش ئاگاھلاندۇرۇشى:';
+
+  @override
+  String get log_alert_days_label => 'ئەۋەتىش ئاگاھلاندۇرۇش كۈنلىرى:';
+
+  @override
+  String get log_quantity_change_label => 'سان ئۆزگىرىشى:';
+
+  @override
+  String get log_field_changes_label => 'بايلانما مەيداننى تەھرىرلەش:';
+
+  @override
+  String get log_not_set => 'تەڭشەلمىگەن';
+
+  @override
+  String get log_empty => 'بوش';
+
+  @override
+  String get log_alert_enabled => 'ياندۇرۇش';
+
+  @override
+  String get log_alert_disabled => 'يەپ بەك';
+
+  @override
+  String get operation_logs_menu => 'ئەمەلگە ئاشۇرۇش تەرەققىيات خاتىرىسى';
+
+  @override
+  String get operation_logs_description =>
+      'ئەمەلگە ئاشۇرۇش خاتىرىسىنى كۆرۈش ۋە قايتا tikلاش';
+
+  @override
+  String operation_failed_message(String error) {
+    return '操作失败: $error';
+  }
+
+  @override
+  String get no_date => 'سانىسىز';
+
+  @override
+  String get shelf_life_months_suffix => 'ئايدار';
+
+  @override
+  String get shelf_life_days_suffix => 'تەڭرى';
+
+  @override
+  String get alert_days_suffix => 'تەڭرى';
+
+  @override
+  String get unknown => 'نامەلۇم';
+
+  @override
+  String get developer_name => 'رېئو';
+
+  @override
+  String get log_operation_date_label => 'ئىشلىتىش كېنىشى ۋاقتى:';
 }

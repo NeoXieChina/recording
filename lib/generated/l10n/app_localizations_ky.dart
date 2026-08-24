@@ -1176,4 +1176,285 @@ class AppLocalizationsKy extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Азайган $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Сакталбаган өзгөртүүлөр';
+
+  @override
+  String get unsaved_changes_message =>
+      'Сизде сакталбаган өзгөртүүлөр бар, аракетти тандаңыз:';
+
+  @override
+  String get discard => 'Баш тартуу';
+
+  @override
+  String get unit_piece => 'дана';
+
+  @override
+  String get unit_item => 'бөлүк';
+
+  @override
+  String get unit_box => 'картон куту';
+
+  @override
+  String get unit_package => 'сумка';
+
+  @override
+  String get unit_bottle => 'бак';
+
+  @override
+  String get unit_carton => 'картон куту';
+
+  @override
+  String get unit_set => 'жыйнак';
+
+  @override
+  String get unit_kg => 'кг';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'мл';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'см';
+
+  @override
+  String get quantity_label => 'сан';
+
+  @override
+  String get unit_price_label => 'бирдик баа';
+
+  @override
+  String get currency_label => 'валюта';
+
+  @override
+  String get total_price_label => 'Жалпы баа:';
+
+  @override
+  String get storage_location_label => 'Сактоо жери';
+
+  @override
+  String get item_properties => 'Элементтин өзгөчөлүктөрү';
+
+  @override
+  String get expiry_date_label => 'пайдалуу мөөнөт';
+
+  @override
+  String get warranty_expiry_date_label => 'Кепилдик мөөнөтүнүн аякташы';
+
+  @override
+  String get production_date_label => 'Иштетилген дата';
+
+  @override
+  String get purchase_date_label => 'Сатып алуу датасы';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return '$dateType жана сактоо мөөнөтүнө ылайык автоматтык эсептөө';
+  }
+
+  @override
+  String get auto_calculated => 'Автоматтык эсептөө';
+
+  @override
+  String get images_label => 'сүрөт';
+
+  @override
+  String get notes_label => 'Эскертүү';
+
+  @override
+  String get add_notes_hint => 'Комментарийлерди кошуу (милдеттүү эмес)';
+
+  @override
+  String get year_label => 'жыл';
+
+  @override
+  String get month_label => 'Ай';
+
+  @override
+  String get day_label => 'асман';
+
+  @override
+  String selected_count(int count) {
+    return '$count элемент тандалды';
+  }
+
+  @override
+  String get select_all => 'Баарын танда';
+
+  @override
+  String get deselect_all => 'Бардысын тандоодон баш тартуу';
+
+  @override
+  String get batch_change_location => 'Сактоо жерин топтук алмаштыруу';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Тандалган $count нерсени өчүрүүгө ишенсеңизби?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count буюм алып салынды';
+  }
+
+  @override
+  String get no_storage_location_available => 'Азырынча сактоо жайлары жок';
+
+  @override
+  String get batch_change_location_title => 'Сактоо жерин топтук алмаштыруу';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count товар $location жерге көчүрүлдү';
+  }
+
+  @override
+  String get operation_type_create => 'Каттоо';
+
+  @override
+  String get operation_type_update => 'Редакторлоо';
+
+  @override
+  String get operation_type_delete => 'Өчүрүү';
+
+  @override
+  String get operation_type_inbound => 'камдыкка алуу';
+
+  @override
+  String get operation_type_outbound => 'жөнөтүү';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Экспорттоо ийгиликсиз болду: $error';
+  }
+
+  @override
+  String get clear_logs => 'Журналды тазалоо';
+
+  @override
+  String get confirm_clear_logs =>
+      'Бардык операция журналдарын чогуу тазалоону каалайсызбы? Бул аракет калыбына келтирилбейт.';
+
+  @override
+  String get logs_cleared => 'Журнал тазаланды';
+
+  @override
+  String get operation_logs_title => 'Иш-аракет журнал';
+
+  @override
+  String get export_logs => 'Журналды экспорттоо';
+
+  @override
+  String get clear_logs_tooltip => 'Журналды тазалоо';
+
+  @override
+  String get no_operation_logs => 'Азырынча операция журналы жок';
+
+  @override
+  String get log_item_label => 'Эреже:';
+
+  @override
+  String get log_category_label => 'Категория:';
+
+  @override
+  String get log_type_label => 'Түрү:';
+
+  @override
+  String get log_quantity_label => 'Саны:';
+
+  @override
+  String get log_unit_price_label => 'Бирдик баасы：';
+
+  @override
+  String get log_total_price_label => 'Жалпы баа:';
+
+  @override
+  String get log_expiry_date_label => 'Мурун өтө турган күнү:';
+
+  @override
+  String get log_warranty_date_label => 'Кепилдик мөөнөтү:';
+
+  @override
+  String get log_purchase_date_label => 'Сатып алуу датасы:';
+
+  @override
+  String get log_production_date_label => 'Иштеп чыгуу күнү:';
+
+  @override
+  String get log_shelf_life_label => 'Сактоо мөөнөтү:';
+
+  @override
+  String get log_storage_location_label => 'Сактоочу жай:';
+
+  @override
+  String get log_barcode_label => 'Штрих-код:';
+
+  @override
+  String get log_notes_label => 'Эскертме:';
+
+  @override
+  String get log_alert_label => 'Эскертүү:';
+
+  @override
+  String get log_alert_days_label => 'Эскертме күндөрү：';
+
+  @override
+  String get log_quantity_change_label => 'Сан өзгөрүшү:';
+
+  @override
+  String get log_field_changes_label => 'Майданды өзгөртүү:';
+
+  @override
+  String get log_not_set => 'Орнотулган эмес';
+
+  @override
+  String get log_empty => 'бош';
+
+  @override
+  String get log_alert_enabled => 'ачуу';
+
+  @override
+  String get log_alert_disabled => 'Өчүрүү';
+
+  @override
+  String get operation_logs_menu => 'Иш-аракет журнал';
+
+  @override
+  String get operation_logs_description =>
+      'Иштөө жазууларын көрүү жана калыбына келтирүү';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Иштөө ишке болбой калды: $error';
+  }
+
+  @override
+  String get no_date => 'Дата жок';
+
+  @override
+  String get shelf_life_months_suffix => 'ай';
+
+  @override
+  String get shelf_life_days_suffix => 'асман';
+
+  @override
+  String get alert_days_suffix => 'асман';
+
+  @override
+  String get unknown => 'Белгисиз';
+
+  @override
+  String get developer_name => 'Лео';
+
+  @override
+  String get log_operation_date_label => 'Иштөө күнү:';
 }

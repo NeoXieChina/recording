@@ -1688,5 +1688,395 @@
   "enter_category_name": "Zəhmət olmasa kateqoriya adını daxil edin",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Qeydə alınmamış dəyişikliklər",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Sizin qeyd olunmamış dəyişiklikləriniz var, zəhmət olmasa əməliyyatı seçin:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "Tərk etmək",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "şəxs",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "şey",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "qutu",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "çanta",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "şüşə",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "qutu",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "dəbirqə",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kq",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "sm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "miqdar",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Vahiddə qiymət",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Valyuta",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Ümumi qiymət:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Saxlama yeri",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Məhsul xüsusiyyətləri",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "etibarlılıq müddəti",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Zəmanət bitmə tarixi",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "İstehsal tarixi",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Alış tarixi",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "_{dateType}_ və saxlama müddətinə əsasən avtomatik hesablayın",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Avtomatik hesablanma",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "şəkil",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Qeyd",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Qeyd əlavə et (istəyə bağlı)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "il",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "Ay",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "göy",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} element seçildi",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Hamısını seç",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Bütün seçimləri ləğv et",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Anbar yerlərinin kütləvi dəyişdirilməsi",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Seçilmiş {count} əşyanı silmək istədiyinizə əminsiniz?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} ədəd əşya silindi",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Mövcud saxlama yeri yoxdur",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Anbar yerlərinin kütləvi dəyişdirilməsi",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} maddə {location} yerə köçürülüb",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Daxil etmək",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Redaktə et",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Silmək",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Anbara daxil etmək",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Anbar çıxışı",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "İxrac uğursuz oldu: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Jurnalı təmizlə",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Bütün əməliyyat qeydlərini silmək istədiyinizə əminsiniz? Bu əməliyyat geri qaytarıla bilməz.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Günlük boşaldıldı",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Əməliyyat jurnalı",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Jurnalı ixrac et",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Jurnalı təmizlə",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Hələ əməliyyat qeydləri yoxdur",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Məhsul:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Kateqoriya:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Növ:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Miqdar:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Vahid qiymət:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Ümumi qiymət:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Son istifadə tarixi:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Zəmanət tarixi:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Alış tarixi:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "İstehsal tarixi:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Saxlama müddəti:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Yaddaş yeri:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Barkod:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Qeyd:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Xəbərdarlıq:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Erkən xəbərdarlıq günləri:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Miqdar dəyişikliyi:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Sahəni redaktə edin:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Təyin edilməyib",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "boş",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Açmaq",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Yaxın",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Əməliyyat jurnalı",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Əməliyyat qeydlərini yoxlayın və bərpa edin",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Əməliyyat uğursuz oldu: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Tarixsiz",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "ay",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "göy",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "göy",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Naməlum",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Reyо",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Əməliyyat tarixi:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

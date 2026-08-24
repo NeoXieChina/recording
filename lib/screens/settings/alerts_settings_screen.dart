@@ -448,9 +448,10 @@ class _AlertsSettingsScreenState extends State<AlertsSettingsScreen> {
                                 }
                               } catch (e) {
                                 if (context.mounted) {
+                                  final l10n = AppLocalizations.of(context);
                                   ScaffoldMessenger.of(context).showSnackBar(
                                     SnackBar(
-                                      content: Text('操作失败: $e'),
+                                      content: Text(l10n.operation_failed_message(e.toString())),
                                       duration: const Duration(seconds: 2),
                                     ),
                                   );

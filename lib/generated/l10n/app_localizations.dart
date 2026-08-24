@@ -2176,6 +2176,534 @@ abstract class AppLocalizations {
   /// In zh, this message translates to:
   /// **'已减少 {itemName} {quantity}{unit}'**
   String item_decreased(String itemName, String quantity, String unit);
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'未保存的更改'**
+  String get unsaved_changes;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'您有未保存的更改，请选择操作：'**
+  String get unsaved_changes_message;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'放弃'**
+  String get discard;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'个'**
+  String get unit_piece;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'件'**
+  String get unit_item;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'箱'**
+  String get unit_box;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'包'**
+  String get unit_package;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'瓶'**
+  String get unit_bottle;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'盒'**
+  String get unit_carton;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'套'**
+  String get unit_set;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'kg'**
+  String get unit_kg;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'g'**
+  String get unit_g;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'L'**
+  String get unit_l;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'ml'**
+  String get unit_ml;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'m'**
+  String get unit_m;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'cm'**
+  String get unit_cm;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'数量'**
+  String get quantity_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'单价'**
+  String get unit_price_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'货币'**
+  String get currency_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'总价：'**
+  String get total_price_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'存储地点'**
+  String get storage_location_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'物品属性'**
+  String get item_properties;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'有效期'**
+  String get expiry_date_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'保修到期日'**
+  String get warranty_expiry_date_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'生产日期'**
+  String get production_date_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'购买日期'**
+  String get purchase_date_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'根据{dateType}和保质期自动计算'**
+  String auto_calculated_from(String dateType);
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'自动计算'**
+  String get auto_calculated;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'图片'**
+  String get images_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'备注'**
+  String get notes_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'添加备注信息（选填）'**
+  String get add_notes_hint;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'年'**
+  String get year_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'月'**
+  String get month_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'天'**
+  String get day_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'已选择 {count} 项'**
+  String selected_count(int count);
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'全选'**
+  String get select_all;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'取消全选'**
+  String get deselect_all;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'批量调换存储地点'**
+  String get batch_change_location;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'确定删除选中的 {count} 个物品吗？'**
+  String confirm_delete_selected(int count);
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'已删除 {count} 个物品'**
+  String deleted_count_items(int count);
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'暂无存储地点可选'**
+  String get no_storage_location_available;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'批量调换存储地点'**
+  String get batch_change_location_title;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'已将 {count} 个物品移动到 {location}'**
+  String moved_count_items_to_location(int count, String location);
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'录入'**
+  String get operation_type_create;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'编辑'**
+  String get operation_type_update;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'删除'**
+  String get operation_type_delete;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'入库'**
+  String get operation_type_inbound;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'出库'**
+  String get operation_type_outbound;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'导出失败：{error}'**
+  String export_failed_message(String error);
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'清空日志'**
+  String get clear_logs;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'确定要清空所有操作日志吗？此操作不可恢复。'**
+  String get confirm_clear_logs;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'日志已清空'**
+  String get logs_cleared;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'操作日志'**
+  String get operation_logs_title;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'导出日志'**
+  String get export_logs;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'清空日志'**
+  String get clear_logs_tooltip;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'暂无操作日志'**
+  String get no_operation_logs;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'物品：'**
+  String get log_item_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'分类：'**
+  String get log_category_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'类型：'**
+  String get log_type_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'数量：'**
+  String get log_quantity_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'单价：'**
+  String get log_unit_price_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'总价：'**
+  String get log_total_price_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'过期日期：'**
+  String get log_expiry_date_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'保修日期：'**
+  String get log_warranty_date_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'购买日期：'**
+  String get log_purchase_date_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'生产日期：'**
+  String get log_production_date_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'保质期：'**
+  String get log_shelf_life_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'存储地点：'**
+  String get log_storage_location_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'条码：'**
+  String get log_barcode_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'备注：'**
+  String get log_notes_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'预警：'**
+  String get log_alert_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'预警天数：'**
+  String get log_alert_days_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'数量变化：'**
+  String get log_quantity_change_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'修改字段：'**
+  String get log_field_changes_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'未设置'**
+  String get log_not_set;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'空'**
+  String get log_empty;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'开启'**
+  String get log_alert_enabled;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'关闭'**
+  String get log_alert_disabled;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'操作日志'**
+  String get operation_logs_menu;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'查看和恢复操作记录'**
+  String get operation_logs_description;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'操作失败：{error}'**
+  String operation_failed_message(String error);
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'无日期'**
+  String get no_date;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'个月'**
+  String get shelf_life_months_suffix;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'天'**
+  String get shelf_life_days_suffix;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'天'**
+  String get alert_days_suffix;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'未知'**
+  String get unknown;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'雷欧'**
+  String get developer_name;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'操作日期：'**
+  String get log_operation_date_label;
 }
 
 class _AppLocalizationsDelegate

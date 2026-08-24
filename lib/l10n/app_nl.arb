@@ -1688,5 +1688,395 @@
   "enter_category_name": "Voer de categorienaam in",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Niet-opgeslagen wijzigingen",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "U heeft niet-opgeslagen wijzigingen, kies alstublieft een actie:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "opgeven",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "stuk",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "stuk",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "doos",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "tas",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "fles",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "doos",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "set",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "hoeveelheid",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Stuksprijs",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Valuta",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Totale prijs:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Opslaglocatie",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Itemeigenschappen",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Geldigheidsduur",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Garantie vervaldatum",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Productiedatum",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Aankoopdatum",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Automatisch berekenen op basis van {dateType} en houdbaarheidsdatum",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Automatisch berekenen",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "afbeelding",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Opmerking",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Opmerkingen toevoegen (optioneel)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "jaar",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "maan",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "hemel",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} items geselecteerd",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Alles selecteren",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Alles de-selecteren",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Batchwissel van opslaglocatie",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Weet u zeker dat u de geselecteerde {count} items wilt verwijderen?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} items verwijderd",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Er zijn momenteel geen opslaglocaties beschikbaar",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Batchwissel van opslaglocatie",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} items zijn verplaatst naar {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "invoeren",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Bewerken",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Verwijderen",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "In voorraad opnemen",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Uit voorraad",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Export mislukt: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Logboek wissen",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Weet u zeker dat u alle activiteitslogboeken wilt wissen? Deze actie kan niet ongedaan worden gemaakt.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Logboek is geleegd",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Activiteitenlog",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Log exporteren",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Logboek wissen",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Geen bedieningslogboek",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Item:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Categorie:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Type:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Aantal:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Eenheidsprijs:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Totale prijs:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Vervaldatum:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Garantieperiode:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Aankoopdatum:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Productiedatum:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Houdbaarheidsdatum:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Opslaglocatie:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Streepjescode:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Opmerking:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Waarschuwing:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Waarschuwing dagen:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Veranderingen in hoeveelheid:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Veld bewerken:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Niet ingesteld",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "leeg",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Openen",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Sluiten",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Activiteitenlog",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Bekijk en herstel bewerkingsgeschiedenis",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Operatie mislukt: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Datumloos",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "maanden",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "hemel",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "hemel",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "onbekend",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Verwerkingsdatum:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

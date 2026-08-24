@@ -1688,5 +1688,395 @@
   "enter_category_name": "Санат атауын енгізіңіз",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Сақталмаған өзгерістер",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Сізде сақталмаған өзгертулер бар, әрекетті таңдаңыз:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "бас тартады",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "дана",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "дана",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "қорап",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "сеуiл",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "лақпа",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "қорап",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "топтама",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "кг",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "мл",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "см",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "саны",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "бірлік бағасы",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "ақша",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Жалпы баға:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "сақтау орны",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "тауар қасиеттері",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "жарамдылық мерзімі",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Кепілдік мерзімінің аяқталу күні",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Өндіру күні",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Сатып алу күні",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "{dateType} және сақтау мерзіміне сәйкес автоматты есептеу",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Автоматты есептеу",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "сурет",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Ескертпе",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Ескертпе ақпарат қосу (міндетті емес)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "жыл",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "Ай",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "күн",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Таңдалған {count} элемент",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Барлығын таңдау",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Барлығын таңдауды болдырмау",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Сақтау орнын жаппай ауыстыру",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Таңдалған {count} затты өшіргіңіз келе ме?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} зат жойылды",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Сақтау орны әлі таңдалмаған",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Сақтау орнын жаппай ауыстыру",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} зат {location} орнына шығарылды",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "енгізу",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Өңдеу",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Өшіру",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Қоймаға қабылдау",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Шығару қоймадан",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Экспорт сәтсіз аяқталды: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Журналды тазалау",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Барлық операция журналдарын тазартқыңыз келе ме? Бұл әрекетті қалпына келтіру мүмкін емес.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Журнал тазаланды",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Операциялық журнал",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Журналды экспорттау",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Журналды тазалау",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Әзірге операция журналы жоқ",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Зат:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Санат:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Түрі:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Саны：",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Бірлік бағасы:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Жалпы баға:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Жарамдылық мерзімі:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Кепілдік мерзімі:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Сатып алынған күні:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Өндіріс күні：",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Сақтау мерзімі:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Сақтау орны:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Штрих-код:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Ескертпе:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Ескерту:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Ескерту күні:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Санының өзгеруі:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Өрісті өзгерту:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Орнатылмаған",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "бос",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Ашу",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Өшіру",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Операция журналы",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Операция жазбаларын қарау және қалпына келтіру",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Операция сәтсіз аяқталды: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Күні жоқ",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "ай",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "аспан",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "күн",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Белгісіз",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Лео",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Операция күні:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

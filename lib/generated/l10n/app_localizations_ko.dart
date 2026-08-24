@@ -1138,4 +1138,282 @@ class AppLocalizationsKo extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return '$itemName $quantity$unit가 이미 감소했습니다';
   }
+
+  @override
+  String get unsaved_changes => '저장되지 않은 변경 사항';
+
+  @override
+  String get unsaved_changes_message => '저장되지 않은 변경 사항이 있습니다. 작업을 선택하십시오:';
+
+  @override
+  String get discard => '포기하다';
+
+  @override
+  String get unit_piece => '개';
+
+  @override
+  String get unit_item => '건';
+
+  @override
+  String get unit_box => '상자';
+
+  @override
+  String get unit_package => '가방';
+
+  @override
+  String get unit_bottle => '병';
+
+  @override
+  String get unit_carton => '상자';
+
+  @override
+  String get unit_set => '세트';
+
+  @override
+  String get unit_kg => '킬로그램';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => '밀리리터';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => '센티미터';
+
+  @override
+  String get quantity_label => '수량';
+
+  @override
+  String get unit_price_label => '단가';
+
+  @override
+  String get currency_label => '화폐';
+
+  @override
+  String get total_price_label => '총액:';
+
+  @override
+  String get storage_location_label => '저장 장소';
+
+  @override
+  String get item_properties => '물품 속성';
+
+  @override
+  String get expiry_date_label => '유효 기간';
+
+  @override
+  String get warranty_expiry_date_label => '보증 만료일';
+
+  @override
+  String get production_date_label => '생산 날짜';
+
+  @override
+  String get purchase_date_label => '구매 날짜';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return '$dateType와 유통기한에 따라 자동으로 계산';
+  }
+
+  @override
+  String get auto_calculated => '자동 계산';
+
+  @override
+  String get images_label => '사진';
+
+  @override
+  String get notes_label => '비고';
+
+  @override
+  String get add_notes_hint => '메모 정보 추가(선택사항)';
+
+  @override
+  String get year_label => '년';
+
+  @override
+  String get month_label => '달';
+
+  @override
+  String get day_label => '하늘';
+
+  @override
+  String selected_count(int count) {
+    return '$count개 항목이 선택되었습니다';
+  }
+
+  @override
+  String get select_all => '전체 선택';
+
+  @override
+  String get deselect_all => '전체 선택 취소';
+
+  @override
+  String get batch_change_location => '저장 위치 일괄 변경';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return '선택한 $count개 항목을 삭제하시겠습니까?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count개의 항목이 삭제되었습니다';
+  }
+
+  @override
+  String get no_storage_location_available => '저장 위치를 선택할 수 없습니다';
+
+  @override
+  String get batch_change_location_title => '저장 위치 일괄 변경';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count개의 아이템이 $location로 이동되었습니다';
+  }
+
+  @override
+  String get operation_type_create => '입력';
+
+  @override
+  String get operation_type_update => '편집';
+
+  @override
+  String get operation_type_delete => '삭제';
+
+  @override
+  String get operation_type_inbound => '입고';
+
+  @override
+  String get operation_type_outbound => '출고';
+
+  @override
+  String export_failed_message(String error) {
+    return '내보내기 실패: $error';
+  }
+
+  @override
+  String get clear_logs => '로그 지우기';
+
+  @override
+  String get confirm_clear_logs => '모든 작업 로그를 정말로 지우시겠습니까? 이 작업은 복구할 수 없습니다.';
+
+  @override
+  String get logs_cleared => '로그가 비워졌습니다';
+
+  @override
+  String get operation_logs_title => '작업 로그';
+
+  @override
+  String get export_logs => '로그 내보내기';
+
+  @override
+  String get clear_logs_tooltip => '로그 지우기';
+
+  @override
+  String get no_operation_logs => '일시적으로 작업 로그가 없습니다';
+
+  @override
+  String get log_item_label => '물품:';
+
+  @override
+  String get log_category_label => '분류:';
+
+  @override
+  String get log_type_label => '유형:';
+
+  @override
+  String get log_quantity_label => '수량：';
+
+  @override
+  String get log_unit_price_label => '단가:';
+
+  @override
+  String get log_total_price_label => '총액:';
+
+  @override
+  String get log_expiry_date_label => '유통기한:';
+
+  @override
+  String get log_warranty_date_label => '보증 기간:';
+
+  @override
+  String get log_purchase_date_label => '구매 날짜:';
+
+  @override
+  String get log_production_date_label => '제조일자：';
+
+  @override
+  String get log_shelf_life_label => '유통기한:';
+
+  @override
+  String get log_storage_location_label => '저장 위치:';
+
+  @override
+  String get log_barcode_label => '바코드:';
+
+  @override
+  String get log_notes_label => '비고:';
+
+  @override
+  String get log_alert_label => '경보:';
+
+  @override
+  String get log_alert_days_label => '예보 일수:';
+
+  @override
+  String get log_quantity_change_label => '수량 변화:';
+
+  @override
+  String get log_field_changes_label => '필드 수정:';
+
+  @override
+  String get log_not_set => '설정되지 않음';
+
+  @override
+  String get log_empty => '비어 있음';
+
+  @override
+  String get log_alert_enabled => '열다';
+
+  @override
+  String get log_alert_disabled => '닫기';
+
+  @override
+  String get operation_logs_menu => '작업 로그';
+
+  @override
+  String get operation_logs_description => '작업 기록 보기 및 복원';
+
+  @override
+  String operation_failed_message(String error) {
+    return '작업 실패: $error';
+  }
+
+  @override
+  String get no_date => '무일자';
+
+  @override
+  String get shelf_life_months_suffix => '개월';
+
+  @override
+  String get shelf_life_days_suffix => '하늘';
+
+  @override
+  String get alert_days_suffix => '하늘';
+
+  @override
+  String get unknown => '미지';
+
+  @override
+  String get developer_name => '레오';
+
+  @override
+  String get log_operation_date_label => '조작 날짜:';
 }

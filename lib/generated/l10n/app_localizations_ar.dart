@@ -1169,4 +1169,284 @@ class AppLocalizationsAr extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'تم تقليل $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'تغييرات غير محفوظة';
+
+  @override
+  String get unsaved_changes_message =>
+      'لديك تغييرات لم تُحفظ، يرجى اختيار الإجراء:';
+
+  @override
+  String get discard => 'تخلى';
+
+  @override
+  String get unit_piece => 'واحد';
+
+  @override
+  String get unit_item => 'قطعة';
+
+  @override
+  String get unit_box => 'صندوق';
+
+  @override
+  String get unit_package => 'حقيبة';
+
+  @override
+  String get unit_bottle => 'زجاجة';
+
+  @override
+  String get unit_carton => 'صندوق';
+
+  @override
+  String get unit_set => 'مجموعة';
+
+  @override
+  String get unit_kg => 'كغ';
+
+  @override
+  String get unit_g => 'ج';
+
+  @override
+  String get unit_l => 'ل';
+
+  @override
+  String get unit_ml => 'مل';
+
+  @override
+  String get unit_m => 'م';
+
+  @override
+  String get unit_cm => 'سم';
+
+  @override
+  String get quantity_label => 'الكمية';
+
+  @override
+  String get unit_price_label => 'سعر الوحدة';
+
+  @override
+  String get currency_label => 'عملة';
+
+  @override
+  String get total_price_label => 'السعر الإجمالي:';
+
+  @override
+  String get storage_location_label => 'مكان التخزين';
+
+  @override
+  String get item_properties => 'خصائص العنصر';
+
+  @override
+  String get expiry_date_label => 'صلاحية';
+
+  @override
+  String get warranty_expiry_date_label => 'تاريخ انتهاء الضمان';
+
+  @override
+  String get production_date_label => 'تاريخ الإنتاج';
+
+  @override
+  String get purchase_date_label => 'تاريخ الشراء';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'حسب $dateType وفترة الصلاحية يتم الحساب تلقائيًا';
+  }
+
+  @override
+  String get auto_calculated => 'الحساب التلقائي';
+
+  @override
+  String get images_label => 'صورة';
+
+  @override
+  String get notes_label => 'ملاحظات';
+
+  @override
+  String get add_notes_hint => 'إضافة معلومات ملاحظة (اختياري)';
+
+  @override
+  String get year_label => 'سنة';
+
+  @override
+  String get month_label => 'قمر';
+
+  @override
+  String get day_label => 'سماء';
+
+  @override
+  String selected_count(int count) {
+    return 'تم اختيار $count عنصر';
+  }
+
+  @override
+  String get select_all => 'تحديد الكل';
+
+  @override
+  String get deselect_all => 'إلغاء تحديد الكل';
+
+  @override
+  String get batch_change_location => 'تبديل مواقع التخزين بالجملة';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'هل أنت متأكد من حذف $count عنصرًا محددًا؟';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'تم حذف $count عنصر';
+  }
+
+  @override
+  String get no_storage_location_available => 'لا توجد مواقع تخزين متاحة';
+
+  @override
+  String get batch_change_location_title => 'تبديل مواقع التخزين بالجملة';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'تم نقل $count عنصر إلى $location';
+  }
+
+  @override
+  String get operation_type_create => 'إدخال';
+
+  @override
+  String get operation_type_update => 'تحرير';
+
+  @override
+  String get operation_type_delete => 'حذف';
+
+  @override
+  String get operation_type_inbound => 'إدخال المخزون';
+
+  @override
+  String get operation_type_outbound => 'خروج المخزون';
+
+  @override
+  String export_failed_message(String error) {
+    return 'فشل التصدير: $error';
+  }
+
+  @override
+  String get clear_logs => 'مسح السجل';
+
+  @override
+  String get confirm_clear_logs =>
+      'هل أنت متأكد أنك تريد مسح جميع سجلات العمليات؟ هذا الإجراء لا يمكن التراجع عنه.';
+
+  @override
+  String get logs_cleared => 'تم مسح السجل';
+
+  @override
+  String get operation_logs_title => 'سجل العمليات';
+
+  @override
+  String get export_logs => 'تصدير السجل';
+
+  @override
+  String get clear_logs_tooltip => 'مسح السجل';
+
+  @override
+  String get no_operation_logs => 'لا توجد سجلات عمليات حالياً';
+
+  @override
+  String get log_item_label => 'البند:';
+
+  @override
+  String get log_category_label => 'التصنيف:';
+
+  @override
+  String get log_type_label => 'النوع：';
+
+  @override
+  String get log_quantity_label => 'الكمية:';
+
+  @override
+  String get log_unit_price_label => 'السعر الفردي:';
+
+  @override
+  String get log_total_price_label => 'السعر الإجمالي:';
+
+  @override
+  String get log_expiry_date_label => 'تاريخ الانتهاء:';
+
+  @override
+  String get log_warranty_date_label => 'تاريخ الضمان:';
+
+  @override
+  String get log_purchase_date_label => 'تاريخ الشراء:';
+
+  @override
+  String get log_production_date_label => 'تاريخ الإنتاج:';
+
+  @override
+  String get log_shelf_life_label => 'تاريخ الصلاحية:';
+
+  @override
+  String get log_storage_location_label => 'مكان التخزين:';
+
+  @override
+  String get log_barcode_label => 'الرمز الشريطي:';
+
+  @override
+  String get log_notes_label => 'ملاحظة:';
+
+  @override
+  String get log_alert_label => 'إنذار مبكر:';
+
+  @override
+  String get log_alert_days_label => 'أيام التحذير المسبق:';
+
+  @override
+  String get log_quantity_change_label => 'تغير الكمية:';
+
+  @override
+  String get log_field_changes_label => 'تعديل الحقل:';
+
+  @override
+  String get log_not_set => 'لم يتم الإعداد';
+
+  @override
+  String get log_empty => 'فارغ';
+
+  @override
+  String get log_alert_enabled => 'فتح';
+
+  @override
+  String get log_alert_disabled => 'إغلاق';
+
+  @override
+  String get operation_logs_menu => 'سجل العمليات';
+
+  @override
+  String get operation_logs_description => 'عرض واستعادة سجل العمليات';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'فشل العملية: $error';
+  }
+
+  @override
+  String get no_date => 'بدون تاريخ';
+
+  @override
+  String get shelf_life_months_suffix => 'شهر';
+
+  @override
+  String get shelf_life_days_suffix => 'سماء';
+
+  @override
+  String get alert_days_suffix => 'سماء';
+
+  @override
+  String get unknown => 'مجهول';
+
+  @override
+  String get developer_name => 'ليو';
+
+  @override
+  String get log_operation_date_label => 'تاريخ العملية:';
 }

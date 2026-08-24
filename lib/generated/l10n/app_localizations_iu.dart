@@ -1169,4 +1169,284 @@ class AppLocalizationsIu extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'ᒥᒃᖠᕚᓪᓕᖅᓯᒪᕗᖅ $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'ᑐᖅᑯᖅᑕᐅᓯᒪᙱᑦᑐᑦ ᐊᓯᔾᔨᖅᑐᑦ';
+
+  @override
+  String get unsaved_changes_message =>
+      'ᐊᓯᙳᖅᑎᓯᒪᙱᑕᕐᓂᒃ ᐱᑕᖃᕈᕕᑦ, ᓂᕈᐊᕐᓗᑎᑦ ᖃᓄᐃᓕᐅᕈᑎᒃᓴᒥᒃ:';
+
+  @override
+  String get discard => 'ᓴᐱᓕᕐᓂᖅ';
+
+  @override
+  String get unit_piece => 'ᐃᓚᖓ';
+
+  @override
+  String get unit_item => 'ᐃᓚᖓ';
+
+  @override
+  String get unit_box => 'ᑎᑎᖅᑲᒃᑯᕕᐊ';
+
+  @override
+  String get unit_package => 'ᐴᖅ';
+
+  @override
+  String get unit_bottle => 'ᐊᓕᒍᖅ';
+
+  @override
+  String get unit_carton => 'ᑎᑎᖅᑲᒃᑯᕕᐊ';
+
+  @override
+  String get unit_set => 'ᑲᑎᙵᔪᑦ';
+
+  @override
+  String get unit_kg => 'ᑭᓗᒍᕌᒻ';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'ᓴᓐᑕᒦᑕ';
+
+  @override
+  String get quantity_label => 'ᖃᔅᓯᐅᓂᖏᑦ';
+
+  @override
+  String get unit_price_label => 'ᐊᑕᐅᓯᖅ ᐊᑭᖓ';
+
+  @override
+  String get currency_label => 'ᑮᓇᐅᔭᖅ';
+
+  @override
+  String get total_price_label => 'ᑲᑎᖦᖢᒋᑦ ᐊᑭᖏᑦ:';
+
+  @override
+  String get storage_location_label => 'ᓯᕐᓗᐊᖃᕐᕕᐅᑉ ᐃᓂᖓ';
+
+  @override
+  String get item_properties => 'ᐱᖁᑎᐅᑉ ᖃᓄᐃᑦᑑᓂᖏᑦ';
+
+  @override
+  String get expiry_date_label => 'ᐊᑐᕈᓐᓇᕐᓂᖓ ᐊᑯᓂᐅᑎᒋᓂᖓ';
+
+  @override
+  String get warranty_expiry_date_label => 'ᐊᓯᔾᔨᖅᑕᐅᔪᓐᓇᕈᑖ ᐃᓱᓕᕝᕕᒃᓴᖓᑕ ᐅᓪᓗᖓ';
+
+  @override
+  String get production_date_label => 'ᓴᓇᔭᐅᓂᖓᑕ ᐅᓪᓗᖓ';
+
+  @override
+  String get purchase_date_label => 'ᓂᐅᕕᖅᑕᐅᓂᖓᑕ ᐅᓪᓗᖓ';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'ᓈᓴᐅᓯᕆᑲᐅᑎᒋᓂᖅ ᑐᙵᕕᖃᖅᑎᑕᐅᓪᓗᓂ $dateType ᐊᑯᓂᐅᑎᒋᔪᓐᓇᕐᓂᖓᓗ';
+  }
+
+  @override
+  String get auto_calculated => 'ᓈᓴᐅᓯᕆᑲᐅᑎᒋᓂᖅ';
+
+  @override
+  String get images_label => 'ᐊᔾᔨᙳᐊᖅ';
+
+  @override
+  String get notes_label => 'ᐅᖃᐅᓯᒃᓴᑦ';
+
+  @override
+  String get add_notes_hint => 'ᐅᖃᐅᓯᒃᓴᑦ ᐃᓚᓗᒋᑦ (ᐃᓱᒪᖅᓲᑕᐅᔪᖅ)';
+
+  @override
+  String get year_label => 'ᐊᕐᕌᒍ';
+
+  @override
+  String get month_label => 'ᑕᖅᑭᖅ';
+
+  @override
+  String get day_label => 'ᓯᓚ';
+
+  @override
+  String selected_count(int count) {
+    return '$count ᓂᕈᐊᖅᑕᐅᔪᑦ';
+  }
+
+  @override
+  String get select_all => 'ᓂᕈᐊᖅᑕᐃᓐᓇᕆᓗᒋᑦ';
+
+  @override
+  String get deselect_all => 'ᓂᕈᐊᖅᑕᐃᓐᓇᕆᓗᒋᑦ';
+
+  @override
+  String get batch_change_location => 'ᑲᑎᙵᔪᑦ ᑕᐅᖅᓰᓂᕐᒧᑦ ᑐᖅᑯᐃᕝᕖᑦ';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'ᐲᖅᓯᔪᒪᓪᓚᑦᑖᖅᐲᑦ ᓂᕈᐊᖅᑕᕐᓂᒃ $count ᐱᖁᑎᓂᒃ?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count ᐲᖅᑕᐅᓯᒪᔫᒃ';
+  }
+
+  @override
+  String get no_storage_location_available => 'ᓯᕐᓗᐊᖃᙱᑦᑐᖅ';
+
+  @override
+  String get batch_change_location_title => 'ᑲᑎᙵᔪᑦ ᑕᐅᖅᓰᓂᕐᒧᑦ ᑐᖅᑯᐃᕝᕖᑦ';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count ᓅᑕᐅᓯᒪᓕᖅᑐᑦ $location';
+  }
+
+  @override
+  String get operation_type_create => 'ᐃᓯᕆᑦ';
+
+  @override
+  String get operation_type_update => 'ᐋᖅᑭᒋᐊᕐᓗᒍ';
+
+  @override
+  String get operation_type_delete => 'ᐲᕐᓗᒍ';
+
+  @override
+  String get operation_type_inbound => 'ᓯᕐᓗᐊᖅ ᐃᓯᕐᕕᒃ';
+
+  @override
+  String get operation_type_outbound => 'ᐊᐅᓪᓚᖅᐸᓪᓕᐊᔪᑦ';
+
+  @override
+  String export_failed_message(String error) {
+    return 'ᐊᐅᓪᓚᖅᑎᑦᑎᔪᓐᓇᓚᐅᙱᑦᑐᑦ: $error';
+  }
+
+  @override
+  String get clear_logs => 'ᑎᑎᕋᖅᐸᓪᓕᐊᔪᑦ ᐲᔭᕐᓗᒋᑦ';
+
+  @override
+  String get confirm_clear_logs =>
+      'ᖃᐅᔨᒪᑦᑎᐊᖅᐲᑦ ᐲᖅᓯᔪᒪᖕᒪᖔᖅᐱᑦ ᑕᒪᐃᓐᓂᑦᑎᐊᖅ ᐊᐅᓚᑦᑎᓂᕐᒧᑦ ᑎᑎᕋᖅᓯᒪᔪᓂᒃ? ᑕᒪᓐᓇ ᐱᓕᕆᓂᐅᔪᖅ ᓄᖅᑲᖅᑎᑕᐅᔪᓐᓇᙱᓚᖅ.';
+
+  @override
+  String get logs_cleared => 'ᑎᑎᕋᕐᓯᒪᔪᑦ ᐲᔭᖅᑕᐅᓯᒪᓕᕐᑐᑦ';
+
+  @override
+  String get operation_logs_title => 'ᐊᐅᓚᓂᐅᔪᓄᑦ ᑎᑎᕋᕐᕕᒃ';
+
+  @override
+  String get export_logs => 'ᐊᐅᓪᓚᖅᑎᑦᑎᕙᖕᓂᕐᒧᑦ ᑎᑎᕋᕐᕕᒃ';
+
+  @override
+  String get clear_logs_tooltip => 'ᑎᑎᕋᖅᐸᓪᓕᐊᔪᑦ ᐲᔭᕐᓗᒋᑦ';
+
+  @override
+  String get no_operation_logs => 'ᐊᐅᓚᓂᕐᒧᑦ ᑎᑎᕋᖅᓯᒪᔪᓂᒃ ᐊᑐᐃᓐᓇᖅᑕᖃᙱᑦᑐᖅ';
+
+  @override
+  String get log_item_label => 'ᑭᓲᓂᖓ:';
+
+  @override
+  String get log_category_label => 'ᖃᓄᐃᑦᑑᓂᖓ:';
+
+  @override
+  String get log_type_label => 'ᖃᓄᐃᑦᑑᓂᖓ:';
+
+  @override
+  String get log_quantity_label => 'ᖃᔅᓯᐅᓂᖏᑦ:';
+
+  @override
+  String get log_unit_price_label => 'ᐊᑕᐅᓯᖅ ᐊᑭᖓ:';
+
+  @override
+  String get log_total_price_label => 'ᑲᑎᖦᖢᒋᑦ ᐊᑭᖏᑦ:';
+
+  @override
+  String get log_expiry_date_label => 'ᐃᓱᓕᕝᕕᒃᓴᖓᑕ ᐅᓪᓗᐊ:';
+
+  @override
+  String get log_warranty_date_label => 'ᐊᓯᔾᔨᖅᑕᐅᔪᓐᓇᕈᑖᑕ ᐅᓪᓗᖓ:';
+
+  @override
+  String get log_purchase_date_label => 'ᓂᐅᕕᖅᑕᐅᓂᖓᑕ ᐅᓪᓗᖓ:';
+
+  @override
+  String get log_production_date_label => 'ᓴᓇᔭᐅᓂᖓᑕ ᐅᓪᓗᖓ:';
+
+  @override
+  String get log_shelf_life_label => 'ᖃᓄᖅ ᐊᑯᓂᐅᑎᒋᔪᖅ ᐃᓕᔭᐅᓯᒪᔪᓐᓇᕐᓂᖓ:';
+
+  @override
+  String get log_storage_location_label => 'ᓯᕐᓗᐊᖃᕐᕕᐅᑉ ᐃᓂᖓ:';
+
+  @override
+  String get log_barcode_label => 'ᓇᓗᓇᐃᒃᑯᑖ:';
+
+  @override
+  String get log_notes_label => 'ᖃᐅᔨᒪᔭᕆᐊᓕᒃ:';
+
+  @override
+  String get log_alert_label => 'ᐅᔾᔨᕆᔭᐅᓕ:';
+
+  @override
+  String get log_alert_days_label => 'ᐅᔾᔨᖅᓱᖁᔨᓂᕐᒧᑦ ᐅᓪᓗᐃᑦ:';
+
+  @override
+  String get log_quantity_change_label => 'ᖃᔅᓯᐅᓂᖏᑦ ᐊᓯᔾᔨᖅᑐᑦ:';
+
+  @override
+  String get log_field_changes_label => 'ᐊᓯᔾᔨᕐᓗᒍ ᐃᓂᖓ:';
+
+  @override
+  String get log_not_set => 'ᐋᖅᑭᒃᑕᐅᓯᒪᙱᑦᑐᖅ';
+
+  @override
+  String get log_empty => 'ᐃᓗᓕᖃᙱᑦᑐᖅ';
+
+  @override
+  String get log_alert_enabled => 'ᐃᑭᓪᓗᒍ';
+
+  @override
+  String get log_alert_disabled => 'ᖃᓂᑦᑐᖅ';
+
+  @override
+  String get operation_logs_menu => 'ᐊᐅᓚᓂᐅᔪᓄᑦ ᑎᑎᕋᕐᕕᒃ';
+
+  @override
+  String get operation_logs_description => 'ᕿᒥᕐᕈᓗᒋᑦ ᐅᑎᖅᑎᓪᓗᒋᓪᓗ ᐊᐅᓚᓂᕐᒧᑦ ᑎᑎᖅᑲᑦ';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'ᐊᐅᓚᓂᖓ ᑲᔪᓯᓚᐅᙱᑦᑐᖅ: $error';
+  }
+
+  @override
+  String get no_date => 'ᐅᓪᓗᓕᖅᓯᒪᙱᑦᑐᖅ';
+
+  @override
+  String get shelf_life_months_suffix => 'ᑕᖅᑭᖅ(ᖏᑦ)';
+
+  @override
+  String get shelf_life_days_suffix => 'ᓯᓚ';
+
+  @override
+  String get alert_days_suffix => 'ᓯᓚ';
+
+  @override
+  String get unknown => 'ᖃᐅᔨᒪᔭᐅᖏᑦᑐᖅ';
+
+  @override
+  String get developer_name => 'ᓕᐅ';
+
+  @override
+  String get log_operation_date_label => 'ᐊᐅᓚᑕᐅᓂᖓᑕ ᐅᓪᓗᖓ:';
 }

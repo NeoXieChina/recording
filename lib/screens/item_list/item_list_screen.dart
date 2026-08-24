@@ -64,12 +64,13 @@ class _ItemListScreenState extends State<ItemListScreen> {
     TextStyle? textStyle, {
     bool showIcon = true,
   }) {
+    final l10n = AppLocalizations.of(context);
     if (_isSelectionMode) {
       return Row(
         children: [
           Expanded(
             child: Text(
-              '已选择 ${_selectedItemIds.length} 项',
+              l10n.selected_count(_selectedItemIds.length),
               style: textStyle,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
@@ -79,7 +80,6 @@ class _ItemListScreenState extends State<ItemListScreen> {
       );
     }
 
-    final l10n = AppLocalizations.of(context);
     final location = provider.filterLocation;
     final type = provider.filterType;
     final category = provider.filterCategory;
@@ -228,21 +228,25 @@ class _ItemListScreenState extends State<ItemListScreen> {
                 ? [
                     Consumer<ItemListProvider>(
                       builder: (context, provider, _) {
+                        final l10n = AppLocalizations.of(context);
                         return IconButton(
                           icon: _selectedItemIds.length < provider.items.length
                               ? const Icon(Icons.select_all)
                               : const Icon(Icons.deselect),
                           onPressed: _toggleSelectAll,
-                          tooltip: _selectedItemIds.length < provider.items.length
-                              ? '全选'
-                              : '取消全选',
+                          tooltip:
+                              _selectedItemIds.length < provider.items.length
+                              ? l10n.select_all
+                              : l10n.deselect_all,
                         );
                       },
                     ),
                     IconButton(
                       icon: const Icon(Icons.location_on),
-                      onPressed: _selectedItemIds.isEmpty ? null : _batchChangeLocation,
-                      tooltip: '批量调换存储地点',
+                      onPressed: _selectedItemIds.isEmpty
+                          ? null
+                          : _batchChangeLocation,
+                      tooltip: l10n.batch_change_location,
                     ),
                     IconButton(
                       icon: const Icon(Icons.delete),
@@ -304,7 +308,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   Icon(
                                     Icons.sort_by_alpha,
                                     size: 20,
-                                    color: provider.sortField == 'name' &&
+                                    color:
+                                        provider.sortField == 'name' &&
                                             provider.sortAscending
                                         ? Theme.of(context).colorScheme.primary
                                         : null,
@@ -316,8 +321,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                     Icon(
                                       Icons.check,
                                       size: 16,
-                                      color:
-                                          Theme.of(context).colorScheme.primary,
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.primary,
                                     ),
                                 ],
                               ),
@@ -329,7 +335,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   Icon(
                                     Icons.sort_by_alpha,
                                     size: 20,
-                                    color: provider.sortField == 'name' &&
+                                    color:
+                                        provider.sortField == 'name' &&
                                             !provider.sortAscending
                                         ? Theme.of(context).colorScheme.primary
                                         : null,
@@ -341,8 +348,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                     Icon(
                                       Icons.check,
                                       size: 16,
-                                      color:
-                                          Theme.of(context).colorScheme.primary,
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.primary,
                                     ),
                                 ],
                               ),
@@ -355,7 +363,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   Icon(
                                     Icons.calendar_today,
                                     size: 20,
-                                    color: provider.sortField == 'date' &&
+                                    color:
+                                        provider.sortField == 'date' &&
                                             provider.sortAscending
                                         ? Theme.of(context).colorScheme.primary
                                         : null,
@@ -367,8 +376,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                     Icon(
                                       Icons.check,
                                       size: 16,
-                                      color:
-                                          Theme.of(context).colorScheme.primary,
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.primary,
                                     ),
                                 ],
                               ),
@@ -380,7 +390,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   Icon(
                                     Icons.calendar_today,
                                     size: 20,
-                                    color: provider.sortField == 'date' &&
+                                    color:
+                                        provider.sortField == 'date' &&
                                             !provider.sortAscending
                                         ? Theme.of(context).colorScheme.primary
                                         : null,
@@ -392,8 +403,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                     Icon(
                                       Icons.check,
                                       size: 16,
-                                      color:
-                                          Theme.of(context).colorScheme.primary,
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.primary,
                                     ),
                                 ],
                               ),
@@ -406,7 +418,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   Icon(
                                     Icons.attach_money,
                                     size: 20,
-                                    color: provider.sortField == 'price' &&
+                                    color:
+                                        provider.sortField == 'price' &&
                                             provider.sortAscending
                                         ? Theme.of(context).colorScheme.primary
                                         : null,
@@ -418,8 +431,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                     Icon(
                                       Icons.check,
                                       size: 16,
-                                      color:
-                                          Theme.of(context).colorScheme.primary,
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.primary,
                                     ),
                                 ],
                               ),
@@ -431,7 +445,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   Icon(
                                     Icons.attach_money,
                                     size: 20,
-                                    color: provider.sortField == 'price' &&
+                                    color:
+                                        provider.sortField == 'price' &&
                                             !provider.sortAscending
                                         ? Theme.of(context).colorScheme.primary
                                         : null,
@@ -443,8 +458,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                     Icon(
                                       Icons.check,
                                       size: 16,
-                                      color:
-                                          Theme.of(context).colorScheme.primary,
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.primary,
                                     ),
                                 ],
                               ),
@@ -456,7 +472,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   Icon(
                                     Icons.format_list_numbered,
                                     size: 20,
-                                    color: provider.sortField == 'quantity' &&
+                                    color:
+                                        provider.sortField == 'quantity' &&
                                             provider.sortAscending
                                         ? Theme.of(context).colorScheme.primary
                                         : null,
@@ -468,8 +485,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                     Icon(
                                       Icons.check,
                                       size: 16,
-                                      color:
-                                          Theme.of(context).colorScheme.primary,
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.primary,
                                     ),
                                 ],
                               ),
@@ -481,7 +499,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   Icon(
                                     Icons.format_list_numbered,
                                     size: 20,
-                                    color: provider.sortField == 'quantity' &&
+                                    color:
+                                        provider.sortField == 'quantity' &&
                                             !provider.sortAscending
                                         ? Theme.of(context).colorScheme.primary
                                         : null,
@@ -493,8 +512,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                     Icon(
                                       Icons.check,
                                       size: 16,
-                                      color:
-                                          Theme.of(context).colorScheme.primary,
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.primary,
                                     ),
                                 ],
                               ),
@@ -506,7 +526,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   Icon(
                                     Icons.money,
                                     size: 20,
-                                    color: provider.sortField == 'totalPrice' &&
+                                    color:
+                                        provider.sortField == 'totalPrice' &&
                                             provider.sortAscending
                                         ? Theme.of(context).colorScheme.primary
                                         : null,
@@ -518,8 +539,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                     Icon(
                                       Icons.check,
                                       size: 16,
-                                      color:
-                                          Theme.of(context).colorScheme.primary,
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.primary,
                                     ),
                                 ],
                               ),
@@ -531,7 +553,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                   Icon(
                                     Icons.money,
                                     size: 20,
-                                    color: provider.sortField == 'totalPrice' &&
+                                    color:
+                                        provider.sortField == 'totalPrice' &&
                                             !provider.sortAscending
                                         ? Theme.of(context).colorScheme.primary
                                         : null,
@@ -543,8 +566,9 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                     Icon(
                                       Icons.check,
                                       size: 16,
-                                      color:
-                                          Theme.of(context).colorScheme.primary,
+                                      color: Theme.of(
+                                        context,
+                                      ).colorScheme.primary,
                                     ),
                                 ],
                               ),
@@ -592,12 +616,14 @@ class _ItemListScreenState extends State<ItemListScreen> {
                     ),
                     IconButton(
                       icon: const Icon(Icons.settings),
-                      onPressed: widget.onSettingsRequested ??
+                      onPressed:
+                          widget.onSettingsRequested ??
                           () => Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (_) => const SettingsScreen()),
-                              ),
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => const SettingsScreen(),
+                            ),
+                          ),
                     ),
                   ],
           ),
@@ -731,10 +757,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
             side: isSelected || isMultiSelected
-                ? BorderSide(
-                    color: cs.primary,
-                    width: 2,
-                  )
+                ? BorderSide(color: cs.primary, width: 2)
                 : BorderSide.none,
           ),
           color: isSelected || isMultiSelected ? cs.primaryContainer : null,
@@ -1042,12 +1065,12 @@ class _ItemListScreenState extends State<ItemListScreen> {
             onPressed: () => Navigator.pop(ctx),
             child: Text(l10n.cancel),
           ),
-            FilledButton(
-              onPressed: () {
-                Navigator.pop(ctx);
-                provider.deleteItem(item.id);
-                widget.onItemDeleted?.call(item.id);
-              },
+          FilledButton(
+            onPressed: () {
+              Navigator.pop(ctx);
+              provider.deleteItem(item.id);
+              widget.onItemDeleted?.call(item.id);
+            },
             style: FilledButton.styleFrom(
               backgroundColor: Theme.of(context).colorScheme.error,
             ),
@@ -1802,10 +1825,10 @@ class _ItemListScreenState extends State<ItemListScreen> {
         ),
       );
 
-    if (operation == null) {
-      // 用户取消，返回
-      return;
-    }
+      if (operation == null) {
+        // 用户取消，返回
+        return;
+      }
 
       if (!mounted) return;
       // 询问数量
@@ -1965,7 +1988,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
       context: context,
       builder: (ctx) => AlertDialog(
         title: Text(l10n.confirm_delete),
-        content: Text('确定删除选中的 ${_selectedItemIds.length} 个物品吗？'),
+        content: Text(l10n.confirm_delete_selected(_selectedItemIds.length)),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx),
@@ -1982,7 +2005,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
               if (mounted) {
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
-                    content: Text('已删除 $count 个物品'),
+                    content: Text(l10n.deleted_count_items(count)),
                     duration: const Duration(seconds: 2),
                   ),
                 );
@@ -2006,53 +2029,73 @@ class _ItemListScreenState extends State<ItemListScreen> {
     if (locations.isEmpty) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('暂无存储地点可选'),
-            duration: Duration(seconds: 2),
+          SnackBar(
+            content: Text(l10n.no_storage_location_available),
+            duration: const Duration(seconds: 2),
           ),
         );
       }
       return;
     }
 
+    final selectedLocationNotifier = ValueNotifier<String?>(null);
     showDialog(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text('批量调换存储地点'),
-        content: SizedBox(
-          width: double.maxFinite,
-          child: ListView.builder(
-            shrinkWrap: true,
-            itemCount: locations.length,
-            itemBuilder: (context, index) {
-              final location = locations[index];
-              return ListTile(
-                title: Text(location),
-                onTap: () {
-                  Navigator.pop(ctx);
-                  final count = _selectedItemIds.length;
-                  for (final itemId in _selectedItemIds) {
-                    final item = provider.items.firstWhere((i) => i.id == itemId);
-                    provider.updateItem(item.copyWith(storageLocation: location));
-                  }
-                  _exitSelectionMode();
-                  if (mounted) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text('已将 $count 个物品移动到 $location'),
-                        duration: const Duration(seconds: 2),
-                      ),
-                    );
-                  }
-                },
-              );
-            },
-          ),
+        title: Text(l10n.batch_change_location_title),
+        content: ValueListenableBuilder(
+          valueListenable: selectedLocationNotifier,
+          builder: (context, value, child) {
+            return Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                ...locations.map(
+                  (location) => RadioListTile<String>.adaptive(
+                    title: Text(location),
+                    value: location,
+                  ),
+                ),
+              ],
+            );
+          },
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx),
             child: Text(l10n.cancel),
+          ),
+          FilledButton(
+            onPressed: selectedLocationNotifier.value == null
+                ? null
+                : () {
+                    Navigator.pop(ctx);
+                    final count = _selectedItemIds.length;
+                    for (final itemId in _selectedItemIds) {
+                      final item = provider.items.firstWhere(
+                        (i) => i.id == itemId,
+                      );
+                      provider.updateItem(
+                        item.copyWith(
+                          storageLocation: selectedLocationNotifier.value,
+                        ),
+                      );
+                    }
+                    _exitSelectionMode();
+                    if (mounted) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text(
+                            l10n.moved_count_items_to_location(
+                              count,
+                              selectedLocationNotifier.value!,
+                            ),
+                          ),
+                          duration: const Duration(seconds: 2),
+                        ),
+                      );
+                    }
+                  },
+            child: Text(l10n.confirm),
           ),
         ],
       ),

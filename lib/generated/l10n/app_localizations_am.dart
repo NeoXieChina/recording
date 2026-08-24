@@ -1159,4 +1159,284 @@ class AppLocalizationsAm extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'ቀንሷል $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'ያልተቀመጡ ለውጦች';
+
+  @override
+  String get unsaved_changes_message =>
+      'ያልተቀመጡ ለውጦች አሉዎት፣ እባክዎ አንድ እርምጃ ይምረጡ -';
+
+  @override
+  String get discard => 'ተስፋ መቁረጥ';
+
+  @override
+  String get unit_piece => 'ቁራጭ';
+
+  @override
+  String get unit_item => 'ንጥል';
+
+  @override
+  String get unit_box => 'ሣጥን';
+
+  @override
+  String get unit_package => 'ቦርሳ';
+
+  @override
+  String get unit_bottle => 'ጠርሙስ';
+
+  @override
+  String get unit_carton => 'ሳጥን';
+
+  @override
+  String get unit_set => 'ስብስብ';
+
+  @override
+  String get unit_kg => 'ኪ.ግ';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ሚሊ';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'ሴሜ';
+
+  @override
+  String get quantity_label => 'ብዛት';
+
+  @override
+  String get unit_price_label => 'የክፍል ዋጋ';
+
+  @override
+  String get currency_label => 'ምንዛሪ';
+
+  @override
+  String get total_price_label => 'ጠቅላላ ዋጋ';
+
+  @override
+  String get storage_location_label => 'የማከማቻ ቦታ';
+
+  @override
+  String get item_properties => 'የንጥል ባህሪዎች';
+
+  @override
+  String get expiry_date_label => 'ተቀባይነት ያለው ጊዜ';
+
+  @override
+  String get warranty_expiry_date_label => 'የዋስትና ማብቂያ ቀን';
+
+  @override
+  String get production_date_label => 'የተመረተበት ቀን';
+
+  @override
+  String get purchase_date_label => 'የግዢ ቀን';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'በ $dateType እና በመደርደሪያ ሕይወት ላይ በመመስረት በራስ-ሰር ያሰሉ';
+  }
+
+  @override
+  String get auto_calculated => 'ራስ-ሰር ስሌት';
+
+  @override
+  String get images_label => 'ስዕል';
+
+  @override
+  String get notes_label => 'ማስታወሻዎች';
+
+  @override
+  String get add_notes_hint => 'አስተያየቶችን ያክሉ (አማራጭ)';
+
+  @override
+  String get year_label => 'አመት';
+
+  @override
+  String get month_label => 'ጨረቃ';
+
+  @override
+  String get day_label => 'ሰማይ';
+
+  @override
+  String selected_count(int count) {
+    return '$count ዕቃዎች ተመርጠዋል';
+  }
+
+  @override
+  String get select_all => 'ሁሉንም ይምረጡ';
+
+  @override
+  String get deselect_all => 'ሁሉንም አይምረጡ';
+
+  @override
+  String get batch_change_location => 'ባች ስዋፕ ማከማቻ ቦታዎች';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'እርግጠኛ ነዎት የተመረጡትን $count ንጥሎች መሰረዝ ይፈልጋሉ?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count እቃዎች ተሰርዘዋል';
+  }
+
+  @override
+  String get no_storage_location_available => 'ምንም የማከማቻ ቦታ የለም';
+
+  @override
+  String get batch_change_location_title => 'ባች ስዋፕ ማከማቻ ቦታዎች';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count እቃዎች ወደ $location ተወስደዋል';
+  }
+
+  @override
+  String get operation_type_create => 'አስገባ';
+
+  @override
+  String get operation_type_update => 'ያርትዑ';
+
+  @override
+  String get operation_type_delete => 'ማጥፊያ';
+
+  @override
+  String get operation_type_inbound => 'የማከማቻ ግቤት';
+
+  @override
+  String get operation_type_outbound => 'የወጪ';
+
+  @override
+  String export_failed_message(String error) {
+    return 'መላክ አልተሳካም $error';
+  }
+
+  @override
+  String get clear_logs => 'ምዝግብ ማስታወሻዎችን አጽዳ';
+
+  @override
+  String get confirm_clear_logs =>
+      'እርግጠኛ ነዎት ሁሉንም የክወና ምዝግብ ማስታወሻዎች ማጽዳት ይፈልጋሉ? ይህ እርምጃ ሊቀለበስ አይችልም።';
+
+  @override
+  String get logs_cleared => 'ምዝግብ ማስታወሻው ተጠርጓል';
+
+  @override
+  String get operation_logs_title => 'የክወና ምዝግብ ማስታወሻ';
+
+  @override
+  String get export_logs => 'ምዝግብ ማስታወሻ ወደ ውጪ ላክ';
+
+  @override
+  String get clear_logs_tooltip => 'ምዝግብ ማስታወሻዎችን አጽዳ';
+
+  @override
+  String get no_operation_logs => 'ምንም የክወና ምዝግብ ማስታወሻዎች የሉም';
+
+  @override
+  String get log_item_label => 'ንጥል';
+
+  @override
+  String get log_category_label => 'ምድብ';
+
+  @override
+  String get log_type_label => 'ዓይነት';
+
+  @override
+  String get log_quantity_label => 'ብዛት';
+
+  @override
+  String get log_unit_price_label => 'የአሃድ ዋጋ';
+
+  @override
+  String get log_total_price_label => 'ጠቅላላ ዋጋ';
+
+  @override
+  String get log_expiry_date_label => 'የሚያበቃበት ቀን';
+
+  @override
+  String get log_warranty_date_label => 'የዋስትና ቀን';
+
+  @override
+  String get log_purchase_date_label => 'የግዢ ቀን';
+
+  @override
+  String get log_production_date_label => 'የተመረተበት ቀን';
+
+  @override
+  String get log_shelf_life_label => 'የመደርደሪያ ሕይወት';
+
+  @override
+  String get log_storage_location_label => 'የማከማቻ ቦታ';
+
+  @override
+  String get log_barcode_label => 'የአሞሌ ኮድ';
+
+  @override
+  String get log_notes_label => 'ማስታወሻ';
+
+  @override
+  String get log_alert_label => 'ማስጠንቀቂያ';
+
+  @override
+  String get log_alert_days_label => 'የማስጠንቀቂያ ቀናት';
+
+  @override
+  String get log_quantity_change_label => 'የቁጥር ለውጥ';
+
+  @override
+  String get log_field_changes_label => 'ሜዳውን አሻሽል';
+
+  @override
+  String get log_not_set => 'አልተዘጋጀም';
+
+  @override
+  String get log_empty => 'ባዶ';
+
+  @override
+  String get log_alert_enabled => 'አብራ';
+
+  @override
+  String get log_alert_disabled => 'ይዝጉ';
+
+  @override
+  String get operation_logs_menu => 'የክወና ምዝግብ ማስታወሻ';
+
+  @override
+  String get operation_logs_description => 'የክወና መዝገቦችን ይመልከቱ እና ወደነበሩበት ይመልሱ';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'ክዋኔ አልተሳካም $error';
+  }
+
+  @override
+  String get no_date => 'ቀን የለም';
+
+  @override
+  String get shelf_life_months_suffix => 'ወር';
+
+  @override
+  String get shelf_life_days_suffix => 'ሰማይ';
+
+  @override
+  String get alert_days_suffix => 'ሰማይ';
+
+  @override
+  String get unknown => 'ያልታወቀ';
+
+  @override
+  String get developer_name => 'አንበሳ';
+
+  @override
+  String get log_operation_date_label => 'የክወና ቀን';
 }

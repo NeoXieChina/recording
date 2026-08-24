@@ -1173,4 +1173,288 @@ class AppLocalizationsCy extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Wedi lleihau $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Newidiadau heb eu cadw';
+
+  @override
+  String get unsaved_changes_message =>
+      'Mae gennych newidiadau heb eu cadw, dewiswch weithred:';
+
+  @override
+  String get discard => 'Gadael i fyny';
+
+  @override
+  String get unit_piece => 'un';
+
+  @override
+  String get unit_item => 'darn';
+
+  @override
+  String get unit_box => 'blwch';
+
+  @override
+  String get unit_package => 'pecyn';
+
+  @override
+  String get unit_bottle => 'potel';
+
+  @override
+  String get unit_carton => 'blwch';
+
+  @override
+  String get unit_set => 'set';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'maint';
+
+  @override
+  String get unit_price_label => 'Uned pris';
+
+  @override
+  String get currency_label => 'Arian';
+
+  @override
+  String get total_price_label => 'Cyfanswm y pris:';
+
+  @override
+  String get storage_location_label => 'Lle storio';
+
+  @override
+  String get item_properties => 'Eiddo eitem';
+
+  @override
+  String get expiry_date_label => 'Dibynadwyedd amser';
+
+  @override
+  String get warranty_expiry_date_label => 'Dyddiad dod i ben gwarant';
+
+  @override
+  String get production_date_label => 'Dyddiad cynhyrchu';
+
+  @override
+  String get purchase_date_label => 'Dyddiad Prynu';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Cyfrifo\'n awtomatig yn ôl $dateType a\'r dyddiad dod i ben';
+  }
+
+  @override
+  String get auto_calculated => 'Cyfrifo\'n awtomatig';
+
+  @override
+  String get images_label => 'llun';
+
+  @override
+  String get notes_label => 'Sylw';
+
+  @override
+  String get add_notes_hint => 'Ychwanegu nodyn (dewisol)';
+
+  @override
+  String get year_label => 'blwyddyn';
+
+  @override
+  String get month_label => 'mis';
+
+  @override
+  String get day_label => 'Nefoedd';
+
+  @override
+  String selected_count(int count) {
+    return 'Wedi dewis $count eitem';
+  }
+
+  @override
+  String get select_all => 'Dewis Popeth';
+
+  @override
+  String get deselect_all => 'Diddymu dewis popeth';
+
+  @override
+  String get batch_change_location =>
+      'Trosglwyddo lleoliadau storio yn nôl swmp';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Ydych chi\'n siŵr eich bod am ddileu\'r $count eitemau a ddewiswyd?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Wedi dileu $count eitem';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Dim lle storio ar gael ar hyn o bryd';
+
+  @override
+  String get batch_change_location_title =>
+      'Trosglwyddo lleoliadau storio yn nôl swmp';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'Wedi symud $count eitem i $location';
+  }
+
+  @override
+  String get operation_type_create => 'Cofnodi';
+
+  @override
+  String get operation_type_update => 'Golygu';
+
+  @override
+  String get operation_type_delete => 'Dileu';
+
+  @override
+  String get operation_type_inbound => 'Mewnbynnu i stoc';
+
+  @override
+  String get operation_type_outbound => 'All allan o\'r warws';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Methu allforio: $error';
+  }
+
+  @override
+  String get clear_logs => 'Clirio\'r log';
+
+  @override
+  String get confirm_clear_logs =>
+      'Ydych chi\'n siŵr eich bod eisiau dileu\'r holl logiau gweithredu? Ni ellir adfer y weithred hon.';
+
+  @override
+  String get logs_cleared => 'Mae\'r dyddiadur wedi\'i glirio';
+
+  @override
+  String get operation_logs_title => 'Log gweithrediadau';
+
+  @override
+  String get export_logs => 'Allforio logiau';
+
+  @override
+  String get clear_logs_tooltip => 'Clirio\'r log';
+
+  @override
+  String get no_operation_logs => 'Dim log gweithrediadau ar hyn o bryd';
+
+  @override
+  String get log_item_label => 'Eitem:';
+
+  @override
+  String get log_category_label => 'Categori:';
+
+  @override
+  String get log_type_label => 'Math:';
+
+  @override
+  String get log_quantity_label => 'Nifer:';
+
+  @override
+  String get log_unit_price_label => 'Uned pris:';
+
+  @override
+  String get log_total_price_label => 'Cyfanswm y pris:';
+
+  @override
+  String get log_expiry_date_label => 'Dyddiad dod i ben:';
+
+  @override
+  String get log_warranty_date_label => 'Dyddiad gwarant:';
+
+  @override
+  String get log_purchase_date_label => 'Dyddiad Prynu:';
+
+  @override
+  String get log_production_date_label => 'Dyddiad cynhyrchu:';
+
+  @override
+  String get log_shelf_life_label => 'Dyddiad dod i ben:';
+
+  @override
+  String get log_storage_location_label => 'Lle storio:';
+
+  @override
+  String get log_barcode_label => 'Cod bar:';
+
+  @override
+  String get log_notes_label => 'Sylw:';
+
+  @override
+  String get log_alert_label => 'Rhybudd Cynnar:';
+
+  @override
+  String get log_alert_days_label => 'Dyddiau Rhybudd';
+
+  @override
+  String get log_quantity_change_label => 'Newidyn Nifer:';
+
+  @override
+  String get log_field_changes_label => 'Diweddaru maes:';
+
+  @override
+  String get log_not_set => 'Heb ei osod';
+
+  @override
+  String get log_empty => 'gwag';
+
+  @override
+  String get log_alert_enabled => 'Agor';
+
+  @override
+  String get log_alert_disabled => 'Cau';
+
+  @override
+  String get operation_logs_menu => 'Log gweithrediadau';
+
+  @override
+  String get operation_logs_description =>
+      'Gweld ac adfer cofnodion gweithrediadau';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Gwall gweithredu: $error';
+  }
+
+  @override
+  String get no_date => 'Di ddyddiad';
+
+  @override
+  String get shelf_life_months_suffix => 'mis';
+
+  @override
+  String get shelf_life_days_suffix => 'Nefoedd';
+
+  @override
+  String get alert_days_suffix => 'Nefoedd';
+
+  @override
+  String get unknown => 'Anhysbys';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Dyddiad gweithredu:';
 }

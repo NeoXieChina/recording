@@ -1189,4 +1189,288 @@ class AppLocalizationsCa extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'S\'ha reduït $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Canvis no desats';
+
+  @override
+  String get unsaved_changes_message =>
+      'Teniu canvis no desats, si us plau, trieu una acció:';
+
+  @override
+  String get discard => 'renunciar';
+
+  @override
+  String get unit_piece => 'qüestió';
+
+  @override
+  String get unit_item => 'qüestió';
+
+  @override
+  String get unit_box => 'caixa';
+
+  @override
+  String get unit_package => 'paquet';
+
+  @override
+  String get unit_bottle => 'ampolla';
+
+  @override
+  String get unit_carton => 'caixa';
+
+  @override
+  String get unit_set => 'conjunt';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'quantitat';
+
+  @override
+  String get unit_price_label => 'preu unitari';
+
+  @override
+  String get currency_label => 'moneda';
+
+  @override
+  String get total_price_label => 'Preu total:';
+
+  @override
+  String get storage_location_label => 'Lloc d\'emmagatzematge';
+
+  @override
+  String get item_properties => 'Atributs de l\'objecte';
+
+  @override
+  String get expiry_date_label => 'Període de validesa';
+
+  @override
+  String get warranty_expiry_date_label => 'Data de venciment de la garantia';
+
+  @override
+  String get production_date_label => 'Data de producció';
+
+  @override
+  String get purchase_date_label => 'Data de compra';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Calculeu automàticament segons $dateType i el termini de validesa';
+  }
+
+  @override
+  String get auto_calculated => 'Càlcul automàtic';
+
+  @override
+  String get images_label => 'imatge';
+
+  @override
+  String get notes_label => 'Nota';
+
+  @override
+  String get add_notes_hint => 'Afegeix informació addicional (opcional)';
+
+  @override
+  String get year_label => 'any';
+
+  @override
+  String get month_label => 'lluna';
+
+  @override
+  String get day_label => 'cel';
+
+  @override
+  String selected_count(int count) {
+    return 'S\'han seleccionat $count elements';
+  }
+
+  @override
+  String get select_all => 'Selecciona-ho tot';
+
+  @override
+  String get deselect_all => 'Desmarcar tot';
+
+  @override
+  String get batch_change_location =>
+      'Canviar massivement el lloc d\'emmagatzematge';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Estàs segur que vols eliminar els $count elements seleccionats?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'S\'han eliminat $count articles';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Encara no hi ha cap lloc d\'emmagatzematge disponible';
+
+  @override
+  String get batch_change_location_title =>
+      'Canvi massiu de lloc d\'emmagatzematge';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'S\'han mogut $count articles a $location';
+  }
+
+  @override
+  String get operation_type_create => 'Introduir';
+
+  @override
+  String get operation_type_update => 'Editar';
+
+  @override
+  String get operation_type_delete => 'Eliminar';
+
+  @override
+  String get operation_type_inbound => 'Emmagatzemat';
+
+  @override
+  String get operation_type_outbound => 'Sortida d\'emmagatzematge';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Exportació fallida: $error';
+  }
+
+  @override
+  String get clear_logs => 'Esborrar el registre';
+
+  @override
+  String get confirm_clear_logs =>
+      'Estàs segur de voler esborrar tots els registres d\'operacions? Aquesta acció és irreversible.';
+
+  @override
+  String get logs_cleared => 'El registre s\'ha esborrat';
+
+  @override
+  String get operation_logs_title => 'Registre d\'operacions';
+
+  @override
+  String get export_logs => 'Exportar registre';
+
+  @override
+  String get clear_logs_tooltip => 'Esborrar el registre';
+
+  @override
+  String get no_operation_logs => 'Encara no hi ha registre d\'operacions';
+
+  @override
+  String get log_item_label => 'Article:';
+
+  @override
+  String get log_category_label => 'Categoria:';
+
+  @override
+  String get log_type_label => 'Tipus:';
+
+  @override
+  String get log_quantity_label => 'Quantitat:';
+
+  @override
+  String get log_unit_price_label => 'Preu unitari:';
+
+  @override
+  String get log_total_price_label => 'Preu total:';
+
+  @override
+  String get log_expiry_date_label => 'Data de caducitat:';
+
+  @override
+  String get log_warranty_date_label => 'Data de garantia:';
+
+  @override
+  String get log_purchase_date_label => 'Data de compra:';
+
+  @override
+  String get log_production_date_label => 'Data de producció:';
+
+  @override
+  String get log_shelf_life_label => 'Data de caducitat:';
+
+  @override
+  String get log_storage_location_label => 'Lloc d\'emmagatzematge:';
+
+  @override
+  String get log_barcode_label => 'Codi de barres:';
+
+  @override
+  String get log_notes_label => 'Nota:';
+
+  @override
+  String get log_alert_label => 'Avís anticipat:';
+
+  @override
+  String get log_alert_days_label => 'Dies d\'alerta:';
+
+  @override
+  String get log_quantity_change_label => 'Canvi de quantitat:';
+
+  @override
+  String get log_field_changes_label => 'Modifica el camp:';
+
+  @override
+  String get log_not_set => 'No establert';
+
+  @override
+  String get log_empty => 'buït';
+
+  @override
+  String get log_alert_enabled => 'Obrir';
+
+  @override
+  String get log_alert_disabled => 'Tancar';
+
+  @override
+  String get operation_logs_menu => 'Registre d\'operacions';
+
+  @override
+  String get operation_logs_description =>
+      'Veure i restaurar els registres d\'operació';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Operació fallida: $error';
+  }
+
+  @override
+  String get no_date => 'Sense data';
+
+  @override
+  String get shelf_life_months_suffix => 'mesos';
+
+  @override
+  String get shelf_life_days_suffix => 'cel';
+
+  @override
+  String get alert_days_suffix => 'cel';
+
+  @override
+  String get unknown => 'Desconegut';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Data d\'operació:';
 }

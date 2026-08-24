@@ -1173,4 +1173,285 @@ class AppLocalizationsHt extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Te redwi $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Chanjman ki pa sove';
+
+  @override
+  String get unsaved_changes_message =>
+      'Ou gen chanjman ki pa sove, tanpri chwazi yon aksyon:';
+
+  @override
+  String get discard => 'Bay vag';
+
+  @override
+  String get unit_piece => 'yon';
+
+  @override
+  String get unit_item => 'moso';
+
+  @override
+  String get unit_box => 'bwat';
+
+  @override
+  String get unit_package => 'sak';
+
+  @override
+  String get unit_bottle => 'bòtl';
+
+  @override
+  String get unit_carton => 'bwat';
+
+  @override
+  String get unit_set => 'sèt';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'kantite';
+
+  @override
+  String get unit_price_label => 'Pri inite';
+
+  @override
+  String get currency_label => 'Lajan';
+
+  @override
+  String get total_price_label => 'Pri total:';
+
+  @override
+  String get storage_location_label => 'Kote depo';
+
+  @override
+  String get item_properties => 'Pwopriyete atik';
+
+  @override
+  String get expiry_date_label => 'Dat ekspirasyon';
+
+  @override
+  String get warranty_expiry_date_label => 'Dat ekspirasyon garanti';
+
+  @override
+  String get production_date_label => 'Dat pwodiksyon';
+
+  @override
+  String get purchase_date_label => 'Dat acha';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Kalkile otomatikman selon $dateType ak dat ekspirasyon';
+  }
+
+  @override
+  String get auto_calculated => 'Kalkil otomatik';
+
+  @override
+  String get images_label => 'Imaj';
+
+  @override
+  String get notes_label => 'Remak';
+
+  @override
+  String get add_notes_hint => 'Ajoute enfòmasyon kòmantè (opsyonèl)';
+
+  @override
+  String get year_label => 'ane';
+
+  @override
+  String get month_label => 'lalin';
+
+  @override
+  String get day_label => 'syèl';
+
+  @override
+  String selected_count(int count) {
+    return 'Ou te chwazi $count atik';
+  }
+
+  @override
+  String get select_all => 'Chwazi tout';
+
+  @override
+  String get deselect_all => 'Anile seleksyon tout';
+
+  @override
+  String get batch_change_location => 'Chanje kote depo an pakèt';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Èske ou sèten ou vle efase $count atik yo chwazi a?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '_${count}_ atik efase';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Pa gen okenn kote depo ki disponib kounye a';
+
+  @override
+  String get batch_change_location_title => 'Chanje kote depo an an gwo';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count atik te deplase nan $location';
+  }
+
+  @override
+  String get operation_type_create => 'Antre done';
+
+  @override
+  String get operation_type_update => 'Edit';
+
+  @override
+  String get operation_type_delete => 'Efase';
+
+  @override
+  String get operation_type_inbound => 'Antre nan depo';
+
+  @override
+  String get operation_type_outbound => 'Soti nan depo';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Echèk ekspòtasyon: $error';
+  }
+
+  @override
+  String get clear_logs => 'Efase jounal la';
+
+  @override
+  String get confirm_clear_logs =>
+      'Èske ou sèten ou vle efase tout dosye operasyon yo? Aksyon sa a pa ka refè.';
+
+  @override
+  String get logs_cleared => 'Jounal la te efase';
+
+  @override
+  String get operation_logs_title => 'Jounal operasyon';
+
+  @override
+  String get export_logs => 'Ekspòte jounal';
+
+  @override
+  String get clear_logs_tooltip => 'Efase jounal la';
+
+  @override
+  String get no_operation_logs => 'Pa gen okenn jounal operasyon pou kounye a';
+
+  @override
+  String get log_item_label => 'Atik:';
+
+  @override
+  String get log_category_label => 'Kategori :';
+
+  @override
+  String get log_type_label => 'Kalite:';
+
+  @override
+  String get log_quantity_label => 'Kantite:';
+
+  @override
+  String get log_unit_price_label => 'Pri inite:';
+
+  @override
+  String get log_total_price_label => 'Pri total:';
+
+  @override
+  String get log_expiry_date_label => 'Dat ekspirasyon :';
+
+  @override
+  String get log_warranty_date_label => 'Dat garanti:';
+
+  @override
+  String get log_purchase_date_label => 'Dat acha:';
+
+  @override
+  String get log_production_date_label => 'Dat pwodiksyon:';
+
+  @override
+  String get log_shelf_life_label => 'Dat ekspirasyon:';
+
+  @override
+  String get log_storage_location_label => 'Kote pou estoke:';
+
+  @override
+  String get log_barcode_label => 'Kòd bar';
+
+  @override
+  String get log_notes_label => 'Nòt:';
+
+  @override
+  String get log_alert_label => 'Alèt:';
+
+  @override
+  String get log_alert_days_label => 'Kantite jou avètisman:';
+
+  @override
+  String get log_quantity_change_label => 'Chanjman nan kantite:';
+
+  @override
+  String get log_field_changes_label => 'Modify chan: ';
+
+  @override
+  String get log_not_set => 'Pa mete';
+
+  @override
+  String get log_empty => 'vid';
+
+  @override
+  String get log_alert_enabled => 'Louvri';
+
+  @override
+  String get log_alert_disabled => 'Fèmen';
+
+  @override
+  String get operation_logs_menu => 'Jounal operasyon';
+
+  @override
+  String get operation_logs_description => 'Gade ak retabli dosye operasyon yo';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Echèk operasyon: $error';
+  }
+
+  @override
+  String get no_date => 'Pa gen dat';
+
+  @override
+  String get shelf_life_months_suffix => 'mwa';
+
+  @override
+  String get shelf_life_days_suffix => 'syèl';
+
+  @override
+  String get alert_days_suffix => 'syèl';
+
+  @override
+  String get unknown => 'Enkonu';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Dat operasyon:';
 }

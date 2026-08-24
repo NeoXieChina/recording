@@ -1688,5 +1688,395 @@
   "enter_category_name": "សូមបញ្ចូលឈ្មោះចំណាត់ថ្នាក់",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "ការផ្លាស់ប្តូរដែលមិនបានរក្សាទុក",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "អ្នកមានការផ្លាស់ប្តូរដែលមិនទាន់បានរក្សា សូមជ្រើសរើសសកម្មភាព៖",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "បោះបង",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "ក",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "ខណ្ឌ",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "ប្រអប់",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "កាបូប",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "កំប៉ុង",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "ប្រអប់",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "កំណាត់",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "គីឡូក្រាម",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "មីលីលីត្រ",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "សង់ទីម៉ែត្រ",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "ចំនួន",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "តម្លៃឯកតា",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "រូបិយប័ណ្ណ",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "តម្លៃសរុប៖",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "កន្លែងផ្ទុក",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "លក្ខណៈទំនិញ",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "អាយុកាល",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "ថ្ងៃផុតកំណត់ការធានា",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "កាលបរិច្ឆេទផលិត",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "កាលបរិច្ឆេទទិញ",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "គិតគណនាដោយស្វ័យប្រវត្តិផ្អែកលើ {dateType} និងអាយុកាលផ្ទុក",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "គណនាផ្អែកលើស្វ័យប្រវត្តិ",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "រូបភាព",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "កំណត់សម្គាល់",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "បន្ថែមព័ត៌មានកំណត់សម្គាល់ (ជាជំរើស)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "ឆ្នាំ",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "ខែ",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "មេឃ",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "បានជ្រើសរើស {count} ធាតុ",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "ជ្រើសទាំងអស់",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "លុបការជ្រើសរើសទាំងអស់",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "ប្ដូរទីតាំងផ្ទុកច្រើនក្នុងមួយដង",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "តើអ្នកចង់លុបធាតុ {count} ដែលបានជ្រើសរើសមែនទេ?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "បានលុប {count} ទំនិញ",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "មិនមានកន្លែងផ្ទុកដែលអាចជ្រើសបានទេ",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "ប្ដូរទីតាំងផ្ទុកច្រើនក្នុងមួយលើក",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "បានផ្ទេរប្រភេទទំនិញ {count} ទៅ {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "បញ្ចូល",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "កែសម្រួល",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "លុប",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "ចូលក្នុងឃ្លាំង",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "ចេញពីឃ្លាំង",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "នាំចេញបរាជ័យ: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "លុបបញ្ជីកំណត់ត្រា",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "តើអ្នកប្រាកដថាចង់លុបប្រតិបត្តិការទាំងអស់មែនទេ? ការប្រតិបត្តិនេះមិនអាចស្ដារឡើងវិញបាន។",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "កំណត់ហេតុត្រូវបានសម្អាត",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "កំណត់ហេតុប្រតិបត្តិការ",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "នាំចេញកំណត់ហេតុ",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "លុបបញ្ជីកំណត់ត្រា",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "មិនមានកំណត់ហេតុប្រតិបត្តិការណ៍ទេ",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "វត្ថុ:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "ចំណាត់ថ្នាក់៖",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "ប្រភេទ៖",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "ចំនួន៖",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "តម្លៃរាយខ្ទង់",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "តម្លៃសរុប៖",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "ថ្ងៃផុតកំណត់ៈ",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "កាលបរិច្ឆេទធានា",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "កាលបរិច្ឆេទទិញ",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "កាលបរិច្ឆេទផលិត",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "អង្សទុកថ្មីរបស់ផលិតផល:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "ទីតាំងផ្ទុក",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "លេខបារ",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "កំណត់សម្គាល់៖",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "ការព្រមាន",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "ចំនួនថ្ងៃ​ព្រមាន",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "ការផ្លាស់ប្តូរចំនួន៖",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "កែសម្រួលជួរឈរ:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "មិនបានកំណត់",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "ខ空",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "បើក",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "បិទ",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "កំណត់ហេតុប្រតិបត្ដិការ",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "ពិនិត្យនិងស្តារកំណត់ត្រាសកម្មភាព",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "ប្រតិបត្តិការបរាជ័យ: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "គ្មានកាលបរិច្ឆេទ",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "ខែ",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "មេឃ",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "មេឃ",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "មិនស្គាល់",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "លីអូ",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "កាលបរិច្ឆេទប្រតិបត្ដិការ",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

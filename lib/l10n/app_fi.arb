@@ -1688,5 +1688,395 @@
   "enter_category_name": "Anna luokan nimi",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Tallenemattomat muutokset",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Sinulla on tallentamattomia muutoksia, valitse toiminto:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "luopua",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "yksi",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "esine",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "laatikko",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "laukku",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "pullo",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "laatikko",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "sarja",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "määrä",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "yksikköhinta",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "valuutta",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Kokonaishinta:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Tallennuspaikka",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Esineen ominaisuudet",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Voimassaoloaika",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Takuu päättymispäivä",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Valmistuspäivämäärä",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Ostopäivä",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Automaattinen laskenta {dateType} ja säilyvyysajan mukaan",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Automaattinen laskenta",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "kuva",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Muistiinpano",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Lisää huomautuksia (valinnainen)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "vuosi",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "kuu",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "taivas",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "On valittu {count} kohdetta",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Valitse kaikki",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Poista kaikki valinnat",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Paikallisten tallennuspaikkojen massavaihto",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Haluatko varmasti poistaa valitut {count} kohdetta?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "On poistettu {count} kohdetta",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Ei saatavilla olevia tallennuspaikkoja",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Paikallisten tallennuspaikkojen massavaihto",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} kohdetta on siirretty {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "syöttää tietoihin",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Muokkaa",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Poista",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Varastoon vastaanotto",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Varastosta lähtö",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Vienti epäonnistui: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Tyhjennä loki",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Haluatko varmasti tyhjentää kaikki toimintalokit? Tätä toimintoa ei voi palauttaa.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Loki on tyhjennetty",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Toimintaloki",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Vie loki",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Tyhjennä loki",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Ei toimintalokia",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Esine:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Luokittelu:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Tyyppi:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Määrä:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Yksikköhinta:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Kokonaishinta:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Parasta ennen:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Takuu Päivämäärä:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Ostopäivämäärä:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Valmistuspäivä:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Säilyvyysaika:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Säilytyspaikka:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Viivakoodi:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Huomautus:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Varoitus:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Varoituspäivien määrä:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Määrän muutos:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Muokkaa kenttää:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Ei asetettu",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "tyhjä",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Avaa",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Sulje",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Toimintaloki",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Tarkastele ja palauta toimintalokit",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Toiminto epäonnistui: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Päivämäärätön",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "kuukautta",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "taivas",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "taivas",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Tuntematon",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Toimintapäivämäärä:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

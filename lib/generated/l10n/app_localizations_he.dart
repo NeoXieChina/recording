@@ -1161,4 +1161,284 @@ class AppLocalizationsHe extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'צומצם ב-$itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'שינויים שלא נשמרו';
+
+  @override
+  String get unsaved_changes_message =>
+      'יש לכם שינויים שלא נשמרו, אנא בחרו פעולה:';
+
+  @override
+  String get discard => 'ויתר';
+
+  @override
+  String get unit_piece => 'יחידה';
+
+  @override
+  String get unit_item => 'פריט';
+
+  @override
+  String get unit_box => 'קופסה';
+
+  @override
+  String get unit_package => 'תיק';
+
+  @override
+  String get unit_bottle => 'בקבוק';
+
+  @override
+  String get unit_carton => 'קופסה';
+
+  @override
+  String get unit_set => 'סט';
+
+  @override
+  String get unit_kg => 'ק\"ג';
+
+  @override
+  String get unit_g => 'ג';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'טחנה';
+
+  @override
+  String get unit_m => 'מ';
+
+  @override
+  String get unit_cm => 'סימ';
+
+  @override
+  String get quantity_label => 'כמות';
+
+  @override
+  String get unit_price_label => 'מחיר יחידה';
+
+  @override
+  String get currency_label => 'מטבע';
+
+  @override
+  String get total_price_label => 'מחיר כולל:';
+
+  @override
+  String get storage_location_label => 'מקום אחסון';
+
+  @override
+  String get item_properties => 'מאפייני פריט';
+
+  @override
+  String get expiry_date_label => 'תוקף';
+
+  @override
+  String get warranty_expiry_date_label => 'תאריך תפוגת האחריות';
+
+  @override
+  String get production_date_label => 'תאריך ייצור';
+
+  @override
+  String get purchase_date_label => 'תאריך הקנייה';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'חישוב אוטומטי בהתאם ל$dateType ולתוקף';
+  }
+
+  @override
+  String get auto_calculated => 'חישוב אוטומטי';
+
+  @override
+  String get images_label => 'תמונה';
+
+  @override
+  String get notes_label => 'הערה';
+
+  @override
+  String get add_notes_hint => 'הוסף הערות (לא חובה)';
+
+  @override
+  String get year_label => 'שנה';
+
+  @override
+  String get month_label => 'ירח';
+
+  @override
+  String get day_label => 'שמיים';
+
+  @override
+  String selected_count(int count) {
+    return 'נבחרו $count פריטים';
+  }
+
+  @override
+  String get select_all => 'בחר הכל';
+
+  @override
+  String get deselect_all => 'בטל בחירה הכול';
+
+  @override
+  String get batch_change_location => 'החלפת מיקום אחסון בכמות גדולה';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'האם למחוק את ה-$count פריטים שנבחרו?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'נמחקו $count פריטים';
+  }
+
+  @override
+  String get no_storage_location_available => 'אין מיקום אחסון זמין';
+
+  @override
+  String get batch_change_location_title => 'החלפת מיקום אחסון בכמות גדולה';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'כבר הועברו $count פריטים אל $location';
+  }
+
+  @override
+  String get operation_type_create => 'הזנה';
+
+  @override
+  String get operation_type_update => 'ערוך';
+
+  @override
+  String get operation_type_delete => 'מחק';
+
+  @override
+  String get operation_type_inbound => 'כניסה למחסן';
+
+  @override
+  String get operation_type_outbound => 'יציאה מהמלאי';
+
+  @override
+  String export_failed_message(String error) {
+    return 'ייצוא נכשל: $error';
+  }
+
+  @override
+  String get clear_logs => 'נקה יומנים';
+
+  @override
+  String get confirm_clear_logs =>
+      'האם אתה בטוח שברצונך למחוק את כל יומני הפעולות? פעולה זו אינה ניתנת לשחזור.';
+
+  @override
+  String get logs_cleared => 'יומן נמחק';
+
+  @override
+  String get operation_logs_title => 'יומן פעולות';
+
+  @override
+  String get export_logs => 'ייצוא יומן';
+
+  @override
+  String get clear_logs_tooltip => 'נקה יומנים';
+
+  @override
+  String get no_operation_logs => 'אין יומן פעולות זמני';
+
+  @override
+  String get log_item_label => 'פריטים:';
+
+  @override
+  String get log_category_label => 'קטגוריה:';
+
+  @override
+  String get log_type_label => 'סוג:';
+
+  @override
+  String get log_quantity_label => 'כמות:';
+
+  @override
+  String get log_unit_price_label => 'מחיר ליחידה:';
+
+  @override
+  String get log_total_price_label => 'מחיר כולל:';
+
+  @override
+  String get log_expiry_date_label => 'תאריך תפוגה:';
+
+  @override
+  String get log_warranty_date_label => 'תאריך אחריות:';
+
+  @override
+  String get log_purchase_date_label => 'תאריך רכישה:';
+
+  @override
+  String get log_production_date_label => 'תאריך ייצור:';
+
+  @override
+  String get log_shelf_life_label => 'תאריך תפוגה:';
+
+  @override
+  String get log_storage_location_label => 'מקום אחסון:';
+
+  @override
+  String get log_barcode_label => 'ברקוד:';
+
+  @override
+  String get log_notes_label => 'הערה:';
+
+  @override
+  String get log_alert_label => 'אזהרה מוקדמת:';
+
+  @override
+  String get log_alert_days_label => 'מספר ימי האזהרה:';
+
+  @override
+  String get log_quantity_change_label => 'שינוי בכמות:';
+
+  @override
+  String get log_field_changes_label => 'ערוך שדה:';
+
+  @override
+  String get log_not_set => 'לא הוגדר';
+
+  @override
+  String get log_empty => 'ריק';
+
+  @override
+  String get log_alert_enabled => 'להפעיל';
+
+  @override
+  String get log_alert_disabled => 'סגור';
+
+  @override
+  String get operation_logs_menu => 'יומן פעולות';
+
+  @override
+  String get operation_logs_description => 'צפה ושחזר את רשומות הפעולה';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'הפעולה נכשלה: $error';
+  }
+
+  @override
+  String get no_date => 'ללא תאריך';
+
+  @override
+  String get shelf_life_months_suffix => 'חודשים';
+
+  @override
+  String get shelf_life_days_suffix => 'שמיים';
+
+  @override
+  String get alert_days_suffix => 'שמיים';
+
+  @override
+  String get unknown => 'לא נודע';
+
+  @override
+  String get developer_name => 'ליאו';
+
+  @override
+  String get log_operation_date_label => 'תאריך הפעלה:';
 }

@@ -1688,5 +1688,395 @@
   "enter_category_name": "Unesite naziv kategorije",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Nespremjene promjene",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Imate nespremljene promjene, molimo odaberite radnju:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "odustati",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "jedan",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "predmet",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "kutija",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "torba",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "boca",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "kutija",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "set",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "Količina",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Jedinična cijena",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Valuta",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Ukupna cijena:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Mjesto pohrane",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Svojstva predmeta",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Vrijedi",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Datum isteka jamstva",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Datum proizvodnje",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Datum kupnje",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Automatski izračunava prema {dateType} i roku trajanja",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Automatsko izračunavanje",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "slika",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Bilješka",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Dodajte napomenu (opcionalno)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "godina",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "mjesec",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "nebo",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Odabrano je {count} stavki",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Odaberi sve",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Odznači sve",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Masovno mijenjanje lokacije pohrane",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Jeste li sigurni da želite izbrisati odabrane {count} stavke?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Obrisano je {count} predmeta",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Trenutno nema dostupnih lokacija za pohranu",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Masovno mijenjanje lokacije pohrane",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} predmeta je premješteno u {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Unos",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Uredi",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Izbriši",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "ulazak u skladište",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "izlazak iz skladišta",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Izvoz nije uspio: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Očisti zapisnik",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Jeste li sigurni da želite izbrisati sve zapisnike radnji? Ova radnja se ne može poništiti.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Dnevnik je očišćen",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Dnevnik operacija",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Izvezi zapisnik",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Očisti zapisnik",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Trenutno nema zapisnika operacija",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Predmet:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Kategorija:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Vrsta:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Količina:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Jedinična cijena:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Ukupna cijena:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Datum isteka:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Datum jamstva:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Datum kupnje:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Datum proizvodnje:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Rok trajanja:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Mjesto pohrane:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Šifra proizvoda:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Napomena:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Upozorenje:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Broj dana upozorenja:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Promjena količine:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Izmijeni polje:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Nije postavljeno",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "prazno",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "otvoriti",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Zatvori",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Dnevnik operacija",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Pregled i obnova zapisa o radnjama",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Operacija nije uspjela: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Bez datuma",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "mjeseci",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "nebo",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "nebo",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Nepoznato",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Datum operacije:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

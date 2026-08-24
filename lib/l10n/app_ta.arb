@@ -1688,5 +1688,395 @@
   "enter_category_name": "தரவகை பெயரை உள்ளிடவும்",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "சேமிக்கப்படாத மாற்றங்கள்",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "நீங்கள் சேமிக்காத மாற்றங்கள் உள்ளன, செயலை தேர்ந்தெடுக்கவும்:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "மறுக்கவும்",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "தனி",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "கேஸ்",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "பெட்டி",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "பையில்",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "குடும்பு",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "குடுப்பு",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "கெட்",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "கிலோ",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "ஜி",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "எல்",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "மி.லி",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "சமி",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "அளவு",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "ஒருங்கிணைந்த விலை",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "பண பரிமாற்றம்",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "மொத்த விலை:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "சேமிப்பு இடம்",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "பொருள் பண்புகள்",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "காலாவதி தேதி",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "வாறண்டி காலாவதியும் தேதி",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "உற்பத்தி தேதி",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "கையெழுத்திட்ட தேதி",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "{dateType} மற்றும் சேமிப்பு காலத்தைப் பொருத்து தானாக கணக்கிடப்படுகிறது",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "தானாக கணக்கிடுதல்",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "படம்",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "குறிப்புகள்",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "குறிப்பு தகவலைச் சேர்க்கவும் (விருப்பத்தேர்வு)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "ஆண்டு",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "சந்திரன்",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "வானம்",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "முந்தய தேர்வு {count} பொருட்கள்",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "முழு தேர்வு",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "முழுமையான தேர்வை ரத்து செய்",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "சேமிப்பிடம் தொகுதியாக மாற்றுதல்",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "தேர்ந்தெடுக்கப்பட்ட {count} பொருட்கள் நீக்கப்படவா?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "ஏற்கனவே {count} பொருட்கள் அழிக்கப்பட்டுள்ளன",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "தற்காலிகமாக சேமிக்க இடம் இல்லை",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "சேமிப்பிடம் தொகுதியாக மாற்றம்",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} பொருட்களை {location}க்கு மாற்றியுள்ளேன்",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "உள்ளிடுதல்",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "தொகுக்க",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "நீக்கு",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "கையிருப்பில் சேர்க்கப்பட்டது",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "பொருட்களை வெளியேற்றுதல்",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "நெறியீடு தோல்வியடைந்தது: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "பதிவுகளை காலி செய்",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "நீங்கள் அனைத்து செயல்பாட்டு பதிவுகளையும் சுத்தம் செய்ய விரும்புகிறீர்களா? இந்தச் செயலை மீட்க முடியாது.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "பதிவுகள் அழிக்கப்பட்டுவிட்டன",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "செயல்பாட்டு பதிவு",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "பதிவுகளை ஏற்றுமதி செய்யவும்",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "பதிவுகளை காலி செய்",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "இப்போது செயல்பாட்டு பதிவுகள் இல்லை",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "பொருள்:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "வகை:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "வகை:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "அளவு:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "தனிப்படை விலை:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "மொத்த விலை:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "கடைசிநாள்:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "உறுதிப் பராமரிப்பு தேதி:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "கொள்முதல் தேதி:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "உற்பத்தி தேதி:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "காப்பீட்டு காலம்:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "சுங்க இடம்:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "பார் குறியீடு:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "குறிப்பு:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "முன்னெச்சரிக்கை:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "அலர்ட் நாட்கள்:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "数量 மாற்றம்:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "புலம் திருத்தம்:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "அமைக்கப்படவில்லை",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "காற்று",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "திறக்க",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "மூடு",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "செயல்பாட்டு பதிவு",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "செயல்முறை பதிவுகளை பார்க்கவும் மற்றும் மீட்டெடுக்கவும்",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "செயல்பாடு தோல்வி: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "தேதி இல்லாதது",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "மாதங்கள்",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "வானம்",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "வானம்",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "அறியப்படாதது",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "லியோ",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "செயல்பாட்டு தேதி:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

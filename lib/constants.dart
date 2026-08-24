@@ -28,7 +28,7 @@ class AppConstants {
   static const int maxAlertDays = 180; // 最大提前180天预警
   static const int minAlertDays = 1; // 最小提前1天预警
 
-  /// 物品分类（中文，用于向后兼容）
+  /// 物品分类
   static const List<String> itemCategories = [
     '食品',
     '日用品',
@@ -39,39 +39,6 @@ class AppConstants {
     '服装',
     '书籍',
     '其他',
-  ];
-
-  /// 物品分类键（用于本地化）
-  static const List<String> itemCategoryKeys = [
-    'item_category_food',
-    'item_category_daily_necessities',
-    'item_category_cosmetics',
-    'item_category_medicine',
-    'item_category_electronics',
-    'item_category_furniture',
-    'item_category_clothing',
-    'item_category_books',
-    'item_category_other',
-  ];
-
-  /// 购买渠道（中文，用于向后兼容）
-  static const List<String> purchaseChannels = [
-    '线上商城',
-    '实体店',
-    '超市',
-    '专卖店',
-    '二手市场',
-    '其他',
-  ];
-
-  /// 购买渠道键（用于本地化）
-  static const List<String> purchaseChannelKeys = [
-    'purchase_channel_online_mall',
-    'purchase_channel_physical_store',
-    'purchase_channel_supermarket',
-    'purchase_channel_specialty_store',
-    'purchase_channel_secondhand_market',
-    'purchase_channel_other',
   ];
 
   /// 日期格式
@@ -87,7 +54,6 @@ class AppConstants {
 
   /// 验证规则
   static const int maxNameLength = 100;
-  static const int maxNotesLength = 500;
   static const double minUnitPrice = 0.0;
   static const double maxUnitPrice = 999999.99;
   static const int minQuantity = 1;
@@ -95,5 +61,4 @@ class AppConstants {
 
   /// 默认值
   static const String defaultCategory = '其他';
-  static const String defaultPurchaseChannel = '线上商城';
 }

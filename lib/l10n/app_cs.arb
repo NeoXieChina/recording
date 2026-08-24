@@ -1688,5 +1688,395 @@
   "enter_category_name": "Prosím, zadejte název kategorie",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Neuložené změny",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Máte neuložené změny, vyberte možnost:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "vzdát se",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "kus",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "kus",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "krabice",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "balíček",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "láhev",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "krabička",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "souprava",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "množství",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Jednotková cena",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "měna",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Celková cena:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Místo úložiště",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Vlastnosti předmětu",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Platnost",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Datum ukončení záruky",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Datum výroby",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Datum nákupu",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Automatický výpočet podle {dateType} a doby trvanlivosti",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Automatické výpočty",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "obrázek",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Poznámka",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Přidat poznámky (volitelné)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "rok",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "měsíc",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "nebe",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Vybráno {count} položek",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Vybrat vše",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Zrušit vše",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Hromadná výměna místa uložení",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Opravdu chcete smazat vybrané {count} položky?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Bylo odstraněno {count} položek",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Žádné dostupné místo pro uložení",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Hromadná výměna místa uložení",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} položek bylo přesunuto do {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "zadat",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Upravit",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Smazat",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "skladování",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "výdej z skladu",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Export selhal: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Vyprázdnit protokol",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Opravdu chcete vymazat všechny záznamy operací? Tuto akci nelze vrátit zpět.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Protokol byl vymazán",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Protokol operací",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Exportovat protokol",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Vyprázdnit protokol",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Žádné záznamy operací",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Položka:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Kategorie:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Typ:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Množství:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Jednotková cena:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Celková cena:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Datum expirace:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Datum záruky:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Datum nákupu:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Datum výroby:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Doba trvanlivosti:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Místo uložení:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Čárový kód:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Poznámka:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Varování:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Počet dní varování:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Změna množství:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Upravit pole:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Není nastaveno",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "prázdný",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Otevřít",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Zavřít",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Protokol operací",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Zobrazit a obnovit záznamy operací",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Operace selhala: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Bez data",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "měsíc",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "nebe",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "nebe",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Neznámý",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Datum operace:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

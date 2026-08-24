@@ -1688,5 +1688,395 @@
   "enter_category_name": "Παρακαλώ εισάγετε το όνομα της κατηγορίας",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Αποθηκευμένες αλλαγές",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Έχετε μη αποθηκευμένες αλλαγές, παρακαλώ επιλέξτε ενέργεια:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "παραιτούμαι",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "κομμάτι",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "αντικείμενο",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "κουτί",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "πακέτο",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "μπουκάλι",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "κουτί",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "σετ",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "κιλ.",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "γ",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "μ",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "εκ",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "ποσότητα",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Τιμή μονάδας",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "νόμισμα",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Συνολική τιμή:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Τόπος αποθήκευσης",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Ιδιότητες αντικειμένου",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Ημερομηνία λήξης",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Ημερομηνία λήξης εγγύησης",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Ημερομηνία παραγωγής",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Ημερομηνία αγοράς",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Υπολογίζεται αυτόματα σύμφωνα με το {dateType} και την ημερομηνία λήξης",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Αυτόματος υπολογισμός",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "εικόνα",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Σημείωση",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Προσθήκη σημειώσεων (προαιρετικό)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "έτος",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "μήνας",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "ουρανός",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Έχουν επιλεγεί {count} στοιχεία",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Επιλογή όλων",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Αποεπιλογή όλων",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Μαζική αλλαγή θέσης αποθήκευσης",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Είστε σίγουροι ότι θέλετε να διαγράψετε τα επιλεγμένα {count} αντικείμενα;",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Έχουν διαγραφεί {count} αντικείμενα",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Δεν υπάρχει διαθέσιμη τοποθεσία αποθήκευσης",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Μαζική αλλαγή των τόπων αποθήκευσης",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "Έχουν μετακινηθεί {count} αντικείμενα στο {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Καταχώρηση",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Επεξεργασία",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "διαγραφή",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Εισαγωγή αποθήκης",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Αποθήκευση αποθήκης",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Εξαγωγή αποτυχημένη: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Καθαρισμός αρχείου καταγραφής",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Είστε σίγουρος ότι θέλετε να διαγράψετε όλα τα αρχεία καταγραφής ενεργειών; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Το αρχείο καταγραφής έχει καθαριστεί",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Αρχείο λειτουργιών",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Εξαγωγή αρχείου καταγραφής",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Καθαρισμός καταγραφών",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Δεν υπάρχουν αρχεία καταγραφής λειτουργιών προς το παρόν",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Αντικείμενο:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Κατηγορία:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Τύπος:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Ποσότητα:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Τιμή μονάδας:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Συνολική τιμή:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Ημερομηνία λήξης:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Ημερομηνία εγγύησης:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Ημερομηνία αγοράς:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Ημερομηνία παραγωγής:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Ημερομηνία λήξης:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Τοποθεσία αποθήκευσης:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Κωδικός γραμμωτού κώδικα:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Σημείωση:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Προειδοποίηση:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Ημέρες προειδοποίησης:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Αλλαγή ποσότητας:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Τροποποίηση πεδίου:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Δεν έχει ρυθμιστεί",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "κενό",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Άνοιγμα",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Κλείσιμο",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Αρχείο λειτουργιών",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Προβολή και επαναφορά των αρχείων καταγραφής των ενεργειών",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Αποτυχία λειτουργίας: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Χωρίς ημερομηνία",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "μήνες",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "ουρανός",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "ουρανός",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Άγνωστο",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Λέο",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Ημερομηνία λειτουργίας:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

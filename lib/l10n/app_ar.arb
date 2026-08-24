@@ -1688,5 +1688,395 @@
   "enter_category_name": "الرجاء إدخال اسم التصنيف",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "تغييرات غير محفوظة",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "لديك تغييرات لم تُحفظ، يرجى اختيار الإجراء:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "تخلى",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "واحد",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "قطعة",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "صندوق",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "حقيبة",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "زجاجة",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "صندوق",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "مجموعة",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "كغ",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "ج",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "ل",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "مل",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "م",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "سم",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "الكمية",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "سعر الوحدة",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "عملة",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "السعر الإجمالي:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "مكان التخزين",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "خصائص العنصر",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "صلاحية",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "تاريخ انتهاء الضمان",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "تاريخ الإنتاج",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "تاريخ الشراء",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "حسب {dateType} وفترة الصلاحية يتم الحساب تلقائيًا",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "الحساب التلقائي",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "صورة",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "ملاحظات",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "إضافة معلومات ملاحظة (اختياري)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "سنة",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "قمر",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "سماء",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "تم اختيار {count} عنصر",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "تحديد الكل",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "إلغاء تحديد الكل",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "تبديل مواقع التخزين بالجملة",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "هل أنت متأكد من حذف {count} عنصرًا محددًا؟",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "تم حذف {count} عنصر",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "لا توجد مواقع تخزين متاحة",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "تبديل مواقع التخزين بالجملة",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "تم نقل {count} عنصر إلى {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "إدخال",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "تحرير",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "حذف",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "إدخال المخزون",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "خروج المخزون",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "فشل التصدير: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "مسح السجل",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "هل أنت متأكد أنك تريد مسح جميع سجلات العمليات؟ هذا الإجراء لا يمكن التراجع عنه.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "تم مسح السجل",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "سجل العمليات",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "تصدير السجل",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "مسح السجل",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "لا توجد سجلات عمليات حالياً",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "البند:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "التصنيف:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "النوع：",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "الكمية:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "السعر الفردي:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "السعر الإجمالي:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "تاريخ الانتهاء:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "تاريخ الضمان:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "تاريخ الشراء:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "تاريخ الإنتاج:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "تاريخ الصلاحية:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "مكان التخزين:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "الرمز الشريطي:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "ملاحظة:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "إنذار مبكر:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "أيام التحذير المسبق:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "تغير الكمية:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "تعديل الحقل:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "لم يتم الإعداد",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "فارغ",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "فتح",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "إغلاق",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "سجل العمليات",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "عرض واستعادة سجل العمليات",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "فشل العملية: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "بدون تاريخ",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "شهر",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "سماء",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "سماء",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "مجهول",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "ليو",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "تاريخ العملية:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

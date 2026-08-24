@@ -1168,4 +1168,286 @@ class AppLocalizationsVi extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Đã giảm $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Thay đổi chưa được lưu';
+
+  @override
+  String get unsaved_changes_message =>
+      'Bạn có những thay đổi chưa được lưu, vui lòng chọn thao tác:';
+
+  @override
+  String get discard => 'Từ bỏ';
+
+  @override
+  String get unit_piece => 'cái';
+
+  @override
+  String get unit_item => 'kiện';
+
+  @override
+  String get unit_box => 'hộp';
+
+  @override
+  String get unit_package => 'bao';
+
+  @override
+  String get unit_bottle => 'chai';
+
+  @override
+  String get unit_carton => 'hộp';
+
+  @override
+  String get unit_set => 'bộ';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'Số lượng';
+
+  @override
+  String get unit_price_label => 'Đơn giá';
+
+  @override
+  String get currency_label => 'Tiền tệ';
+
+  @override
+  String get total_price_label => 'Tổng giá:';
+
+  @override
+  String get storage_location_label => 'Nơi lưu trữ';
+
+  @override
+  String get item_properties => 'Thuộc tính vật phẩm';
+
+  @override
+  String get expiry_date_label => 'Thời hạn hiệu lực';
+
+  @override
+  String get warranty_expiry_date_label => 'Ngày hết hạn bảo hành';
+
+  @override
+  String get production_date_label => 'Ngày sản xuất';
+
+  @override
+  String get purchase_date_label => 'Ngày mua';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Tự động tính toán theo $dateType và hạn sử dụng';
+  }
+
+  @override
+  String get auto_calculated => 'Tự động tính toán';
+
+  @override
+  String get images_label => 'Hình ảnh';
+
+  @override
+  String get notes_label => 'Ghi chú';
+
+  @override
+  String get add_notes_hint => 'Thêm thông tin ghi chú (tùy chọn)';
+
+  @override
+  String get year_label => 'năm';
+
+  @override
+  String get month_label => 'tháng';
+
+  @override
+  String get day_label => 'trời';
+
+  @override
+  String selected_count(int count) {
+    return 'Đã chọn $count mục';
+  }
+
+  @override
+  String get select_all => 'Chọn tất cả';
+
+  @override
+  String get deselect_all => 'Bỏ chọn tất cả';
+
+  @override
+  String get batch_change_location => 'Thay đổi địa điểm lưu trữ hàng loạt';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Bạn có chắc chắn muốn xóa $count mục đã chọn không?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Đã xóa $count món đồ';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Hiện chưa có địa điểm lưu trữ nào để chọn';
+
+  @override
+  String get batch_change_location_title =>
+      'Thay đổi hàng loạt địa điểm lưu trữ';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'Đã chuyển $count món đồ sang $location';
+  }
+
+  @override
+  String get operation_type_create => 'Nhập liệu';
+
+  @override
+  String get operation_type_update => 'Chỉnh sửa';
+
+  @override
+  String get operation_type_delete => 'Xóa';
+
+  @override
+  String get operation_type_inbound => 'Nhập kho';
+
+  @override
+  String get operation_type_outbound => 'xuất kho';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Xuất khẩu thất bại: $error';
+  }
+
+  @override
+  String get clear_logs => 'Xóa nhật ký';
+
+  @override
+  String get confirm_clear_logs =>
+      'Bạn có chắc chắn muốn xóa tất cả nhật ký hoạt động không? Hành động này không thể khôi phục.';
+
+  @override
+  String get logs_cleared => 'Nhật ký đã bị xóa';
+
+  @override
+  String get operation_logs_title => 'Nhật ký thao tác';
+
+  @override
+  String get export_logs => 'Xuất nhật ký';
+
+  @override
+  String get clear_logs_tooltip => 'Xóa nhật ký';
+
+  @override
+  String get no_operation_logs => 'Tạm thời không có nhật ký hoạt động';
+
+  @override
+  String get log_item_label => 'Vật phẩm:';
+
+  @override
+  String get log_category_label => 'Phân loại:';
+
+  @override
+  String get log_type_label => 'Loại:';
+
+  @override
+  String get log_quantity_label => 'Số lượng:';
+
+  @override
+  String get log_unit_price_label => 'Đơn giá:';
+
+  @override
+  String get log_total_price_label => 'Tổng giá:';
+
+  @override
+  String get log_expiry_date_label => 'Ngày hết hạn:';
+
+  @override
+  String get log_warranty_date_label => 'Ngày bảo hành:';
+
+  @override
+  String get log_purchase_date_label => 'Ngày mua:';
+
+  @override
+  String get log_production_date_label => 'Ngày sản xuất:';
+
+  @override
+  String get log_shelf_life_label => 'Hạn sử dụng:';
+
+  @override
+  String get log_storage_location_label => 'Nơi lưu trữ:';
+
+  @override
+  String get log_barcode_label => 'Mã vạch:';
+
+  @override
+  String get log_notes_label => 'Ghi chú:';
+
+  @override
+  String get log_alert_label => 'Cảnh báo:';
+
+  @override
+  String get log_alert_days_label => 'Số ngày cảnh báo:';
+
+  @override
+  String get log_quantity_change_label => 'Thay đổi số lượng:';
+
+  @override
+  String get log_field_changes_label => 'Chỉnh sửa trường:';
+
+  @override
+  String get log_not_set => 'Chưa được thiết lập';
+
+  @override
+  String get log_empty => 'Trống';
+
+  @override
+  String get log_alert_enabled => 'Mở';
+
+  @override
+  String get log_alert_disabled => 'Đóng';
+
+  @override
+  String get operation_logs_menu => 'Nhật ký thao tác';
+
+  @override
+  String get operation_logs_description => 'Xem và phục hồi lịch sử thao tác';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Thao tác thất bại: $error';
+  }
+
+  @override
+  String get no_date => 'Không có ngày';
+
+  @override
+  String get shelf_life_months_suffix => 'tháng';
+
+  @override
+  String get shelf_life_days_suffix => 'trời';
+
+  @override
+  String get alert_days_suffix => 'trời';
+
+  @override
+  String get unknown => 'Không rõ';
+
+  @override
+  String get developer_name => 'Lôi Âu';
+
+  @override
+  String get log_operation_date_label => 'Ngày thao tác:';
 }

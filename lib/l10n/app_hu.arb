@@ -1688,5 +1688,395 @@
   "enter_category_name": "Kérjük, adja meg a kategória nevét",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Mentetlen változtatások",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Még vannak el nem mentett módosításai, kérjük válasszon egy műveletet:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "felad",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "darab",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "darab",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "ládika",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "táska",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "üveg",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "doboz",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "készlet",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "mennyiség",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Egységár",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "pénz",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Teljes ár:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Tárolási hely",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Tárgy tulajdonságai",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Érvényességi idő",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Garancia lejárati dátuma",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Gyártási dátum",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Vásárlás dátuma",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Az {dateType} és a szavatossági idő alapján automatikusan számítva",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Automatikus számítás",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "kép",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Megjegyzés",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Megjegyzés hozzáadása (opcionális)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "év",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "hónap",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "ég",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Már kiválasztva {count} elem",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Összes kiválasztása",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Összes kijelölés törlése",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Tömegesen áthelyezni a tárolási helyet",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Biztosan törölni szeretné a kiválasztott {count} elemet?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} tétel törölve",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Jelenleg nincs elérhető tárolási hely",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Tömegesen áthelyezni a tárolási helyet",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} tételt áthelyeztek ide: {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "bevitel",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Szerkesztés",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Törlés",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Raktárba vétel",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Kiszállítás a raktárból",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Exportálás sikertelen: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Naplók ürítése",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Biztosan törölni szeretné az összes műveleti naplót? Ez a művelet nem visszavonható.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "A napló kiürítve",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Műveleti napló",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Naplók exportálása",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Naplók ürítése",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Nincs műveleti napló",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Tárgy:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Kategória:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Típus:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Mennyiség:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Egységár:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Teljes ár:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Lejárati dátum:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Garancia dátuma:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Vásárlás dátuma:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Gyártási dátum:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Minőségmegőrzési idő:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Tárolási hely:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Vonalkód:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Megjegyzés:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Riasztás:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Figyelmeztetési napok:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Mennyiség változása:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Mező módosítása:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Nincs beállítva",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "üres",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "bekapcsol",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Bezárás",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Műveleti napló",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Műveleti naplók megtekintése és visszaállítása",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Művelet sikertelen: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Dátum nélkül",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "hónap",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "ég",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "ég",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "ismeretlen",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Művelet dátuma:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

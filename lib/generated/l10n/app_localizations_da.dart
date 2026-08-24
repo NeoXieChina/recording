@@ -1169,4 +1169,284 @@ class AppLocalizationsDa extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Er allerede reduceret med $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Usikkerede ændringer';
+
+  @override
+  String get unsaved_changes_message =>
+      'Du har ændringer, der ikke er gemt. Vælg venligst en handling:';
+
+  @override
+  String get discard => 'opføre';
+
+  @override
+  String get unit_piece => 'styk';
+
+  @override
+  String get unit_item => 'stykke';
+
+  @override
+  String get unit_box => 'kasse';
+
+  @override
+  String get unit_package => 'pose';
+
+  @override
+  String get unit_bottle => 'flaske';
+
+  @override
+  String get unit_carton => 'æske';
+
+  @override
+  String get unit_set => 'sæt';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'mængde';
+
+  @override
+  String get unit_price_label => 'Enhedspris';
+
+  @override
+  String get currency_label => 'Valuta';
+
+  @override
+  String get total_price_label => 'Samlet pris:';
+
+  @override
+  String get storage_location_label => 'Opbevaringssted';
+
+  @override
+  String get item_properties => 'Vareegenskaber';
+
+  @override
+  String get expiry_date_label => 'gyldighedsperiode';
+
+  @override
+  String get warranty_expiry_date_label => 'Garantiudløbsdato';
+
+  @override
+  String get production_date_label => 'Produktionsdato';
+
+  @override
+  String get purchase_date_label => 'Købsdato';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Beregnes automatisk i henhold til $dateType og holdbarhed';
+  }
+
+  @override
+  String get auto_calculated => 'Automatisk beregning';
+
+  @override
+  String get images_label => 'billede';
+
+  @override
+  String get notes_label => 'Bemærkning';
+
+  @override
+  String get add_notes_hint => 'Tilføj bemærkninger (valgfrit)';
+
+  @override
+  String get year_label => 'år';
+
+  @override
+  String get month_label => 'måne';
+
+  @override
+  String get day_label => 'himmel';
+
+  @override
+  String selected_count(int count) {
+    return 'Der er valgt $count emner';
+  }
+
+  @override
+  String get select_all => 'Vælg alle';
+
+  @override
+  String get deselect_all => 'Fravælg alle';
+
+  @override
+  String get batch_change_location => 'Batchudskiftning af lagringssted';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Er du sikker på, at du vil slette de valgte $count varer?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Slettet $count varer';
+  }
+
+  @override
+  String get no_storage_location_available => 'Ingen lagersteder tilgængelige';
+
+  @override
+  String get batch_change_location_title => 'Batchudskiftning af lagringssted';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count varer er blevet flyttet til $location';
+  }
+
+  @override
+  String get operation_type_create => 'indtastning';
+
+  @override
+  String get operation_type_update => 'Rediger';
+
+  @override
+  String get operation_type_delete => 'Slet';
+
+  @override
+  String get operation_type_inbound => 'Indlager';
+
+  @override
+  String get operation_type_outbound => 'Ud af lager';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Eksport mislykkedes: $error';
+  }
+
+  @override
+  String get clear_logs => 'Ryd log';
+
+  @override
+  String get confirm_clear_logs =>
+      'Er du sikker på, at du vil rydde alle aktivitetslogfiler? Denne handling kan ikke fortrydes.';
+
+  @override
+  String get logs_cleared => 'Loggen er ryddet';
+
+  @override
+  String get operation_logs_title => 'Driftslog';
+
+  @override
+  String get export_logs => 'Eksporter log';
+
+  @override
+  String get clear_logs_tooltip => 'Ryd log';
+
+  @override
+  String get no_operation_logs => 'Ingen aktivitetlog';
+
+  @override
+  String get log_item_label => 'Genstand:';
+
+  @override
+  String get log_category_label => 'Kategori:';
+
+  @override
+  String get log_type_label => 'Type:';
+
+  @override
+  String get log_quantity_label => 'Antal:';
+
+  @override
+  String get log_unit_price_label => 'Enhedspris:';
+
+  @override
+  String get log_total_price_label => 'Samlet pris:';
+
+  @override
+  String get log_expiry_date_label => 'Udløbsdato:';
+
+  @override
+  String get log_warranty_date_label => 'Garantiens startdato:';
+
+  @override
+  String get log_purchase_date_label => 'Købsdato:';
+
+  @override
+  String get log_production_date_label => 'Produktionsdato:';
+
+  @override
+  String get log_shelf_life_label => 'Holdbarhed:';
+
+  @override
+  String get log_storage_location_label => 'Opbevaringssted:';
+
+  @override
+  String get log_barcode_label => 'Stregkode:';
+
+  @override
+  String get log_notes_label => 'Bemærkning:';
+
+  @override
+  String get log_alert_label => 'Advarsel:';
+
+  @override
+  String get log_alert_days_label => 'Forvarselsdage:';
+
+  @override
+  String get log_quantity_change_label => 'Mængdeændring:';
+
+  @override
+  String get log_field_changes_label => 'Rediger felt:';
+
+  @override
+  String get log_not_set => 'Ikke indstillet';
+
+  @override
+  String get log_empty => 'tom';
+
+  @override
+  String get log_alert_enabled => 'åbne';
+
+  @override
+  String get log_alert_disabled => 'Luk';
+
+  @override
+  String get operation_logs_menu => 'Driftslog';
+
+  @override
+  String get operation_logs_description => 'Se og gendan aktivitetslog';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Handling mislykkedes: $error';
+  }
+
+  @override
+  String get no_date => 'uden dato';
+
+  @override
+  String get shelf_life_months_suffix => 'måned';
+
+  @override
+  String get shelf_life_days_suffix => 'himmel';
+
+  @override
+  String get alert_days_suffix => 'himmel';
+
+  @override
+  String get unknown => 'ukendt';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Operationsdato:';
 }

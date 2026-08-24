@@ -1175,4 +1175,287 @@ class AppLocalizationsHu extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Már csökkent $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Mentetlen változtatások';
+
+  @override
+  String get unsaved_changes_message =>
+      'Még vannak el nem mentett módosításai, kérjük válasszon egy műveletet:';
+
+  @override
+  String get discard => 'felad';
+
+  @override
+  String get unit_piece => 'darab';
+
+  @override
+  String get unit_item => 'darab';
+
+  @override
+  String get unit_box => 'ládika';
+
+  @override
+  String get unit_package => 'táska';
+
+  @override
+  String get unit_bottle => 'üveg';
+
+  @override
+  String get unit_carton => 'doboz';
+
+  @override
+  String get unit_set => 'készlet';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'mennyiség';
+
+  @override
+  String get unit_price_label => 'Egységár';
+
+  @override
+  String get currency_label => 'pénz';
+
+  @override
+  String get total_price_label => 'Teljes ár:';
+
+  @override
+  String get storage_location_label => 'Tárolási hely';
+
+  @override
+  String get item_properties => 'Tárgy tulajdonságai';
+
+  @override
+  String get expiry_date_label => 'Érvényességi idő';
+
+  @override
+  String get warranty_expiry_date_label => 'Garancia lejárati dátuma';
+
+  @override
+  String get production_date_label => 'Gyártási dátum';
+
+  @override
+  String get purchase_date_label => 'Vásárlás dátuma';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Az $dateType és a szavatossági idő alapján automatikusan számítva';
+  }
+
+  @override
+  String get auto_calculated => 'Automatikus számítás';
+
+  @override
+  String get images_label => 'kép';
+
+  @override
+  String get notes_label => 'Megjegyzés';
+
+  @override
+  String get add_notes_hint => 'Megjegyzés hozzáadása (opcionális)';
+
+  @override
+  String get year_label => 'év';
+
+  @override
+  String get month_label => 'hónap';
+
+  @override
+  String get day_label => 'ég';
+
+  @override
+  String selected_count(int count) {
+    return 'Már kiválasztva $count elem';
+  }
+
+  @override
+  String get select_all => 'Összes kiválasztása';
+
+  @override
+  String get deselect_all => 'Összes kijelölés törlése';
+
+  @override
+  String get batch_change_location => 'Tömegesen áthelyezni a tárolási helyet';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Biztosan törölni szeretné a kiválasztott $count elemet?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count tétel törölve';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Jelenleg nincs elérhető tárolási hely';
+
+  @override
+  String get batch_change_location_title =>
+      'Tömegesen áthelyezni a tárolási helyet';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count tételt áthelyeztek ide: $location';
+  }
+
+  @override
+  String get operation_type_create => 'bevitel';
+
+  @override
+  String get operation_type_update => 'Szerkesztés';
+
+  @override
+  String get operation_type_delete => 'Törlés';
+
+  @override
+  String get operation_type_inbound => 'Raktárba vétel';
+
+  @override
+  String get operation_type_outbound => 'Kiszállítás a raktárból';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Exportálás sikertelen: $error';
+  }
+
+  @override
+  String get clear_logs => 'Naplók ürítése';
+
+  @override
+  String get confirm_clear_logs =>
+      'Biztosan törölni szeretné az összes műveleti naplót? Ez a művelet nem visszavonható.';
+
+  @override
+  String get logs_cleared => 'A napló kiürítve';
+
+  @override
+  String get operation_logs_title => 'Műveleti napló';
+
+  @override
+  String get export_logs => 'Naplók exportálása';
+
+  @override
+  String get clear_logs_tooltip => 'Naplók ürítése';
+
+  @override
+  String get no_operation_logs => 'Nincs műveleti napló';
+
+  @override
+  String get log_item_label => 'Tárgy:';
+
+  @override
+  String get log_category_label => 'Kategória:';
+
+  @override
+  String get log_type_label => 'Típus:';
+
+  @override
+  String get log_quantity_label => 'Mennyiség:';
+
+  @override
+  String get log_unit_price_label => 'Egységár:';
+
+  @override
+  String get log_total_price_label => 'Teljes ár:';
+
+  @override
+  String get log_expiry_date_label => 'Lejárati dátum:';
+
+  @override
+  String get log_warranty_date_label => 'Garancia dátuma:';
+
+  @override
+  String get log_purchase_date_label => 'Vásárlás dátuma:';
+
+  @override
+  String get log_production_date_label => 'Gyártási dátum:';
+
+  @override
+  String get log_shelf_life_label => 'Minőségmegőrzési idő:';
+
+  @override
+  String get log_storage_location_label => 'Tárolási hely:';
+
+  @override
+  String get log_barcode_label => 'Vonalkód:';
+
+  @override
+  String get log_notes_label => 'Megjegyzés:';
+
+  @override
+  String get log_alert_label => 'Riasztás:';
+
+  @override
+  String get log_alert_days_label => 'Figyelmeztetési napok:';
+
+  @override
+  String get log_quantity_change_label => 'Mennyiség változása:';
+
+  @override
+  String get log_field_changes_label => 'Mező módosítása:';
+
+  @override
+  String get log_not_set => 'Nincs beállítva';
+
+  @override
+  String get log_empty => 'üres';
+
+  @override
+  String get log_alert_enabled => 'bekapcsol';
+
+  @override
+  String get log_alert_disabled => 'Bezárás';
+
+  @override
+  String get operation_logs_menu => 'Műveleti napló';
+
+  @override
+  String get operation_logs_description =>
+      'Műveleti naplók megtekintése és visszaállítása';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Művelet sikertelen: $error';
+  }
+
+  @override
+  String get no_date => 'Dátum nélkül';
+
+  @override
+  String get shelf_life_months_suffix => 'hónap';
+
+  @override
+  String get shelf_life_days_suffix => 'ég';
+
+  @override
+  String get alert_days_suffix => 'ég';
+
+  @override
+  String get unknown => 'ismeretlen';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Művelet dátuma:';
 }

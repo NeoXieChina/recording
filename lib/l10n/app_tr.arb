@@ -1688,5 +1688,395 @@
   "enter_category_name": "Lütfen kategori adını girin",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Kaydedilmemiş değişiklikler",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Kaydedilmemiş değişiklikleriniz var, lütfen bir işlem seçin:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "Vazgeçmek",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "adet",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "parça",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "kutu",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "çanta",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "şişe",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "kutu",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "takım",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "Miktar",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Birim fiyat",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Para birimi",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Toplam fiyat:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Depolama yeri",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Eşya Özellikleri",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Geçerlilik süresi",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Garanti bitiş tarihi",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Üretim tarihi",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Satın alma tarihi",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "_{dateType}_ ve son kullanma tarihine göre otomatik hesapla",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Otomatik hesaplama",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "Resim",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Notlar",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Not ekle (isteğe bağlı)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "yıl",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "Ay",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "gökyüzü",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} öğe seçildi",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Tümünü Seç",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Tümünü seçimi kaldır",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Depolama yerlerini toplu olarak değiştirmek",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Seçilen {count} öğeyi silmek istediğinizden emin misiniz?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} öğe silindi",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Şu anda seçilebilecek bir depolama yeri yok",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Depolama yerlerini toplu olarak değiştirmek",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} öğe {location} konumuna taşındı",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Veri girişi",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Düzenle",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Sil",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Depoya giriş",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Depodan çıkış",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Dışa aktarma başarısız: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Günlüğü temizle",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Tüm işlem günlüklerini temizlemek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Günlük temizlendi",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "İşlem Günlüğü",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Günlüğü dışa aktar",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Günlüğü temizle",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Henüz işlem günlüğü yok",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Eşya:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Kategori:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Türü:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Miktar:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Birim fiyat:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Toplam fiyat:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Son kullanma tarihi:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Garanti Tarihi:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Satın Alma Tarihi:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Üretim Tarihi:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Son kullanma tarihi:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Depolama Yeri:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Barkod:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Not: ",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Erken uyarı:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Erken uyarı günü sayısı:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Miktar değişimi:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Alanı değiştir:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Ayarlanmadı",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "boş",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Açmak",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Kapat",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "İşlem Günlüğü",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "İşlem kayıtlarını görüntüle ve geri yükle",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "İşlem başarısız: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Tarihsiz",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "ay",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "gökyüzü",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "gökyüzü",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Bilinmeyen",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "İşlem Tarihi:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

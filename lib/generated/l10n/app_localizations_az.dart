@@ -1176,4 +1176,286 @@ class AppLocalizationsAz extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Artıq $itemName $quantity$unit azaldılıb';
   }
+
+  @override
+  String get unsaved_changes => 'Qeydə alınmamış dəyişikliklər';
+
+  @override
+  String get unsaved_changes_message =>
+      'Sizin qeyd olunmamış dəyişiklikləriniz var, zəhmət olmasa əməliyyatı seçin:';
+
+  @override
+  String get discard => 'Tərk etmək';
+
+  @override
+  String get unit_piece => 'şəxs';
+
+  @override
+  String get unit_item => 'şey';
+
+  @override
+  String get unit_box => 'qutu';
+
+  @override
+  String get unit_package => 'çanta';
+
+  @override
+  String get unit_bottle => 'şüşə';
+
+  @override
+  String get unit_carton => 'qutu';
+
+  @override
+  String get unit_set => 'dəbirqə';
+
+  @override
+  String get unit_kg => 'kq';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'sm';
+
+  @override
+  String get quantity_label => 'miqdar';
+
+  @override
+  String get unit_price_label => 'Vahiddə qiymət';
+
+  @override
+  String get currency_label => 'Valyuta';
+
+  @override
+  String get total_price_label => 'Ümumi qiymət:';
+
+  @override
+  String get storage_location_label => 'Saxlama yeri';
+
+  @override
+  String get item_properties => 'Məhsul xüsusiyyətləri';
+
+  @override
+  String get expiry_date_label => 'etibarlılıq müddəti';
+
+  @override
+  String get warranty_expiry_date_label => 'Zəmanət bitmə tarixi';
+
+  @override
+  String get production_date_label => 'İstehsal tarixi';
+
+  @override
+  String get purchase_date_label => 'Alış tarixi';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return '_${dateType}_ və saxlama müddətinə əsasən avtomatik hesablayın';
+  }
+
+  @override
+  String get auto_calculated => 'Avtomatik hesablanma';
+
+  @override
+  String get images_label => 'şəkil';
+
+  @override
+  String get notes_label => 'Qeyd';
+
+  @override
+  String get add_notes_hint => 'Qeyd əlavə et (istəyə bağlı)';
+
+  @override
+  String get year_label => 'il';
+
+  @override
+  String get month_label => 'Ay';
+
+  @override
+  String get day_label => 'göy';
+
+  @override
+  String selected_count(int count) {
+    return '$count element seçildi';
+  }
+
+  @override
+  String get select_all => 'Hamısını seç';
+
+  @override
+  String get deselect_all => 'Bütün seçimləri ləğv et';
+
+  @override
+  String get batch_change_location => 'Anbar yerlərinin kütləvi dəyişdirilməsi';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Seçilmiş $count əşyanı silmək istədiyinizə əminsiniz?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count ədəd əşya silindi';
+  }
+
+  @override
+  String get no_storage_location_available => 'Mövcud saxlama yeri yoxdur';
+
+  @override
+  String get batch_change_location_title =>
+      'Anbar yerlərinin kütləvi dəyişdirilməsi';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count maddə $location yerə köçürülüb';
+  }
+
+  @override
+  String get operation_type_create => 'Daxil etmək';
+
+  @override
+  String get operation_type_update => 'Redaktə et';
+
+  @override
+  String get operation_type_delete => 'Silmək';
+
+  @override
+  String get operation_type_inbound => 'Anbara daxil etmək';
+
+  @override
+  String get operation_type_outbound => 'Anbar çıxışı';
+
+  @override
+  String export_failed_message(String error) {
+    return 'İxrac uğursuz oldu: $error';
+  }
+
+  @override
+  String get clear_logs => 'Jurnalı təmizlə';
+
+  @override
+  String get confirm_clear_logs =>
+      'Bütün əməliyyat qeydlərini silmək istədiyinizə əminsiniz? Bu əməliyyat geri qaytarıla bilməz.';
+
+  @override
+  String get logs_cleared => 'Günlük boşaldıldı';
+
+  @override
+  String get operation_logs_title => 'Əməliyyat jurnalı';
+
+  @override
+  String get export_logs => 'Jurnalı ixrac et';
+
+  @override
+  String get clear_logs_tooltip => 'Jurnalı təmizlə';
+
+  @override
+  String get no_operation_logs => 'Hələ əməliyyat qeydləri yoxdur';
+
+  @override
+  String get log_item_label => 'Məhsul:';
+
+  @override
+  String get log_category_label => 'Kateqoriya:';
+
+  @override
+  String get log_type_label => 'Növ:';
+
+  @override
+  String get log_quantity_label => 'Miqdar:';
+
+  @override
+  String get log_unit_price_label => 'Vahid qiymət:';
+
+  @override
+  String get log_total_price_label => 'Ümumi qiymət:';
+
+  @override
+  String get log_expiry_date_label => 'Son istifadə tarixi:';
+
+  @override
+  String get log_warranty_date_label => 'Zəmanət tarixi:';
+
+  @override
+  String get log_purchase_date_label => 'Alış tarixi:';
+
+  @override
+  String get log_production_date_label => 'İstehsal tarixi:';
+
+  @override
+  String get log_shelf_life_label => 'Saxlama müddəti:';
+
+  @override
+  String get log_storage_location_label => 'Yaddaş yeri:';
+
+  @override
+  String get log_barcode_label => 'Barkod:';
+
+  @override
+  String get log_notes_label => 'Qeyd:';
+
+  @override
+  String get log_alert_label => 'Xəbərdarlıq:';
+
+  @override
+  String get log_alert_days_label => 'Erkən xəbərdarlıq günləri:';
+
+  @override
+  String get log_quantity_change_label => 'Miqdar dəyişikliyi:';
+
+  @override
+  String get log_field_changes_label => 'Sahəni redaktə edin:';
+
+  @override
+  String get log_not_set => 'Təyin edilməyib';
+
+  @override
+  String get log_empty => 'boş';
+
+  @override
+  String get log_alert_enabled => 'Açmaq';
+
+  @override
+  String get log_alert_disabled => 'Yaxın';
+
+  @override
+  String get operation_logs_menu => 'Əməliyyat jurnalı';
+
+  @override
+  String get operation_logs_description =>
+      'Əməliyyat qeydlərini yoxlayın və bərpa edin';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Əməliyyat uğursuz oldu: $error';
+  }
+
+  @override
+  String get no_date => 'Tarixsiz';
+
+  @override
+  String get shelf_life_months_suffix => 'ay';
+
+  @override
+  String get shelf_life_days_suffix => 'göy';
+
+  @override
+  String get alert_days_suffix => 'göy';
+
+  @override
+  String get unknown => 'Naməlum';
+
+  @override
+  String get developer_name => 'Reyо';
+
+  @override
+  String get log_operation_date_label => 'Əməliyyat tarixi:';
 }

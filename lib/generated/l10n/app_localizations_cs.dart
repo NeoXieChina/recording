@@ -1173,4 +1173,285 @@ class AppLocalizationsCs extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Bylo sníženo $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Neuložené změny';
+
+  @override
+  String get unsaved_changes_message =>
+      'Máte neuložené změny, vyberte možnost:';
+
+  @override
+  String get discard => 'vzdát se';
+
+  @override
+  String get unit_piece => 'kus';
+
+  @override
+  String get unit_item => 'kus';
+
+  @override
+  String get unit_box => 'krabice';
+
+  @override
+  String get unit_package => 'balíček';
+
+  @override
+  String get unit_bottle => 'láhev';
+
+  @override
+  String get unit_carton => 'krabička';
+
+  @override
+  String get unit_set => 'souprava';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'množství';
+
+  @override
+  String get unit_price_label => 'Jednotková cena';
+
+  @override
+  String get currency_label => 'měna';
+
+  @override
+  String get total_price_label => 'Celková cena:';
+
+  @override
+  String get storage_location_label => 'Místo úložiště';
+
+  @override
+  String get item_properties => 'Vlastnosti předmětu';
+
+  @override
+  String get expiry_date_label => 'Platnost';
+
+  @override
+  String get warranty_expiry_date_label => 'Datum ukončení záruky';
+
+  @override
+  String get production_date_label => 'Datum výroby';
+
+  @override
+  String get purchase_date_label => 'Datum nákupu';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Automatický výpočet podle $dateType a doby trvanlivosti';
+  }
+
+  @override
+  String get auto_calculated => 'Automatické výpočty';
+
+  @override
+  String get images_label => 'obrázek';
+
+  @override
+  String get notes_label => 'Poznámka';
+
+  @override
+  String get add_notes_hint => 'Přidat poznámky (volitelné)';
+
+  @override
+  String get year_label => 'rok';
+
+  @override
+  String get month_label => 'měsíc';
+
+  @override
+  String get day_label => 'nebe';
+
+  @override
+  String selected_count(int count) {
+    return 'Vybráno $count položek';
+  }
+
+  @override
+  String get select_all => 'Vybrat vše';
+
+  @override
+  String get deselect_all => 'Zrušit vše';
+
+  @override
+  String get batch_change_location => 'Hromadná výměna místa uložení';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Opravdu chcete smazat vybrané $count položky?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Bylo odstraněno $count položek';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Žádné dostupné místo pro uložení';
+
+  @override
+  String get batch_change_location_title => 'Hromadná výměna místa uložení';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count položek bylo přesunuto do $location';
+  }
+
+  @override
+  String get operation_type_create => 'zadat';
+
+  @override
+  String get operation_type_update => 'Upravit';
+
+  @override
+  String get operation_type_delete => 'Smazat';
+
+  @override
+  String get operation_type_inbound => 'skladování';
+
+  @override
+  String get operation_type_outbound => 'výdej z skladu';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Export selhal: $error';
+  }
+
+  @override
+  String get clear_logs => 'Vyprázdnit protokol';
+
+  @override
+  String get confirm_clear_logs =>
+      'Opravdu chcete vymazat všechny záznamy operací? Tuto akci nelze vrátit zpět.';
+
+  @override
+  String get logs_cleared => 'Protokol byl vymazán';
+
+  @override
+  String get operation_logs_title => 'Protokol operací';
+
+  @override
+  String get export_logs => 'Exportovat protokol';
+
+  @override
+  String get clear_logs_tooltip => 'Vyprázdnit protokol';
+
+  @override
+  String get no_operation_logs => 'Žádné záznamy operací';
+
+  @override
+  String get log_item_label => 'Položka:';
+
+  @override
+  String get log_category_label => 'Kategorie:';
+
+  @override
+  String get log_type_label => 'Typ:';
+
+  @override
+  String get log_quantity_label => 'Množství:';
+
+  @override
+  String get log_unit_price_label => 'Jednotková cena:';
+
+  @override
+  String get log_total_price_label => 'Celková cena:';
+
+  @override
+  String get log_expiry_date_label => 'Datum expirace:';
+
+  @override
+  String get log_warranty_date_label => 'Datum záruky:';
+
+  @override
+  String get log_purchase_date_label => 'Datum nákupu:';
+
+  @override
+  String get log_production_date_label => 'Datum výroby:';
+
+  @override
+  String get log_shelf_life_label => 'Doba trvanlivosti:';
+
+  @override
+  String get log_storage_location_label => 'Místo uložení:';
+
+  @override
+  String get log_barcode_label => 'Čárový kód:';
+
+  @override
+  String get log_notes_label => 'Poznámka:';
+
+  @override
+  String get log_alert_label => 'Varování:';
+
+  @override
+  String get log_alert_days_label => 'Počet dní varování:';
+
+  @override
+  String get log_quantity_change_label => 'Změna množství:';
+
+  @override
+  String get log_field_changes_label => 'Upravit pole:';
+
+  @override
+  String get log_not_set => 'Není nastaveno';
+
+  @override
+  String get log_empty => 'prázdný';
+
+  @override
+  String get log_alert_enabled => 'Otevřít';
+
+  @override
+  String get log_alert_disabled => 'Zavřít';
+
+  @override
+  String get operation_logs_menu => 'Protokol operací';
+
+  @override
+  String get operation_logs_description => 'Zobrazit a obnovit záznamy operací';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Operace selhala: $error';
+  }
+
+  @override
+  String get no_date => 'Bez data';
+
+  @override
+  String get shelf_life_months_suffix => 'měsíc';
+
+  @override
+  String get shelf_life_days_suffix => 'nebe';
+
+  @override
+  String get alert_days_suffix => 'nebe';
+
+  @override
+  String get unknown => 'Neznámý';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Datum operace:';
 }

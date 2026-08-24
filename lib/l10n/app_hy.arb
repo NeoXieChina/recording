@@ -1688,5 +1688,395 @@
   "enter_category_name": "Խնդրում ենք ներմուծել դասակարգման անվանումը",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "չպահպանված փոփոխություններ",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Դուք ունեք չպահպանված փոփոխություններ, խնդրում ենք ընտրել գործողությունը՝",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "հրաժարվել",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "տարբեր",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "հատ",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "տուփ",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "փաթեթ",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "բալոն",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "տուփ",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "տուն",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "կգ",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "Լ",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "մլ",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "մ",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "սմ",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "աքանակ",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "մեկ գին",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Արժույթ",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Ընդհանուր գինը՝",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Պահեստավորման վայր",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "անվանական հատկություններ",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Վավերականության ժամկետ",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Համապատասխանության ժամկետի ավարտ",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Արտադրության ամսաթիվ",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "գնման ամսաթիվ",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Ակտիվը ավտոմատ կերպով հաշվարկվում է հիմնվելով {dateType} և ժամկետների վրա",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Ավտոմատ հաշվարկ",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "Պատկեր",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "ԱԿՆԱՆՆՈՒԹՅՈՒՆ",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Ավելացնել գրառման տեղեկություն (ընըտրովի)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "տարի",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "ամիս",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": " երկինք ",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Ընտրվել է {count} կետ",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Ընտրել բոլորը",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Հեռացնել բոլոր ընտրությունները",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Մեծածավալ բաշխում պահպանման վայրի միջեւ",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Ուպաստվե՞լն է ընտրած {count} ապրանքը ջնջելը։",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Ջնջվել է {count} ապրանք",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Անհասանելի են պահեստավորման վայրեր",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Մեծածավալ բաշխում պահեստի վայրերի միջև",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} տարրը տեղափոխվել է {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Մուտքագրում",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Խմբագրել",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Ջնջել",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Ընդունվել պահեստ",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Ընդունում պահեստից",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Արտահանումը ձախողվեց՝ {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Մաքրել արձանագրությունները",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "համոզված արդյոք եք, որ ցանկանում եք մաքրել բոլոր գործողությունների նշումները՞ Այս գործողությունը հակադարձելի չէ։",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Նշմարումները մաքրվել են",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "գործողությունների արձանագրություն",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "արտահանել արձանագրությունները",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Մաքրել արձանագրությունները",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Գործողության գրանցամատյան առկա չէ",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Ապրանք:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Վերնագիր։",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Տեսակ։",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Քանակը։",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Միավորի գին՝",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Ընդհանուր գինը՝",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Վավերության ավարտի ամիս",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Гаранտիայի ամսաթիվը:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Գնումի ամսաթիվը՝",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "արտադրության ամսաթիվը։",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Պահման ժամկետը՝",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Պահեստավորման վայր։",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Բարակ կոդ՝",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Նշում։",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Գոյարություն",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Ծանուցման օրեր՝",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Քանակի փոփոխություն՝",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Փոփոխել դաշտը՝",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Չես սահմանվել",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "ಖಾಲಿ",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "բացել",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Փակել",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "գործողությունների արձանագրություն",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Դիտել և վերականգնել օպերացիաների գրառումները",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Չհաջողվեց կատարել գործողությունը: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Անսպաս ամսաթիվ",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "ամիս",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": " երկինք ",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": " երկինք ",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Անհայտ",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Լեոն",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Գործողության ամսաթիվը։",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

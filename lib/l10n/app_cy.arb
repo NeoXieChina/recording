@@ -1688,5 +1688,395 @@
   "enter_category_name": "Rhowch enw'r categori",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Newidiadau heb eu cadw",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Mae gennych newidiadau heb eu cadw, dewiswch weithred:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "Gadael i fyny",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "un",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "darn",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "blwch",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "pecyn",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "potel",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "blwch",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "set",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "maint",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Uned pris",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Arian",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Cyfanswm y pris:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Lle storio",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Eiddo eitem",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Dibynadwyedd amser",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Dyddiad dod i ben gwarant",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Dyddiad cynhyrchu",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Dyddiad Prynu",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Cyfrifo'n awtomatig yn ôl {dateType} a'r dyddiad dod i ben",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Cyfrifo'n awtomatig",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "llun",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Sylw",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Ychwanegu nodyn (dewisol)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "blwyddyn",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "mis",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "Nefoedd",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Wedi dewis {count} eitem",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Dewis Popeth",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Diddymu dewis popeth",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Trosglwyddo lleoliadau storio yn nôl swmp",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Ydych chi'n siŵr eich bod am ddileu'r {count} eitemau a ddewiswyd?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Wedi dileu {count} eitem",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Dim lle storio ar gael ar hyn o bryd",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Trosglwyddo lleoliadau storio yn nôl swmp",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "Wedi symud {count} eitem i {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Cofnodi",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Golygu",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Dileu",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Mewnbynnu i stoc",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "All allan o'r warws",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Methu allforio: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Clirio'r log",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Ydych chi'n siŵr eich bod eisiau dileu'r holl logiau gweithredu? Ni ellir adfer y weithred hon.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Mae'r dyddiadur wedi'i glirio",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Log gweithrediadau",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Allforio logiau",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Clirio'r log",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Dim log gweithrediadau ar hyn o bryd",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Eitem:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Categori:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Math:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Nifer:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Uned pris:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Cyfanswm y pris:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Dyddiad dod i ben:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Dyddiad gwarant:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Dyddiad Prynu:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Dyddiad cynhyrchu:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Dyddiad dod i ben:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Lle storio:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Cod bar:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Sylw:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Rhybudd Cynnar:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Dyddiau Rhybudd",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Newidyn Nifer:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Diweddaru maes:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Heb ei osod",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "gwag",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Agor",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Cau",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Log gweithrediadau",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Gweld ac adfer cofnodion gweithrediadau",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Gwall gweithredu: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Di ddyddiad",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "mis",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "Nefoedd",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "Nefoedd",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Anhysbys",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Dyddiad gweithredu:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

@@ -1174,4 +1174,288 @@ class AppLocalizationsId extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Telah dikurangi $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Perubahan yang belum disimpan';
+
+  @override
+  String get unsaved_changes_message =>
+      'Anda memiliki perubahan yang belum disimpan, silakan pilih tindakan:';
+
+  @override
+  String get discard => 'menyerah';
+
+  @override
+  String get unit_piece => 'buah';
+
+  @override
+  String get unit_item => 'potong';
+
+  @override
+  String get unit_box => 'kotak';
+
+  @override
+  String get unit_package => 'tas';
+
+  @override
+  String get unit_bottle => 'botol';
+
+  @override
+  String get unit_carton => 'kotak';
+
+  @override
+  String get unit_set => 'set';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'jumlah';
+
+  @override
+  String get unit_price_label => 'Harga satuan';
+
+  @override
+  String get currency_label => 'Mata uang';
+
+  @override
+  String get total_price_label => 'Total harga:';
+
+  @override
+  String get storage_location_label => 'Tempat penyimpanan';
+
+  @override
+  String get item_properties => 'Atribut barang';
+
+  @override
+  String get expiry_date_label => 'Masa berlaku';
+
+  @override
+  String get warranty_expiry_date_label => 'Tanggal kadaluarsa garansi';
+
+  @override
+  String get production_date_label => 'Tanggal produksi';
+
+  @override
+  String get purchase_date_label => 'Tanggal Pembelian';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Menghitung secara otomatis berdasarkan $dateType dan masa simpan';
+  }
+
+  @override
+  String get auto_calculated => 'Perhitungan otomatis';
+
+  @override
+  String get images_label => 'gambar';
+
+  @override
+  String get notes_label => 'Catatan';
+
+  @override
+  String get add_notes_hint => 'Tambahkan informasi catatan (opsional)';
+
+  @override
+  String get year_label => 'tahun';
+
+  @override
+  String get month_label => 'Bulan';
+
+  @override
+  String get day_label => 'langit';
+
+  @override
+  String selected_count(int count) {
+    return 'Telah memilih $count item';
+  }
+
+  @override
+  String get select_all => 'Pilih Semua';
+
+  @override
+  String get deselect_all => 'Batalkan semua pilih';
+
+  @override
+  String get batch_change_location =>
+      'Menukar lokasi penyimpanan secara massal';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Apakah Anda yakin ingin menghapus $count item yang dipilih?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Telah menghapus $count item';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Belum ada lokasi penyimpanan yang tersedia';
+
+  @override
+  String get batch_change_location_title =>
+      'Memindahkan lokasi penyimpanan secara massal';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'Telah memindahkan $count item ke $location';
+  }
+
+  @override
+  String get operation_type_create => 'Memasukkan data';
+
+  @override
+  String get operation_type_update => 'Sunting';
+
+  @override
+  String get operation_type_delete => 'Hapus';
+
+  @override
+  String get operation_type_inbound => 'Masuk gudang';
+
+  @override
+  String get operation_type_outbound => 'Keluarkan dari Gudang';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Ekspor gagal: $error';
+  }
+
+  @override
+  String get clear_logs => 'Bersihkan log';
+
+  @override
+  String get confirm_clear_logs =>
+      'Apakah Anda yakin ingin menghapus semua log operasi? Tindakan ini tidak dapat dipulihkan.';
+
+  @override
+  String get logs_cleared => 'Log telah dikosongkan';
+
+  @override
+  String get operation_logs_title => 'Log Operasi';
+
+  @override
+  String get export_logs => 'Ekspor log';
+
+  @override
+  String get clear_logs_tooltip => 'Bersihkan log';
+
+  @override
+  String get no_operation_logs => 'Belum ada catatan operasi';
+
+  @override
+  String get log_item_label => 'Barang:';
+
+  @override
+  String get log_category_label => 'Kategori:';
+
+  @override
+  String get log_type_label => 'Tipe:';
+
+  @override
+  String get log_quantity_label => 'Jumlah:';
+
+  @override
+  String get log_unit_price_label => 'Harga satuan:';
+
+  @override
+  String get log_total_price_label => 'Total harga:';
+
+  @override
+  String get log_expiry_date_label => 'Tanggal Kedaluwarsa:';
+
+  @override
+  String get log_warranty_date_label => 'Tanggal garansi:';
+
+  @override
+  String get log_purchase_date_label => 'Tanggal pembelian:';
+
+  @override
+  String get log_production_date_label => 'Tanggal produksi:';
+
+  @override
+  String get log_shelf_life_label => 'Tanggal kedaluwarsa:';
+
+  @override
+  String get log_storage_location_label => 'Tempat penyimpanan:';
+
+  @override
+  String get log_barcode_label => 'Kode batang:';
+
+  @override
+  String get log_notes_label => 'Catatan:';
+
+  @override
+  String get log_alert_label => 'Peringatan:';
+
+  @override
+  String get log_alert_days_label => 'Hari peringatan:';
+
+  @override
+  String get log_quantity_change_label => 'Perubahan jumlah:';
+
+  @override
+  String get log_field_changes_label => 'Ubah kolom:';
+
+  @override
+  String get log_not_set => 'Belum disetel';
+
+  @override
+  String get log_empty => 'Kosong';
+
+  @override
+  String get log_alert_enabled => 'Buka';
+
+  @override
+  String get log_alert_disabled => 'Tutup';
+
+  @override
+  String get operation_logs_menu => 'Log Operasi';
+
+  @override
+  String get operation_logs_description =>
+      'Melihat dan memulihkan catatan operasi';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Operasi gagal: $error';
+  }
+
+  @override
+  String get no_date => 'Tanpa tanggal';
+
+  @override
+  String get shelf_life_months_suffix => 'bulan';
+
+  @override
+  String get shelf_life_days_suffix => 'langit';
+
+  @override
+  String get alert_days_suffix => 'langit';
+
+  @override
+  String get unknown => 'Tidak diketahui';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Tanggal Operasi:';
 }

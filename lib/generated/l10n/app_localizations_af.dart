@@ -1179,4 +1179,284 @@ class AppLocalizationsAf extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Het verminder $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Onopgesorte veranderinge';
+
+  @override
+  String get unsaved_changes_message =>
+      'U het ongespaarde wysigings, kies asseblief \'n aksie:';
+
+  @override
+  String get discard => 'Oorgee';
+
+  @override
+  String get unit_piece => 'stuk';
+
+  @override
+  String get unit_item => 'stuk';
+
+  @override
+  String get unit_box => 'kas';
+
+  @override
+  String get unit_package => 'sak';
+
+  @override
+  String get unit_bottle => 'bottel';
+
+  @override
+  String get unit_carton => 'boks';
+
+  @override
+  String get unit_set => 'stel';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'Aantal';
+
+  @override
+  String get unit_price_label => 'enheidsprys';
+
+  @override
+  String get currency_label => 'Geldeenheid';
+
+  @override
+  String get total_price_label => 'Totale prys:';
+
+  @override
+  String get storage_location_label => 'Berging plek';
+
+  @override
+  String get item_properties => 'Voorwerp eienskappe';
+
+  @override
+  String get expiry_date_label => 'Geldigheid';
+
+  @override
+  String get warranty_expiry_date_label => 'Waarborgvervaldatum';
+
+  @override
+  String get production_date_label => 'Produksiedatum';
+
+  @override
+  String get purchase_date_label => 'Aankoopdatum';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Outomaties bereken volgens $dateType en die houdbaarheid';
+  }
+
+  @override
+  String get auto_calculated => 'Outomatiese berekening';
+
+  @override
+  String get images_label => 'foto';
+
+  @override
+  String get notes_label => 'Opmerking';
+
+  @override
+  String get add_notes_hint => 'Voeg nota-inligting by (opsioneel)';
+
+  @override
+  String get year_label => 'jaar';
+
+  @override
+  String get month_label => 'maan';
+
+  @override
+  String get day_label => 'lug';
+
+  @override
+  String selected_count(int count) {
+    return '$count items is gekies';
+  }
+
+  @override
+  String get select_all => 'Kies alles';
+
+  @override
+  String get deselect_all => 'Kanselleer alles selekteer';
+
+  @override
+  String get batch_change_location => 'Grootmaat wissel stoorplek';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Is jy seker jy wil die geselekteerde $count items verwyder?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Het $count items verwyder';
+  }
+
+  @override
+  String get no_storage_location_available => 'Geen stoorplek beskikbaar nie';
+
+  @override
+  String get batch_change_location_title => 'Grootmaat wissel stoorplek';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count items is na $location geskuif';
+  }
+
+  @override
+  String get operation_type_create => 'Invoer';
+
+  @override
+  String get operation_type_update => 'Redigeer';
+
+  @override
+  String get operation_type_delete => 'Verwyder';
+
+  @override
+  String get operation_type_inbound => 'In voorraad';
+
+  @override
+  String get operation_type_outbound => 'Uit voorraad';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Uitvoer het misluk: $error';
+  }
+
+  @override
+  String get clear_logs => 'Maak die logboek leeg';
+
+  @override
+  String get confirm_clear_logs =>
+      'Is jy seker jy wil alle operasielogs leegmaak? Hierdie aksie kan nie herstel word nie.';
+
+  @override
+  String get logs_cleared => 'Die logboek is opgeskuif';
+
+  @override
+  String get operation_logs_title => 'Operasielog';
+
+  @override
+  String get export_logs => 'Uitvoerjoernaal';
+
+  @override
+  String get clear_logs_tooltip => 'Maak die logboek leeg';
+
+  @override
+  String get no_operation_logs => 'Geen operasielog beskikbaar nie';
+
+  @override
+  String get log_item_label => 'Voorwerp:';
+
+  @override
+  String get log_category_label => 'Kategorie:';
+
+  @override
+  String get log_type_label => 'Tipe:';
+
+  @override
+  String get log_quantity_label => 'Hoeveelheid:';
+
+  @override
+  String get log_unit_price_label => 'Eenheidsprys:';
+
+  @override
+  String get log_total_price_label => 'Totale prys:';
+
+  @override
+  String get log_expiry_date_label => 'Vervaldatum:';
+
+  @override
+  String get log_warranty_date_label => 'Waarborgdatum:';
+
+  @override
+  String get log_purchase_date_label => 'Aankoopdatum:';
+
+  @override
+  String get log_production_date_label => 'Vervaardigingsdatum:';
+
+  @override
+  String get log_shelf_life_label => 'Houdbaarheidsdatum:';
+
+  @override
+  String get log_storage_location_label => 'Berging plek:';
+
+  @override
+  String get log_barcode_label => 'Streep kode:';
+
+  @override
+  String get log_notes_label => 'Opmerking:';
+
+  @override
+  String get log_alert_label => 'Vroeë waarskuwing:';
+
+  @override
+  String get log_alert_days_label => 'Waarskuwing dae:';
+
+  @override
+  String get log_quantity_change_label => 'Aantal verandering:';
+
+  @override
+  String get log_field_changes_label => 'Wysig veld:';
+
+  @override
+  String get log_not_set => 'Nie gestel nie';
+
+  @override
+  String get log_empty => 'leeg';
+
+  @override
+  String get log_alert_enabled => 'Aanskakel';
+
+  @override
+  String get log_alert_disabled => 'Toemaak';
+
+  @override
+  String get operation_logs_menu => 'Operasielog';
+
+  @override
+  String get operation_logs_description => 'Kyk na en herstel bedryfsrekords';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Operasie het misluk: $error';
+  }
+
+  @override
+  String get no_date => 'Geen datum';
+
+  @override
+  String get shelf_life_months_suffix => 'maande';
+
+  @override
+  String get shelf_life_days_suffix => 'lug';
+
+  @override
+  String get alert_days_suffix => 'lug';
+
+  @override
+  String get unknown => 'Onbekend';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Operasiedatum:';
 }

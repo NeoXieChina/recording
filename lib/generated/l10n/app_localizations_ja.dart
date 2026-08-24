@@ -1140,4 +1140,282 @@ class AppLocalizationsJa extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return '$itemName $quantity$unit が減りました';
   }
+
+  @override
+  String get unsaved_changes => '未保存の変更';
+
+  @override
+  String get unsaved_changes_message => '保存されていない変更があります。操作を選択してください：';
+
+  @override
+  String get discard => 'あきらめる';
+
+  @override
+  String get unit_piece => '個';
+
+  @override
+  String get unit_item => '件';
+
+  @override
+  String get unit_box => '箱';
+
+  @override
+  String get unit_package => '包';
+
+  @override
+  String get unit_bottle => '瓶';
+
+  @override
+  String get unit_carton => '箱';
+
+  @override
+  String get unit_set => 'スーツ';
+
+  @override
+  String get unit_kg => 'キログラム';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'センチメートル';
+
+  @override
+  String get quantity_label => '数量';
+
+  @override
+  String get unit_price_label => '単価';
+
+  @override
+  String get currency_label => '通貨';
+
+  @override
+  String get total_price_label => '総額：';
+
+  @override
+  String get storage_location_label => '保存場所';
+
+  @override
+  String get item_properties => 'アイテム属性';
+
+  @override
+  String get expiry_date_label => '有効期限';
+
+  @override
+  String get warranty_expiry_date_label => '保証期限';
+
+  @override
+  String get production_date_label => '製造日';
+
+  @override
+  String get purchase_date_label => '購入日';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return '$dateTypeと賞味期限に基づいて自動計算';
+  }
+
+  @override
+  String get auto_calculated => '自動計算';
+
+  @override
+  String get images_label => '画像';
+
+  @override
+  String get notes_label => '備考';
+
+  @override
+  String get add_notes_hint => '備考情報を追加（任意）';
+
+  @override
+  String get year_label => '年';
+
+  @override
+  String get month_label => '月';
+
+  @override
+  String get day_label => '天';
+
+  @override
+  String selected_count(int count) {
+    return '$count 件が選択されました';
+  }
+
+  @override
+  String get select_all => 'すべて選択';
+
+  @override
+  String get deselect_all => 'すべての選択を解除';
+
+  @override
+  String get batch_change_location => 'ストレージの場所を一括で変更する';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return '選択した $count 個のアイテムを削除してもよろしいですか？';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count 個のアイテムが削除されました';
+  }
+
+  @override
+  String get no_storage_location_available => '利用可能な保存場所はありません';
+
+  @override
+  String get batch_change_location_title => 'ストレージの場所を一括で変更する';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count 個のアイテムを $location に移動しました';
+  }
+
+  @override
+  String get operation_type_create => '入力';
+
+  @override
+  String get operation_type_update => '編集';
+
+  @override
+  String get operation_type_delete => '削除';
+
+  @override
+  String get operation_type_inbound => '入庫';
+
+  @override
+  String get operation_type_outbound => '出庫';
+
+  @override
+  String export_failed_message(String error) {
+    return 'エクスポートに失敗しました: $error';
+  }
+
+  @override
+  String get clear_logs => 'ログをクリア';
+
+  @override
+  String get confirm_clear_logs => '本当にすべての操作ログを消去しますか？この操作は元に戻せません。';
+
+  @override
+  String get logs_cleared => 'ログはクリアされました';
+
+  @override
+  String get operation_logs_title => '操作ログ';
+
+  @override
+  String get export_logs => 'ログをエクスポート';
+
+  @override
+  String get clear_logs_tooltip => 'ログをクリア';
+
+  @override
+  String get no_operation_logs => '操作ログはありません';
+
+  @override
+  String get log_item_label => '品物：';
+
+  @override
+  String get log_category_label => '分類：';
+
+  @override
+  String get log_type_label => '種類：';
+
+  @override
+  String get log_quantity_label => '数量：';
+
+  @override
+  String get log_unit_price_label => '単価：';
+
+  @override
+  String get log_total_price_label => '総額：';
+
+  @override
+  String get log_expiry_date_label => '有効期限：';
+
+  @override
+  String get log_warranty_date_label => '保証期限：';
+
+  @override
+  String get log_purchase_date_label => '購入日：';
+
+  @override
+  String get log_production_date_label => '製造日：';
+
+  @override
+  String get log_shelf_life_label => '賞味期限：';
+
+  @override
+  String get log_storage_location_label => '保管場所：';
+
+  @override
+  String get log_barcode_label => 'バーコード：';
+
+  @override
+  String get log_notes_label => '備考：';
+
+  @override
+  String get log_alert_label => '警告：';
+
+  @override
+  String get log_alert_days_label => '警報日数：';
+
+  @override
+  String get log_quantity_change_label => '数量の変化：';
+
+  @override
+  String get log_field_changes_label => 'フィールドを変更：';
+
+  @override
+  String get log_not_set => '未設定';
+
+  @override
+  String get log_empty => '空';
+
+  @override
+  String get log_alert_enabled => '開く';
+
+  @override
+  String get log_alert_disabled => '閉じる';
+
+  @override
+  String get operation_logs_menu => '操作ログ';
+
+  @override
+  String get operation_logs_description => '操作記録を確認して復元する';
+
+  @override
+  String operation_failed_message(String error) {
+    return '操作に失敗しました: $error';
+  }
+
+  @override
+  String get no_date => '日付なし';
+
+  @override
+  String get shelf_life_months_suffix => 'か月';
+
+  @override
+  String get shelf_life_days_suffix => '天';
+
+  @override
+  String get alert_days_suffix => '天';
+
+  @override
+  String get unknown => '未知';
+
+  @override
+  String get developer_name => 'レオ';
+
+  @override
+  String get log_operation_date_label => '操作日：';
 }

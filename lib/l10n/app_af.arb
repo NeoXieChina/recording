@@ -1688,5 +1688,395 @@
   "enter_category_name": "Voer asseblief die kategorie naam in",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Onopgesorte veranderinge",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "U het ongespaarde wysigings, kies asseblief 'n aksie:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "Oorgee",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "stuk",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "stuk",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "kas",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "sak",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "bottel",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "boks",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "stel",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "Aantal",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "enheidsprys",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Geldeenheid",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Totale prys:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Berging plek",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Voorwerp eienskappe",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Geldigheid",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Waarborgvervaldatum",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Produksiedatum",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Aankoopdatum",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Outomaties bereken volgens {dateType} en die houdbaarheid",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Outomatiese berekening",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "foto",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Opmerking",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Voeg nota-inligting by (opsioneel)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "jaar",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "maan",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "lug",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} items is gekies",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Kies alles",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Kanselleer alles selekteer",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Grootmaat wissel stoorplek",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Is jy seker jy wil die geselekteerde {count} items verwyder?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Het {count} items verwyder",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Geen stoorplek beskikbaar nie",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Grootmaat wissel stoorplek",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} items is na {location} geskuif",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Invoer",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Redigeer",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Verwyder",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "In voorraad",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Uit voorraad",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Uitvoer het misluk: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Maak die logboek leeg",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Is jy seker jy wil alle operasielogs leegmaak? Hierdie aksie kan nie herstel word nie.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Die logboek is opgeskuif",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Operasielog",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Uitvoerjoernaal",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Maak die logboek leeg",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Geen operasielog beskikbaar nie",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Voorwerp:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Kategorie:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Tipe:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Hoeveelheid:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Eenheidsprys:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Totale prys:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Vervaldatum:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Waarborgdatum:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Aankoopdatum:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Vervaardigingsdatum:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Houdbaarheidsdatum:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Berging plek:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Streep kode:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Opmerking:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Vroeë waarskuwing:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Waarskuwing dae:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Aantal verandering:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Wysig veld:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Nie gestel nie",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "leeg",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Aanskakel",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Toemaak",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Operasielog",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Kyk na en herstel bedryfsrekords",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Operasie het misluk: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Geen datum",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "maande",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "lug",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "lug",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Onbekend",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Operasiedatum:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

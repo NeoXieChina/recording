@@ -1181,4 +1181,286 @@ class AppLocalizationsGa extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Tá laghdaithe $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Athruithe nach bhfuil sábháilte';
+
+  @override
+  String get unsaved_changes_message =>
+      'Tá athruithe neamhshábháilte agat, roghnaigh gníomhaíocht:';
+
+  @override
+  String get discard => 'Éirí as';
+
+  @override
+  String get unit_piece => 'aon';
+
+  @override
+  String get unit_item => 'réad';
+
+  @override
+  String get unit_box => 'Bosca';
+
+  @override
+  String get unit_package => 'mála';
+
+  @override
+  String get unit_bottle => 'buidéal';
+
+  @override
+  String get unit_carton => 'bosca';
+
+  @override
+  String get unit_set => 'sraith';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'Méid';
+
+  @override
+  String get unit_price_label => 'Praghas aonair';
+
+  @override
+  String get currency_label => 'Airgeadra';
+
+  @override
+  String get total_price_label => 'Praghas iomlán:';
+
+  @override
+  String get storage_location_label => 'Áit stórála';
+
+  @override
+  String get item_properties => 'Airíonna Earraí';
+
+  @override
+  String get expiry_date_label => 'Am éifeachtach';
+
+  @override
+  String get warranty_expiry_date_label => 'Dáta éaga bharántais';
+
+  @override
+  String get production_date_label => 'Dáta déantúsaíochta';
+
+  @override
+  String get purchase_date_label => 'Dáta Ceannaigh';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Ríomh go huathoibríoch bunaithe ar $dateType agus ar thréimhse stórála';
+  }
+
+  @override
+  String get auto_calculated => 'Ríomh uathoibríoch';
+
+  @override
+  String get images_label => 'Íomhá';
+
+  @override
+  String get notes_label => 'Nóta';
+
+  @override
+  String get add_notes_hint => 'Cuir faisnéis nótaí leis (roghnach)';
+
+  @override
+  String get year_label => 'bliain';
+
+  @override
+  String get month_label => 'Gealach';
+
+  @override
+  String get day_label => 'Neamh';
+
+  @override
+  String selected_count(int count) {
+    return 'Tá $count roghnaithe';
+  }
+
+  @override
+  String get select_all => 'Roghnaigh uile';
+
+  @override
+  String get deselect_all => 'Cealaigh uile roghnaithe';
+
+  @override
+  String get batch_change_location => 'Athrú massach ar shuíomh stórála';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'An bhfuil tú cinnte go dteastaíonn uait na $count míreanna roghnaithe a scriosadh?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Tá $count earra scriosta';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Níl aon áit stórála ar fáil faoi láthair';
+
+  @override
+  String get batch_change_location_title => 'Athrú massach ar shuíomh stórála';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'Tá $count mír áirithe aistrithe go $location';
+  }
+
+  @override
+  String get operation_type_create => 'Ionchur';
+
+  @override
+  String get operation_type_update => 'Eagar';
+
+  @override
+  String get operation_type_delete => 'Scrios';
+
+  @override
+  String get operation_type_inbound => 'Ionchur sa stór';
+
+  @override
+  String get operation_type_outbound => 'Amharc ar stóras';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Theip ar onnmhairiú: $error';
+  }
+
+  @override
+  String get clear_logs => 'Folamh na logaí';
+
+  @override
+  String get confirm_clear_logs =>
+      'An bhfuil tú cinnte go dteastaíonn uait gach loga oibríochta a ghlanadh? Ní féidir an gníomh seo a dhíghníomhachtú.';
+
+  @override
+  String get logs_cleared => 'Tá an dialann folamh';
+
+  @override
+  String get operation_logs_title => 'Logáil Oibríochtaí';
+
+  @override
+  String get export_logs => 'Easpórtáil Logaí';
+
+  @override
+  String get clear_logs_tooltip => 'Log a ghlanadh';
+
+  @override
+  String get no_operation_logs => 'Níl aon loga oibríochta ann faoi láthair';
+
+  @override
+  String get log_item_label => 'Mír:';
+
+  @override
+  String get log_category_label => 'Catagóir:';
+
+  @override
+  String get log_type_label => 'Cineál:';
+
+  @override
+  String get log_quantity_label => 'Cainníocht:';
+
+  @override
+  String get log_unit_price_label => 'Praghas in aghaidh an aonaid:';
+
+  @override
+  String get log_total_price_label => 'Praghas iomlán:';
+
+  @override
+  String get log_expiry_date_label => 'Dáta éaga:';
+
+  @override
+  String get log_warranty_date_label => 'Dáta baránta:';
+
+  @override
+  String get log_purchase_date_label => 'Dáta ceannaigh:';
+
+  @override
+  String get log_production_date_label => 'Dáta táirgthe:';
+
+  @override
+  String get log_shelf_life_label => 'Dáta bailíochta:';
+
+  @override
+  String get log_storage_location_label => 'Áit stórála:';
+
+  @override
+  String get log_barcode_label => 'Bircód:';
+
+  @override
+  String get log_notes_label => 'Nóta:';
+
+  @override
+  String get log_alert_label => 'Rabhadh réamhchúraim';
+
+  @override
+  String get log_alert_days_label => 'Lá rabhadh:';
+
+  @override
+  String get log_quantity_change_label => 'Athrú i méid:';
+
+  @override
+  String get log_field_changes_label => 'Réimse a chur in eagar:';
+
+  @override
+  String get log_not_set => 'Níor socraíodh';
+
+  @override
+  String get log_empty => 'Folamh';
+
+  @override
+  String get log_alert_enabled => 'Oscail';
+
+  @override
+  String get log_alert_disabled => 'Dún';
+
+  @override
+  String get operation_logs_menu => 'Logáil Oibríochtaí';
+
+  @override
+  String get operation_logs_description =>
+      'Féach agus Aisghabh na Taifid Oibríochta';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Theip ar an oibriú: $error';
+  }
+
+  @override
+  String get no_date => 'Gan Dáta';
+
+  @override
+  String get shelf_life_months_suffix => 'míonna';
+
+  @override
+  String get shelf_life_days_suffix => 'Neamh';
+
+  @override
+  String get alert_days_suffix => 'Neamh';
+
+  @override
+  String get unknown => 'Neamhchinnte';
+
+  @override
+  String get developer_name => 'Léó';
+
+  @override
+  String get log_operation_date_label => 'Dáta Oibríochta:';
 }

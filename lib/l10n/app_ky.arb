@@ -1688,5 +1688,395 @@
   "enter_category_name": "Сураныч, категория атын киргизиңиз",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Сакталбаган өзгөртүүлөр",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Сизде сакталбаган өзгөртүүлөр бар, аракетти тандаңыз:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "Баш тартуу",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "дана",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "бөлүк",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "картон куту",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "сумка",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "бак",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "картон куту",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "жыйнак",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "кг",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "мл",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "см",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "сан",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "бирдик баа",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "валюта",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Жалпы баа:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Сактоо жери",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Элементтин өзгөчөлүктөрү",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "пайдалуу мөөнөт",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Кепилдик мөөнөтүнүн аякташы",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Иштетилген дата",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Сатып алуу датасы",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "{dateType} жана сактоо мөөнөтүнө ылайык автоматтык эсептөө",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Автоматтык эсептөө",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "сүрөт",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Эскертүү",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Комментарийлерди кошуу (милдеттүү эмес)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "жыл",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "Ай",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "асман",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} элемент тандалды",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Баарын танда",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Бардысын тандоодон баш тартуу",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Сактоо жерин топтук алмаштыруу",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Тандалган {count} нерсени өчүрүүгө ишенсеңизби?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} буюм алып салынды",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Азырынча сактоо жайлары жок",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Сактоо жерин топтук алмаштыруу",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} товар {location} жерге көчүрүлдү",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Каттоо",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Редакторлоо",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Өчүрүү",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "камдыкка алуу",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "жөнөтүү",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Экспорттоо ийгиликсиз болду: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Журналды тазалоо",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Бардык операция журналдарын чогуу тазалоону каалайсызбы? Бул аракет калыбына келтирилбейт.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Журнал тазаланды",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Иш-аракет журнал",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Журналды экспорттоо",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Журналды тазалоо",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Азырынча операция журналы жок",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Эреже:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Категория:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Түрү:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Саны:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Бирдик баасы：",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Жалпы баа:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Мурун өтө турган күнү:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Кепилдик мөөнөтү:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Сатып алуу датасы:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Иштеп чыгуу күнү:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Сактоо мөөнөтү:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Сактоочу жай:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Штрих-код:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Эскертме:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Эскертүү:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Эскертме күндөрү：",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Сан өзгөрүшү:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Майданды өзгөртүү:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Орнотулган эмес",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "бош",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "ачуу",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Өчүрүү",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Иш-аракет журнал",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Иштөө жазууларын көрүү жана калыбына келтирүү",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Иштөө ишке болбой калды: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Дата жок",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "ай",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "асман",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "асман",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Белгисиз",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Лео",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Иштөө күнү:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

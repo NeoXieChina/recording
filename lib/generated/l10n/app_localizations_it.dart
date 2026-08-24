@@ -1186,4 +1186,288 @@ class AppLocalizationsIt extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'È stato ridotto $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Modifiche non salvate';
+
+  @override
+  String get unsaved_changes_message =>
+      'Hai delle modifiche non salvate, scegli un\'azione:';
+
+  @override
+  String get discard => 'Abbandonare';
+
+  @override
+  String get unit_piece => 'unità';
+
+  @override
+  String get unit_item => 'pezzo';
+
+  @override
+  String get unit_box => 'scatola';
+
+  @override
+  String get unit_package => 'busta';
+
+  @override
+  String get unit_bottle => 'bottiglia';
+
+  @override
+  String get unit_carton => 'scatola';
+
+  @override
+  String get unit_set => 'set';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'quantità';
+
+  @override
+  String get unit_price_label => 'Prezzo unitario';
+
+  @override
+  String get currency_label => 'Valuta';
+
+  @override
+  String get total_price_label => 'Prezzo totale:';
+
+  @override
+  String get storage_location_label => 'Luogo di conservazione';
+
+  @override
+  String get item_properties => 'Attributi dell\'oggetto';
+
+  @override
+  String get expiry_date_label => 'Periodo di validità';
+
+  @override
+  String get warranty_expiry_date_label => 'Data di scadenza della garanzia';
+
+  @override
+  String get production_date_label => 'Data di produzione';
+
+  @override
+  String get purchase_date_label => 'Data di acquisto';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Calcolo automatico in base a $dateType e alla durata di conservazione';
+  }
+
+  @override
+  String get auto_calculated => 'Calcolo automatico';
+
+  @override
+  String get images_label => 'Immagine';
+
+  @override
+  String get notes_label => 'Nota';
+
+  @override
+  String get add_notes_hint => 'Aggiungere informazioni di nota (opzionale)';
+
+  @override
+  String get year_label => 'anno';
+
+  @override
+  String get month_label => 'luna';
+
+  @override
+  String get day_label => 'cielo';
+
+  @override
+  String selected_count(int count) {
+    return 'È stato selezionato $count elemento';
+  }
+
+  @override
+  String get select_all => 'Seleziona tutto';
+
+  @override
+  String get deselect_all => 'Deseleziona tutto';
+
+  @override
+  String get batch_change_location =>
+      'Spostamento di massa delle posizioni di stoccaggio';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Sei sicuro di voler eliminare i $count oggetti selezionati?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Sono stati eliminati $count articoli';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Nessun luogo di archiviazione disponibile';
+
+  @override
+  String get batch_change_location_title =>
+      'Spostamento di massa dei luoghi di stoccaggio';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'Sono stati spostati $count articoli in $location';
+  }
+
+  @override
+  String get operation_type_create => 'Inserire';
+
+  @override
+  String get operation_type_update => 'Modifica';
+
+  @override
+  String get operation_type_delete => 'Eliminare';
+
+  @override
+  String get operation_type_inbound => 'Ingresso in magazzino';
+
+  @override
+  String get operation_type_outbound => 'Uscita dal magazzino';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Esportazione fallita: $error';
+  }
+
+  @override
+  String get clear_logs => 'Svuota il registro';
+
+  @override
+  String get confirm_clear_logs =>
+      'Sei sicuro di voler cancellare tutti i registri delle operazioni? Questa operazione non può essere annullata.';
+
+  @override
+  String get logs_cleared => 'Il registro è stato svuotato';
+
+  @override
+  String get operation_logs_title => 'Registro operativo';
+
+  @override
+  String get export_logs => 'Esporta registro';
+
+  @override
+  String get clear_logs_tooltip => 'Svuota il registro';
+
+  @override
+  String get no_operation_logs => 'Nessun registro operativo disponibile';
+
+  @override
+  String get log_item_label => 'Oggetto:';
+
+  @override
+  String get log_category_label => 'Categoria:';
+
+  @override
+  String get log_type_label => 'Tipo:';
+
+  @override
+  String get log_quantity_label => 'Quantità:';
+
+  @override
+  String get log_unit_price_label => 'Prezzo unitario:';
+
+  @override
+  String get log_total_price_label => 'Prezzo totale:';
+
+  @override
+  String get log_expiry_date_label => 'Data di scadenza:';
+
+  @override
+  String get log_warranty_date_label => 'Data di garanzia:';
+
+  @override
+  String get log_purchase_date_label => 'Data di acquisto:';
+
+  @override
+  String get log_production_date_label => 'Data di produzione:';
+
+  @override
+  String get log_shelf_life_label => 'Data di scadenza:';
+
+  @override
+  String get log_storage_location_label => 'Luogo di conservazione:';
+
+  @override
+  String get log_barcode_label => 'Codice a barre:';
+
+  @override
+  String get log_notes_label => 'Nota:';
+
+  @override
+  String get log_alert_label => 'Avviso di allerta:';
+
+  @override
+  String get log_alert_days_label => 'Giorni di allerta:';
+
+  @override
+  String get log_quantity_change_label => 'Variazione di quantità:';
+
+  @override
+  String get log_field_changes_label => 'Modifica campo:';
+
+  @override
+  String get log_not_set => 'Non impostato';
+
+  @override
+  String get log_empty => 'Vuoto';
+
+  @override
+  String get log_alert_enabled => 'Aprire';
+
+  @override
+  String get log_alert_disabled => 'Chiudere';
+
+  @override
+  String get operation_logs_menu => 'Registro operativo';
+
+  @override
+  String get operation_logs_description =>
+      'Visualizza e ripristina i record delle operazioni';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Operazione fallita: $error';
+  }
+
+  @override
+  String get no_date => 'Senza data';
+
+  @override
+  String get shelf_life_months_suffix => 'mesi';
+
+  @override
+  String get shelf_life_days_suffix => 'cielo';
+
+  @override
+  String get alert_days_suffix => 'cielo';
+
+  @override
+  String get unknown => 'Sconosciuto';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Data operazione:';
 }

@@ -1177,4 +1177,287 @@ class AppLocalizationsUk extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Вже зменшено $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Незбережені зміни';
+
+  @override
+  String get unsaved_changes_message =>
+      'У вас є незбережені зміни, будь ласка, виберіть дію:';
+
+  @override
+  String get discard => 'відмовитися';
+
+  @override
+  String get unit_piece => 'шт.';
+
+  @override
+  String get unit_item => 'шт';
+
+  @override
+  String get unit_box => 'ящик';
+
+  @override
+  String get unit_package => 'пакет';
+
+  @override
+  String get unit_bottle => 'пляшка';
+
+  @override
+  String get unit_carton => 'коробка';
+
+  @override
+  String get unit_set => 'комплект';
+
+  @override
+  String get unit_kg => 'кг';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'мл';
+
+  @override
+  String get unit_m => 'м';
+
+  @override
+  String get unit_cm => 'см';
+
+  @override
+  String get quantity_label => 'кількість';
+
+  @override
+  String get unit_price_label => 'Ціна за одиницю';
+
+  @override
+  String get currency_label => 'валюта';
+
+  @override
+  String get total_price_label => 'Загальна ціна:';
+
+  @override
+  String get storage_location_label => 'Місце зберігання';
+
+  @override
+  String get item_properties => 'Властивості предмета';
+
+  @override
+  String get expiry_date_label => 'термін дії';
+
+  @override
+  String get warranty_expiry_date_label => 'Дата закінчення гарантії';
+
+  @override
+  String get production_date_label => 'Дата виробництва';
+
+  @override
+  String get purchase_date_label => 'Дата покупки';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Автоматичний розрахунок на основі $dateType та терміну придатності';
+  }
+
+  @override
+  String get auto_calculated => 'Автоматичний розрахунок';
+
+  @override
+  String get images_label => 'зображення';
+
+  @override
+  String get notes_label => 'Примітка';
+
+  @override
+  String get add_notes_hint => 'Додати примітку (необов\'язково)';
+
+  @override
+  String get year_label => 'рік';
+
+  @override
+  String get month_label => 'місяць';
+
+  @override
+  String get day_label => 'небо';
+
+  @override
+  String selected_count(int count) {
+    return 'Вибрано $count пунктів';
+  }
+
+  @override
+  String get select_all => 'Вибрати все';
+
+  @override
+  String get deselect_all => 'Скасувати виділення всього';
+
+  @override
+  String get batch_change_location => 'масове переміщення місць зберігання';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Ви впевнені, що хочете видалити вибрані $count предмети?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Видалено $count предметів';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Немає доступних місць для збереження';
+
+  @override
+  String get batch_change_location_title =>
+      'масове переміщення місць зберігання';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '已將 $count 個物品移動到 $location';
+  }
+
+  @override
+  String get operation_type_create => 'Введення';
+
+  @override
+  String get operation_type_update => 'Редагувати';
+
+  @override
+  String get operation_type_delete => 'видалити';
+
+  @override
+  String get operation_type_inbound => 'Введення на склад';
+
+  @override
+  String get operation_type_outbound => 'Вивезення зі складу';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Експорт не вдався: $error';
+  }
+
+  @override
+  String get clear_logs => 'Очистити журнал';
+
+  @override
+  String get confirm_clear_logs =>
+      'Ви впевнені, що хочете очистити всі журнали операцій? Цю дію неможливо скасувати.';
+
+  @override
+  String get logs_cleared => 'Журнал очищено';
+
+  @override
+  String get operation_logs_title => 'Журнал операцій';
+
+  @override
+  String get export_logs => 'Експорт журналу';
+
+  @override
+  String get clear_logs_tooltip => 'Очистити журнал';
+
+  @override
+  String get no_operation_logs => 'Поки що немає журналу операцій';
+
+  @override
+  String get log_item_label => 'Предмет:';
+
+  @override
+  String get log_category_label => 'Категорія:';
+
+  @override
+  String get log_type_label => 'Тип:';
+
+  @override
+  String get log_quantity_label => 'Кількість:';
+
+  @override
+  String get log_unit_price_label => 'Ціна за одиницю:';
+
+  @override
+  String get log_total_price_label => 'Загальна ціна:';
+
+  @override
+  String get log_expiry_date_label => 'Термін придатності:';
+
+  @override
+  String get log_warranty_date_label => 'Дата гарантії:';
+
+  @override
+  String get log_purchase_date_label => 'Дата покупки:';
+
+  @override
+  String get log_production_date_label => 'Дата виробництва:';
+
+  @override
+  String get log_shelf_life_label => 'Термін придатності:';
+
+  @override
+  String get log_storage_location_label => 'Місце зберігання:';
+
+  @override
+  String get log_barcode_label => 'Штрих-код:';
+
+  @override
+  String get log_notes_label => 'Примітка:';
+
+  @override
+  String get log_alert_label => 'Попередження:';
+
+  @override
+  String get log_alert_days_label => 'Дні попередження:';
+
+  @override
+  String get log_quantity_change_label => 'Зміна кількості:';
+
+  @override
+  String get log_field_changes_label => 'Змінити поле:';
+
+  @override
+  String get log_not_set => 'Не встановлено';
+
+  @override
+  String get log_empty => 'порожній';
+
+  @override
+  String get log_alert_enabled => 'увімкнути';
+
+  @override
+  String get log_alert_disabled => 'Закрити';
+
+  @override
+  String get operation_logs_menu => 'Журнал операцій';
+
+  @override
+  String get operation_logs_description =>
+      'Перегляд та відновлення записів операцій';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Операція не вдалася: $error';
+  }
+
+  @override
+  String get no_date => 'Без дати';
+
+  @override
+  String get shelf_life_months_suffix => 'місяць';
+
+  @override
+  String get shelf_life_days_suffix => 'небо';
+
+  @override
+  String get alert_days_suffix => 'небо';
+
+  @override
+  String get unknown => 'невідомо';
+
+  @override
+  String get developer_name => 'Лео';
+
+  @override
+  String get log_operation_date_label => 'Дата операції:';
 }

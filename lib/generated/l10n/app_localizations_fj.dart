@@ -1192,4 +1192,287 @@ class AppLocalizationsFj extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Kua ni sa lailai $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Veisau sega ni maroroi';
+
+  @override
+  String get unsaved_changes_message =>
+      'O tiko ena veisau sega ni maroroi, vakatulewataka na cakacaka:';
+
+  @override
+  String get discard => 'Valea';
+
+  @override
+  String get unit_piece => 'lagi';
+
+  @override
+  String get unit_item => 'iVola';
+
+  @override
+  String get unit_box => 'Kati';
+
+  @override
+  String get unit_package => 'iwe';
+
+  @override
+  String get unit_bottle => 'vili';
+
+  @override
+  String get unit_carton => 'Kete';
+
+  @override
+  String get unit_set => 'iVale';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'iVale';
+
+  @override
+  String get unit_price_label => 'Vale ni iyaya';
+
+  @override
+  String get currency_label => 'Vale';
+
+  @override
+  String get total_price_label => 'Yau taucoko:';
+
+  @override
+  String get storage_location_label => 'Yaca ni iLavo';
+
+  @override
+  String get item_properties => 'iTavi ni iyaya';
+
+  @override
+  String get expiry_date_label => 'Vale ni gauna vakadonui';
+
+  @override
+  String get warranty_expiry_date_label => 'Siga ni musuka ni vakadonui';
+
+  @override
+  String get production_date_label => 'Siga ni vakatubu';
+
+  @override
+  String get purchase_date_label => 'Siga ni volivolitaki';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Vakadewataka vakatotolo ena $dateType kei na gauna ni dodonu me vakayagataki';
+  }
+
+  @override
+  String get auto_calculated => 'Vakatotomuri iko na kacivi';
+
+  @override
+  String get images_label => 'iVakatakilakila';
+
+  @override
+  String get notes_label => 'iVakatakilakila';
+
+  @override
+  String get add_notes_hint =>
+      'Vakayacora Vosa ni Vakatavulici (Sega ni Yaga Dina)';
+
+  @override
+  String get year_label => 'yabaki';
+
+  @override
+  String get month_label => 'lagi';
+
+  @override
+  String get day_label => 'lagi';
+
+  @override
+  String selected_count(int count) {
+    return 'Sa digitaki $count na iyaya';
+  }
+
+  @override
+  String get select_all => 'Digitaka taucoko';
+
+  @override
+  String get deselect_all => 'Sega ni digitaka taucoko';
+
+  @override
+  String get batch_change_location => 'Veisau levu ni vanua ni maroroi';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'O sa dede tiko me vakarautaka na $count iyaya sa digitaki me vakarautaki?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Kua ni sa buli $count na iyaya';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Sega ni dua na vanua ni veivakavoui e rawa ni digitaki';
+
+  @override
+  String get batch_change_location_title => 'Veisau levu ni vanua ni maroroi';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'Kua ni $count na iyaya ki $location';
+  }
+
+  @override
+  String get operation_type_create => 'Vakatakilakila';
+
+  @override
+  String get operation_type_update => 'Vakadewataka';
+
+  @override
+  String get operation_type_delete => 'Sese';
+
+  @override
+  String get operation_type_inbound => 'Valei ni iyaya';
+
+  @override
+  String get operation_type_outbound => 'Vale ni volivoli';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Sega ni rawata na vakatulewa ni isau: $error';
+  }
+
+  @override
+  String get clear_logs => 'Vakatokai na itukutuku ni veika kece';
+
+  @override
+  String get confirm_clear_logs =>
+      'O sa na dikeva me vakarautaki kece na itukutuku ni cakacaka? E sega ni rawa ni vakarautaki tale oqo na cakacaka.';
+
+  @override
+  String get logs_cleared => 'Na itukutuku ni gauna sa vakacacani oti';
+
+  @override
+  String get operation_logs_title => 'Lagatakilave ni cakacaka';
+
+  @override
+  String get export_logs => 'Vakatokai na itukutuku ni veika e yaco';
+
+  @override
+  String get clear_logs_tooltip => 'Vakatokai na itukutuku ni veika e yaco';
+
+  @override
+  String get no_operation_logs => 'Sega ni i vola ni cakacaka ena gauna oqo';
+
+  @override
+  String get log_item_label => 'Yaca ni iyaya:';
+
+  @override
+  String get log_category_label => 'Vakatakilakila:';
+
+  @override
+  String get log_type_label => 'Vale ni iwalewale:';
+
+  @override
+  String get log_quantity_label => 'Vale ni iwiliwili:';
+
+  @override
+  String get log_unit_price_label => 'Isau ni iyaya';
+
+  @override
+  String get log_total_price_label => 'Yau taucoko:';
+
+  @override
+  String get log_expiry_date_label => 'Siga ni cava ni livaliva:';
+
+  @override
+  String get log_warranty_date_label => 'Siga ni vakadodonutaki';
+
+  @override
+  String get log_purchase_date_label => 'Siga ni volivoli:';
+
+  @override
+  String get log_production_date_label => 'Siga ni vakatubu';
+
+  @override
+  String get log_shelf_life_label => 'Lako ni gauna ni bula vinaka:';
+
+  @override
+  String get log_storage_location_label => 'Veivanua ni itukutuku';
+
+  @override
+  String get log_barcode_label => 'Matailalai ni naba';
+
+  @override
+  String get log_notes_label => 'Vakatakilakila:';
+
+  @override
+  String get log_alert_label => 'Vakatutu ena gauna ni leqa:';
+
+  @override
+  String get log_alert_days_label => 'Na gauna ni itukutuku vakavuni: ';
+
+  @override
+  String get log_quantity_change_label => 'Veisau ni iwiliwili:';
+
+  @override
+  String get log_field_changes_label => 'Veisautaka na iyaya';
+
+  @override
+  String get log_not_set => 'Sega ni vakatulewa';
+
+  @override
+  String get log_empty => 'lagi';
+
+  @override
+  String get log_alert_enabled => 'Sega na cava';
+
+  @override
+  String get log_alert_disabled => 'Sega';
+
+  @override
+  String get operation_logs_menu => 'Lagatakilave ni cakacaka';
+
+  @override
+  String get operation_logs_description =>
+      'Raica kei na vakaloutaki ni itukutuku ni cakacaka';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Sega ni cakacaka vinaka: $error';
+  }
+
+  @override
+  String get no_date => 'Se sega na siga';
+
+  @override
+  String get shelf_life_months_suffix => 'vica na vula';
+
+  @override
+  String get shelf_life_days_suffix => 'lagi';
+
+  @override
+  String get alert_days_suffix => 'lagi';
+
+  @override
+  String get unknown => 'Sega ni kilai';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Siga ni cakacaka:';
 }

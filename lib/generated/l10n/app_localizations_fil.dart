@@ -1183,4 +1183,288 @@ class AppLocalizationsFil extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Bumaba na ng $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Hindi naisave na mga pagbabago';
+
+  @override
+  String get unsaved_changes_message =>
+      'Mayroon kang mga hindi na-save na pagbabago, pakipili ang aksyon:';
+
+  @override
+  String get discard => 'Sumuko';
+
+  @override
+  String get unit_piece => 'piraso';
+
+  @override
+  String get unit_item => 'piraso';
+
+  @override
+  String get unit_box => 'kahon';
+
+  @override
+  String get unit_package => 'bag';
+
+  @override
+  String get unit_bottle => 'bote';
+
+  @override
+  String get unit_carton => 'kahon';
+
+  @override
+  String get unit_set => 'set';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'sentimetro';
+
+  @override
+  String get quantity_label => 'Dami';
+
+  @override
+  String get unit_price_label => 'Presyo bawat yunit';
+
+  @override
+  String get currency_label => 'Salapi';
+
+  @override
+  String get total_price_label => 'Kabuuang presyo:';
+
+  @override
+  String get storage_location_label => 'Lugar ng Imbakan';
+
+  @override
+  String get item_properties => 'Ari-arian ng bagay';
+
+  @override
+  String get expiry_date_label => 'Bisa';
+
+  @override
+  String get warranty_expiry_date_label => 'Petsa ng pag-expire ng warranty';
+
+  @override
+  String get production_date_label => 'Petsa ng paggawa';
+
+  @override
+  String get purchase_date_label => 'Petsa ng Pagbili';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Awtomatikong kalkulahin ayon sa $dateType at petsa ng pagiging bago';
+  }
+
+  @override
+  String get auto_calculated => 'Awtomatikong pagkalkula';
+
+  @override
+  String get images_label => 'larawan';
+
+  @override
+  String get notes_label => 'Tandaan';
+
+  @override
+  String get add_notes_hint => 'Magdagdag ng impormasyon ng tala (opsyonal)';
+
+  @override
+  String get year_label => 'taon';
+
+  @override
+  String get month_label => 'buwan';
+
+  @override
+  String get day_label => 'langit';
+
+  @override
+  String selected_count(int count) {
+    return 'Napili na ang $count na item';
+  }
+
+  @override
+  String get select_all => 'Piliin Lahat';
+
+  @override
+  String get deselect_all => 'I-undo ang piliin lahat';
+
+  @override
+  String get batch_change_location =>
+      'Maramihang pagpapalit ng lokasyon ng imbakan';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Tiyakin mo bang gusto mong tanggalin ang napiling $count na mga item?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Na-delete na ang $count item';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Walang magagamit na lokasyon ng imbakan';
+
+  @override
+  String get batch_change_location_title =>
+      'Maramihang pagpapalit ng lokasyon ng imbakan';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'Naipadala na ang $count na mga item sa $location';
+  }
+
+  @override
+  String get operation_type_create => 'Ipasok';
+
+  @override
+  String get operation_type_update => 'I-edit';
+
+  @override
+  String get operation_type_delete => 'Tanggalin';
+
+  @override
+  String get operation_type_inbound => 'Pagpasok sa imbentaryo';
+
+  @override
+  String get operation_type_outbound => 'Paglabas ng stock';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Nabigong i-export: $error';
+  }
+
+  @override
+  String get clear_logs => 'I-clear ang log';
+
+  @override
+  String get confirm_clear_logs =>
+      'Sigurado ka bang i-clear ang lahat ng mga log ng operasyon? Hindi maibabalik ang aksyong ito.';
+
+  @override
+  String get logs_cleared => 'Nalinis na ang talaan';
+
+  @override
+  String get operation_logs_title => 'Talaan ng Operasyon';
+
+  @override
+  String get export_logs => 'I-export ang tala';
+
+  @override
+  String get clear_logs_tooltip => 'I-clear ang tala';
+
+  @override
+  String get no_operation_logs => 'Walang log ng operasyon sa ngayon';
+
+  @override
+  String get log_item_label => 'Bagay:';
+
+  @override
+  String get log_category_label => 'Kategorya:';
+
+  @override
+  String get log_type_label => 'Uri:';
+
+  @override
+  String get log_quantity_label => 'Dami:';
+
+  @override
+  String get log_unit_price_label => 'Presyo kada yunit:';
+
+  @override
+  String get log_total_price_label => 'Kabuuang presyo:';
+
+  @override
+  String get log_expiry_date_label => 'Petsa ng pag-expire:';
+
+  @override
+  String get log_warranty_date_label => 'Petsa ng Garantiya:';
+
+  @override
+  String get log_purchase_date_label => 'Petsa ng Pagbili:';
+
+  @override
+  String get log_production_date_label => 'Petsa ng paggawa:';
+
+  @override
+  String get log_shelf_life_label => 'Petsa ng pagiging sariwa:';
+
+  @override
+  String get log_storage_location_label => 'Lugar ng Imbakan:';
+
+  @override
+  String get log_barcode_label => 'Barcode:';
+
+  @override
+  String get log_notes_label => 'Tandaan:';
+
+  @override
+  String get log_alert_label => 'Babala:';
+
+  @override
+  String get log_alert_days_label => 'Bilang ng araw ng paunang babala:';
+
+  @override
+  String get log_quantity_change_label => 'Pagbabago ng dami:';
+
+  @override
+  String get log_field_changes_label => 'I-edit ang field:';
+
+  @override
+  String get log_not_set => 'Hindi nakatakda';
+
+  @override
+  String get log_empty => 'Wala';
+
+  @override
+  String get log_alert_enabled => 'Buksan';
+
+  @override
+  String get log_alert_disabled => 'Isara';
+
+  @override
+  String get operation_logs_menu => 'Talaan ng Operasyon';
+
+  @override
+  String get operation_logs_description =>
+      'Tingnan at Ibalik ang Mga Talaan ng Operasyon';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Pagpalya sa operasyon: $error';
+  }
+
+  @override
+  String get no_date => 'Walang petsa';
+
+  @override
+  String get shelf_life_months_suffix => 'buwan';
+
+  @override
+  String get shelf_life_days_suffix => 'langit';
+
+  @override
+  String get alert_days_suffix => 'langit';
+
+  @override
+  String get unknown => 'Hindi alam';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Petsa ng operasyon:';
 }

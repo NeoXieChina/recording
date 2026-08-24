@@ -1185,4 +1185,285 @@ class AppLocalizationsBo extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'ཉུང་དུ་ཕྱིན་$itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'ཉར་ཚགས་མ་བྱས་པའི་བསྒྱུར་བཅོས།';
+
+  @override
+  String get unsaved_changes_message =>
+      'ཁྱོད་ཀྱིས་ཉར་ཚགས་བྱས་མེད་པའི་བཟོ་བཅོས་བྱས་ཡོད་པས་བྱ་སྤྱོད་ཅིག་འདེམས་རོགས།';
+
+  @override
+  String get discard => 'འདོར་བ།';
+
+  @override
+  String get unit_piece => 'དུམ་བུ་';
+
+  @override
+  String get unit_item => 'དུམ་བུ་';
+
+  @override
+  String get unit_box => 'སྒམ་ཆུང་';
+
+  @override
+  String get unit_package => 'ཁུག་མ་';
+
+  @override
+  String get unit_bottle => 'དམ་བེ་';
+
+  @override
+  String get unit_carton => 'སྒམ་ཆུང་';
+
+  @override
+  String get unit_set => 'སྒྲིག་གཞི།';
+
+  @override
+  String get unit_kg => 'སྤྱི་རྒྱ་';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'ལི་སྨི།';
+
+  @override
+  String get quantity_label => 'གྲངས་འབོར།';
+
+  @override
+  String get unit_price_label => 'རྩིས་གཞིའི་རིན་གོང་།';
+
+  @override
+  String get currency_label => 'དངུལ་ལོར་';
+
+  @override
+  String get total_price_label => 'སྤྱིའི་རིན་གོང་།';
+
+  @override
+  String get storage_location_label => 'གསོག་ཉར་ས་གནས།';
+
+  @override
+  String get item_properties => 'རྣམ་གྲངས་ཀྱི་ཁྱད་ཆོས།';
+
+  @override
+  String get expiry_date_label => 'གོ་ཆོད་པའི་དུས་ཡུན།';
+
+  @override
+  String get warranty_expiry_date_label => 'ཉམས་གསོའི་དུས་ཚད་ཐིམ་པའི་ཚེས་གྲངས།';
+
+  @override
+  String get production_date_label => 'ཐོན་སྐྱེད་ཀྱི་ཚེས་གྲངས།';
+
+  @override
+  String get purchase_date_label => 'ཉོ་བའི་ཚེས་གྲངས།';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'རང་འགུལ་གྱིས་$dateTypeདང་སྤུས་ཚད་འགན་ལེན་དུས་ཡུན་ལྟར་རྩིས་རྒྱག་པ།';
+  }
+
+  @override
+  String get auto_calculated => 'རང་འགུལ་གྱིས་རྩིས་རྒྱག་པ།';
+
+  @override
+  String get images_label => 'པར་རིས།';
+
+  @override
+  String get notes_label => 'མཆན་འགྲེལ།';
+
+  @override
+  String get add_notes_hint => 'དཔྱད་གཏམ་ཁ་སྣོན་བྱས་པ། (གདམ་གསེས་བྱས་པ)';
+
+  @override
+  String get year_label => 'ལོ་';
+
+  @override
+  String get month_label => 'ཟླ་བ།';
+
+  @override
+  String get day_label => 'ནམ་མཁའ་';
+
+  @override
+  String selected_count(int count) {
+    return '$countརྣམ་གྲངས་བདམས་ཐོན་བྱུང་བ།';
+  }
+
+  @override
+  String get select_all => 'ཚང་མ་འདེམས་སྒྲུག་བྱས་པ།';
+
+  @override
+  String get deselect_all => 'ཀུན་གྱི་གདམ་གསེས་མེད་པར་བཟོ་';
+
+  @override
+  String get batch_change_location => 'ཁག་བརྗེས་གསོག་ཉར་བྱེད་ས་';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'ཁྱོད་ཀྱིས་བདམས་པའི་རྣམ་གྲངས་$countབསུབ་འདོད་དམ།';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'རྣམ་གྲངས་$countབསུབ་ཟིན།';
+  }
+
+  @override
+  String get no_storage_location_available => 'གསོག་ཉར་བྱེད་ས་མེད་པ།';
+
+  @override
+  String get batch_change_location_title => 'ཁག་བརྗེས་གསོག་ཉར་བྱེད་ས་';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$countདངོས་རྫས་$location';
+  }
+
+  @override
+  String get operation_type_create => 'ནང་ཞུགས།';
+
+  @override
+  String get operation_type_update => 'རྩོམ་སྒྲིག་པ།';
+
+  @override
+  String get operation_type_delete => 'བསུབ་པ།';
+
+  @override
+  String get operation_type_inbound => 'གསོག་ཉར་གྱི་འཇུག་སྒོ་';
+
+  @override
+  String get operation_type_outbound => 'མཛོད་ཁང་ནས་ཕྱིར་ཐོན་པ།';
+
+  @override
+  String export_failed_message(String error) {
+    return 'ཕྱིར་གཏོང་ཕམ་པ། $error';
+  }
+
+  @override
+  String get clear_logs => 'ཟིན་ཐོ་གཙང་སེལ་';
+
+  @override
+  String get confirm_clear_logs =>
+      'ཁྱོད་ཀྱིས་དངོས་གནས་བཀོལ་སྤྱོད་ཀྱི་ཟིན་ཐོ་ཚང་མ་གཙང་བཤེར་བྱེད་དགོས་སམ། བྱ་སྤྱོད་དེ་ཕྱིར་འཐེན་བྱེད་མི་ཉན།';
+
+  @override
+  String get logs_cleared => 'ཉིན་ཐོ་གཙང་སེལ་བྱས་ཚར།';
+
+  @override
+  String get operation_logs_title => 'བཀོལ་སྤྱོད་ཟིན་ཐོ།';
+
+  @override
+  String get export_logs => 'ཕྱིར་འདྲེན་ཟིན་ཐོ།';
+
+  @override
+  String get clear_logs_tooltip => 'ཟིན་ཐོ་གཙང་སེལ་';
+
+  @override
+  String get no_operation_logs => 'བཀོལ་སྤྱོད་ཀྱི་ཟིན་ཐོ་མེད་པ།';
+
+  @override
+  String get log_item_label => 'རྣམ་གྲངས།';
+
+  @override
+  String get log_category_label => 'རིགས་ཁག';
+
+  @override
+  String get log_type_label => 'རིགས་དབྱིབས་:';
+
+  @override
+  String get log_quantity_label => 'གྲངས་འབོར།';
+
+  @override
+  String get log_unit_price_label => 'རྩིས་གཞིའི་རིན་གོང་།';
+
+  @override
+  String get log_total_price_label => 'སྤྱིའི་རིན་གོང་།';
+
+  @override
+  String get log_expiry_date_label => 'གོ་ཆོད་པའི་དུས་ཚོད།';
+
+  @override
+  String get log_warranty_date_label => 'ཉམས་གསོའི་ཚེས་གྲངས།';
+
+  @override
+  String get log_purchase_date_label => 'ཉོ་བའི་ཚེས་གྲངས།';
+
+  @override
+  String get log_production_date_label => 'ཐོན་སྐྱེད་ཀྱི་ཚེས་གྲངས།';
+
+  @override
+  String get log_shelf_life_label => 'སྤུས་ཚད་འགན་ལེན་དུས་ཡུན།';
+
+  @override
+  String get log_storage_location_label => 'གསོག་ཉར་ས་གནས།';
+
+  @override
+  String get log_barcode_label => 'Barcode:';
+
+  @override
+  String get log_notes_label => 'མཆན་འགྲེལ།';
+
+  @override
+  String get log_alert_label => 'ཉེན་བརྡ།';
+
+  @override
+  String get log_alert_days_label => 'ཉེན་བརྡའི་ཉིན་མོ།';
+
+  @override
+  String get log_quantity_change_label => 'གྲངས་ཚད་བསྒྱུར་བཅོས།';
+
+  @override
+  String get log_field_changes_label => 'ཁྱབ་ཁོངས་བཟོ་བཅོས་རྒྱག་པ།';
+
+  @override
+  String get log_not_set => 'བཀོད་སྒྲིག་མ་བྱས་པ།';
+
+  @override
+  String get log_empty => 'སྟོང་པ་';
+
+  @override
+  String get log_alert_enabled => 'སྒོ་ཕྱེ།';
+
+  @override
+  String get log_alert_disabled => 'ཁ་བསྡམས།';
+
+  @override
+  String get operation_logs_menu => 'བཀོལ་སྤྱོད་ཟིན་ཐོ།';
+
+  @override
+  String get operation_logs_description =>
+      'བཀོལ་སྤྱོད་ཟིན་ཐོ་ལ་ལྟ་བ་དང་སླར་གསོ་བྱས།';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'བཀོལ་སྤྱོད་ཕམ་སོང་། $error';
+  }
+
+  @override
+  String get no_date => 'ཚེས་གྲངས་མེད་པ།';
+
+  @override
+  String get shelf_life_months_suffix => 'ཟླ་(ཚུ)';
+
+  @override
+  String get shelf_life_days_suffix => 'ནམ་མཁའ་';
+
+  @override
+  String get alert_days_suffix => 'ནམ་མཁའ་';
+
+  @override
+  String get unknown => 'མ་ཤེས';
+
+  @override
+  String get developer_name => 'སེང་གེ་';
+
+  @override
+  String get log_operation_date_label => 'བཀོལ་སྤྱོད་ཀྱི་ཚེས་གྲངས།';
 }

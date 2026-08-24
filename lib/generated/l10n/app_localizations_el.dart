@@ -1187,4 +1187,288 @@ class AppLocalizationsEl extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Έχει μειωθεί $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Αποθηκευμένες αλλαγές';
+
+  @override
+  String get unsaved_changes_message =>
+      'Έχετε μη αποθηκευμένες αλλαγές, παρακαλώ επιλέξτε ενέργεια:';
+
+  @override
+  String get discard => 'παραιτούμαι';
+
+  @override
+  String get unit_piece => 'κομμάτι';
+
+  @override
+  String get unit_item => 'αντικείμενο';
+
+  @override
+  String get unit_box => 'κουτί';
+
+  @override
+  String get unit_package => 'πακέτο';
+
+  @override
+  String get unit_bottle => 'μπουκάλι';
+
+  @override
+  String get unit_carton => 'κουτί';
+
+  @override
+  String get unit_set => 'σετ';
+
+  @override
+  String get unit_kg => 'κιλ.';
+
+  @override
+  String get unit_g => 'γ';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'μ';
+
+  @override
+  String get unit_cm => 'εκ';
+
+  @override
+  String get quantity_label => 'ποσότητα';
+
+  @override
+  String get unit_price_label => 'Τιμή μονάδας';
+
+  @override
+  String get currency_label => 'νόμισμα';
+
+  @override
+  String get total_price_label => 'Συνολική τιμή:';
+
+  @override
+  String get storage_location_label => 'Τόπος αποθήκευσης';
+
+  @override
+  String get item_properties => 'Ιδιότητες αντικειμένου';
+
+  @override
+  String get expiry_date_label => 'Ημερομηνία λήξης';
+
+  @override
+  String get warranty_expiry_date_label => 'Ημερομηνία λήξης εγγύησης';
+
+  @override
+  String get production_date_label => 'Ημερομηνία παραγωγής';
+
+  @override
+  String get purchase_date_label => 'Ημερομηνία αγοράς';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Υπολογίζεται αυτόματα σύμφωνα με το $dateType και την ημερομηνία λήξης';
+  }
+
+  @override
+  String get auto_calculated => 'Αυτόματος υπολογισμός';
+
+  @override
+  String get images_label => 'εικόνα';
+
+  @override
+  String get notes_label => 'Σημείωση';
+
+  @override
+  String get add_notes_hint => 'Προσθήκη σημειώσεων (προαιρετικό)';
+
+  @override
+  String get year_label => 'έτος';
+
+  @override
+  String get month_label => 'μήνας';
+
+  @override
+  String get day_label => 'ουρανός';
+
+  @override
+  String selected_count(int count) {
+    return 'Έχουν επιλεγεί $count στοιχεία';
+  }
+
+  @override
+  String get select_all => 'Επιλογή όλων';
+
+  @override
+  String get deselect_all => 'Αποεπιλογή όλων';
+
+  @override
+  String get batch_change_location => 'Μαζική αλλαγή θέσης αποθήκευσης';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Είστε σίγουροι ότι θέλετε να διαγράψετε τα επιλεγμένα $count αντικείμενα;';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Έχουν διαγραφεί $count αντικείμενα';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Δεν υπάρχει διαθέσιμη τοποθεσία αποθήκευσης';
+
+  @override
+  String get batch_change_location_title =>
+      'Μαζική αλλαγή των τόπων αποθήκευσης';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'Έχουν μετακινηθεί $count αντικείμενα στο $location';
+  }
+
+  @override
+  String get operation_type_create => 'Καταχώρηση';
+
+  @override
+  String get operation_type_update => 'Επεξεργασία';
+
+  @override
+  String get operation_type_delete => 'διαγραφή';
+
+  @override
+  String get operation_type_inbound => 'Εισαγωγή αποθήκης';
+
+  @override
+  String get operation_type_outbound => 'Αποθήκευση αποθήκης';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Εξαγωγή αποτυχημένη: $error';
+  }
+
+  @override
+  String get clear_logs => 'Καθαρισμός αρχείου καταγραφής';
+
+  @override
+  String get confirm_clear_logs =>
+      'Είστε σίγουρος ότι θέλετε να διαγράψετε όλα τα αρχεία καταγραφής ενεργειών; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.';
+
+  @override
+  String get logs_cleared => 'Το αρχείο καταγραφής έχει καθαριστεί';
+
+  @override
+  String get operation_logs_title => 'Αρχείο λειτουργιών';
+
+  @override
+  String get export_logs => 'Εξαγωγή αρχείου καταγραφής';
+
+  @override
+  String get clear_logs_tooltip => 'Καθαρισμός καταγραφών';
+
+  @override
+  String get no_operation_logs =>
+      'Δεν υπάρχουν αρχεία καταγραφής λειτουργιών προς το παρόν';
+
+  @override
+  String get log_item_label => 'Αντικείμενο:';
+
+  @override
+  String get log_category_label => 'Κατηγορία:';
+
+  @override
+  String get log_type_label => 'Τύπος:';
+
+  @override
+  String get log_quantity_label => 'Ποσότητα:';
+
+  @override
+  String get log_unit_price_label => 'Τιμή μονάδας:';
+
+  @override
+  String get log_total_price_label => 'Συνολική τιμή:';
+
+  @override
+  String get log_expiry_date_label => 'Ημερομηνία λήξης:';
+
+  @override
+  String get log_warranty_date_label => 'Ημερομηνία εγγύησης:';
+
+  @override
+  String get log_purchase_date_label => 'Ημερομηνία αγοράς:';
+
+  @override
+  String get log_production_date_label => 'Ημερομηνία παραγωγής:';
+
+  @override
+  String get log_shelf_life_label => 'Ημερομηνία λήξης:';
+
+  @override
+  String get log_storage_location_label => 'Τοποθεσία αποθήκευσης:';
+
+  @override
+  String get log_barcode_label => 'Κωδικός γραμμωτού κώδικα:';
+
+  @override
+  String get log_notes_label => 'Σημείωση:';
+
+  @override
+  String get log_alert_label => 'Προειδοποίηση:';
+
+  @override
+  String get log_alert_days_label => 'Ημέρες προειδοποίησης:';
+
+  @override
+  String get log_quantity_change_label => 'Αλλαγή ποσότητας:';
+
+  @override
+  String get log_field_changes_label => 'Τροποποίηση πεδίου:';
+
+  @override
+  String get log_not_set => 'Δεν έχει ρυθμιστεί';
+
+  @override
+  String get log_empty => 'κενό';
+
+  @override
+  String get log_alert_enabled => 'Άνοιγμα';
+
+  @override
+  String get log_alert_disabled => 'Κλείσιμο';
+
+  @override
+  String get operation_logs_menu => 'Αρχείο λειτουργιών';
+
+  @override
+  String get operation_logs_description =>
+      'Προβολή και επαναφορά των αρχείων καταγραφής των ενεργειών';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Αποτυχία λειτουργίας: $error';
+  }
+
+  @override
+  String get no_date => 'Χωρίς ημερομηνία';
+
+  @override
+  String get shelf_life_months_suffix => 'μήνες';
+
+  @override
+  String get shelf_life_days_suffix => 'ουρανός';
+
+  @override
+  String get alert_days_suffix => 'ουρανός';
+
+  @override
+  String get unknown => 'Άγνωστο';
+
+  @override
+  String get developer_name => 'Λέο';
+
+  @override
+  String get log_operation_date_label => 'Ημερομηνία λειτουργίας:';
 }

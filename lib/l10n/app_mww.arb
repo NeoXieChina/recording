@@ -1688,5 +1688,395 @@
   "enter_category_name": "Thov sau lub npe pawg",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Cov kev hloov uas tsis tau khaws cia",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Yog koj muaj kev hloov uas tsis tau txuag, thov xaiv ib qho kev ua:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "Tso tseg",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "daim",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "daim",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "Thawv",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "hnab",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "raj mis",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "thawv",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "teem",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "Qhov ntau",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Nqi ib qho",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Nyiaj txiag",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Nqi Tag Nrho:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Chaw khaws cia",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Cov yam ntxwv ntawm yam khoom",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Lub sijhawm siv tau",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Hnub Xaus Kev Lav Ntseg",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Hnub tsim khoom",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Hnub yuav khoom",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Xam tau tsis siv neeg raws li {dateType} thiab lub neej txee",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Kev suav tsis siv neeg",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "Duab",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Lus ceeb toom",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Ntxiv lus piav qhia (yeem xaiv)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "Xyoo",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "Hli",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "Ntuj",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} yam khoom xaiv tau",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Xaiv Txhua Yam",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Tshem Tawm Txhua Yam",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Batch swap chaw cia ntaub ntawv",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Koj puas paub tseeb tias koj xav rho tawm cov khoom {count} xaiv?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} yam khoom tau raug tshem tawm",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Tsis muaj chaw cia ntaub ntawv",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Batch swap chaw cia ntaub ntawv",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} yam khoom tau hloov mus rau {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Nkag",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Kho kom raug",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Rho tawm",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Khaws cia",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Xa tawm ntawm lub tsev khaws khoom",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Export tsis tau: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Ntxuav cov log",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Koj puas paub tseeb tias koj xav tshem tag nrho cov ntaub ntawv ua haujlwm? Qhov kev ua no tsis tuaj yeem hloov tau.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Lub log tau ntxuav lawm",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Operation Log",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Export Log",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Ntxuav cov log",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Tsis muaj ntaub ntawv sau kev ua haujlwm",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Yam khoom:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Qeb:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Hom:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Ntau:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Nqi ib chav:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Nqi Tag Nrho:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Hnub xaus:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Hnub Warranty:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Hnub yuav:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Hnub tsim khoom:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Lub neej khaws cia:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Chaw cia khoom:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Barcode:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Ceeb toom:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Ceeb toom:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Hnub ceeb toom:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Kev Hloov Ntau:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Hloov kho qhov chaw:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Tsis tau teeb tsa",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "tsis muaj dab tsi",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Qhib",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Kaw",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Operation Log",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Saib thiab rov qab cov ntaub ntawv ua haujlwm",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Kev ua haujlwm tsis tau: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Tsis muaj hnub tim",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "hli (hli)",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "Ntuj",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "Ntuj",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Tsis paub",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Hnub Ua Haujlwm:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

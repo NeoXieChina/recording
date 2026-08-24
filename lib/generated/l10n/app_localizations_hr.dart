@@ -1177,4 +1177,286 @@ class AppLocalizationsHr extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Smanjeno za $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Nespremjene promjene';
+
+  @override
+  String get unsaved_changes_message =>
+      'Imate nespremljene promjene, molimo odaberite radnju:';
+
+  @override
+  String get discard => 'odustati';
+
+  @override
+  String get unit_piece => 'jedan';
+
+  @override
+  String get unit_item => 'predmet';
+
+  @override
+  String get unit_box => 'kutija';
+
+  @override
+  String get unit_package => 'torba';
+
+  @override
+  String get unit_bottle => 'boca';
+
+  @override
+  String get unit_carton => 'kutija';
+
+  @override
+  String get unit_set => 'set';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'Količina';
+
+  @override
+  String get unit_price_label => 'Jedinična cijena';
+
+  @override
+  String get currency_label => 'Valuta';
+
+  @override
+  String get total_price_label => 'Ukupna cijena:';
+
+  @override
+  String get storage_location_label => 'Mjesto pohrane';
+
+  @override
+  String get item_properties => 'Svojstva predmeta';
+
+  @override
+  String get expiry_date_label => 'Vrijedi';
+
+  @override
+  String get warranty_expiry_date_label => 'Datum isteka jamstva';
+
+  @override
+  String get production_date_label => 'Datum proizvodnje';
+
+  @override
+  String get purchase_date_label => 'Datum kupnje';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Automatski izračunava prema $dateType i roku trajanja';
+  }
+
+  @override
+  String get auto_calculated => 'Automatsko izračunavanje';
+
+  @override
+  String get images_label => 'slika';
+
+  @override
+  String get notes_label => 'Bilješka';
+
+  @override
+  String get add_notes_hint => 'Dodajte napomenu (opcionalno)';
+
+  @override
+  String get year_label => 'godina';
+
+  @override
+  String get month_label => 'mjesec';
+
+  @override
+  String get day_label => 'nebo';
+
+  @override
+  String selected_count(int count) {
+    return 'Odabrano je $count stavki';
+  }
+
+  @override
+  String get select_all => 'Odaberi sve';
+
+  @override
+  String get deselect_all => 'Odznači sve';
+
+  @override
+  String get batch_change_location => 'Masovno mijenjanje lokacije pohrane';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Jeste li sigurni da želite izbrisati odabrane $count stavke?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Obrisano je $count predmeta';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Trenutno nema dostupnih lokacija za pohranu';
+
+  @override
+  String get batch_change_location_title =>
+      'Masovno mijenjanje lokacije pohrane';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count predmeta je premješteno u $location';
+  }
+
+  @override
+  String get operation_type_create => 'Unos';
+
+  @override
+  String get operation_type_update => 'Uredi';
+
+  @override
+  String get operation_type_delete => 'Izbriši';
+
+  @override
+  String get operation_type_inbound => 'ulazak u skladište';
+
+  @override
+  String get operation_type_outbound => 'izlazak iz skladišta';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Izvoz nije uspio: $error';
+  }
+
+  @override
+  String get clear_logs => 'Očisti zapisnik';
+
+  @override
+  String get confirm_clear_logs =>
+      'Jeste li sigurni da želite izbrisati sve zapisnike radnji? Ova radnja se ne može poništiti.';
+
+  @override
+  String get logs_cleared => 'Dnevnik je očišćen';
+
+  @override
+  String get operation_logs_title => 'Dnevnik operacija';
+
+  @override
+  String get export_logs => 'Izvezi zapisnik';
+
+  @override
+  String get clear_logs_tooltip => 'Očisti zapisnik';
+
+  @override
+  String get no_operation_logs => 'Trenutno nema zapisnika operacija';
+
+  @override
+  String get log_item_label => 'Predmet:';
+
+  @override
+  String get log_category_label => 'Kategorija:';
+
+  @override
+  String get log_type_label => 'Vrsta:';
+
+  @override
+  String get log_quantity_label => 'Količina:';
+
+  @override
+  String get log_unit_price_label => 'Jedinična cijena:';
+
+  @override
+  String get log_total_price_label => 'Ukupna cijena:';
+
+  @override
+  String get log_expiry_date_label => 'Datum isteka:';
+
+  @override
+  String get log_warranty_date_label => 'Datum jamstva:';
+
+  @override
+  String get log_purchase_date_label => 'Datum kupnje:';
+
+  @override
+  String get log_production_date_label => 'Datum proizvodnje:';
+
+  @override
+  String get log_shelf_life_label => 'Rok trajanja:';
+
+  @override
+  String get log_storage_location_label => 'Mjesto pohrane:';
+
+  @override
+  String get log_barcode_label => 'Šifra proizvoda:';
+
+  @override
+  String get log_notes_label => 'Napomena:';
+
+  @override
+  String get log_alert_label => 'Upozorenje:';
+
+  @override
+  String get log_alert_days_label => 'Broj dana upozorenja:';
+
+  @override
+  String get log_quantity_change_label => 'Promjena količine:';
+
+  @override
+  String get log_field_changes_label => 'Izmijeni polje:';
+
+  @override
+  String get log_not_set => 'Nije postavljeno';
+
+  @override
+  String get log_empty => 'prazno';
+
+  @override
+  String get log_alert_enabled => 'otvoriti';
+
+  @override
+  String get log_alert_disabled => 'Zatvori';
+
+  @override
+  String get operation_logs_menu => 'Dnevnik operacija';
+
+  @override
+  String get operation_logs_description => 'Pregled i obnova zapisa o radnjama';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Operacija nije uspjela: $error';
+  }
+
+  @override
+  String get no_date => 'Bez datuma';
+
+  @override
+  String get shelf_life_months_suffix => 'mjeseci';
+
+  @override
+  String get shelf_life_days_suffix => 'nebo';
+
+  @override
+  String get alert_days_suffix => 'nebo';
+
+  @override
+  String get unknown => 'Nepoznato';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Datum operacije:';
 }

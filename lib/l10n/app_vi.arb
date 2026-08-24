@@ -1688,5 +1688,395 @@
   "enter_category_name": "Vui lòng nhập tên danh mục",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Thay đổi chưa được lưu",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Bạn có những thay đổi chưa được lưu, vui lòng chọn thao tác:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "Từ bỏ",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "cái",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "kiện",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "hộp",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "bao",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "chai",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "hộp",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "bộ",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "Số lượng",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Đơn giá",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Tiền tệ",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Tổng giá:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Nơi lưu trữ",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Thuộc tính vật phẩm",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Thời hạn hiệu lực",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Ngày hết hạn bảo hành",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Ngày sản xuất",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Ngày mua",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Tự động tính toán theo {dateType} và hạn sử dụng",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Tự động tính toán",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "Hình ảnh",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Ghi chú",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Thêm thông tin ghi chú (tùy chọn)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "năm",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "tháng",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "trời",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Đã chọn {count} mục",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Chọn tất cả",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Bỏ chọn tất cả",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Thay đổi địa điểm lưu trữ hàng loạt",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Bạn có chắc chắn muốn xóa {count} mục đã chọn không?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Đã xóa {count} món đồ",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Hiện chưa có địa điểm lưu trữ nào để chọn",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Thay đổi hàng loạt địa điểm lưu trữ",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "Đã chuyển {count} món đồ sang {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Nhập liệu",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Chỉnh sửa",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Xóa",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Nhập kho",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "xuất kho",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Xuất khẩu thất bại: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Xóa nhật ký",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Bạn có chắc chắn muốn xóa tất cả nhật ký hoạt động không? Hành động này không thể khôi phục.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Nhật ký đã bị xóa",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Nhật ký thao tác",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Xuất nhật ký",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Xóa nhật ký",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Tạm thời không có nhật ký hoạt động",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Vật phẩm:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Phân loại:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Loại:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Số lượng:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Đơn giá:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Tổng giá:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Ngày hết hạn:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Ngày bảo hành:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Ngày mua:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Ngày sản xuất:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Hạn sử dụng:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Nơi lưu trữ:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Mã vạch:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Ghi chú:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Cảnh báo:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Số ngày cảnh báo:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Thay đổi số lượng:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Chỉnh sửa trường:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Chưa được thiết lập",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "Trống",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Mở",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Đóng",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Nhật ký thao tác",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Xem và phục hồi lịch sử thao tác",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Thao tác thất bại: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Không có ngày",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "tháng",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "trời",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "trời",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Không rõ",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Lôi Âu",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Ngày thao tác:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

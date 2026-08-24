@@ -1171,4 +1171,285 @@ class AppLocalizationsEt extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'On vähendatud $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Salvestamata muudatused';
+
+  @override
+  String get unsaved_changes_message =>
+      'Teil on salvestamata muudatusi, palun valige toiming:';
+
+  @override
+  String get discard => 'loobuma';
+
+  @override
+  String get unit_piece => 'tükk';
+
+  @override
+  String get unit_item => 'ese';
+
+  @override
+  String get unit_box => 'kast';
+
+  @override
+  String get unit_package => 'kott';
+
+  @override
+  String get unit_bottle => 'pudel';
+
+  @override
+  String get unit_carton => 'kast';
+
+  @override
+  String get unit_set => 'komplekt';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'kogus';
+
+  @override
+  String get unit_price_label => 'ühikuhind';
+
+  @override
+  String get currency_label => 'valuuta';
+
+  @override
+  String get total_price_label => 'Koguhind:';
+
+  @override
+  String get storage_location_label => 'Hoiustamiskoht';
+
+  @override
+  String get item_properties => 'Eseme omadused';
+
+  @override
+  String get expiry_date_label => 'Kehtivusaeg';
+
+  @override
+  String get warranty_expiry_date_label => 'Garantii kehtivuse lõppkuupäev';
+
+  @override
+  String get production_date_label => 'Tootmiskuupäev';
+
+  @override
+  String get purchase_date_label => 'Ostu kuupäev';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Automaatselt arvutatud vastavalt $dateType ja säilivusajale';
+  }
+
+  @override
+  String get auto_calculated => 'Automaatselt arvutama';
+
+  @override
+  String get images_label => 'pilt';
+
+  @override
+  String get notes_label => 'Märkused';
+
+  @override
+  String get add_notes_hint => 'Lisa märkuse teave (valikuline)';
+
+  @override
+  String get year_label => 'aasta';
+
+  @override
+  String get month_label => 'kuu';
+
+  @override
+  String get day_label => 'taevas';
+
+  @override
+  String selected_count(int count) {
+    return 'Valitud on $count üksust';
+  }
+
+  @override
+  String get select_all => 'Vali kõik';
+
+  @override
+  String get deselect_all => 'Tühista kõik valikud';
+
+  @override
+  String get batch_change_location => 'Hulgihoidlate vahetamine';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Kas olete kindel, et soovite kustutada valitud $count kirjet?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'On kustutatud $count eset';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Hetkel ei ole salvestuskohta valikus';
+
+  @override
+  String get batch_change_location_title => 'Hulgihoidlate vahetamine';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count eset on teisaldatud $location';
+  }
+
+  @override
+  String get operation_type_create => 'Sisestamine';
+
+  @override
+  String get operation_type_update => 'Redigeeri';
+
+  @override
+  String get operation_type_delete => 'Kustuta';
+
+  @override
+  String get operation_type_inbound => 'laole sisestama';
+
+  @override
+  String get operation_type_outbound => 'laost väljastama';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Eksport ebaõnnestus: $error';
+  }
+
+  @override
+  String get clear_logs => 'Tühjenda logi';
+
+  @override
+  String get confirm_clear_logs =>
+      'Kas olete kindel, et soovite kõik tegevuslogid tühjendada? Seda toimingut ei saa tagasi võtta.';
+
+  @override
+  String get logs_cleared => 'Logi on tühjendatud';
+
+  @override
+  String get operation_logs_title => 'Tegevuste logi';
+
+  @override
+  String get export_logs => 'Logi eksportimine';
+
+  @override
+  String get clear_logs_tooltip => 'Tühjenda logi';
+
+  @override
+  String get no_operation_logs => 'Puudub tegevuslogi';
+
+  @override
+  String get log_item_label => 'Ese: ';
+
+  @override
+  String get log_category_label => 'Kategooria:';
+
+  @override
+  String get log_type_label => 'Tüüp:';
+
+  @override
+  String get log_quantity_label => 'Kogus:';
+
+  @override
+  String get log_unit_price_label => 'Ühiku hind:';
+
+  @override
+  String get log_total_price_label => 'Koguhind:';
+
+  @override
+  String get log_expiry_date_label => 'Aegumiskuupäev:';
+
+  @override
+  String get log_warranty_date_label => 'Garantii kehtivuse kuupäev:';
+
+  @override
+  String get log_purchase_date_label => 'Ostukuupäev:';
+
+  @override
+  String get log_production_date_label => 'Tootmiskuupäev:';
+
+  @override
+  String get log_shelf_life_label => 'Parim enne:';
+
+  @override
+  String get log_storage_location_label => 'Hoiukoht:';
+
+  @override
+  String get log_barcode_label => 'Vöötkood:';
+
+  @override
+  String get log_notes_label => 'Märkus:';
+
+  @override
+  String get log_alert_label => 'Hoiatus:';
+
+  @override
+  String get log_alert_days_label => 'Hoiatuspäevade arv:';
+
+  @override
+  String get log_quantity_change_label => 'Koguse muutus:';
+
+  @override
+  String get log_field_changes_label => 'Muuda välju:';
+
+  @override
+  String get log_not_set => 'Pole seatud';
+
+  @override
+  String get log_empty => 'tühi';
+
+  @override
+  String get log_alert_enabled => 'Avama';
+
+  @override
+  String get log_alert_disabled => 'Sulge';
+
+  @override
+  String get operation_logs_menu => 'Tegevuste logi';
+
+  @override
+  String get operation_logs_description => 'Vaata ja taasta tegevuste ajalugu';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Toiming ebaõnnestus: $error';
+  }
+
+  @override
+  String get no_date => 'Kuupäev puudub';
+
+  @override
+  String get shelf_life_months_suffix => 'kuud';
+
+  @override
+  String get shelf_life_days_suffix => 'taevas';
+
+  @override
+  String get alert_days_suffix => 'taevas';
+
+  @override
+  String get unknown => 'Tundmatu';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Teostamise kuupäev:';
 }

@@ -1175,4 +1175,286 @@ class AppLocalizationsFa extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'تعداد $itemName $quantity$unit کاهش یافته است';
   }
+
+  @override
+  String get unsaved_changes => 'تغییرات ذخیره‌نشده';
+
+  @override
+  String get unsaved_changes_message =>
+      'شما تغییرات ذخیره‌نشده‌ای دارید، لطفاً عملیات را انتخاب کنید:';
+
+  @override
+  String get discard => 'رها کردن';
+
+  @override
+  String get unit_piece => 'عدد';
+
+  @override
+  String get unit_item => '件';
+
+  @override
+  String get unit_box => 'جعبه';
+
+  @override
+  String get unit_package => 'کیسه';
+
+  @override
+  String get unit_bottle => 'بطری';
+
+  @override
+  String get unit_carton => 'جعبه';
+
+  @override
+  String get unit_set => 'ست';
+
+  @override
+  String get unit_kg => 'کیلوگرم';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'میلی‌لیتر';
+
+  @override
+  String get unit_m => 'م';
+
+  @override
+  String get unit_cm => 'سانتی‌متر';
+
+  @override
+  String get quantity_label => 'تعداد';
+
+  @override
+  String get unit_price_label => 'قیمت واحد';
+
+  @override
+  String get currency_label => 'ارز';
+
+  @override
+  String get total_price_label => 'قیمت کل:';
+
+  @override
+  String get storage_location_label => 'محل ذخیره‌سازی';
+
+  @override
+  String get item_properties => 'ویژگی‌های آیتم';
+
+  @override
+  String get expiry_date_label => 'تاریخ اعتبار';
+
+  @override
+  String get warranty_expiry_date_label => 'تاریخ انقضای گارانتی';
+
+  @override
+  String get production_date_label => 'تاریخ تولید';
+
+  @override
+  String get purchase_date_label => 'تاریخ خرید';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'به طور خودکار بر اساس $dateType و تاریخ انقضا محاسبه می‌کند';
+  }
+
+  @override
+  String get auto_calculated => 'محاسبه خودکار';
+
+  @override
+  String get images_label => 'تصویر';
+
+  @override
+  String get notes_label => 'یادداشت';
+
+  @override
+  String get add_notes_hint => 'افزودن اطلاعات یادداشت (اختیاری)';
+
+  @override
+  String get year_label => 'سال';
+
+  @override
+  String get month_label => 'ماه';
+
+  @override
+  String get day_label => 'آسمان';
+
+  @override
+  String selected_count(int count) {
+    return 'تعداد $count مورد انتخاب شده است';
+  }
+
+  @override
+  String get select_all => 'انتخاب همه';
+
+  @override
+  String get deselect_all => 'لغو انتخاب همه';
+
+  @override
+  String get batch_change_location => 'تغییر مکان ذخیره‌سازی به صورت دسته‌ای';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'آیا مطمئن هستید که می‌خواهید $count مورد انتخاب‌شده را حذف کنید؟';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'تعداد $count آیتم حذف شد';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'هیچ مکان ذخیره‌سازی قابل انتخابی وجود ندارد';
+
+  @override
+  String get batch_change_location_title =>
+      'تغییر مکان ذخیره‌سازی به صورت دسته‌ای';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'تعداد $count مورد به $location منتقل شد';
+  }
+
+  @override
+  String get operation_type_create => 'ثبت کردن';
+
+  @override
+  String get operation_type_update => 'ویرایش';
+
+  @override
+  String get operation_type_delete => 'حذف';
+
+  @override
+  String get operation_type_inbound => 'ورود به انبار';
+
+  @override
+  String get operation_type_outbound => 'خروج از انبار';
+
+  @override
+  String export_failed_message(String error) {
+    return 'صدور خروجی ناموفق بود: $error';
+  }
+
+  @override
+  String get clear_logs => 'پاک کردن سابقه';
+
+  @override
+  String get confirm_clear_logs =>
+      'آیا می‌خواهید همه‌ی گزارش‌های عملیات را پاک کنید؟ این عملیات قابل بازگشت نیست.';
+
+  @override
+  String get logs_cleared => 'لاگ‌ها پاک شدند';
+
+  @override
+  String get operation_logs_title => 'گزارش عملیات';
+
+  @override
+  String get export_logs => 'صادرات لاگ';
+
+  @override
+  String get clear_logs_tooltip => 'پاک کردن سابقه';
+
+  @override
+  String get no_operation_logs => 'هنوز هیچ سابقه عملیاتی وجود ندارد';
+
+  @override
+  String get log_item_label => 'اقلام:';
+
+  @override
+  String get log_category_label => 'دسته‌بندی:';
+
+  @override
+  String get log_type_label => 'نوع:';
+
+  @override
+  String get log_quantity_label => 'تعداد:';
+
+  @override
+  String get log_unit_price_label => 'قیمت واحد:';
+
+  @override
+  String get log_total_price_label => 'قیمت کل:';
+
+  @override
+  String get log_expiry_date_label => 'تاریخ انقضا:';
+
+  @override
+  String get log_warranty_date_label => 'تاریخ گارانتی:';
+
+  @override
+  String get log_purchase_date_label => 'تاریخ خرید:';
+
+  @override
+  String get log_production_date_label => 'تاریخ تولید:';
+
+  @override
+  String get log_shelf_life_label => 'تاریخ مصرف:';
+
+  @override
+  String get log_storage_location_label => 'محل ذخیره‌سازی:';
+
+  @override
+  String get log_barcode_label => 'بارکد:';
+
+  @override
+  String get log_notes_label => 'توضیحات:';
+
+  @override
+  String get log_alert_label => 'هشدار';
+
+  @override
+  String get log_alert_days_label => 'روزهای هشدار';
+
+  @override
+  String get log_quantity_change_label => 'تغییرات کمیت:';
+
+  @override
+  String get log_field_changes_label => 'ویرایش فیلد:';
+
+  @override
+  String get log_not_set => 'تنظیم نشده';
+
+  @override
+  String get log_empty => 'خالی';
+
+  @override
+  String get log_alert_enabled => 'باز کردن';
+
+  @override
+  String get log_alert_disabled => 'بستن';
+
+  @override
+  String get operation_logs_menu => 'گزارش عملیات';
+
+  @override
+  String get operation_logs_description => 'مشاهده و بازیابی سوابق عملیات';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'عملیات ناموفق بود: $error';
+  }
+
+  @override
+  String get no_date => 'بدون تاریخ';
+
+  @override
+  String get shelf_life_months_suffix => 'ماه';
+
+  @override
+  String get shelf_life_days_suffix => 'آسمان';
+
+  @override
+  String get alert_days_suffix => 'آسمان';
+
+  @override
+  String get unknown => 'ناشناخته';
+
+  @override
+  String get developer_name => 'لئو';
+
+  @override
+  String get log_operation_date_label => 'تاریخ عملیات:';
 }

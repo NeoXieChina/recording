@@ -1688,5 +1688,395 @@
   "enter_category_name": "Si us plau, introdueix el nom de la categoria",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Canvis no desats",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Teniu canvis no desats, si us plau, trieu una acció:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "renunciar",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "qüestió",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "qüestió",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "caixa",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "paquet",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "ampolla",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "caixa",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "conjunt",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "quantitat",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "preu unitari",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "moneda",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Preu total:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Lloc d'emmagatzematge",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Atributs de l'objecte",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Període de validesa",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Data de venciment de la garantia",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Data de producció",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Data de compra",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Calculeu automàticament segons {dateType} i el termini de validesa",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Càlcul automàtic",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "imatge",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Nota",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Afegeix informació addicional (opcional)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "any",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "lluna",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "cel",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "S'han seleccionat {count} elements",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Selecciona-ho tot",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Desmarcar tot",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Canviar massivement el lloc d'emmagatzematge",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Estàs segur que vols eliminar els {count} elements seleccionats?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "S'han eliminat {count} articles",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Encara no hi ha cap lloc d'emmagatzematge disponible",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Canvi massiu de lloc d'emmagatzematge",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "S'han mogut {count} articles a {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Introduir",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Editar",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Eliminar",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Emmagatzemat",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Sortida d'emmagatzematge",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Exportació fallida: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Esborrar el registre",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Estàs segur de voler esborrar tots els registres d'operacions? Aquesta acció és irreversible.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "El registre s'ha esborrat",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Registre d'operacions",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Exportar registre",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Esborrar el registre",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Encara no hi ha registre d'operacions",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Article:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Categoria:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Tipus:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Quantitat:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Preu unitari:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Preu total:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Data de caducitat:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Data de garantia:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Data de compra:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Data de producció:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Data de caducitat:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Lloc d'emmagatzematge:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Codi de barres:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Nota:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Avís anticipat:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Dies d'alerta:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Canvi de quantitat:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Modifica el camp:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "No establert",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "buït",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Obrir",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Tancar",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Registre d'operacions",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Veure i restaurar els registres d'operació",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Operació fallida: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Sense data",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "mesos",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "cel",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "cel",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Desconegut",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Data d'operació:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

@@ -1688,5 +1688,395 @@
   "enter_category_name": "Indtast kategorinavn",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Usikkerede ændringer",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Du har ændringer, der ikke er gemt. Vælg venligst en handling:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "opføre",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "styk",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "stykke",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "kasse",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "pose",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "flaske",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "æske",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "sæt",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "mængde",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Enhedspris",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Valuta",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Samlet pris:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Opbevaringssted",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Vareegenskaber",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "gyldighedsperiode",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Garantiudløbsdato",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Produktionsdato",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Købsdato",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Beregnes automatisk i henhold til {dateType} og holdbarhed",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Automatisk beregning",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "billede",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Bemærkning",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Tilføj bemærkninger (valgfrit)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "år",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "måne",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "himmel",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Der er valgt {count} emner",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Vælg alle",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Fravælg alle",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Batchudskiftning af lagringssted",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Er du sikker på, at du vil slette de valgte {count} varer?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Slettet {count} varer",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Ingen lagersteder tilgængelige",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Batchudskiftning af lagringssted",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} varer er blevet flyttet til {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "indtastning",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Rediger",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Slet",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Indlager",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Ud af lager",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Eksport mislykkedes: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Ryd log",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Er du sikker på, at du vil rydde alle aktivitetslogfiler? Denne handling kan ikke fortrydes.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Loggen er ryddet",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Driftslog",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Eksporter log",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Ryd log",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Ingen aktivitetlog",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Genstand:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Kategori:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Type:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Antal:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Enhedspris:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Samlet pris:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Udløbsdato:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Garantiens startdato:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Købsdato:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Produktionsdato:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Holdbarhed:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Opbevaringssted:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Stregkode:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Bemærkning:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Advarsel:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Forvarselsdage:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Mængdeændring:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Rediger felt:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Ikke indstillet",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "tom",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "åbne",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Luk",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Driftslog",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Se og gendan aktivitetslog",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Handling mislykkedes: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "uden dato",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "måned",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "himmel",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "himmel",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "ukendt",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Operationsdato:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

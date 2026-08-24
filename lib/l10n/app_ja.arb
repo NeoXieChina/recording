@@ -1688,5 +1688,395 @@
   "enter_category_name": "カテゴリ名を入力してください",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "未保存の変更",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "保存されていない変更があります。操作を選択してください：",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "あきらめる",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "個",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "件",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "箱",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "包",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "瓶",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "箱",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "スーツ",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "キログラム",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "センチメートル",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "数量",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "単価",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "通貨",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "総額：",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "保存場所",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "アイテム属性",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "有効期限",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "保証期限",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "製造日",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "購入日",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "{dateType}と賞味期限に基づいて自動計算",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "自動計算",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "画像",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "備考",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "備考情報を追加（任意）",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "年",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "月",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "天",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} 件が選択されました",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "すべて選択",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "すべての選択を解除",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "ストレージの場所を一括で変更する",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "選択した {count} 個のアイテムを削除してもよろしいですか？",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} 個のアイテムが削除されました",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "利用可能な保存場所はありません",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "ストレージの場所を一括で変更する",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} 個のアイテムを {location} に移動しました",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "入力",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "編集",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "削除",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "入庫",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "出庫",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "エクスポートに失敗しました: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "ログをクリア",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "本当にすべての操作ログを消去しますか？この操作は元に戻せません。",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "ログはクリアされました",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "操作ログ",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "ログをエクスポート",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "ログをクリア",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "操作ログはありません",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "品物：",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "分類：",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "種類：",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "数量：",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "単価：",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "総額：",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "有効期限：",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "保証期限：",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "購入日：",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "製造日：",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "賞味期限：",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "保管場所：",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "バーコード：",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "備考：",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "警告：",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "警報日数：",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "数量の変化：",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "フィールドを変更：",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "未設定",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "空",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "開く",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "閉じる",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "操作ログ",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "操作記録を確認して復元する",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "操作に失敗しました: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "日付なし",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "か月",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "天",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "天",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "未知",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "レオ",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "操作日：",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

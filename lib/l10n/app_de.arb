@@ -1688,5 +1688,395 @@
   "enter_category_name": "Bitte geben Sie den Kategorienamen ein",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Ungespeicherte Änderungen",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Sie haben nicht gespeicherte Änderungen. Bitte wählen Sie eine Aktion:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "aufgeben",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "Stück",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "Stück",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "Kiste",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "Tasche",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "Flasche",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "Schachtel",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "Satz",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "Menge",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Stückpreis",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Währung",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Gesamtpreis:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Speicherort",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Gegenstandseigenschaften",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Gültigkeitsdauer",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Garantieablaufdatum",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Herstellungsdatum",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Kaufdatum",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Automatische Berechnung gemäß {dateType} und Haltbarkeitsdauer",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Automatisch berechnen",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "Bild",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Bemerkung",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Anmerkungen hinzufügen (optional)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "Jahr",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "Mond",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "Himmel",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} Elemente ausgewählt",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Alles auswählen",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Alle Auswahl aufheben",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Massenaustausch von Speicherorten",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Möchten Sie die ausgewählten {count} Elemente wirklich löschen?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} Artikel gelöscht",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Derzeit kein Speicherort verfügbar",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Massenaustausch von Speicherorten",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} Gegenstände wurden nach {location} verschoben",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Eingeben",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Bearbeiten",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Löschen",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Einlagern",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Auslagerung",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Export fehlgeschlagen: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Protokoll löschen",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Möchten Sie wirklich alle Operationsprotokolle löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Das Protokoll wurde geleert",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Betriebsprotokoll",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Protokoll exportieren",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Protokoll löschen",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Keine Vorgangsprotokolle vorhanden",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Gegenstand:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Kategorie:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Typ:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Menge:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Stückpreis:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Gesamtpreis:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Ablaufdatum:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Garantiezeitraum:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Kaufdatum:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Herstellungsdatum:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Haltbarkeitsdatum:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Speicherort:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Strichcode:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Bemerkung:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Warnung:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Warnungstage:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Veränderung der Menge:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Feld ändern:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Nicht eingestellt",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "leer",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "öffnen",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Schließen",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Betriebsprotokoll",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Betriebsprotokolle anzeigen und wiederherstellen",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Operation fehlgeschlagen: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Ohne Datum",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "Monate",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "Himmel",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "Himmel",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "unbekannt",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Betriebsdatum:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

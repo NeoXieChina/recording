@@ -1170,4 +1170,284 @@ class AppLocalizationsEn extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Has been reduced by $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Unsaved changes';
+
+  @override
+  String get unsaved_changes_message =>
+      'You have unsaved changes, please choose an action:';
+
+  @override
+  String get discard => 'Give up';
+
+  @override
+  String get unit_piece => 'piece';
+
+  @override
+  String get unit_item => 'piece';
+
+  @override
+  String get unit_box => 'Box';
+
+  @override
+  String get unit_package => 'bag';
+
+  @override
+  String get unit_bottle => 'bottle';
+
+  @override
+  String get unit_carton => 'box';
+
+  @override
+  String get unit_set => 'set';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'Quantity';
+
+  @override
+  String get unit_price_label => 'Unit price';
+
+  @override
+  String get currency_label => 'Currency';
+
+  @override
+  String get total_price_label => 'Total Price:';
+
+  @override
+  String get storage_location_label => 'Storage Location';
+
+  @override
+  String get item_properties => 'Item Attributes';
+
+  @override
+  String get expiry_date_label => 'Validity period';
+
+  @override
+  String get warranty_expiry_date_label => 'Warranty Expiration Date';
+
+  @override
+  String get production_date_label => 'Production Date';
+
+  @override
+  String get purchase_date_label => 'Purchase Date';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Automatically calculate based on $dateType and shelf life';
+  }
+
+  @override
+  String get auto_calculated => 'Automatic calculation';
+
+  @override
+  String get images_label => 'Picture';
+
+  @override
+  String get notes_label => 'Remarks';
+
+  @override
+  String get add_notes_hint => 'Add remarks (optional)';
+
+  @override
+  String get year_label => 'Year';
+
+  @override
+  String get month_label => 'Moon';
+
+  @override
+  String get day_label => 'Sky';
+
+  @override
+  String selected_count(int count) {
+    return '$count items selected';
+  }
+
+  @override
+  String get select_all => 'Select All';
+
+  @override
+  String get deselect_all => 'Deselect All';
+
+  @override
+  String get batch_change_location => 'Batch swap storage locations';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Are you sure you want to delete the selected $count items?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count items have been deleted';
+  }
+
+  @override
+  String get no_storage_location_available => 'No storage location available';
+
+  @override
+  String get batch_change_location_title => 'Batch swap storage locations';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count items have been moved to $location';
+  }
+
+  @override
+  String get operation_type_create => 'Enter';
+
+  @override
+  String get operation_type_update => 'Edit';
+
+  @override
+  String get operation_type_delete => 'Delete';
+
+  @override
+  String get operation_type_inbound => 'Storage entry';
+
+  @override
+  String get operation_type_outbound => 'Outbound from warehouse';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Export failed: $error';
+  }
+
+  @override
+  String get clear_logs => 'Clear logs';
+
+  @override
+  String get confirm_clear_logs =>
+      'Are you sure you want to clear all operation logs? This action cannot be undone.';
+
+  @override
+  String get logs_cleared => 'The log has been cleared';
+
+  @override
+  String get operation_logs_title => 'Operation Log';
+
+  @override
+  String get export_logs => 'Export Log';
+
+  @override
+  String get clear_logs_tooltip => 'Clear logs';
+
+  @override
+  String get no_operation_logs => 'No operation logs available';
+
+  @override
+  String get log_item_label => 'Item:';
+
+  @override
+  String get log_category_label => 'Category:';
+
+  @override
+  String get log_type_label => 'Type:';
+
+  @override
+  String get log_quantity_label => 'Quantity:';
+
+  @override
+  String get log_unit_price_label => 'Unit Price:';
+
+  @override
+  String get log_total_price_label => 'Total Price:';
+
+  @override
+  String get log_expiry_date_label => 'Expiration Date:';
+
+  @override
+  String get log_warranty_date_label => 'Warranty Date:';
+
+  @override
+  String get log_purchase_date_label => 'Purchase Date:';
+
+  @override
+  String get log_production_date_label => 'Production Date:';
+
+  @override
+  String get log_shelf_life_label => 'Shelf life:';
+
+  @override
+  String get log_storage_location_label => 'Storage Location:';
+
+  @override
+  String get log_barcode_label => 'Barcode:';
+
+  @override
+  String get log_notes_label => 'Note:';
+
+  @override
+  String get log_alert_label => 'Alert:';
+
+  @override
+  String get log_alert_days_label => 'Warning days:';
+
+  @override
+  String get log_quantity_change_label => 'Quantity Change:';
+
+  @override
+  String get log_field_changes_label => 'Modify field:';
+
+  @override
+  String get log_not_set => 'Not set';
+
+  @override
+  String get log_empty => 'empty';
+
+  @override
+  String get log_alert_enabled => 'Turn on';
+
+  @override
+  String get log_alert_disabled => 'Close';
+
+  @override
+  String get operation_logs_menu => 'Operation Log';
+
+  @override
+  String get operation_logs_description => 'View and restore operation records';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Operation failed: $error';
+  }
+
+  @override
+  String get no_date => 'No date';
+
+  @override
+  String get shelf_life_months_suffix => 'month';
+
+  @override
+  String get shelf_life_days_suffix => 'Sky';
+
+  @override
+  String get alert_days_suffix => 'Sky';
+
+  @override
+  String get unknown => 'Unknown';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Operation Date:';
 }

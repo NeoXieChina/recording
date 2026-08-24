@@ -1177,4 +1177,284 @@ class AppLocalizationsIs extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Nú hefur verið minnkað $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Óvistaðar breytingar';
+
+  @override
+  String get unsaved_changes_message =>
+      'Þú hefur ósparaðar breytingar, vinsamlegast veldu aðgerð:';
+
+  @override
+  String get discard => 'gefa eftir';
+
+  @override
+  String get unit_piece => 'stykki';
+
+  @override
+  String get unit_item => 'hlutr';
+
+  @override
+  String get unit_box => 'kassi';
+
+  @override
+  String get unit_package => 'poki';
+
+  @override
+  String get unit_bottle => 'flaska';
+
+  @override
+  String get unit_carton => 'kassi';
+
+  @override
+  String get unit_set => 'sett';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'Magn';
+
+  @override
+  String get unit_price_label => 'Einingaverð';
+
+  @override
+  String get currency_label => 'Gjaldmiðill';
+
+  @override
+  String get total_price_label => 'Heildarverð:';
+
+  @override
+  String get storage_location_label => 'Geymslustaður';
+
+  @override
+  String get item_properties => 'Vörueiginleikar';
+
+  @override
+  String get expiry_date_label => 'Gildistími';
+
+  @override
+  String get warranty_expiry_date_label => 'Ábyrgðartími rennur út';
+
+  @override
+  String get production_date_label => 'Framleiðsludagur';
+
+  @override
+  String get purchase_date_label => 'Kaupdagsetning';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Reikna sjálfkrafa út frá $dateType og geymsluþoli';
+  }
+
+  @override
+  String get auto_calculated => 'Sjálfvirk útreikningur';
+
+  @override
+  String get images_label => 'mynd';
+
+  @override
+  String get notes_label => 'Athugasemd';
+
+  @override
+  String get add_notes_hint => 'Bæta við athugasemdum (valfrjálst)';
+
+  @override
+  String get year_label => 'Ár';
+
+  @override
+  String get month_label => 'mánaður';
+
+  @override
+  String get day_label => 'himinn';
+
+  @override
+  String selected_count(int count) {
+    return 'Valið $count atriði';
+  }
+
+  @override
+  String get select_all => 'Velja allt';
+
+  @override
+  String get deselect_all => 'Hætta við allt val';
+
+  @override
+  String get batch_change_location => 'Fjöldaskipti á geymslustað';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Ertu viss um að þú viljir eyða valin $count atriðum?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Eytt $count hlutum';
+  }
+
+  @override
+  String get no_storage_location_available => 'Enginn geymslustaður í boði';
+
+  @override
+  String get batch_change_location_title => 'Fjöldaskipti á geymslustað';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return 'Færa $count hluti yfir í $location';
+  }
+
+  @override
+  String get operation_type_create => 'Skrá inn';
+
+  @override
+  String get operation_type_update => 'Breyta';
+
+  @override
+  String get operation_type_delete => 'Eyða';
+
+  @override
+  String get operation_type_inbound => 'Innskráning í lager';
+
+  @override
+  String get operation_type_outbound => 'Út úr birgðum';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Útflutningur misheppnaðist: $error';
+  }
+
+  @override
+  String get clear_logs => 'Hreinsa dagbók';
+
+  @override
+  String get confirm_clear_logs =>
+      'Ertu viss um að þú viljir hreinsa allar aðgerðarloggar? Þessi aðgerð er óafturkræf.';
+
+  @override
+  String get logs_cleared => 'Dagbókin hefur verið hreinsuð';
+
+  @override
+  String get operation_logs_title => 'Aðgerðardagbok';
+
+  @override
+  String get export_logs => 'Flytja út skrá';
+
+  @override
+  String get clear_logs_tooltip => 'Hreinsa dagbók';
+
+  @override
+  String get no_operation_logs => 'Engar aðgerðaferlar skráðir';
+
+  @override
+  String get log_item_label => 'Hlutur:';
+
+  @override
+  String get log_category_label => 'Flokkun:';
+
+  @override
+  String get log_type_label => 'Tegund:';
+
+  @override
+  String get log_quantity_label => 'Magn:';
+
+  @override
+  String get log_unit_price_label => 'Einingaverð:';
+
+  @override
+  String get log_total_price_label => 'Heildarverð:';
+
+  @override
+  String get log_expiry_date_label => 'FormattingDate:';
+
+  @override
+  String get log_warranty_date_label => 'Ábyrgðardagsetning:';
+
+  @override
+  String get log_purchase_date_label => 'Kaupdagsetning:';
+
+  @override
+  String get log_production_date_label => 'Framleiðsludagsetning:';
+
+  @override
+  String get log_shelf_life_label => 'Geymsluþol:';
+
+  @override
+  String get log_storage_location_label => 'Geymslustaður:';
+
+  @override
+  String get log_barcode_label => 'Strikamerki:';
+
+  @override
+  String get log_notes_label => 'Athugasemd:';
+
+  @override
+  String get log_alert_label => 'Forskoðun:';
+
+  @override
+  String get log_alert_days_label => 'Viðvörunardagar:';
+
+  @override
+  String get log_quantity_change_label => 'Fjöldabreyting:';
+
+  @override
+  String get log_field_changes_label => 'Breyta reit';
+
+  @override
+  String get log_not_set => 'Ekki stillt';
+
+  @override
+  String get log_empty => 'tóm';
+
+  @override
+  String get log_alert_enabled => 'Opna';
+
+  @override
+  String get log_alert_disabled => 'Loka';
+
+  @override
+  String get operation_logs_menu => 'Aðgerðardagbók';
+
+  @override
+  String get operation_logs_description => 'Skoða og endurheimta aðgerðarferil';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Virkjun mistókst: $error';
+  }
+
+  @override
+  String get no_date => 'Engin dagsetning';
+
+  @override
+  String get shelf_life_months_suffix => 'mánuðir';
+
+  @override
+  String get shelf_life_days_suffix => 'himinn';
+
+  @override
+  String get alert_days_suffix => 'himinn';
+
+  @override
+  String get unknown => 'Óþekkt';
+
+  @override
+  String get developer_name => 'Reó';
+
+  @override
+  String get log_operation_date_label => 'Aðgerðardagur:';
 }

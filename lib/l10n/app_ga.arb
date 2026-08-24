@@ -1688,5 +1688,395 @@
   "enter_category_name": "Cuir isteach ainm na catagóire",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Athruithe nach bhfuil sábháilte",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Tá athruithe neamhshábháilte agat, roghnaigh gníomhaíocht:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "Éirí as",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "aon",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "réad",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "Bosca",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "mála",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "buidéal",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "bosca",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "sraith",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "Méid",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Praghas aonair",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Airgeadra",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Praghas iomlán:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Áit stórála",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Airíonna Earraí",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Am éifeachtach",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Dáta éaga bharántais",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Dáta déantúsaíochta",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Dáta Ceannaigh",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Ríomh go huathoibríoch bunaithe ar {dateType} agus ar thréimhse stórála",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Ríomh uathoibríoch",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "Íomhá",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Nóta",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Cuir faisnéis nótaí leis (roghnach)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "bliain",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "Gealach",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "Neamh",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Tá {count} roghnaithe",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Roghnaigh uile",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Cealaigh uile roghnaithe",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Athrú massach ar shuíomh stórála",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "An bhfuil tú cinnte go dteastaíonn uait na {count} míreanna roghnaithe a scriosadh?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Tá {count} earra scriosta",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Níl aon áit stórála ar fáil faoi láthair",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Athrú massach ar shuíomh stórála",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "Tá {count} mír áirithe aistrithe go {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Ionchur",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Eagar",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Scrios",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Ionchur sa stór",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Amharc ar stóras",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Theip ar onnmhairiú: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Folamh na logaí",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "An bhfuil tú cinnte go dteastaíonn uait gach loga oibríochta a ghlanadh? Ní féidir an gníomh seo a dhíghníomhachtú.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Tá an dialann folamh",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Logáil Oibríochtaí",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Easpórtáil Logaí",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Log a ghlanadh",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Níl aon loga oibríochta ann faoi láthair",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Mír:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Catagóir:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Cineál:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Cainníocht:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Praghas in aghaidh an aonaid:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Praghas iomlán:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Dáta éaga:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Dáta baránta:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Dáta ceannaigh:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Dáta táirgthe:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Dáta bailíochta:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Áit stórála:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Bircód:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Nóta:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Rabhadh réamhchúraim",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Lá rabhadh:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Athrú i méid:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Réimse a chur in eagar:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Níor socraíodh",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "Folamh",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Oscail",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Dún",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Logáil Oibríochtaí",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Féach agus Aisghabh na Taifid Oibríochta",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Theip ar an oibriú: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Gan Dáta",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "míonna",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "Neamh",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "Neamh",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Neamhchinnte",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Léó",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Dáta Oibríochta:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

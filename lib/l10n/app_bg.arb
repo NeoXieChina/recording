@@ -1688,5 +1688,395 @@
   "enter_category_name": "Моля, въведете име на категория",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Незапазени промени",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Имате незапазени промени, моля изберете действие:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "Отказвам се",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "个",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "част",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "кутия",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "чанта",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "бутилка",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "кутия",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "комплект",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "кг",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "мл",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "м",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "см",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "Количество",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Единична цена",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "валута",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Обща цена:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Място за съхранение",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Свойства на предмети",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Срок на валидност",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Дата на изтичане на гаранцията",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Дата на производство",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Дата на покупка",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Автоматично изчисляване според {dateType} и срока на годност",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Автоматично изчисление",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "картина",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Бележка",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Добавете бележка (по избор)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "година",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "месец",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "небе",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Избрани са {count} елемента",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Избери всички",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Отмени избора на всичко",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Масово преместване на местоположението на съхранение",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Сигурни ли сте, че искате да изтриете избраните {count} артикула?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Изтрити са {count} артикула",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Няма налични опции за място за съхранение",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Масово преместване на местоположението на съхранение",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "Преместени са {count} предмета в {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Въвеждане",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Редактиране",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Изтриване",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Складиране",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Изписване от склад",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Експортът неуспешен: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Изчистване на журнала",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Наистина ли искате да изчистите всички операции и записи? Тази операция не може да бъде възстановена.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Журналът е изчистен",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Дневник на операциите",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Експортиране на дневници",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Изчистване на журнала",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Няма записи на операциите",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Предмет:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Категория:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Тип:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Количество:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Единична цена:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Обща цена:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Годност до:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Гаранционен период:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Дата на покупка:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Дата на производство:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Гаранционен срок:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Място за съхранение:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Баркод:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Бележка:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Предупреждение:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Дни на предупреждение:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Промяна в количеството:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Промяна на поле:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Не е зададено",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "празно",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Включване",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Затвори",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Дневник на операциите",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Преглед и възстановяване на записите на операциите",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Операцията е неуспешна: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Без дата",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "месец",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "небе",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "небе",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "неизвестен",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Лео",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Дата на операцията:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

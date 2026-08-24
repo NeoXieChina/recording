@@ -1173,4 +1173,288 @@ class AppLocalizationsFi extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'On vähennetty $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Tallenemattomat muutokset';
+
+  @override
+  String get unsaved_changes_message =>
+      'Sinulla on tallentamattomia muutoksia, valitse toiminto:';
+
+  @override
+  String get discard => 'luopua';
+
+  @override
+  String get unit_piece => 'yksi';
+
+  @override
+  String get unit_item => 'esine';
+
+  @override
+  String get unit_box => 'laatikko';
+
+  @override
+  String get unit_package => 'laukku';
+
+  @override
+  String get unit_bottle => 'pullo';
+
+  @override
+  String get unit_carton => 'laatikko';
+
+  @override
+  String get unit_set => 'sarja';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'määrä';
+
+  @override
+  String get unit_price_label => 'yksikköhinta';
+
+  @override
+  String get currency_label => 'valuutta';
+
+  @override
+  String get total_price_label => 'Kokonaishinta:';
+
+  @override
+  String get storage_location_label => 'Tallennuspaikka';
+
+  @override
+  String get item_properties => 'Esineen ominaisuudet';
+
+  @override
+  String get expiry_date_label => 'Voimassaoloaika';
+
+  @override
+  String get warranty_expiry_date_label => 'Takuu päättymispäivä';
+
+  @override
+  String get production_date_label => 'Valmistuspäivämäärä';
+
+  @override
+  String get purchase_date_label => 'Ostopäivä';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Automaattinen laskenta $dateType ja säilyvyysajan mukaan';
+  }
+
+  @override
+  String get auto_calculated => 'Automaattinen laskenta';
+
+  @override
+  String get images_label => 'kuva';
+
+  @override
+  String get notes_label => 'Muistiinpano';
+
+  @override
+  String get add_notes_hint => 'Lisää huomautuksia (valinnainen)';
+
+  @override
+  String get year_label => 'vuosi';
+
+  @override
+  String get month_label => 'kuu';
+
+  @override
+  String get day_label => 'taivas';
+
+  @override
+  String selected_count(int count) {
+    return 'On valittu $count kohdetta';
+  }
+
+  @override
+  String get select_all => 'Valitse kaikki';
+
+  @override
+  String get deselect_all => 'Poista kaikki valinnat';
+
+  @override
+  String get batch_change_location =>
+      'Paikallisten tallennuspaikkojen massavaihto';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Haluatko varmasti poistaa valitut $count kohdetta?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'On poistettu $count kohdetta';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Ei saatavilla olevia tallennuspaikkoja';
+
+  @override
+  String get batch_change_location_title =>
+      'Paikallisten tallennuspaikkojen massavaihto';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count kohdetta on siirretty $location';
+  }
+
+  @override
+  String get operation_type_create => 'syöttää tietoihin';
+
+  @override
+  String get operation_type_update => 'Muokkaa';
+
+  @override
+  String get operation_type_delete => 'Poista';
+
+  @override
+  String get operation_type_inbound => 'Varastoon vastaanotto';
+
+  @override
+  String get operation_type_outbound => 'Varastosta lähtö';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Vienti epäonnistui: $error';
+  }
+
+  @override
+  String get clear_logs => 'Tyhjennä loki';
+
+  @override
+  String get confirm_clear_logs =>
+      'Haluatko varmasti tyhjentää kaikki toimintalokit? Tätä toimintoa ei voi palauttaa.';
+
+  @override
+  String get logs_cleared => 'Loki on tyhjennetty';
+
+  @override
+  String get operation_logs_title => 'Toimintaloki';
+
+  @override
+  String get export_logs => 'Vie loki';
+
+  @override
+  String get clear_logs_tooltip => 'Tyhjennä loki';
+
+  @override
+  String get no_operation_logs => 'Ei toimintalokia';
+
+  @override
+  String get log_item_label => 'Esine:';
+
+  @override
+  String get log_category_label => 'Luokittelu:';
+
+  @override
+  String get log_type_label => 'Tyyppi:';
+
+  @override
+  String get log_quantity_label => 'Määrä:';
+
+  @override
+  String get log_unit_price_label => 'Yksikköhinta:';
+
+  @override
+  String get log_total_price_label => 'Kokonaishinta:';
+
+  @override
+  String get log_expiry_date_label => 'Parasta ennen:';
+
+  @override
+  String get log_warranty_date_label => 'Takuu Päivämäärä:';
+
+  @override
+  String get log_purchase_date_label => 'Ostopäivämäärä:';
+
+  @override
+  String get log_production_date_label => 'Valmistuspäivä:';
+
+  @override
+  String get log_shelf_life_label => 'Säilyvyysaika:';
+
+  @override
+  String get log_storage_location_label => 'Säilytyspaikka:';
+
+  @override
+  String get log_barcode_label => 'Viivakoodi:';
+
+  @override
+  String get log_notes_label => 'Huomautus:';
+
+  @override
+  String get log_alert_label => 'Varoitus:';
+
+  @override
+  String get log_alert_days_label => 'Varoituspäivien määrä:';
+
+  @override
+  String get log_quantity_change_label => 'Määrän muutos:';
+
+  @override
+  String get log_field_changes_label => 'Muokkaa kenttää:';
+
+  @override
+  String get log_not_set => 'Ei asetettu';
+
+  @override
+  String get log_empty => 'tyhjä';
+
+  @override
+  String get log_alert_enabled => 'Avaa';
+
+  @override
+  String get log_alert_disabled => 'Sulje';
+
+  @override
+  String get operation_logs_menu => 'Toimintaloki';
+
+  @override
+  String get operation_logs_description =>
+      'Tarkastele ja palauta toimintalokit';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Toiminto epäonnistui: $error';
+  }
+
+  @override
+  String get no_date => 'Päivämäärätön';
+
+  @override
+  String get shelf_life_months_suffix => 'kuukautta';
+
+  @override
+  String get shelf_life_days_suffix => 'taivas';
+
+  @override
+  String get alert_days_suffix => 'taivas';
+
+  @override
+  String get unknown => 'Tuntematon';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Toimintapäivämäärä:';
 }

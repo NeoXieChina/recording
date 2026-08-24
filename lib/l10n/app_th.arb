@@ -1688,5 +1688,395 @@
   "enter_category_name": "กรุณากรอกชื่อประเภท",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "การเปลี่ยนแปลงที่ยังไม่ได้บันทึก",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก กรุณาเลือกการดำเนินการ:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "ยอมแพ้",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "อัน",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "ชิ้น",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "กล่อง",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "กระเป๋า",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "ขวด",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "กล่อง",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "ชุด",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "กก.",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "มล",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "เซนติเมตร",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "จำนวน",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "ราคาต่อหน่วย",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "สกุลเงิน",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "ราคารวม:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "สถานที่เก็บ",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "คุณสมบัติของสิ่งของ",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "วันหมดอายุ",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "วันหมดประกัน",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "วันที่ผลิต",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "วันที่ซื้อ",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "คำนวณโดยอัตโนมัติตาม {dateType} และระยะเวลาการเก็บรักษา",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "คำนวณอัตโนมัติ",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "รูปภาพ",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "หมายเหตุ",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "เพิ่มหมายเหตุ (ไม่บังคับ)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "ปี",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "เดือน",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "ฟ้า",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "ได้เลือก {count} รายการแล้ว",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "เลือกทั้งหมด",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "ยกเลิกการเลือกทั้งหมด",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "สลับสถานที่จัดเก็บเป็นกลุ่ม",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "คุณแน่ใจหรือไม่ว่าต้องการลบ {count} รายการที่เลือก?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "ได้ลบ {count} ไอเท็มแล้ว",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "ยังไม่มีสถานที่จัดเก็บให้เลือก",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "สลับสถานที่จัดเก็บเป็นกลุ่ม",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "ได้ย้าย {count} รายการไปยัง {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "กรอกข้อมูล",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "แก้ไข",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "ลบ",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "เข้าคลัง",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "เบิกสินค้าออกจากคลัง",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "ส่งออกล้มเหลว: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "ล้างบันทึก",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "คุณแน่ใจหรือว่าต้องการลบประวัติการทำงานทั้งหมด? การกระทำนี้ไม่สามารถกู้คืนได้.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "บันทึกถูกล้างเรียบร้อยแล้ว",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "บันทึกการดำเนินการ",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "ส่งออกบันทึก",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "ล้างบันทึก",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "ยังไม่มีบันทึกการดำเนินการ",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "รายการสิ่งของ:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "ประเภท：",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "ประเภท：",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "จำนวน:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "ราคาต่อหน่วย:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "ราคารวม:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "วันหมดอายุ:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "วันที่รับประกัน:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "วันที่ซื้อ:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "วันที่ผลิต：",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "อายุการเก็บรักษา:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "สถานที่เก็บ",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "รหัสบาร์โค้ด：",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "หมายเหตุ：",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "เตือนล่วงหน้า:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "จำนวนวันเตือนภัย:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "การเปลี่ยนแปลงของปริมาณ:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "แก้ไขฟิลด์:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "ไม่ได้ตั้งค่า",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "ว่าง",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "เปิด",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "ปิด",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "บันทึกการดำเนินการ",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "ตรวจสอบและกู้คืนประวัติการดำเนินการ",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "การดำเนินการล้มเหลว: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "ไม่มีวันที่",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "เดือน",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "ฟ้า",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "ฟ้า",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "ไม่ทราบ",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "เรโอ",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "วันที่ดำเนินการ:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

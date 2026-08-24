@@ -1174,4 +1174,286 @@ class AppLocalizationsAs extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'হ্ৰাস কৰিছে $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'অসংৰক্ষিত পৰিবৰ্তনসমূহ';
+
+  @override
+  String get unsaved_changes_message =>
+      'আপোনাৰ সংৰক্ষণ হোৱা নথকা পৰিবর্তন আছে, অনুগ্ৰহ কৰি কাৰ্য্য নিৰ্বাচন কৰক:';
+
+  @override
+  String get discard => 'ত্যাগ কৰা';
+
+  @override
+  String get unit_piece => 'এটা';
+
+  @override
+  String get unit_item => 'টুকুৰা';
+
+  @override
+  String get unit_box => 'বাকচ';
+
+  @override
+  String get unit_package => 'বেগ';
+
+  @override
+  String get unit_bottle => 'বটল';
+
+  @override
+  String get unit_carton => 'বক্স';
+
+  @override
+  String get unit_set => 'সুট';
+
+  @override
+  String get unit_kg => 'কৰ';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'এল';
+
+  @override
+  String get unit_ml => 'মিলি';
+
+  @override
+  String get unit_m => 'ম';
+
+  @override
+  String get unit_cm => 'ছেম';
+
+  @override
+  String get quantity_label => 'পৰিমাণ';
+
+  @override
+  String get unit_price_label => 'একক মূল্য';
+
+  @override
+  String get currency_label => 'মুদ্ৰা';
+
+  @override
+  String get total_price_label => 'মুঠ মূল্যঃ';
+
+  @override
+  String get storage_location_label => 'সংগ্ৰহস্থল';
+
+  @override
+  String get item_properties => 'বস্তুৰ গুণ';
+
+  @override
+  String get expiry_date_label => 'কাৰ্যকাল';
+
+  @override
+  String get warranty_expiry_date_label => 'ৱাৰেণ্টীৰ সমাপ্তিৰ তাৰিখ';
+
+  @override
+  String get production_date_label => 'উৎপাদন তাৰিখ';
+
+  @override
+  String get purchase_date_label => 'ক্ৰয় কৰাৰ তাৰিখ';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return '根据$dateType আৰু শেলফ লাইফ স্বয়ংক্ৰিয়ভাৱে গণনা কৰক';
+  }
+
+  @override
+  String get auto_calculated => 'স্বয়ংক্ৰিয় হিচাপ';
+
+  @override
+  String get images_label => 'ছবি';
+
+  @override
+  String get notes_label => 'মন্তব্য';
+
+  @override
+  String get add_notes_hint => 'মন্তব্য তথ্য যোগ কৰক (বৈকল্পিক)';
+
+  @override
+  String get year_label => 'বছৰ';
+
+  @override
+  String get month_label => 'মাহ';
+
+  @override
+  String get day_label => 'আকাশ';
+
+  @override
+  String selected_count(int count) {
+    return 'পৰা নিৰ্বাচিত হৈছে $countটা আইটেম';
+  }
+
+  @override
+  String get select_all => 'সকল নিৰ্বাচন কৰক';
+
+  @override
+  String get deselect_all => 'সকলো নিৰ্বাচন ৰদ কৰক';
+
+  @override
+  String get batch_change_location => 'ধাৰাটো স্থান বহলভাৱে সলনি কৰা';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'নিশ্চিতনে নিৰ্বাচিত $count টা বস্তু মচি পেলাব নেকি?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count টা বস্তু মচি দিয়া হৈছে';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'অস্থায়ী সংৰক্ষণ স্থান বাছনি কৰিবলৈ উপলব্ধ নাছিল';
+
+  @override
+  String get batch_change_location_title => 'ধাৰাটো স্থান একেলগে সলনি কৰা';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count খন সামগ্ৰী $locationলৈ স্থানান্তৰ কৰা হৈছে';
+  }
+
+  @override
+  String get operation_type_create => 'প্ৰৱিষ্ট কৰা';
+
+  @override
+  String get operation_type_update => 'সম্পাদনা কৰক';
+
+  @override
+  String get operation_type_delete => 'মচি পেলোৱা';
+
+  @override
+  String get operation_type_inbound => 'গুদামত সোমোৱা';
+
+  @override
+  String get operation_type_outbound => 'বাহিৰ কৰাৰ বাবে';
+
+  @override
+  String export_failed_message(String error) {
+    return 'নির্যাস সফল নহ\'ল: $error';
+  }
+
+  @override
+  String get clear_logs => 'লগ মচি পেলোৱা';
+
+  @override
+  String get confirm_clear_logs =>
+      'আপুনি nিশ্চিত যে সকলো সেৱাৰ লগসমূহ মচি পেলাব? এই কাৰ্যপদ্ধতি উভতি নোৱাৰে।';
+
+  @override
+  String get logs_cleared => 'লগ মচি দিয়া হৈছে';
+
+  @override
+  String get operation_logs_title => 'কাৰ্য্য লগ';
+
+  @override
+  String get export_logs => 'লগ এক্সপৰ্ট কৰক';
+
+  @override
+  String get clear_logs_tooltip => 'লগ মচি পেলোৱা';
+
+  @override
+  String get no_operation_logs => 'অপাৰেশ্যন লগ নাই';
+
+  @override
+  String get log_item_label => 'বস্তু:';
+
+  @override
+  String get log_category_label => 'শ্রেণীবিভাগঃ';
+
+  @override
+  String get log_type_label => 'প্ৰকাৰ:';
+
+  @override
+  String get log_quantity_label => 'পৰিমাণ:';
+
+  @override
+  String get log_unit_price_label => 'একক মূল্য:';
+
+  @override
+  String get log_total_price_label => 'মুঠ মূল্যঃ';
+
+  @override
+  String get log_expiry_date_label => 'মেয়াদ উত্তীর্ণের তাৰিখঃ';
+
+  @override
+  String get log_warranty_date_label => 'বৰঙনি তাৰিখ:';
+
+  @override
+  String get log_purchase_date_label => 'ক্ৰয় তাৰিখঃ';
+
+  @override
+  String get log_production_date_label => 'উৎপাদন তাৰিখ:';
+
+  @override
+  String get log_shelf_life_label => 'মেয়াদ';
+
+  @override
+  String get log_storage_location_label => 'সংগ্ৰহ স্থানঃ';
+
+  @override
+  String get log_barcode_label => 'বাৰকোডঃ';
+
+  @override
+  String get log_notes_label => 'টোকা:';
+
+  @override
+  String get log_alert_label => 'সতৰ্ক সংকেত:';
+
+  @override
+  String get log_alert_days_label => 'সতৰ্কীকৰণ দিনসমূহঃ';
+
+  @override
+  String get log_quantity_change_label => 'পৰিমাণৰ পৰিৱৰ্তন:';
+
+  @override
+  String get log_field_changes_label => 'ক্ষেত্ৰ সংশোধন কৰক:';
+
+  @override
+  String get log_not_set => 'সজোৱা হোৱা নাই';
+
+  @override
+  String get log_empty => 'ಖালি';
+
+  @override
+  String get log_alert_enabled => 'খোলক';
+
+  @override
+  String get log_alert_disabled => 'বন্ধ কৰক';
+
+  @override
+  String get operation_logs_menu => 'কাৰ্য্য লগ';
+
+  @override
+  String get operation_logs_description =>
+      'অপাৰেশ্যন ৰেকৰ্ড চাব আৰু পুনৰুদ্ধাৰ কৰক';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'কৰ্ম ব্যৰ্থ: $error';
+  }
+
+  @override
+  String get no_date => 'তাৰিখ নোহোৱা';
+
+  @override
+  String get shelf_life_months_suffix => 'মাহ';
+
+  @override
+  String get shelf_life_days_suffix => 'আকাশ';
+
+  @override
+  String get alert_days_suffix => 'আকাশ';
+
+  @override
+  String get unknown => 'অজান';
+
+  @override
+  String get developer_name => 'লীও';
+
+  @override
+  String get log_operation_date_label => 'কাৰ্য্যৰ তাৰিখ:';
 }

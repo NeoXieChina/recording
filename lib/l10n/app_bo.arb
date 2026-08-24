@@ -1688,5 +1688,395 @@
   "enter_category_name": "རིགས་མིང་ནང་འཇུག་རོགས།",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "ཉར་ཚགས་མ་བྱས་པའི་བསྒྱུར་བཅོས།",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "ཁྱོད་ཀྱིས་ཉར་ཚགས་བྱས་མེད་པའི་བཟོ་བཅོས་བྱས་ཡོད་པས་བྱ་སྤྱོད་ཅིག་འདེམས་རོགས།",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "འདོར་བ།",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "དུམ་བུ་",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "དུམ་བུ་",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "སྒམ་ཆུང་",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "ཁུག་མ་",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "དམ་བེ་",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "སྒམ་ཆུང་",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "སྒྲིག་གཞི།",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "སྤྱི་རྒྱ་",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "ལི་སྨི།",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "གྲངས་འབོར།",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "རྩིས་གཞིའི་རིན་གོང་།",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "དངུལ་ལོར་",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "སྤྱིའི་རིན་གོང་།",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "གསོག་ཉར་ས་གནས།",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "རྣམ་གྲངས་ཀྱི་ཁྱད་ཆོས།",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "གོ་ཆོད་པའི་དུས་ཡུན།",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "ཉམས་གསོའི་དུས་ཚད་ཐིམ་པའི་ཚེས་གྲངས།",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "ཐོན་སྐྱེད་ཀྱི་ཚེས་གྲངས།",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "ཉོ་བའི་ཚེས་གྲངས།",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "རང་འགུལ་གྱིས་{dateType}དང་སྤུས་ཚད་འགན་ལེན་དུས་ཡུན་ལྟར་རྩིས་རྒྱག་པ།",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "རང་འགུལ་གྱིས་རྩིས་རྒྱག་པ།",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "པར་རིས།",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "མཆན་འགྲེལ།",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "དཔྱད་གཏམ་ཁ་སྣོན་བྱས་པ། (གདམ་གསེས་བྱས་པ)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "ལོ་",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "ཟླ་བ།",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "ནམ་མཁའ་",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count}རྣམ་གྲངས་བདམས་ཐོན་བྱུང་བ།",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "ཚང་མ་འདེམས་སྒྲུག་བྱས་པ།",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "ཀུན་གྱི་གདམ་གསེས་མེད་པར་བཟོ་",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "ཁག་བརྗེས་གསོག་ཉར་བྱེད་ས་",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "ཁྱོད་ཀྱིས་བདམས་པའི་རྣམ་གྲངས་{count}བསུབ་འདོད་དམ།",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "རྣམ་གྲངས་{count}བསུབ་ཟིན།",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "གསོག་ཉར་བྱེད་ས་མེད་པ།",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "ཁག་བརྗེས་གསོག་ཉར་བྱེད་ས་",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count}དངོས་རྫས་{location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "ནང་ཞུགས།",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "རྩོམ་སྒྲིག་པ།",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "བསུབ་པ།",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "གསོག་ཉར་གྱི་འཇུག་སྒོ་",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "མཛོད་ཁང་ནས་ཕྱིར་ཐོན་པ།",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "ཕྱིར་གཏོང་ཕམ་པ། {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "ཟིན་ཐོ་གཙང་སེལ་",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "ཁྱོད་ཀྱིས་དངོས་གནས་བཀོལ་སྤྱོད་ཀྱི་ཟིན་ཐོ་ཚང་མ་གཙང་བཤེར་བྱེད་དགོས་སམ། བྱ་སྤྱོད་དེ་ཕྱིར་འཐེན་བྱེད་མི་ཉན།",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "ཉིན་ཐོ་གཙང་སེལ་བྱས་ཚར།",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "བཀོལ་སྤྱོད་ཟིན་ཐོ།",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "ཕྱིར་འདྲེན་ཟིན་ཐོ།",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "ཟིན་ཐོ་གཙང་སེལ་",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "བཀོལ་སྤྱོད་ཀྱི་ཟིན་ཐོ་མེད་པ།",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "རྣམ་གྲངས།",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "རིགས་ཁག",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "རིགས་དབྱིབས་:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "གྲངས་འབོར།",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "རྩིས་གཞིའི་རིན་གོང་།",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "སྤྱིའི་རིན་གོང་།",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "གོ་ཆོད་པའི་དུས་ཚོད།",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "ཉམས་གསོའི་ཚེས་གྲངས།",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "ཉོ་བའི་ཚེས་གྲངས།",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "ཐོན་སྐྱེད་ཀྱི་ཚེས་གྲངས།",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "སྤུས་ཚད་འགན་ལེན་དུས་ཡུན།",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "གསོག་ཉར་ས་གནས།",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Barcode:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "མཆན་འགྲེལ།",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "ཉེན་བརྡ།",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "ཉེན་བརྡའི་ཉིན་མོ།",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "གྲངས་ཚད་བསྒྱུར་བཅོས།",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "ཁྱབ་ཁོངས་བཟོ་བཅོས་རྒྱག་པ།",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "བཀོད་སྒྲིག་མ་བྱས་པ།",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "སྟོང་པ་",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "སྒོ་ཕྱེ།",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "ཁ་བསྡམས།",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "བཀོལ་སྤྱོད་ཟིན་ཐོ།",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "བཀོལ་སྤྱོད་ཟིན་ཐོ་ལ་ལྟ་བ་དང་སླར་གསོ་བྱས།",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "བཀོལ་སྤྱོད་ཕམ་སོང་། {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "ཚེས་གྲངས་མེད་པ།",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "ཟླ་(ཚུ)",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "ནམ་མཁའ་",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "ནམ་མཁའ་",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "མ་ཤེས",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "སེང་གེ་",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "བཀོལ་སྤྱོད་ཀྱི་ཚེས་གྲངས།",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

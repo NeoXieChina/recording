@@ -1688,5 +1688,395 @@
   "enter_category_name": "እባክዎ የምድብ ስም ያስገቡ",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "ያልተቀመጡ ለውጦች",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "ያልተቀመጡ ለውጦች አሉዎት፣ እባክዎ አንድ እርምጃ ይምረጡ -",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "ተስፋ መቁረጥ",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "ቁራጭ",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "ንጥል",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "ሣጥን",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "ቦርሳ",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "ጠርሙስ",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "ሳጥን",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "ስብስብ",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "ኪ.ግ",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ሚሊ",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "ሴሜ",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "ብዛት",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "የክፍል ዋጋ",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "ምንዛሪ",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "ጠቅላላ ዋጋ",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "የማከማቻ ቦታ",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "የንጥል ባህሪዎች",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "ተቀባይነት ያለው ጊዜ",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "የዋስትና ማብቂያ ቀን",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "የተመረተበት ቀን",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "የግዢ ቀን",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "በ {dateType} እና በመደርደሪያ ሕይወት ላይ በመመስረት በራስ-ሰር ያሰሉ",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "ራስ-ሰር ስሌት",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "ስዕል",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "ማስታወሻዎች",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "አስተያየቶችን ያክሉ (አማራጭ)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "አመት",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "ጨረቃ",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "ሰማይ",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} ዕቃዎች ተመርጠዋል",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "ሁሉንም ይምረጡ",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "ሁሉንም አይምረጡ",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "ባች ስዋፕ ማከማቻ ቦታዎች",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "እርግጠኛ ነዎት የተመረጡትን {count} ንጥሎች መሰረዝ ይፈልጋሉ?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} እቃዎች ተሰርዘዋል",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "ምንም የማከማቻ ቦታ የለም",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "ባች ስዋፕ ማከማቻ ቦታዎች",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} እቃዎች ወደ {location} ተወስደዋል",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "አስገባ",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "ያርትዑ",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "ማጥፊያ",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "የማከማቻ ግቤት",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "የወጪ",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "መላክ አልተሳካም {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "ምዝግብ ማስታወሻዎችን አጽዳ",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "እርግጠኛ ነዎት ሁሉንም የክወና ምዝግብ ማስታወሻዎች ማጽዳት ይፈልጋሉ? ይህ እርምጃ ሊቀለበስ አይችልም።",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "ምዝግብ ማስታወሻው ተጠርጓል",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "የክወና ምዝግብ ማስታወሻ",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "ምዝግብ ማስታወሻ ወደ ውጪ ላክ",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "ምዝግብ ማስታወሻዎችን አጽዳ",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "ምንም የክወና ምዝግብ ማስታወሻዎች የሉም",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "ንጥል",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "ምድብ",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "ዓይነት",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "ብዛት",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "የአሃድ ዋጋ",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "ጠቅላላ ዋጋ",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "የሚያበቃበት ቀን",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "የዋስትና ቀን",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "የግዢ ቀን",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "የተመረተበት ቀን",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "የመደርደሪያ ሕይወት",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "የማከማቻ ቦታ",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "የአሞሌ ኮድ",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "ማስታወሻ",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "ማስጠንቀቂያ",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "የማስጠንቀቂያ ቀናት",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "የቁጥር ለውጥ",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "ሜዳውን አሻሽል",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "አልተዘጋጀም",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "ባዶ",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "አብራ",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "ይዝጉ",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "የክወና ምዝግብ ማስታወሻ",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "የክወና መዝገቦችን ይመልከቱ እና ወደነበሩበት ይመልሱ",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "ክዋኔ አልተሳካም {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "ቀን የለም",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "ወር",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "ሰማይ",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "ሰማይ",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "ያልታወቀ",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "አንበሳ",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "የክወና ቀን",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

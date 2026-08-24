@@ -1688,5 +1688,395 @@
   "enter_category_name": "অনুগ্রহ করে শ্রেণীর নাম লিখুন",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "সংরক্ষিত নয় এমন পরিবর্তনসমূহ",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "আপনার অপ্রদত্ত পরিবর্তন আছে, অনুগ্রহ করে একটি ক্রিয়াকলাপ নির্বাচন করুন:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "ত্যাগ করা",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "টি",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "টি",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "বাক্স",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "প্যাকেজ",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "বটল",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "বাক্স",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "সেট",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "কেজি",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "জি",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "এল",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "মিলি",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "ম",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "সেমি",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "পরিমাণ",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "একক মূল্য",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "মুদ্রা",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "মোট দাম:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "সংরক্ষণস্থল",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "পণ্যের বৈশিষ্ট্য",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "মেয়াদ",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "ওয়ারেন্টি শেষের তারিখ",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "উৎপাদনের তারিখ",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "ক্রয়ের তারিখ",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "根据{dateType}和保质期自动计算",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "স্বয়ংক্রিয় হিসাব",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "ছবি",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "মন্তব্য",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "মন্তব্যের তথ্য যোগ করুন (ঐচ্ছিক)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "বছর",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "মাস",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "আকাশ",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "সম্পূর্ণভাবে নির্বাচিত {count}টি আইটেম",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "সকল নির্বাচন করুন",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "সমস্ত নির্বাচন বাতিল করুন",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "ব্যাচে সংরক্ষণের স্থান পরিবর্তন করা",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "নিশ্চিত আপনি নির্বাচিত {count} টি আইটেম মুছে দিতে চান?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} টি আইটেম মুছে ফেলা হয়েছে",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "বর্তমানে কোন সংরক্ষণ স্থানের বিকল্প নেই",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "ব্যাচে সংরক্ষণের স্থান পরিবর্তন করা",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count}টি আইটেম {location} এ স্থানান্তর করা হয়েছে",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "প্রবেশ করানো",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "সম্পাদনা",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "মুছে ফেলা",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "গুদামে প্রবেশ",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "বাহির করা",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "রপ্তানি ব্যর্থ: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "লগ মুছুন",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "আপনি কি নিশ্চিত যে সকল অপারেশন লগ মুছে ফেলবেন? এই ক্রিয়াটি পুনরুদ্ধারযোগ্য নয়।",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "লগ মুছে ফেলা হয়েছে",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "অপারেশন লগ",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "লগ এক্সপোর্ট করুন",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "লগ মুছুন",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "অস্থায়ীভাবে কোন অপারেশন লগ নেই",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "বস্তু:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "শ্রেণীবিন্যাস:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "প্রকার:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "পরিমাণ:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "একক মূল্য:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "মোট দাম:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "মেয়াদ শেষ হওয়ার তারিখ:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "ওয়ারেন্টি তারিখ:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "ক্রয়ের তারিখ:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "উৎপাদন তারিখ:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "মেয়াদ শেষ হওয়ার তারিখ:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "সংরক্ষণের স্থান:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "বারকোড:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "টীকা:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "সতর্কবার্তা:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "সতর্কতার দিন সংখ্যা:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "পরিমাণের পরিবর্তন:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "ক্ষেত্রটি সম্পাদনা করুন:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "সেট করা হয়নি",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "খালি",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "চালু করুন",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "বন্ধ করুন",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "অপারেশন লগ",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "অপারেশন রেকর্ড দেখুন এবং পুনঃস্থাপন করুন",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "অপারেশন ব্যর্থ: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "তারিখ নেই",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "মাস",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "আকাশ",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "আকাশ",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "অজানা",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "লিও",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "পরিচালনার তারিখ:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

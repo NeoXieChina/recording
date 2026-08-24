@@ -1688,5 +1688,395 @@
   "enter_category_name": "Vinsamlegast sláðu inn flokkunarnafn",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Óvistaðar breytingar",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Þú hefur ósparaðar breytingar, vinsamlegast veldu aðgerð:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "gefa eftir",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "stykki",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "hlutr",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "kassi",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "poki",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "flaska",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "kassi",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "sett",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "Magn",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Einingaverð",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Gjaldmiðill",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Heildarverð:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Geymslustaður",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Vörueiginleikar",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Gildistími",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Ábyrgðartími rennur út",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Framleiðsludagur",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Kaupdagsetning",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Reikna sjálfkrafa út frá {dateType} og geymsluþoli",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Sjálfvirk útreikningur",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "mynd",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Athugasemd",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Bæta við athugasemdum (valfrjálst)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "Ár",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "mánaður",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "himinn",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Valið {count} atriði",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Velja allt",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Hætta við allt val",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Fjöldaskipti á geymslustað",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Ertu viss um að þú viljir eyða valin {count} atriðum?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Eytt {count} hlutum",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Enginn geymslustaður í boði",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Fjöldaskipti á geymslustað",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "Færa {count} hluti yfir í {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Skrá inn",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Breyta",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Eyða",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Innskráning í lager",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Út úr birgðum",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Útflutningur misheppnaðist: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Hreinsa dagbók",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Ertu viss um að þú viljir hreinsa allar aðgerðarloggar? Þessi aðgerð er óafturkræf.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Dagbókin hefur verið hreinsuð",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Aðgerðardagbok",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Flytja út skrá",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Hreinsa dagbók",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Engar aðgerðaferlar skráðir",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Hlutur:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Flokkun:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Tegund:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Magn:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Einingaverð:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Heildarverð:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "FormattingDate:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Ábyrgðardagsetning:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Kaupdagsetning:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Framleiðsludagsetning:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Geymsluþol:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Geymslustaður:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Strikamerki:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Athugasemd:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Forskoðun:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Viðvörunardagar:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Fjöldabreyting:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Breyta reit",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Ekki stillt",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "tóm",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Opna",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Loka",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Aðgerðardagbók",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Skoða og endurheimta aðgerðarferil",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Virkjun mistókst: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Engin dagsetning",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "mánuðir",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "himinn",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "himinn",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Óþekkt",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Reó",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Aðgerðardagur:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

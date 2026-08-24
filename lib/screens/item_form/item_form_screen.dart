@@ -116,19 +116,20 @@ class ItemFormScreen extends StatelessWidget {
             canPop: !provider.isDirty,
             onPopInvokedWithResult: (bool didPop, Object? result) async {
               if (!didPop && provider.isDirty) {
+                final l10n = AppLocalizations.of(context);
                 final dialogResult = await showDialog<int>(
                   context: context,
                   builder: (context) => AlertDialog(
-                    title: Text('未保存的更改'),
-                    content: Text('您有未保存的更改，请选择操作：'),
+                    title: Text(l10n.unsaved_changes),
+                    content: Text(l10n.unsaved_changes_message),
                     actions: [
                       TextButton(
                         onPressed: () => Navigator.pop(context, 0),
-                        child: Text(AppLocalizations.of(context).cancel),
+                        child: Text(l10n.cancel),
                       ),
                       TextButton(
                         onPressed: () => Navigator.pop(context, 1),
-                        child: Text('放弃'),
+                        child: Text(l10n.discard),
                       ),
                     ],
                   ),
@@ -151,19 +152,20 @@ class ItemFormScreen extends StatelessWidget {
   Future<void> _handleClose(
       BuildContext context, ItemFormProvider provider) async {
     if (provider.isDirty) {
+      final l10n = AppLocalizations.of(context);
       final dialogResult = await showDialog<int>(
         context: context,
         builder: (context) => AlertDialog(
-          title: Text('未保存的更改'),
-          content: Text('您有未保存的更改，请选择操作：'),
+          title: Text(l10n.unsaved_changes),
+          content: Text(l10n.unsaved_changes_message),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context, 0),
-              child: Text(AppLocalizations.of(context).cancel),
+              child: Text(l10n.cancel),
             ),
             TextButton(
               onPressed: () => Navigator.pop(context, 1),
-              child: Text('放弃'),
+              child: Text(l10n.discard),
             ),
           ],
         ),
@@ -177,12 +179,6 @@ class ItemFormScreen extends StatelessWidget {
   }
 
   String _mapCategoryToDisplay(String category) {
-    // 如果 category 是预定义分类键，返回对应的中文分类名
-    final index = AppConstants.itemCategoryKeys.indexOf(category);
-    if (index != -1) {
-      return AppConstants.itemCategories[index];
-    }
-    // 否则直接返回 category（可能是中文分类名或自定义分类）
     return category;
   }
 
@@ -681,7 +677,7 @@ class ItemFormScreen extends StatelessWidget {
             Expanded(
               child: _buildNumberInputWithButtons(
                 context: context,
-                label: '数量',
+                label: l10n.quantity_label,
                 errorText: provider.quantityError,
                 icon: Icons.numbers,
                 value: provider.quantity,
@@ -707,7 +703,7 @@ class ItemFormScreen extends StatelessWidget {
             Expanded(
               child: _buildNumberInputWithButtons(
                 context: context,
-                label: '单价',
+                label: l10n.unit_price_label,
                 errorText: provider.unitPriceError,
                 icon: Icons.attach_money,
                 value: provider.unitPrice,
@@ -726,7 +722,7 @@ class ItemFormScreen extends StatelessWidget {
               width: 120,
               child: _buildStyledDropdownButtonFormField<String>(
                 context: context,
-                label: '货币',
+                label: l10n.currency_label,
                 value: provider.currencySymbol,
                 items: AppConstants.currencySymbols.map((symbol) {
                   return DropdownMenuItem(
@@ -748,7 +744,7 @@ class ItemFormScreen extends StatelessWidget {
         const SizedBox(height: 8),
         Center(
           child: Text(
-            '总价：${FormatUtils.formatPrice(provider.totalPrice, currencySymbol: provider.currencySymbol)}',
+            '${l10n.total_price_label}${FormatUtils.formatPrice(provider.totalPrice, currencySymbol: provider.currencySymbol)}',
             style: Theme.of(context).textTheme.titleMedium?.copyWith(
               color: Theme.of(context).colorScheme.primary,
               fontWeight: FontWeight.bold,
@@ -765,7 +761,7 @@ class ItemFormScreen extends StatelessWidget {
 
             return _buildStyledDropdownButtonFormField<String>(
               context: context,
-              label: '存储地点',
+              label: l10n.storage_location_label,
               value: hasCustomLocation ? 'custom' : provider.storageLocation,
               items: [
                 ...locations.map(
@@ -774,9 +770,9 @@ class ItemFormScreen extends StatelessWidget {
                     child: Text(location, overflow: TextOverflow.ellipsis),
                   ),
                 ),
-                const DropdownMenuItem(
+                DropdownMenuItem(
                   value: 'custom',
-                  child: Text('自定义地点', overflow: TextOverflow.ellipsis),
+                  child: Text(l10n.custom_location, overflow: TextOverflow.ellipsis),
                 ),
               ],
               onChanged: (value) {
@@ -813,26 +809,27 @@ class ItemFormScreen extends StatelessWidget {
     BuildContext context,
     ItemFormProvider provider,
   ) {
+    final l10n = AppLocalizations.of(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text('物品属性', style: Theme.of(context).textTheme.titleMedium),
+        Text(l10n.item_properties, style: Theme.of(context).textTheme.titleMedium),
         const SizedBox(height: 16),
         SegmentedButton<ItemType>(
-          segments: const [
+          segments: [
             ButtonSegment(
               value: ItemType.consumable,
-              label: Text('消耗品'),
+              label: Text(l10n.consumable),
               icon: Icon(Icons.local_grocery_store),
             ),
             ButtonSegment(
               value: ItemType.durable,
-              label: Text('耐用品'),
+              label: Text(l10n.durable),
               icon: Icon(Icons.chair),
             ),
             ButtonSegment(
               value: ItemType.none,
-              label: Text('无日期'),
+              label: Text(l10n.no_date),
               icon: Icon(Icons.event_busy),
             ),
           ],
@@ -855,10 +852,11 @@ class ItemFormScreen extends StatelessWidget {
     required ItemFormProvider provider,
     required bool isConsumable,
   }) {
+    final l10n = AppLocalizations.of(context);
     if (provider.noDate) {
       return const SizedBox.shrink();
     }
-    final dateLabel = isConsumable ? '有效期' : '保修到期日';
+    final dateLabel = isConsumable ? l10n.expiry_date_label : l10n.warranty_expiry_date_label;
     final dateIcon = isConsumable ? Icons.event : Icons.verified_user;
 
     return Column(
@@ -867,7 +865,7 @@ class ItemFormScreen extends StatelessWidget {
         // 基准日期选择
         _buildDatePicker(
           context: context,
-          label: isConsumable ? '生产日期' : '购买日期',
+          label: isConsumable ? l10n.production_date_label : l10n.purchase_date_label,
           icon: isConsumable ? Icons.factory : Icons.shopping_cart,
           date: isConsumable ? provider.productionDate : provider.purchaseDate,
           errorText: null,
@@ -908,7 +906,9 @@ class ItemFormScreen extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(top: 8),
             child: Text(
-              '根据${isConsumable ? '生产日期' : '购买日期'}和保质期自动计算',
+              l10n.auto_calculated_from(
+                isConsumable ? l10n.production_date_label : l10n.purchase_date_label,
+              ),
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                 color: Colors.green,
                 fontStyle: FontStyle.italic,
@@ -930,6 +930,7 @@ class ItemFormScreen extends StatelessWidget {
     bool showClearButton = true,
     DateTime? minDate,
   }) {
+    final l10n = AppLocalizations.of(context);
     final currentDate = date ?? DateTime.now();
 
     void adjustDate(int days) {
@@ -1030,7 +1031,7 @@ class ItemFormScreen extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(top: 4),
             child: Text(
-              '自动计算',
+              l10n.auto_calculated,
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                 color: Colors.green,
                 fontStyle: FontStyle.italic,
@@ -1042,10 +1043,11 @@ class ItemFormScreen extends StatelessWidget {
   }
 
   Widget _buildMediaSection(BuildContext context, ItemFormProvider provider) {
+    final l10n = AppLocalizations.of(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text('图片', style: Theme.of(context).textTheme.titleMedium),
+        Text(l10n.images_label, style: Theme.of(context).textTheme.titleMedium),
         const SizedBox(height: 8),
         Wrap(
           spacing: 8,
@@ -1224,14 +1226,15 @@ class ItemFormScreen extends StatelessWidget {
   }
 
   Widget _buildNotesSection(BuildContext context, ItemFormProvider provider) {
+    final l10n = AppLocalizations.of(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text('备注', style: Theme.of(context).textTheme.titleMedium),
+        Text(l10n.notes_label, style: Theme.of(context).textTheme.titleMedium),
         const SizedBox(height: 8),
         TextField(
           decoration: InputDecoration(
-            hintText: '添加备注信息（选填）',
+            hintText: l10n.add_notes_hint,
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
             contentPadding: const EdgeInsets.symmetric(
               horizontal: 12,
@@ -1255,6 +1258,7 @@ class ItemFormScreen extends StatelessWidget {
     required BuildContext context,
     required ItemFormProvider provider,
   }) {
+    final l10n = AppLocalizations.of(context);
     // 从存储的月数和天数计算年、月、日
     final totalMonths = provider.shelfLifeMonths ?? 0;
     final days = provider.shelfLifeDays ?? 0;
@@ -1389,7 +1393,7 @@ class ItemFormScreen extends StatelessWidget {
               children: [
                 Expanded(
                   child: buildSimpleNumberInput(
-                    label: '年',
+                    label: l10n.year_label,
                     controller: yearController,
                     onChanged: handleYearChange,
                   ),
@@ -1397,7 +1401,7 @@ class ItemFormScreen extends StatelessWidget {
                 const SizedBox(width: 12),
                 Expanded(
                   child: buildSimpleNumberInput(
-                    label: '月',
+                    label: l10n.month_label,
                     controller: monthController,
                     onChanged: handleMonthChange,
                   ),
@@ -1405,7 +1409,7 @@ class ItemFormScreen extends StatelessWidget {
                 const SizedBox(width: 12),
                 Expanded(
                   child: buildSimpleNumberInput(
-                    label: '天',
+                    label: l10n.day_label,
                     controller: dayController,
                     onChanged: handleDayChange,
                   ),

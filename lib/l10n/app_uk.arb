@@ -1688,5 +1688,395 @@
   "enter_category_name": "Будь ласка, введіть назву категорії",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Незбережені зміни",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "У вас є незбережені зміни, будь ласка, виберіть дію:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "відмовитися",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "шт.",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "шт",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "ящик",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "пакет",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "пляшка",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "коробка",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "комплект",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "кг",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "мл",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "м",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "см",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "кількість",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Ціна за одиницю",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "валюта",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Загальна ціна:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Місце зберігання",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Властивості предмета",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "термін дії",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Дата закінчення гарантії",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Дата виробництва",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Дата покупки",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Автоматичний розрахунок на основі {dateType} та терміну придатності",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Автоматичний розрахунок",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "зображення",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Примітка",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Додати примітку (необов'язково)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "рік",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "місяць",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "небо",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Вибрано {count} пунктів",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Вибрати все",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Скасувати виділення всього",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "масове переміщення місць зберігання",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Ви впевнені, що хочете видалити вибрані {count} предмети?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Видалено {count} предметів",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Немає доступних місць для збереження",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "масове переміщення місць зберігання",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "已將 {count} 個物品移動到 {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Введення",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Редагувати",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "видалити",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Введення на склад",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Вивезення зі складу",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Експорт не вдався: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Очистити журнал",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Ви впевнені, що хочете очистити всі журнали операцій? Цю дію неможливо скасувати.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Журнал очищено",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Журнал операцій",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Експорт журналу",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Очистити журнал",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Поки що немає журналу операцій",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Предмет:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Категорія:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Тип:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Кількість:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Ціна за одиницю:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Загальна ціна:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Термін придатності:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Дата гарантії:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Дата покупки:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Дата виробництва:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Термін придатності:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Місце зберігання:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Штрих-код:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Примітка:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Попередження:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Дні попередження:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Зміна кількості:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Змінити поле:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Не встановлено",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "порожній",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "увімкнути",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Закрити",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Журнал операцій",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Перегляд та відновлення записів операцій",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Операція не вдалася: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Без дати",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "місяць",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "небо",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "небо",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "невідомо",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Лео",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Дата операції:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

@@ -123,8 +123,8 @@ class SettingsScreen extends StatelessWidget {
                   child: _buildSettingsTile(
                     context: context,
                     icon: Icons.history,
-                    title: '操作日志',
-                    subtitle: '查看和恢复操作记录',
+                    title: l10n.operation_logs_menu,
+                    subtitle: l10n.operation_logs_description,
                     route: AppRoutes.operationLog,
                   ),
                 ),

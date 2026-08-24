@@ -1688,5 +1688,395 @@
   "enter_category_name": "કૃપા કરીને શ્રેણીનું નામ દાખલ કરો",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "સાચવાયો નથી તે બદલાવ",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "તમારી પાસે સંગ્રહ ન થયેલી ફેરફારો છે, કૃપા કરીને કાર્ય પસંદ કરો:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "મતદાન કરવો",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "એક",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "ટુકડો",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "બકસો",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "બેગ",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "બોટલ",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "બકસો",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "સેટ",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "કિગ્રા",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "જી",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "એલ",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "મીલિલીટર",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "સેમી",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "સંખ્યા",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "એકમ કિંમત",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "કરન્સી",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "કુલ કિંમત：",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "સંગ્રહ સ્થળ",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "વસ્તુના લક્ષણો",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "મતદાન સમયગાળો",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "ગારંટી સમાપ્ત થવાની તારીખ",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "ઉત્પાદન તારીખ",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "ક્રીયતારીખ",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "આધાર {dateType} અને મર્યાદિત સમયગાળા અનુસાર આપોઆપ ગણતરી કરવામાં આવે છે",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "સ્વચાલિત ગણતરી",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "ચિત્ર",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "ટિપ્પણીઓ",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "નોંધ માહિતી ઉમેરો (વૈકલ્પિક)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "વર્ષ",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "ચંદ્ર",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "આકાસ",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} આઈટમ્સ પસંદ કરી ગયા છે",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "તમારા બધા પસંદ કરો",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "બધા પસંદગી રદ કરો",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "થોકમાં સ્ટોરેજ સ્થાન બદલવું",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "ચિહ્નિત {count} વસ્તુઓ કાઢી નાખવી છે તે નક્કી કરશો?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "ડિલીટ કરેલા {count} વસ્તુઓ",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "હજુ સ્ટોરેજ સ્થાન ઉપલબ્ધ નથી",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "થોકમાં સ્ટોરેજ સ્થાન બદલવું",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} વસ્તુઓ {location} માં મૂવી ગઈ છે",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "પ્રવેશ કરવો",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "સંપાદિત કરો",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "કાઢી નાખો",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "કૂટણમાં દાખલ કરવું",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "કારા જવાનું",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "નિર્યાત નિષ્ફળ: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "લૉગ સાફ કરો",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "શું તમે ખરેખર બધા ઓપરેશન લોગ્સ ખાલી કરવા માંગો છો? આ ક્રિયા પુનઃપ્રાપ્ય નથી.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "લૉગ સાફ કરી દીધો છે",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "ક્રીયા લોગ",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "લૉગ નિકાસ કરો",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "લૉગ સાફ કરો",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "અત્યાર સુધી કોઇ કાર્ય લૉગ નથી",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "વસ્તુ:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "કેટેગરી:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "પ્રકાર:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "મતારા:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "એકમ કિંમત：",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "કુલ કિંમત：",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "સમાપ્તિ તારીખ:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "ગેરંટી તારીખ:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "ખરીદ તારીખ:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "ઉત્પાદન તારીખ:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "માપદંડ સમય:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "સંગ્રહ સ્થાન:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "બારકોડ:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "કૂટણીઓ:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "ચેતવણી:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "ચેતવણી દિવસો:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "数量માં ફેરફાર:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "ક્ષેત્ર ફેરફાર કરો:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "સેટ કર્યું નથી",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "ખાલી",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "ચાલૂ કરવું",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "બંધ કરો",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "ક્રીયા લોગ",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "ઓપરેશન રેકોર્ડ તપાસો અને પુનઃપ્રાપ્ત કરો",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "ઓપરેશન વિફળ: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "કોઈ તારીખ નથી",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "મહિનો",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "આકાસ",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "આકાસ",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "અજાણ્યું",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "લિયોએ",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "ઓપરેશન તારીખ:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

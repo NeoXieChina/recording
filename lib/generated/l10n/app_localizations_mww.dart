@@ -1179,4 +1179,285 @@ class AppLocalizationsMww extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Tau txo qis los ntawm $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Cov kev hloov uas tsis tau khaws cia';
+
+  @override
+  String get unsaved_changes_message =>
+      'Yog koj muaj kev hloov uas tsis tau txuag, thov xaiv ib qho kev ua:';
+
+  @override
+  String get discard => 'Tso tseg';
+
+  @override
+  String get unit_piece => 'daim';
+
+  @override
+  String get unit_item => 'daim';
+
+  @override
+  String get unit_box => 'Thawv';
+
+  @override
+  String get unit_package => 'hnab';
+
+  @override
+  String get unit_bottle => 'raj mis';
+
+  @override
+  String get unit_carton => 'thawv';
+
+  @override
+  String get unit_set => 'teem';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'Qhov ntau';
+
+  @override
+  String get unit_price_label => 'Nqi ib qho';
+
+  @override
+  String get currency_label => 'Nyiaj txiag';
+
+  @override
+  String get total_price_label => 'Nqi Tag Nrho:';
+
+  @override
+  String get storage_location_label => 'Chaw khaws cia';
+
+  @override
+  String get item_properties => 'Cov yam ntxwv ntawm yam khoom';
+
+  @override
+  String get expiry_date_label => 'Lub sijhawm siv tau';
+
+  @override
+  String get warranty_expiry_date_label => 'Hnub Xaus Kev Lav Ntseg';
+
+  @override
+  String get production_date_label => 'Hnub tsim khoom';
+
+  @override
+  String get purchase_date_label => 'Hnub yuav khoom';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Xam tau tsis siv neeg raws li $dateType thiab lub neej txee';
+  }
+
+  @override
+  String get auto_calculated => 'Kev suav tsis siv neeg';
+
+  @override
+  String get images_label => 'Duab';
+
+  @override
+  String get notes_label => 'Lus ceeb toom';
+
+  @override
+  String get add_notes_hint => 'Ntxiv lus piav qhia (yeem xaiv)';
+
+  @override
+  String get year_label => 'Xyoo';
+
+  @override
+  String get month_label => 'Hli';
+
+  @override
+  String get day_label => 'Ntuj';
+
+  @override
+  String selected_count(int count) {
+    return '$count yam khoom xaiv tau';
+  }
+
+  @override
+  String get select_all => 'Xaiv Txhua Yam';
+
+  @override
+  String get deselect_all => 'Tshem Tawm Txhua Yam';
+
+  @override
+  String get batch_change_location => 'Batch swap chaw cia ntaub ntawv';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Koj puas paub tseeb tias koj xav rho tawm cov khoom $count xaiv?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count yam khoom tau raug tshem tawm';
+  }
+
+  @override
+  String get no_storage_location_available => 'Tsis muaj chaw cia ntaub ntawv';
+
+  @override
+  String get batch_change_location_title => 'Batch swap chaw cia ntaub ntawv';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count yam khoom tau hloov mus rau $location';
+  }
+
+  @override
+  String get operation_type_create => 'Nkag';
+
+  @override
+  String get operation_type_update => 'Kho kom raug';
+
+  @override
+  String get operation_type_delete => 'Rho tawm';
+
+  @override
+  String get operation_type_inbound => 'Khaws cia';
+
+  @override
+  String get operation_type_outbound => 'Xa tawm ntawm lub tsev khaws khoom';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Export tsis tau: $error';
+  }
+
+  @override
+  String get clear_logs => 'Ntxuav cov log';
+
+  @override
+  String get confirm_clear_logs =>
+      'Koj puas paub tseeb tias koj xav tshem tag nrho cov ntaub ntawv ua haujlwm? Qhov kev ua no tsis tuaj yeem hloov tau.';
+
+  @override
+  String get logs_cleared => 'Lub log tau ntxuav lawm';
+
+  @override
+  String get operation_logs_title => 'Operation Log';
+
+  @override
+  String get export_logs => 'Export Log';
+
+  @override
+  String get clear_logs_tooltip => 'Ntxuav cov log';
+
+  @override
+  String get no_operation_logs => 'Tsis muaj ntaub ntawv sau kev ua haujlwm';
+
+  @override
+  String get log_item_label => 'Yam khoom:';
+
+  @override
+  String get log_category_label => 'Qeb:';
+
+  @override
+  String get log_type_label => 'Hom:';
+
+  @override
+  String get log_quantity_label => 'Ntau:';
+
+  @override
+  String get log_unit_price_label => 'Nqi ib chav:';
+
+  @override
+  String get log_total_price_label => 'Nqi Tag Nrho:';
+
+  @override
+  String get log_expiry_date_label => 'Hnub xaus:';
+
+  @override
+  String get log_warranty_date_label => 'Hnub Warranty:';
+
+  @override
+  String get log_purchase_date_label => 'Hnub yuav:';
+
+  @override
+  String get log_production_date_label => 'Hnub tsim khoom:';
+
+  @override
+  String get log_shelf_life_label => 'Lub neej khaws cia:';
+
+  @override
+  String get log_storage_location_label => 'Chaw cia khoom:';
+
+  @override
+  String get log_barcode_label => 'Barcode:';
+
+  @override
+  String get log_notes_label => 'Ceeb toom:';
+
+  @override
+  String get log_alert_label => 'Ceeb toom:';
+
+  @override
+  String get log_alert_days_label => 'Hnub ceeb toom:';
+
+  @override
+  String get log_quantity_change_label => 'Kev Hloov Ntau:';
+
+  @override
+  String get log_field_changes_label => 'Hloov kho qhov chaw:';
+
+  @override
+  String get log_not_set => 'Tsis tau teeb tsa';
+
+  @override
+  String get log_empty => 'tsis muaj dab tsi';
+
+  @override
+  String get log_alert_enabled => 'Qhib';
+
+  @override
+  String get log_alert_disabled => 'Kaw';
+
+  @override
+  String get operation_logs_menu => 'Operation Log';
+
+  @override
+  String get operation_logs_description =>
+      'Saib thiab rov qab cov ntaub ntawv ua haujlwm';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Kev ua haujlwm tsis tau: $error';
+  }
+
+  @override
+  String get no_date => 'Tsis muaj hnub tim';
+
+  @override
+  String get shelf_life_months_suffix => 'hli (hli)';
+
+  @override
+  String get shelf_life_days_suffix => 'Ntuj';
+
+  @override
+  String get alert_days_suffix => 'Ntuj';
+
+  @override
+  String get unknown => 'Tsis paub';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'Hnub Ua Haujlwm:';
 }

@@ -1688,5 +1688,395 @@
   "enter_category_name": "Yacani na isulu ni icavacava",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Veisau sega ni maroroi",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "O tiko ena veisau sega ni maroroi, vakatulewataka na cakacaka:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "Valea",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "lagi",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "iVola",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "Kati",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "iwe",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "vili",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "Kete",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "iVale",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "iVale",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Vale ni iyaya",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Vale",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Yau taucoko:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Yaca ni iLavo",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "iTavi ni iyaya",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Vale ni gauna vakadonui",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Siga ni musuka ni vakadonui",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Siga ni vakatubu",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Siga ni volivolitaki",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Vakadewataka vakatotolo ena {dateType} kei na gauna ni dodonu me vakayagataki",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Vakatotomuri iko na kacivi",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "iVakatakilakila",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "iVakatakilakila",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Vakayacora Vosa ni Vakatavulici (Sega ni Yaga Dina)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "yabaki",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "lagi",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "lagi",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Sa digitaki {count} na iyaya",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Digitaka taucoko",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Sega ni digitaka taucoko",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Veisau levu ni vanua ni maroroi",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "O sa dede tiko me vakarautaka na {count} iyaya sa digitaki me vakarautaki?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Kua ni sa buli {count} na iyaya",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Sega ni dua na vanua ni veivakavoui e rawa ni digitaki",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Veisau levu ni vanua ni maroroi",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "Kua ni {count} na iyaya ki {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Vakatakilakila",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Vakadewataka",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Sese",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Valei ni iyaya",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Vale ni volivoli",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Sega ni rawata na vakatulewa ni isau: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Vakatokai na itukutuku ni veika kece",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "O sa na dikeva me vakarautaki kece na itukutuku ni cakacaka? E sega ni rawa ni vakarautaki tale oqo na cakacaka.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Na itukutuku ni gauna sa vakacacani oti",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Lagatakilave ni cakacaka",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Vakatokai na itukutuku ni veika e yaco",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Vakatokai na itukutuku ni veika e yaco",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Sega ni i vola ni cakacaka ena gauna oqo",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Yaca ni iyaya:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Vakatakilakila:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Vale ni iwalewale:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Vale ni iwiliwili:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Isau ni iyaya",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Yau taucoko:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Siga ni cava ni livaliva:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Siga ni vakadodonutaki",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Siga ni volivoli:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Siga ni vakatubu",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Lako ni gauna ni bula vinaka:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Veivanua ni itukutuku",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Matailalai ni naba",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Vakatakilakila:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Vakatutu ena gauna ni leqa:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Na gauna ni itukutuku vakavuni: ",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Veisau ni iwiliwili:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Veisautaka na iyaya",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Sega ni vakatulewa",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "lagi",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Sega na cava",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Sega",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Lagatakilave ni cakacaka",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Raica kei na vakaloutaki ni itukutuku ni cakacaka",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Sega ni cakacaka vinaka: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Se sega na siga",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "vica na vula",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "lagi",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "lagi",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Sega ni kilai",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Siga ni cakacaka:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

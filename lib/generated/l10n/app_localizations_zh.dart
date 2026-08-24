@@ -1125,6 +1125,284 @@ class AppLocalizationsZh extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return '已减少 $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => '未保存的更改';
+
+  @override
+  String get unsaved_changes_message => '您有未保存的更改，请选择操作：';
+
+  @override
+  String get discard => '放弃';
+
+  @override
+  String get unit_piece => '个';
+
+  @override
+  String get unit_item => '件';
+
+  @override
+  String get unit_box => '箱';
+
+  @override
+  String get unit_package => '包';
+
+  @override
+  String get unit_bottle => '瓶';
+
+  @override
+  String get unit_carton => '盒';
+
+  @override
+  String get unit_set => '套';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => '数量';
+
+  @override
+  String get unit_price_label => '单价';
+
+  @override
+  String get currency_label => '货币';
+
+  @override
+  String get total_price_label => '总价：';
+
+  @override
+  String get storage_location_label => '存储地点';
+
+  @override
+  String get item_properties => '物品属性';
+
+  @override
+  String get expiry_date_label => '有效期';
+
+  @override
+  String get warranty_expiry_date_label => '保修到期日';
+
+  @override
+  String get production_date_label => '生产日期';
+
+  @override
+  String get purchase_date_label => '购买日期';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return '根据$dateType和保质期自动计算';
+  }
+
+  @override
+  String get auto_calculated => '自动计算';
+
+  @override
+  String get images_label => '图片';
+
+  @override
+  String get notes_label => '备注';
+
+  @override
+  String get add_notes_hint => '添加备注信息（选填）';
+
+  @override
+  String get year_label => '年';
+
+  @override
+  String get month_label => '月';
+
+  @override
+  String get day_label => '天';
+
+  @override
+  String selected_count(int count) {
+    return '已选择 $count 项';
+  }
+
+  @override
+  String get select_all => '全选';
+
+  @override
+  String get deselect_all => '取消全选';
+
+  @override
+  String get batch_change_location => '批量调换存储地点';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return '确定删除选中的 $count 个物品吗？';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '已删除 $count 个物品';
+  }
+
+  @override
+  String get no_storage_location_available => '暂无存储地点可选';
+
+  @override
+  String get batch_change_location_title => '批量调换存储地点';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '已将 $count 个物品移动到 $location';
+  }
+
+  @override
+  String get operation_type_create => '录入';
+
+  @override
+  String get operation_type_update => '编辑';
+
+  @override
+  String get operation_type_delete => '删除';
+
+  @override
+  String get operation_type_inbound => '入库';
+
+  @override
+  String get operation_type_outbound => '出库';
+
+  @override
+  String export_failed_message(String error) {
+    return '导出失败：$error';
+  }
+
+  @override
+  String get clear_logs => '清空日志';
+
+  @override
+  String get confirm_clear_logs => '确定要清空所有操作日志吗？此操作不可恢复。';
+
+  @override
+  String get logs_cleared => '日志已清空';
+
+  @override
+  String get operation_logs_title => '操作日志';
+
+  @override
+  String get export_logs => '导出日志';
+
+  @override
+  String get clear_logs_tooltip => '清空日志';
+
+  @override
+  String get no_operation_logs => '暂无操作日志';
+
+  @override
+  String get log_item_label => '物品：';
+
+  @override
+  String get log_category_label => '分类：';
+
+  @override
+  String get log_type_label => '类型：';
+
+  @override
+  String get log_quantity_label => '数量：';
+
+  @override
+  String get log_unit_price_label => '单价：';
+
+  @override
+  String get log_total_price_label => '总价：';
+
+  @override
+  String get log_expiry_date_label => '过期日期：';
+
+  @override
+  String get log_warranty_date_label => '保修日期：';
+
+  @override
+  String get log_purchase_date_label => '购买日期：';
+
+  @override
+  String get log_production_date_label => '生产日期：';
+
+  @override
+  String get log_shelf_life_label => '保质期：';
+
+  @override
+  String get log_storage_location_label => '存储地点：';
+
+  @override
+  String get log_barcode_label => '条码：';
+
+  @override
+  String get log_notes_label => '备注：';
+
+  @override
+  String get log_alert_label => '预警：';
+
+  @override
+  String get log_alert_days_label => '预警天数：';
+
+  @override
+  String get log_quantity_change_label => '数量变化：';
+
+  @override
+  String get log_field_changes_label => '修改字段：';
+
+  @override
+  String get log_not_set => '未设置';
+
+  @override
+  String get log_empty => '空';
+
+  @override
+  String get log_alert_enabled => '开启';
+
+  @override
+  String get log_alert_disabled => '关闭';
+
+  @override
+  String get operation_logs_menu => '操作日志';
+
+  @override
+  String get operation_logs_description => '查看和恢复操作记录';
+
+  @override
+  String operation_failed_message(String error) {
+    return '操作失败：$error';
+  }
+
+  @override
+  String get no_date => '无日期';
+
+  @override
+  String get shelf_life_months_suffix => '个月';
+
+  @override
+  String get shelf_life_days_suffix => '天';
+
+  @override
+  String get alert_days_suffix => '天';
+
+  @override
+  String get unknown => '未知';
+
+  @override
+  String get developer_name => '雷欧';
+
+  @override
+  String get log_operation_date_label => '操作日期：';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -1236,7 +1514,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   }
 
   @override
-  String get alert_settings => '預警設置';
+  String get alert_settings => '提醒設置';
 
   @override
   String get calendar_settings => '日曆設定';
@@ -1269,7 +1547,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get enable_local_alerts_first => '請先開啟「本地提醒」開關';
 
   @override
-  String get alert_days_settings => '提醒天數設置';
+  String get alert_days_settings => '提醒天數設定';
 
   @override
   String get advance_alert_days => '提前提醒天數';
@@ -1420,7 +1698,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get restore_data => '恢復資料';
 
   @override
-  String get restore_data_description => '從ZIP備份文件恢復全部數據';
+  String get restore_data_description => '從ZIP備份檔案恢復全部資料';
 
   @override
   String get export_data => '導出資料';
@@ -1540,7 +1818,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get select_file => '選擇文件';
 
   @override
-  String get no_data => '暫無資料';
+  String get no_data => '暫無數據';
 
   @override
   String get no_data_description => '當前沒有資料，點擊下方按鈕添加第一條記錄吧！';
@@ -1615,7 +1893,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get system_name => '系統名稱';
 
   @override
-  String get operating_system => '作業系統';
+  String get operating_system => '操作系統';
 
   @override
   String get system_version => '系統版本';
@@ -1892,7 +2170,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get solution_step_1 => '1. 卸載應用重新安裝';
 
   @override
-  String get solution_step_2 => '2. 或清除應用資料';
+  String get solution_step_2 => '2. 或清除應用數據';
 
   @override
   String get solution_step_3 => '3. 或將 resetDatabaseOnStart 設為 true 後重新運行';
@@ -1938,7 +2216,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   }
 
   @override
-  String get database_structure_mismatch => '可能是資料庫結構不匹配，建議清除應用資料或重新安裝';
+  String get database_structure_mismatch => '可能是資料庫結構不匹配，建議清除應用數據或重新安裝';
 
   @override
   String get old_database_deleted => '已刪除舊資料庫檔案';
@@ -2044,7 +2322,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String password_min_length(String fieldName) {
-    return '$fieldName長度不能少於8個字元';
+    return '$fieldName長度不能少於8個字符';
   }
 
   @override
@@ -2248,4 +2526,282 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String item_decreased(String itemName, String quantity, String unit) {
     return '已減少 $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => '未儲存的更改';
+
+  @override
+  String get unsaved_changes_message => '您有未保存的更改，請選擇操作：';
+
+  @override
+  String get discard => '放棄';
+
+  @override
+  String get unit_piece => '個';
+
+  @override
+  String get unit_item => '件';
+
+  @override
+  String get unit_box => '箱';
+
+  @override
+  String get unit_package => '包';
+
+  @override
+  String get unit_bottle => '瓶';
+
+  @override
+  String get unit_carton => '盒';
+
+  @override
+  String get unit_set => '套';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => '厘米';
+
+  @override
+  String get quantity_label => '數量';
+
+  @override
+  String get unit_price_label => '單價';
+
+  @override
+  String get currency_label => '貨幣';
+
+  @override
+  String get total_price_label => '總價：';
+
+  @override
+  String get storage_location_label => '存儲地點';
+
+  @override
+  String get item_properties => '物品屬性';
+
+  @override
+  String get expiry_date_label => '有效期';
+
+  @override
+  String get warranty_expiry_date_label => '保修到期日';
+
+  @override
+  String get production_date_label => '生產日期';
+
+  @override
+  String get purchase_date_label => '購買日期';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return '根據$dateType和保質期自動計算';
+  }
+
+  @override
+  String get auto_calculated => '自動計算';
+
+  @override
+  String get images_label => '圖片';
+
+  @override
+  String get notes_label => '備註';
+
+  @override
+  String get add_notes_hint => '添加備註信息（選填）';
+
+  @override
+  String get year_label => '年';
+
+  @override
+  String get month_label => '月';
+
+  @override
+  String get day_label => '天';
+
+  @override
+  String selected_count(int count) {
+    return '已選擇 $count 項';
+  }
+
+  @override
+  String get select_all => '全選';
+
+  @override
+  String get deselect_all => '取消全選';
+
+  @override
+  String get batch_change_location => '批量調換存儲地點';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return '確定刪除選中的 $count 個物品嗎？';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '已刪除 $count 個物品';
+  }
+
+  @override
+  String get no_storage_location_available => '暫無儲存地點可選';
+
+  @override
+  String get batch_change_location_title => '批量調換存儲地點';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '已將 $count 個物品移動到 $location';
+  }
+
+  @override
+  String get operation_type_create => '錄入';
+
+  @override
+  String get operation_type_update => '編輯';
+
+  @override
+  String get operation_type_delete => '刪除';
+
+  @override
+  String get operation_type_inbound => '入庫';
+
+  @override
+  String get operation_type_outbound => '出庫';
+
+  @override
+  String export_failed_message(String error) {
+    return '導出失敗: $error';
+  }
+
+  @override
+  String get clear_logs => '清空日誌';
+
+  @override
+  String get confirm_clear_logs => '確定要清空所有操作日誌嗎？此操作不可恢復。';
+
+  @override
+  String get logs_cleared => '日誌已清空';
+
+  @override
+  String get operation_logs_title => '操作日誌';
+
+  @override
+  String get export_logs => '導出日誌';
+
+  @override
+  String get clear_logs_tooltip => '清空日誌';
+
+  @override
+  String get no_operation_logs => '暫無操作日誌';
+
+  @override
+  String get log_item_label => '物品：';
+
+  @override
+  String get log_category_label => '分類：';
+
+  @override
+  String get log_type_label => '類型：';
+
+  @override
+  String get log_quantity_label => '數量：';
+
+  @override
+  String get log_unit_price_label => '單價：';
+
+  @override
+  String get log_total_price_label => '總價：';
+
+  @override
+  String get log_expiry_date_label => '過期日期：';
+
+  @override
+  String get log_warranty_date_label => '保修日期：';
+
+  @override
+  String get log_purchase_date_label => '購買日期：';
+
+  @override
+  String get log_production_date_label => '生產日期：';
+
+  @override
+  String get log_shelf_life_label => '保質期：';
+
+  @override
+  String get log_storage_location_label => '存儲地點：';
+
+  @override
+  String get log_barcode_label => '條碼：';
+
+  @override
+  String get log_notes_label => '備註：';
+
+  @override
+  String get log_alert_label => '預警：';
+
+  @override
+  String get log_alert_days_label => '預警天數：';
+
+  @override
+  String get log_quantity_change_label => '數量變化：';
+
+  @override
+  String get log_field_changes_label => '修改字段：';
+
+  @override
+  String get log_not_set => '未設置';
+
+  @override
+  String get log_empty => '空';
+
+  @override
+  String get log_alert_enabled => '開啟';
+
+  @override
+  String get log_alert_disabled => '關閉';
+
+  @override
+  String get operation_logs_menu => '操作日誌';
+
+  @override
+  String get operation_logs_description => '查看和恢復操作記錄';
+
+  @override
+  String operation_failed_message(String error) {
+    return '操作失敗: $error';
+  }
+
+  @override
+  String get no_date => '無日期';
+
+  @override
+  String get shelf_life_months_suffix => '個月';
+
+  @override
+  String get shelf_life_days_suffix => '天';
+
+  @override
+  String get alert_days_suffix => '天';
+
+  @override
+  String get unknown => '未知';
+
+  @override
+  String get developer_name => '雷歐';
+
+  @override
+  String get log_operation_date_label => '操作日期：';
 }

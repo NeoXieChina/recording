@@ -24,8 +24,16 @@
   "@edit": {
     "description": ""
   },
-  "add": "нэмэх",
+  "add": "Нэмэх",
   "@add": {
+    "description": ""
+  },
+  "edit_item": "Барааг засварлах",
+  "@edit_item": {
+    "description": ""
+  },
+  "add_item": "Бараа нэмэх",
+  "@add_item": {
     "description": ""
   },
   "search": "Хайх",
@@ -146,7 +154,7 @@
       }
     }
   },
-  "alert_settings": "Анхааруулах тохиргоо",
+  "alert_settings": "сануулга тохируулах",
   "@alert_settings": {
     "description": ""
   },
@@ -166,7 +174,7 @@
   "@add_test_calendar_event": {
     "description": ""
   },
-  "enable_calendar_sync_first": "Эхлээд \"Хуанлигийн синк\" асаалтын товчийг асаана уу",
+  "enable_calendar_sync_first": "Эхлээд \"Хуанлигийн синк\" унтраалгыг асаа.",
   "@enable_calendar_sync_first": {
     "description": ""
   },
@@ -194,11 +202,11 @@
   "@alert_days_settings": {
     "description": ""
   },
-  "advance_alert_days": "урьдчилан сануулах өдрүүд",
+  "advance_alert_days": "Өмнө нь сануулах өдрүүд",
   "@advance_alert_days": {
     "description": ""
   },
-  "advance_alert_days_desc": "Барааны хугацаа дуусах эсвэл баталгаат хугацаа дуусахаас хэд хоногийн өмнө сануулга өгөхийг тохируулах",
+  "advance_alert_days_desc": "Барааны хугацаа дуусах эсвэл баталгаат хугацаа дуусахаас хэд хоногийн өмнө сануулахыг тохируулах",
   "@advance_alert_days_desc": {
     "description": ""
   },
@@ -214,7 +222,7 @@
   "@allow": {
     "description": ""
   },
-  "calendar_permission_granted": "Мөрийн хуанлийн эрх олгогдсон, мөрийн хуанлийн синк идэвхжсэн",
+  "calendar_permission_granted": "Төгөлдөр хуанлийн эрх олгогдсон, төлөвлөгөөний синхрончлол идэвхжсэн",
   "@calendar_permission_granted": {
     "description": ""
   },
@@ -226,7 +234,7 @@
   "@calendar_permission_permanently_denied": {
     "description": ""
   },
-  "calendar_permission_permanently_denied_desc": "Хувийн хуанлийн эрхийг байнгын болгохоос татгалзсан байна, системийн тохиргооноос гараар эрхийг асаана уу.",
+  "calendar_permission_permanently_denied_desc": "Хувийн хуанлийн эрх байнгын байдлаар татгалзагдсан байна, системийн тохиргооноос гараар эрхийг асаа.",
   "@calendar_permission_permanently_denied_desc": {
     "description": ""
   },
@@ -254,7 +262,7 @@
   "@test_calendar_event_failed": {
     "description": ""
   },
-  "calendar_permission_required": "Туршилтын үйл явдлыг нэмэхийн тулд хуанли эрх шаардагдана",
+  "calendar_permission_required": "Туршилтын үйл явдлыг нэмэхийн тулд хуанлийн эрх шаардагдана",
   "@calendar_permission_required": {
     "description": ""
   },
@@ -292,7 +300,7 @@
   "@notification_channel_description": {
     "description": ""
   },
-  "item_category_food": "хоол хүнс",
+  "item_category_food": "Хоол хүнс",
   "@item_category_food": {
     "description": ""
   },
@@ -340,7 +348,7 @@
   "@purchase_channel_supermarket": {
     "description": ""
   },
-  "purchase_channel_specialty_store": "дэлгүүр",
+  "purchase_channel_specialty_store": "орон нутгийн дэлгүүр",
   "@purchase_channel_specialty_store": {
     "description": ""
   },
@@ -364,7 +372,7 @@
   "@item_category": {
     "description": ""
   },
-  "custom_category": "Өөрийн зохион бүтээсэн ангилал",
+  "custom_category": "Өөрийн зохион байгуулсан ангилал",
   "@custom_category": {
     "description": ""
   },
@@ -425,7 +433,7 @@
   "@about": {
     "description": ""
   },
-  "about_description": "Програмын мэдээлэл ба хувилбар",
+  "about_description": "Программын мэдээлэл ба хувилбар",
   "@about_description": {
     "description": ""
   },
@@ -445,7 +453,7 @@
   "@confirm_again": {
     "description": ""
   },
-  "confirm_restore_warning": "Та бүх одоогийн өгөгдлийг устгаж, нөөцөөс сэргээхийг үнэхээр хүсч байна уу? Энэхүү үйлдлийг сэргээх боломжгүй!",
+  "confirm_restore_warning": "Та бүхэл бүтэн одоогийн өгөгдлийг устгаж, нөөцлөлтийг сэргээхийг үнэхээр хүсч байна уу? Энэхүү үйлдлийг сэргээх боломжгүй болно!",
   "@confirm_restore_warning": {
     "description": ""
   },
@@ -471,7 +479,7 @@
       }
     }
   },
-  "select_backup_file": "Нөөцлөлтийн файлыг сонгох",
+  "select_backup_file": "Нөөцлөх файл сонгох",
   "@select_backup_file": {
     "description": ""
   },
@@ -517,7 +525,7 @@
   "@duplicate_data_handling": {
     "description": ""
   },
-  "duplicate_data_detected": "Давхардсан өгөгдлийг илрүүлсэн, боловсруулах аргаа сонгоно уу:",
+  "duplicate_data_detected": "Давхардсан өгөгдөл илэрсэн, боловсруулалтын аргыг сонгоно уу:",
   "@duplicate_data_detected": {
     "description": ""
   },
@@ -525,7 +533,7 @@
   "@skip": {
     "description": ""
   },
-  "overwrite": "хуурах",
+  "overwrite": "Давхарлах",
   "@overwrite": {
     "description": ""
   },
@@ -545,11 +553,11 @@
   "@confirm_import": {
     "description": ""
   },
-  "confirm_import_message": "Өгөгдлийг импортолвол одоогийн өгөгдлийг устгана, энэ үйлдлийг буцааж болдоггүй. Үргэлжлүүлэхийг хүсэж байна уу?",
+  "confirm_import_message": "Өгөгдлийг импортолвол одоогийн өгөгдлийг устгана, энэ үйлдлийг буцааж болдоггүй. Үргэлжлүүлэхийг хүсч байна уу?",
   "@confirm_import_message": {
     "description": ""
   },
-  "import_success": "Өгөгдлийг амжилттай импортлолоо, нийт {count} ширхэг зүйлсийг импортолжээ",
+  "import_success": "Мэдээллийг амжилттай импортлолоо, нийт {count} ширхэг зүйлсийг импортлолоо",
   "@import_success": {
     "description": "Амжилттай импорт хийх мэдэгдэл",
     "placeholders": {
@@ -671,8 +679,16 @@
   "@system_name": {
     "description": ""
   },
+  "operating_system": "Үйлдлийн систем",
+  "@operating_system": {
+    "description": ""
+  },
   "system_version": "Системийн хувилбар",
   "@system_version": {
+    "description": ""
+  },
+  "dart_version": "Dart хувилбар",
+  "@dart_version": {
     "description": ""
   },
   "device_identifier": "Төхөөрөмжийн таних тэмдэг",
@@ -708,11 +724,11 @@
   "@app_description_detail": {
     "description": ""
   },
-  "consumable": "зарцуулдаг материал",
+  "consumable": "зарцуулах зүйлс",
   "@consumable": {
     "description": ""
   },
-  "durable": "урт эдэлгээтэй бүтээгдэхүүн",
+  "durable": "урт наслах бүтээгдэхүүн",
   "@durable": {
     "description": ""
   },
@@ -724,7 +740,7 @@
   "@name_asc": {
     "description": ""
   },
-  "name_desc": "Нэрийг бууруулах дарааллаар",
+  "name_desc": "Нэрний буурах дараалал",
   "@name_desc": {
     "description": ""
   },
@@ -732,11 +748,11 @@
   "@date_asc": {
     "description": ""
   },
-  "date_desc": "Огноогоор буурах дараалал",
+  "date_desc": "Огноо буурах дарааллаар",
   "@date_desc": {
     "description": ""
   },
-  "price_asc": "Нэгж үнэ өсөлтийн дарааллаар",
+  "price_asc": "Нэгж үнэ өсөх дарааллаар",
   "@price_asc": {
     "description": ""
   },
@@ -744,7 +760,7 @@
   "@price_desc": {
     "description": ""
   },
-  "quantity_asc": "Тооны өсөх дараалал",
+  "quantity_asc": "Тооны өсөх дарааллаар",
   "@quantity_asc": {
     "description": ""
   },
@@ -752,7 +768,7 @@
   "@quantity_desc": {
     "description": ""
   },
-  "total_price_asc": "Нийт үнэ өсөх дарааллаар",
+  "total_price_asc": "Нийт үнэ өсөлтийн дарааллаар",
   "@total_price_asc": {
     "description": ""
   },
@@ -792,7 +808,7 @@
   "@warranty_expired": {
     "description": ""
   },
-  "warranty_expiring_soon": "Гэрээний баталгааны хугацаа дуусах гэж байна",
+  "warranty_expiring_soon": "Гэрээний баталгааны хугацаа дуусах дөхжээ",
   "@warranty_expiring_soon": {
     "description": ""
   },
@@ -844,7 +860,7 @@
       }
     }
   },
-  "date_range_filter": "Огнооны хүрээгээр шүүлт хийх",
+  "date_range_filter": "Огнооны хүрээний шүүлт",
   "@date_range_filter": {
     "description": ""
   },
@@ -868,7 +884,7 @@
   "@filter_options": {
     "description": ""
   },
-  "filter_by_type_category_location": "Төрөл, ангилал ба байршлаар эд зүйлсийг шүүх",
+  "filter_by_type_category_location": "Барааг төрөл, ангилал болон байршлаар шүүх",
   "@filter_by_type_category_location": {
     "description": ""
   },
@@ -906,7 +922,7 @@
   "@all_locations": {
     "description": ""
   },
-  "no_location_data": "Одоогоор газрын өгөгдөл алга",
+  "no_location_data": "Одоогоор газрын өгөгдөл алга байна",
   "@no_location_data": {
     "description": ""
   },
@@ -934,7 +950,7 @@
   "@max_unit_price": {
     "description": ""
   },
-  "total_price_range": "Нийт үнэ диапазон",
+  "total_price_range": "Нийт үнэ хүрээ",
   "@total_price_range": {
     "description": ""
   },
@@ -1021,7 +1037,7 @@
   "@quantity": {
     "description": ""
   },
-  "enter_inbound_quantity": "Агуулахад оруулах тоо ширхэгийг оруулна уу",
+  "enter_inbound_quantity": "Агуулахад оруулах тоог оруулна уу",
   "@enter_inbound_quantity": {
     "description": ""
   },
@@ -1029,48 +1045,12 @@
   "@enter_outbound_quantity": {
     "description": ""
   },
-  "item_increased": "Илүү нэмэгдсэн {itemName} {quantity}{unit}",
-  "@item_increased": {
-    "description": "Барааны нэмэгдсэн мэдээ",
-    "placeholders": {
-      "itemName": {
-        "type": "String",
-        "example": "苹果"
-      },
-      "quantity": {
-        "type": "String",
-        "example": "5"
-      },
-      "unit": {
-        "type": "String",
-        "example": "个"
-      }
-    }
-  },
-  "delete_item_confirm_with_irreversible": "Та \"{name}\"-ыг устгахдаа итгэлтэй байна уу? Энэ үйлдлийг буцаах боломжгүй.",
+  "delete_item_confirm_with_irreversible": "Та \"{name}\"-ыг устгахыг зөвшөөрч байна уу? Энэхүү үйлдлийг буцаах боломжгүй.",
   "@delete_item_confirm_with_irreversible": {
     "description": "Устгах баталгаажуулах мессеж нь буцааж болшгүй анхааруулгыг агуулна",
     "placeholders": {
       "name": {
         "type": "String"
-      }
-    }
-  },
-  "item_decreased": "багассан {itemName} {quantity}{unit}",
-  "@item_decreased": {
-    "description": "Бараа багассан мэдээ",
-    "placeholders": {
-      "itemName": {
-        "type": "String",
-        "example": "苹果"
-      },
-      "quantity": {
-        "type": "String",
-        "example": "3"
-      },
-      "unit": {
-        "type": "String",
-        "example": "个"
       }
     }
   },
@@ -1112,7 +1092,7 @@
   "@solution_step_3": {
     "description": ""
   },
-  "notification_service_init_failed": "Сэрэмжлүүлгийн үйлчилгээ эхлэхэд амжилтгүй боллоо: {error}",
+  "notification_service_init_failed": "Сануулах үйлчилгээний анхдагч тохиргоо амжилтгүй боллоо: {error}",
   "@notification_service_init_failed": {
     "description": "Мэдэгдэл үйлчилгээ эхлүүлэх процесс амжилтгүй боллоо",
     "placeholders": {
@@ -1159,14 +1139,14 @@
   },
   "set_permission_message_failed": "Зурвас эрх тавих тохиргоо амжилтгүй боллоо: {error}",
   "@set_permission_message_failed": {
-    "description": "Зөвшөөрөл мэдэгдэл илгээхэд амжилтгүй боллоо",
+    "description": "Зөвшөөрөл хүсэлтийн мессежийг тохируулагдаж чадсангүй",
     "placeholders": {
       "error": {
         "type": "String"
       }
     }
   },
-  "mock_data_init_success": "{count} ширхэг дууриамлын өгөгдлийг амжилттай анхлуулсан",
+  "mock_data_init_success": "Амжилттайгаар {count} ширхэг дууриамал өгөгдлийг эхлүүллээ",
   "@mock_data_init_success": {
     "description": "Симуляцийн өгөгдлийг амжилттай эхлүүлэв",
     "placeholders": {
@@ -1188,7 +1168,7 @@
   "@database_structure_mismatch": {
     "description": ""
   },
-  "old_database_deleted": "Хуучин өгөгдлийн баазыг устгасан",
+  "old_database_deleted": "Хуучин өгөгдлийн сангийн файлуудыг устгалаа",
   "@old_database_deleted": {
     "description": ""
   },
@@ -1200,7 +1180,7 @@
   "@backup_file_not_found": {
     "description": ""
   },
-  "file_not_utf8": "Файлын кодчлол хүчинтэй UTF-8 форматаар биш байна. Файлыг UTF-8 кодчилолоор хадгалсан эсэхийг шалгана уу. Алдааны дэлгэрэнгүй мэдээлэл: {error}",
+  "file_not_utf8": "Файлын кодчлол хүчинтэй UTF-8 форматаар биш байна. Файлыг UTF-8 кодчилолоор хадгалсан эсэхийг баталгаажуулна уу. Алдааны дэлгэрэнгүй: {error}",
   "@file_not_utf8": {
     "description": "Файлын кодчилол буруу",
     "placeholders": {
@@ -1285,7 +1265,7 @@
       }
     }
   },
-  "field_min_value": "{fieldName} нь {min}-ээс бага байж болохгүй",
+  "field_min_value": "{fieldName} нь {min}-аас бага байж болохгүй",
   "@field_min_value": {
     "description": "Хамгийн бага утгын баталгаажуулалт",
     "placeholders": {
@@ -1299,7 +1279,7 @@
   },
   "field_max_value": "{fieldName} нь {max}-ээс их байж болохгүй",
   "@field_max_value": {
-    "description": "хамгийн их утгын баталгаажуулалт",
+    "description": "дээд утгын баталгаажуулалт",
     "placeholders": {
       "fieldName": {
         "type": "String"
@@ -1320,7 +1300,7 @@
   },
   "field_greater_than_zero": "{fieldName} нь 0-оос их байх ёстой",
   "@field_greater_than_zero": {
-    "description": "тэгээс ихийг баталгаажуулах",
+    "description": "Тэгээс ихийг баталгаажуулах",
     "placeholders": {
       "fieldName": {
         "type": "String"
@@ -1336,7 +1316,7 @@
       }
     }
   },
-  "field_invalid_date": "Нэмэх хүчин төгөлдөр {fieldName}",
+  "field_invalid_date": "Бүх хүчин төгөлдөр {fieldName}-г оруулна уу",
   "@field_invalid_date": {
     "description": "Огнооны формат шалгалт",
     "placeholders": {
@@ -1432,7 +1412,7 @@
       }
     }
   },
-  "passwords_not_match": "Хоёр удаа оруулсан нууц үг тохирохгүй байна",
+  "passwords_not_match": "Хоёр удаагийн нууц үг таарахгүй байна",
   "@passwords_not_match": {
     "description": ""
   },
@@ -1449,7 +1429,7 @@
       }
     }
   },
-  "quantity_min": "Тоо хэмжээ нь {minQuantity}-аас бага байж болохгүй",
+  "quantity_min": "Тоо хэмжээ {minQuantity}-аас бага байж болохгүй",
   "@quantity_min": {
     "description": "Хамгийн бага тооны баталгаажуулалт",
     "placeholders": {
@@ -1458,7 +1438,7 @@
       }
     }
   },
-  "quantity_max": "Тоо ширхэг нь {maxQuantity}-аас хэтрэхгүй байх ёстой",
+  "quantity_max": "Тоо ширхэг {maxQuantity}-аас хэтрэхгүй байх ёстой",
   "@quantity_max": {
     "description": "Хамгийн их тоо шалгах",
     "placeholders": {
@@ -1480,11 +1460,11 @@
       }
     }
   },
-  "set_production_expiry_for_validity": "Бүтээсэн огноо ба хадгалах хугацааг тохируулж хүчинтэй хугацааг автоматаар тооцоолно уу",
+  "set_production_expiry_for_validity": "Бүтээгдэхүүний үйлдвэрлэсэн огноо болон хадгалах хугацааг тохируулж, хүчинтэй хугацааг автоматаар тооцоолж өгөөрэй",
   "@set_production_expiry_for_validity": {
     "description": ""
   },
-  "set_purchase_warranty_for_validity": "Автоматаар баталгааны хугацааг тооцоолохын тулд худалдан авах өдөр болон хадгалах хугацааг тохируулна уу",
+  "set_purchase_warranty_for_validity": "Гэрчилгээний хугацааг автоматаар тооцоолохын тулд худалдан авах өдөр болон хадгалах хугацааг тохируулна уу",
   "@set_purchase_warranty_for_validity": {
     "description": ""
   },
@@ -1549,22 +1529,6 @@
   "@delete_failed": {
     "description": ""
   },
-  "edit_item": "Барааг засварлах",
-  "@edit_item": {
-    "description": ""
-  },
-  "add_item": "Бараа нэмэх",
-  "@add_item": {
-    "description": ""
-  },
-  "operating_system": "Үйлдлийн систем",
-  "@operating_system": {
-    "description": ""
-  },
-  "dart_version": "Dart хувилбар",
-  "@dart_version": {
-    "description": ""
-  },
   "test_calendar_event": "Туршилтын хуанлийн үйл явдал",
   "@test_calendar_event": {
     "description": ""
@@ -1573,7 +1537,7 @@
   "@test_calendar_event_description": {
     "description": ""
   },
-  "in_app": "програм дотор",
+  "in_app": "программын дотор",
   "@in_app": {
     "description": ""
   },
@@ -1585,7 +1549,7 @@
   "@alert_method": {
     "description": ""
   },
-  "alert_method_in_app": "Зөвхөн апп-д дотроо",
+  "alert_method_in_app": "Зөвхөн апп дотроо",
   "@alert_method_in_app": {
     "description": ""
   },
@@ -1597,7 +1561,7 @@
   "@alert_method_both": {
     "description": ""
   },
-  "alert_days_before": "урьдчилан сануулах өдрүүд",
+  "alert_days_before": "Урьчилсан сануулгын өдрүүд",
   "@alert_days_before": {
     "description": ""
   },
@@ -1629,7 +1593,7 @@
   "@unit": {
     "description": ""
   },
-  "custom_unit": "Өөрчлөн тохируулсан нэгж",
+  "custom_unit": "Өөрийн зохион бүтээсэн нэгж",
   "@custom_unit": {
     "description": ""
   },
@@ -1665,11 +1629,11 @@
   "@place_barcode_in_frame_to_scan": {
     "description": ""
   },
-  "barcode": "Шошгоны код",
+  "barcode": "Шугаман код",
   "@barcode": {
     "description": ""
   },
-  "enter_barcode_or_scan": "Баркодыг оруулж эсвэл сканнердаж уншина уу",
+  "enter_barcode_or_scan": "Баркодыг оруулж эсвэл кодыг уншина уу",
   "@enter_barcode_or_scan": {
     "description": ""
   },
@@ -1687,6 +1651,432 @@
   },
   "enter_category_name": "Ангиллын нэрийг оруулна уу",
   "@enter_category_name": {
+    "description": ""
+  },
+  "item_increased": "Илүү нэмэгдсэн {itemName} {quantity}{unit}",
+  "@item_increased": {
+    "description": "Бараа нэмэгдсэн тухай мэдэгдэл",
+    "placeholders": {
+      "itemName": {
+        "type": "String",
+        "example": "苹果"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "5"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "item_decreased": "багассан {itemName} {quantity}{unit}",
+  "@item_decreased": {
+    "description": "Бараа багассан тухай мэдэгдэл",
+    "placeholders": {
+      "itemName": {
+        "type": "String",
+        "example": "苹果"
+      },
+      "quantity": {
+        "type": "String",
+        "example": "3"
+      },
+      "unit": {
+        "type": "String",
+        "example": "个"
+      }
+    }
+  },
+  "unsaved_changes": "Хадгалагдаагүй өөрчлөлтүүд",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Танд хадгалагдаагүй өөрчлөлтүүд байна, үйлдлээ сонгоно уу:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "болиулах",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "нэг",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "эрх",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "Шүүгээ",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "шоор",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "шоон",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "шоов",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "багц",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "кг",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "мл",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "м",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "см",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "Тоо хэмжээ",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "нэгж үнэ",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Мөнгө",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Нийт үнэ:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "хадгалах газар",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Барааны шинж чанар",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Хүчинтэй хугацаа",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Үйлчилгээний баталгаа дуусах өдөр",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Үйлдвэрлэсэн өдөр",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Худалдаж авсан өдөр",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "_{dateType} ба хадгалах хугацаанд үндэслэн автоматаар тооцоолно",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Автомат тооцоо",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "Зураг",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Тэмдэглэл",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Тайлбар мэдээлэл нэмэх (заавал биш)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "жил",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "сар",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "тэнгэр",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "сонгогдсон {count} зүйл",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "бүгдийг сонгох",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Бүхийг сонгосноо цуцлах",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Хадгалах байрыг бөөнөөр сольж тавих",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Сонгосон {count} ширхэг зүйлийг устгах уу?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "_{count} ширхэг зүйл устгагдсан",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Одоогоор хадгалах байршил сонгох боломжгүй",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Хадгалах газрыг бөөнөөр сольж тавих",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} ширхэг зүйлийг {location} рүү шилжүүлсэн",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Оруулах",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Засах",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Устгах",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Агуулахад оруулах",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "бараа гаргах",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Экспорт амжилтгүй боллоо: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Тэмдэглэлийг хоослох",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Бүх үйлдлийн тэмдэглэлийг устгаснаа баталгаажуулж байна уу? Энэ үйлдлийг сэргээх боломжгүй.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Тэмдэглэл устгагдсан",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Үйлдлийн бүртгэл",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Логыг экспортлох",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Тэмдэглэлийг хоослох",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Үйлдлийн бүртгэл одоогоор байхгүй",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Бараа:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Ангилал:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Төрөл:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Тоо хэмжээ:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Нэгж үнэ:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Нийт үнэ:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Хүчинтэй хугацаа дуусах өдөр:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Үйлчилгээний баталгаат хугацаа:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Худалдаж авсан огноо:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Үйлдвэрлэсэн огноо:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Хадгалах хугацаа:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Хадгалах байр",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Баркод:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Тайлбар:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "АНХААРУУЛГА:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Сэрэмжлүүлгийн өдрүүд:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Тооны өөрчлөлт：",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Талбарийг өөрчлөх:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Тохируулахгүй болсон",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "хоосон",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "нээх",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Хаах",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Үйлдлийн бүртгэл",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Үйлдлийн бүртгэлийг үзэх ба сэргээх",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Үйлдэл амжилтгүй боллоо: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Огноо байхгүй",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "сар",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "тэнгэр",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "тэнгэр",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "мэдэгдэхгүй",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Лео",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Үйлдлийн огноо:",
+  "@log_operation_date_label": {
     "description": ""
   }
 }

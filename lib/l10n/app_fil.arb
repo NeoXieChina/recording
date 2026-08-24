@@ -1688,5 +1688,395 @@
   "enter_category_name": "Mangyaring ilagay ang pangalan ng kategorya",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Hindi naisave na mga pagbabago",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Mayroon kang mga hindi na-save na pagbabago, pakipili ang aksyon:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "Sumuko",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "piraso",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "piraso",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "kahon",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "bag",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "bote",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "kahon",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "set",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "sentimetro",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "Dami",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Presyo bawat yunit",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "Salapi",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Kabuuang presyo:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Lugar ng Imbakan",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Ari-arian ng bagay",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Bisa",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Petsa ng pag-expire ng warranty",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Petsa ng paggawa",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Petsa ng Pagbili",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Awtomatikong kalkulahin ayon sa {dateType} at petsa ng pagiging bago",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Awtomatikong pagkalkula",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "larawan",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Tandaan",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Magdagdag ng impormasyon ng tala (opsyonal)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "taon",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "buwan",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "langit",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Napili na ang {count} na item",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Piliin Lahat",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "I-undo ang piliin lahat",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Maramihang pagpapalit ng lokasyon ng imbakan",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Tiyakin mo bang gusto mong tanggalin ang napiling {count} na mga item?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Na-delete na ang {count} item",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Walang magagamit na lokasyon ng imbakan",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Maramihang pagpapalit ng lokasyon ng imbakan",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "Naipadala na ang {count} na mga item sa {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Ipasok",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "I-edit",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Tanggalin",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "Pagpasok sa imbentaryo",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "Paglabas ng stock",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Nabigong i-export: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "I-clear ang log",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Sigurado ka bang i-clear ang lahat ng mga log ng operasyon? Hindi maibabalik ang aksyong ito.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Nalinis na ang talaan",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Talaan ng Operasyon",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "I-export ang tala",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "I-clear ang tala",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Walang log ng operasyon sa ngayon",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Bagay:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Kategorya:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Uri:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Dami:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Presyo kada yunit:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Kabuuang presyo:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Petsa ng pag-expire:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Petsa ng Garantiya:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Petsa ng Pagbili:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Petsa ng paggawa:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Petsa ng pagiging sariwa:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Lugar ng Imbakan:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Barcode:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Tandaan:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Babala:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Bilang ng araw ng paunang babala:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Pagbabago ng dami:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "I-edit ang field:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Hindi nakatakda",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "Wala",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Buksan",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Isara",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Talaan ng Operasyon",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Tingnan at Ibalik ang Mga Talaan ng Operasyon",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Pagpalya sa operasyon: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Walang petsa",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "buwan",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "langit",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "langit",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Hindi alam",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Petsa ng operasyon:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

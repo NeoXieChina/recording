@@ -1688,5 +1688,395 @@
   "enter_category_name": "Palun sisestage kategooria nimi",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Salvestamata muudatused",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "Teil on salvestamata muudatusi, palun valige toiming:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "loobuma",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "tükk",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "ese",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "kast",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "kott",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "pudel",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "kast",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "komplekt",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "kg",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "cm",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "kogus",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "ühikuhind",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "valuuta",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Koguhind:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Hoiustamiskoht",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Eseme omadused",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Kehtivusaeg",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Garantii kehtivuse lõppkuupäev",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Tootmiskuupäev",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Ostu kuupäev",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Automaatselt arvutatud vastavalt {dateType} ja säilivusajale",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Automaatselt arvutama",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "pilt",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Märkused",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Lisa märkuse teave (valikuline)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "aasta",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "kuu",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "taevas",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Valitud on {count} üksust",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Vali kõik",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Tühista kõik valikud",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Hulgihoidlate vahetamine",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Kas olete kindel, et soovite kustutada valitud {count} kirjet?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "On kustutatud {count} eset",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "Hetkel ei ole salvestuskohta valikus",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Hulgihoidlate vahetamine",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} eset on teisaldatud {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "Sisestamine",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Redigeeri",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Kustuta",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "laole sisestama",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "laost väljastama",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Eksport ebaõnnestus: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Tühjenda logi",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Kas olete kindel, et soovite kõik tegevuslogid tühjendada? Seda toimingut ei saa tagasi võtta.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Logi on tühjendatud",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Tegevuste logi",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Logi eksportimine",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Tühjenda logi",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Puudub tegevuslogi",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Ese: ",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Kategooria:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Tüüp:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Kogus:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Ühiku hind:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Koguhind:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Aegumiskuupäev:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Garantii kehtivuse kuupäev:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Ostukuupäev:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Tootmiskuupäev:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Parim enne:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Hoiukoht:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Vöötkood:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Märkus:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Hoiatus:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Hoiatuspäevade arv:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Koguse muutus:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Muuda välju:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Pole seatud",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "tühi",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Avama",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Sulge",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Tegevuste logi",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Vaata ja taasta tegevuste ajalugu",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Toiming ebaõnnestus: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Kuupäev puudub",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "kuud",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "taevas",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "taevas",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "Tundmatu",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Leo",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Teostamise kuupäev:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

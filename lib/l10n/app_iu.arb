@@ -1688,5 +1688,395 @@
   "enter_category_name": "ᑎᑎᕋᕐᓗᒍ ᖃᓄᐃᑦᑑᓂᖓᑕ ᐊᑎᖓ",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "ᑐᖅᑯᖅᑕᐅᓯᒪᙱᑦᑐᑦ ᐊᓯᔾᔨᖅᑐᑦ",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "ᐊᓯᙳᖅᑎᓯᒪᙱᑕᕐᓂᒃ ᐱᑕᖃᕈᕕᑦ, ᓂᕈᐊᕐᓗᑎᑦ ᖃᓄᐃᓕᐅᕈᑎᒃᓴᒥᒃ:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "ᓴᐱᓕᕐᓂᖅ",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "ᐃᓚᖓ",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "ᐃᓚᖓ",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "ᑎᑎᖅᑲᒃᑯᕕᐊ",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "ᐴᖅ",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "ᐊᓕᒍᖅ",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "ᑎᑎᖅᑲᒃᑯᕕᐊ",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "ᑲᑎᙵᔪᑦ",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "ᑭᓗᒍᕌᒻ",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ml",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "ᓴᓐᑕᒦᑕ",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "ᖃᔅᓯᐅᓂᖏᑦ",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "ᐊᑕᐅᓯᖅ ᐊᑭᖓ",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "ᑮᓇᐅᔭᖅ",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "ᑲᑎᖦᖢᒋᑦ ᐊᑭᖏᑦ:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "ᓯᕐᓗᐊᖃᕐᕕᐅᑉ ᐃᓂᖓ",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "ᐱᖁᑎᐅᑉ ᖃᓄᐃᑦᑑᓂᖏᑦ",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "ᐊᑐᕈᓐᓇᕐᓂᖓ ᐊᑯᓂᐅᑎᒋᓂᖓ",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "ᐊᓯᔾᔨᖅᑕᐅᔪᓐᓇᕈᑖ ᐃᓱᓕᕝᕕᒃᓴᖓᑕ ᐅᓪᓗᖓ",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "ᓴᓇᔭᐅᓂᖓᑕ ᐅᓪᓗᖓ",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "ᓂᐅᕕᖅᑕᐅᓂᖓᑕ ᐅᓪᓗᖓ",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "ᓈᓴᐅᓯᕆᑲᐅᑎᒋᓂᖅ ᑐᙵᕕᖃᖅᑎᑕᐅᓪᓗᓂ {dateType} ᐊᑯᓂᐅᑎᒋᔪᓐᓇᕐᓂᖓᓗ",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "ᓈᓴᐅᓯᕆᑲᐅᑎᒋᓂᖅ",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "ᐊᔾᔨᙳᐊᖅ",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "ᐅᖃᐅᓯᒃᓴᑦ",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "ᐅᖃᐅᓯᒃᓴᑦ ᐃᓚᓗᒋᑦ (ᐃᓱᒪᖅᓲᑕᐅᔪᖅ)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "ᐊᕐᕌᒍ",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "ᑕᖅᑭᖅ",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "ᓯᓚ",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count} ᓂᕈᐊᖅᑕᐅᔪᑦ",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "ᓂᕈᐊᖅᑕᐃᓐᓇᕆᓗᒋᑦ",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "ᓂᕈᐊᖅᑕᐃᓐᓇᕆᓗᒋᑦ",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "ᑲᑎᙵᔪᑦ ᑕᐅᖅᓰᓂᕐᒧᑦ ᑐᖅᑯᐃᕝᕖᑦ",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "ᐲᖅᓯᔪᒪᓪᓚᑦᑖᖅᐲᑦ ᓂᕈᐊᖅᑕᕐᓂᒃ {count} ᐱᖁᑎᓂᒃ?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} ᐲᖅᑕᐅᓯᒪᔫᒃ",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "ᓯᕐᓗᐊᖃᙱᑦᑐᖅ",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "ᑲᑎᙵᔪᑦ ᑕᐅᖅᓰᓂᕐᒧᑦ ᑐᖅᑯᐃᕝᕖᑦ",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} ᓅᑕᐅᓯᒪᓕᖅᑐᑦ {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "ᐃᓯᕆᑦ",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "ᐋᖅᑭᒋᐊᕐᓗᒍ",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "ᐲᕐᓗᒍ",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "ᓯᕐᓗᐊᖅ ᐃᓯᕐᕕᒃ",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "ᐊᐅᓪᓚᖅᐸᓪᓕᐊᔪᑦ",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "ᐊᐅᓪᓚᖅᑎᑦᑎᔪᓐᓇᓚᐅᙱᑦᑐᑦ: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "ᑎᑎᕋᖅᐸᓪᓕᐊᔪᑦ ᐲᔭᕐᓗᒋᑦ",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "ᖃᐅᔨᒪᑦᑎᐊᖅᐲᑦ ᐲᖅᓯᔪᒪᖕᒪᖔᖅᐱᑦ ᑕᒪᐃᓐᓂᑦᑎᐊᖅ ᐊᐅᓚᑦᑎᓂᕐᒧᑦ ᑎᑎᕋᖅᓯᒪᔪᓂᒃ? ᑕᒪᓐᓇ ᐱᓕᕆᓂᐅᔪᖅ ᓄᖅᑲᖅᑎᑕᐅᔪᓐᓇᙱᓚᖅ.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "ᑎᑎᕋᕐᓯᒪᔪᑦ ᐲᔭᖅᑕᐅᓯᒪᓕᕐᑐᑦ",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "ᐊᐅᓚᓂᐅᔪᓄᑦ ᑎᑎᕋᕐᕕᒃ",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "ᐊᐅᓪᓚᖅᑎᑦᑎᕙᖕᓂᕐᒧᑦ ᑎᑎᕋᕐᕕᒃ",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "ᑎᑎᕋᖅᐸᓪᓕᐊᔪᑦ ᐲᔭᕐᓗᒋᑦ",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "ᐊᐅᓚᓂᕐᒧᑦ ᑎᑎᕋᖅᓯᒪᔪᓂᒃ ᐊᑐᐃᓐᓇᖅᑕᖃᙱᑦᑐᖅ",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "ᑭᓲᓂᖓ:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "ᖃᓄᐃᑦᑑᓂᖓ:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "ᖃᓄᐃᑦᑑᓂᖓ:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "ᖃᔅᓯᐅᓂᖏᑦ:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "ᐊᑕᐅᓯᖅ ᐊᑭᖓ:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "ᑲᑎᖦᖢᒋᑦ ᐊᑭᖏᑦ:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "ᐃᓱᓕᕝᕕᒃᓴᖓᑕ ᐅᓪᓗᐊ:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "ᐊᓯᔾᔨᖅᑕᐅᔪᓐᓇᕈᑖᑕ ᐅᓪᓗᖓ:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "ᓂᐅᕕᖅᑕᐅᓂᖓᑕ ᐅᓪᓗᖓ:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "ᓴᓇᔭᐅᓂᖓᑕ ᐅᓪᓗᖓ:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "ᖃᓄᖅ ᐊᑯᓂᐅᑎᒋᔪᖅ ᐃᓕᔭᐅᓯᒪᔪᓐᓇᕐᓂᖓ:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "ᓯᕐᓗᐊᖃᕐᕕᐅᑉ ᐃᓂᖓ:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "ᓇᓗᓇᐃᒃᑯᑖ:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "ᖃᐅᔨᒪᔭᕆᐊᓕᒃ:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "ᐅᔾᔨᕆᔭᐅᓕ:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "ᐅᔾᔨᖅᓱᖁᔨᓂᕐᒧᑦ ᐅᓪᓗᐃᑦ:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "ᖃᔅᓯᐅᓂᖏᑦ ᐊᓯᔾᔨᖅᑐᑦ:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "ᐊᓯᔾᔨᕐᓗᒍ ᐃᓂᖓ:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "ᐋᖅᑭᒃᑕᐅᓯᒪᙱᑦᑐᖅ",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "ᐃᓗᓕᖃᙱᑦᑐᖅ",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "ᐃᑭᓪᓗᒍ",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "ᖃᓂᑦᑐᖅ",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "ᐊᐅᓚᓂᐅᔪᓄᑦ ᑎᑎᕋᕐᕕᒃ",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "ᕿᒥᕐᕈᓗᒋᑦ ᐅᑎᖅᑎᓪᓗᒋᓪᓗ ᐊᐅᓚᓂᕐᒧᑦ ᑎᑎᖅᑲᑦ",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "ᐊᐅᓚᓂᖓ ᑲᔪᓯᓚᐅᙱᑦᑐᖅ: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "ᐅᓪᓗᓕᖅᓯᒪᙱᑦᑐᖅ",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "ᑕᖅᑭᖅ(ᖏᑦ)",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "ᓯᓚ",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "ᓯᓚ",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "ᖃᐅᔨᒪᔭᐅᖏᑦᑐᖅ",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "ᓕᐅ",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "ᐊᐅᓚᑕᐅᓂᖓᑕ ᐅᓪᓗᖓ:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

@@ -27,7 +27,7 @@ class AppLocalizationsMn extends AppLocalizations {
   String get edit => 'Засах';
 
   @override
-  String get add => 'нэмэх';
+  String get add => 'Нэмэх';
 
   @override
   String get edit_item => 'Барааг засварлах';
@@ -115,7 +115,7 @@ class AppLocalizationsMn extends AppLocalizations {
   }
 
   @override
-  String get alert_settings => 'Анхааруулах тохиргоо';
+  String get alert_settings => 'сануулга тохируулах';
 
   @override
   String get calendar_settings => 'Календарийн тохиргоо';
@@ -131,7 +131,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get enable_calendar_sync_first =>
-      'Эхлээд \"Хуанлигийн синк\" асаалтын товчийг асаана уу';
+      'Эхлээд \"Хуанлигийн синк\" унтраалгыг асаа.';
 
   @override
   String get app_alert_settings => 'Апп сануулах тохиргоо';
@@ -154,11 +154,11 @@ class AppLocalizationsMn extends AppLocalizations {
   String get alert_days_settings => 'Сэрэмжлүүлэг өдрүүдийн тохиргоо';
 
   @override
-  String get advance_alert_days => 'урьдчилан сануулах өдрүүд';
+  String get advance_alert_days => 'Өмнө нь сануулах өдрүүд';
 
   @override
   String get advance_alert_days_desc =>
-      'Барааны хугацаа дуусах эсвэл баталгаат хугацаа дуусахаас хэд хоногийн өмнө сануулга өгөхийг тохируулах';
+      'Барааны хугацаа дуусах эсвэл баталгаат хугацаа дуусахаас хэд хоногийн өмнө сануулахыг тохируулах';
 
   @override
   String get calendar_permission_request =>
@@ -173,7 +173,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get calendar_permission_granted =>
-      'Мөрийн хуанлийн эрх олгогдсон, мөрийн хуанлийн синк идэвхжсэн';
+      'Төгөлдөр хуанлийн эрх олгогдсон, төлөвлөгөөний синхрончлол идэвхжсэн';
 
   @override
   String get calendar_permission_denied =>
@@ -185,7 +185,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get calendar_permission_permanently_denied_desc =>
-      'Хувийн хуанлийн эрхийг байнгын болгохоос татгалзсан байна, системийн тохиргооноос гараар эрхийг асаана уу.';
+      'Хувийн хуанлийн эрх байнгын байдлаар татгалзагдсан байна, системийн тохиргооноос гараар эрхийг асаа.';
 
   @override
   String get go_to_settings => 'Тохиргоонд очих';
@@ -212,7 +212,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get calendar_permission_required =>
-      'Туршилтын үйл явдлыг нэмэхийн тулд хуанли эрх шаардагдана';
+      'Туршилтын үйл явдлыг нэмэхийн тулд хуанлийн эрх шаардагдана';
 
   @override
   String get test_notification_sent => 'Туршилтын мэдэгдэл илгээгдсэн';
@@ -240,7 +240,7 @@ class AppLocalizationsMn extends AppLocalizations {
       'Бараа дууссан эсвэл баталгаат хугацаа дуусахыг сануулах';
 
   @override
-  String get item_category_food => 'хоол хүнс';
+  String get item_category_food => 'Хоол хүнс';
 
   @override
   String get item_category_daily_necessities => 'Өдөр тутмын хэрэглээний зүйлс';
@@ -277,7 +277,7 @@ class AppLocalizationsMn extends AppLocalizations {
   String get purchase_channel_supermarket => 'бөөний дэлгүүр';
 
   @override
-  String get purchase_channel_specialty_store => 'дэлгүүр';
+  String get purchase_channel_specialty_store => 'орон нутгийн дэлгүүр';
 
   @override
   String get purchase_channel_secondhand_market => 'хоёрдогч зах зээл';
@@ -295,7 +295,7 @@ class AppLocalizationsMn extends AppLocalizations {
   String get item_category => 'Барааны ангилал';
 
   @override
-  String get custom_category => 'Өөрийн зохион бүтээсэн ангилал';
+  String get custom_category => 'Өөрийн зохион байгуулсан ангилал';
 
   @override
   String get backup_data => 'Өгөгдлийг нөөцлөх';
@@ -343,7 +343,7 @@ class AppLocalizationsMn extends AppLocalizations {
   String get about => 'тухай';
 
   @override
-  String get about_description => 'Програмын мэдээлэл ба хувилбар';
+  String get about_description => 'Программын мэдээлэл ба хувилбар';
 
   @override
   String get select_backup_file_first => 'Эхлээд нөөц файлыг сонгоно уу';
@@ -360,7 +360,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get confirm_restore_warning =>
-      'Та бүх одоогийн өгөгдлийг устгаж, нөөцөөс сэргээхийг үнэхээр хүсч байна уу? Энэхүү үйлдлийг сэргээх боломжгүй!';
+      'Та бүхэл бүтэн одоогийн өгөгдлийг устгаж, нөөцлөлтийг сэргээхийг үнэхээр хүсч байна уу? Энэхүү үйлдлийг сэргээх боломжгүй болно!';
 
   @override
   String get confirm_restore_button => 'Сэргээхийг баталгаажуулах';
@@ -376,7 +376,7 @@ class AppLocalizationsMn extends AppLocalizations {
   }
 
   @override
-  String get select_backup_file => 'Нөөцлөлтийн файлыг сонгох';
+  String get select_backup_file => 'Нөөцлөх файл сонгох';
 
   @override
   String get restore_backup => 'Нөөцлөлт сэргээх';
@@ -408,13 +408,13 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get duplicate_data_detected =>
-      'Давхардсан өгөгдлийг илрүүлсэн, боловсруулах аргаа сонгоно уу:';
+      'Давхардсан өгөгдөл илэрсэн, боловсруулалтын аргыг сонгоно уу:';
 
   @override
   String get skip => 'Үлээх';
 
   @override
-  String get overwrite => 'хуурах';
+  String get overwrite => 'Давхарлах';
 
   @override
   String get skip_all => 'Бүгдийг алгасаарай';
@@ -431,11 +431,11 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get confirm_import_message =>
-      'Өгөгдлийг импортолвол одоогийн өгөгдлийг устгана, энэ үйлдлийг буцааж болдоггүй. Үргэлжлүүлэхийг хүсэж байна уу?';
+      'Өгөгдлийг импортолвол одоогийн өгөгдлийг устгана, энэ үйлдлийг буцааж болдоггүй. Үргэлжлүүлэхийг хүсч байна уу?';
 
   @override
   String import_success(int count) {
-    return 'Өгөгдлийг амжилттай импортлолоо, нийт $count ширхэг зүйлсийг импортолжээ';
+    return 'Мэдээллийг амжилттай импортлолоо, нийт $count ширхэг зүйлсийг импортлолоо';
   }
 
   @override
@@ -559,10 +559,10 @@ class AppLocalizationsMn extends AppLocalizations {
       'Танд эд зүйлсийн дуусах хугацаа, баталгаат хугацаа гэх мэт мэдээллийг удирдахад тусалж, ухаалаг сэрэмжлүүлгийн функцийг өгнө.';
 
   @override
-  String get consumable => 'зарцуулдаг материал';
+  String get consumable => 'зарцуулах зүйлс';
 
   @override
-  String get durable => 'урт эдэлгээтэй бүтээгдэхүүн';
+  String get durable => 'урт наслах бүтээгдэхүүн';
 
   @override
   String get sort => 'Эрэмбэлэх';
@@ -571,28 +571,28 @@ class AppLocalizationsMn extends AppLocalizations {
   String get name_asc => 'Нэрээр өсөх дараалал';
 
   @override
-  String get name_desc => 'Нэрийг бууруулах дарааллаар';
+  String get name_desc => 'Нэрний буурах дараалал';
 
   @override
   String get date_asc => 'Огноо өсөх дарааллаар';
 
   @override
-  String get date_desc => 'Огноогоор буурах дараалал';
+  String get date_desc => 'Огноо буурах дарааллаар';
 
   @override
-  String get price_asc => 'Нэгж үнэ өсөлтийн дарааллаар';
+  String get price_asc => 'Нэгж үнэ өсөх дарааллаар';
 
   @override
   String get price_desc => 'Нэгж үнэ буурах дарааллаар';
 
   @override
-  String get quantity_asc => 'Тооны өсөх дараалал';
+  String get quantity_asc => 'Тооны өсөх дарааллаар';
 
   @override
   String get quantity_desc => 'Тооны буурах дараалал';
 
   @override
-  String get total_price_asc => 'Нийт үнэ өсөх дарааллаар';
+  String get total_price_asc => 'Нийт үнэ өсөлтийн дарааллаар';
 
   @override
   String get total_price_desc => 'Нийт үнэ буурах дарааллаар';
@@ -623,7 +623,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get warranty_expiring_soon =>
-      'Гэрээний баталгааны хугацаа дуусах гэж байна';
+      'Гэрээний баталгааны хугацаа дуусах дөхжээ';
 
   @override
   String days_remaining(int count) {
@@ -655,7 +655,7 @@ class AppLocalizationsMn extends AppLocalizations {
   }
 
   @override
-  String get date_range_filter => 'Огнооны хүрээгээр шүүлт хийх';
+  String get date_range_filter => 'Огнооны хүрээний шүүлт';
 
   @override
   String get price_range_filter => 'Үнэний хүрээгээр шүүх';
@@ -675,7 +675,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get filter_by_type_category_location =>
-      'Төрөл, ангилал ба байршлаар эд зүйлсийг шүүх';
+      'Барааг төрөл, ангилал болон байршлаар шүүх';
 
   @override
   String categories_count(int count) {
@@ -700,7 +700,7 @@ class AppLocalizationsMn extends AppLocalizations {
   String get all_locations => 'бүх газар';
 
   @override
-  String get no_location_data => 'Одоогоор газрын өгөгдөл алга';
+  String get no_location_data => 'Одоогоор газрын өгөгдөл алга байна';
 
   @override
   String get date_range => 'Огнооны хүрээ';
@@ -721,7 +721,7 @@ class AppLocalizationsMn extends AppLocalizations {
   String get max_unit_price => 'хамгийн өндөр нэгж үнэ';
 
   @override
-  String get total_price_range => 'Нийт үнэ диапазон';
+  String get total_price_range => 'Нийт үнэ хүрээ';
 
   @override
   String get min_total_price => 'хамгийн бага нийт үнэ';
@@ -778,15 +778,14 @@ class AppLocalizationsMn extends AppLocalizations {
   String get quantity => 'Тоо хэмжээ';
 
   @override
-  String get enter_inbound_quantity =>
-      'Агуулахад оруулах тоо ширхэгийг оруулна уу';
+  String get enter_inbound_quantity => 'Агуулахад оруулах тоог оруулна уу';
 
   @override
   String get enter_outbound_quantity => 'Гарах нөөцийн тоог оруулаарай';
 
   @override
   String delete_item_confirm_with_irreversible(String name) {
-    return 'Та \"$name\"-ыг устгахдаа итгэлтэй байна уу? Энэ үйлдлийг буцаах боломжгүй.';
+    return 'Та \"$name\"-ыг устгахыг зөвшөөрч байна уу? Энэхүү үйлдлийг буцаах боломжгүй.';
   }
 
   @override
@@ -818,7 +817,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String notification_service_init_failed(String error) {
-    return 'Сэрэмжлүүлгийн үйлчилгээ эхлэхэд амжилтгүй боллоо: $error';
+    return 'Сануулах үйлчилгээний анхдагч тохиргоо амжилтгүй боллоо: $error';
   }
 
   @override
@@ -848,7 +847,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String mock_data_init_success(int count) {
-    return '$count ширхэг дууриамлын өгөгдлийг амжилттай анхлуулсан';
+    return 'Амжилттайгаар $count ширхэг дууриамал өгөгдлийг эхлүүллээ';
   }
 
   @override
@@ -861,7 +860,8 @@ class AppLocalizationsMn extends AppLocalizations {
       'Магадгүй өгөгдлийн сангийн бүтэц тохирохгүй байна, апп-ны өгөгдлийг цэвэрлэх эсвэл дахин суулгахийг зөвлөж байна';
 
   @override
-  String get old_database_deleted => 'Хуучин өгөгдлийн баазыг устгасан';
+  String get old_database_deleted =>
+      'Хуучин өгөгдлийн сангийн файлуудыг устгалаа';
 
   @override
   String get backup_data_empty => 'Нөөцлөх өгөгдөл хоосон байна';
@@ -871,7 +871,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String file_not_utf8(String error) {
-    return 'Файлын кодчлол хүчинтэй UTF-8 форматаар биш байна. Файлыг UTF-8 кодчилолоор хадгалсан эсэхийг шалгана уу. Алдааны дэлгэрэнгүй мэдээлэл: $error';
+    return 'Файлын кодчлол хүчинтэй UTF-8 форматаар биш байна. Файлыг UTF-8 кодчилолоор хадгалсан эсэхийг баталгаажуулна уу. Алдааны дэлгэрэнгүй: $error';
   }
 
   @override
@@ -915,7 +915,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String field_min_value(String fieldName, double min) {
-    return '$fieldName нь $min-ээс бага байж болохгүй';
+    return '$fieldName нь $min-аас бага байж болохгүй';
   }
 
   @override
@@ -940,7 +940,7 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String field_invalid_date(String fieldName) {
-    return 'Нэмэх хүчин төгөлдөр $fieldName';
+    return 'Бүх хүчин төгөлдөр $fieldName-г оруулна уу';
   }
 
   @override
@@ -989,8 +989,7 @@ class AppLocalizationsMn extends AppLocalizations {
   }
 
   @override
-  String get passwords_not_match =>
-      'Хоёр удаа оруулсан нууц үг тохирохгүй байна';
+  String get passwords_not_match => 'Хоёр удаагийн нууц үг таарахгүй байна';
 
   @override
   String get item_name_cannot_be_empty => 'Барааны нэр хоосон байж болохгүй';
@@ -1002,12 +1001,12 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String quantity_min(int minQuantity) {
-    return 'Тоо хэмжээ нь $minQuantity-аас бага байж болохгүй';
+    return 'Тоо хэмжээ $minQuantity-аас бага байж болохгүй';
   }
 
   @override
   String quantity_max(int maxQuantity) {
-    return 'Тоо ширхэг нь $maxQuantity-аас хэтрэхгүй байх ёстой';
+    return 'Тоо ширхэг $maxQuantity-аас хэтрэхгүй байх ёстой';
   }
 
   @override
@@ -1020,11 +1019,11 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get set_production_expiry_for_validity =>
-      'Бүтээсэн огноо ба хадгалах хугацааг тохируулж хүчинтэй хугацааг автоматаар тооцоолно уу';
+      'Бүтээгдэхүүний үйлдвэрлэсэн огноо болон хадгалах хугацааг тохируулж, хүчинтэй хугацааг автоматаар тооцоолж өгөөрэй';
 
   @override
   String get set_purchase_warranty_for_validity =>
-      'Автоматаар баталгааны хугацааг тооцоолохын тулд худалдан авах өдөр болон хадгалах хугацааг тохируулна уу';
+      'Гэрчилгээний хугацааг автоматаар тооцоолохын тулд худалдан авах өдөр болон хадгалах хугацааг тохируулна уу';
 
   @override
   String get calendar_account_creation_failed =>
@@ -1080,7 +1079,7 @@ class AppLocalizationsMn extends AppLocalizations {
       'Энэ нь хуанлийн функцийг баталгаажуулахад зориулсан туршилтын үйл явдал юм';
 
   @override
-  String get in_app => 'програм дотор';
+  String get in_app => 'программын дотор';
 
   @override
   String get enable_alert => 'Дуусахыг сануулахыг идэвхжүүлэх';
@@ -1089,7 +1088,7 @@ class AppLocalizationsMn extends AppLocalizations {
   String get alert_method => 'сануулгын арга';
 
   @override
-  String get alert_method_in_app => 'Зөвхөн апп-д дотроо';
+  String get alert_method_in_app => 'Зөвхөн апп дотроо';
 
   @override
   String get alert_method_calendar => 'Зөвхөн календараар';
@@ -1098,7 +1097,7 @@ class AppLocalizationsMn extends AppLocalizations {
   String get alert_method_both => 'хоёул';
 
   @override
-  String get alert_days_before => 'урьдчилан сануулах өдрүүд';
+  String get alert_days_before => 'Урьчилсан сануулгын өдрүүд';
 
   @override
   String get use_global_setting => 'Дэлхийн тохиргоог ашиглах';
@@ -1122,7 +1121,7 @@ class AppLocalizationsMn extends AppLocalizations {
   String get unit => 'нэгж';
 
   @override
-  String get custom_unit => 'Өөрчлөн тохируулсан нэгж';
+  String get custom_unit => 'Өөрийн зохион бүтээсэн нэгж';
 
   @override
   String get enter_unit => 'Нэгжийг оруулна уу';
@@ -1150,11 +1149,10 @@ class AppLocalizationsMn extends AppLocalizations {
       'Баркодыг хүрээний дотор тавьж сканнердаарай';
 
   @override
-  String get barcode => 'Шошгоны код';
+  String get barcode => 'Шугаман код';
 
   @override
-  String get enter_barcode_or_scan =>
-      'Баркодыг оруулж эсвэл сканнердаж уншина уу';
+  String get enter_barcode_or_scan => 'Баркодыг оруулж эсвэл кодыг уншина уу';
 
   @override
   String get basic_information => 'Үндсэн мэдээлэл';
@@ -1177,4 +1175,287 @@ class AppLocalizationsMn extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'багассан $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'Хадгалагдаагүй өөрчлөлтүүд';
+
+  @override
+  String get unsaved_changes_message =>
+      'Танд хадгалагдаагүй өөрчлөлтүүд байна, үйлдлээ сонгоно уу:';
+
+  @override
+  String get discard => 'болиулах';
+
+  @override
+  String get unit_piece => 'нэг';
+
+  @override
+  String get unit_item => 'эрх';
+
+  @override
+  String get unit_box => 'Шүүгээ';
+
+  @override
+  String get unit_package => 'шоор';
+
+  @override
+  String get unit_bottle => 'шоон';
+
+  @override
+  String get unit_carton => 'шоов';
+
+  @override
+  String get unit_set => 'багц';
+
+  @override
+  String get unit_kg => 'кг';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'мл';
+
+  @override
+  String get unit_m => 'м';
+
+  @override
+  String get unit_cm => 'см';
+
+  @override
+  String get quantity_label => 'Тоо хэмжээ';
+
+  @override
+  String get unit_price_label => 'нэгж үнэ';
+
+  @override
+  String get currency_label => 'Мөнгө';
+
+  @override
+  String get total_price_label => 'Нийт үнэ:';
+
+  @override
+  String get storage_location_label => 'хадгалах газар';
+
+  @override
+  String get item_properties => 'Барааны шинж чанар';
+
+  @override
+  String get expiry_date_label => 'Хүчинтэй хугацаа';
+
+  @override
+  String get warranty_expiry_date_label => 'Үйлчилгээний баталгаа дуусах өдөр';
+
+  @override
+  String get production_date_label => 'Үйлдвэрлэсэн өдөр';
+
+  @override
+  String get purchase_date_label => 'Худалдаж авсан өдөр';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return '_$dateType ба хадгалах хугацаанд үндэслэн автоматаар тооцоолно';
+  }
+
+  @override
+  String get auto_calculated => 'Автомат тооцоо';
+
+  @override
+  String get images_label => 'Зураг';
+
+  @override
+  String get notes_label => 'Тэмдэглэл';
+
+  @override
+  String get add_notes_hint => 'Тайлбар мэдээлэл нэмэх (заавал биш)';
+
+  @override
+  String get year_label => 'жил';
+
+  @override
+  String get month_label => 'сар';
+
+  @override
+  String get day_label => 'тэнгэр';
+
+  @override
+  String selected_count(int count) {
+    return 'сонгогдсон $count зүйл';
+  }
+
+  @override
+  String get select_all => 'бүгдийг сонгох';
+
+  @override
+  String get deselect_all => 'Бүхийг сонгосноо цуцлах';
+
+  @override
+  String get batch_change_location => 'Хадгалах байрыг бөөнөөр сольж тавих';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Сонгосон $count ширхэг зүйлийг устгах уу?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '_$count ширхэг зүйл устгагдсан';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Одоогоор хадгалах байршил сонгох боломжгүй';
+
+  @override
+  String get batch_change_location_title =>
+      'Хадгалах газрыг бөөнөөр сольж тавих';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count ширхэг зүйлийг $location рүү шилжүүлсэн';
+  }
+
+  @override
+  String get operation_type_create => 'Оруулах';
+
+  @override
+  String get operation_type_update => 'Засах';
+
+  @override
+  String get operation_type_delete => 'Устгах';
+
+  @override
+  String get operation_type_inbound => 'Агуулахад оруулах';
+
+  @override
+  String get operation_type_outbound => 'бараа гаргах';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Экспорт амжилтгүй боллоо: $error';
+  }
+
+  @override
+  String get clear_logs => 'Тэмдэглэлийг хоослох';
+
+  @override
+  String get confirm_clear_logs =>
+      'Бүх үйлдлийн тэмдэглэлийг устгаснаа баталгаажуулж байна уу? Энэ үйлдлийг сэргээх боломжгүй.';
+
+  @override
+  String get logs_cleared => 'Тэмдэглэл устгагдсан';
+
+  @override
+  String get operation_logs_title => 'Үйлдлийн бүртгэл';
+
+  @override
+  String get export_logs => 'Логыг экспортлох';
+
+  @override
+  String get clear_logs_tooltip => 'Тэмдэглэлийг хоослох';
+
+  @override
+  String get no_operation_logs => 'Үйлдлийн бүртгэл одоогоор байхгүй';
+
+  @override
+  String get log_item_label => 'Бараа:';
+
+  @override
+  String get log_category_label => 'Ангилал:';
+
+  @override
+  String get log_type_label => 'Төрөл:';
+
+  @override
+  String get log_quantity_label => 'Тоо хэмжээ:';
+
+  @override
+  String get log_unit_price_label => 'Нэгж үнэ:';
+
+  @override
+  String get log_total_price_label => 'Нийт үнэ:';
+
+  @override
+  String get log_expiry_date_label => 'Хүчинтэй хугацаа дуусах өдөр:';
+
+  @override
+  String get log_warranty_date_label => 'Үйлчилгээний баталгаат хугацаа:';
+
+  @override
+  String get log_purchase_date_label => 'Худалдаж авсан огноо:';
+
+  @override
+  String get log_production_date_label => 'Үйлдвэрлэсэн огноо:';
+
+  @override
+  String get log_shelf_life_label => 'Хадгалах хугацаа:';
+
+  @override
+  String get log_storage_location_label => 'Хадгалах байр';
+
+  @override
+  String get log_barcode_label => 'Баркод:';
+
+  @override
+  String get log_notes_label => 'Тайлбар:';
+
+  @override
+  String get log_alert_label => 'АНХААРУУЛГА:';
+
+  @override
+  String get log_alert_days_label => 'Сэрэмжлүүлгийн өдрүүд:';
+
+  @override
+  String get log_quantity_change_label => 'Тооны өөрчлөлт：';
+
+  @override
+  String get log_field_changes_label => 'Талбарийг өөрчлөх:';
+
+  @override
+  String get log_not_set => 'Тохируулахгүй болсон';
+
+  @override
+  String get log_empty => 'хоосон';
+
+  @override
+  String get log_alert_enabled => 'нээх';
+
+  @override
+  String get log_alert_disabled => 'Хаах';
+
+  @override
+  String get operation_logs_menu => 'Үйлдлийн бүртгэл';
+
+  @override
+  String get operation_logs_description =>
+      'Үйлдлийн бүртгэлийг үзэх ба сэргээх';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Үйлдэл амжилтгүй боллоо: $error';
+  }
+
+  @override
+  String get no_date => 'Огноо байхгүй';
+
+  @override
+  String get shelf_life_months_suffix => 'сар';
+
+  @override
+  String get shelf_life_days_suffix => 'тэнгэр';
+
+  @override
+  String get alert_days_suffix => 'тэнгэр';
+
+  @override
+  String get unknown => 'мэдэгдэхгүй';
+
+  @override
+  String get developer_name => 'Лео';
+
+  @override
+  String get log_operation_date_label => 'Үйлдлийн огноо:';
 }

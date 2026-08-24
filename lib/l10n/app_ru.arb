@@ -1688,5 +1688,395 @@
   "enter_category_name": "Пожалуйста, введите название категории",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "Несохранённые изменения",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "У вас есть несохранённые изменения, пожалуйста, выберите действие:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "отказаться",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "штука",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "штука",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "ящик",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "пакет",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "бутылка",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "коробка",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "комплект",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "кг",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "г",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "мл",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "м",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "см",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "количество",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "Цена за единицу",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "валюта",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "Общая стоимость:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "Место хранения",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "Свойства предмета",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "Срок действия",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "Дата окончания гарантии",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "Дата производства",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "Дата покупки",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "Автоматический расчет на основе {dateType} и срока годности",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "Автоматический расчет",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "изображение",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "Примечание",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "Добавить примечание (по желанию)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "год",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "луна",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "небо",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "Выбрано {count} элементов",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "Выбрать всё",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "Снять выделение со всех",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "Массовая замена мест хранения",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "Вы уверены, что хотите удалить выбранные {count} предмета(ов)?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "Удалено {count} предметов",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "В настоящее время нет доступного места для хранения",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "Массовая замена мест хранения",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "Перемещено {count} предметов в {location}",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "ввод",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "Редактировать",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "Удалить",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "в склад",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "выезд со склада",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "Экспорт не удался: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "Очистить журнал",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "Вы уверены, что хотите очистить все журналы операций? Это действие необратимо.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "Журнал очищен",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "Журнал операций",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "Экспорт журнала",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "Очистить журнал",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "Нет журналов операций",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "Предмет:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "Категория:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "Тип:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "Количество:",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "Цена за единицу:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "Общая стоимость:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "Срок годности:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "Дата гарантии:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "Дата покупки:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "Дата производства:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "Срок годности:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "Место хранения:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "Штрихкод:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "Примечание:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "Предупреждение:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "Дни предупреждения:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "Изменение количества:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "Изменить поле:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "Не установлено",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "пусто",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "Включить",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "Закрыть",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "Журнал операций",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "Просмотр и восстановление записей операций",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "Операция не удалась: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "Без даты",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "месяцев",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "небо",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "небо",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "неизвестно",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "Лео",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "Дата операции:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

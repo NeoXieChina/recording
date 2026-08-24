@@ -1183,4 +1183,287 @@ class AppLocalizationsHy extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return 'Կրճատվել է $itemName $quantity$unit';
   }
+
+  @override
+  String get unsaved_changes => 'չպահպանված փոփոխություններ';
+
+  @override
+  String get unsaved_changes_message =>
+      'Դուք ունեք չպահպանված փոփոխություններ, խնդրում ենք ընտրել գործողությունը՝';
+
+  @override
+  String get discard => 'հրաժարվել';
+
+  @override
+  String get unit_piece => 'տարբեր';
+
+  @override
+  String get unit_item => 'հատ';
+
+  @override
+  String get unit_box => 'տուփ';
+
+  @override
+  String get unit_package => 'փաթեթ';
+
+  @override
+  String get unit_bottle => 'բալոն';
+
+  @override
+  String get unit_carton => 'տուփ';
+
+  @override
+  String get unit_set => 'տուն';
+
+  @override
+  String get unit_kg => 'կգ';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'Լ';
+
+  @override
+  String get unit_ml => 'մլ';
+
+  @override
+  String get unit_m => 'մ';
+
+  @override
+  String get unit_cm => 'սմ';
+
+  @override
+  String get quantity_label => 'աքանակ';
+
+  @override
+  String get unit_price_label => 'մեկ գին';
+
+  @override
+  String get currency_label => 'Արժույթ';
+
+  @override
+  String get total_price_label => 'Ընդհանուր գինը՝';
+
+  @override
+  String get storage_location_label => 'Պահեստավորման վայր';
+
+  @override
+  String get item_properties => 'անվանական հատկություններ';
+
+  @override
+  String get expiry_date_label => 'Վավերականության ժամկետ';
+
+  @override
+  String get warranty_expiry_date_label => 'Համապատասխանության ժամկետի ավարտ';
+
+  @override
+  String get production_date_label => 'Արտադրության ամսաթիվ';
+
+  @override
+  String get purchase_date_label => 'գնման ամսաթիվ';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return 'Ակտիվը ավտոմատ կերպով հաշվարկվում է հիմնվելով $dateType և ժամկետների վրա';
+  }
+
+  @override
+  String get auto_calculated => 'Ավտոմատ հաշվարկ';
+
+  @override
+  String get images_label => 'Պատկեր';
+
+  @override
+  String get notes_label => 'ԱԿՆԱՆՆՈՒԹՅՈՒՆ';
+
+  @override
+  String get add_notes_hint => 'Ավելացնել գրառման տեղեկություն (ընըտրովի)';
+
+  @override
+  String get year_label => 'տարի';
+
+  @override
+  String get month_label => 'ամիս';
+
+  @override
+  String get day_label => ' երկինք ';
+
+  @override
+  String selected_count(int count) {
+    return 'Ընտրվել է $count կետ';
+  }
+
+  @override
+  String get select_all => 'Ընտրել բոլորը';
+
+  @override
+  String get deselect_all => 'Հեռացնել բոլոր ընտրությունները';
+
+  @override
+  String get batch_change_location => 'Մեծածավալ բաշխում պահպանման վայրի միջեւ';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Ուպաստվե՞լն է ընտրած $count ապրանքը ջնջելը։';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return 'Ջնջվել է $count ապրանք';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Անհասանելի են պահեստավորման վայրեր';
+
+  @override
+  String get batch_change_location_title =>
+      'Մեծածավալ բաշխում պահեստի վայրերի միջև';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count տարրը տեղափոխվել է $location';
+  }
+
+  @override
+  String get operation_type_create => 'Մուտքագրում';
+
+  @override
+  String get operation_type_update => 'Խմբագրել';
+
+  @override
+  String get operation_type_delete => 'Ջնջել';
+
+  @override
+  String get operation_type_inbound => 'Ընդունվել պահեստ';
+
+  @override
+  String get operation_type_outbound => 'Ընդունում պահեստից';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Արտահանումը ձախողվեց՝ $error';
+  }
+
+  @override
+  String get clear_logs => 'Մաքրել արձանագրությունները';
+
+  @override
+  String get confirm_clear_logs =>
+      'համոզված արդյոք եք, որ ցանկանում եք մաքրել բոլոր գործողությունների նշումները՞ Այս գործողությունը հակադարձելի չէ։';
+
+  @override
+  String get logs_cleared => 'Նշմարումները մաքրվել են';
+
+  @override
+  String get operation_logs_title => 'գործողությունների արձանագրություն';
+
+  @override
+  String get export_logs => 'արտահանել արձանագրությունները';
+
+  @override
+  String get clear_logs_tooltip => 'Մաքրել արձանագրությունները';
+
+  @override
+  String get no_operation_logs => 'Գործողության գրանցամատյան առկա չէ';
+
+  @override
+  String get log_item_label => 'Ապրանք:';
+
+  @override
+  String get log_category_label => 'Վերնագիր։';
+
+  @override
+  String get log_type_label => 'Տեսակ։';
+
+  @override
+  String get log_quantity_label => 'Քանակը։';
+
+  @override
+  String get log_unit_price_label => 'Միավորի գին՝';
+
+  @override
+  String get log_total_price_label => 'Ընդհանուր գինը՝';
+
+  @override
+  String get log_expiry_date_label => 'Վավերության ավարտի ամիս';
+
+  @override
+  String get log_warranty_date_label => 'Гаранտիայի ամսաթիվը:';
+
+  @override
+  String get log_purchase_date_label => 'Գնումի ամսաթիվը՝';
+
+  @override
+  String get log_production_date_label => 'արտադրության ամսաթիվը։';
+
+  @override
+  String get log_shelf_life_label => 'Պահման ժամկետը՝';
+
+  @override
+  String get log_storage_location_label => 'Պահեստավորման վայր։';
+
+  @override
+  String get log_barcode_label => 'Բարակ կոդ՝';
+
+  @override
+  String get log_notes_label => 'Նշում։';
+
+  @override
+  String get log_alert_label => 'Գոյարություն';
+
+  @override
+  String get log_alert_days_label => 'Ծանուցման օրեր՝';
+
+  @override
+  String get log_quantity_change_label => 'Քանակի փոփոխություն՝';
+
+  @override
+  String get log_field_changes_label => 'Փոփոխել դաշտը՝';
+
+  @override
+  String get log_not_set => 'Չես սահմանվել';
+
+  @override
+  String get log_empty => 'ಖಾಲಿ';
+
+  @override
+  String get log_alert_enabled => 'բացել';
+
+  @override
+  String get log_alert_disabled => 'Փակել';
+
+  @override
+  String get operation_logs_menu => 'գործողությունների արձանագրություն';
+
+  @override
+  String get operation_logs_description =>
+      'Դիտել և վերականգնել օպերացիաների գրառումները';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'Չհաջողվեց կատարել գործողությունը: $error';
+  }
+
+  @override
+  String get no_date => 'Անսպաս ամսաթիվ';
+
+  @override
+  String get shelf_life_months_suffix => 'ամիս';
+
+  @override
+  String get shelf_life_days_suffix => ' երկինք ';
+
+  @override
+  String get alert_days_suffix => ' երկինք ';
+
+  @override
+  String get unknown => 'Անհայտ';
+
+  @override
+  String get developer_name => 'Լեոն';
+
+  @override
+  String get log_operation_date_label => 'Գործողության ամսաթիվը։';
 }

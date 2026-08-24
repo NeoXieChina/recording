@@ -1688,5 +1688,395 @@
   "enter_category_name": "분류 이름을 입력하세요",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "저장되지 않은 변경 사항",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "저장되지 않은 변경 사항이 있습니다. 작업을 선택하십시오:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "포기하다",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "개",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "건",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "상자",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "가방",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "병",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "상자",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "세트",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "킬로그램",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "g",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "L",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "밀리리터",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "m",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "센티미터",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "수량",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "단가",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "화폐",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "총액:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "저장 장소",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "물품 속성",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "유효 기간",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "보증 만료일",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "생산 날짜",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "구매 날짜",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "{dateType}와 유통기한에 따라 자동으로 계산",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "자동 계산",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "사진",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "비고",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "메모 정보 추가(선택사항)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "년",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "달",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "하늘",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "{count}개 항목이 선택되었습니다",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "전체 선택",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "전체 선택 취소",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "저장 위치 일괄 변경",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "선택한 {count}개 항목을 삭제하시겠습니까?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count}개의 항목이 삭제되었습니다",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "저장 위치를 선택할 수 없습니다",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "저장 위치 일괄 변경",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count}개의 아이템이 {location}로 이동되었습니다",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "입력",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "편집",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "삭제",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "입고",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "출고",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "내보내기 실패: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "로그 지우기",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "모든 작업 로그를 정말로 지우시겠습니까? 이 작업은 복구할 수 없습니다.",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "로그가 비워졌습니다",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "작업 로그",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "로그 내보내기",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "로그 지우기",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "일시적으로 작업 로그가 없습니다",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "물품:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "분류:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "유형:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "수량：",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "단가:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "총액:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "유통기한:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "보증 기간:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "구매 날짜:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "제조일자：",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "유통기한:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "저장 위치:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "바코드:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "비고:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "경보:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "예보 일수:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "수량 변화:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "필드 수정:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "설정되지 않음",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "비어 있음",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "열다",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "닫기",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "작업 로그",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "작업 기록 보기 및 복원",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "작업 실패: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "무일자",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "개월",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "하늘",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "하늘",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "미지",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "레오",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "조작 날짜:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }

@@ -1171,4 +1171,288 @@ class AppLocalizationsTr extends AppLocalizations {
   String item_decreased(String itemName, String quantity, String unit) {
     return '$itemName $quantity$unit azaltıldı';
   }
+
+  @override
+  String get unsaved_changes => 'Kaydedilmemiş değişiklikler';
+
+  @override
+  String get unsaved_changes_message =>
+      'Kaydedilmemiş değişiklikleriniz var, lütfen bir işlem seçin:';
+
+  @override
+  String get discard => 'Vazgeçmek';
+
+  @override
+  String get unit_piece => 'adet';
+
+  @override
+  String get unit_item => 'parça';
+
+  @override
+  String get unit_box => 'kutu';
+
+  @override
+  String get unit_package => 'çanta';
+
+  @override
+  String get unit_bottle => 'şişe';
+
+  @override
+  String get unit_carton => 'kutu';
+
+  @override
+  String get unit_set => 'takım';
+
+  @override
+  String get unit_kg => 'kg';
+
+  @override
+  String get unit_g => 'g';
+
+  @override
+  String get unit_l => 'L';
+
+  @override
+  String get unit_ml => 'ml';
+
+  @override
+  String get unit_m => 'm';
+
+  @override
+  String get unit_cm => 'cm';
+
+  @override
+  String get quantity_label => 'Miktar';
+
+  @override
+  String get unit_price_label => 'Birim fiyat';
+
+  @override
+  String get currency_label => 'Para birimi';
+
+  @override
+  String get total_price_label => 'Toplam fiyat:';
+
+  @override
+  String get storage_location_label => 'Depolama yeri';
+
+  @override
+  String get item_properties => 'Eşya Özellikleri';
+
+  @override
+  String get expiry_date_label => 'Geçerlilik süresi';
+
+  @override
+  String get warranty_expiry_date_label => 'Garanti bitiş tarihi';
+
+  @override
+  String get production_date_label => 'Üretim tarihi';
+
+  @override
+  String get purchase_date_label => 'Satın alma tarihi';
+
+  @override
+  String auto_calculated_from(String dateType) {
+    return '_${dateType}_ ve son kullanma tarihine göre otomatik hesapla';
+  }
+
+  @override
+  String get auto_calculated => 'Otomatik hesaplama';
+
+  @override
+  String get images_label => 'Resim';
+
+  @override
+  String get notes_label => 'Notlar';
+
+  @override
+  String get add_notes_hint => 'Not ekle (isteğe bağlı)';
+
+  @override
+  String get year_label => 'yıl';
+
+  @override
+  String get month_label => 'Ay';
+
+  @override
+  String get day_label => 'gökyüzü';
+
+  @override
+  String selected_count(int count) {
+    return '$count öğe seçildi';
+  }
+
+  @override
+  String get select_all => 'Tümünü Seç';
+
+  @override
+  String get deselect_all => 'Tümünü seçimi kaldır';
+
+  @override
+  String get batch_change_location =>
+      'Depolama yerlerini toplu olarak değiştirmek';
+
+  @override
+  String confirm_delete_selected(int count) {
+    return 'Seçilen $count öğeyi silmek istediğinizden emin misiniz?';
+  }
+
+  @override
+  String deleted_count_items(int count) {
+    return '$count öğe silindi';
+  }
+
+  @override
+  String get no_storage_location_available =>
+      'Şu anda seçilebilecek bir depolama yeri yok';
+
+  @override
+  String get batch_change_location_title =>
+      'Depolama yerlerini toplu olarak değiştirmek';
+
+  @override
+  String moved_count_items_to_location(int count, String location) {
+    return '$count öğe $location konumuna taşındı';
+  }
+
+  @override
+  String get operation_type_create => 'Veri girişi';
+
+  @override
+  String get operation_type_update => 'Düzenle';
+
+  @override
+  String get operation_type_delete => 'Sil';
+
+  @override
+  String get operation_type_inbound => 'Depoya giriş';
+
+  @override
+  String get operation_type_outbound => 'Depodan çıkış';
+
+  @override
+  String export_failed_message(String error) {
+    return 'Dışa aktarma başarısız: $error';
+  }
+
+  @override
+  String get clear_logs => 'Günlüğü temizle';
+
+  @override
+  String get confirm_clear_logs =>
+      'Tüm işlem günlüklerini temizlemek istediğinizden emin misiniz? Bu işlem geri alınamaz.';
+
+  @override
+  String get logs_cleared => 'Günlük temizlendi';
+
+  @override
+  String get operation_logs_title => 'İşlem Günlüğü';
+
+  @override
+  String get export_logs => 'Günlüğü dışa aktar';
+
+  @override
+  String get clear_logs_tooltip => 'Günlüğü temizle';
+
+  @override
+  String get no_operation_logs => 'Henüz işlem günlüğü yok';
+
+  @override
+  String get log_item_label => 'Eşya:';
+
+  @override
+  String get log_category_label => 'Kategori:';
+
+  @override
+  String get log_type_label => 'Türü:';
+
+  @override
+  String get log_quantity_label => 'Miktar:';
+
+  @override
+  String get log_unit_price_label => 'Birim fiyat:';
+
+  @override
+  String get log_total_price_label => 'Toplam fiyat:';
+
+  @override
+  String get log_expiry_date_label => 'Son kullanma tarihi:';
+
+  @override
+  String get log_warranty_date_label => 'Garanti Tarihi:';
+
+  @override
+  String get log_purchase_date_label => 'Satın Alma Tarihi:';
+
+  @override
+  String get log_production_date_label => 'Üretim Tarihi:';
+
+  @override
+  String get log_shelf_life_label => 'Son kullanma tarihi:';
+
+  @override
+  String get log_storage_location_label => 'Depolama Yeri:';
+
+  @override
+  String get log_barcode_label => 'Barkod:';
+
+  @override
+  String get log_notes_label => 'Not: ';
+
+  @override
+  String get log_alert_label => 'Erken uyarı:';
+
+  @override
+  String get log_alert_days_label => 'Erken uyarı günü sayısı:';
+
+  @override
+  String get log_quantity_change_label => 'Miktar değişimi:';
+
+  @override
+  String get log_field_changes_label => 'Alanı değiştir:';
+
+  @override
+  String get log_not_set => 'Ayarlanmadı';
+
+  @override
+  String get log_empty => 'boş';
+
+  @override
+  String get log_alert_enabled => 'Açmak';
+
+  @override
+  String get log_alert_disabled => 'Kapat';
+
+  @override
+  String get operation_logs_menu => 'İşlem Günlüğü';
+
+  @override
+  String get operation_logs_description =>
+      'İşlem kayıtlarını görüntüle ve geri yükle';
+
+  @override
+  String operation_failed_message(String error) {
+    return 'İşlem başarısız: $error';
+  }
+
+  @override
+  String get no_date => 'Tarihsiz';
+
+  @override
+  String get shelf_life_months_suffix => 'ay';
+
+  @override
+  String get shelf_life_days_suffix => 'gökyüzü';
+
+  @override
+  String get alert_days_suffix => 'gökyüzü';
+
+  @override
+  String get unknown => 'Bilinmeyen';
+
+  @override
+  String get developer_name => 'Leo';
+
+  @override
+  String get log_operation_date_label => 'İşlem Tarihi:';
 }

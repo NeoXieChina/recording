@@ -1688,5 +1688,395 @@
   "enter_category_name": "ದಯವಿಟ್ಟು ವರ್ಗದ ಹೆಸರು ನಮೂದಿಸಿ",
   "@enter_category_name": {
     "description": ""
+  },
+  "unsaved_changes": "ಸೇಫ್ ಆಗದ ಬದಲಾವಣೆಗಳು",
+  "@unsaved_changes": {
+    "description": ""
+  },
+  "unsaved_changes_message": "ನಿಮ್ಮಲ್ಲಿ ಉಳಿಸಿಕೊಂಡಿಲ್ಲದ ಬದಲಾವಣೆಗಳಿವೆ, ದಯವಿಟ್ಟು ಕಾರ್ಯವನ್ನು ಆರಿಸಿ:",
+  "@unsaved_changes_message": {
+    "description": ""
+  },
+  "discard": "ತ್ಯಜಿಸು",
+  "@discard": {
+    "description": ""
+  },
+  "unit_piece": "ಒಂದು",
+  "@unit_piece": {
+    "description": ""
+  },
+  "unit_item": "ವಸ್ತು",
+  "@unit_item": {
+    "description": ""
+  },
+  "unit_box": "ಪೆಟ್ಟಿಗೆ",
+  "@unit_box": {
+    "description": ""
+  },
+  "unit_package": "ಪ್ಯಾಕ್",
+  "@unit_package": {
+    "description": ""
+  },
+  "unit_bottle": "ಬಾಟಲಿ",
+  "@unit_bottle": {
+    "description": ""
+  },
+  "unit_carton": "ಪೆಟ್ಟಿಗೆ",
+  "@unit_carton": {
+    "description": ""
+  },
+  "unit_set": "ಸೆಟ್",
+  "@unit_set": {
+    "description": ""
+  },
+  "unit_kg": "ಕಿಲೋಗ್ರಾಂ",
+  "@unit_kg": {
+    "description": ""
+  },
+  "unit_g": "ಜಿ",
+  "@unit_g": {
+    "description": ""
+  },
+  "unit_l": "ಎಲ್",
+  "@unit_l": {
+    "description": ""
+  },
+  "unit_ml": "ಮಿಲಿಲಿಟರ್",
+  "@unit_ml": {
+    "description": ""
+  },
+  "unit_m": "ಎಂ",
+  "@unit_m": {
+    "description": ""
+  },
+  "unit_cm": "ಸೆಂಮೀ",
+  "@unit_cm": {
+    "description": ""
+  },
+  "quantity_label": "ಪ್ರಮಾಣ",
+  "@quantity_label": {
+    "description": ""
+  },
+  "unit_price_label": "ಪ್ರತಿಯೂನಿಟ್ ಬೆಲೆ",
+  "@unit_price_label": {
+    "description": ""
+  },
+  "currency_label": "ಕರೆನ್ಸಿ",
+  "@currency_label": {
+    "description": ""
+  },
+  "total_price_label": "ಒಟ್ಟು ಬೆಲೆ:",
+  "@total_price_label": {
+    "description": ""
+  },
+  "storage_location_label": "ಸಂಗ್ರಹಸ್ಥಳ",
+  "@storage_location_label": {
+    "description": ""
+  },
+  "item_properties": "ವಸ್ತು ಗುಣಲಕ್ಷಣಗಳು",
+  "@item_properties": {
+    "description": ""
+  },
+  "expiry_date_label": "ಕಾಲಮಾನ",
+  "@expiry_date_label": {
+    "description": ""
+  },
+  "warranty_expiry_date_label": "ಗೂಡಿಕೆಯ ಅವಧಿಯ ಕೊನೆಯ ದಿನ",
+  "@warranty_expiry_date_label": {
+    "description": ""
+  },
+  "production_date_label": "ಉತ್ಪಾದನೆಯ ದಿನಾಂಕ",
+  "@production_date_label": {
+    "description": ""
+  },
+  "purchase_date_label": "ಖರೀದಿ ದಿನಾಂಕ",
+  "@purchase_date_label": {
+    "description": ""
+  },
+  "auto_calculated_from": "_{dateType}_ ಮತ್ತು ಶೆಲ್ಫ್ ಲೈಫ್ ಆಧರಿಸಿ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಲೆಕ್ಕಹಾಕಿ",
+  "@auto_calculated_from": {
+    "description": "",
+    "placeholders": {
+      "dateType": {
+        "type": "String"
+      }
+    }
+  },
+  "auto_calculated": "ಸ್ವಯಂಚಾಲಿತ ಗಣನೆ",
+  "@auto_calculated": {
+    "description": ""
+  },
+  "images_label": "ಚಿತ್ರ",
+  "@images_label": {
+    "description": ""
+  },
+  "notes_label": "ಟಿಪ್ಪಣಿ",
+  "@notes_label": {
+    "description": ""
+  },
+  "add_notes_hint": "ಟಿಪ್ಪಣಿಗಳನ್ನು ಸೇರಿಸಿ (ಐಚ್ಛಿಕ)",
+  "@add_notes_hint": {
+    "description": ""
+  },
+  "year_label": "ವರ್ಷ",
+  "@year_label": {
+    "description": ""
+  },
+  "month_label": "ಚಂದ್ರ",
+  "@month_label": {
+    "description": ""
+  },
+  "day_label": "ಆಕಾಶ",
+  "@day_label": {
+    "description": ""
+  },
+  "selected_count": "ನಿರ್ದೇಶಿತ {count} ಐಟಂಗಳು",
+  "@selected_count": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "select_all": "ಎಲ್ಲಾ ಆಯ್ಕೆಮಾಡಿ",
+  "@select_all": {
+    "description": ""
+  },
+  "deselect_all": "ಎಲ್ಲಾ ಆಯ್ಕೆ ತೆರವುಮಾಡಿ",
+  "@deselect_all": {
+    "description": ""
+  },
+  "batch_change_location": "ಸಂಗ್ರಹಣ ಸ್ಥಳಗಳನ್ನು ಹ್ತುಕಟ್ಟಾಗಿ ಬದಲಾಯಿಸುವುದು",
+  "@batch_change_location": {
+    "description": ""
+  },
+  "confirm_delete_selected": "ನಿರ್ಧರಿಸಲಾಗಿದೆ ಆಯ್ದ {count} ವಸ್ತುಗಳನ್ನು ಅಳಿಸಲು嗎?",
+  "@confirm_delete_selected": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleted_count_items": "{count} ಐಟಂಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ",
+  "@deleted_count_items": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "no_storage_location_available": "ಈಗಾಗಲೇ ಯಾವುದೇ ಸಂಗ್ರಹ ಸ್ಥಳವನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಲಭ್ಯವಿಲ್ಲ",
+  "@no_storage_location_available": {
+    "description": ""
+  },
+  "batch_change_location_title": "ಸಂಗ್ರಹಣ ಸ್ಥಳಗಳನ್ನು ಹ್ತುಕಟ್ಟಾಗಿ ಬದಲಾಯಿಸುವುದು",
+  "@batch_change_location_title": {
+    "description": ""
+  },
+  "moved_count_items_to_location": "{count} ಐಟಂಗಳನ್ನು {location} ಗೆ ಸ್ಥಳಾಂತರಿಸಲಾಗಿದೆ",
+  "@moved_count_items_to_location": {
+    "description": "",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "operation_type_create": "ಎಂಟರ್ ಮಾಡುವುದು",
+  "@operation_type_create": {
+    "description": ""
+  },
+  "operation_type_update": "ಸಂಪಾದನೆ",
+  "@operation_type_update": {
+    "description": ""
+  },
+  "operation_type_delete": "ಅಳಿಸು",
+  "@operation_type_delete": {
+    "description": ""
+  },
+  "operation_type_inbound": "ಖಾತೆಯಲ್ಲಿ ಸೇರ್ಪಡೆ",
+  "@operation_type_inbound": {
+    "description": ""
+  },
+  "operation_type_outbound": "ಖಾತೆಯಿಂದ ಹೊರಹರಿಸಿದೆ",
+  "@operation_type_outbound": {
+    "description": ""
+  },
+  "export_failed_message": "ಎಗ್ಸ್ಪೋರ್ಟ್ ವಿಫಲವಾಗಿದೆ: {error}",
+  "@export_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "clear_logs": "ಲಾಗ್ ತೆರವುಗೊಳಿಸಿ",
+  "@clear_logs": {
+    "description": ""
+  },
+  "confirm_clear_logs": "ಎಲ್ಲಾ ಕಾರ್ಯ ದಾಖಲೆಗಳನ್ನು ಮರುಹೊಂದಿಸಲಾಗದಂತೆ ಸಂಪೂರ್ಣವಾಗಿ ಶೂನ್ಯಗೊಳಿಸಲು ಖಚಿತವೇ?",
+  "@confirm_clear_logs": {
+    "description": ""
+  },
+  "logs_cleared": "ಲಾಗ್ ಕ್ಲೀರ್ ಮಾಡಿಸಲಾಗಿದೆ",
+  "@logs_cleared": {
+    "description": ""
+  },
+  "operation_logs_title": "ಆಪರೇಶನ್ ಲಾಗ್",
+  "@operation_logs_title": {
+    "description": ""
+  },
+  "export_logs": "ಲಾಗ್ ರಫ್ತುಮಾಡಿ",
+  "@export_logs": {
+    "description": ""
+  },
+  "clear_logs_tooltip": "ಲಾಗ್ ತೆರವುಗೊಳಿಸಿ",
+  "@clear_logs_tooltip": {
+    "description": ""
+  },
+  "no_operation_logs": "ಇಷ್ಟೆ ಪ್ರಚಾಲನಾ ಲಾಗ್ ಇಲ್ಲ",
+  "@no_operation_logs": {
+    "description": ""
+  },
+  "log_item_label": "ವಸ್ತು:",
+  "@log_item_label": {
+    "description": ""
+  },
+  "log_category_label": "ವರ್ಗೀಕರಣ:",
+  "@log_category_label": {
+    "description": ""
+  },
+  "log_type_label": "ಪ್ರಕಾರ:",
+  "@log_type_label": {
+    "description": ""
+  },
+  "log_quantity_label": "ಪ್ರಮಾಣ: ",
+  "@log_quantity_label": {
+    "description": ""
+  },
+  "log_unit_price_label": "એકમ ಬೆಲೆ:",
+  "@log_unit_price_label": {
+    "description": ""
+  },
+  "log_total_price_label": "ಒಟ್ಟು ಬೆಲೆ:",
+  "@log_total_price_label": {
+    "description": ""
+  },
+  "log_expiry_date_label": "ಮಾರ್ಗ ಮಾಯದ ದಿನಾಂಕ:",
+  "@log_expiry_date_label": {
+    "description": ""
+  },
+  "log_warranty_date_label": "ವಾರಂಟಿ ದಿನಾಂಕ:",
+  "@log_warranty_date_label": {
+    "description": ""
+  },
+  "log_purchase_date_label": "ಖರೀದಿ ದಿನಾಂಕ:",
+  "@log_purchase_date_label": {
+    "description": ""
+  },
+  "log_production_date_label": "ಉತ್ಪಾದನಾ ದಿನಾಂಕ:",
+  "@log_production_date_label": {
+    "description": ""
+  },
+  "log_shelf_life_label": "ಮಾರಾಟದ ಅವಧಿ:",
+  "@log_shelf_life_label": {
+    "description": ""
+  },
+  "log_storage_location_label": "ಸಂಗ್ರಹಣ ಸ್ಥಳ:",
+  "@log_storage_location_label": {
+    "description": ""
+  },
+  "log_barcode_label": "ಬಾರ್ ಕೋಡ್:",
+  "@log_barcode_label": {
+    "description": ""
+  },
+  "log_notes_label": "ಕಮೆಂಟ್:",
+  "@log_notes_label": {
+    "description": ""
+  },
+  "log_alert_label": "ಎಚ್ಚರಿಕೆ:",
+  "@log_alert_label": {
+    "description": ""
+  },
+  "log_alert_days_label": "ಎಚ್ಚರಿಕೆ ದಿನಗಳು:",
+  "@log_alert_days_label": {
+    "description": ""
+  },
+  "log_quantity_change_label": "ಮಾತ್ರೆಯ ಬದಲಾವಣೆ:",
+  "@log_quantity_change_label": {
+    "description": ""
+  },
+  "log_field_changes_label": "ಕ್ಷೇತ್ರಗಳನ್ನು ಸಂಪಾದಿಸಿ:",
+  "@log_field_changes_label": {
+    "description": ""
+  },
+  "log_not_set": "ಸೆಟ್ ಮಾಡಲಾಗಿಲ್ಲ",
+  "@log_not_set": {
+    "description": ""
+  },
+  "log_empty": "ಖಾಲಿ",
+  "@log_empty": {
+    "description": ""
+  },
+  "log_alert_enabled": "ಮುಂದುವರಿಸಿ",
+  "@log_alert_enabled": {
+    "description": ""
+  },
+  "log_alert_disabled": "ಮುಚ್ಚು",
+  "@log_alert_disabled": {
+    "description": ""
+  },
+  "operation_logs_menu": "ಆಪರೇಶನ್ ಲಾಗ್",
+  "@operation_logs_menu": {
+    "description": ""
+  },
+  "operation_logs_description": "ಆಪರೇಷನ್ ದಾಖಲೆಯನ್ನು ವೀಕ್ಷಿಸಿ ಮತ್ತು ಪುನಃಸ್ಥಾಪಿಸಿ",
+  "@operation_logs_description": {
+    "description": ""
+  },
+  "operation_failed_message": "ಚಾಲನೆ ವಿಫಲವಾಗಿದೆ: {error}",
+  "@operation_failed_message": {
+    "description": "",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "no_date": "ದಿನಾಂಕವಿಲ್ಲ",
+  "@no_date": {
+    "description": ""
+  },
+  "shelf_life_months_suffix": "ತಿಂಗಳ",
+  "@shelf_life_months_suffix": {
+    "description": ""
+  },
+  "shelf_life_days_suffix": "ಆಕಾಶ",
+  "@shelf_life_days_suffix": {
+    "description": ""
+  },
+  "alert_days_suffix": "ಆಕಾಶ",
+  "@alert_days_suffix": {
+    "description": ""
+  },
+  "unknown": "ಅಜ್ಞಾತ",
+  "@unknown": {
+    "description": ""
+  },
+  "developer_name": "ಲಿಯೋ",
+  "@developer_name": {
+    "description": ""
+  },
+  "log_operation_date_label": "ಕಾರ್ಯಾಚರಣೆಯ ದಿನಾಂಕ:",
+  "@log_operation_date_label": {
+    "description": ""
   }
 }
