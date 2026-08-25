@@ -2102,5 +2102,102 @@
   "created_at_desc": "追加時間の降順",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "倉庫管理",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "プライベートリポジトリ",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "公共ライブラリ",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "公共ライブラリ",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "公共倉庫に管理者はおらず、入庫出庫には操作担当者を記入する必要があります",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "管理者",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "未設定",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "ライブラリを編集",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "ライブラリ名",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "管理者名",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "管理者の名前を入力してください",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "管理者の名前を空にすることはできません",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "ライブラリ「{name}」を削除してもよろしいですか？",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "デフォルト管理者",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "新しいプライベートリポジトリを作成する際のデフォルトの管理者",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "デフォルトの管理者名を入力してください",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "操作担当者の氏名",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "操作する人の名前を入力してください",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "操作人の氏名は空にできません",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "管理者なし",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "操作担当者：",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "出庫数量は現在の在庫を超えることはできません",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "この倉庫にはまだ物品があり、削除できません",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:recording/constants.dart';
+import 'package:recording/data/datasources/app_database.dart';
+import 'package:recording/data/models/app_settings.dart';
 import 'package:recording/services/alert_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -13,6 +15,7 @@ class SettingsProvider extends ChangeNotifier {
   double _importProgress = 0.0;
   bool _localAlertsEnabled = false;
   Locale? _locale;
+  AppSettings _appSettings = AppSettings(defaultManager: '');
 
   bool get calendarSync => _calendarSync;
 
@@ -27,6 +30,8 @@ class SettingsProvider extends ChangeNotifier {
   bool get localAlertsEnabled => _localAlertsEnabled;
 
   Locale? get locale => _locale;
+
+  AppSettings get appSettings => _appSettings;
 
   void setCalendarSync(bool value) {
     _calendarSync = value;
@@ -118,5 +123,27 @@ class SettingsProvider extends ChangeNotifier {
     // 从AlertService加载本地提醒状态
     _localAlertsEnabled = AlertService().localAlertsEnabled;
     notifyListeners();
+  }
+
+  Future<void> loadAppSettings() async {
+    try {
+      _appSettings = await AppDatabase().getSettings();
+      notifyListeners();
+    } catch (e) {
+      // 忽略错误，使用默认设置
+    }
+  }
+
+  Future<void> updateAppSettings(AppSettings settings) async {
+    try {
+      _appSettings = await AppDatabase().updateSettings(settings);
+      notifyListeners();
+    } catch (e) {
+      // 忽略错误
+    }
+  }
+
+  Future<void> updateDefaultManager(String defaultManager) async {
+    await updateAppSettings(_appSettings.copyWith(defaultManager: defaultManager));
   }
 }

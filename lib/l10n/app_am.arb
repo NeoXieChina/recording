@@ -2102,5 +2102,102 @@
   "created_at_desc": "ወደ ታች የሚወርድ ጊዜ ይጨምሩ",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "የመጋዘን አስተዳደር",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "የግል ማከማቻ",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "የህዝብ ቤተ መጻሕፍት",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "የህዝብ ቤተ መጻሕፍት",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "የሕዝብ መጋዘን አስተዳዳሪ የለውም; የሸቀጦች መግቢያ እና መውጫ ኦፕሬተሩ እንዲመዘገብ ይጠይቃል።",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "አስተዳዳሪ",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "አልተዘጋጀም",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "ቤተ-መጽሐፍት ያርትዑ",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "የቤተመጽሐፍት ስም",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "የአስተዳዳሪ ስም",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "እባክዎ የአስተዳዳሪውን ስም ያስገቡ",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "የአስተዳዳሪ ስም ባዶ ሊሆን አይችልም",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "እርግጠኛ ነዎት የ \"{name}\" ቤተ-መጽሐፍቱን መሰረዝ ይፈልጋሉ?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "ነባሪ አስተዳዳሪ",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "አዲስ የግል ማከማቻ ሲፈጥሩ ነባሪ አስተዳዳሪ",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "እባክዎ ነባሪውን የአስተዳዳሪ ስም ያስገቡ",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "የኦፕሬተር ስም",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "እባክዎ የኦፕሬተሩን ስም ያስገቡ",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "የኦፕሬተሩ ስም ባዶ ሊሆን አይችልም",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "አስተዳዳሪ የለም",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "ኦፕሬተር",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "የተላከው መጠን አሁን ካለው ክምችት መብለጥ አይችልም",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "በዚህ ቤተ-መጽሐፍት ውስጥ አሁንም እቃዎች አሉ፣ መሰረዝ አይቻልም",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

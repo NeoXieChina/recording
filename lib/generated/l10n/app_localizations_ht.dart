@@ -1472,4 +1472,79 @@ class AppLocalizationsHt extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Ajoute dat desandan';
+
+  @override
+  String get location_management => 'Jesyon depo';
+
+  @override
+  String get private_warehouses => 'Depo prive';
+
+  @override
+  String get public_warehouses => 'Bibliyotèk Piblik';
+
+  @override
+  String get is_public_warehouse => 'Bibliyotèk Piblik';
+
+  @override
+  String get public_warehouse_desc =>
+      'Bibliyotèk piblik pa gen administratè, pou sòti oswa antre nan bibliyotèk la bezwen ranpli non moun ki fè operasyon an';
+
+  @override
+  String get manager => 'Administratè';
+
+  @override
+  String get not_set => 'Pa mete';
+
+  @override
+  String get edit_location => 'Edite bibliyotèk';
+
+  @override
+  String get location_name => 'Non bibliyotèk';
+
+  @override
+  String get manager_name => 'Non administratè';
+
+  @override
+  String get enter_manager_name => 'Tanpri antre non administratè a';
+
+  @override
+  String get manager_name_required => 'Non administratè a pa ka vid';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Èske ou sèten ou vle efase depo «$name» la?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Gen toujou atik nan depo a, pa ka efase li';
+
+  @override
+  String get default_manager => 'Administratè default';
+
+  @override
+  String get default_manager_desc =>
+      'Administratè pa default lè w kreye yon depo prive';
+
+  @override
+  String get enter_default_manager => 'Tanpri antre non administratè defo a';
+
+  @override
+  String get operator_name => 'Non operatè a';
+
+  @override
+  String get enter_operator_name => 'Tanpri antre non moun kap opere a';
+
+  @override
+  String get operator_name_required => 'Non moun k ap opere a pa ka vid';
+
+  @override
+  String get no_manager => 'Pa gen administratè';
+
+  @override
+  String get log_operator_label => 'Operatè:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Kantite pou sòti nan depo a pa ka depase kantite nan stok aktyèl la';
 }

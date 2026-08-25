@@ -2102,5 +2102,102 @@
   "created_at_desc": "ᐃᓚᓗᒍ ᓯᕿᙳᔭᖅ ᐊᑦᑎᒃᓯᕙᓪᓕᐊᑎᓪᓗᒍ",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "ᓯᕐᓗᐊᕐᒥ ᐊᐅᓚᑦᑎᓂᖅ",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "ᐃᒻᒥᒃᑰᖅᑐᑦ ᑐᖅᑯᐃᕕᒃ",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "ᑭᒃᑯᑐᐃᓐᓇᕐᓄᑦ ᐅᖃᓕᒫᒐᖃᕐᕕᒃ",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "ᑭᒃᑯᑐᐃᓐᓇᕐᓄᑦ ᐅᖃᓕᒫᒐᖃᕐᕕᒃ",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "ᑭᒃᑯᑐᐃᓐᓇᓄᑦ ᓯᕐᓗᐊᖅ ᐊᐅᓚᑦᑎᔨᖃᙱᓚᖅ; ᐃᓯᖅᐸᓪᓕᐊᔪᑦ ᐊᓂᕙᓪᓕᐊᔪᓪᓗ ᐱᖁᑎᓂᒃ ᐊᐅᓚᑦᑎᔨ ᑎᑎᕋᖅᑕᐅᔭᕆᐊᖃᖅᐳᖅ.",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "ᐊᒡᓚᒡᕕᓕᕆᔨ",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "ᐋᖅᑭᒃᑕᐅᓯᒪᙱᑦᑐᖅ",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "ᐋᖅᑭᒋᐊᕐᓗᒍ ᐅᖃᓕᒫᒐᖃᕐᕕᒃ",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "ᐅᖃᓕᒫᒐᖃᕐᕕᐅᑉ ᐊᑎᖓ",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "ᐊᒡᓚᕝᕕᓕᕆᔨᐅᑉ ᐊᑎᖓ ᑎᑎᕋᕐᓗᒍ",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ ᐃᓗᓕᖃᕈᓐᓇᙱᓚᖅ",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "ᐲᖅᓯᔪᒪᓪᓚᑦᑖᖅᐲᑦ ᐅᖃᓕᒫᒐᖃᕐᕕᖕᒥ \"{name}\"?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "ᐊᐅᓚᑦᑎᔨᐅᓚᐅᑲᒃᑐᖅ",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "ᐊᐅᓚᑦᑎᔨ ᐋᖅᑭᒃᓯᑎᓪᓗᒍ ᓄᑖᒥᒃ ᐃᓛᒃᑰᖅᑐᒥᒃ ᑐᖅᑯᖅᓯᕝᕕᖕᒥᒃ",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "ᑎᑎᕋᕐᓗᒍ ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ ᑎᑎᕋᕐᓗᒍ",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ ᐃᓗᓕᖃᙱᑦᑕᕆᐊᖃᙱᓚᖅ",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "ᐊᐅᓚᑦᑎᔨᖃᙱᑦᑐᖅ",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "ᐊᐅᓚᑦᑎᔨ:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "ᖃᔅᓯᐅᓂᖏᑦ ᐊᐅᓪᓚᖅᑎᑕᐅᔪᑦ ᖄᖏᐅᑎᔭᕆᐊᖃᙱᓚᑦ ᒫᓐᓇ ᐱᖁᑎᒋᔭᐅᔪᓂᑦ",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "ᓱᓕ ᐱᖁᑎᑕᖃᖅᐳᖅ ᑕᕝᕙᓂ ᐅᖃᓕᒫᒐᖃᕐᕕᖕᒥ, ᐲᔭᒐᒃᓴᐅᙱᖦᖢᓂ",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

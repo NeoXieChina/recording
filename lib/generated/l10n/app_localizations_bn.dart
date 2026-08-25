@@ -1478,4 +1478,79 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get created_at_desc => 'যোগের সময় অনুযায়ী অবরোহমান';
+
+  @override
+  String get location_management => 'গুদাম ব্যবস্থাপনা';
+
+  @override
+  String get private_warehouses => 'বেসরকারি লাইব্রেরি';
+
+  @override
+  String get public_warehouses => 'সার্বজনীন গ্রন্থাগার';
+
+  @override
+  String get is_public_warehouse => 'সার্বজনীন গ্রন্থাগার';
+
+  @override
+  String get public_warehouse_desc =>
+      'সাধারণ লাইব্রেরিতে কোনো প্রশাসক নেই, স্টক আউট বা স্টক ইন করার সময় অপারেটরের নাম লিখতে হবে';
+
+  @override
+  String get manager => 'প্রশাসক';
+
+  @override
+  String get not_set => 'সেট করা হয়নি';
+
+  @override
+  String get edit_location => 'সম্পাদনার বই';
+
+  @override
+  String get location_name => 'লাইব্রেরির নাম';
+
+  @override
+  String get manager_name => 'প্রশাসকের নাম';
+
+  @override
+  String get enter_manager_name => 'অনুগ্রহ করে প্রশাসকের নাম লিখুন';
+
+  @override
+  String get manager_name_required => 'প্রশাসকের নাম খালি রাখা যাবে না';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'আপনি কি আসলেই লাইব্রেরি „$name“ মুছে ফেলতে চান?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'গ্রন্থাগারে এখনও আইটেম আছে, মুছে ফেলা যাবে না';
+
+  @override
+  String get default_manager => 'ডিফল্ট অ্যাডমিনিস্ট্রেটর';
+
+  @override
+  String get default_manager_desc =>
+      'নতুন ব্যক্তিগত রিপোজিটরি তৈরি করার সময় ডিফল্ট প্রশাসক';
+
+  @override
+  String get enter_default_manager => 'দয়া করে ডিফল্ট অ্যাডমিনের নাম লিখুন';
+
+  @override
+  String get operator_name => 'পরিচালনাকারীর নাম';
+
+  @override
+  String get enter_operator_name => 'দয়া করে অপারেটরের নাম লিখুন';
+
+  @override
+  String get operator_name_required => 'অপারেটরের নাম খালি রাখা যাবে না';
+
+  @override
+  String get no_manager => 'কোনও প্রশাসক নেই';
+
+  @override
+  String get log_operator_label => 'পরিচালনাকারী:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'বিক্রয়যোগ্য পরিমাণ বর্তমানে স্টকের চেয়ে বেশি হতে পারবে না';
 }

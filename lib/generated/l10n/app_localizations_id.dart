@@ -1478,4 +1478,80 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Tambahkan urutan waktu menurun';
+
+  @override
+  String get location_management => 'Manajemen Gudang';
+
+  @override
+  String get private_warehouses => 'Repositori pribadi';
+
+  @override
+  String get public_warehouses => 'Perpustakaan Publik';
+
+  @override
+  String get is_public_warehouse => 'Perpustakaan Publik';
+
+  @override
+  String get public_warehouse_desc =>
+      'Perpustakaan publik tidak memiliki administrator, keluar masuk barang perlu mengisi operator';
+
+  @override
+  String get manager => 'Administrator';
+
+  @override
+  String get not_set => 'Belum disetel';
+
+  @override
+  String get edit_location => 'Perpustakaan Edit';
+
+  @override
+  String get location_name => 'Nama perpustakaan';
+
+  @override
+  String get manager_name => 'Nama administrator';
+
+  @override
+  String get enter_manager_name => 'Silakan masukkan nama administrator';
+
+  @override
+  String get manager_name_required => 'Nama administrator tidak boleh kosong';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Apakah Anda yakin ingin menghapus perpustakaan \"$name\"?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Masih ada barang di perpustakaan ini, tidak dapat dihapus';
+
+  @override
+  String get default_manager => 'Administrator default';
+
+  @override
+  String get default_manager_desc =>
+      'Administrator default saat membuat repositori pribadi baru';
+
+  @override
+  String get enter_default_manager =>
+      'Silakan masukkan nama administrator default';
+
+  @override
+  String get operator_name => 'Nama operator';
+
+  @override
+  String get enter_operator_name => 'Silakan masukkan nama operator';
+
+  @override
+  String get operator_name_required => 'Nama operator tidak boleh kosong';
+
+  @override
+  String get no_manager => 'Tanpa administrator';
+
+  @override
+  String get log_operator_label => 'Operator:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Jumlah keluar tidak boleh melebihi stok saat ini';
 }

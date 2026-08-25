@@ -2,12 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:lpinyin/lpinyin.dart';
 import 'package:recording/data/datasources/app_database.dart';
 import 'package:recording/data/models/item.dart';
+import 'package:recording/data/models/location.dart';
 import 'package:recording/data/models/operation_log.dart';
+import 'package:recording/providers/location_provider.dart';
 import 'package:recording/providers/operation_log_provider.dart';
+import 'package:recording/providers/settings_provider.dart';
 
 class ItemListProvider extends ChangeNotifier {
   final AppDatabase _db = AppDatabase();
   final OperationLogProvider _logProvider = OperationLogProvider();
+  final LocationProvider _locationProvider = LocationProvider();
+  final SettingsProvider _settingsProvider = SettingsProvider();
 
   List<Item> _items = [];
   final Set<String> _customLocations = {};
@@ -263,6 +268,20 @@ class ItemListProvider extends ChangeNotifier {
     try {
       final newItem = await _db.insertItem(item);
       _items.insert(0, newItem);
+      
+      // 自动创建地点（如果不存在）
+      if (item.storageLocation.isNotEmpty) {
+        final existingLocation = await _locationProvider.getLocationByName(item.storageLocation);
+        if (existingLocation == null) {
+          final defaultManager = _settingsProvider.appSettings.defaultManager;
+          await _locationProvider.addLocation(Location(
+            name: item.storageLocation,
+            isPublic: false,
+            manager: defaultManager.isNotEmpty ? defaultManager : null,
+          ));
+        }
+      }
+      
       await _logProvider.logOperation(OperationType.create, newItem);
       notifyListeners();
     } catch (e) {

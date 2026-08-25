@@ -2102,5 +2102,102 @@
   "created_at_desc": "Trefnu yn ôl amser ychwanegu o'r diwedd i'r dechrau",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Rheoli Stoc",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Llyfrgell breifat",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Llyfrgell Gyhoeddus",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Llyfrgell Gyhoeddus",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Nid oes gweinyddwr i'r llyfrgell gyhoeddus, mae'n rhaid llenwi'r gweithredwr wrth allgofnodi neu fewnforio",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Rheolwr",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Heb ei osod",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Golygu Llyfrgell",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Enw Llyfrgell",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Enw'r gweinyddwr",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Rhowch enw'r gweinyddwr",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Ni all enw'r gweinyddwr fod yn wag",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Ydych chi'n siŵr eich bod am ddileu'r llyfrgell \"{name}\"?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Rheolwr diofyn",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Gweinyddwr diofyn pan fyddwch yn creu cronfa ddata breifat newydd",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Rhowch enw'r gweinyddwr diofyn",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Enw'r gweithredwr",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Rhowch enw'r gweithredwr",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Ni all enw'r gweithredwr fod yn wag",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Dim gweinyddwr",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Gweithredwr:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Ni all y nifer a gymerwyd o'r stoc oresgyn y stoc bresennol",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Mae dal eitemau yn y llyfrgell hon, ni ellir eu dileu",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

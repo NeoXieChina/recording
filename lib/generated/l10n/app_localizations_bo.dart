@@ -1486,4 +1486,80 @@ class AppLocalizationsBo extends AppLocalizations {
 
   @override
   String get created_at_desc => 'དུས་ཚོད་ཁ་སྣོན་བྱས་ནས་མར་འབབ་པ།';
+
+  @override
+  String get location_management => 'མཛོད་ཁང་དོ་དམ་';
+
+  @override
+  String get private_warehouses => 'སྒེར་གྱི་མཛོད་ཁང་';
+
+  @override
+  String get public_warehouses => 'སྤྱི་པའི་དཔེ་མཛོད་ཁང་';
+
+  @override
+  String get is_public_warehouse => 'སྤྱི་པའི་དཔེ་མཛོད་ཁང་';
+
+  @override
+  String get public_warehouse_desc =>
+      'སྤྱི་པའི་མཛོད་ཁང་ལ་དོ་དམ་པ་མེད། དངོས་ཟོག་ཕྱིར་གཏོང་ནང་འདྲེན་བྱེད་སྐབས་གཉེར་སྐྱོང་བྱེད་མཁན་ལ་ཐོ་འགོད་བྱ་དགོས།';
+
+  @override
+  String get manager => 'དོ་དམ་པ།';
+
+  @override
+  String get not_set => 'བཀོད་སྒྲིག་མ་བྱས་པ།';
+
+  @override
+  String get edit_location => 'རྩོམ་སྒྲིག་དཔེ་མཛོད་ཁང་';
+
+  @override
+  String get location_name => 'དཔེ་མཛོད་ཁང་གི་མིང་།';
+
+  @override
+  String get manager_name => 'དོ་དམ་པའི་མིང་།';
+
+  @override
+  String get enter_manager_name => 'དོ་དམ་པའི་མིང་ནང་འཇུག་རོགས།';
+
+  @override
+  String get manager_name_required => 'དོ་དམ་པའི་མིང་སྟོང་བ་ཡིན་མི་རུང་།';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'ཁྱོད་ཀྱིས་དངོས་གནས་དཔེ་མཛོད་ཁང་\"$nameབསུབ་འདོད་དམ།';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'དཔེ་མཛོད་ཁང་ནང་དུ་ད་དུང་རྣམ་གྲངས་ཡོད་པས་བསུབ་མི་ཐུབ།';
+
+  @override
+  String get default_manager => 'སྔོན་འགྲོའི་དོ་དམ་པ།';
+
+  @override
+  String get default_manager_desc =>
+      'སྒེར་གྱི་མཛོད་ཁང་གསར་པ་གསར་འཛུགས་བྱེད་སྐབས་སྔོན་འགྲོའི་དོ་དམ་པ།';
+
+  @override
+  String get enter_default_manager => 'སྔོན་འགྲོའི་དོ་དམ་པའི་མིང་ནང་འཇུག་རོགས།';
+
+  @override
+  String get operator_name => 'བཀོལ་སྤྱོད་པའི་མིང་།';
+
+  @override
+  String get enter_operator_name => 'བཀོལ་སྤྱོད་བྱེད་མཁན་གྱི་མིང་འགོད་རོགས།';
+
+  @override
+  String get operator_name_required =>
+      'བཀོལ་སྤྱོད་བྱེད་མཁན་གྱི་མིང་སྟོང་བ་ཡིན་མི་རུང་།';
+
+  @override
+  String get no_manager => 'དོ་དམ་པ་མེད་པ།';
+
+  @override
+  String get log_operator_label => 'བཀོལ་སྤྱོད་བྱེད་མཁན།';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'དབོར་འདྲེན་བྱས་པའི་གྲངས་འབོར་དེ་ད་ལྟ་སྤྱོད་བཞིན་པའི་མཛོད་ཉར་ལས་བརྒལ་མི་ཆོག';
 }

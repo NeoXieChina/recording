@@ -1436,4 +1436,75 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get created_at_desc => '追加時間の降順';
+
+  @override
+  String get location_management => '倉庫管理';
+
+  @override
+  String get private_warehouses => 'プライベートリポジトリ';
+
+  @override
+  String get public_warehouses => '公共ライブラリ';
+
+  @override
+  String get is_public_warehouse => '公共ライブラリ';
+
+  @override
+  String get public_warehouse_desc => '公共倉庫に管理者はおらず、入庫出庫には操作担当者を記入する必要があります';
+
+  @override
+  String get manager => '管理者';
+
+  @override
+  String get not_set => '未設定';
+
+  @override
+  String get edit_location => 'ライブラリを編集';
+
+  @override
+  String get location_name => 'ライブラリ名';
+
+  @override
+  String get manager_name => '管理者名';
+
+  @override
+  String get enter_manager_name => '管理者の名前を入力してください';
+
+  @override
+  String get manager_name_required => '管理者の名前を空にすることはできません';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'ライブラリ「$name」を削除してもよろしいですか？';
+  }
+
+  @override
+  String get delete_location_has_items => 'この倉庫にはまだ物品があり、削除できません';
+
+  @override
+  String get default_manager => 'デフォルト管理者';
+
+  @override
+  String get default_manager_desc => '新しいプライベートリポジトリを作成する際のデフォルトの管理者';
+
+  @override
+  String get enter_default_manager => 'デフォルトの管理者名を入力してください';
+
+  @override
+  String get operator_name => '操作担当者の氏名';
+
+  @override
+  String get enter_operator_name => '操作する人の名前を入力してください';
+
+  @override
+  String get operator_name_required => '操作人の氏名は空にできません';
+
+  @override
+  String get no_manager => '管理者なし';
+
+  @override
+  String get log_operator_label => '操作担当者：';
+
+  @override
+  String get outbound_quantity_exceeds_current => '出庫数量は現在の在庫を超えることはできません';
 }

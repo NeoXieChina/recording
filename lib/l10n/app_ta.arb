@@ -2102,5 +2102,102 @@
   "created_at_desc": "சேர்க்கப்பட்ட நேரம் குறைந்த முதல் வரிசை",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "கையிருப்பு மேலாண்மை",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "தனியார் நூலகம்",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "பொதுமைக் நூலகம்",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "பொதுமைக் களஞ்சியம்",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "பொது கையகத்தில் நிர்வாகி இல்லை, கையகம் வெளியேற்றம் மற்றும் உள்ளேச் சேர்த்தல் செய்யும்போது செயல்படுத்துநர் பெயரை நிரப்ப வேண்டும்",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "நிர்வாகி",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "அமைக்கப்படவில்லை",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "தொகுப்பு திருத்து",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "கையெழுத்துப் பெயர்",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "முகாமையாளர் பெயர்",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "தயவுசெய்து நிர்வாகியின் பெயரை உள்ளிடவும்",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "நிர்வாகியின் பெயரை காலியாக விட முடியாது",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "நீங்கள் நூலகம் «{name}» ஐ அழிக்க உறுதியாக ஆசைப்படுகிறீர்களா?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "முன்முறையாக நிர்வாகி",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "புதிய தனிப்பிரைவேட் சேமிப்பகத்தை உருவாக்கும்போது இயல்புநிலை நிர்வாகி",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "தயவு செய்து இயல்புநிலை நிர்வாகியின் பெயரை உள்ளிடுக",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "செயல்பாட்டாளர் பெயர்",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "செயல்பாட்டாளர் பெயரை உள்ளிடவும்",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "செயல்பாட்டாளர் பெயர் காலியாக இருக்க கூடாது",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "முகாமையாளர் இல்லை",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "செயல்பாட்டாளர்:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "வெளியீட்டு அளவு தற்போதைய கையிருப்பை விட அதிகமாக இருக்க முடியாது",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "அந்த தளத்தில் இன்னும் பொருட்கள் உள்ளன, நீக்க முடியாது",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

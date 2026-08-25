@@ -2102,5 +2102,102 @@
   "created_at_desc": "Idagdag ayon sa pababang pagkakasunud-sunod ng oras",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Pamamahala ng Imbakan",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Pribadong repository",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Pampublikong aklatan",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Pampublikong aklatan",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Walang administrador ang pampublikong imbakan, kailangang punan ang pangalan ng operator kapag naglalabas o nag-iimbak",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Tagapangasiwa",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Hindi nakatakda",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "I-edit ang aklatan",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Pangalan ng Aklatan",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Pangalan ng Administrator",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Pakipasok ang pangalan ng administrador",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Ang pangalan ng administrador ay hindi maaaring walang laman",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Sigurado ka bang gusto mong tanggalin ang library na \"{name}\"?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Default na administrador",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Default na administrador kapag gumawa ng bagong pribadong repository",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Paki-input ang default na pangalan ng administrador",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Pangalan ng operator",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Paki-input ang pangalan ng operator",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Ang pangalan ng operator ay hindi maaaring walang laman",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Walang administrador",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Operator:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Ang dami ng ilalabas mula sa bodega ay hindi maaaring lumampas sa kasalukuyang imbentaryo",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "May mga item pa sa library na ito, hindi maaaring tanggalin",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

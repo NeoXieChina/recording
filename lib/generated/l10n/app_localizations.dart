@@ -2740,6 +2740,144 @@ abstract class AppLocalizations {
   /// In zh, this message translates to:
   /// **'添加时间降序'**
   String get created_at_desc;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'库管理'**
+  String get location_management;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'私有库'**
+  String get private_warehouses;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'公共库'**
+  String get public_warehouses;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'公共库'**
+  String get is_public_warehouse;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'公共库无管理员，出库入库需填写操作人'**
+  String get public_warehouse_desc;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'管理员'**
+  String get manager;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'未设置'**
+  String get not_set;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'编辑库'**
+  String get edit_location;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'库名称'**
+  String get location_name;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'管理员姓名'**
+  String get manager_name;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'请输入管理员姓名'**
+  String get enter_manager_name;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'管理员姓名不能为空'**
+  String get manager_name_required;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'确定要删除库「{name}」吗？'**
+  String delete_location_confirm(String name);
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'该库中还有物品，无法删除'**
+  String get delete_location_has_items;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'默认管理员'**
+  String get default_manager;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'新建私有库时默认的管理员'**
+  String get default_manager_desc;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'请输入默认管理员姓名'**
+  String get enter_default_manager;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'操作人姓名'**
+  String get operator_name;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'请输入操作人姓名'**
+  String get enter_operator_name;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'操作人姓名不能为空'**
+  String get operator_name_required;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'无管理员'**
+  String get no_manager;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'操作人：'**
+  String get log_operator_label;
+
+  /// No description provided for @outbound_quantity_exceeds_current.
+  ///
+  /// In zh, this message translates to:
+  /// **'出库数量不能超过当前库存'**
+  String get outbound_quantity_exceeds_current;
 }
 
 class _AppLocalizationsDelegate

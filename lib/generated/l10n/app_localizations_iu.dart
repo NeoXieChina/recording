@@ -1467,4 +1467,79 @@ class AppLocalizationsIu extends AppLocalizations {
 
   @override
   String get created_at_desc => 'ᐃᓚᓗᒍ ᓯᕿᙳᔭᖅ ᐊᑦᑎᒃᓯᕙᓪᓕᐊᑎᓪᓗᒍ';
+
+  @override
+  String get location_management => 'ᓯᕐᓗᐊᕐᒥ ᐊᐅᓚᑦᑎᓂᖅ';
+
+  @override
+  String get private_warehouses => 'ᐃᒻᒥᒃᑰᖅᑐᑦ ᑐᖅᑯᐃᕕᒃ';
+
+  @override
+  String get public_warehouses => 'ᑭᒃᑯᑐᐃᓐᓇᕐᓄᑦ ᐅᖃᓕᒫᒐᖃᕐᕕᒃ';
+
+  @override
+  String get is_public_warehouse => 'ᑭᒃᑯᑐᐃᓐᓇᕐᓄᑦ ᐅᖃᓕᒫᒐᖃᕐᕕᒃ';
+
+  @override
+  String get public_warehouse_desc =>
+      'ᑭᒃᑯᑐᐃᓐᓇᓄᑦ ᓯᕐᓗᐊᖅ ᐊᐅᓚᑦᑎᔨᖃᙱᓚᖅ; ᐃᓯᖅᐸᓪᓕᐊᔪᑦ ᐊᓂᕙᓪᓕᐊᔪᓪᓗ ᐱᖁᑎᓂᒃ ᐊᐅᓚᑦᑎᔨ ᑎᑎᕋᖅᑕᐅᔭᕆᐊᖃᖅᐳᖅ.';
+
+  @override
+  String get manager => 'ᐊᒡᓚᒡᕕᓕᕆᔨ';
+
+  @override
+  String get not_set => 'ᐋᖅᑭᒃᑕᐅᓯᒪᙱᑦᑐᖅ';
+
+  @override
+  String get edit_location => 'ᐋᖅᑭᒋᐊᕐᓗᒍ ᐅᖃᓕᒫᒐᖃᕐᕕᒃ';
+
+  @override
+  String get location_name => 'ᐅᖃᓕᒫᒐᖃᕐᕕᐅᑉ ᐊᑎᖓ';
+
+  @override
+  String get manager_name => 'ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ';
+
+  @override
+  String get enter_manager_name => 'ᐊᒡᓚᕝᕕᓕᕆᔨᐅᑉ ᐊᑎᖓ ᑎᑎᕋᕐᓗᒍ';
+
+  @override
+  String get manager_name_required => 'ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ ᐃᓗᓕᖃᕈᓐᓇᙱᓚᖅ';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'ᐲᖅᓯᔪᒪᓪᓚᑦᑖᖅᐲᑦ ᐅᖃᓕᒫᒐᖃᕐᕕᖕᒥ \"$name\"?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'ᓱᓕ ᐱᖁᑎᑕᖃᖅᐳᖅ ᑕᕝᕙᓂ ᐅᖃᓕᒫᒐᖃᕐᕕᖕᒥ, ᐲᔭᒐᒃᓴᐅᙱᖦᖢᓂ';
+
+  @override
+  String get default_manager => 'ᐊᐅᓚᑦᑎᔨᐅᓚᐅᑲᒃᑐᖅ';
+
+  @override
+  String get default_manager_desc =>
+      'ᐊᐅᓚᑦᑎᔨ ᐋᖅᑭᒃᓯᑎᓪᓗᒍ ᓄᑖᒥᒃ ᐃᓛᒃᑰᖅᑐᒥᒃ ᑐᖅᑯᖅᓯᕝᕕᖕᒥᒃ';
+
+  @override
+  String get enter_default_manager => 'ᑎᑎᕋᕐᓗᒍ ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ';
+
+  @override
+  String get operator_name => 'ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ';
+
+  @override
+  String get enter_operator_name => 'ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ ᑎᑎᕋᕐᓗᒍ';
+
+  @override
+  String get operator_name_required => 'ᐊᐅᓚᑦᑎᔨᐅᑉ ᐊᑎᖓ ᐃᓗᓕᖃᙱᑦᑕᕆᐊᖃᙱᓚᖅ';
+
+  @override
+  String get no_manager => 'ᐊᐅᓚᑦᑎᔨᖃᙱᑦᑐᖅ';
+
+  @override
+  String get log_operator_label => 'ᐊᐅᓚᑦᑎᔨ:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'ᖃᔅᓯᐅᓂᖏᑦ ᐊᐅᓪᓚᖅᑎᑕᐅᔪᑦ ᖄᖏᐅᑎᔭᕆᐊᖃᙱᓚᑦ ᒫᓐᓇ ᐱᖁᑎᒋᔭᐅᔪᓂᑦ';
 }

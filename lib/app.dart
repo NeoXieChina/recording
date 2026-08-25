@@ -3,6 +3,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/providers/item_list_provider.dart';
+import 'package:recording/providers/location_provider.dart';
 import 'package:recording/providers/settings_provider.dart';
 import 'package:recording/routes.dart';
 import 'package:recording/screens/item_list/item_master_detail_screen.dart';
@@ -12,6 +13,7 @@ import 'package:recording/screens/settings/backup_screen.dart';
 import 'package:recording/screens/settings/export_screen.dart';
 import 'package:recording/screens/settings/import_screen.dart';
 import 'package:recording/screens/settings/language_selection_screen.dart';
+import 'package:recording/screens/settings/location_management_screen.dart';
 import 'package:recording/screens/settings/operation_log_screen.dart';
 import 'package:recording/screens/settings/restore_screen.dart';
 import 'package:recording/screens/settings/settings_screen.dart';
@@ -25,6 +27,7 @@ class App extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => ItemListProvider()),
+        ChangeNotifierProvider(create: (_) => LocationProvider()),
         ChangeNotifierProvider(
           create: (_) {
             final provider = SettingsProvider();
@@ -32,6 +35,8 @@ class App extends StatelessWidget {
             provider.loadLocale();
             // 异步加载提醒设置
             provider.initAlertSettings();
+            // 异步加载应用设置
+            provider.loadAppSettings();
             return provider;
           },
         ),
@@ -81,6 +86,7 @@ class App extends StatelessWidget {
                   '/settings/import': (_) => const ImportScreen(),
                   '/settings/alerts': (_) => const AlertsSettingsScreen(),
                   '/settings/about': (_) => const AboutScreen(),
+                  '/settings/location': (_) => const LocationManagementScreen(),
                   AppRoutes.languageSettings: (_) =>
                       const LanguageSelectionScreen(),
                   AppRoutes.operationLog: (_) => const OperationLogScreen(),

@@ -2102,5 +2102,102 @@
   "created_at_desc": "បន្ថែមខ្ទង់ពេលវេលាឡើងលំដាប់កំរិតចុះ",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "ការគ្រប់គ្រងឃ្លាំង",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "ឃ្លាំងឯកជន",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "បណ្ណាល័យសាធារណៈ",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "បណ្ណាល័យសាធារណៈ",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "បណ្ណាល័យសាធារណៈគ្មានអ្នកគ្រប់គ្រង ចូលនិងចេញសម្ភារៈត្រូវបំពេញឈ្មោះប្រតិបត្តិករ",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "អ្នកគ្រប់គ្រង",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "មិនបានកំណត់",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "កែសម្រួលបណ្ណាល័យ",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "ឈ្មោះបណ្ណាល័យ",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "ឈ្មោះអ្នកគ្រប់គ្រង",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "សូមបញ្ចូលឈ្មោះអ្នកគ្រប់គ្រង",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "ឈ្មោះអ្នកគ្រប់គ្រងមិនអាចទទេបាន",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "តើអ្នកប្រាកដចង់លុបបណ្ណាល័យ «{name}» ឬទេ?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "អ្នកគ្រប់គ្រងលំនាំដើម",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "អ្នកគ្រប់គ្រងលំនាំដើមនៅពេលបង្កើតឃ្លាំងឯកជនថ្មី",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "សូមបញ្ចូលឈ្មោះអ្នកគ្រប់គ្រងលំនាំដើម",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "ឈ្មោះអ្នកប្រតិបត្តិ",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "សូមបញ្ចូលឈ្មោះអ្នកប្រតិបត្តិ",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "ឈ្មោះអ្នកប្រតិបត្តិមិនអាចទទេបាន",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "គ្មានអ្នកគ្រប់គ្រង",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "អ្នកប្រតិបត្តិការ៖",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "ចំនួនចេញពីឃ្លាំងមិនអាចលើសស្តុកបច្ចុប្បន្នបាន",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "នៅក្នុងបណ្ណាល័យនេះនៅមានវត្ថុទំនិញ មិនអាចលុបបាន",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

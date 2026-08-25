@@ -1486,4 +1486,81 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Ավելացված ժամանակը նահանջային կարգով';
+
+  @override
+  String get location_management => 'Պահեստի կառավարում';
+
+  @override
+  String get private_warehouses => 'Գաղտնի գրադարան';
+
+  @override
+  String get public_warehouses => 'հասարակ դասարան';
+
+  @override
+  String get is_public_warehouse => 'հասարակ դասարան';
+
+  @override
+  String get public_warehouse_desc =>
+      'Հանրային գրադարանում չկա ադմինիստրատոր, դուրս կամ ներս բերելու համար պետք է լրացնել գործողության կատարողի անունը';
+
+  @override
+  String get manager => 'ԱԿԱՌԱՎԱՐԻ';
+
+  @override
+  String get not_set => 'Չես սահմանվել';
+
+  @override
+  String get edit_location => 'Խմբագրել գրադարանը';
+
+  @override
+  String get location_name => 'Պահոցի անուն';
+
+  @override
+  String get manager_name => 'Վարչի անուն';
+
+  @override
+  String get enter_manager_name =>
+      'Խնդրում ենք ներմուծել ադմինիստրատորի անունը';
+
+  @override
+  String get manager_name_required => 'Մենեջերի անունը չի կարող դատարկել';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'կուզե՞ք ջնջել գրադարանը «$name»։';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Այն գրադարանում դեռ առարկաներ կան, հնարավոր չէ ջնջել';
+
+  @override
+  String get default_manager => 'Ընդհանուր ադմինիստրատոր';
+
+  @override
+  String get default_manager_desc =>
+      'Նոր անձնական պահոց ստեղծելիս զանգվածային մենեջերը';
+
+  @override
+  String get enter_default_manager =>
+      'Խնդրում ենք մուտքագրել ընտրված ադմինիստրատորի անունը';
+
+  @override
+  String get operator_name => 'Գործընթաց կատարողի անունը';
+
+  @override
+  String get enter_operator_name => 'Խնդրում ենք մուտքագրել օպերատորի անունը';
+
+  @override
+  String get operator_name_required => 'Օպերատորի անունը不能为空';
+
+  @override
+  String get no_manager => 'Առանց ադմինիստրատորի';
+
+  @override
+  String get log_operator_label => 'Գործողություն կատարող անձը՝';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Ելքի պահեստամասերի քանակը չի կարող գերազանցել ընթացիկ պահման քանակը';
 }

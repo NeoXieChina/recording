@@ -1470,4 +1470,80 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Thêm theo thứ tự thời gian giảm dần';
+
+  @override
+  String get location_management => 'Quản lý kho';
+
+  @override
+  String get private_warehouses => 'Kho tư nhân';
+
+  @override
+  String get public_warehouses => 'Thư viện công cộng';
+
+  @override
+  String get is_public_warehouse => 'Thư viện công cộng';
+
+  @override
+  String get public_warehouse_desc =>
+      'Kho chung không có quản trị viên, xuất nhập kho cần điền người thực hiện';
+
+  @override
+  String get manager => 'Quản trị viên';
+
+  @override
+  String get not_set => 'Chưa được thiết lập';
+
+  @override
+  String get edit_location => 'Chỉnh sửa thư viện';
+
+  @override
+  String get location_name => 'Tên thư viện';
+
+  @override
+  String get manager_name => 'Tên quản trị viên';
+
+  @override
+  String get enter_manager_name => 'Vui lòng nhập tên quản trị viên';
+
+  @override
+  String get manager_name_required => 'Tên quản trị viên không được để trống';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Bạn có chắc chắn muốn xóa thư viện “$name” không?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Thư viện này vẫn còn vật phẩm, không thể xóa';
+
+  @override
+  String get default_manager => 'Quản trị viên mặc định';
+
+  @override
+  String get default_manager_desc =>
+      'Quản trị viên mặc định khi tạo kho riêng mới';
+
+  @override
+  String get enter_default_manager =>
+      'Vui lòng nhập tên quản trị viên mặc định';
+
+  @override
+  String get operator_name => 'Tên người thao tác';
+
+  @override
+  String get enter_operator_name => 'Vui lòng nhập tên người thực hiện';
+
+  @override
+  String get operator_name_required => 'Tên người thao tác không được để trống';
+
+  @override
+  String get no_manager => 'Không có quản trị viên';
+
+  @override
+  String get log_operator_label => 'Người thao tác:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Số lượng xuất kho không được vượt quá tồn kho hiện tại';
 }

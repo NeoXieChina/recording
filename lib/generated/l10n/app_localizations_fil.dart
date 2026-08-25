@@ -1489,4 +1489,82 @@ class AppLocalizationsFil extends AppLocalizations {
   @override
   String get created_at_desc =>
       'Idagdag ayon sa pababang pagkakasunud-sunod ng oras';
+
+  @override
+  String get location_management => 'Pamamahala ng Imbakan';
+
+  @override
+  String get private_warehouses => 'Pribadong repository';
+
+  @override
+  String get public_warehouses => 'Pampublikong aklatan';
+
+  @override
+  String get is_public_warehouse => 'Pampublikong aklatan';
+
+  @override
+  String get public_warehouse_desc =>
+      'Walang administrador ang pampublikong imbakan, kailangang punan ang pangalan ng operator kapag naglalabas o nag-iimbak';
+
+  @override
+  String get manager => 'Tagapangasiwa';
+
+  @override
+  String get not_set => 'Hindi nakatakda';
+
+  @override
+  String get edit_location => 'I-edit ang aklatan';
+
+  @override
+  String get location_name => 'Pangalan ng Aklatan';
+
+  @override
+  String get manager_name => 'Pangalan ng Administrator';
+
+  @override
+  String get enter_manager_name => 'Pakipasok ang pangalan ng administrador';
+
+  @override
+  String get manager_name_required =>
+      'Ang pangalan ng administrador ay hindi maaaring walang laman';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Sigurado ka bang gusto mong tanggalin ang library na \"$name\"?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'May mga item pa sa library na ito, hindi maaaring tanggalin';
+
+  @override
+  String get default_manager => 'Default na administrador';
+
+  @override
+  String get default_manager_desc =>
+      'Default na administrador kapag gumawa ng bagong pribadong repository';
+
+  @override
+  String get enter_default_manager =>
+      'Paki-input ang default na pangalan ng administrador';
+
+  @override
+  String get operator_name => 'Pangalan ng operator';
+
+  @override
+  String get enter_operator_name => 'Paki-input ang pangalan ng operator';
+
+  @override
+  String get operator_name_required =>
+      'Ang pangalan ng operator ay hindi maaaring walang laman';
+
+  @override
+  String get no_manager => 'Walang administrador';
+
+  @override
+  String get log_operator_label => 'Operator:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Ang dami ng ilalabas mula sa bodega ay hindi maaaring lumampas sa kasalukuyang imbentaryo';
 }

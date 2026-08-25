@@ -1470,4 +1470,79 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Tilføj tidsorden faldende';
+
+  @override
+  String get location_management => 'Lagerstyring';
+
+  @override
+  String get private_warehouses => 'Privat lager';
+
+  @override
+  String get public_warehouses => 'Offentligt bibliotek';
+
+  @override
+  String get is_public_warehouse => 'Offentligt bibliotek';
+
+  @override
+  String get public_warehouse_desc =>
+      'Det offentlige lager har ingen administrator, og ind- og udlevering kræver udfyldelse af operatør.';
+
+  @override
+  String get manager => 'Administrator';
+
+  @override
+  String get not_set => 'Ikke indstillet';
+
+  @override
+  String get edit_location => 'Rediger bibliotek';
+
+  @override
+  String get location_name => 'Biblioteksnavn';
+
+  @override
+  String get manager_name => 'Administratorens navn';
+
+  @override
+  String get enter_manager_name => 'Indtast administratorens navn';
+
+  @override
+  String get manager_name_required => 'Administratorens navn må ikke være tomt';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Er du sikker på, at du vil slette biblioteket „$name“?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Der er stadig genstande i biblioteket, så det kan ikke slettes';
+
+  @override
+  String get default_manager => 'Standardadministrator';
+
+  @override
+  String get default_manager_desc =>
+      'Standardadministrator ved oprettelse af privat lager';
+
+  @override
+  String get enter_default_manager => 'Indtast standardadministratorens navn';
+
+  @override
+  String get operator_name => 'Operatørens navn';
+
+  @override
+  String get enter_operator_name => 'Indtast operatørens navn';
+
+  @override
+  String get operator_name_required => 'Operatørens navn må ikke være tomt';
+
+  @override
+  String get no_manager => 'Ingen administrator';
+
+  @override
+  String get log_operator_label => 'Operatør:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Udgående mængde må ikke overstige den nuværende lagerbeholdning';
 }

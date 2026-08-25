@@ -2102,5 +2102,102 @@
   "created_at_desc": "Ntxiv sijhawm nqis qis",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Kev tswj hwm lub tsev khaws khoom",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Chaw khaws ntaub ntawv ntiag tug",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Tsev qiv ntawv pej xeem",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Tsev qiv ntawv pej xeem",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Lub chaw khaws ntaub ntawv pej xeem tsis muaj tus tswj hwm; Kev nkag thiab tawm ntawm cov khoom yuav tsum tau sau npe rau tus neeg ua haujlwm.",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Tus Thawj Coj",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Tsis tau teeb tsa",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Kho Lub Tsev Qiv Ntawv",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Lub Npe Tsev Qiv Ntawv",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Tus Thawj Coj Lub Npe",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Thov sau tus thawj tswj hwm lub npe",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Lub npe tus thawj tswj tsis tuaj yeem ua kom tsis muaj dab tsi",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Koj puas paub tseeb tias koj xav tshem tawm lub tsev qiv ntawv \"{name}\"?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Tus Thawj Coj Default",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Tus thawj tswj hwm default thaum tsim ib lub repository ntiag tug tshiab",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Thov sau lub npe tus thawj tswj hwm default",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Lub npe operator",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Thov sau tus neeg ua haujlwm lub npe",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Lub npe ntawm tus neeg ua haujlwm tsis tuaj yeem yog khoob",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Tsis muaj tus tswj hwm",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Tus neeg ua haujlwm:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Qhov ntau uas xa tawm tsis pub tshaj qhov khoom tam sim no",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Muaj cov khoom tseem nyob hauv lub tsev qiv ntawv, tsis tuaj yeem rho tawm",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

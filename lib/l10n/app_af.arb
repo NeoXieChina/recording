@@ -2102,5 +2102,102 @@
   "created_at_desc": "Voeg tyd in aflopende volgorde by",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Pakhuishantering",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Privaat biblioteek",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Publieke biblioteek",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Publieke biblioteek",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Die openbare stoorkamer het geen bestuurder nie, en om items uit of in te neem moet die operateur se naam ingevul word.",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "administrateur",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Nie gestel nie",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Redigeer biblioteek",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Databasisnaam",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Beheerdersnaam",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Voer asseblief die administrateur se naam in",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Die administrateur se naam mag nie leeg wees nie",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Is jy seker jy wil die biblioteek „{name}“ verwyder?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Standaard administrateur",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Standaardadministrateur by die skep van 'n nuwe privaat bewaarplek",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Voer asseblief die standaard administrateur se naam in",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Bedryfsoperator se naam",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Voer asseblief die naam van die operateur in",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Die naam van die operateur mag nie leeg wees nie",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Geen bestuurder",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Operateur:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Die hoeveelheid wat uitgevoer word, mag nie die huidige voorraad oorskry nie",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Daar is steeds items in hierdie biblioteek, dit kan nie verwyder word nie",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

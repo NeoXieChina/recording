@@ -1482,4 +1482,81 @@ class AppLocalizationsTa extends AppLocalizations {
 
   @override
   String get created_at_desc => 'சேர்க்கப்பட்ட நேரம் குறைந்த முதல் வரிசை';
+
+  @override
+  String get location_management => 'கையிருப்பு மேலாண்மை';
+
+  @override
+  String get private_warehouses => 'தனியார் நூலகம்';
+
+  @override
+  String get public_warehouses => 'பொதுமைக் நூலகம்';
+
+  @override
+  String get is_public_warehouse => 'பொதுமைக் களஞ்சியம்';
+
+  @override
+  String get public_warehouse_desc =>
+      'பொது கையகத்தில் நிர்வாகி இல்லை, கையகம் வெளியேற்றம் மற்றும் உள்ளேச் சேர்த்தல் செய்யும்போது செயல்படுத்துநர் பெயரை நிரப்ப வேண்டும்';
+
+  @override
+  String get manager => 'நிர்வாகி';
+
+  @override
+  String get not_set => 'அமைக்கப்படவில்லை';
+
+  @override
+  String get edit_location => 'தொகுப்பு திருத்து';
+
+  @override
+  String get location_name => 'கையெழுத்துப் பெயர்';
+
+  @override
+  String get manager_name => 'முகாமையாளர் பெயர்';
+
+  @override
+  String get enter_manager_name => 'தயவுசெய்து நிர்வாகியின் பெயரை உள்ளிடவும்';
+
+  @override
+  String get manager_name_required => 'நிர்வாகியின் பெயரை காலியாக விட முடியாது';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'நீங்கள் நூலகம் «$name» ஐ அழிக்க உறுதியாக ஆசைப்படுகிறீர்களா?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'அந்த தளத்தில் இன்னும் பொருட்கள் உள்ளன, நீக்க முடியாது';
+
+  @override
+  String get default_manager => 'முன்முறையாக நிர்வாகி';
+
+  @override
+  String get default_manager_desc =>
+      'புதிய தனிப்பிரைவேட் சேமிப்பகத்தை உருவாக்கும்போது இயல்புநிலை நிர்வாகி';
+
+  @override
+  String get enter_default_manager =>
+      'தயவு செய்து இயல்புநிலை நிர்வாகியின் பெயரை உள்ளிடுக';
+
+  @override
+  String get operator_name => 'செயல்பாட்டாளர் பெயர்';
+
+  @override
+  String get enter_operator_name => 'செயல்பாட்டாளர் பெயரை உள்ளிடவும்';
+
+  @override
+  String get operator_name_required =>
+      'செயல்பாட்டாளர் பெயர் காலியாக இருக்க கூடாது';
+
+  @override
+  String get no_manager => 'முகாமையாளர் இல்லை';
+
+  @override
+  String get log_operator_label => 'செயல்பாட்டாளர்:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'வெளியீட்டு அளவு தற்போதைய கையிருப்பை விட அதிகமாக இருக்க முடியாது';
 }

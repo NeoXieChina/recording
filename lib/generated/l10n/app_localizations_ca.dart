@@ -1493,4 +1493,84 @@ class AppLocalizationsCa extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Afegir ordre descendent de temps';
+
+  @override
+  String get location_management => 'Gestió d\'emmagatzematge';
+
+  @override
+  String get private_warehouses => 'Repositori privat';
+
+  @override
+  String get public_warehouses => 'Biblioteca pública';
+
+  @override
+  String get is_public_warehouse => 'Biblioteca pública';
+
+  @override
+  String get public_warehouse_desc =>
+      'La biblioteca pública no té administrador, cal que l\'operador ompli el registre en entrar i sortir material.';
+
+  @override
+  String get manager => 'Administrador';
+
+  @override
+  String get not_set => 'No establert';
+
+  @override
+  String get edit_location => 'Editar biblioteca';
+
+  @override
+  String get location_name => 'Nom de la biblioteca';
+
+  @override
+  String get manager_name => 'Nom de l\'administrador';
+
+  @override
+  String get enter_manager_name =>
+      'Si us plau, introdueixi el nom de l\'administrador';
+
+  @override
+  String get manager_name_required =>
+      'El nom de l\'administrador no pot estar buit';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Esteu segur que voleu eliminar la biblioteca «$name»?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Hi ha encara objectes a aquesta biblioteca, no es pot eliminar';
+
+  @override
+  String get default_manager => 'Administrador predeterminat';
+
+  @override
+  String get default_manager_desc =>
+      'Administrador per defecte en crear un repositori privat';
+
+  @override
+  String get enter_default_manager =>
+      'Si us plau, introduïu el nom de l\'administrador per defecte';
+
+  @override
+  String get operator_name => 'Nom de l\'operador';
+
+  @override
+  String get enter_operator_name =>
+      'Si us plau, introduïu el nom de l\'operador';
+
+  @override
+  String get operator_name_required =>
+      'El nom de l\'operador no pot estar buit';
+
+  @override
+  String get no_manager => 'Sense administrador';
+
+  @override
+  String get log_operator_label => 'Operador:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'La quantitat de sortida no pot superar l\'inventari actual';
 }

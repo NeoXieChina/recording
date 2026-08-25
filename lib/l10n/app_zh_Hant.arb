@@ -2102,5 +2102,102 @@
   "created_at_desc": "添加時間降序",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "庫管理",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "私有庫",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "公共庫",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "公共庫",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "公共庫無管理員，出庫入庫需填寫操作人",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "管理員",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "未設置",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "編輯庫",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "庫名稱",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "管理員姓名",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "請輸入管理員姓名",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "管理員姓名不能為空",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "確定要刪除庫「{name}」嗎？",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "默認管理員",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "新建私有庫時默認的管理員",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "請輸入默認管理員姓名",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "操作人姓名",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "請輸入操作人姓名",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "操作人姓名不能為空",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "無管理員",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "操作人：",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "出庫數量不能超過當前庫存",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "該庫中還有物品，無法刪除",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

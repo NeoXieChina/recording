@@ -2102,5 +2102,102 @@
   "created_at_desc": "Ajoute dat desandan",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Jesyon depo",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Depo prive",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Bibliyotèk Piblik",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Bibliyotèk Piblik",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Bibliyotèk piblik pa gen administratè, pou sòti oswa antre nan bibliyotèk la bezwen ranpli non moun ki fè operasyon an",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Administratè",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Pa mete",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Edite bibliyotèk",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Non bibliyotèk",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Non administratè",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Tanpri antre non administratè a",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Non administratè a pa ka vid",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Èske ou sèten ou vle efase depo «{name}» la?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Administratè default",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Administratè pa default lè w kreye yon depo prive",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Tanpri antre non administratè defo a",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Non operatè a",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Tanpri antre non moun kap opere a",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Non moun k ap opere a pa ka vid",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Pa gen administratè",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Operatè:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Kantite pou sòti nan depo a pa ka depase kantite nan stok aktyèl la",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Gen toujou atik nan depo a, pa ka efase li",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

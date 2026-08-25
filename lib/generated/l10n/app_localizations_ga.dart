@@ -1483,4 +1483,82 @@ class AppLocalizationsGa extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Ordú meán ama anuas';
+
+  @override
+  String get location_management => 'Bainistíocht Stórais';
+
+  @override
+  String get private_warehouses => 'Leabharlann phríobháideach';
+
+  @override
+  String get public_warehouses => 'Leabharlann phoiblí';
+
+  @override
+  String get is_public_warehouse => 'Leabharlann phoiblí';
+
+  @override
+  String get public_warehouse_desc =>
+      'Níl riarthóir ag an leabharlann phoiblí, caithfear an duine a dhéanann an oibríocht a líonadh isteach agus amach as an stór.';
+
+  @override
+  String get manager => 'Bainisteoir';
+
+  @override
+  String get not_set => 'Níor socraíodh';
+
+  @override
+  String get edit_location => 'Eagair Leabharlann';
+
+  @override
+  String get location_name => 'Ainm leabharlainne';
+
+  @override
+  String get manager_name => 'Ainm an Riarthóra';
+
+  @override
+  String get enter_manager_name => 'Cuir isteach ainm an riarthóra';
+
+  @override
+  String get manager_name_required =>
+      'Ní féidir leasainm an riarthóra a fhágtar folamh';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'An bhfuil tú cinnte go dteastaíonn uait an leabharlann \'$name\' a scriosadh?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Tá earraí fós sa leabharlann seo, ní féidir iad a scriosadh';
+
+  @override
+  String get default_manager => 'Riarthóir réamhshocraithe';
+
+  @override
+  String get default_manager_desc =>
+      'Bainisteoir réamhshocraithe nuair a chruthaítear stór príobháideach nua';
+
+  @override
+  String get enter_default_manager =>
+      'Iontráil ainm an riarthóra réamhshocraithe le do thoil';
+
+  @override
+  String get operator_name => 'Ainm an oibrí';
+
+  @override
+  String get enter_operator_name => 'Iontráil ainm an oibrí';
+
+  @override
+  String get operator_name_required =>
+      'Ní féidir ainm an oibrí a fhágtar folamh';
+
+  @override
+  String get no_manager => 'Gan riarthóir';
+
+  @override
+  String get log_operator_label => 'Oibrí:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Ní féidir leis an líon atá ag teastáil as an stoc dul thar an stoc reatha';
 }

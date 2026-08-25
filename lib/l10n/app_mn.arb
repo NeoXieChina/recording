@@ -2102,5 +2102,102 @@
   "created_at_desc": "Нэмсэн огноогоор буурахаар",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Агуулахын удирдлага",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Хувийн сан",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Олон нийтийн сан",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Олон нийтийн сан",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Нийтийн сан нь удирдагчгүй, сангаас гаргах болон оруулах үед үйлдлийн хүндийг бөглөх шаардлагатай",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Менежер",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Тохируулахгүй болсон",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Номын санг засах",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Сангийн нэр",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Удирдлагын нэр",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Админын нэрийг оруулна уу",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Удирдагчийн нэр хоосон байж болохгүй",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Та сан «{name}»-г устгахыг баталгаажуулж байна уу?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Үндсэн администратор",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Шинээр хувийн сан үүсгэхэд анхдагч удирдагч",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Анхны администраторын нэрийг оруулна уу",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Үйлдэгчийн нэр",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Ажилтны нэрийг оруулна уу",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Үйлдэл гүйцэтгэгчийн нэр хоосон байж болохгүй",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Админгүй",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Үйлдлийг гүйцэтгэсэн хүн:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Гарах нийт тоо одоогийн нөөцөөс хэтрэх ёсгүй",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Энэ сан дахь зүйлс байсаар байна, устгах боломжгүй",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

@@ -2102,5 +2102,102 @@
   "created_at_desc": "Nach Hinzufügungszeit absteigend",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Lagerverwaltung",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Private Bibliothek",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "öffentliche Bibliothek",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "öffentliche Bibliothek",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Das öffentliche Lager hat keinen Administrator, beim Ein- und Auslagern muss der Bediener angegeben werden.",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Administrator",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Nicht eingestellt",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Bibliothek bearbeiten",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Bibliotheksname",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Administratorname",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Bitte geben Sie den Namen des Administrators ein",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Der Name des Administrators darf nicht leer sein",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Möchten Sie die Bibliothek „{name}“ wirklich löschen?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Standardadministrator",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Standardadministrator beim Erstellen eines privaten Repositories",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Bitte geben Sie den Standardadministratornamen ein",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Name des Bedieners",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Bitte geben Sie den Namen des Bedieners ein",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Der Name des Bedieners darf nicht leer sein",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Kein Administrator",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Bediener:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Die Auslagerungsmenge darf den aktuellen Lagerbestand nicht überschreiten",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "In diesem Speicher befinden sich noch Gegenstände, daher kann er nicht gelöscht werden.",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

@@ -1480,4 +1480,81 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Додати сортування за спаданням часу';
+
+  @override
+  String get location_management => 'Управління складом';
+
+  @override
+  String get private_warehouses => 'Приватний репозиторій';
+
+  @override
+  String get public_warehouses => 'публічна бібліотека';
+
+  @override
+  String get is_public_warehouse => 'публічна бібліотека';
+
+  @override
+  String get public_warehouse_desc =>
+      'У публічному сховищі немає адміністратора, при видачі та прийомі потрібно заповнювати виконавця операції';
+
+  @override
+  String get manager => 'Адміністратор';
+
+  @override
+  String get not_set => 'Не встановлено';
+
+  @override
+  String get edit_location => 'Редагувати бібліотеку';
+
+  @override
+  String get location_name => 'Назва бібліотеки';
+
+  @override
+  String get manager_name => 'Ім\'я адміністратора';
+
+  @override
+  String get enter_manager_name => 'Будь ласка, введіть ім’я адміністратора';
+
+  @override
+  String get manager_name_required =>
+      'Ім\'я адміністратора не може бути порожнім';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Ви впевнені, що хочете видалити бібліотеку «$name»?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'У цій бібліотеці ще є предмети, неможливо видалити';
+
+  @override
+  String get default_manager => 'Адміністратор за замовчуванням';
+
+  @override
+  String get default_manager_desc =>
+      'Адміністратор за замовчуванням при створенні приватного репозиторію';
+
+  @override
+  String get enter_default_manager =>
+      'Введіть ім\'я адміністратора за замовчуванням';
+
+  @override
+  String get operator_name => 'Ім\'я оператора';
+
+  @override
+  String get enter_operator_name => 'Будь ласка, введіть ім\'я оператора';
+
+  @override
+  String get operator_name_required => 'Ім\'я оператора не може бути порожнім';
+
+  @override
+  String get no_manager => 'Без адміністратора';
+
+  @override
+  String get log_operator_label => 'Оператор:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Кількість для відвантаження не може перевищувати поточний запас';
 }

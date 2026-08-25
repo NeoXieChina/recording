@@ -11,6 +11,7 @@ class AppTheme {
     return ThemeData(
       useMaterial3: true,
       colorScheme: colorScheme,
+      fontFamily: '思源宋体 CN',
       appBarTheme: const AppBarTheme(
         centerTitle: true,
         elevation: 2,
@@ -77,10 +78,12 @@ class AppTheme {
         backgroundColor: colorScheme.primaryContainer,
         selectedColor: colorScheme.primary,
         labelStyle: TextStyle(
+          fontFamily: '思源宋体 CN',
           color: colorScheme.onPrimaryContainer,
           fontWeight: FontWeight.w500,
         ),
         secondaryLabelStyle: TextStyle(
+          fontFamily: '思源宋体 CN',
           color: colorScheme.onPrimary,
           fontWeight: FontWeight.w500,
         ),
@@ -91,6 +94,68 @@ class AppTheme {
         thickness: 1,
         space: 20,
         color: Colors.grey,
+      ),
+      textTheme: TextTheme(
+        displayLarge: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w800,
+        ),
+        displayMedium: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w700,
+        ),
+        displaySmall: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w600,
+        ),
+        headlineLarge: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w700,
+        ),
+        headlineMedium: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w600,
+        ),
+        headlineSmall: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w500,
+        ),
+        titleLarge: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w700,
+        ),
+        titleMedium: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w600,
+        ),
+        titleSmall: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w500,
+        ),
+        bodyLarge: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w400,
+        ),
+        bodyMedium: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w400,
+        ),
+        bodySmall: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w400,
+        ),
+        labelLarge: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w500,
+        ),
+        labelMedium: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w400,
+        ),
+        labelSmall: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w400,
+        ),
       ),
     );
   }
@@ -104,6 +169,7 @@ class AppTheme {
     return ThemeData(
       useMaterial3: true,
       colorScheme: colorScheme,
+      fontFamily: '思源宋体 CN',
       appBarTheme: const AppBarTheme(
         centerTitle: true,
         elevation: 2,
@@ -170,10 +236,12 @@ class AppTheme {
         backgroundColor: colorScheme.primaryContainer,
         selectedColor: colorScheme.primary,
         labelStyle: TextStyle(
+          fontFamily: '思源宋体 CN',
           color: colorScheme.onPrimaryContainer,
           fontWeight: FontWeight.w500,
         ),
         secondaryLabelStyle: TextStyle(
+          fontFamily: '思源宋体 CN',
           color: colorScheme.onPrimary,
           fontWeight: FontWeight.w500,
         ),
@@ -184,6 +252,68 @@ class AppTheme {
         thickness: 1,
         space: 20,
         color: Colors.grey,
+      ),
+      textTheme: TextTheme(
+        displayLarge: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w800,
+        ),
+        displayMedium: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w700,
+        ),
+        displaySmall: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w600,
+        ),
+        headlineLarge: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w700,
+        ),
+        headlineMedium: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w600,
+        ),
+        headlineSmall: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w500,
+        ),
+        titleLarge: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w700,
+        ),
+        titleMedium: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w600,
+        ),
+        titleSmall: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w500,
+        ),
+        bodyLarge: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w400,
+        ),
+        bodyMedium: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w400,
+        ),
+        bodySmall: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w400,
+        ),
+        labelLarge: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w500,
+        ),
+        labelMedium: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w400,
+        ),
+        labelSmall: TextStyle(
+          fontFamily: '思源宋体 CN',
+          fontWeight: FontWeight.w400,
+        ),
       ),
     );
   }

@@ -2102,5 +2102,102 @@
   "created_at_desc": "དུས་ཚོད་ཁ་སྣོན་བྱས་ནས་མར་འབབ་པ།",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "མཛོད་ཁང་དོ་དམ་",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "སྒེར་གྱི་མཛོད་ཁང་",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "སྤྱི་པའི་དཔེ་མཛོད་ཁང་",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "སྤྱི་པའི་དཔེ་མཛོད་ཁང་",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "སྤྱི་པའི་མཛོད་ཁང་ལ་དོ་དམ་པ་མེད། དངོས་ཟོག་ཕྱིར་གཏོང་ནང་འདྲེན་བྱེད་སྐབས་གཉེར་སྐྱོང་བྱེད་མཁན་ལ་ཐོ་འགོད་བྱ་དགོས།",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "དོ་དམ་པ།",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "བཀོད་སྒྲིག་མ་བྱས་པ།",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "རྩོམ་སྒྲིག་དཔེ་མཛོད་ཁང་",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "དཔེ་མཛོད་ཁང་གི་མིང་།",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "དོ་དམ་པའི་མིང་།",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "དོ་དམ་པའི་མིང་ནང་འཇུག་རོགས།",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "དོ་དམ་པའི་མིང་སྟོང་བ་ཡིན་མི་རུང་།",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "ཁྱོད་ཀྱིས་དངོས་གནས་དཔེ་མཛོད་ཁང་\"{name}བསུབ་འདོད་དམ།",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "སྔོན་འགྲོའི་དོ་དམ་པ།",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "སྒེར་གྱི་མཛོད་ཁང་གསར་པ་གསར་འཛུགས་བྱེད་སྐབས་སྔོན་འགྲོའི་དོ་དམ་པ།",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "སྔོན་འགྲོའི་དོ་དམ་པའི་མིང་ནང་འཇུག་རོགས།",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "བཀོལ་སྤྱོད་པའི་མིང་།",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "བཀོལ་སྤྱོད་བྱེད་མཁན་གྱི་མིང་འགོད་རོགས།",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "བཀོལ་སྤྱོད་བྱེད་མཁན་གྱི་མིང་སྟོང་བ་ཡིན་མི་རུང་།",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "དོ་དམ་པ་མེད་པ།",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "བཀོལ་སྤྱོད་བྱེད་མཁན།",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "དབོར་འདྲེན་བྱས་པའི་གྲངས་འབོར་དེ་ད་ལྟ་སྤྱོད་བཞིན་པའི་མཛོད་ཉར་ལས་བརྒལ་མི་ཆོག",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "དཔེ་མཛོད་ཁང་ནང་དུ་ད་དུང་རྣམ་གྲངས་ཡོད་པས་བསུབ་མི་ཐུབ།",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

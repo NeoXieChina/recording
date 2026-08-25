@@ -1477,4 +1477,78 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get created_at_desc => 'اضافه کردن به ترتیب زمانی نزولی';
+
+  @override
+  String get location_management => 'مدیریت انبار';
+
+  @override
+  String get private_warehouses => 'کتابخانه خصوصی';
+
+  @override
+  String get public_warehouses => 'کتابخانه عمومی';
+
+  @override
+  String get is_public_warehouse => 'کتابخانه عمومی';
+
+  @override
+  String get public_warehouse_desc =>
+      'کتابخانه عمومی مدیر ندارد، برای خروج و ورود کتاب‌ها باید نام عامل عملیات را وارد کنید';
+
+  @override
+  String get manager => 'مدیر';
+
+  @override
+  String get not_set => 'تنظیم نشده';
+
+  @override
+  String get edit_location => 'ویرایش کتابخانه';
+
+  @override
+  String get location_name => 'نام مخزن';
+
+  @override
+  String get manager_name => 'نام مدیر';
+
+  @override
+  String get enter_manager_name => 'لطفاً نام مدیر را وارد کنید';
+
+  @override
+  String get manager_name_required => 'نام مدیر نمی‌تواند خالی باشد';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'آیا مطمئن هستید که می‌خواهید کتابخانه «$name» را حذف کنید؟';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'در این کتابخانه هنوز آیتم‌هایی وجود دارد، نمی‌توان حذف کرد';
+
+  @override
+  String get default_manager => 'مدیر پیش‌فرض';
+
+  @override
+  String get default_manager_desc => 'مدیر پیش‌فرض هنگام ایجاد مخزن خصوصی جدید';
+
+  @override
+  String get enter_default_manager => 'لطفاً نام مدیر پیش‌فرض را وارد کنید';
+
+  @override
+  String get operator_name => 'نام اپراتور';
+
+  @override
+  String get enter_operator_name => 'لطفاً نام شخص عامل را وارد کنید';
+
+  @override
+  String get operator_name_required => 'نام اپراتور نمی‌تواند خالی باشد';
+
+  @override
+  String get no_manager => 'بدون مدیر';
+
+  @override
+  String get log_operator_label => 'اپراتور:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'تعداد خروجی نمی‌تواند از موجودی فعلی بیشتر باشد';
 }

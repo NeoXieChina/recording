@@ -1477,4 +1477,79 @@ class AppLocalizationsKy extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Кошуу убактысын азайган тартипте';
+
+  @override
+  String get location_management => 'Борборду башкаруу';
+
+  @override
+  String get private_warehouses => 'Жеке репозиторий';
+
+  @override
+  String get public_warehouses => 'Жайкы китепкана';
+
+  @override
+  String get is_public_warehouse => 'Жайкы китепкана';
+
+  @override
+  String get public_warehouse_desc =>
+      'Жамааттык кампада администратор жок, чыгаруулар менен киргизүүлөрдө операторду көрсөтүү керек';
+
+  @override
+  String get manager => 'Башкаруучу';
+
+  @override
+  String get not_set => 'Орнотулган эмес';
+
+  @override
+  String get edit_location => 'Кутубаны түзөтүү';
+
+  @override
+  String get location_name => 'Кутубкана аты';
+
+  @override
+  String get manager_name => 'Башкаруучунун аты';
+
+  @override
+  String get enter_manager_name => 'Башкаруучунун атын киргизиңиз';
+
+  @override
+  String get manager_name_required => 'Башкаруучунун аты бош болбошу керек';
+
+  @override
+  String delete_location_confirm(String name) {
+    return '«$name» китепканасын чындап өчүргүңүз келеби?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Бул китепканада дагы буюмдар бар, алып салууга болбойт';
+
+  @override
+  String get default_manager => 'демейки администратор';
+
+  @override
+  String get default_manager_desc =>
+      'Жаңы жеке репозиторийди түзгөндө демейки администратор';
+
+  @override
+  String get enter_default_manager => 'Башкы администратордун атын киргизиңиз';
+
+  @override
+  String get operator_name => 'Операциянын жүргүзүүчүсүнүн аты-жөнү';
+
+  @override
+  String get enter_operator_name => 'Иштөөчү адамдын атын киргизиңиз';
+
+  @override
+  String get operator_name_required => 'Иштөөчү адамдын аты бош болбошу керек';
+
+  @override
+  String get no_manager => 'Башкаруучу жок';
+
+  @override
+  String get log_operator_label => 'Иштеген адам:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Складтан чыгарылган товарлардын саны учурдагы запастын санынан көп болбойт';
 }

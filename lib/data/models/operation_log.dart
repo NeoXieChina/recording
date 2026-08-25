@@ -45,6 +45,7 @@ class OperationLog {
   final Item item;
   final int? quantityChange;
   final List<FieldChange>? fieldChanges;
+  final String? operator;
   final DateTime createdAt;
 
   OperationLog({
@@ -53,6 +54,7 @@ class OperationLog {
     required this.item,
     this.quantityChange,
     this.fieldChanges,
+    this.operator,
     DateTime? createdAt,
   }) : id = id ?? const Uuid().v4(),
        createdAt = createdAt ?? DateTime.now();
@@ -62,6 +64,7 @@ class OperationLog {
     Item? item,
     int? quantityChange,
     List<FieldChange>? fieldChanges,
+    String? operator,
     DateTime? createdAt,
   }) {
     return OperationLog(
@@ -70,6 +73,7 @@ class OperationLog {
       item: item ?? this.item,
       quantityChange: quantityChange ?? this.quantityChange,
       fieldChanges: fieldChanges ?? this.fieldChanges,
+      operator: operator ?? this.operator,
       createdAt: createdAt ?? this.createdAt,
     );
   }
@@ -81,6 +85,7 @@ class OperationLog {
       'itemData': jsonEncode(item.toMap()),
       'quantityChange': quantityChange,
       'fieldChanges': fieldChanges?.map((e) => e.toMap()).toList(),
+      'operator': operator,
       'createdAt': createdAt.millisecondsSinceEpoch,
     };
   }
@@ -94,6 +99,7 @@ class OperationLog {
       fieldChanges: (map['fieldChanges'] as List<dynamic>?)
           ?.map((e) => FieldChange.fromMap(e as Map<String, dynamic>))
           .toList(),
+      operator: map['operator'] as String?,
       createdAt: DateTime.fromMillisecondsSinceEpoch(map['createdAt'] as int),
     );
   }
@@ -101,6 +107,9 @@ class OperationLog {
   String toLogString() {
     final buffer = StringBuffer();
     buffer.writeln('[$createdAt] ${_getOperationTypeName()}');
+    if (operator != null && operator!.isNotEmpty) {
+      buffer.writeln('操作人: $operator');
+    }
     buffer.writeln('物品ID: ${item.id}');
     buffer.writeln('物品名称: ${item.name}');
     

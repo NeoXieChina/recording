@@ -1421,6 +1421,77 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get created_at_desc => '添加时间降序';
+
+  @override
+  String get location_management => '库管理';
+
+  @override
+  String get private_warehouses => '私有库';
+
+  @override
+  String get public_warehouses => '公共库';
+
+  @override
+  String get is_public_warehouse => '公共库';
+
+  @override
+  String get public_warehouse_desc => '公共库无管理员，出库入库需填写操作人';
+
+  @override
+  String get manager => '管理员';
+
+  @override
+  String get not_set => '未设置';
+
+  @override
+  String get edit_location => '编辑库';
+
+  @override
+  String get location_name => '库名称';
+
+  @override
+  String get manager_name => '管理员姓名';
+
+  @override
+  String get enter_manager_name => '请输入管理员姓名';
+
+  @override
+  String get manager_name_required => '管理员姓名不能为空';
+
+  @override
+  String delete_location_confirm(String name) {
+    return '确定要删除库「$name」吗？';
+  }
+
+  @override
+  String get delete_location_has_items => '该库中还有物品，无法删除';
+
+  @override
+  String get default_manager => '默认管理员';
+
+  @override
+  String get default_manager_desc => '新建私有库时默认的管理员';
+
+  @override
+  String get enter_default_manager => '请输入默认管理员姓名';
+
+  @override
+  String get operator_name => '操作人姓名';
+
+  @override
+  String get enter_operator_name => '请输入操作人姓名';
+
+  @override
+  String get operator_name_required => '操作人姓名不能为空';
+
+  @override
+  String get no_manager => '无管理员';
+
+  @override
+  String get log_operator_label => '操作人：';
+
+  @override
+  String get outbound_quantity_exceeds_current => '出库数量不能超过当前库存';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -2840,4 +2911,75 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get created_at_desc => '添加時間降序';
+
+  @override
+  String get location_management => '庫管理';
+
+  @override
+  String get private_warehouses => '私有庫';
+
+  @override
+  String get public_warehouses => '公共庫';
+
+  @override
+  String get is_public_warehouse => '公共庫';
+
+  @override
+  String get public_warehouse_desc => '公共庫無管理員，出庫入庫需填寫操作人';
+
+  @override
+  String get manager => '管理員';
+
+  @override
+  String get not_set => '未設置';
+
+  @override
+  String get edit_location => '編輯庫';
+
+  @override
+  String get location_name => '庫名稱';
+
+  @override
+  String get manager_name => '管理員姓名';
+
+  @override
+  String get enter_manager_name => '請輸入管理員姓名';
+
+  @override
+  String get manager_name_required => '管理員姓名不能為空';
+
+  @override
+  String delete_location_confirm(String name) {
+    return '確定要刪除庫「$name」嗎？';
+  }
+
+  @override
+  String get delete_location_has_items => '該庫中還有物品，無法刪除';
+
+  @override
+  String get default_manager => '默認管理員';
+
+  @override
+  String get default_manager_desc => '新建私有庫時默認的管理員';
+
+  @override
+  String get enter_default_manager => '請輸入默認管理員姓名';
+
+  @override
+  String get operator_name => '操作人姓名';
+
+  @override
+  String get enter_operator_name => '請輸入操作人姓名';
+
+  @override
+  String get operator_name_required => '操作人姓名不能為空';
+
+  @override
+  String get no_manager => '無管理員';
+
+  @override
+  String get log_operator_label => '操作人：';
+
+  @override
+  String get outbound_quantity_exceeds_current => '出庫數量不能超過當前庫存';
 }

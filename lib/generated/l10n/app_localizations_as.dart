@@ -1475,4 +1475,79 @@ class AppLocalizationsAs extends AppLocalizations {
 
   @override
   String get created_at_desc => 'সময় অনুসৰি অৱনমিত';
+
+  @override
+  String get location_management => 'গুদাম ব্যৱস্থাপনা';
+
+  @override
+  String get private_warehouses => 'নিজী বইঘৰ';
+
+  @override
+  String get public_warehouses => 'সাৰ্বজনীন গ্ৰন্থাগাৰ';
+
+  @override
+  String get is_public_warehouse => 'সাৰ্বজনীন গ্ৰন্থাগাৰ';
+
+  @override
+  String get public_warehouse_desc =>
+      'সাধাৰণ কামৰ যন্ত্ৰৰ কোনো প্ৰশাসক নাই, ব্যৱহাৰ কৰাৰ বা সংৰক্ষণ কৰাৰ সময়ত অপাৰেটৰৰ নাম লিখিব লাগিব';
+
+  @override
+  String get manager => 'প্ৰশাসক';
+
+  @override
+  String get not_set => 'সেট কৰা হোৱা নাই';
+
+  @override
+  String get edit_location => 'সম্পাদনা কৰাৰ তালিকা';
+
+  @override
+  String get location_name => 'গ্ৰন্থাগাৰ নাম';
+
+  @override
+  String get manager_name => 'প্ৰশাসকৰ নাম';
+
+  @override
+  String get enter_manager_name => 'অনুগ্ৰহ কৰি প্ৰশাসক নাম কৰক';
+
+  @override
+  String get manager_name_required => 'প্ৰশাসকৰ নাম শুন্য নহ’ব পাৰে নে';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'আপুনি নিশ্চিতনে যি লাইব্ৰেৰী «$name» মচিব বিচাৰে?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'সেই গ্ৰন্থাগাৰত এতিয়াও বস্তু আছে, মচিব নোৱাৰি';
+
+  @override
+  String get default_manager => 'ডিফল্ট প্ৰশাসক';
+
+  @override
+  String get default_manager_desc =>
+      'নতুন ব্যক্তিগত সংৰক্ষণাগাৰ গঢ়োঁতে ডিফল্ট প্ৰশাসক';
+
+  @override
+  String get enter_default_manager => 'দয়া কৰি ডিফল্ট প্ৰশাসকৰ নাম লিখক';
+
+  @override
+  String get operator_name => 'কৰ্তৃপক্ষৰ নাম';
+
+  @override
+  String get enter_operator_name => 'অনুগ্ৰহ কৰি অপাৰেটৰজনৰ নাম লিখক';
+
+  @override
+  String get operator_name_required => 'কৰ্মকৰ্তা নাম খালী হৈ থাকিব নোৱাৰে';
+
+  @override
+  String get no_manager => 'প্ৰশাসক নাই';
+
+  @override
+  String get log_operator_label => 'কৰ্তৃপক্ষ:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'বাহিৰের পৰিমাণ বৰ্তমান ষ্টকতকৈ বেছি হ\'ব নোৱাৰি';
 }

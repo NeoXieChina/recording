@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/routes.dart';
 
-class SettingsScreen extends StatelessWidget {
+class SettingsScreen extends StatefulWidget {
   final bool isEmbedded;
   final String? selectedRoute;
   final ValueChanged<String>? onRouteSelected;
@@ -17,6 +17,11 @@ class SettingsScreen extends StatelessWidget {
   });
 
   @override
+  State<SettingsScreen> createState() => _SettingsScreenState();
+}
+
+class _SettingsScreenState extends State<SettingsScreen> {
+  @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     final theme = Theme.of(context);
@@ -26,10 +31,10 @@ class SettingsScreen extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverAppBar.large(
-            leading: isEmbedded
+            leading: widget.isEmbedded
                 ? IconButton(
                     icon: const Icon(Icons.arrow_back),
-                    onPressed: onBack,
+                    onPressed: widget.onBack,
                   )
                 : null,
             title: Text(AppLocalizations.of(context).settings),
@@ -94,6 +99,25 @@ class SettingsScreen extends StatelessWidget {
                         title: l10n.import_data,
                         subtitle: l10n.import_data_description,
                         route: AppRoutes.import,
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 12),
+                Card(
+                  elevation: 0,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(25),
+                  ),
+                  color: colorScheme.surfaceContainerLow,
+                  child: Column(
+                    children: [
+                      _buildSettingsTile(
+                        context: context,
+                        icon: Icons.warehouse,
+                        title: l10n.location_management,
+                        subtitle: '',
+                        route: '/settings/location',
                       ),
                     ],
                   ),
@@ -174,7 +198,7 @@ class SettingsScreen extends StatelessWidget {
     required String route,
   }) {
     final colorScheme = Theme.of(context).colorScheme;
-    final isSelected = isEmbedded && selectedRoute == route;
+    final isSelected = widget.isEmbedded && widget.selectedRoute == route;
 
     return ListTile(
       leading: Icon(icon, color: colorScheme.primary),
@@ -187,12 +211,12 @@ class SettingsScreen extends StatelessWidget {
               )
             : null,
       ),
-      subtitle: Text(subtitle),
+      subtitle: subtitle.isNotEmpty ? Text(subtitle) : null,
       selected: isSelected,
       selectedTileColor: colorScheme.primaryContainer.withValues(alpha: 0.3),
       onTap: () {
-        if (isEmbedded && onRouteSelected != null) {
-          onRouteSelected!(route);
+        if (widget.isEmbedded && widget.onRouteSelected != null) {
+          widget.onRouteSelected!(route);
         } else {
           Navigator.pushNamed(context, route);
         }

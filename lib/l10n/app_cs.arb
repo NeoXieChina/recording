@@ -2102,5 +2102,102 @@
   "created_at_desc": "Přidat podle času sestupně",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Správa skladu",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Soukromá knihovna",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "veřejná knihovna",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "veřejná knihovna",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Ve veřejném skladu není žádný správce, při výdeji a příjmu zboží je třeba vyplnit osobu provádějící operaci",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "správce",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Nastavení nebylo provedeno",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Upravit knihovnu",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Název knihovny",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Jméno správce",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Prosím, zadejte jméno správce",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Jméno správce nesmí být prázdné",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Opravdu chcete smazat knihovnu „{name}“?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Výchozí správce",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Výchozí správce při vytváření nového soukromého repozitáře",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Prosím zadejte výchozí jméno správce",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Jméno operátora",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Prosím zadejte jméno operátora",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Jméno operátora nesmí být prázdné",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Bez správce",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Operátor:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Množství vyexpedované nemůže překročit aktuální zásoby",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Knihovna stále obsahuje položky, nelze ji smazat",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

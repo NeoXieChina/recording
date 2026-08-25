@@ -1475,4 +1475,79 @@ class AppLocalizationsUg extends AppLocalizations {
 
   @override
   String get created_at_desc => 'قوشۇلغان ۋاقىت بويىچە چۈشۈرۈش تىرىپى';
+
+  @override
+  String get location_management => 'مال ساقلاش باشقۇرۇشى';
+
+  @override
+  String get private_warehouses => 'شەخسىي سانلىق مەنبە';
+
+  @override
+  String get public_warehouses => 'ئاممىۋى كۇتۇپخانا';
+
+  @override
+  String get is_public_warehouse => 'ئاممىۋى كۇتۇپخانا';
+
+  @override
+  String get public_warehouse_desc =>
+      'ئاممىۋى ئامبىرىدا باشقۇرغۇچى يوق، چىقىرىش ۋە كىرىتىش جەريانلىرىدا ئەمەلگە ئاشыруۋاتقان ئادەمنىڭ ئىسمى تولدۇرۇلۇشى كېرەك';
+
+  @override
+  String get manager => 'باشقۇرغۇچى';
+
+  @override
+  String get not_set => 'تەڭشەلمىگەن';
+
+  @override
+  String get edit_location => 'تەھرىرلاش كۇتۇپخانىسى';
+
+  @override
+  String get location_name => 'سانلىق مەلۇمات ئامبىرى ئىسمى';
+
+  @override
+  String get manager_name => 'باشقۇرغۇچى ئىسمى';
+
+  @override
+  String get enter_manager_name => 'باشقۇرغۇچى ئىسمىنى كىرگۈزۈڭ';
+
+  @override
+  String get manager_name_required => 'باشقۇرغۇچى ئىسمى بوش قالالمىيدۇ';
+
+  @override
+  String delete_location_confirm(String name) {
+    return '«$name» كىتابخانىسىنى ئۆچۈرۈشنى چىن دىلدىن خالىسىزمۇ؟';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'بۇ كۇتۇپخانىدا يەنە بەرەلمە يوق، ئۆچۈرۈپ بولمايدۇ';
+
+  @override
+  String get default_manager => 'ئادەتتىكى باشقۇرغۇچى';
+
+  @override
+  String get default_manager_desc =>
+      'يېڭى شەخسىي كۇتۇپخانە قۇرغاندا ئەسلىدىكى باشقۇرغۇچى';
+
+  @override
+  String get enter_default_manager => 'تەڭشەلمە ئەدەمنى نامىنى كىرگۈزۈڭ';
+
+  @override
+  String get operator_name => 'ئىشلىگەن ئادەمنىڭ ئىسمى';
+
+  @override
+  String get enter_operator_name => 'ئىش باشقۇرغۇچىنىڭ ئىسىمنى كىرگۈزۈڭ';
+
+  @override
+  String get operator_name_required => 'ئامەلدارنىڭ ئىسمى بوش بولالمайды';
+
+  @override
+  String get no_manager => 'باشقۇرغۇچى يوق';
+
+  @override
+  String get log_operator_label => 'ئىشلىگەن ئادەم:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'خارىج قىلىنغان مىقدار ھازىرقى زاپاستىن ئېشىپ كەتمەسلىكى كېرەك';
 }

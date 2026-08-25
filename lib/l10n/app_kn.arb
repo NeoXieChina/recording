@@ -2102,5 +2102,102 @@
   "created_at_desc": "ಸಮಯವನ್ನು ಇಳಿಜಾರಿನ ಕ್ರಮದಲ್ಲಿ ಸೇರಿಸಿ",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "ಖಜಾನೆ ನಿರ್ವಹಣೆ",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "ಸ್ವಂತ ಸಂಗ್ರಹಾಲಯ",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "ಸಾರ್ವಜನಿಕ ಗ್ರಂಥಾಲಯ",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "ಸಾರ್ವಜನಿಕ ಗ್ರಂಥಾಲಯ",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "ಸಾರ್ವಜನಿಕ ಲೈಬ್ರರಿ ಬಳಿ ನಿರ್ವಾಹಕರು ಇರಲಿಲ್ಲ, ಗ್ರಂಥಾಲಯದಿಂದ ಹೇರುವುದು ಅಥವಾ ಸೇರಿಸುವುದಕ್ಕೆ ಕಾರ್ಯನಿರ್ವಹಣೆಯ ವ್ಯಕ್ತಿಯ ಹೆಸರು ತುಂಬಬೇಕು",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "ನಿರ್ವಾಹಕ",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "ಸೆಟ್ ಮಾಡಲಾಗಿಲ್ಲ",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "ಎಡಿಟ್ ಲೈಬ್ರರಿ",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "ಗ್ರಂಥಾಲಯದ ಹೆಸರು",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "ನಿರ್ವಹಣಾಧಿಕಾರದ ಹೆಸರು",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "ದಯವಿಟ್ಟು ನಿರ್ವಾಹಕನ ಹೆಸರು ನಮೂದಿಸಿ",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "ಮ್ಯಾನೇಜರ್ ಹೆಸರು ಖಾಲಿಯಾಗಿರಬಾರದು",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "ನೀವು ಲೈಬ್ರರಿ „{name}“ ಅನ್ನು ಅಳಿಸಲು ಖಾತ್ರಿ ಪಡುತ್ತೀರಾ?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "ಡಿಫಾಲ್ಟ್ ವ್ಯವಸ್ಥಾಪಕ",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "ಹೊಸ ಖಾಸಗಿ ගೋದಾಮು ನಿರ್ಮಿಸುತ್ತಾಗ ಪ್ರಾರಂಭಿಕ ಆಡಳಿತಾಧಿಕಾರಿ",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "ದಯವಿಟ್ಟು ಡೀಫಾಲ್ಟ್ ನಿರ್ದೇಶಕರ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "ಆಪರೇಟರ್ ಹೆಸರು",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "ದಯವಿಟ್ಟು ಕಾರ್ಯನಿರ್ವಹಣೆಯ ವ್ಯಕ್ತಿಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "ಆಪರೇಟರ್ ಹೆಸರು ಖಾಲಿ ಇರಬಾರದು",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "ಪ್ರಶಾಸಕ ಇಲ್ಲ",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "ಆಪರೇಟರ್:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "ಕಡತದಿಂದ ಹೊರಹೋಗುವ ಪ್ರಮಾಣವು ಪ್ರಸ್ತುತ ಸ್ತೋಕ್ನ ಮಿತಿಯನ್ನು ಮೀರುವುದಿಲ್ಲ",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "ಈ ಗ್ರಂಥಾಲಯದಲ್ಲಿ ಇನ್ನೂ ವಸ್ತುಗಳಿವೆ, ಅಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

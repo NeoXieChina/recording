@@ -2102,5 +2102,102 @@
   "created_at_desc": "Bæta við tímaröð lækkandi",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Birgðastjórnun",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Einkageymsla",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Opinber bókasafn",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Opinber bókasafn",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Almennur birgðageymsla hefur engan stjórnanda, fyrir inn- og útflutning þarf að fylla út nafnið á þeim sem framkvæmir aðgerðina",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Stjórnandi",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Ekki stillt",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Breyta bókasafni",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Bókarsafnsnafn",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Nafn stjórnanda",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Vinsamlegast sláðu inn nafn stjórnanda",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Nafn stjórnanda má ekki vera tómt",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Ertu viss um að þú viljir eyða bókasafninu „{name}“?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Sjálfgefin stjórnandi",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Sjálfgefin stjórnandi þegar nýtt einkaleyfi er stofnað",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Vinsamlegast sláðu inn nafn sjálfgefið stjórnanda",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Nafn starfsmanns sem framkvæmdi aðgerðina",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Vinsamlegast sláðu inn nafn aðgerðarmanns",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Nafn rekstraraðila má ekki vera tómt",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Enginn stjórnandi",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Aðgerðamaður:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Útfluttningsmagn má ekki vera meira en núverandi birgðir",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Það eru enn hlutir í þessum geymslu, ekki er hægt að eyða",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

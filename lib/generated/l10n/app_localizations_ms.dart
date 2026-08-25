@@ -1474,4 +1474,79 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Tambah masa mengikut susunan menurun';
+
+  @override
+  String get location_management => 'Pengurusan Gudang';
+
+  @override
+  String get private_warehouses => 'Repositori Persendirian';
+
+  @override
+  String get public_warehouses => 'Perpustakaan awam';
+
+  @override
+  String get is_public_warehouse => 'Perpustakaan awam';
+
+  @override
+  String get public_warehouse_desc =>
+      'Pustaka awam tiada pentadbir, keluar masuk stok perlu mengisi pengendali';
+
+  @override
+  String get manager => 'Pentadbir';
+
+  @override
+  String get not_set => 'Belum ditetapkan';
+
+  @override
+  String get edit_location => 'Sunting perpustakaan';
+
+  @override
+  String get location_name => 'Nama perpustakaan';
+
+  @override
+  String get manager_name => 'Nama pentadbir';
+
+  @override
+  String get enter_manager_name => 'Sila masukkan nama pentadbir';
+
+  @override
+  String get manager_name_required => 'Nama pentadbir tidak boleh kosong';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Anda pasti mahu memadam pustaka \"$name\"?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Perpustakaan ini masih mempunyai item, tidak dapat dihapus';
+
+  @override
+  String get default_manager => 'Pentadbir lalai';
+
+  @override
+  String get default_manager_desc =>
+      'Pentadbir lalai semasa membuat repositori persendirian baru';
+
+  @override
+  String get enter_default_manager => 'Sila masukkan nama pentadbir lalai';
+
+  @override
+  String get operator_name => 'Nama pengendali';
+
+  @override
+  String get enter_operator_name => 'Sila masukkan nama operator';
+
+  @override
+  String get operator_name_required => 'Nama pengendali tidak boleh kosong';
+
+  @override
+  String get no_manager => 'Tiada pentadbir';
+
+  @override
+  String get log_operator_label => 'Operator:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Kuantiti keluar tidak boleh melebihi stok semasa';
 }

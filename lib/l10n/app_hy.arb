@@ -2102,5 +2102,102 @@
   "created_at_desc": "Ավելացված ժամանակը նահանջային կարգով",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Պահեստի կառավարում",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Գաղտնի գրադարան",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "հասարակ դասարան",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "հասարակ դասարան",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Հանրային գրադարանում չկա ադմինիստրատոր, դուրս կամ ներս բերելու համար պետք է լրացնել գործողության կատարողի անունը",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "ԱԿԱՌԱՎԱՐԻ",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Չես սահմանվել",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Խմբագրել գրադարանը",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Պահոցի անուն",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Վարչի անուն",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Խնդրում ենք ներմուծել ադմինիստրատորի անունը",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Մենեջերի անունը չի կարող դատարկել",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "կուզե՞ք ջնջել գրադարանը «{name}»։",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Ընդհանուր ադմինիստրատոր",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Նոր անձնական պահոց ստեղծելիս զանգվածային մենեջերը",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Խնդրում ենք մուտքագրել ընտրված ադմինիստրատորի անունը",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Գործընթաց կատարողի անունը",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Խնդրում ենք մուտքագրել օպերատորի անունը",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Օպերատորի անունը不能为空",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Առանց ադմինիստրատորի",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Գործողություն կատարող անձը՝",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Ելքի պահեստամասերի քանակը չի կարող գերազանցել ընթացիկ պահման քանակը",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Այն գրադարանում դեռ առարկաներ կան, հնարավոր չէ ջնջել",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

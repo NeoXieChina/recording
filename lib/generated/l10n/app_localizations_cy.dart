@@ -1478,4 +1478,79 @@ class AppLocalizationsCy extends AppLocalizations {
   @override
   String get created_at_desc =>
       'Trefnu yn ôl amser ychwanegu o\'r diwedd i\'r dechrau';
+
+  @override
+  String get location_management => 'Rheoli Stoc';
+
+  @override
+  String get private_warehouses => 'Llyfrgell breifat';
+
+  @override
+  String get public_warehouses => 'Llyfrgell Gyhoeddus';
+
+  @override
+  String get is_public_warehouse => 'Llyfrgell Gyhoeddus';
+
+  @override
+  String get public_warehouse_desc =>
+      'Nid oes gweinyddwr i\'r llyfrgell gyhoeddus, mae\'n rhaid llenwi\'r gweithredwr wrth allgofnodi neu fewnforio';
+
+  @override
+  String get manager => 'Rheolwr';
+
+  @override
+  String get not_set => 'Heb ei osod';
+
+  @override
+  String get edit_location => 'Golygu Llyfrgell';
+
+  @override
+  String get location_name => 'Enw Llyfrgell';
+
+  @override
+  String get manager_name => 'Enw\'r gweinyddwr';
+
+  @override
+  String get enter_manager_name => 'Rhowch enw\'r gweinyddwr';
+
+  @override
+  String get manager_name_required => 'Ni all enw\'r gweinyddwr fod yn wag';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Ydych chi\'n siŵr eich bod am ddileu\'r llyfrgell \"$name\"?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Mae dal eitemau yn y llyfrgell hon, ni ellir eu dileu';
+
+  @override
+  String get default_manager => 'Rheolwr diofyn';
+
+  @override
+  String get default_manager_desc =>
+      'Gweinyddwr diofyn pan fyddwch yn creu cronfa ddata breifat newydd';
+
+  @override
+  String get enter_default_manager => 'Rhowch enw\'r gweinyddwr diofyn';
+
+  @override
+  String get operator_name => 'Enw\'r gweithredwr';
+
+  @override
+  String get enter_operator_name => 'Rhowch enw\'r gweithredwr';
+
+  @override
+  String get operator_name_required => 'Ni all enw\'r gweithredwr fod yn wag';
+
+  @override
+  String get no_manager => 'Dim gweinyddwr';
+
+  @override
+  String get log_operator_label => 'Gweithredwr:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Ni all y nifer a gymerwyd o\'r stoc oresgyn y stoc bresennol';
 }

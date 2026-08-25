@@ -1434,4 +1434,76 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get created_at_desc => '추가 시간 내림차순';
+
+  @override
+  String get location_management => '창고 관리';
+
+  @override
+  String get private_warehouses => '개인 저장소';
+
+  @override
+  String get public_warehouses => '공공 도서관';
+
+  @override
+  String get is_public_warehouse => '공공 도서관';
+
+  @override
+  String get public_warehouse_desc =>
+      '공공 창고에는 관리자가 없으며, 출고 및 입고 시에는 작업자를 기입해야 합니다.';
+
+  @override
+  String get manager => '관리자';
+
+  @override
+  String get not_set => '설정되지 않음';
+
+  @override
+  String get edit_location => '편집 라이브러리';
+
+  @override
+  String get location_name => '라이브러리 이름';
+
+  @override
+  String get manager_name => '관리자 이름';
+
+  @override
+  String get enter_manager_name => '관리자 이름을 입력하세요';
+
+  @override
+  String get manager_name_required => '관리자 이름은 비워 둘 수 없습니다';
+
+  @override
+  String delete_location_confirm(String name) {
+    return '정말로 라이브러리 \"$name\"를 삭제하시겠습니까?';
+  }
+
+  @override
+  String get delete_location_has_items => '해당 보관함에는 아직 물건이 있어 삭제할 수 없습니다';
+
+  @override
+  String get default_manager => '기본 관리자';
+
+  @override
+  String get default_manager_desc => '새 사설 저장소를 만들 때 기본 관리자';
+
+  @override
+  String get enter_default_manager => '기본 관리자 이름을 입력하세요';
+
+  @override
+  String get operator_name => '조작자 이름';
+
+  @override
+  String get enter_operator_name => '작업자 이름을 입력하세요';
+
+  @override
+  String get operator_name_required => '조작자 이름은 비워둘 수 없습니다';
+
+  @override
+  String get no_manager => '관리자 없음';
+
+  @override
+  String get log_operator_label => '조작자:';
+
+  @override
+  String get outbound_quantity_exceeds_current => '출고 수량은 현재 재고를 초과할 수 없습니다';
 }

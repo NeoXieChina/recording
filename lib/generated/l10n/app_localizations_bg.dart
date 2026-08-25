@@ -1485,4 +1485,83 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Добавяне на време в низходящ ред';
+
+  @override
+  String get location_management => 'Управление на склад';
+
+  @override
+  String get private_warehouses => 'Частно хранилище';
+
+  @override
+  String get public_warehouses => 'Публична библиотека';
+
+  @override
+  String get is_public_warehouse => 'Публична библиотека';
+
+  @override
+  String get public_warehouse_desc =>
+      'В публичния склад няма администратор, за изваждане и внасяне на стоки трябва да се попълни операторът.';
+
+  @override
+  String get manager => 'администратор';
+
+  @override
+  String get not_set => 'Не е зададено';
+
+  @override
+  String get edit_location => 'Редактиране на библиотеката';
+
+  @override
+  String get location_name => 'Име на библиотека';
+
+  @override
+  String get manager_name => 'Име на администратора';
+
+  @override
+  String get enter_manager_name => 'Моля, въведете името на администратора';
+
+  @override
+  String get manager_name_required =>
+      'Името на администратора не може да бъде празно';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Сигурни ли сте, че искате да изтриете библиотеката „$name“?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'В тази библиотека все още има предмети и не може да бъде изтрита';
+
+  @override
+  String get default_manager =>
+      'Потребител по подразбиране с администраторски права';
+
+  @override
+  String get default_manager_desc =>
+      'Потребител по подразбиране като администратор при създаване на ново лично хранилище';
+
+  @override
+  String get enter_default_manager =>
+      'Моля, въведете името на подразбиращия се администратор';
+
+  @override
+  String get operator_name => 'Име на оператора';
+
+  @override
+  String get enter_operator_name => 'Моля, въведете името на оператора';
+
+  @override
+  String get operator_name_required =>
+      'Името на оператора не може да бъде празно';
+
+  @override
+  String get no_manager => 'Без администратор';
+
+  @override
+  String get log_operator_label => 'Оператор:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Количество за изписване не може да надвишава текущия наличен запас';
 }

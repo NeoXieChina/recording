@@ -1480,4 +1480,82 @@ class AppLocalizationsMww extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Ntxiv sijhawm nqis qis';
+
+  @override
+  String get location_management => 'Kev tswj hwm lub tsev khaws khoom';
+
+  @override
+  String get private_warehouses => 'Chaw khaws ntaub ntawv ntiag tug';
+
+  @override
+  String get public_warehouses => 'Tsev qiv ntawv pej xeem';
+
+  @override
+  String get is_public_warehouse => 'Tsev qiv ntawv pej xeem';
+
+  @override
+  String get public_warehouse_desc =>
+      'Lub chaw khaws ntaub ntawv pej xeem tsis muaj tus tswj hwm; Kev nkag thiab tawm ntawm cov khoom yuav tsum tau sau npe rau tus neeg ua haujlwm.';
+
+  @override
+  String get manager => 'Tus Thawj Coj';
+
+  @override
+  String get not_set => 'Tsis tau teeb tsa';
+
+  @override
+  String get edit_location => 'Kho Lub Tsev Qiv Ntawv';
+
+  @override
+  String get location_name => 'Lub Npe Tsev Qiv Ntawv';
+
+  @override
+  String get manager_name => 'Tus Thawj Coj Lub Npe';
+
+  @override
+  String get enter_manager_name => 'Thov sau tus thawj tswj hwm lub npe';
+
+  @override
+  String get manager_name_required =>
+      'Lub npe tus thawj tswj tsis tuaj yeem ua kom tsis muaj dab tsi';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Koj puas paub tseeb tias koj xav tshem tawm lub tsev qiv ntawv \"$name\"?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Muaj cov khoom tseem nyob hauv lub tsev qiv ntawv, tsis tuaj yeem rho tawm';
+
+  @override
+  String get default_manager => 'Tus Thawj Coj Default';
+
+  @override
+  String get default_manager_desc =>
+      'Tus thawj tswj hwm default thaum tsim ib lub repository ntiag tug tshiab';
+
+  @override
+  String get enter_default_manager =>
+      'Thov sau lub npe tus thawj tswj hwm default';
+
+  @override
+  String get operator_name => 'Lub npe operator';
+
+  @override
+  String get enter_operator_name => 'Thov sau tus neeg ua haujlwm lub npe';
+
+  @override
+  String get operator_name_required =>
+      'Lub npe ntawm tus neeg ua haujlwm tsis tuaj yeem yog khoob';
+
+  @override
+  String get no_manager => 'Tsis muaj tus tswj hwm';
+
+  @override
+  String get log_operator_label => 'Tus neeg ua haujlwm:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Qhov ntau uas xa tawm tsis pub tshaj qhov khoom tam sim no';
 }

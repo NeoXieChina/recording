@@ -1,16 +1,19 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:intl/intl.dart';
-import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:provider/provider.dart';
-import 'package:recording/data/models/item.dart';
 import 'package:recording/generated/l10n/app_localizations.dart';
 import 'package:recording/providers/item_list_provider.dart';
+import 'package:recording/providers/location_provider.dart';
+import 'package:recording/providers/operation_log_provider.dart';
 import 'package:recording/screens/item_form/item_form_screen.dart';
 import 'package:recording/screens/settings/settings_screen.dart';
 import 'package:recording/utils/format.dart';
+import 'package:recording/data/models/item.dart';
+import 'package:recording/data/models/operation_log.dart';
+import 'package:mobile_scanner/mobile_scanner.dart';
+import 'package:flutter_slidable/flutter_slidable.dart';
 
 class ItemListScreen extends StatefulWidget {
   final bool isEmbedded;
@@ -206,14 +209,19 @@ class _ItemListScreenState extends State<ItemListScreen> {
     return Scaffold(
       key: _scaffoldKey,
       drawer: _buildLocationDrawer(),
-      body: CustomScrollView(
-        slivers: [
-          SliverAppBar.large(
-            title: Consumer<ItemListProvider>(
-              builder: (context, provider, _) {
-                return _buildTitle(context, provider, null, showIcon: true);
-              },
-            ),
+      body: RefreshIndicator(
+        onRefresh: () async {
+          await context.read<ItemListProvider>().loadItems();
+        },
+        child: CustomScrollView(
+          physics: const BouncingScrollPhysics(),
+          slivers: [
+            SliverAppBar.large(
+              title: Consumer<ItemListProvider>(
+                builder: (context, provider, _) {
+                  return _buildTitle(context, provider, null, showIcon: true);
+                },
+              ),
             leading: _isSelectionMode
                 ? IconButton(
                     icon: const Icon(Icons.close),
@@ -740,7 +748,11 @@ class _ItemListScreenState extends State<ItemListScreen> {
               );
             },
           ),
+          const SliverPadding(
+            padding: EdgeInsets.only(bottom: 80),
+          ),
         ],
+      ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => _navigateToAdd(),
@@ -786,6 +798,28 @@ class _ItemListScreenState extends State<ItemListScreen> {
     return Padding(
       padding: const EdgeInsets.only(bottom: 8),
       child: Slidable(
+        startActionPane: ActionPane(
+          motion: const ScrollMotion(),
+          extentRatio: 0.18,
+          children: [
+            Center(
+              child: Container(
+                width: 56,
+                height: 56,
+                decoration: BoxDecoration(
+                  color: cs.primary,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: GestureDetector(
+                  onTap: () => _showOutboundDialog(item, provider),
+                  child: Center(
+                    child: Icon(Icons.remove, color: cs.onPrimary, size: 24),
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
         endActionPane: ActionPane(
           motion: const ScrollMotion(),
           extentRatio: 0.18,
@@ -1948,47 +1982,95 @@ class _ItemListScreenState extends State<ItemListScreen> {
       }
 
       if (!mounted) return;
+      // 检查是否为公共库
+      final locationProvider = context.read<LocationProvider>();
+      final logProvider = context.read<OperationLogProvider>();
+      final location = await locationProvider.getLocationByName(existingItem.storageLocation);
+      final isPublicWarehouse = location?.isPublic ?? false;
+
       // 询问数量
       final quantityController = TextEditingController(text: '1');
+      final operatorController = TextEditingController();
+
+      if (!mounted) return;
       final quantity = await showDialog<int>(
         context: context,
-        builder: (context) => AlertDialog(
-          title: Text(
-            operation == 'inbound'
-                ? l10n.inbound_quantity
-                : l10n.outbound_quantity,
-          ),
-          content: TextField(
-            controller: quantityController,
-            decoration: InputDecoration(
-              labelText: l10n.quantity,
-              hintText: operation == 'inbound'
-                  ? l10n.enter_inbound_quantity
-                  : l10n.enter_outbound_quantity,
-            ),
-            keyboardType: TextInputType.number,
-            autofocus: true,
-          ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.pop(context),
-              child: Text(AppLocalizations.of(context).cancel),
-            ),
-            FilledButton(
-              onPressed: () {
-                final quantity = int.tryParse(quantityController.text.trim());
-                if (quantity != null && quantity > 0) {
-                  Navigator.pop(context, quantity);
-                }
-              },
-              child: Text(AppLocalizations.of(context).confirm),
-            ),
-          ],
+        builder: (context) => StatefulBuilder(
+          builder: (context, setState) {
+            return AlertDialog(
+              title: Text(
+                operation == 'inbound'
+                    ? l10n.inbound_quantity
+                    : l10n.outbound_quantity,
+              ),
+              content: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  TextField(
+                    controller: quantityController,
+                    decoration: InputDecoration(
+                      labelText: l10n.quantity,
+                      hintText: operation == 'inbound'
+                          ? l10n.enter_inbound_quantity
+                          : l10n.enter_outbound_quantity,
+                    ),
+                    keyboardType: TextInputType.number,
+                    autofocus: !isPublicWarehouse,
+                  ),
+                  if (isPublicWarehouse) ...[
+                    const SizedBox(height: 16),
+                    TextField(
+                      controller: operatorController,
+                      decoration: InputDecoration(
+                        labelText: l10n.operator_name,
+                        hintText: l10n.enter_operator_name,
+                      ),
+                      autofocus: true,
+                    ),
+                  ],
+                ],
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(context),
+                  child: Text(AppLocalizations.of(context).cancel),
+                ),
+                FilledButton(
+                  onPressed: () {
+                    final quantity = int.tryParse(quantityController.text.trim());
+                    if (isPublicWarehouse && operatorController.text.trim().isEmpty) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text(l10n.operator_name_required)),
+                      );
+                      return;
+                    }
+                    if (quantity != null && quantity > 0) {
+                      Navigator.pop(context, quantity);
+                    }
+                  },
+                  child: Text(AppLocalizations.of(context).confirm),
+                ),
+              ],
+            );
+          },
         ),
       );
 
       if (quantity != null && quantity > 0) {
         final adjustedQuantity = operation == 'inbound' ? quantity : -quantity;
+        final operatorName = isPublicWarehouse ? operatorController.text.trim() : null;
+        
+        final item = provider.items.firstWhere((i) => i.id == existingItem.id);
+        final operationType = adjustedQuantity > 0
+            ? OperationType.inbound
+            : OperationType.outbound;
+        await logProvider.logOperation(
+          operationType,
+          item,
+          quantityChange: adjustedQuantity,
+          operator: operatorName,
+        );
+        
         await provider.updateItemQuantity(existingItem.id, adjustedQuantity);
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
@@ -2212,6 +2294,96 @@ class _ItemListScreenState extends State<ItemListScreen> {
                       );
                     }
                   },
+            child: Text(l10n.confirm),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showOutboundDialog(Item item, ItemListProvider provider) {
+    final l10n = AppLocalizations.of(context);
+    final quantityController = TextEditingController(text: '1');
+    final maxQuantity = item.quantity;
+
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text(l10n.outbound_quantity),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('${l10n.name_label}：${item.name}'),
+            Text('${l10n.category_label}：${item.category}'),
+            Text(
+              l10n.current_quantity_with_value(
+                item.quantity.toString(),
+                item.unit,
+              ),
+            ),
+            const SizedBox(height: 16),
+            TextField(
+              controller: quantityController,
+              decoration: InputDecoration(
+                labelText: l10n.quantity,
+                hintText: l10n.enter_outbound_quantity,
+                suffixText: '/ $maxQuantity',
+              ),
+              keyboardType: TextInputType.number,
+              autofocus: true,
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text(l10n.cancel),
+          ),
+          FilledButton(
+            onPressed: () async {
+              final quantity = int.tryParse(quantityController.text.trim());
+              if (quantity == null || quantity <= 0) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(content: Text(l10n.enter_outbound_quantity)),
+                );
+                return;
+              }
+              if (quantity > maxQuantity) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(l10n.outbound_quantity_exceeds_current),
+                  ),
+                );
+                return;
+              }
+
+              final adjustedQuantity = -quantity;
+              final logProvider = context.read<OperationLogProvider>();
+              final operationType = OperationType.outbound;
+              await logProvider.logOperation(
+                operationType,
+                item,
+                quantityChange: adjustedQuantity,
+              );
+
+              await provider.updateItemQuantity(item.id, adjustedQuantity);
+              if (context.mounted) {
+                Navigator.pop(context);
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(
+                      l10n.item_decreased(
+                        item.name,
+                        quantity.toString(),
+                        item.unit,
+                      ),
+                    ),
+                    duration: const Duration(seconds: 2),
+                  ),
+                );
+              }
+            },
             child: Text(l10n.confirm),
           ),
         ],

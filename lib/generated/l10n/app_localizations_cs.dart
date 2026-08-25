@@ -1474,4 +1474,79 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Přidat podle času sestupně';
+
+  @override
+  String get location_management => 'Správa skladu';
+
+  @override
+  String get private_warehouses => 'Soukromá knihovna';
+
+  @override
+  String get public_warehouses => 'veřejná knihovna';
+
+  @override
+  String get is_public_warehouse => 'veřejná knihovna';
+
+  @override
+  String get public_warehouse_desc =>
+      'Ve veřejném skladu není žádný správce, při výdeji a příjmu zboží je třeba vyplnit osobu provádějící operaci';
+
+  @override
+  String get manager => 'správce';
+
+  @override
+  String get not_set => 'Nastavení nebylo provedeno';
+
+  @override
+  String get edit_location => 'Upravit knihovnu';
+
+  @override
+  String get location_name => 'Název knihovny';
+
+  @override
+  String get manager_name => 'Jméno správce';
+
+  @override
+  String get enter_manager_name => 'Prosím, zadejte jméno správce';
+
+  @override
+  String get manager_name_required => 'Jméno správce nesmí být prázdné';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Opravdu chcete smazat knihovnu „$name“?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Knihovna stále obsahuje položky, nelze ji smazat';
+
+  @override
+  String get default_manager => 'Výchozí správce';
+
+  @override
+  String get default_manager_desc =>
+      'Výchozí správce při vytváření nového soukromého repozitáře';
+
+  @override
+  String get enter_default_manager => 'Prosím zadejte výchozí jméno správce';
+
+  @override
+  String get operator_name => 'Jméno operátora';
+
+  @override
+  String get enter_operator_name => 'Prosím zadejte jméno operátora';
+
+  @override
+  String get operator_name_required => 'Jméno operátora nesmí být prázdné';
+
+  @override
+  String get no_manager => 'Bez správce';
+
+  @override
+  String get log_operator_label => 'Operátor:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Množství vyexpedované nemůže překročit aktuální zásoby';
 }

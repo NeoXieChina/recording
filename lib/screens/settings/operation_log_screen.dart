@@ -125,133 +125,151 @@ class _OperationLogScreenState extends State<OperationLogScreen> {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     return Scaffold(
-      appBar: AppBar(
-        title: Text(l10n.operation_logs_title),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.download),
-            onPressed: _exportLogs,
-            tooltip: l10n.export_logs,
-          ),
-          IconButton(
-            icon: const Icon(Icons.delete_outline),
-            onPressed: _showClearAllDialog,
-            tooltip: l10n.clear_logs_tooltip,
-          ),
-        ],
-      ),
-      body: ListenableBuilder(
-        listenable: _logProvider,
-        builder: (context, child) {
-          final logs = _logProvider.recentLogs;
-          if (logs.isEmpty) {
-            return Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Icon(
-                    Icons.history,
-                    size: 64,
-                    color: Theme.of(context).colorScheme.outline,
-                  ),
-                  const SizedBox(height: 16),
-                  Text(
-                    l10n.no_operation_logs,
-                    style: TextStyle(
-                      color: Theme.of(context).colorScheme.outline,
-                    ),
-                  ),
-                ],
+      body: CustomScrollView(
+        slivers: [
+          SliverAppBar.large(
+            title: Text(l10n.operation_logs_title),
+            actions: [
+              IconButton(
+                icon: const Icon(Icons.download),
+                onPressed: _exportLogs,
+                tooltip: l10n.export_logs,
               ),
-            );
-          }
-
-          return ListView.builder(
+              IconButton(
+                icon: const Icon(Icons.delete_outline),
+                onPressed: _showClearAllDialog,
+                tooltip: l10n.clear_logs_tooltip,
+              ),
+            ],
+          ),
+          SliverPadding(
             padding: const EdgeInsets.all(16),
-            itemCount: logs.length,
-            itemBuilder: (context, index) {
-              final log = logs[index];
-              final operationName = _getOperationTypeName(log.operationType, l10n);
-              final icon = _getOperationTypeIcon(log.operationType);
-              final color = _getOperationTypeColor(log.operationType);
-
-              return Card(
-                margin: const EdgeInsets.only(bottom: 12),
-                child: ExpansionTile(
-                  leading: CircleAvatar(
-                    backgroundColor: color.withValues(alpha: 0.1),
-                    child: Icon(icon, color: color),
-                  ),
-                  title: Text(
-                    operationName,
-                    style: const TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                  subtitle: Text(_formatDateTime(log.createdAt)),
-                   children: [
-                    Padding(
-                      padding: const EdgeInsets.all(16),
+            sliver: ListenableBuilder(
+              listenable: _logProvider,
+              builder: (context, child) {
+                final logs = _logProvider.recentLogs;
+                if (logs.isEmpty) {
+                  return SliverFillRemaining(
+                    child: Center(
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisSize: MainAxisSize.min,
                         children: [
-                          Text('${l10n.log_operation_date_label}${_formatDateTime(log.createdAt)}',
-                              style: const TextStyle(fontWeight: FontWeight.bold)),
-                          const SizedBox(height: 8),
-                          Text('${l10n.log_item_label}${log.item.name}',
-                              style: const TextStyle(fontWeight: FontWeight.bold)),
-                          const SizedBox(height: 8),
-                          Text('${l10n.log_category_label}${log.item.category}'),
-                          Text('${l10n.log_type_label}${log.item.itemType == ItemType.consumable ? l10n.consumable : l10n.durable}'),
-                          Text('${l10n.log_quantity_label}${log.item.quantity} ${log.item.unit}'),
-                          Text('${l10n.log_unit_price_label}${log.item.currencySymbol}${log.item.unitPrice.toStringAsFixed(2)}'),
-                          Text('${l10n.log_total_price_label}${log.item.currencySymbol}${log.item.totalPrice.toStringAsFixed(2)}'),
-                          if (log.item.expiryDate != null)
-                            Text('${l10n.log_expiry_date_label}${log.item.expiryDate}'),
-                          if (log.item.warrantyDate != null)
-                            Text('${l10n.log_warranty_date_label}${log.item.warrantyDate}'),
-                          if (log.item.purchaseDate != null)
-                            Text('${l10n.log_purchase_date_label}${log.item.purchaseDate}'),
-                          if (log.item.productionDate != null)
-                            Text('${l10n.log_production_date_label}${log.item.productionDate}'),
-                          if (log.item.shelfLifeMonths != null || log.item.shelfLifeDays != null)
-                            Text('${l10n.log_shelf_life_label}${log.item.shelfLifeMonths}${l10n.shelf_life_months_suffix} ${log.item.shelfLifeDays}${l10n.shelf_life_days_suffix}'),
-                          Text('${l10n.log_storage_location_label}${log.item.storageLocation.isEmpty ? l10n.log_not_set : log.item.storageLocation}'),
-                          if (log.item.barcode != null) Text('${l10n.log_barcode_label}${log.item.barcode}'),
-                          if (log.item.notes != null) Text('${l10n.log_notes_label}${log.item.notes}'),
-                          Text('${l10n.log_alert_label}${log.item.enableAlert ? l10n.log_alert_enabled : l10n.log_alert_disabled}'),
-                          if (log.item.alertDaysBefore != null)
-                            Text('${l10n.log_alert_days_label}${log.item.alertDaysBefore}${l10n.alert_days_suffix}'),
-                          if (log.operationType == OperationType.inbound ||
-                              log.operationType == OperationType.outbound)
-                            Text('${l10n.log_quantity_change_label}${log.quantityChange}'),
-                          if (log.operationType == OperationType.update &&
-                              log.fieldChanges != null &&
-                              log.fieldChanges!.isNotEmpty)
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                const SizedBox(height: 8),
-                                Text(l10n.log_field_changes_label,
-                                    style: const TextStyle(fontWeight: FontWeight.bold)),
-                                const SizedBox(height: 4),
-                                ...log.fieldChanges!.map(
-                                  (change) => Padding(
-                                    padding: const EdgeInsets.only(left: 8, top: 2),
-                                    child: Text(
-                                      '  ${change.fieldName}: ${change.oldValue ?? l10n.log_empty} -> ${change.newValue ?? l10n.log_empty}',
-                                    ),
-                                  ),
-                                ),
-                              ],
+                          Icon(
+                            Icons.history,
+                            size: 64,
+                            color: Theme.of(context).colorScheme.outline,
+                          ),
+                          const SizedBox(height: 16),
+                          Text(
+                            l10n.no_operation_logs,
+                            style: TextStyle(
+                              color: Theme.of(context).colorScheme.outline,
                             ),
+                          ),
                         ],
                       ),
                     ),
-                  ],
-                ),
-              );
-            },
-          );
-        },
+                  );
+                }
+
+                return SliverList(
+                  delegate: SliverChildBuilderDelegate(
+                    (context, index) {
+                      final log = logs[index];
+                      final operationName = _getOperationTypeName(log.operationType, l10n);
+                      final icon = _getOperationTypeIcon(log.operationType);
+                      final color = _getOperationTypeColor(log.operationType);
+
+                      return Card(
+                        margin: const EdgeInsets.only(bottom: 12),
+                        child: ExpansionTile(
+                          leading: CircleAvatar(
+                            backgroundColor: color.withValues(alpha: 0.1),
+                            child: Icon(icon, color: color),
+                          ),
+                          title: Text(
+                            operationName,
+                            style: const TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          subtitle: Text(_formatDateTime(log.createdAt)),
+                           children: [
+                            Padding(
+                              padding: const EdgeInsets.all(16),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  if (log.operator != null && log.operator!.isNotEmpty)
+                                    Text('${l10n.log_operator_label}${log.operator}',
+                                        style: const TextStyle(fontWeight: FontWeight.bold)),
+                                  Text('${l10n.log_operation_date_label}${_formatDateTime(log.createdAt)}',
+                                      style: const TextStyle(fontWeight: FontWeight.bold)),
+                                  const SizedBox(height: 8),
+                                  Text('${l10n.log_item_label}${log.item.name}',
+                                      style: const TextStyle(fontWeight: FontWeight.bold)),
+                                  const SizedBox(height: 8),
+                                  Text('${l10n.log_category_label}${log.item.category}'),
+                                  Text('${l10n.log_type_label}${log.item.itemType == ItemType.consumable ? l10n.consumable : l10n.durable}'),
+                                  Text('${l10n.log_quantity_label}${log.item.quantity} ${log.item.unit}'),
+                                  Text('${l10n.log_unit_price_label}${log.item.currencySymbol}${log.item.unitPrice.toStringAsFixed(2)}'),
+                                  Text('${l10n.log_total_price_label}${log.item.currencySymbol}${log.item.totalPrice.toStringAsFixed(2)}'),
+                                  if (log.item.expiryDate != null)
+                                    Text('${l10n.log_expiry_date_label}${log.item.expiryDate}'),
+                                  if (log.item.warrantyDate != null)
+                                    Text('${l10n.log_warranty_date_label}${log.item.warrantyDate}'),
+                                  if (log.item.purchaseDate != null)
+                                    Text('${l10n.log_purchase_date_label}${log.item.purchaseDate}'),
+                                  if (log.item.productionDate != null)
+                                    Text('${l10n.log_production_date_label}${log.item.productionDate}'),
+                                  if (log.item.shelfLifeMonths != null || log.item.shelfLifeDays != null)
+                                    Text('${l10n.log_shelf_life_label}${log.item.shelfLifeMonths}${l10n.shelf_life_months_suffix} ${log.item.shelfLifeDays}${l10n.shelf_life_days_suffix}'),
+                                  Text('${l10n.log_storage_location_label}${log.item.storageLocation.isEmpty ? l10n.log_not_set : log.item.storageLocation}'),
+                                  if (log.item.barcode != null) Text('${l10n.log_barcode_label}${log.item.barcode}'),
+                                  if (log.item.notes != null) Text('${l10n.log_notes_label}${log.item.notes}'),
+                                  Text('${l10n.log_alert_label}${log.item.enableAlert ? l10n.log_alert_enabled : l10n.log_alert_disabled}'),
+                                  if (log.item.alertDaysBefore != null)
+                                    Text('${l10n.log_alert_days_label}${log.item.alertDaysBefore}${l10n.alert_days_suffix}'),
+                                  if (log.operationType == OperationType.inbound ||
+                                      log.operationType == OperationType.outbound)
+                                    Text('${l10n.log_quantity_change_label}${log.quantityChange}'),
+                                  if (log.operationType == OperationType.update &&
+                                      log.fieldChanges != null &&
+                                      log.fieldChanges!.isNotEmpty)
+                                    Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  if (log.operator != null && log.operator!.isNotEmpty)
+                                    Text('${l10n.log_operator_label}${log.operator}',
+                                        style: const TextStyle(fontWeight: FontWeight.bold)),
+                                  Text('${l10n.log_operation_date_label}${_formatDateTime(log.createdAt)}',
+                                      style: const TextStyle(fontWeight: FontWeight.bold)),
+                                  const SizedBox(height: 8),
+                                        Text(l10n.log_field_changes_label,
+                                            style: const TextStyle(fontWeight: FontWeight.bold)),
+                                        const SizedBox(height: 4),
+                                        ...log.fieldChanges!.map(
+                                          (change) => Padding(
+                                            padding: const EdgeInsets.only(left: 8, top: 2),
+                                            child: Text(
+                                              '  ${change.fieldName}: ${change.oldValue ?? l10n.log_empty} -> ${change.newValue ?? l10n.log_empty}',
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      );
+                    },
+                    childCount: logs.length,
+                  ),
+                );
+              },
+            ),
+          ),
+        ],
       ),
     );
   }

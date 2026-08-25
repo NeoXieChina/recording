@@ -2102,5 +2102,102 @@
   "created_at_desc": "เพิ่มเวลาเรียงลำดับจากมากไปน้อย",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "การจัดการคลังสินค้า",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "คลังเก็บส่วนตัว",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "ห้องสมุดสาธารณะ",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "คลังสาธารณะ",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "คลังสาธารณะไม่มีผู้ดูแล การเบิก-จ่ายต้องกรอกผู้ปฏิบัติ",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "ผู้ดูแลระบบ",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "ไม่ได้ตั้งค่า",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "แก้ไขคลัง",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "ชื่อคลัง",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "ชื่อผู้ดูแลระบบ",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "กรุณากรอกชื่อผู้ดูแลระบบ",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "ชื่อผู้ดูแลระบบไม่สามารถเว้นว่างได้",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "คุณแน่ใจหรือว่าต้องการลบคลัง \"{name}\"?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "ผู้ดูแลระบบเริ่มต้น",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "ผู้ดูแลระบบเริ่มต้นเมื่อสร้างคลังส่วนตัวใหม่",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "กรุณาใส่ชื่อผู้ดูแลระบบเริ่มต้น",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "ชื่อผู้ปฏิบัติงาน",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "กรุณากรอกชื่อผู้ปฏิบัติ",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "ชื่อผู้ปฏิบัติไม่สามารถเว้นว่างได้",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "ไม่มีผู้ดูแลระบบ",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "ผู้ปฏิบัติงาน:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "จำนวนการเบิกออกจากคลังไม่สามารถเกินสต็อกปัจจุบันได้",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "ในคลังนี้ยังมีสิ่งของ ไม่สามารถลบได้",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

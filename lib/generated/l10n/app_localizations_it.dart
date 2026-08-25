@@ -1490,4 +1490,84 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Ordine decrescente per data di aggiunta';
+
+  @override
+  String get location_management => 'Gestione del magazzino';
+
+  @override
+  String get private_warehouses => 'repository privato';
+
+  @override
+  String get public_warehouses => 'Biblioteca pubblica';
+
+  @override
+  String get is_public_warehouse => 'Biblioteca pubblica';
+
+  @override
+  String get public_warehouse_desc =>
+      'La biblioteca pubblica non ha amministratori, è necessario compilare l\'operatore per l\'entrata e l\'uscita del magazzino';
+
+  @override
+  String get manager => 'Amministratore';
+
+  @override
+  String get not_set => 'Non impostato';
+
+  @override
+  String get edit_location => 'Modifica libreria';
+
+  @override
+  String get location_name => 'Nome della libreria';
+
+  @override
+  String get manager_name => 'Nome dell\'amministratore';
+
+  @override
+  String get enter_manager_name =>
+      'Si prega di inserire il nome dell\'amministratore';
+
+  @override
+  String get manager_name_required =>
+      'Il nome dell\'amministratore non può essere vuoto';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Sei sicuro di voler eliminare la libreria «$name»?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Ci sono ancora oggetti in questa libreria, impossibile eliminarla';
+
+  @override
+  String get default_manager => 'Amministratore predefinito';
+
+  @override
+  String get default_manager_desc =>
+      'Amministratore predefinito quando si crea un nuovo repository privato';
+
+  @override
+  String get enter_default_manager =>
+      'Per favore inserisci il nome dell\'amministratore predefinito';
+
+  @override
+  String get operator_name => 'Nome dell\'operatore';
+
+  @override
+  String get enter_operator_name =>
+      'Per favore inserisci il nome dell\'operatore';
+
+  @override
+  String get operator_name_required =>
+      'Il nome dell\'operatore non può essere vuoto';
+
+  @override
+  String get no_manager => 'Nessun amministratore';
+
+  @override
+  String get log_operator_label => 'Operatore:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'La quantità in uscita non può superare l\'inventario attuale';
 }

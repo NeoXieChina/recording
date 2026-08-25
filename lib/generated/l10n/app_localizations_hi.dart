@@ -1475,4 +1475,81 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get created_at_desc => 'समय के क्रम में घटते हुए जोड़ें';
+
+  @override
+  String get location_management => 'भंडार प्रबंधन';
+
+  @override
+  String get private_warehouses => 'निजी भण्डार';
+
+  @override
+  String get public_warehouses => 'सार्वजनिक पुस्तकालय';
+
+  @override
+  String get is_public_warehouse => 'सार्वजनिक पुस्तकालय';
+
+  @override
+  String get public_warehouse_desc =>
+      'सार्वजनिक भंडार में कोई प्रशासक नहीं है, भंडारण और निकासी के दौरान ऑपरेटर का नाम भरना आवश्यक है';
+
+  @override
+  String get manager => 'प्रशासक';
+
+  @override
+  String get not_set => 'सेट नहीं किया गया';
+
+  @override
+  String get edit_location => 'संपादन पुस्तकालय';
+
+  @override
+  String get location_name => 'पुस्तकालय का नाम';
+
+  @override
+  String get manager_name => 'प्रशासक का नाम';
+
+  @override
+  String get enter_manager_name => 'कृपया प्रबंधक का नाम दर्ज करें';
+
+  @override
+  String get manager_name_required => 'व्यवस्थापक का नाम खाली नहीं हो सकता';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'क्या आप लाइब्रेरी \"$name\" को हटाना चाहते हैं?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'इस पुस्तकालय में अभी भी आइटम हैं, हटाया नहीं जा सकता';
+
+  @override
+  String get default_manager => 'डिफ़ॉल्ट व्यवस्थापक';
+
+  @override
+  String get default_manager_desc =>
+      'नया निजी रिपॉजिटरी बनाते समय डिफ़ॉल्ट व्यवस्थापक';
+
+  @override
+  String get enter_default_manager =>
+      'कृपया डिफ़ॉल्ट व्यवस्थापक का नाम दर्ज करें';
+
+  @override
+  String get operator_name => 'ऑपरेटर का नाम';
+
+  @override
+  String get enter_operator_name => 'कृपया ऑपरेटर का नाम दर्ज करें';
+
+  @override
+  String get operator_name_required =>
+      'संचालन करने वाले का नाम खाली नहीं हो सकता';
+
+  @override
+  String get no_manager => 'कोई व्यवस्थापक नहीं';
+
+  @override
+  String get log_operator_label => 'ऑपरेटर:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'निकासी की मात्रा वर्तमान स्टॉक से अधिक नहीं हो सकती';
 }

@@ -2102,5 +2102,102 @@
   "created_at_desc": "Lisa aeg kahanevas järjekorras",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Laohaldus",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Privaatne hoidla",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Avalik kogu",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Avalik kogu",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Avalikus laos puudub administraator, laost väljavõtmisel ja sissevõtmisel tuleb täita operaatori nimi",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Administraator",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Pole seatud",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Redigeeri raamatukogu",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Raamatukogu nimi",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Administraatori nimi",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Palun sisestage administraatori nimi",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Administraatori nimi ei tohi olla tühi",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Kas olete kindel, et soovite kustutada teegi „{name}”?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Vaikimisi administraator",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Uue privaatrepo loomisel vaikimisi administraator",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Palun sisestage vaikimisi administraatori nimi",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Operatsiooni teostaja nimi",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Palun sisestage operaatori nimi",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Operaatori nimi ei tohi olla tühi",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Ilma administraatorita",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Teostaja:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Väljastatud kogus ei tohi ületada praegust laoseisu",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Kogus on veel esemeid, ei saa kustutada",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

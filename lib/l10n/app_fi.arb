@@ -2102,5 +2102,102 @@
   "created_at_desc": "Lisäysaika laskevassa järjestyksessä",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Varastonhallinta",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Yksityinen kirjasto",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "julkinen kirjasto",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "julkinen kirjasto",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Julkisessa varastossa ei ole ylläpitäjää, varastoon otettaessa ja sinne lisättäessä on täytettävä toimijan nimi",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Ylläpitäjä",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Ei asetettu",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Muokkaa kirjastoa",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Varaston nimi",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Ylläpitäjän nimi",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Anna järjestelmänvalvojan nimi",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Ylläpitäjän nimeä ei voi jättää tyhjäksi",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Haluatko varmasti poistaa kirjaston „{name}”?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Oletusjärjestelmänvalvoja",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Oletusvalvoja uuden yksityisen varaston luomisessa",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Syötä oletusjärjestelmänvalvojan nimi",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Toimijan nimi",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Syötä käyttäjän nimi",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Toimijan nimi ei voi olla tyhjä",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Ei ylläpitäjää",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Toimija:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Lähtevien tuotteiden määrä ei voi ylittää nykyistä varastoa",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Kirjastossa on edelleen esineitä, ei voi poistaa",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

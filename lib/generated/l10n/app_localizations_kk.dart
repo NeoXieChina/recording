@@ -1475,4 +1475,80 @@ class AppLocalizationsKk extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Қосу уақытын кему ретімен';
+
+  @override
+  String get location_management => 'Қойма басқару';
+
+  @override
+  String get private_warehouses => 'Жеке репозиторий';
+
+  @override
+  String get public_warehouses => 'қоғамдық кітапхана';
+
+  @override
+  String get is_public_warehouse => 'қоғамдық кітапхана';
+
+  @override
+  String get public_warehouse_desc =>
+      'Қоғамдық қорда әкімші жоқ, қордан шығару мен кіргізу кезінде операцияны жүргізушіні толтыру қажет';
+
+  @override
+  String get manager => 'Әкімші';
+
+  @override
+  String get not_set => 'Орнатылмаған';
+
+  @override
+  String get edit_location => 'Кітапхананы өңдеу';
+
+  @override
+  String get location_name => 'Кітапхана атауы';
+
+  @override
+  String get manager_name => 'Әкімшінің аты';
+
+  @override
+  String get enter_manager_name => 'Әкімші атын енгізіңіз';
+
+  @override
+  String get manager_name_required => 'Әкімші аты бос болмауы керек';
+
+  @override
+  String delete_location_confirm(String name) {
+    return '«$name» кітапханасын өшіргіңіз келетініне сенімдісіз бе?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Осы кітапханада заттар бар, жою мүмкін емес';
+
+  @override
+  String get default_manager => 'Әдепкі әкімші';
+
+  @override
+  String get default_manager_desc =>
+      'Жеке репозиторийді жасағанда әдепкі әкімші';
+
+  @override
+  String get enter_default_manager => 'Әдепкі әкімші атын енгізіңіз';
+
+  @override
+  String get operator_name => 'Операцияны орындаушының аты-жөні';
+
+  @override
+  String get enter_operator_name => 'Операцияны орындаушының атын енгізіңіз';
+
+  @override
+  String get operator_name_required =>
+      'Операцияны орындаушының аты бос болмауы керек';
+
+  @override
+  String get no_manager => 'Әкімші жоқ';
+
+  @override
+  String get log_operator_label => 'Операцияны орындаушы:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Шығару саны ағымдағы қордан аспауы керек';
 }

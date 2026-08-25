@@ -2102,5 +2102,102 @@
   "created_at_desc": "Adicionar ordem decrescente por tempo",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Gestão de Estoque",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Repositório privado",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "biblioteca pública",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "biblioteca pública",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "O repositório público não tem administrador, é necessário preencher o operador ao retirar ou armazenar itens",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Administrador",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Não configurado",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Editar biblioteca",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Nome da biblioteca",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Nome do administrador",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Por favor, insira o nome do administrador",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "O nome do administrador não pode estar vazio",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Tem certeza de que deseja excluir a biblioteca \"{name}\"?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Administrador padrão",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Administrador padrão ao criar um repositório privado",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Por favor, insira o nome do administrador padrão",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Nome do operador",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Por favor, insira o nome do operador",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "O nome do operador não pode estar vazio",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Sem administrador",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Operador:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "A quantidade a ser retirada não pode exceder o estoque atual",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Ainda há itens na biblioteca, não é possível excluí-la",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

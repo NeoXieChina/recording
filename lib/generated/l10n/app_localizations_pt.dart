@@ -1487,4 +1487,82 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Adicionar ordem decrescente por tempo';
+
+  @override
+  String get location_management => 'Gestão de Estoque';
+
+  @override
+  String get private_warehouses => 'Repositório privado';
+
+  @override
+  String get public_warehouses => 'biblioteca pública';
+
+  @override
+  String get is_public_warehouse => 'biblioteca pública';
+
+  @override
+  String get public_warehouse_desc =>
+      'O repositório público não tem administrador, é necessário preencher o operador ao retirar ou armazenar itens';
+
+  @override
+  String get manager => 'Administrador';
+
+  @override
+  String get not_set => 'Não configurado';
+
+  @override
+  String get edit_location => 'Editar biblioteca';
+
+  @override
+  String get location_name => 'Nome da biblioteca';
+
+  @override
+  String get manager_name => 'Nome do administrador';
+
+  @override
+  String get enter_manager_name => 'Por favor, insira o nome do administrador';
+
+  @override
+  String get manager_name_required =>
+      'O nome do administrador não pode estar vazio';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Tem certeza de que deseja excluir a biblioteca \"$name\"?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Ainda há itens na biblioteca, não é possível excluí-la';
+
+  @override
+  String get default_manager => 'Administrador padrão';
+
+  @override
+  String get default_manager_desc =>
+      'Administrador padrão ao criar um repositório privado';
+
+  @override
+  String get enter_default_manager =>
+      'Por favor, insira o nome do administrador padrão';
+
+  @override
+  String get operator_name => 'Nome do operador';
+
+  @override
+  String get enter_operator_name => 'Por favor, insira o nome do operador';
+
+  @override
+  String get operator_name_required =>
+      'O nome do operador não pode estar vazio';
+
+  @override
+  String get no_manager => 'Sem administrador';
+
+  @override
+  String get log_operator_label => 'Operador:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'A quantidade a ser retirada não pode exceder o estoque atual';
 }

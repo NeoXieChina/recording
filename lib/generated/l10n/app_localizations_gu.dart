@@ -1476,4 +1476,80 @@ class AppLocalizationsGu extends AppLocalizations {
 
   @override
   String get created_at_desc => 'સમય પ્રમાણે ઉતરતી ક્રમમાં ઉમેરો';
+
+  @override
+  String get location_management => 'કૂટણ વ્યવસ્થાપન';
+
+  @override
+  String get private_warehouses => 'ખાનગી લાઇબ્રેરી';
+
+  @override
+  String get public_warehouses => 'પબ્લિક લાઇબ્રેરી';
+
+  @override
+  String get is_public_warehouse => 'સારાibli';
+
+  @override
+  String get public_warehouse_desc =>
+      'સામાન્ય લાઈબ્રેરીમાં વ્યવસ્થાપક નથી, સ્ટોકમાંથી બહાર અને અંદર પહોંચાડવા માટે ઓપરેટરનું નામ ભરવું જરૂરી છે';
+
+  @override
+  String get manager => 'પ્રબંધક';
+
+  @override
+  String get not_set => 'સેટ કર્યું નથી';
+
+  @override
+  String get edit_location => 'કૂટાલય સંપાદિત કરો';
+
+  @override
+  String get location_name => 'ગ્રંથાલયનું નામ';
+
+  @override
+  String get manager_name => 'પ્રશાસકનું નામ';
+
+  @override
+  String get enter_manager_name => 'કૃપા કરીને ઍડમિનનું નામ દાખલ કરો';
+
+  @override
+  String get manager_name_required => 'પ્રશાસકનું નામ ખાલી હોવું ન જોઈએ';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'શું તમે લાઇબ્રેરી «$name»ને કાઢી નાખવા માંગો છો?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'આ લાઈબ્રેરીમાં હજુ વસ્તુઓ છે, સૉફ્ટવેર કાઢી શકાતી નથી';
+
+  @override
+  String get default_manager => 'ડિફોલ્ટ એડમિનિસ્ટ્રેટર';
+
+  @override
+  String get default_manager_desc =>
+      'નવી ખાનગી રિપોઝિટરી બનાવવા વખતે ડિફોલ્ટ એડમિનિસ્ટ્રેટર';
+
+  @override
+  String get enter_default_manager =>
+      'મહેરબાની કરીને ડિફોલ્ટ એડમિનિસ્ટ્રેટર નામ દાખલ કરો';
+
+  @override
+  String get operator_name => 'ઓપરેટરનું નામ';
+
+  @override
+  String get enter_operator_name => 'કૃપા કરીને કાર્યકરનું નામ દાખલ કરો';
+
+  @override
+  String get operator_name_required => 'ચાલકનું નામ ખાલી ન હોઈ શકે';
+
+  @override
+  String get no_manager => 'કોઈ પ્રમુખ نہیں';
+
+  @override
+  String get log_operator_label => 'ઓપરેટર:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'વિતરણ કી સંખ્યા વર્તમાન સ્ટોક કરતા વધુ ન થઈ શકે';
 }

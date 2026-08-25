@@ -2102,5 +2102,102 @@
   "created_at_desc": "Tambahkan urutan waktu menurun",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Manajemen Gudang",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Repositori pribadi",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Perpustakaan Publik",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Perpustakaan Publik",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Perpustakaan publik tidak memiliki administrator, keluar masuk barang perlu mengisi operator",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Administrator",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Belum disetel",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Perpustakaan Edit",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Nama perpustakaan",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Nama administrator",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Silakan masukkan nama administrator",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Nama administrator tidak boleh kosong",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Apakah Anda yakin ingin menghapus perpustakaan \"{name}\"?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Administrator default",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Administrator default saat membuat repositori pribadi baru",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Silakan masukkan nama administrator default",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Nama operator",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Silakan masukkan nama operator",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Nama operator tidak boleh kosong",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Tanpa administrator",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Operator:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Jumlah keluar tidak boleh melebihi stok saat ini",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Masih ada barang di perpustakaan ini, tidak dapat dihapus",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

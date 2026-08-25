@@ -2102,5 +2102,102 @@
   "created_at_desc": "Afegir ordre descendent de temps",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Gestió d'emmagatzematge",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Repositori privat",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Biblioteca pública",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Biblioteca pública",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "La biblioteca pública no té administrador, cal que l'operador ompli el registre en entrar i sortir material.",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Administrador",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "No establert",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Editar biblioteca",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Nom de la biblioteca",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Nom de l'administrador",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Si us plau, introdueixi el nom de l'administrador",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "El nom de l'administrador no pot estar buit",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Esteu segur que voleu eliminar la biblioteca «{name}»?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Administrador predeterminat",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Administrador per defecte en crear un repositori privat",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Si us plau, introduïu el nom de l'administrador per defecte",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Nom de l'operador",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Si us plau, introduïu el nom de l'operador",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "El nom de l'operador no pot estar buit",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Sense administrador",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Operador:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "La quantitat de sortida no pot superar l'inventari actual",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Hi ha encara objectes a aquesta biblioteca, no es pot eliminar",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

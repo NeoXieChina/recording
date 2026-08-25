@@ -25,6 +25,7 @@ class OperationLogProvider extends ChangeNotifier {
     Item item, {
     int? quantityChange,
     Item? oldItem,
+    String? operator,
   }) async {
     List<FieldChange>? fieldChanges;
     if (type == OperationType.update && oldItem != null) {
@@ -36,6 +37,7 @@ class OperationLogProvider extends ChangeNotifier {
       item: item,
       quantityChange: quantityChange,
       fieldChanges: fieldChanges,
+      operator: operator,
     );
     await _db.insertOperationLog(log);
     await _db.clearOldOperationLogs(_maxLogCount);

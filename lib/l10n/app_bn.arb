@@ -2102,5 +2102,102 @@
   "created_at_desc": "যোগের সময় অনুযায়ী অবরোহমান",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "গুদাম ব্যবস্থাপনা",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "বেসরকারি লাইব্রেরি",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "সার্বজনীন গ্রন্থাগার",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "সার্বজনীন গ্রন্থাগার",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "সাধারণ লাইব্রেরিতে কোনো প্রশাসক নেই, স্টক আউট বা স্টক ইন করার সময় অপারেটরের নাম লিখতে হবে",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "প্রশাসক",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "সেট করা হয়নি",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "সম্পাদনার বই",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "লাইব্রেরির নাম",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "প্রশাসকের নাম",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "অনুগ্রহ করে প্রশাসকের নাম লিখুন",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "প্রশাসকের নাম খালি রাখা যাবে না",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "আপনি কি আসলেই লাইব্রেরি „{name}“ মুছে ফেলতে চান?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "ডিফল্ট অ্যাডমিনিস্ট্রেটর",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "নতুন ব্যক্তিগত রিপোজিটরি তৈরি করার সময় ডিফল্ট প্রশাসক",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "দয়া করে ডিফল্ট অ্যাডমিনের নাম লিখুন",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "পরিচালনাকারীর নাম",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "দয়া করে অপারেটরের নাম লিখুন",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "অপারেটরের নাম খালি রাখা যাবে না",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "কোনও প্রশাসক নেই",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "পরিচালনাকারী:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "বিক্রয়যোগ্য পরিমাণ বর্তমানে স্টকের চেয়ে বেশি হতে পারবে না",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "গ্রন্থাগারে এখনও আইটেম আছে, মুছে ফেলা যাবে না",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

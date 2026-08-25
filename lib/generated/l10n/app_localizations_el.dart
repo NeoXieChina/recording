@@ -1491,4 +1491,82 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Προσθήκη κατά φθίνουσα χρονολογία';
+
+  @override
+  String get location_management => 'Διαχείριση αποθήκης';
+
+  @override
+  String get private_warehouses => 'Ιδιωτικό αποθετήριο';
+
+  @override
+  String get public_warehouses => 'Δημόσια βιβλιοθήκη';
+
+  @override
+  String get is_public_warehouse => 'δημόσια βιβλιοθήκη';
+
+  @override
+  String get public_warehouse_desc =>
+      'Η δημόσια αποθήκη δεν έχει διαχειριστή, η έξοδος και η είσοδος αποθεμάτων απαιτεί την καταχώριση του υπεύθυνου λειτουργίας';
+
+  @override
+  String get manager => 'Διαχειριστής';
+
+  @override
+  String get not_set => 'Δεν έχει ρυθμιστεί';
+
+  @override
+  String get edit_location => 'Επεξεργασία βιβλιοθήκης';
+
+  @override
+  String get location_name => 'Όνομα βιβλιοθήκης';
+
+  @override
+  String get manager_name => 'Όνομα διαχειριστή';
+
+  @override
+  String get enter_manager_name => 'Παρακαλώ εισάγετε το όνομα του διαχειριστή';
+
+  @override
+  String get manager_name_required =>
+      'Το όνομα του διαχειριστή δεν μπορεί να είναι κενό';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Είστε βέβαιοι ότι θέλετε να διαγράψετε τη βιβλιοθήκη «$name»;';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Υπάρχουν ακόμα αντικείμενα σε αυτή τη βιβλιοθήκη, δεν μπορεί να διαγραφεί';
+
+  @override
+  String get default_manager => 'Προεπιλεγμένος διαχειριστής';
+
+  @override
+  String get default_manager_desc =>
+      'Προεπιλεγμένος διαχειριστής κατά τη δημιουργία νέου ιδιωτικού αποθετηρίου';
+
+  @override
+  String get enter_default_manager =>
+      'Παρακαλώ εισαγάγετε το προεπιλεγμένο όνομα διαχειριστή';
+
+  @override
+  String get operator_name => 'Όνομα χειριστή';
+
+  @override
+  String get enter_operator_name => 'Παρακαλώ εισαγάγετε το όνομα του χειριστή';
+
+  @override
+  String get operator_name_required =>
+      'Το όνομα του χειριστή δεν μπορεί να είναι κενό';
+
+  @override
+  String get no_manager => 'Χωρίς διαχειριστή';
+
+  @override
+  String get log_operator_label => 'Χειριστής:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Η ποσότητα εξαγωγής δεν μπορεί να υπερβαίνει το τρέχον απόθεμα';
 }

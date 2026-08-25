@@ -1479,4 +1479,84 @@ class AppLocalizationsAf extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Voeg tyd in aflopende volgorde by';
+
+  @override
+  String get location_management => 'Pakhuishantering';
+
+  @override
+  String get private_warehouses => 'Privaat biblioteek';
+
+  @override
+  String get public_warehouses => 'Publieke biblioteek';
+
+  @override
+  String get is_public_warehouse => 'Publieke biblioteek';
+
+  @override
+  String get public_warehouse_desc =>
+      'Die openbare stoorkamer het geen bestuurder nie, en om items uit of in te neem moet die operateur se naam ingevul word.';
+
+  @override
+  String get manager => 'administrateur';
+
+  @override
+  String get not_set => 'Nie gestel nie';
+
+  @override
+  String get edit_location => 'Redigeer biblioteek';
+
+  @override
+  String get location_name => 'Databasisnaam';
+
+  @override
+  String get manager_name => 'Beheerdersnaam';
+
+  @override
+  String get enter_manager_name =>
+      'Voer asseblief die administrateur se naam in';
+
+  @override
+  String get manager_name_required =>
+      'Die administrateur se naam mag nie leeg wees nie';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Is jy seker jy wil die biblioteek „$name“ verwyder?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Daar is steeds items in hierdie biblioteek, dit kan nie verwyder word nie';
+
+  @override
+  String get default_manager => 'Standaard administrateur';
+
+  @override
+  String get default_manager_desc =>
+      'Standaardadministrateur by die skep van \'n nuwe privaat bewaarplek';
+
+  @override
+  String get enter_default_manager =>
+      'Voer asseblief die standaard administrateur se naam in';
+
+  @override
+  String get operator_name => 'Bedryfsoperator se naam';
+
+  @override
+  String get enter_operator_name =>
+      'Voer asseblief die naam van die operateur in';
+
+  @override
+  String get operator_name_required =>
+      'Die naam van die operateur mag nie leeg wees nie';
+
+  @override
+  String get no_manager => 'Geen bestuurder';
+
+  @override
+  String get log_operator_label => 'Operateur:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Die hoeveelheid wat uitgevoer word, mag nie die huidige voorraad oorskry nie';
 }

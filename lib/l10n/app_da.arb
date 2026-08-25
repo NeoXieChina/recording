@@ -2102,5 +2102,102 @@
   "created_at_desc": "Tilføj tidsorden faldende",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Lagerstyring",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Privat lager",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Offentligt bibliotek",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Offentligt bibliotek",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Det offentlige lager har ingen administrator, og ind- og udlevering kræver udfyldelse af operatør.",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Administrator",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Ikke indstillet",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Rediger bibliotek",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Biblioteksnavn",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Administratorens navn",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Indtast administratorens navn",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Administratorens navn må ikke være tomt",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Er du sikker på, at du vil slette biblioteket „{name}“?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Standardadministrator",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Standardadministrator ved oprettelse af privat lager",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Indtast standardadministratorens navn",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Operatørens navn",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Indtast operatørens navn",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Operatørens navn må ikke være tomt",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Ingen administrator",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Operatør:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Udgående mængde må ikke overstige den nuværende lagerbeholdning",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Der er stadig genstande i biblioteket, så det kan ikke slettes",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

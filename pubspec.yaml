@@ -109,6 +109,13 @@ flutter:
   #
 # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+  fonts:
+    - family: 思源宋体 CN
+      fonts:
+        - asset: assets/fonts/SourceHanSerifCN-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SourceHanSerifCN-Bold.otf
+          weight: 700
 icons_launcher:
   image_path: 'assets/appicon.png'
   platforms:

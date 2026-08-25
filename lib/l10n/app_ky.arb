@@ -2102,5 +2102,102 @@
   "created_at_desc": "Кошуу убактысын азайган тартипте",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Борборду башкаруу",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Жеке репозиторий",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Жайкы китепкана",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Жайкы китепкана",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Жамааттык кампада администратор жок, чыгаруулар менен киргизүүлөрдө операторду көрсөтүү керек",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Башкаруучу",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Орнотулган эмес",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Кутубаны түзөтүү",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Кутубкана аты",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Башкаруучунун аты",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Башкаруучунун атын киргизиңиз",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Башкаруучунун аты бош болбошу керек",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "«{name}» китепканасын чындап өчүргүңүз келеби?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "демейки администратор",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Жаңы жеке репозиторийди түзгөндө демейки администратор",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Башкы администратордун атын киргизиңиз",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Операциянын жүргүзүүчүсүнүн аты-жөнү",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Иштөөчү адамдын атын киргизиңиз",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Иштөөчү адамдын аты бош болбошу керек",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Башкаруучу жок",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Иштеген адам:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Складтан чыгарылган товарлардын саны учурдагы запастын санынан көп болбойт",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Бул китепканада дагы буюмдар бар, алып салууга болбойт",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

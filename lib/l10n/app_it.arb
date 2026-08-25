@@ -2102,5 +2102,102 @@
   "created_at_desc": "Ordine decrescente per data di aggiunta",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Gestione del magazzino",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "repository privato",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Biblioteca pubblica",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Biblioteca pubblica",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "La biblioteca pubblica non ha amministratori, è necessario compilare l'operatore per l'entrata e l'uscita del magazzino",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Amministratore",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Non impostato",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Modifica libreria",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Nome della libreria",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Nome dell'amministratore",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Si prega di inserire il nome dell'amministratore",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Il nome dell'amministratore non può essere vuoto",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Sei sicuro di voler eliminare la libreria «{name}»?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Amministratore predefinito",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Amministratore predefinito quando si crea un nuovo repository privato",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Per favore inserisci il nome dell'amministratore predefinito",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Nome dell'operatore",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Per favore inserisci il nome dell'operatore",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Il nome dell'operatore non può essere vuoto",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Nessun amministratore",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Operatore:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "La quantità in uscita non può superare l'inventario attuale",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Ci sono ancora oggetti in questa libreria, impossibile eliminarla",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

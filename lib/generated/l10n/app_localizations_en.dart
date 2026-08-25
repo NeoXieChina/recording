@@ -1469,4 +1469,80 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Add time descending';
+
+  @override
+  String get location_management => 'Warehouse Management';
+
+  @override
+  String get private_warehouses => 'Private repository';
+
+  @override
+  String get public_warehouses => 'Public library';
+
+  @override
+  String get is_public_warehouse => 'Public library';
+
+  @override
+  String get public_warehouse_desc =>
+      'The public repository has no administrator; entry and exit of items require the operator to be recorded.';
+
+  @override
+  String get manager => 'Administrator';
+
+  @override
+  String get not_set => 'Not set';
+
+  @override
+  String get edit_location => 'Edit Library';
+
+  @override
+  String get location_name => 'Library Name';
+
+  @override
+  String get manager_name => 'Administrator Name';
+
+  @override
+  String get enter_manager_name => 'Please enter the administrator\'s name';
+
+  @override
+  String get manager_name_required => 'Administrator name cannot be empty';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Are you sure you want to delete the library \"$name\"?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'There are still items in this library, cannot delete';
+
+  @override
+  String get default_manager => 'Default Administrator';
+
+  @override
+  String get default_manager_desc =>
+      'Default administrator when creating a new private repository';
+
+  @override
+  String get enter_default_manager =>
+      'Please enter the default administrator name';
+
+  @override
+  String get operator_name => 'Operator Name';
+
+  @override
+  String get enter_operator_name => 'Please enter the operator\'s name';
+
+  @override
+  String get operator_name_required => 'Operator name cannot be empty';
+
+  @override
+  String get no_manager => 'No administrator';
+
+  @override
+  String get log_operator_label => 'Operator:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'The quantity shipped out cannot exceed the current inventory';
 }

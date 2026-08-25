@@ -2102,5 +2102,102 @@
   "created_at_desc": "Добавить по убыванию времени",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Управление складом",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "частный репозиторий",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Общественная библиотека",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Общественная библиотека",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Общая библиотека не имеет администратора, для выдачи и приема необходимо указывать оператора",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "администратор",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Не установлено",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Редактировать библиотеку",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Название библиотеки",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Имя администратора",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Пожалуйста, введите имя администратора",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Имя администратора не может быть пустым",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Вы уверены, что хотите удалить библиотеку «{name}»?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Администратор по умолчанию",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Администратор по умолчанию при создании нового приватного репозитория",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Пожалуйста, введите имя администратора по умолчанию",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Имя оператора",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Пожалуйста, введите имя оператора",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Имя оператора не может быть пустым",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Нет администратора",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Оператор:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Количество отгрузки не может превышать текущие запасы",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "В этой библиотеке есть предметы, удаление невозможно",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

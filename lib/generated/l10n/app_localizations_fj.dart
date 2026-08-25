@@ -1496,4 +1496,82 @@ class AppLocalizationsFj extends AppLocalizations {
   @override
   String get created_at_desc =>
       'Veisautaka na gauna me vaka na ilavelave sa rui lailai';
+
+  @override
+  String get location_management => 'Vale ni veivakatorocaketaki ni iyaya';
+
+  @override
+  String get private_warehouses => 'iLavo ni Veika e Tadra';
+
+  @override
+  String get public_warehouses => 'Vale ni iVakadonui';
+
+  @override
+  String get is_public_warehouse => 'Vale ni iVakadonui';
+
+  @override
+  String get public_warehouse_desc =>
+      'Na valenivolivoli e sega ni dua na tamata batini, me vola na tamata cakacaka me vakatotolo ni vakawasoma kei na buli';
+
+  @override
+  String get manager => 'iVakatakilakila ni veiqaravi';
+
+  @override
+  String get not_set => 'Sega ni vakatulewa';
+
+  @override
+  String get edit_location => 'Vale ni veivosaki';
+
+  @override
+  String get location_name => 'Yaca ni Valenivolavola';
+
+  @override
+  String get manager_name => 'Yaca ni Daunivakasala';
+
+  @override
+  String get enter_manager_name => 'Yacamu na Dauniveilewai';
+
+  @override
+  String get manager_name_required =>
+      'Na yaca ni dauvakayagataki e sega ni rawa ni cala';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'O sa dikeva me vakarautaki na valenivolavola \'$name\'?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'E tiko talega ena sitoa na iyaya, e sega ni rawa ni vakarawarawataka';
+
+  @override
+  String get default_manager => 'Vale ni Veiliutaki ni Yaga Vakarawarawara';
+
+  @override
+  String get default_manager_desc =>
+      'Na daunibenefiti vakadodonu ena kena bulia e dua na valenivolavola vakavuni';
+
+  @override
+  String get enter_default_manager =>
+      'Kerekere volai na yaca ni dauveivakamarautaki e vakarautaki';
+
+  @override
+  String get operator_name => 'Yaca ni lewenivanua e vakayagataka';
+
+  @override
+  String get enter_operator_name => 'Kerekere volai na yaca ni tamata cakacaka';
+
+  @override
+  String get operator_name_required =>
+      'Na yaca ni tamata e qarava na cakacaka e sega ni rawa ni vuina';
+
+  @override
+  String get no_manager => 'Sega ni dauvakabula';
+
+  @override
+  String get log_operator_label => 'Daulawa: ';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Na levu ni vakavurevure e sega ni rawa ni sivia na iwasewase ni ilavo e tiko ena gauna qo';
 }

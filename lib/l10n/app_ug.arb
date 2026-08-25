@@ -2102,5 +2102,102 @@
   "created_at_desc": "قوشۇلغان ۋاقىت بويىچە چۈشۈرۈش تىرىپى",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "مال ساقلاش باشقۇرۇشى",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "شەخسىي سانلىق مەنبە",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "ئاممىۋى كۇتۇپخانا",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "ئاممىۋى كۇتۇپخانا",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "ئاممىۋى ئامبىرىدا باشقۇرغۇچى يوق، چىقىرىش ۋە كىرىتىش جەريانلىرىدا ئەمەلگە ئاشыруۋاتقان ئادەمنىڭ ئىسمى تولدۇرۇلۇشى كېرەك",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "باشقۇرغۇچى",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "تەڭشەلمىگەن",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "تەھرىرلاش كۇتۇپخانىسى",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "سانلىق مەلۇمات ئامبىرى ئىسمى",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "باشقۇرغۇچى ئىسمى",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "باشقۇرغۇچى ئىسمىنى كىرگۈزۈڭ",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "باشقۇرغۇچى ئىسمى بوش قالالمىيدۇ",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "«{name}» كىتابخانىسىنى ئۆچۈرۈشنى چىن دىلدىن خالىسىزمۇ؟",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "ئادەتتىكى باشقۇرغۇچى",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "يېڭى شەخسىي كۇتۇپخانە قۇرغاندا ئەسلىدىكى باشقۇرغۇچى",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "تەڭشەلمە ئەدەمنى نامىنى كىرگۈزۈڭ",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "ئىشلىگەن ئادەمنىڭ ئىسمى",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "ئىش باشقۇرغۇچىنىڭ ئىسىمنى كىرگۈزۈڭ",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "ئامەلدارنىڭ ئىسمى بوش بولالمайды",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "باشقۇرغۇچى يوق",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "ئىشلىگەن ئادەم:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "خارىج قىلىنغان مىقدار ھازىرقى زاپاستىن ئېشىپ كەتمەسلىكى كېرەك",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "بۇ كۇتۇپخانىدا يەنە بەرەلمە يوق، ئۆچۈرۈپ بولمايدۇ",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

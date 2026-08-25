@@ -1479,4 +1479,80 @@ class AppLocalizationsHr extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Dodaj po vremenu opadajuće';
+
+  @override
+  String get location_management => 'Upravljanje skladištem';
+
+  @override
+  String get private_warehouses => 'Privatni spremnik';
+
+  @override
+  String get public_warehouses => 'javna biblioteka';
+
+  @override
+  String get is_public_warehouse => 'javna biblioteka';
+
+  @override
+  String get public_warehouse_desc =>
+      'Javna skladišta nemaju administratora, za izlaz i ulaz robe potrebno je upisati operatera';
+
+  @override
+  String get manager => 'Administrator';
+
+  @override
+  String get not_set => 'Nije postavljeno';
+
+  @override
+  String get edit_location => 'Uredi biblioteku';
+
+  @override
+  String get location_name => 'Naziv biblioteke';
+
+  @override
+  String get manager_name => 'Ime administratora';
+
+  @override
+  String get enter_manager_name => 'Unesite ime administratora';
+
+  @override
+  String get manager_name_required => 'Ime administratora ne smije biti prazno';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Jeste li sigurni da želite izbrisati biblioteku „$name“?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'U toj knjižnici još uvijek ima predmeta, nije moguće izbrisati';
+
+  @override
+  String get default_manager => 'Zadani administrator';
+
+  @override
+  String get default_manager_desc =>
+      'Zadani administrator prilikom stvaranja privatnog spremišta';
+
+  @override
+  String get enter_default_manager =>
+      'Molimo unesite zadano ime administratora';
+
+  @override
+  String get operator_name => 'Ime osobe koja upravlja';
+
+  @override
+  String get enter_operator_name => 'Molimo unesite ime operatera';
+
+  @override
+  String get operator_name_required => 'Ime operatera ne može biti prazno';
+
+  @override
+  String get no_manager => 'Bez administratora';
+
+  @override
+  String get log_operator_label => 'Operater:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Količina koja se izvodi iz skladišta ne smije premašiti trenutni inventar';
 }

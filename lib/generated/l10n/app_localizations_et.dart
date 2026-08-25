@@ -1472,4 +1472,80 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Lisa aeg kahanevas järjekorras';
+
+  @override
+  String get location_management => 'Laohaldus';
+
+  @override
+  String get private_warehouses => 'Privaatne hoidla';
+
+  @override
+  String get public_warehouses => 'Avalik kogu';
+
+  @override
+  String get is_public_warehouse => 'Avalik kogu';
+
+  @override
+  String get public_warehouse_desc =>
+      'Avalikus laos puudub administraator, laost väljavõtmisel ja sissevõtmisel tuleb täita operaatori nimi';
+
+  @override
+  String get manager => 'Administraator';
+
+  @override
+  String get not_set => 'Pole seatud';
+
+  @override
+  String get edit_location => 'Redigeeri raamatukogu';
+
+  @override
+  String get location_name => 'Raamatukogu nimi';
+
+  @override
+  String get manager_name => 'Administraatori nimi';
+
+  @override
+  String get enter_manager_name => 'Palun sisestage administraatori nimi';
+
+  @override
+  String get manager_name_required => 'Administraatori nimi ei tohi olla tühi';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Kas olete kindel, et soovite kustutada teegi „$name”?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Kogus on veel esemeid, ei saa kustutada';
+
+  @override
+  String get default_manager => 'Vaikimisi administraator';
+
+  @override
+  String get default_manager_desc =>
+      'Uue privaatrepo loomisel vaikimisi administraator';
+
+  @override
+  String get enter_default_manager =>
+      'Palun sisestage vaikimisi administraatori nimi';
+
+  @override
+  String get operator_name => 'Operatsiooni teostaja nimi';
+
+  @override
+  String get enter_operator_name => 'Palun sisestage operaatori nimi';
+
+  @override
+  String get operator_name_required => 'Operaatori nimi ei tohi olla tühi';
+
+  @override
+  String get no_manager => 'Ilma administraatorita';
+
+  @override
+  String get log_operator_label => 'Teostaja:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Väljastatud kogus ei tohi ületada praegust laoseisu';
 }

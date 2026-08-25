@@ -1478,4 +1478,80 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Hozzáadás időrend szerint csökkenő';
+
+  @override
+  String get location_management => 'Raktárkezelés';
+
+  @override
+  String get private_warehouses => 'Privát tároló';
+
+  @override
+  String get public_warehouses => 'nyilvános könyvtár';
+
+  @override
+  String get is_public_warehouse => 'nyilvános könyvtár';
+
+  @override
+  String get public_warehouse_desc =>
+      'A nyilvános raktárnak nincs rendszergazdája, a ki- és betároláshoz fel kell tüntetni a kezelőt';
+
+  @override
+  String get manager => 'Rendszergazda';
+
+  @override
+  String get not_set => 'Nincs beállítva';
+
+  @override
+  String get edit_location => 'Könyvtár szerkesztése';
+
+  @override
+  String get location_name => 'Könyvtár neve';
+
+  @override
+  String get manager_name => 'Adminisztrátor neve';
+
+  @override
+  String get enter_manager_name => 'Kérjük, adja meg a rendszergazda nevét';
+
+  @override
+  String get manager_name_required => 'Az adminisztrátor neve nem lehet üres';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Biztosan törölni szeretné a „$name” könyvtárat?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'A könyvtárban még vannak tárgyak, nem lehet törölni';
+
+  @override
+  String get default_manager => 'Alapértelmezett adminisztrátor';
+
+  @override
+  String get default_manager_desc =>
+      'Az új privát tár létrehozásakor az alapértelmezett adminisztrátor';
+
+  @override
+  String get enter_default_manager =>
+      'Kérjük, adja meg az alapértelmezett rendszergazda nevét';
+
+  @override
+  String get operator_name => 'Műveletet végző személy neve';
+
+  @override
+  String get enter_operator_name => 'Kérjük, adja meg az operátor nevét';
+
+  @override
+  String get operator_name_required => 'A kezelő neve nem lehet üres';
+
+  @override
+  String get no_manager => 'Nincs rendszergazda';
+
+  @override
+  String get log_operator_label => 'Műveletet végző személy:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'A kiadott mennyiség nem haladhatja meg a jelenlegi készletet';
 }

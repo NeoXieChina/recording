@@ -1476,4 +1476,80 @@ class AppLocalizationsIs extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Bæta við tímaröð lækkandi';
+
+  @override
+  String get location_management => 'Birgðastjórnun';
+
+  @override
+  String get private_warehouses => 'Einkageymsla';
+
+  @override
+  String get public_warehouses => 'Opinber bókasafn';
+
+  @override
+  String get is_public_warehouse => 'Opinber bókasafn';
+
+  @override
+  String get public_warehouse_desc =>
+      'Almennur birgðageymsla hefur engan stjórnanda, fyrir inn- og útflutning þarf að fylla út nafnið á þeim sem framkvæmir aðgerðina';
+
+  @override
+  String get manager => 'Stjórnandi';
+
+  @override
+  String get not_set => 'Ekki stillt';
+
+  @override
+  String get edit_location => 'Breyta bókasafni';
+
+  @override
+  String get location_name => 'Bókarsafnsnafn';
+
+  @override
+  String get manager_name => 'Nafn stjórnanda';
+
+  @override
+  String get enter_manager_name => 'Vinsamlegast sláðu inn nafn stjórnanda';
+
+  @override
+  String get manager_name_required => 'Nafn stjórnanda má ekki vera tómt';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Ertu viss um að þú viljir eyða bókasafninu „$name“?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Það eru enn hlutir í þessum geymslu, ekki er hægt að eyða';
+
+  @override
+  String get default_manager => 'Sjálfgefin stjórnandi';
+
+  @override
+  String get default_manager_desc =>
+      'Sjálfgefin stjórnandi þegar nýtt einkaleyfi er stofnað';
+
+  @override
+  String get enter_default_manager =>
+      'Vinsamlegast sláðu inn nafn sjálfgefið stjórnanda';
+
+  @override
+  String get operator_name => 'Nafn starfsmanns sem framkvæmdi aðgerðina';
+
+  @override
+  String get enter_operator_name => 'Vinsamlegast sláðu inn nafn aðgerðarmanns';
+
+  @override
+  String get operator_name_required => 'Nafn rekstraraðila má ekki vera tómt';
+
+  @override
+  String get no_manager => 'Enginn stjórnandi';
+
+  @override
+  String get log_operator_label => 'Aðgerðamaður:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Útfluttningsmagn má ekki vera meira en núverandi birgðir';
 }

@@ -2102,5 +2102,102 @@
   "created_at_desc": "Thêm theo thứ tự thời gian giảm dần",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Quản lý kho",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Kho tư nhân",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Thư viện công cộng",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Thư viện công cộng",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Kho chung không có quản trị viên, xuất nhập kho cần điền người thực hiện",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Quản trị viên",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Chưa được thiết lập",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Chỉnh sửa thư viện",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Tên thư viện",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Tên quản trị viên",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Vui lòng nhập tên quản trị viên",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Tên quản trị viên không được để trống",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Bạn có chắc chắn muốn xóa thư viện “{name}” không?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Quản trị viên mặc định",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Quản trị viên mặc định khi tạo kho riêng mới",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Vui lòng nhập tên quản trị viên mặc định",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Tên người thao tác",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Vui lòng nhập tên người thực hiện",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Tên người thao tác không được để trống",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Không có quản trị viên",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Người thao tác:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Số lượng xuất kho không được vượt quá tồn kho hiện tại",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Thư viện này vẫn còn vật phẩm, không thể xóa",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

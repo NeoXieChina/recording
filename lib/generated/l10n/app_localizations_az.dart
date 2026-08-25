@@ -1477,4 +1477,82 @@ class AppLocalizationsAz extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Əlavə edilmə vaxtına görə azalan sıra';
+
+  @override
+  String get location_management => 'Anbar idarəsi';
+
+  @override
+  String get private_warehouses => 'Şəxsi anbar';
+
+  @override
+  String get public_warehouses => 'İctimai kitabxana';
+
+  @override
+  String get is_public_warehouse => 'İctimai kitabxana';
+
+  @override
+  String get public_warehouse_desc =>
+      'Ümumi kitabxananın administratoru yoxdur, çıxarış və daxil etmə əməliyyatları üçün operatoru doldurmaq lazımdır';
+
+  @override
+  String get manager => 'İdarəçi';
+
+  @override
+  String get not_set => 'Təyin edilməyib';
+
+  @override
+  String get edit_location => 'Kitabxananı redaktə et';
+
+  @override
+  String get location_name => 'Kitabxana adı';
+
+  @override
+  String get manager_name => 'İdarəçinin adı';
+
+  @override
+  String get enter_manager_name =>
+      'Zəhmət olmasa administratorun adını daxil edin';
+
+  @override
+  String get manager_name_required => 'İdarəçi adı boş ola bilməz';
+
+  @override
+  String delete_location_confirm(String name) {
+    return '“$name” kitabxanasını silmək istədiyinizə əminsiniz?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Kütüphanədə hələ də maddələr var, silmək mümkün deyil';
+
+  @override
+  String get default_manager => 'Defolt administrator';
+
+  @override
+  String get default_manager_desc =>
+      'Yeni özəl anbar yaradıldıqda defolt administrator';
+
+  @override
+  String get enter_default_manager =>
+      'Zəhmət olmasa defolt administrator adını daxil edin';
+
+  @override
+  String get operator_name => 'Əməliyyatı həyata keçirənin adı';
+
+  @override
+  String get enter_operator_name => 'Zəhmət olmasa operatorun adını daxil edin';
+
+  @override
+  String get operator_name_required =>
+      'Əməliyyatı həyata keçirən şəxsin adı boş ola bilməz';
+
+  @override
+  String get no_manager => 'İdarəçi yoxdur';
+
+  @override
+  String get log_operator_label => 'Operator:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Çıxış miqdarı mövcud anbar miqdarını keçə bilməz';
 }

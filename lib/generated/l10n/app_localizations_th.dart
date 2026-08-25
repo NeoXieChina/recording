@@ -1465,4 +1465,79 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get created_at_desc => 'เพิ่มเวลาเรียงลำดับจากมากไปน้อย';
+
+  @override
+  String get location_management => 'การจัดการคลังสินค้า';
+
+  @override
+  String get private_warehouses => 'คลังเก็บส่วนตัว';
+
+  @override
+  String get public_warehouses => 'ห้องสมุดสาธารณะ';
+
+  @override
+  String get is_public_warehouse => 'คลังสาธารณะ';
+
+  @override
+  String get public_warehouse_desc =>
+      'คลังสาธารณะไม่มีผู้ดูแล การเบิก-จ่ายต้องกรอกผู้ปฏิบัติ';
+
+  @override
+  String get manager => 'ผู้ดูแลระบบ';
+
+  @override
+  String get not_set => 'ไม่ได้ตั้งค่า';
+
+  @override
+  String get edit_location => 'แก้ไขคลัง';
+
+  @override
+  String get location_name => 'ชื่อคลัง';
+
+  @override
+  String get manager_name => 'ชื่อผู้ดูแลระบบ';
+
+  @override
+  String get enter_manager_name => 'กรุณากรอกชื่อผู้ดูแลระบบ';
+
+  @override
+  String get manager_name_required => 'ชื่อผู้ดูแลระบบไม่สามารถเว้นว่างได้';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'คุณแน่ใจหรือว่าต้องการลบคลัง \"$name\"?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'ในคลังนี้ยังมีสิ่งของ ไม่สามารถลบได้';
+
+  @override
+  String get default_manager => 'ผู้ดูแลระบบเริ่มต้น';
+
+  @override
+  String get default_manager_desc =>
+      'ผู้ดูแลระบบเริ่มต้นเมื่อสร้างคลังส่วนตัวใหม่';
+
+  @override
+  String get enter_default_manager => 'กรุณาใส่ชื่อผู้ดูแลระบบเริ่มต้น';
+
+  @override
+  String get operator_name => 'ชื่อผู้ปฏิบัติงาน';
+
+  @override
+  String get enter_operator_name => 'กรุณากรอกชื่อผู้ปฏิบัติ';
+
+  @override
+  String get operator_name_required => 'ชื่อผู้ปฏิบัติไม่สามารถเว้นว่างได้';
+
+  @override
+  String get no_manager => 'ไม่มีผู้ดูแลระบบ';
+
+  @override
+  String get log_operator_label => 'ผู้ปฏิบัติงาน:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'จำนวนการเบิกออกจากคลังไม่สามารถเกินสต็อกปัจจุบันได้';
 }

@@ -2102,5 +2102,102 @@
   "created_at_desc": "הוסף לפי סדר זמן יורד",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "ניהול מחסן",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "מאגר פרטי",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "ספרייה ציבורית",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "ספרייה ציבורית",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "בספרייה הציבורית אין מנהל, ביציאת או כניסת מוצרים יש למלא את שם המפעיל",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "מנהל",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "לא הוגדר",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "ספריית עורך",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "שם הספרייה",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "שם המנהל",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "אנא הזן את שם המנהל",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "שם המנהל לא יכול להיות ריק",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "האם אתה בטוח שברצונך למחוק את הספרייה «{name}»?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "מנהלה ברירת מחדל",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "המנהל המוגדר כברירת מחדל בעת יצירת מאגר פרטי חדש",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "אנא הזן את שם מנהל ברירת המחדל",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "שם המפעיל",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "אנא הזן את שם המפעיל",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "שם המפעיל לא יכול להיות ריק",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "ללא מנהל",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "מפעיל:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "כמות היציאה מהמלאי לא יכולה לעלות על המלאי הנוכחי",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "בספרייה זו עדיין יש פריטים, אי אפשר למחוק",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

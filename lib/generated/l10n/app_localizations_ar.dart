@@ -1469,4 +1469,79 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get created_at_desc => 'إضافة ترتيب زمني تنازلي';
+
+  @override
+  String get location_management => 'إدارة المخزون';
+
+  @override
+  String get private_warehouses => 'مستودع خاص';
+
+  @override
+  String get public_warehouses => 'المكتبة العامة';
+
+  @override
+  String get is_public_warehouse => 'المكتبة العامة';
+
+  @override
+  String get public_warehouse_desc =>
+      'المستودع العام بدون مدير، يلزم كتابة اسم المشغل عند إخراج أو إدخال المخزون';
+
+  @override
+  String get manager => 'مسؤول';
+
+  @override
+  String get not_set => 'لم يتم الإعداد';
+
+  @override
+  String get edit_location => 'تحرير المكتبة';
+
+  @override
+  String get location_name => 'اسم المكتبة';
+
+  @override
+  String get manager_name => 'اسم المدير';
+
+  @override
+  String get enter_manager_name => 'الرجاء إدخال اسم المسؤول';
+
+  @override
+  String get manager_name_required => 'لا يمكن أن يكون اسم المسؤول فارغًا';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'هل أنت متأكد أنك تريد حذف المكتبة «$name»؟';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'لا يمكن الحذف لأن هناك عناصر في هذه المكتبة';
+
+  @override
+  String get default_manager => 'المسؤول الافتراضي';
+
+  @override
+  String get default_manager_desc =>
+      'المسؤول الافتراضي عند إنشاء مستودع خاص جديد';
+
+  @override
+  String get enter_default_manager => 'الرجاء إدخال اسم المدير الافتراضي';
+
+  @override
+  String get operator_name => 'اسم المشغل';
+
+  @override
+  String get enter_operator_name => 'الرجاء إدخال اسم المشغل';
+
+  @override
+  String get operator_name_required => 'اسم المشغل لا يمكن أن يكون فارغًا';
+
+  @override
+  String get no_manager => 'بدون مسؤول';
+
+  @override
+  String get log_operator_label => 'المشغل:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'لا يمكن أن تتجاوز كمية الخروج المخزون الحالي';
 }

@@ -2,7 +2,9 @@ import 'dart:io';
 
 import 'package:path/path.dart' as p;
 import 'package:recording/constants.dart';
+import 'package:recording/data/models/app_settings.dart';
 import 'package:recording/data/models/item.dart';
+import 'package:recording/data/models/location.dart';
 import 'package:recording/data/models/operation_log.dart';
 import 'package:recording/data/models/reminder.dart';
 import 'package:sqflite/sqflite.dart';
@@ -82,9 +84,28 @@ class AppDatabase {
         itemData TEXT NOT NULL,
         quantityChange INTEGER,
         fieldChanges TEXT,
+        operator TEXT,
         createdAt INTEGER NOT NULL
       )
     ''');
+
+    await db.execute('''
+      CREATE TABLE locations (
+        id TEXT PRIMARY KEY,
+        name TEXT NOT NULL UNIQUE,
+        isPublic INTEGER NOT NULL DEFAULT 0,
+        manager TEXT
+      )
+    ''');
+
+    await db.execute('''
+      CREATE TABLE settings (
+        id TEXT PRIMARY KEY,
+        defaultManager TEXT NOT NULL DEFAULT ''
+      )
+    ''');
+
+    await db.insert('settings', {'id': 'default', 'defaultManager': ''});
   }
 
   Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
@@ -165,6 +186,27 @@ class AppDatabase {
       await db.execute('''
         ALTER TABLE operation_logs ADD COLUMN fieldChanges TEXT
       ''');
+    }
+    if (oldVersion < 11) {
+      // 版本10升级到版本11：添加操作人字段、地点表、设置表
+      await db.execute('''
+        ALTER TABLE operation_logs ADD COLUMN operator TEXT
+      ''');
+      await db.execute('''
+        CREATE TABLE locations (
+          id TEXT PRIMARY KEY,
+          name TEXT NOT NULL UNIQUE,
+          isPublic INTEGER NOT NULL DEFAULT 0,
+          manager TEXT
+        )
+      ''');
+      await db.execute('''
+        CREATE TABLE settings (
+          id TEXT PRIMARY KEY,
+          defaultManager TEXT NOT NULL DEFAULT ''
+        )
+      ''');
+      await db.insert('settings', {'id': 'default', 'defaultManager': ''});
     }
   }
 
@@ -376,5 +418,62 @@ class AppDatabase {
       );
       await updateItem(updatedItem);
     }
+  }
+
+  Future<List<Location>> getLocations() async {
+    final db = await database;
+    final maps = await db.query('locations', orderBy: 'name ASC');
+    return maps.map((m) => Location.fromMap(m)).toList();
+  }
+
+  Future<Location?> getLocationByName(String name) async {
+    final db = await database;
+    final maps = await db.query('locations', where: 'name = ?', whereArgs: [name]);
+    if (maps.isEmpty) return null;
+    return Location.fromMap(maps.first);
+  }
+
+  Future<Location> insertLocation(Location location) async {
+    final db = await database;
+    await db.insert('locations', location.toMap());
+    return location;
+  }
+
+  Future<Location> updateLocation(Location location) async {
+    final db = await database;
+    await db.update(
+      'locations',
+      location.toMap(),
+      where: 'id = ?',
+      whereArgs: [location.id],
+    );
+    return location;
+  }
+
+  Future<void> deleteLocation(String id) async {
+    final db = await database;
+    await db.delete('locations', where: 'id = ?', whereArgs: [id]);
+  }
+
+  Future<AppSettings> getSettings() async {
+    final db = await database;
+    final maps = await db.query('settings', where: 'id = ?', whereArgs: ['default']);
+    if (maps.isEmpty) {
+      final settings = AppSettings(defaultManager: '');
+      await db.insert('settings', settings.toMap());
+      return settings;
+    }
+    return AppSettings.fromMap(maps.first);
+  }
+
+  Future<AppSettings> updateSettings(AppSettings settings) async {
+    final db = await database;
+    await db.update(
+      'settings',
+      settings.toMap(),
+      where: 'id = ?',
+      whereArgs: [settings.id],
+    );
+    return settings;
   }
 }

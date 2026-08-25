@@ -1482,4 +1482,84 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Nach Hinzufügungszeit absteigend';
+
+  @override
+  String get location_management => 'Lagerverwaltung';
+
+  @override
+  String get private_warehouses => 'Private Bibliothek';
+
+  @override
+  String get public_warehouses => 'öffentliche Bibliothek';
+
+  @override
+  String get is_public_warehouse => 'öffentliche Bibliothek';
+
+  @override
+  String get public_warehouse_desc =>
+      'Das öffentliche Lager hat keinen Administrator, beim Ein- und Auslagern muss der Bediener angegeben werden.';
+
+  @override
+  String get manager => 'Administrator';
+
+  @override
+  String get not_set => 'Nicht eingestellt';
+
+  @override
+  String get edit_location => 'Bibliothek bearbeiten';
+
+  @override
+  String get location_name => 'Bibliotheksname';
+
+  @override
+  String get manager_name => 'Administratorname';
+
+  @override
+  String get enter_manager_name =>
+      'Bitte geben Sie den Namen des Administrators ein';
+
+  @override
+  String get manager_name_required =>
+      'Der Name des Administrators darf nicht leer sein';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Möchten Sie die Bibliothek „$name“ wirklich löschen?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'In diesem Speicher befinden sich noch Gegenstände, daher kann er nicht gelöscht werden.';
+
+  @override
+  String get default_manager => 'Standardadministrator';
+
+  @override
+  String get default_manager_desc =>
+      'Standardadministrator beim Erstellen eines privaten Repositories';
+
+  @override
+  String get enter_default_manager =>
+      'Bitte geben Sie den Standardadministratornamen ein';
+
+  @override
+  String get operator_name => 'Name des Bedieners';
+
+  @override
+  String get enter_operator_name =>
+      'Bitte geben Sie den Namen des Bedieners ein';
+
+  @override
+  String get operator_name_required =>
+      'Der Name des Bedieners darf nicht leer sein';
+
+  @override
+  String get no_manager => 'Kein Administrator';
+
+  @override
+  String get log_operator_label => 'Bediener:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Die Auslagerungsmenge darf den aktuellen Lagerbestand nicht überschreiten';
 }

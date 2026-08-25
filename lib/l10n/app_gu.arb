@@ -2102,5 +2102,102 @@
   "created_at_desc": "સમય પ્રમાણે ઉતરતી ક્રમમાં ઉમેરો",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "કૂટણ વ્યવસ્થાપન",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "ખાનગી લાઇબ્રેરી",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "પબ્લિક લાઇબ્રેરી",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "સારાibli",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "સામાન્ય લાઈબ્રેરીમાં વ્યવસ્થાપક નથી, સ્ટોકમાંથી બહાર અને અંદર પહોંચાડવા માટે ઓપરેટરનું નામ ભરવું જરૂરી છે",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "પ્રબંધક",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "સેટ કર્યું નથી",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "કૂટાલય સંપાદિત કરો",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "ગ્રંથાલયનું નામ",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "પ્રશાસકનું નામ",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "કૃપા કરીને ઍડમિનનું નામ દાખલ કરો",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "પ્રશાસકનું નામ ખાલી હોવું ન જોઈએ",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "શું તમે લાઇબ્રેરી «{name}»ને કાઢી નાખવા માંગો છો?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "ડિફોલ્ટ એડમિનિસ્ટ્રેટર",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "નવી ખાનગી રિપોઝિટરી બનાવવા વખતે ડિફોલ્ટ એડમિનિસ્ટ્રેટર",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "મહેરબાની કરીને ડિફોલ્ટ એડમિનિસ્ટ્રેટર નામ દાખલ કરો",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "ઓપરેટરનું નામ",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "કૃપા કરીને કાર્યકરનું નામ દાખલ કરો",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "ચાલકનું નામ ખાલી ન હોઈ શકે",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "કોઈ પ્રમુખ نہیں",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "ઓપરેટર:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "વિતરણ કી સંખ્યા વર્તમાન સ્ટોક કરતા વધુ ન થઈ શકે",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "આ લાઈબ્રેરીમાં હજુ વસ્તુઓ છે, સૉફ્ટવેર કાઢી શકાતી નથી",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

@@ -1483,4 +1483,81 @@ class AppLocalizationsKn extends AppLocalizations {
 
   @override
   String get created_at_desc => 'ಸಮಯವನ್ನು ಇಳಿಜಾರಿನ ಕ್ರಮದಲ್ಲಿ ಸೇರಿಸಿ';
+
+  @override
+  String get location_management => 'ಖಜಾನೆ ನಿರ್ವಹಣೆ';
+
+  @override
+  String get private_warehouses => 'ಸ್ವಂತ ಸಂಗ್ರಹಾಲಯ';
+
+  @override
+  String get public_warehouses => 'ಸಾರ್ವಜನಿಕ ಗ್ರಂಥಾಲಯ';
+
+  @override
+  String get is_public_warehouse => 'ಸಾರ್ವಜನಿಕ ಗ್ರಂಥಾಲಯ';
+
+  @override
+  String get public_warehouse_desc =>
+      'ಸಾರ್ವಜನಿಕ ಲೈಬ್ರರಿ ಬಳಿ ನಿರ್ವಾಹಕರು ಇರಲಿಲ್ಲ, ಗ್ರಂಥಾಲಯದಿಂದ ಹೇರುವುದು ಅಥವಾ ಸೇರಿಸುವುದಕ್ಕೆ ಕಾರ್ಯನಿರ್ವಹಣೆಯ ವ್ಯಕ್ತಿಯ ಹೆಸರು ತುಂಬಬೇಕು';
+
+  @override
+  String get manager => 'ನಿರ್ವಾಹಕ';
+
+  @override
+  String get not_set => 'ಸೆಟ್ ಮಾಡಲಾಗಿಲ್ಲ';
+
+  @override
+  String get edit_location => 'ಎಡಿಟ್ ಲೈಬ್ರರಿ';
+
+  @override
+  String get location_name => 'ಗ್ರಂಥಾಲಯದ ಹೆಸರು';
+
+  @override
+  String get manager_name => 'ನಿರ್ವಹಣಾಧಿಕಾರದ ಹೆಸರು';
+
+  @override
+  String get enter_manager_name => 'ದಯವಿಟ್ಟು ನಿರ್ವಾಹಕನ ಹೆಸರು ನಮೂದಿಸಿ';
+
+  @override
+  String get manager_name_required => 'ಮ್ಯಾನೇಜರ್ ಹೆಸರು ಖಾಲಿಯಾಗಿರಬಾರದು';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'ನೀವು ಲೈಬ್ರರಿ „$name“ ಅನ್ನು ಅಳಿಸಲು ಖಾತ್ರಿ ಪಡುತ್ತೀರಾ?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'ಈ ಗ್ರಂಥಾಲಯದಲ್ಲಿ ಇನ್ನೂ ವಸ್ತುಗಳಿವೆ, ಅಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ';
+
+  @override
+  String get default_manager => 'ಡಿಫಾಲ್ಟ್ ವ್ಯವಸ್ಥಾಪಕ';
+
+  @override
+  String get default_manager_desc =>
+      'ಹೊಸ ಖಾಸಗಿ ගೋದಾಮು ನಿರ್ಮಿಸುತ್ತಾಗ ಪ್ರಾರಂಭಿಕ ಆಡಳಿತಾಧಿಕಾರಿ';
+
+  @override
+  String get enter_default_manager =>
+      'ದಯವಿಟ್ಟು ಡೀಫಾಲ್ಟ್ ನಿರ್ದೇಶಕರ ಹೆಸರನ್ನು ನಮೂದಿಸಿ';
+
+  @override
+  String get operator_name => 'ಆಪರೇಟರ್ ಹೆಸರು';
+
+  @override
+  String get enter_operator_name =>
+      'ದಯವಿಟ್ಟು ಕಾರ್ಯನಿರ್ವಹಣೆಯ ವ್ಯಕ್ತಿಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ';
+
+  @override
+  String get operator_name_required => 'ಆಪರೇಟರ್ ಹೆಸರು ಖಾಲಿ ಇರಬಾರದು';
+
+  @override
+  String get no_manager => 'ಪ್ರಶಾಸಕ ಇಲ್ಲ';
+
+  @override
+  String get log_operator_label => 'ಆಪರೇಟರ್:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'ಕಡತದಿಂದ ಹೊರಹೋಗುವ ಪ್ರಮಾಣವು ಪ್ರಸ್ತುತ ಸ್ತೋಕ್ನ ಮಿತಿಯನ್ನು ಮೀರುವುದಿಲ್ಲ';
 }

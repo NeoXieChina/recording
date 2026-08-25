@@ -2102,5 +2102,102 @@
   "created_at_desc": "Добавяне на време в низходящ ред",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Управление на склад",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Частно хранилище",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Публична библиотека",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "Публична библиотека",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "В публичния склад няма администратор, за изваждане и внасяне на стоки трябва да се попълни операторът.",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "администратор",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Не е зададено",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Редактиране на библиотеката",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Име на библиотека",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Име на администратора",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Моля, въведете името на администратора",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Името на администратора не може да бъде празно",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Сигурни ли сте, че искате да изтриете библиотеката „{name}“?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Потребител по подразбиране с администраторски права",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Потребител по подразбиране като администратор при създаване на ново лично хранилище",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Моля, въведете името на подразбиращия се администратор",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Име на оператора",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Моля, въведете името на оператора",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Името на оператора не може да бъде празно",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Без администратор",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Оператор:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Количество за изписване не може да надвишава текущия наличен запас",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "В тази библиотека все още има предмети и не може да бъде изтрита",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

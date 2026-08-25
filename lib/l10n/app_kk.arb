@@ -2102,5 +2102,102 @@
   "created_at_desc": "Қосу уақытын кему ретімен",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Қойма басқару",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Жеке репозиторий",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "қоғамдық кітапхана",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "қоғамдық кітапхана",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Қоғамдық қорда әкімші жоқ, қордан шығару мен кіргізу кезінде операцияны жүргізушіні толтыру қажет",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Әкімші",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Орнатылмаған",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Кітапхананы өңдеу",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Кітапхана атауы",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Әкімшінің аты",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Әкімші атын енгізіңіз",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Әкімші аты бос болмауы керек",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "«{name}» кітапханасын өшіргіңіз келетініне сенімдісіз бе?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Әдепкі әкімші",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Жеке репозиторийді жасағанда әдепкі әкімші",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Әдепкі әкімші атын енгізіңіз",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Операцияны орындаушының аты-жөні",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Операцияны орындаушының атын енгізіңіз",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Операцияны орындаушының аты бос болмауы керек",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Әкімші жоқ",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Операцияны орындаушы:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Шығару саны ағымдағы қордан аспауы керек",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Осы кітапханада заттар бар, жою мүмкін емес",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

@@ -2102,5 +2102,102 @@
   "created_at_desc": "समय के क्रम में घटते हुए जोड़ें",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "भंडार प्रबंधन",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "निजी भण्डार",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "सार्वजनिक पुस्तकालय",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "सार्वजनिक पुस्तकालय",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "सार्वजनिक भंडार में कोई प्रशासक नहीं है, भंडारण और निकासी के दौरान ऑपरेटर का नाम भरना आवश्यक है",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "प्रशासक",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "सेट नहीं किया गया",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "संपादन पुस्तकालय",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "पुस्तकालय का नाम",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "प्रशासक का नाम",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "कृपया प्रबंधक का नाम दर्ज करें",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "व्यवस्थापक का नाम खाली नहीं हो सकता",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "क्या आप लाइब्रेरी \"{name}\" को हटाना चाहते हैं?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "डिफ़ॉल्ट व्यवस्थापक",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "नया निजी रिपॉजिटरी बनाते समय डिफ़ॉल्ट व्यवस्थापक",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "कृपया डिफ़ॉल्ट व्यवस्थापक का नाम दर्ज करें",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "ऑपरेटर का नाम",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "कृपया ऑपरेटर का नाम दर्ज करें",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "संचालन करने वाले का नाम खाली नहीं हो सकता",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "कोई व्यवस्थापक नहीं",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "ऑपरेटर:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "निकासी की मात्रा वर्तमान स्टॉक से अधिक नहीं हो सकती",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "इस पुस्तकालय में अभी भी आइटम हैं, हटाया नहीं जा सकता",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

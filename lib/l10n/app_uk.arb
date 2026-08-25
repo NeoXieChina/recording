@@ -2102,5 +2102,102 @@
   "created_at_desc": "Додати сортування за спаданням часу",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Управління складом",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Приватний репозиторій",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "публічна бібліотека",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "публічна бібліотека",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "У публічному сховищі немає адміністратора, при видачі та прийомі потрібно заповнювати виконавця операції",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Адміністратор",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Не встановлено",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Редагувати бібліотеку",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Назва бібліотеки",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Ім'я адміністратора",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Будь ласка, введіть ім’я адміністратора",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Ім'я адміністратора не може бути порожнім",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Ви впевнені, що хочете видалити бібліотеку «{name}»?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Адміністратор за замовчуванням",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Адміністратор за замовчуванням при створенні приватного репозиторію",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Введіть ім'я адміністратора за замовчуванням",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Ім'я оператора",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Будь ласка, введіть ім'я оператора",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Ім'я оператора не може бути порожнім",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Без адміністратора",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Оператор:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Кількість для відвантаження не може перевищувати поточний запас",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "У цій бібліотеці ще є предмети, неможливо видалити",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

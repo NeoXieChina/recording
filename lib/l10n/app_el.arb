@@ -2102,5 +2102,102 @@
   "created_at_desc": "Προσθήκη κατά φθίνουσα χρονολογία",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "Διαχείριση αποθήκης",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "Ιδιωτικό αποθετήριο",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "Δημόσια βιβλιοθήκη",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "δημόσια βιβλιοθήκη",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "Η δημόσια αποθήκη δεν έχει διαχειριστή, η έξοδος και η είσοδος αποθεμάτων απαιτεί την καταχώριση του υπεύθυνου λειτουργίας",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "Διαχειριστής",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "Δεν έχει ρυθμιστεί",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "Επεξεργασία βιβλιοθήκης",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "Όνομα βιβλιοθήκης",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "Όνομα διαχειριστή",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "Παρακαλώ εισάγετε το όνομα του διαχειριστή",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "Το όνομα του διαχειριστή δεν μπορεί να είναι κενό",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "Είστε βέβαιοι ότι θέλετε να διαγράψετε τη βιβλιοθήκη «{name}»;",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "Προεπιλεγμένος διαχειριστής",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "Προεπιλεγμένος διαχειριστής κατά τη δημιουργία νέου ιδιωτικού αποθετηρίου",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "Παρακαλώ εισαγάγετε το προεπιλεγμένο όνομα διαχειριστή",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "Όνομα χειριστή",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "Παρακαλώ εισαγάγετε το όνομα του χειριστή",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "Το όνομα του χειριστή δεν μπορεί να είναι κενό",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "Χωρίς διαχειριστή",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "Χειριστής:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "Η ποσότητα εξαγωγής δεν μπορεί να υπερβαίνει το τρέχον απόθεμα",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "Υπάρχουν ακόμα αντικείμενα σε αυτή τη βιβλιοθήκη, δεν μπορεί να διαγραφεί",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

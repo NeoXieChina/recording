@@ -1457,4 +1457,78 @@ class AppLocalizationsAm extends AppLocalizations {
 
   @override
   String get created_at_desc => 'ወደ ታች የሚወርድ ጊዜ ይጨምሩ';
+
+  @override
+  String get location_management => 'የመጋዘን አስተዳደር';
+
+  @override
+  String get private_warehouses => 'የግል ማከማቻ';
+
+  @override
+  String get public_warehouses => 'የህዝብ ቤተ መጻሕፍት';
+
+  @override
+  String get is_public_warehouse => 'የህዝብ ቤተ መጻሕፍት';
+
+  @override
+  String get public_warehouse_desc =>
+      'የሕዝብ መጋዘን አስተዳዳሪ የለውም; የሸቀጦች መግቢያ እና መውጫ ኦፕሬተሩ እንዲመዘገብ ይጠይቃል።';
+
+  @override
+  String get manager => 'አስተዳዳሪ';
+
+  @override
+  String get not_set => 'አልተዘጋጀም';
+
+  @override
+  String get edit_location => 'ቤተ-መጽሐፍት ያርትዑ';
+
+  @override
+  String get location_name => 'የቤተመጽሐፍት ስም';
+
+  @override
+  String get manager_name => 'የአስተዳዳሪ ስም';
+
+  @override
+  String get enter_manager_name => 'እባክዎ የአስተዳዳሪውን ስም ያስገቡ';
+
+  @override
+  String get manager_name_required => 'የአስተዳዳሪ ስም ባዶ ሊሆን አይችልም';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'እርግጠኛ ነዎት የ \"$name\" ቤተ-መጽሐፍቱን መሰረዝ ይፈልጋሉ?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'በዚህ ቤተ-መጽሐፍት ውስጥ አሁንም እቃዎች አሉ፣ መሰረዝ አይቻልም';
+
+  @override
+  String get default_manager => 'ነባሪ አስተዳዳሪ';
+
+  @override
+  String get default_manager_desc => 'አዲስ የግል ማከማቻ ሲፈጥሩ ነባሪ አስተዳዳሪ';
+
+  @override
+  String get enter_default_manager => 'እባክዎ ነባሪውን የአስተዳዳሪ ስም ያስገቡ';
+
+  @override
+  String get operator_name => 'የኦፕሬተር ስም';
+
+  @override
+  String get enter_operator_name => 'እባክዎ የኦፕሬተሩን ስም ያስገቡ';
+
+  @override
+  String get operator_name_required => 'የኦፕሬተሩ ስም ባዶ ሊሆን አይችልም';
+
+  @override
+  String get no_manager => 'አስተዳዳሪ የለም';
+
+  @override
+  String get log_operator_label => 'ኦፕሬተር';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'የተላከው መጠን አሁን ካለው ክምችት መብለጥ አይችልም';
 }

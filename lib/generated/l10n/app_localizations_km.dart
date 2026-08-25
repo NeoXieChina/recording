@@ -1466,4 +1466,79 @@ class AppLocalizationsKm extends AppLocalizations {
 
   @override
   String get created_at_desc => 'បន្ថែមខ្ទង់ពេលវេលាឡើងលំដាប់កំរិតចុះ';
+
+  @override
+  String get location_management => 'ការគ្រប់គ្រងឃ្លាំង';
+
+  @override
+  String get private_warehouses => 'ឃ្លាំងឯកជន';
+
+  @override
+  String get public_warehouses => 'បណ្ណាល័យសាធារណៈ';
+
+  @override
+  String get is_public_warehouse => 'បណ្ណាល័យសាធារណៈ';
+
+  @override
+  String get public_warehouse_desc =>
+      'បណ្ណាល័យសាធារណៈគ្មានអ្នកគ្រប់គ្រង ចូលនិងចេញសម្ភារៈត្រូវបំពេញឈ្មោះប្រតិបត្តិករ';
+
+  @override
+  String get manager => 'អ្នកគ្រប់គ្រង';
+
+  @override
+  String get not_set => 'មិនបានកំណត់';
+
+  @override
+  String get edit_location => 'កែសម្រួលបណ្ណាល័យ';
+
+  @override
+  String get location_name => 'ឈ្មោះបណ្ណាល័យ';
+
+  @override
+  String get manager_name => 'ឈ្មោះអ្នកគ្រប់គ្រង';
+
+  @override
+  String get enter_manager_name => 'សូមបញ្ចូលឈ្មោះអ្នកគ្រប់គ្រង';
+
+  @override
+  String get manager_name_required => 'ឈ្មោះអ្នកគ្រប់គ្រងមិនអាចទទេបាន';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'តើអ្នកប្រាកដចង់លុបបណ្ណាល័យ «$name» ឬទេ?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'នៅក្នុងបណ្ណាល័យនេះនៅមានវត្ថុទំនិញ មិនអាចលុបបាន';
+
+  @override
+  String get default_manager => 'អ្នកគ្រប់គ្រងលំនាំដើម';
+
+  @override
+  String get default_manager_desc =>
+      'អ្នកគ្រប់គ្រងលំនាំដើមនៅពេលបង្កើតឃ្លាំងឯកជនថ្មី';
+
+  @override
+  String get enter_default_manager => 'សូមបញ្ចូលឈ្មោះអ្នកគ្រប់គ្រងលំនាំដើម';
+
+  @override
+  String get operator_name => 'ឈ្មោះអ្នកប្រតិបត្តិ';
+
+  @override
+  String get enter_operator_name => 'សូមបញ្ចូលឈ្មោះអ្នកប្រតិបត្តិ';
+
+  @override
+  String get operator_name_required => 'ឈ្មោះអ្នកប្រតិបត្តិមិនអាចទទេបាន';
+
+  @override
+  String get no_manager => 'គ្មានអ្នកគ្រប់គ្រង';
+
+  @override
+  String get log_operator_label => 'អ្នកប្រតិបត្តិការ៖';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'ចំនួនចេញពីឃ្លាំងមិនអាចលើសស្តុកបច្ចុប្បន្នបាន';
 }

@@ -1460,4 +1460,79 @@ class AppLocalizationsHe extends AppLocalizations {
 
   @override
   String get created_at_desc => 'הוסף לפי סדר זמן יורד';
+
+  @override
+  String get location_management => 'ניהול מחסן';
+
+  @override
+  String get private_warehouses => 'מאגר פרטי';
+
+  @override
+  String get public_warehouses => 'ספרייה ציבורית';
+
+  @override
+  String get is_public_warehouse => 'ספרייה ציבורית';
+
+  @override
+  String get public_warehouse_desc =>
+      'בספרייה הציבורית אין מנהל, ביציאת או כניסת מוצרים יש למלא את שם המפעיל';
+
+  @override
+  String get manager => 'מנהל';
+
+  @override
+  String get not_set => 'לא הוגדר';
+
+  @override
+  String get edit_location => 'ספריית עורך';
+
+  @override
+  String get location_name => 'שם הספרייה';
+
+  @override
+  String get manager_name => 'שם המנהל';
+
+  @override
+  String get enter_manager_name => 'אנא הזן את שם המנהל';
+
+  @override
+  String get manager_name_required => 'שם המנהל לא יכול להיות ריק';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'האם אתה בטוח שברצונך למחוק את הספרייה «$name»?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'בספרייה זו עדיין יש פריטים, אי אפשר למחוק';
+
+  @override
+  String get default_manager => 'מנהלה ברירת מחדל';
+
+  @override
+  String get default_manager_desc =>
+      'המנהל המוגדר כברירת מחדל בעת יצירת מאגר פרטי חדש';
+
+  @override
+  String get enter_default_manager => 'אנא הזן את שם מנהל ברירת המחדל';
+
+  @override
+  String get operator_name => 'שם המפעיל';
+
+  @override
+  String get enter_operator_name => 'אנא הזן את שם המפעיל';
+
+  @override
+  String get operator_name_required => 'שם המפעיל לא יכול להיות ריק';
+
+  @override
+  String get no_manager => 'ללא מנהל';
+
+  @override
+  String get log_operator_label => 'מפעיל:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'כמות היציאה מהמלאי לא יכולה לעלות על המלאי הנוכחי';
 }

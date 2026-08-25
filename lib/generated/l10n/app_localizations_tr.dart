@@ -1473,4 +1473,79 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Eklenme zamanına göre azalan sırada';
+
+  @override
+  String get location_management => 'Depo yönetimi';
+
+  @override
+  String get private_warehouses => 'Özel depo';
+
+  @override
+  String get public_warehouses => 'kamu kütüphanesi';
+
+  @override
+  String get is_public_warehouse => 'kamu kütüphanesi';
+
+  @override
+  String get public_warehouse_desc =>
+      'Ortak depo yöneticisi yok, mal çıkışı ve girişi için işlem yapan kişinin doldurulması gerekiyor';
+
+  @override
+  String get manager => 'Yönetici';
+
+  @override
+  String get not_set => 'Ayarlanmadı';
+
+  @override
+  String get edit_location => 'Veritabanını düzenle';
+
+  @override
+  String get location_name => 'Veritabanı Adı';
+
+  @override
+  String get manager_name => 'Yönetici Adı';
+
+  @override
+  String get enter_manager_name => 'Lütfen yönetici adını girin';
+
+  @override
+  String get manager_name_required => 'Yönetici adı boş olamaz';
+
+  @override
+  String delete_location_confirm(String name) {
+    return '「$name」 kütüphanesini silmek istediğinizden emin misiniz?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Kütüphanede hala öğeler var, silinemiyor.';
+
+  @override
+  String get default_manager => 'Varsayılan yönetici';
+
+  @override
+  String get default_manager_desc =>
+      'Yeni özel depo oluşturulduğunda varsayılan yönetici';
+
+  @override
+  String get enter_default_manager => 'Lütfen varsayılan yönetici adını girin';
+
+  @override
+  String get operator_name => 'Operatör Adı';
+
+  @override
+  String get enter_operator_name => 'Lütfen işlem yapan kişinin adını girin';
+
+  @override
+  String get operator_name_required => 'Operatör adı boş olamaz';
+
+  @override
+  String get no_manager => 'Yönetici yok';
+
+  @override
+  String get log_operator_label => 'Operatör:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Çıkış miktarı mevcut stoktan fazla olamaz';
 }

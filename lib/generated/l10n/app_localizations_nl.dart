@@ -1479,4 +1479,81 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Toegevoegd datum aflopend';
+
+  @override
+  String get location_management => 'Magazijnbeheer';
+
+  @override
+  String get private_warehouses => 'Privérepository';
+
+  @override
+  String get public_warehouses => 'publieke bibliotheek';
+
+  @override
+  String get is_public_warehouse => 'publieke bibliotheek';
+
+  @override
+  String get public_warehouse_desc =>
+      'De openbare opslag heeft geen beheerder, het in- en uitboeken vereist het invullen van de operator';
+
+  @override
+  String get manager => 'beheerder';
+
+  @override
+  String get not_set => 'Niet ingesteld';
+
+  @override
+  String get edit_location => 'Bibliotheek bewerken';
+
+  @override
+  String get location_name => 'Bibliotheeknaam';
+
+  @override
+  String get manager_name => 'Beheerdersnaam';
+
+  @override
+  String get enter_manager_name => 'Voer de naam van de beheerder in';
+
+  @override
+  String get manager_name_required =>
+      'De naam van de beheerder mag niet leeg zijn';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Weet u zeker dat u de bibliotheek \"$name\" wilt verwijderen?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Er bevinden zich nog items in deze bibliotheek, verwijderen is niet mogelijk';
+
+  @override
+  String get default_manager => 'Standaardbeheerder';
+
+  @override
+  String get default_manager_desc =>
+      'Standaardbeheerder bij het aanmaken van een nieuwe privérepository';
+
+  @override
+  String get enter_default_manager => 'Voer de standaard beheerdersnaam in';
+
+  @override
+  String get operator_name => 'Naam van de operator';
+
+  @override
+  String get enter_operator_name => 'Voer de naam van de operator in';
+
+  @override
+  String get operator_name_required =>
+      'De naam van de operator mag niet leeg zijn';
+
+  @override
+  String get no_manager => 'Geen beheerder';
+
+  @override
+  String get log_operator_label => 'Operator:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'De uit te leveren hoeveelheid mag de huidige voorraad niet overschrijden';
 }

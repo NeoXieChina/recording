@@ -1478,4 +1478,80 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Нэмсэн огноогоор буурахаар';
+
+  @override
+  String get location_management => 'Агуулахын удирдлага';
+
+  @override
+  String get private_warehouses => 'Хувийн сан';
+
+  @override
+  String get public_warehouses => 'Олон нийтийн сан';
+
+  @override
+  String get is_public_warehouse => 'Олон нийтийн сан';
+
+  @override
+  String get public_warehouse_desc =>
+      'Нийтийн сан нь удирдагчгүй, сангаас гаргах болон оруулах үед үйлдлийн хүндийг бөглөх шаардлагатай';
+
+  @override
+  String get manager => 'Менежер';
+
+  @override
+  String get not_set => 'Тохируулахгүй болсон';
+
+  @override
+  String get edit_location => 'Номын санг засах';
+
+  @override
+  String get location_name => 'Сангийн нэр';
+
+  @override
+  String get manager_name => 'Удирдлагын нэр';
+
+  @override
+  String get enter_manager_name => 'Админын нэрийг оруулна уу';
+
+  @override
+  String get manager_name_required => 'Удирдагчийн нэр хоосон байж болохгүй';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Та сан «$name»-г устгахыг баталгаажуулж байна уу?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Энэ сан дахь зүйлс байсаар байна, устгах боломжгүй';
+
+  @override
+  String get default_manager => 'Үндсэн администратор';
+
+  @override
+  String get default_manager_desc =>
+      'Шинээр хувийн сан үүсгэхэд анхдагч удирдагч';
+
+  @override
+  String get enter_default_manager => 'Анхны администраторын нэрийг оруулна уу';
+
+  @override
+  String get operator_name => 'Үйлдэгчийн нэр';
+
+  @override
+  String get enter_operator_name => 'Ажилтны нэрийг оруулна уу';
+
+  @override
+  String get operator_name_required =>
+      'Үйлдэл гүйцэтгэгчийн нэр хоосон байж болохгүй';
+
+  @override
+  String get no_manager => 'Админгүй';
+
+  @override
+  String get log_operator_label => 'Үйлдлийг гүйцэтгэсэн хүн:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Гарах нийт тоо одоогийн нөөцөөс хэтрэх ёсгүй';
 }

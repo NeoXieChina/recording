@@ -2102,5 +2102,102 @@
   "created_at_desc": "সময় অনুসৰি অৱনমিত",
   "@created_at_desc": {
     "description": ""
+  },
+  "location_management": "গুদাম ব্যৱস্থাপনা",
+  "@location_management": {
+    "description": ""
+  },
+  "private_warehouses": "নিজী বইঘৰ",
+  "@private_warehouses": {
+    "description": ""
+  },
+  "public_warehouses": "সাৰ্বজনীন গ্ৰন্থাগাৰ",
+  "@public_warehouses": {
+    "description": ""
+  },
+  "is_public_warehouse": "সাৰ্বজনীন গ্ৰন্থাগাৰ",
+  "@is_public_warehouse": {
+    "description": ""
+  },
+  "public_warehouse_desc": "সাধাৰণ কামৰ যন্ত্ৰৰ কোনো প্ৰশাসক নাই, ব্যৱহাৰ কৰাৰ বা সংৰক্ষণ কৰাৰ সময়ত অপাৰেটৰৰ নাম লিখিব লাগিব",
+  "@public_warehouse_desc": {
+    "description": ""
+  },
+  "manager": "প্ৰশাসক",
+  "@manager": {
+    "description": ""
+  },
+  "not_set": "সেট কৰা হোৱা নাই",
+  "@not_set": {
+    "description": ""
+  },
+  "edit_location": "সম্পাদনা কৰাৰ তালিকা",
+  "@edit_location": {
+    "description": ""
+  },
+  "location_name": "গ্ৰন্থাগাৰ নাম",
+  "@location_name": {
+    "description": ""
+  },
+  "manager_name": "প্ৰশাসকৰ নাম",
+  "@manager_name": {
+    "description": ""
+  },
+  "enter_manager_name": "অনুগ্ৰহ কৰি প্ৰশাসক নাম কৰক",
+  "@enter_manager_name": {
+    "description": ""
+  },
+  "manager_name_required": "প্ৰশাসকৰ নাম শুন্য নহ’ব পাৰে নে",
+  "@manager_name_required": {
+    "description": ""
+  },
+  "delete_location_confirm": "আপুনি নিশ্চিতনে যি লাইব্ৰেৰী «{name}» মচিব বিচাৰে?",
+  "@delete_location_confirm": {
+    "description": "",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "default_manager": "ডিফল্ট প্ৰশাসক",
+  "@default_manager": {
+    "description": ""
+  },
+  "default_manager_desc": "নতুন ব্যক্তিগত সংৰক্ষণাগাৰ গঢ়োঁতে ডিফল্ট প্ৰশাসক",
+  "@default_manager_desc": {
+    "description": ""
+  },
+  "enter_default_manager": "দয়া কৰি ডিফল্ট প্ৰশাসকৰ নাম লিখক",
+  "@enter_default_manager": {
+    "description": ""
+  },
+  "operator_name": "কৰ্তৃপক্ষৰ নাম",
+  "@operator_name": {
+    "description": ""
+  },
+  "enter_operator_name": "অনুগ্ৰহ কৰি অপাৰেটৰজনৰ নাম লিখক",
+  "@enter_operator_name": {
+    "description": ""
+  },
+  "operator_name_required": "কৰ্মকৰ্তা নাম খালী হৈ থাকিব নোৱাৰে",
+  "@operator_name_required": {
+    "description": ""
+  },
+  "no_manager": "প্ৰশাসক নাই",
+  "@no_manager": {
+    "description": ""
+  },
+  "log_operator_label": "কৰ্তৃপক্ষ:",
+  "@log_operator_label": {
+    "description": ""
+  },
+  "outbound_quantity_exceeds_current": "বাহিৰের পৰিমাণ বৰ্তমান ষ্টকতকৈ বেছি হ'ব নোৱাৰি",
+  "@outbound_quantity_exceeds_current": {
+    "description": ""
+  },
+  "delete_location_has_items": "সেই গ্ৰন্থাগাৰত এতিয়াও বস্তু আছে, মচিব নোৱাৰি",
+  "@delete_location_has_items": {
+    "description": ""
   }
 }

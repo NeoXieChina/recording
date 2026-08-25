@@ -1476,4 +1476,80 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get created_at_desc => 'Lisäysaika laskevassa järjestyksessä';
+
+  @override
+  String get location_management => 'Varastonhallinta';
+
+  @override
+  String get private_warehouses => 'Yksityinen kirjasto';
+
+  @override
+  String get public_warehouses => 'julkinen kirjasto';
+
+  @override
+  String get is_public_warehouse => 'julkinen kirjasto';
+
+  @override
+  String get public_warehouse_desc =>
+      'Julkisessa varastossa ei ole ylläpitäjää, varastoon otettaessa ja sinne lisättäessä on täytettävä toimijan nimi';
+
+  @override
+  String get manager => 'Ylläpitäjä';
+
+  @override
+  String get not_set => 'Ei asetettu';
+
+  @override
+  String get edit_location => 'Muokkaa kirjastoa';
+
+  @override
+  String get location_name => 'Varaston nimi';
+
+  @override
+  String get manager_name => 'Ylläpitäjän nimi';
+
+  @override
+  String get enter_manager_name => 'Anna järjestelmänvalvojan nimi';
+
+  @override
+  String get manager_name_required =>
+      'Ylläpitäjän nimeä ei voi jättää tyhjäksi';
+
+  @override
+  String delete_location_confirm(String name) {
+    return 'Haluatko varmasti poistaa kirjaston „$name”?';
+  }
+
+  @override
+  String get delete_location_has_items =>
+      'Kirjastossa on edelleen esineitä, ei voi poistaa';
+
+  @override
+  String get default_manager => 'Oletusjärjestelmänvalvoja';
+
+  @override
+  String get default_manager_desc =>
+      'Oletusvalvoja uuden yksityisen varaston luomisessa';
+
+  @override
+  String get enter_default_manager => 'Syötä oletusjärjestelmänvalvojan nimi';
+
+  @override
+  String get operator_name => 'Toimijan nimi';
+
+  @override
+  String get enter_operator_name => 'Syötä käyttäjän nimi';
+
+  @override
+  String get operator_name_required => 'Toimijan nimi ei voi olla tyhjä';
+
+  @override
+  String get no_manager => 'Ei ylläpitäjää';
+
+  @override
+  String get log_operator_label => 'Toimija:';
+
+  @override
+  String get outbound_quantity_exceeds_current =>
+      'Lähtevien tuotteiden määrä ei voi ylittää nykyistä varastoa';
 }
