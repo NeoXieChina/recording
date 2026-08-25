@@ -1454,4 +1454,24 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Tarikh Operasi:';
+
+  @override
+  String get uncategorized => 'Tidak Diklasifikasikan';
+
+  @override
+  String get no_location => 'Tanpa lokasi';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Kategori barang tidak boleh kosong';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Tempat penyimpanan tidak boleh kosong';
+
+  @override
+  String get created_at_asc => 'Tambah masa mengikut urutan menaik';
+
+  @override
+  String get created_at_desc => 'Tambah masa mengikut susunan menurun';
 }

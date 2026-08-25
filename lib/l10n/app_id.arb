@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Tanggal Operasi:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Belum dikategorikan",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Tanpa tempat",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Kategori barang tidak boleh kosong",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Tempat penyimpanan tidak boleh kosong",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Tambahkan waktu secara ascending",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Tambahkan urutan waktu menurun",
+  "@created_at_desc": {
+    "description": ""
   }
 }

@@ -1450,4 +1450,23 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Operation Date:';
+
+  @override
+  String get uncategorized => 'Uncategorized';
+
+  @override
+  String get no_location => 'No location';
+
+  @override
+  String get item_category_cannot_be_empty => 'Item category cannot be empty';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Storage location cannot be empty';
+
+  @override
+  String get created_at_asc => 'Sort by add time ascending';
+
+  @override
+  String get created_at_desc => 'Add time descending';
 }

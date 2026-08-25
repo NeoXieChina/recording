@@ -1460,4 +1460,24 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Дата операції:';
+
+  @override
+  String get uncategorized => 'Невідсортовано';
+
+  @override
+  String get no_location => 'Без місця';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Категорія предмета не може бути порожньою';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Місце зберігання не може бути порожнім';
+
+  @override
+  String get created_at_asc => 'Додати за зростанням часу';
+
+  @override
+  String get created_at_desc => 'Додати сортування за спаданням часу';
 }

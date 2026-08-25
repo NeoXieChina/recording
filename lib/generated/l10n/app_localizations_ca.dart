@@ -1473,4 +1473,24 @@ class AppLocalizationsCa extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Data d\'operació:';
+
+  @override
+  String get uncategorized => 'Sense classificar';
+
+  @override
+  String get no_location => 'Sense lloc';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'La classificació de l\'ítem no pot estar buida';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'El lloc d\'emmagatzematge no pot estar buit';
+
+  @override
+  String get created_at_asc => 'Afegir ordre ascendent de temps';
+
+  @override
+  String get created_at_desc => 'Afegir ordre descendent de temps';
 }

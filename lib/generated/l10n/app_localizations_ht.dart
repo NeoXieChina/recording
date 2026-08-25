@@ -1454,4 +1454,22 @@ class AppLocalizationsHt extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Dat operasyon:';
+
+  @override
+  String get uncategorized => 'Pa klase';
+
+  @override
+  String get no_location => 'Pa gen kote';
+
+  @override
+  String get item_category_cannot_be_empty => 'Klasifikasyon atik la pa ka vid';
+
+  @override
+  String get storage_location_cannot_be_empty => 'Kote depo a pa ka vid';
+
+  @override
+  String get created_at_asc => 'Ajoute tan nan lòd k ap ogmante';
+
+  @override
+  String get created_at_desc => 'Ajoute dat desandan';
 }

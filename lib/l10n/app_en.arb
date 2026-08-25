@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Operation Date:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Uncategorized",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "No location",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Item category cannot be empty",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Storage location cannot be empty",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Sort by add time ascending",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Add time descending",
+  "@created_at_desc": {
+    "description": ""
   }
 }

@@ -1459,4 +1459,24 @@ class AppLocalizationsHr extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Datum operacije:';
+
+  @override
+  String get uncategorized => 'Nekategorizirano';
+
+  @override
+  String get no_location => 'Bez lokacije';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Kategorija predmeta ne smije biti prazna';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Mjesto pohrane ne smije biti prazno';
+
+  @override
+  String get created_at_asc => 'Dodaj po vremenu uzlazno';
+
+  @override
+  String get created_at_desc => 'Dodaj po vremenu opadajuće';
 }

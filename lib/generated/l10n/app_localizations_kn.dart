@@ -1465,4 +1465,22 @@ class AppLocalizationsKn extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'ಕಾರ್ಯಾಚರಣೆಯ ದಿನಾಂಕ:';
+
+  @override
+  String get uncategorized => 'ವರ್ಗीकೃತವಾಗಿಲ್ಲ';
+
+  @override
+  String get no_location => 'ಸ್ಥಳವಿಲ್ಲ';
+
+  @override
+  String get item_category_cannot_be_empty => 'ವಸ್ತು ವರ್ಗೀಕರಣ ಖಾಲಿಯಲ್ಲಿರಬಾರದು';
+
+  @override
+  String get storage_location_cannot_be_empty => 'ಸಂಗ್ರಹಣ ಸ್ಥಳ ಖಾಲಿ ಇರಬಾರದು';
+
+  @override
+  String get created_at_asc => 'ಸಮಯವನ್ನು ಹೆಚ್ಚುವರಿ ಕ್ರಮದಲ್ಲಿ ಸೇರಿಸಿ';
+
+  @override
+  String get created_at_desc => 'ಸಮಯವನ್ನು ಇಳಿಜಾರಿನ ಕ್ರಮದಲ್ಲಿ ಸೇರಿಸಿ';
 }

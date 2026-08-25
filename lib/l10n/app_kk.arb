@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Операция күні:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Санатталмаған",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "орнынсыз",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Заттың категориясы бос болмауы керек",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Сақтау орны бос болмауы керек",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Қосу уақытын өсу ретімен",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Қосу уақытын кему ретімен",
+  "@created_at_desc": {
+    "description": ""
   }
 }

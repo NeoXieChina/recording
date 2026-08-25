@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "תאריך הפעלה:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "לא מסווג",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "ללא מקום",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "סיווג הפריטים לא יכול להיות ריק",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "מיקום האחסון לא יכול להיות ריק",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "הוסף לפי סדר עלייה של זמן",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "הוסף לפי סדר זמן יורד",
+  "@created_at_desc": {
+    "description": ""
   }
 }

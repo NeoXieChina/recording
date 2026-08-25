@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Үйлдлийн огноо:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Ангилагдаагүй",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "бүх газаргүй",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Барааны ангилал хоосон байж болохгүй",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Хадгалах байр хоосон байж болохгүй",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Нэмсэн цагийн өсөх дарааллаар",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Нэмсэн огноогоор буурахаар",
+  "@created_at_desc": {
+    "description": ""
   }
 }

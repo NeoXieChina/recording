@@ -1452,4 +1452,24 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Teostamise kuupäev:';
+
+  @override
+  String get uncategorized => 'Klassifitseerimata';
+
+  @override
+  String get no_location => 'Ilma kohata';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Esemete kategooria ei tohi olla tühi';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Salvestuskoht ei tohi olla tühi';
+
+  @override
+  String get created_at_asc => 'Lisa aeg kasvavas järjekorras';
+
+  @override
+  String get created_at_desc => 'Lisa aeg kahanevas järjekorras';
 }

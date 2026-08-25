@@ -1458,4 +1458,24 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'পরিচালনার তারিখ:';
+
+  @override
+  String get uncategorized => 'শ্রেণীবিন্যাসহীন';
+
+  @override
+  String get no_location => 'কোনও স্থান নেই';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'পদার্থের শ্রেণীবিভাগ খালি থাকতে পারবে না';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'স্টোরেজ স্থান খালি হতে পারবে না';
+
+  @override
+  String get created_at_asc => 'যোগ করার সময় অনুযায়ী উর্ধ্বক্রম';
+
+  @override
+  String get created_at_desc => 'যোগের সময় অনুযায়ী অবরোহমান';
 }

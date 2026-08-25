@@ -1418,4 +1418,22 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get log_operation_date_label => '操作日：';
+
+  @override
+  String get uncategorized => '未分類';
+
+  @override
+  String get no_location => '無地点';
+
+  @override
+  String get item_category_cannot_be_empty => '物品の分類は空にできません';
+
+  @override
+  String get storage_location_cannot_be_empty => '保存場所を空にすることはできません';
+
+  @override
+  String get created_at_asc => '追加時間昇順';
+
+  @override
+  String get created_at_desc => '追加時間の降順';
 }

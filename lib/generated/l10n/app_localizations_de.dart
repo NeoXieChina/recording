@@ -1462,4 +1462,24 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Betriebsdatum:';
+
+  @override
+  String get uncategorized => 'Unkategorisiert';
+
+  @override
+  String get no_location => 'Ohne Ort';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Die Warenkategorie darf nicht leer sein';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Der Speicherort darf nicht leer sein';
+
+  @override
+  String get created_at_asc => 'Nach Hinzufügungszeit aufsteigend';
+
+  @override
+  String get created_at_desc => 'Nach Hinzufügungszeit absteigend';
 }

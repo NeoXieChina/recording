@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Дата операції:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Невідсортовано",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Без місця",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Категорія предмета не може бути порожньою",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Місце зберігання не може бути порожнім",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Додати за зростанням часу",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Додати сортування за спаданням часу",
+  "@created_at_desc": {
+    "description": ""
   }
 }

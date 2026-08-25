@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Petsa ng operasyon:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Hindi nakategorya",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Walang lokasyon",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Hindi maaaring walang laman ang kategorya ng item",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Hindi maaaring walang laman ang lokasyon ng imbakan",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Ayon sa pataas na pagkakasunud-sunod ng oras ng pagdagdag",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Idagdag ayon sa pababang pagkakasunud-sunod ng oras",
+  "@created_at_desc": {
+    "description": ""
   }
 }

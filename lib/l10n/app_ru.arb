@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Дата операции:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Неклассифицированный",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "без места",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Категория товара не может быть пустой",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Место хранения не может быть пустым",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Добавить по возрастанию времени",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Добавить по убыванию времени",
+  "@created_at_desc": {
+    "description": ""
   }
 }

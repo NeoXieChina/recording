@@ -1441,4 +1441,23 @@ class AppLocalizationsHe extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'תאריך הפעלה:';
+
+  @override
+  String get uncategorized => 'לא מסווג';
+
+  @override
+  String get no_location => 'ללא מקום';
+
+  @override
+  String get item_category_cannot_be_empty => 'סיווג הפריטים לא יכול להיות ריק';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'מיקום האחסון לא יכול להיות ריק';
+
+  @override
+  String get created_at_asc => 'הוסף לפי סדר עלייה של זמן';
+
+  @override
+  String get created_at_desc => 'הוסף לפי סדר זמן יורד';
 }

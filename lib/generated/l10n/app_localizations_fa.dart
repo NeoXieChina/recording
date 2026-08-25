@@ -1457,4 +1457,24 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'تاریخ عملیات:';
+
+  @override
+  String get uncategorized => 'دسته‌بندی نشده';
+
+  @override
+  String get no_location => 'بدون مکان';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'دسته‌بندی کالا نمی‌تواند خالی باشد';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'محل ذخیره‌سازی نمی‌تواند خالی باشد';
+
+  @override
+  String get created_at_asc => 'اضافه کردن به ترتیب زمانی صعودی';
+
+  @override
+  String get created_at_desc => 'اضافه کردن به ترتیب زمانی نزولی';
 }

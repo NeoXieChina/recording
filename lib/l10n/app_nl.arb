@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Verwerkingsdatum:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Ongecategoriseerd",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Geen locatie",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "De artikelcategorie mag niet leeg zijn",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "De opslaglocatie mag niet leeg zijn",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Toevoegingstijd oplopend sorteren",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Toegevoegd datum aflopend",
+  "@created_at_desc": {
+    "description": ""
   }
 }

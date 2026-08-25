@@ -1416,4 +1416,22 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get log_operation_date_label => '조작 날짜:';
+
+  @override
+  String get uncategorized => '분류되지 않음';
+
+  @override
+  String get no_location => '무장소';
+
+  @override
+  String get item_category_cannot_be_empty => '상품 분류는 비어 있을 수 없습니다';
+
+  @override
+  String get storage_location_cannot_be_empty => '저장 위치는 비울 수 없습니다';
+
+  @override
+  String get created_at_asc => '추가 시간 오름차순';
+
+  @override
+  String get created_at_desc => '추가 시간 내림차순';
 }

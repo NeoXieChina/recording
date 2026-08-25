@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Data de operação:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Não classificado",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Sem local",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "A classificação do item não pode estar vazia",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "O local de armazenamento não pode estar vazio",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Adicionar horário em ordem crescente",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Adicionar ordem decrescente por tempo",
+  "@created_at_desc": {
+    "description": ""
   }
 }

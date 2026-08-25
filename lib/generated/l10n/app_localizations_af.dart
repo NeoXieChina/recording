@@ -1459,4 +1459,24 @@ class AppLocalizationsAf extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Operasiedatum:';
+
+  @override
+  String get uncategorized => 'Ongeklassifiseer';
+
+  @override
+  String get no_location => 'Geen plek';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Die kategorie van die item mag nie leeg wees nie';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Stoorplek mag nie leeg wees nie';
+
+  @override
+  String get created_at_asc => 'Voeg tyd in stygende volgorde by';
+
+  @override
+  String get created_at_desc => 'Voeg tyd in aflopende volgorde by';
 }

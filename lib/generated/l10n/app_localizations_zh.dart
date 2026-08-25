@@ -1403,6 +1403,24 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get log_operation_date_label => '操作日期：';
+
+  @override
+  String get uncategorized => '未分类';
+
+  @override
+  String get no_location => '无地点';
+
+  @override
+  String get item_category_cannot_be_empty => '物品分类不能为空';
+
+  @override
+  String get storage_location_cannot_be_empty => '存储地点不能为空';
+
+  @override
+  String get created_at_asc => '添加时间升序';
+
+  @override
+  String get created_at_desc => '添加时间降序';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -2804,4 +2822,22 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get log_operation_date_label => '操作日期：';
+
+  @override
+  String get uncategorized => '未分類';
+
+  @override
+  String get no_location => '無地點';
+
+  @override
+  String get item_category_cannot_be_empty => '物品分類不能為空';
+
+  @override
+  String get storage_location_cannot_be_empty => '存儲地點不能為空';
+
+  @override
+  String get created_at_asc => '添加時間升序';
+
+  @override
+  String get created_at_desc => '添加時間降序';
 }

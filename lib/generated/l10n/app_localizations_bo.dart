@@ -1466,4 +1466,24 @@ class AppLocalizationsBo extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'བཀོལ་སྤྱོད་ཀྱི་ཚེས་གྲངས།';
+
+  @override
+  String get uncategorized => 'རིགས་མི་འགྲེམས།';
+
+  @override
+  String get no_location => 'གནས་ཡུལ་མེད་པ།';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'རྣམ་གྲངས་ཀྱི་རིགས་སྟོང་པ་ཡིན་མི་རུང་།';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'གསོག་ཉར་བྱེད་ས་སྟོང་བ་ཡིན་མི་རུང་།';
+
+  @override
+  String get created_at_asc => 'ཁ་སྣོན་དུས་ཚོད་ཡར་འཕར་ནས་དབྱེ་བསྒྲིགས།';
+
+  @override
+  String get created_at_desc => 'དུས་ཚོད་ཁ་སྣོན་བྱས་ནས་མར་འབབ་པ།';
 }

@@ -1457,4 +1457,23 @@ class AppLocalizationsGu extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'ઓપરેશન તારીખ:';
+
+  @override
+  String get uncategorized => 'કેટલેગરીમાં ન આવતું';
+
+  @override
+  String get no_location => 'કોઈ સ્થળ નથી';
+
+  @override
+  String get item_category_cannot_be_empty => 'સામાન વર્ગીકરણ ખાલી ન હોઈ શકે';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'સંગ્રહ સ્થાન ખાલી હોવું નહી જોઈએ';
+
+  @override
+  String get created_at_asc => 'સમય પ્રમાણે વધારો ક્રમમાં ઉમેરો';
+
+  @override
+  String get created_at_desc => 'સમય પ્રમાણે ઉતરતી ક્રમમાં ઉમેરો';
 }

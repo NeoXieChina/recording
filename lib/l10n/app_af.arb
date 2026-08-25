@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Operasiedatum:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Ongeklassifiseer",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Geen plek",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Die kategorie van die item mag nie leeg wees nie",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Stoorplek mag nie leeg wees nie",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Voeg tyd in stygende volgorde by",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Voeg tyd in aflopende volgorde by",
+  "@created_at_desc": {
+    "description": ""
   }
 }

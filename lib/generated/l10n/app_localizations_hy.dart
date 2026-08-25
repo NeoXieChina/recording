@@ -1466,4 +1466,24 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Գործողության ամսաթիվը։';
+
+  @override
+  String get uncategorized => 'Չկարգավորված';
+
+  @override
+  String get no_location => 'Առանց վայրի';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Տարատեսակների դասակարգումը չի կարող դատարկ լինել';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Պահեստավորման վայրը չի կարող դատարկ լինել';
+
+  @override
+  String get created_at_asc => 'Ավելացման ժամանակի աճման կարգով';
+
+  @override
+  String get created_at_desc => 'Ավելացված ժամանակը նահանջային կարգով';
 }

@@ -2704,6 +2704,42 @@ abstract class AppLocalizations {
   /// In zh, this message translates to:
   /// **'操作日期：'**
   String get log_operation_date_label;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'未分类'**
+  String get uncategorized;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'无地点'**
+  String get no_location;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'物品分类不能为空'**
+  String get item_category_cannot_be_empty;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'存储地点不能为空'**
+  String get storage_location_cannot_be_empty;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'添加时间升序'**
+  String get created_at_asc;
+
+  ///
+  ///
+  /// In zh, this message translates to:
+  /// **'添加时间降序'**
+  String get created_at_desc;
 }
 
 class _AppLocalizationsDelegate

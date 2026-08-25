@@ -1449,4 +1449,25 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Operationsdato:';
+
+  @override
+  String get uncategorized => 'Uklassificeret';
+
+  @override
+  String get no_location => 'Intet sted';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Varekategorien kan ikke være tom';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Lagringsstedet må ikke være tomt';
+
+  @override
+  String get created_at_asc =>
+      'Sorter efter tilføjelsestid i stigende rækkefølge';
+
+  @override
+  String get created_at_desc => 'Tilføj tidsorden faldende';
 }

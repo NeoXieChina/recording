@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "পরিচালনার তারিখ:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "শ্রেণীবিন্যাসহীন",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "কোনও স্থান নেই",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "পদার্থের শ্রেণীবিভাগ খালি থাকতে পারবে না",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "স্টোরেজ স্থান খালি হতে পারবে না",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "যোগ করার সময় অনুযায়ী উর্ধ্বক্রম",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "যোগের সময় অনুযায়ী অবরোহমান",
+  "@created_at_desc": {
+    "description": ""
   }
 }

@@ -1465,4 +1465,24 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Дата на операцията:';
+
+  @override
+  String get uncategorized => 'Некласифициран';
+
+  @override
+  String get no_location => 'Без място';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Категорията на артикула не може да бъде празна';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Мястото за съхранение не може да бъде празно';
+
+  @override
+  String get created_at_asc => 'Добавяне на време във възходящ ред';
+
+  @override
+  String get created_at_desc => 'Добавяне на време в низходящ ред';
 }

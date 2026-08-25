@@ -1457,4 +1457,23 @@ class AppLocalizationsIs extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Aðgerðardagur:';
+
+  @override
+  String get uncategorized => 'Óflokkuð';
+
+  @override
+  String get no_location => 'Enginn staður';
+
+  @override
+  String get item_category_cannot_be_empty => 'Vöruflokkun má ekki vera tóm';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Geymslustaður má ekki vera tómur';
+
+  @override
+  String get created_at_asc => 'Bæta við tímaröð hækkandi';
+
+  @override
+  String get created_at_desc => 'Bæta við tímaröð lækkandi';
 }

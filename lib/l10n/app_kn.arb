@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "ಕಾರ್ಯಾಚರಣೆಯ ದಿನಾಂಕ:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "ವರ್ಗीकೃತವಾಗಿಲ್ಲ",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "ಸ್ಥಳವಿಲ್ಲ",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "ವಸ್ತು ವರ್ಗೀಕರಣ ಖಾಲಿಯಲ್ಲಿರಬಾರದು",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "ಸಂಗ್ರಹಣ ಸ್ಥಳ ಖಾಲಿ ಇರಬಾರದು",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "ಸಮಯವನ್ನು ಹೆಚ್ಚುವರಿ ಕ್ರಮದಲ್ಲಿ ಸೇರಿಸಿ",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "ಸಮಯವನ್ನು ಇಳಿಜಾರಿನ ಕ್ರಮದಲ್ಲಿ ಸೇರಿಸಿ",
+  "@created_at_desc": {
+    "description": ""
   }
 }

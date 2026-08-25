@@ -1458,4 +1458,24 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Tanggal Operasi:';
+
+  @override
+  String get uncategorized => 'Belum dikategorikan';
+
+  @override
+  String get no_location => 'Tanpa tempat';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Kategori barang tidak boleh kosong';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Tempat penyimpanan tidak boleh kosong';
+
+  @override
+  String get created_at_asc => 'Tambahkan waktu secara ascending';
+
+  @override
+  String get created_at_desc => 'Tambahkan urutan waktu menurun';
 }

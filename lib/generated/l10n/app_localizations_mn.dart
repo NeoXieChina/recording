@@ -1458,4 +1458,24 @@ class AppLocalizationsMn extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Үйлдлийн огноо:';
+
+  @override
+  String get uncategorized => 'Ангилагдаагүй';
+
+  @override
+  String get no_location => 'бүх газаргүй';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Барааны ангилал хоосон байж болохгүй';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Хадгалах байр хоосон байж болохгүй';
+
+  @override
+  String get created_at_asc => 'Нэмсэн цагийн өсөх дарааллаар';
+
+  @override
+  String get created_at_desc => 'Нэмсэн огноогоор буурахаар';
 }

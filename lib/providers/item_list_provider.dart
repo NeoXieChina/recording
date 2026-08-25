@@ -59,13 +59,21 @@ class ItemListProvider extends ChangeNotifier {
     if (_filterType != null) {
       result = result.where((i) => i.itemType == _filterType).toList();
     }
-    if (_filterLocation != null && _filterLocation!.isNotEmpty) {
-      result = result
-          .where((i) => i.storageLocation == _filterLocation)
-          .toList();
+    if (_filterLocation != null) {
+      if (_filterLocation!.isEmpty) {
+        result = result.where((i) => i.storageLocation.isEmpty).toList();
+      } else {
+        result = result
+            .where((i) => i.storageLocation == _filterLocation)
+            .toList();
+      }
     }
-    if (_filterCategory != null && _filterCategory!.isNotEmpty) {
-      result = result.where((i) => i.category == _filterCategory).toList();
+    if (_filterCategory != null) {
+      if (_filterCategory!.isEmpty) {
+        result = result.where((i) => i.category.isEmpty).toList();
+      } else {
+        result = result.where((i) => i.category == _filterCategory).toList();
+      }
     }
     // 日期范围筛选（同时检查过期日期和保修日期）
     if (_dateRange != null) {
@@ -168,6 +176,9 @@ class ItemListProvider extends ChangeNotifier {
           final totalPriceA = a.quantity * a.unitPrice;
           final totalPriceB = b.quantity * b.unitPrice;
           compare = totalPriceA.compareTo(totalPriceB);
+          break;
+        case 'createdAt':
+          compare = a.createdAt.compareTo(b.createdAt);
           break;
         default:
           compare = _compareChineseStrings(a.name, b.name);

@@ -1475,4 +1475,25 @@ class AppLocalizationsFj extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Siga ni cakacaka:';
+
+  @override
+  String get uncategorized => 'Sega ni vakadewataki';
+
+  @override
+  String get no_location => 'Sega ni vanua';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Na vakadewataki ni iyaya e sega ni rawa ni vakacavari';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Veivanua ni volitaki e sega ni rawa ni buli vakadua';
+
+  @override
+  String get created_at_asc => 'Tani gauna me sivia';
+
+  @override
+  String get created_at_desc =>
+      'Veisautaka na gauna me vaka na ilavelave sa rui lailai';
 }

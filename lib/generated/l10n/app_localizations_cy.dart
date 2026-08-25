@@ -1457,4 +1457,25 @@ class AppLocalizationsCy extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Dyddiad gweithredu:';
+
+  @override
+  String get uncategorized => 'Heb gategori';
+
+  @override
+  String get no_location => 'Di-le';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Ni all y dosbarthiad eitem fod yn wag';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Ni all y lle storio fod yn wag';
+
+  @override
+  String get created_at_asc => 'Trefn amser ychwanegu yn esgynnol';
+
+  @override
+  String get created_at_desc =>
+      'Trefnu yn ôl amser ychwanegu o\'r diwedd i\'r dechrau';
 }

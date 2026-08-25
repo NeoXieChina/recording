@@ -1457,4 +1457,24 @@ class AppLocalizationsKy extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Иштөө күнү:';
+
+  @override
+  String get uncategorized => 'Категориясына кирбеген';
+
+  @override
+  String get no_location => 'жок жер';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Элементтин классификациясы бош боло албайт';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Сактоочу жай бош болбошу керек';
+
+  @override
+  String get created_at_asc => 'Кошуу убактысы боюнча өскөн тартипте';
+
+  @override
+  String get created_at_desc => 'Кошуу убактысын азайган тартипте';
 }

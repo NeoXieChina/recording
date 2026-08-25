@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "ئىشلىتىش كېنىشى ۋاقتى:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "تۈرلۈككە كىرىلمىگەن",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "مەيدانى يوق",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "مال تۈرى بوش بولalmaydi",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": " ساقلاش ئورنى بوش بولالمايدۇ",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "قوشۇش ۋاقىت بويىچە ئۆسۈش تىزىملىكى",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "قوشۇلغان ۋاقىت بويىچە چۈشۈرۈش تىرىپى",
+  "@created_at_desc": {
+    "description": ""
   }
 }

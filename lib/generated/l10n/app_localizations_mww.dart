@@ -1460,4 +1460,24 @@ class AppLocalizationsMww extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Hnub Ua Haujlwm:';
+
+  @override
+  String get uncategorized => 'tsis tau faib pawg';
+
+  @override
+  String get no_location => 'Tsis muaj chaw';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Qeb khoom tsis tuaj yeem ua kom tsis muaj dab tsi';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Chaw cia khoom tsis tuaj yeem khoob';
+
+  @override
+  String get created_at_asc => 'Npaj raws li ntxiv sijhawm nce';
+
+  @override
+  String get created_at_desc => 'Ntxiv sijhawm nqis qis';
 }

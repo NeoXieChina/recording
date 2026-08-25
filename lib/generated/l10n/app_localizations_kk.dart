@@ -1455,4 +1455,24 @@ class AppLocalizationsKk extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Операция күні:';
+
+  @override
+  String get uncategorized => 'Санатталмаған';
+
+  @override
+  String get no_location => 'орнынсыз';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Заттың категориясы бос болмауы керек';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Сақтау орны бос болмауы керек';
+
+  @override
+  String get created_at_asc => 'Қосу уақытын өсу ретімен';
+
+  @override
+  String get created_at_desc => 'Қосу уақытын кему ретімен';
 }

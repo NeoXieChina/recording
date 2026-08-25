@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "செயல்பாட்டு தேதி:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "வகைப்படாதது",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "இடமில்லா",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "பொருள் வகை வெறுமையாக இருக்க முடியாது",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "சேமிப்பு இடம் காலியாக இருக்க முடியாது",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "சேர்க்கப்பட்ட நேரத்தை குறைந்ததிலிருந்து அதிகத்திற்கு வரிசைப்படுத்துக",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "சேர்க்கப்பட்ட நேரம் குறைந்த முதல் வரிசை",
+  "@created_at_desc": {
+    "description": ""
   }
 }

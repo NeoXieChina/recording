@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Operationsdato:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Uklassificeret",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Intet sted",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Varekategorien kan ikke være tom",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Lagringsstedet må ikke være tomt",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Sorter efter tilføjelsestid i stigende rækkefølge",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Tilføj tidsorden faldende",
+  "@created_at_desc": {
+    "description": ""
   }
 }

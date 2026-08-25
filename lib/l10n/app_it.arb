@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Data operazione:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Non classificato",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Senza luogo",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "La classificazione degli oggetti non può essere vuota",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Il luogo di conservazione non può essere vuoto",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Ordine crescente per data di aggiunta",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Ordine decrescente per data di aggiunta",
+  "@created_at_desc": {
+    "description": ""
   }
 }

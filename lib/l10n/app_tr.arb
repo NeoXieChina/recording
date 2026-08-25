@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "İşlem Tarihi:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Sınıflandırılmamış",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Mekansız",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Ürün kategorisi boş olamaz",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Depolama yeri boş olamaz",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Eklenme zamanına göre artan sıra",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Eklenme zamanına göre azalan sırada",
+  "@created_at_desc": {
+    "description": ""
   }
 }

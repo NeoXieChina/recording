@@ -1457,4 +1457,23 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Toimintapäivämäärä:';
+
+  @override
+  String get uncategorized => 'Luokittelematon';
+
+  @override
+  String get no_location => 'Ei paikkaa';
+
+  @override
+  String get item_category_cannot_be_empty => 'Tuoteluokka ei voi olla tyhjä';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Tallennuspaikka ei voi olla tyhjä';
+
+  @override
+  String get created_at_asc => 'Lisäysaika nousevassa järjestyksessä';
+
+  @override
+  String get created_at_desc => 'Lisäysaika laskevassa järjestyksessä';
 }

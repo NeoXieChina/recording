@@ -1446,4 +1446,23 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'วันที่ดำเนินการ:';
+
+  @override
+  String get uncategorized => 'ไม่ได้จัดหมวดหมู่';
+
+  @override
+  String get no_location => 'ไม่มีสถานที่';
+
+  @override
+  String get item_category_cannot_be_empty => 'ประเภทของรายการไม่สามารถว่างได้';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'สถานที่จัดเก็บไม่สามารถเว้นว่างได้';
+
+  @override
+  String get created_at_asc => 'เพิ่มเวลาเรียงลำดับจากน้อยไปมาก';
+
+  @override
+  String get created_at_desc => 'เพิ่มเวลาเรียงลำดับจากมากไปน้อย';
 }

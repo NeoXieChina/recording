@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Dat operasyon:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Pa klase",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Pa gen kote",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Klasifikasyon atik la pa ka vid",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Kote depo a pa ka vid",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Ajoute tan nan lòd k ap ogmante",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Ajoute dat desandan",
+  "@created_at_desc": {
+    "description": ""
   }
 }

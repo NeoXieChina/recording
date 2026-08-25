@@ -2092,5 +2092,29 @@
   "log_operation_date_label": "操作日期：",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "未分类",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "无地点",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "物品分类不能为空",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "存储地点不能为空",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "添加时间升序",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "添加时间降序",
+  "@created_at_desc": {
+    "description": ""
   }
 }

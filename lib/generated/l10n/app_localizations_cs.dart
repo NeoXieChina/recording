@@ -1454,4 +1454,24 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Datum operace:';
+
+  @override
+  String get uncategorized => 'Nezařazeno';
+
+  @override
+  String get no_location => 'Bez místa';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Kategorie položky nesmí být prázdná';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Místo uložení nesmí být prázdné';
+
+  @override
+  String get created_at_asc => 'Přidat podle času vzestupně';
+
+  @override
+  String get created_at_desc => 'Přidat podle času sestupně';
 }

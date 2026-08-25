@@ -1455,4 +1455,22 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'İşlem Tarihi:';
+
+  @override
+  String get uncategorized => 'Sınıflandırılmamış';
+
+  @override
+  String get no_location => 'Mekansız';
+
+  @override
+  String get item_category_cannot_be_empty => 'Ürün kategorisi boş olamaz';
+
+  @override
+  String get storage_location_cannot_be_empty => 'Depolama yeri boş olamaz';
+
+  @override
+  String get created_at_asc => 'Eklenme zamanına göre artan sıra';
+
+  @override
+  String get created_at_desc => 'Eklenme zamanına göre azalan sırada';
 }

@@ -1449,4 +1449,22 @@ class AppLocalizationsIu extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'ᐊᐅᓚᑕᐅᓂᖓᑕ ᐅᓪᓗᖓ:';
+
+  @override
+  String get uncategorized => 'ᓇᓗᓇᐃᖅᑕᐅᓯᒪᙱᑦᑐᑦ';
+
+  @override
+  String get no_location => 'ᐃᓂᖃᙱᑦᑐᖅ';
+
+  @override
+  String get item_category_cannot_be_empty => 'ᐱᖁᑏᑦ ᖃᓄᐃᑦᑑᓂᖏᑦ ᐃᓗᓕᖃᕈᓐᓇᖏᑦᑐᑦ';
+
+  @override
+  String get storage_location_cannot_be_empty => 'ᓯᕐᓗᐊᖅ ᐃᓄᖃᙱᑦᑐᖃᕆᐊᖃᙱᓚᖅ';
+
+  @override
+  String get created_at_asc => 'ᐋᖅᑭᒃᓱᕐᓗᒋᑦ ᐃᓚᓯᓂᖅ ᓯᕿᙳᔭᖅ ᖁᕝᕙᖅᐸᓪᓕᐊᔪᖅ';
+
+  @override
+  String get created_at_desc => 'ᐃᓚᓗᒍ ᓯᕿᙳᔭᖅ ᐊᑦᑎᒃᓯᕙᓪᓕᐊᑎᓪᓗᒍ';
 }

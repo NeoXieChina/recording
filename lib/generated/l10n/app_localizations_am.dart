@@ -1439,4 +1439,22 @@ class AppLocalizationsAm extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'የክወና ቀን';
+
+  @override
+  String get uncategorized => 'ያልተመደቡ';
+
+  @override
+  String get no_location => 'መገኛ ቦታ የለም';
+
+  @override
+  String get item_category_cannot_be_empty => 'የንጥል ምድብ ባዶ ሊሆን አይችልም';
+
+  @override
+  String get storage_location_cannot_be_empty => 'የማከማቻ ቦታ ባዶ ሊሆን አይችልም';
+
+  @override
+  String get created_at_asc => 'ቅደምተከተሉ በመጨመር ጊዜ ወደ ላይ እየጨመረ';
+
+  @override
+  String get created_at_desc => 'ወደ ታች የሚወርድ ጊዜ ይጨምሩ';
 }

@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Művelet dátuma:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Nincs kategorizálva",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Hely nélküli",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Az árucikk kategóriája nem lehet üres",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "A tárolási hely nem lehet üres",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Hozzáadás idő szerinti növekvő sorrend",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Hozzáadás időrend szerint csökkenő",
+  "@created_at_desc": {
+    "description": ""
   }
 }

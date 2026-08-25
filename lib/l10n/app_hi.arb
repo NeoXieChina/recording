@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "ऑपरेशन की तारीख:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "अवर्गीकृत",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "कोई स्थान नहीं",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "सामान श्रेणी खाली नहीं हो सकती",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "संग्रहण स्थान खाली नहीं हो सकता",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "संपादित करने का समय बढ़ते क्रम में",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "समय के क्रम में घटते हुए जोड़ें",
+  "@created_at_desc": {
+    "description": ""
   }
 }

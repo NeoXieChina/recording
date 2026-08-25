@@ -1467,4 +1467,26 @@ class AppLocalizationsFil extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Petsa ng operasyon:';
+
+  @override
+  String get uncategorized => 'Hindi nakategorya';
+
+  @override
+  String get no_location => 'Walang lokasyon';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Hindi maaaring walang laman ang kategorya ng item';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Hindi maaaring walang laman ang lokasyon ng imbakan';
+
+  @override
+  String get created_at_asc =>
+      'Ayon sa pataas na pagkakasunud-sunod ng oras ng pagdagdag';
+
+  @override
+  String get created_at_desc =>
+      'Idagdag ayon sa pababang pagkakasunud-sunod ng oras';
 }

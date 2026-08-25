@@ -1463,4 +1463,24 @@ class AppLocalizationsGa extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Dáta Oibríochta:';
+
+  @override
+  String get uncategorized => 'Neamh-chatagóirithe';
+
+  @override
+  String get no_location => 'Gan áit';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Ní féidir le catagóir earra a bheith folamh';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Ní féidir suíomh stórála a bheith folamh';
+
+  @override
+  String get created_at_asc => 'Ordú ama a chur leis de réir ardaithe';
+
+  @override
+  String get created_at_desc => 'Ordú meán ama anuas';
 }

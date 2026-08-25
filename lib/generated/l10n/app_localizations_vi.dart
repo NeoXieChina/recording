@@ -1450,4 +1450,24 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Ngày thao tác:';
+
+  @override
+  String get uncategorized => 'Chưa phân loại';
+
+  @override
+  String get no_location => 'Vô địa điểm';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Phân loại vật phẩm không được để trống';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Nơi lưu trữ không được để trống';
+
+  @override
+  String get created_at_asc => 'Thêm thời gian theo thứ tự tăng dần';
+
+  @override
+  String get created_at_desc => 'Thêm theo thứ tự thời gian giảm dần';
 }

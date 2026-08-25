@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Hnub Ua Haujlwm:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "tsis tau faib pawg",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Tsis muaj chaw",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Qeb khoom tsis tuaj yeem ua kom tsis muaj dab tsi",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Chaw cia khoom tsis tuaj yeem khoob",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Npaj raws li ntxiv sijhawm nce",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Ntxiv sijhawm nqis qis",
+  "@created_at_desc": {
+    "description": ""
   }
 }

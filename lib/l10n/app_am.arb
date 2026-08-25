@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "የክወና ቀን",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "ያልተመደቡ",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "መገኛ ቦታ የለም",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "የንጥል ምድብ ባዶ ሊሆን አይችልም",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "የማከማቻ ቦታ ባዶ ሊሆን አይችልም",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "ቅደምተከተሉ በመጨመር ጊዜ ወደ ላይ እየጨመረ",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "ወደ ታች የሚወርድ ጊዜ ይጨምሩ",
+  "@created_at_desc": {
+    "description": ""
   }
 }

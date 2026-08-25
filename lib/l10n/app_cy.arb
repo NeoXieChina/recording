@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Dyddiad gweithredu:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Heb gategori",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Di-le",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Ni all y dosbarthiad eitem fod yn wag",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Ni all y lle storio fod yn wag",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Trefn amser ychwanegu yn esgynnol",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Trefnu yn ôl amser ychwanegu o'r diwedd i'r dechrau",
+  "@created_at_desc": {
+    "description": ""
   }
 }

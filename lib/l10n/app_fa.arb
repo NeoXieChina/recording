@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "تاریخ عملیات:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "دسته‌بندی نشده",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "بدون مکان",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "دسته‌بندی کالا نمی‌تواند خالی باشد",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "محل ذخیره‌سازی نمی‌تواند خالی باشد",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "اضافه کردن به ترتیب زمانی صعودی",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "اضافه کردن به ترتیب زمانی نزولی",
+  "@created_at_desc": {
+    "description": ""
   }
 }

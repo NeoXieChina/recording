@@ -1458,4 +1458,23 @@ class AppLocalizationsAz extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Əməliyyat tarixi:';
+
+  @override
+  String get uncategorized => 'Təsnif olunmamış';
+
+  @override
+  String get no_location => 'Məkan yoxdur';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Məhsul kateqoriyası boş ola bilməz';
+
+  @override
+  String get storage_location_cannot_be_empty => 'Yaddaş yeri boş ola bilməz';
+
+  @override
+  String get created_at_asc => 'Əlavə edilmə vaxtına görə artan sıra';
+
+  @override
+  String get created_at_desc => 'Əlavə edilmə vaxtına görə azalan sıra';
 }

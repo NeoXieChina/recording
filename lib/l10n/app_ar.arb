@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "تاريخ العملية:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "غير مصنف",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "بلا مكان",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "تصنيف العنصر لا يمكن أن يكون فارغًا",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "لا يمكن أن يكون موقع التخزين فارغًا",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "ترتيب حسب وقت الإضافة تصاعدياً",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "إضافة ترتيب زمني تنازلي",
+  "@created_at_desc": {
+    "description": ""
   }
 }

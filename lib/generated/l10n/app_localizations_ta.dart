@@ -1461,4 +1461,25 @@ class AppLocalizationsTa extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'செயல்பாட்டு தேதி:';
+
+  @override
+  String get uncategorized => 'வகைப்படாதது';
+
+  @override
+  String get no_location => 'இடமில்லா';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'பொருள் வகை வெறுமையாக இருக்க முடியாது';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'சேமிப்பு இடம் காலியாக இருக்க முடியாது';
+
+  @override
+  String get created_at_asc =>
+      'சேர்க்கப்பட்ட நேரத்தை குறைந்ததிலிருந்து அதிகத்திற்கு வரிசைப்படுத்துக';
+
+  @override
+  String get created_at_desc => 'சேர்க்கப்பட்ட நேரம் குறைந்த முதல் வரிசை';
 }

@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "操作日：",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "未分類",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "無地点",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "物品の分類は空にできません",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "保存場所を空にすることはできません",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "追加時間昇順",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "追加時間の降順",
+  "@created_at_desc": {
+    "description": ""
   }
 }

@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Aðgerðardagur:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Óflokkuð",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Enginn staður",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Vöruflokkun má ekki vera tóm",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Geymslustaður má ekki vera tómur",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Bæta við tímaröð hækkandi",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Bæta við tímaröð lækkandi",
+  "@created_at_desc": {
+    "description": ""
   }
 }

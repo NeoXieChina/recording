@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "ઓપરેશન તારીખ:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "કેટલેગરીમાં ન આવતું",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "કોઈ સ્થળ નથી",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "સામાન વર્ગીકરણ ખાલી ન હોઈ શકે",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "સંગ્રહ સ્થાન ખાલી હોવું નહી જોઈએ",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "સમય પ્રમાણે વધારો ક્રમમાં ઉમેરો",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "સમય પ્રમાણે ઉતરતી ક્રમમાં ઉમેરો",
+  "@created_at_desc": {
+    "description": ""
   }
 }

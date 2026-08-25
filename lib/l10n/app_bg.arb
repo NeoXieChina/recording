@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Дата на операцията:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Некласифициран",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Без място",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Категорията на артикула не може да бъде празна",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Мястото за съхранение не може да бъде празно",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Добавяне на време във възходящ ред",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Добавяне на време в низходящ ред",
+  "@created_at_desc": {
+    "description": ""
   }
 }

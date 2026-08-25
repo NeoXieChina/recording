@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Teostamise kuupäev:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Klassifitseerimata",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Ilma kohata",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Esemete kategooria ei tohi olla tühi",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Salvestuskoht ei tohi olla tühi",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Lisa aeg kasvavas järjekorras",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Lisa aeg kahanevas järjekorras",
+  "@created_at_desc": {
+    "description": ""
   }
 }

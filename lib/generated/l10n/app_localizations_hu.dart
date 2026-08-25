@@ -1458,4 +1458,24 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Művelet dátuma:';
+
+  @override
+  String get uncategorized => 'Nincs kategorizálva';
+
+  @override
+  String get no_location => 'Hely nélküli';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Az árucikk kategóriája nem lehet üres';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'A tárolási hely nem lehet üres';
+
+  @override
+  String get created_at_asc => 'Hozzáadás idő szerinti növekvő sorrend';
+
+  @override
+  String get created_at_desc => 'Hozzáadás időrend szerint csökkenő';
 }

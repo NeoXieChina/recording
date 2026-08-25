@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "วันที่ดำเนินการ:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "ไม่ได้จัดหมวดหมู่",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "ไม่มีสถานที่",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "ประเภทของรายการไม่สามารถว่างได้",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "สถานที่จัดเก็บไม่สามารถเว้นว่างได้",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "เพิ่มเวลาเรียงลำดับจากน้อยไปมาก",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "เพิ่มเวลาเรียงลำดับจากมากไปน้อย",
+  "@created_at_desc": {
+    "description": ""
   }
 }

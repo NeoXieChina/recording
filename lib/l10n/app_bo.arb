@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "བཀོལ་སྤྱོད་ཀྱི་ཚེས་གྲངས།",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "རིགས་མི་འགྲེམས།",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "གནས་ཡུལ་མེད་པ།",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "རྣམ་གྲངས་ཀྱི་རིགས་སྟོང་པ་ཡིན་མི་རུང་།",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "གསོག་ཉར་བྱེད་ས་སྟོང་བ་ཡིན་མི་རུང་།",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "ཁ་སྣོན་དུས་ཚོད་ཡར་འཕར་ནས་དབྱེ་བསྒྲིགས།",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "དུས་ཚོད་ཁ་སྣོན་བྱས་ནས་མར་འབབ་པ།",
+  "@created_at_desc": {
+    "description": ""
   }
 }

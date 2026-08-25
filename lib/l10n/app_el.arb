@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Ημερομηνία λειτουργίας:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Ακατάτακτο",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Χωρίς τόπο",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Η κατηγορία αντικειμένου δεν μπορεί να είναι κενή",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Η τοποθεσία αποθήκευσης δεν μπορεί να είναι κενή",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Προσθήκη κατά αύξουσα σειρά χρόνου",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Προσθήκη κατά φθίνουσα χρονολογία",
+  "@created_at_desc": {
+    "description": ""
   }
 }

@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Betriebsdatum:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Unkategorisiert",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Ohne Ort",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Die Warenkategorie darf nicht leer sein",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Der Speicherort darf nicht leer sein",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Nach Hinzufügungszeit aufsteigend",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Nach Hinzufügungszeit absteigend",
+  "@created_at_desc": {
+    "description": ""
   }
 }

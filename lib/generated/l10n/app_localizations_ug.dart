@@ -1457,4 +1457,22 @@ class AppLocalizationsUg extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'ئىشلىتىش كېنىشى ۋاقتى:';
+
+  @override
+  String get uncategorized => 'تۈرلۈككە كىرىلمىگەن';
+
+  @override
+  String get no_location => 'مەيدانى يوق';
+
+  @override
+  String get item_category_cannot_be_empty => 'مال تۈرى بوش بولalmaydi';
+
+  @override
+  String get storage_location_cannot_be_empty => ' ساقلاش ئورنى بوش بولالمايدۇ';
+
+  @override
+  String get created_at_asc => 'قوشۇش ۋاقىت بويىچە ئۆسۈش تىزىملىكى';
+
+  @override
+  String get created_at_desc => 'قوشۇلغان ۋاقىت بويىچە چۈشۈرۈش تىرىپى';
 }

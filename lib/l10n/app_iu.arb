@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "ᐊᐅᓚᑕᐅᓂᖓᑕ ᐅᓪᓗᖓ:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "ᓇᓗᓇᐃᖅᑕᐅᓯᒪᙱᑦᑐᑦ",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "ᐃᓂᖃᙱᑦᑐᖅ",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "ᐱᖁᑏᑦ ᖃᓄᐃᑦᑑᓂᖏᑦ ᐃᓗᓕᖃᕈᓐᓇᖏᑦᑐᑦ",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "ᓯᕐᓗᐊᖅ ᐃᓄᖃᙱᑦᑐᖃᕆᐊᖃᙱᓚᖅ",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "ᐋᖅᑭᒃᓱᕐᓗᒋᑦ ᐃᓚᓯᓂᖅ ᓯᕿᙳᔭᖅ ᖁᕝᕙᖅᐸᓪᓕᐊᔪᖅ",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "ᐃᓚᓗᒍ ᓯᕿᙳᔭᖅ ᐊᑦᑎᒃᓯᕙᓪᓕᐊᑎᓪᓗᒍ",
+  "@created_at_desc": {
+    "description": ""
   }
 }

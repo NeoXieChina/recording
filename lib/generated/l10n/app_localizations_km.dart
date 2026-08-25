@@ -1448,4 +1448,22 @@ class AppLocalizationsKm extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'កាលបរិច្ឆេទប្រតិបត្ដិការ';
+
+  @override
+  String get uncategorized => 'មិនបានចាត់ថ្នាក់';
+
+  @override
+  String get no_location => 'គ្មានទីតាំង';
+
+  @override
+  String get item_category_cannot_be_empty => 'ប្រភេទទំនិញមិនអាចទទេបាន';
+
+  @override
+  String get storage_location_cannot_be_empty => 'ទីតាំងផ្ទុកមិនអាចទទេបាន';
+
+  @override
+  String get created_at_asc => 'បន្ថែមខ្ទង់ពេលវេលាឡើងលំដាប់កំរិត';
+
+  @override
+  String get created_at_desc => 'បន្ថែមខ្ទង់ពេលវេលាឡើងលំដាប់កំរិតចុះ';
 }

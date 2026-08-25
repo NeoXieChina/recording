@@ -1456,4 +1456,23 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'ऑपरेशन की तारीख:';
+
+  @override
+  String get uncategorized => 'अवर्गीकृत';
+
+  @override
+  String get no_location => 'कोई स्थान नहीं';
+
+  @override
+  String get item_category_cannot_be_empty => 'सामान श्रेणी खाली नहीं हो सकती';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'संग्रहण स्थान खाली नहीं हो सकता';
+
+  @override
+  String get created_at_asc => 'संपादित करने का समय बढ़ते क्रम में';
+
+  @override
+  String get created_at_desc => 'समय के क्रम में घटते हुए जोड़ें';
 }

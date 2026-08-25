@@ -1456,4 +1456,23 @@ class AppLocalizationsAs extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'কাৰ্য্যৰ তাৰিখ:';
+
+  @override
+  String get uncategorized => 'শ্রেণীবিন্যাস কৰা হোৱা নাই';
+
+  @override
+  String get no_location => 'স্থানবিহীন';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'বস্তুৰ শ্ৰেণীবিভাজন খালী হোৱা নাযাব';
+
+  @override
+  String get storage_location_cannot_be_empty => 'সংগ্ৰহ স্থান খালী নহ’ব পাৰে';
+
+  @override
+  String get created_at_asc => 'যোগ কৰাৰ সময়ৰ বৃদ্ধিমূলক';
+
+  @override
+  String get created_at_desc => 'সময় অনুসৰি অৱনমিত';
 }

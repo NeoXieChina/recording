@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Datum operace:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Nezařazeno",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Bez místa",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Kategorie položky nesmí být prázdná",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Místo uložení nesmí být prázdné",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Přidat podle času vzestupně",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Přidat podle času sestupně",
+  "@created_at_desc": {
+    "description": ""
   }
 }

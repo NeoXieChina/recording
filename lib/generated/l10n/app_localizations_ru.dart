@@ -1464,4 +1464,24 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Дата операции:';
+
+  @override
+  String get uncategorized => 'Неклассифицированный';
+
+  @override
+  String get no_location => 'без места';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Категория товара не может быть пустой';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Место хранения не может быть пустым';
+
+  @override
+  String get created_at_asc => 'Добавить по возрастанию времени';
+
+  @override
+  String get created_at_desc => 'Добавить по убыванию времени';
 }

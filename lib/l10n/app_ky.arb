@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Иштөө күнү:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Категориясына кирбеген",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "жок жер",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Элементтин классификациясы бош боло албайт",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Сактоочу жай бош болбошу керек",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Кошуу убактысы боюнча өскөн тартипте",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Кошуу убактысын азайган тартипте",
+  "@created_at_desc": {
+    "description": ""
   }
 }

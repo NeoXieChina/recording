@@ -270,6 +270,8 @@ class _ItemListScreenState extends State<ItemListScreen> {
                               return Icons.format_list_numbered;
                             case 'totalPrice':
                               return Icons.money;
+                            case 'createdAt':
+                              return Icons.access_time;
                             default:
                               return Icons.sort;
                           }
@@ -546,34 +548,89 @@ class _ItemListScreenState extends State<ItemListScreen> {
                                 ],
                               ),
                             ),
-                            PopupMenuItem<String>(
-                              value: 'totalPrice_desc',
-                              child: Row(
-                                children: [
-                                  Icon(
-                                    Icons.money,
-                                    size: 20,
-                                    color:
-                                        provider.sortField == 'totalPrice' &&
-                                            !provider.sortAscending
-                                        ? Theme.of(context).colorScheme.primary
-                                        : null,
-                                  ),
-                                  const SizedBox(width: 8),
-                                  Text(l10n.total_price_desc),
-                                  if (provider.sortField == 'totalPrice' &&
-                                      !provider.sortAscending)
-                                    Icon(
-                                      Icons.check,
-                                      size: 16,
-                                      color: Theme.of(
-                                        context,
-                                      ).colorScheme.primary,
-                                    ),
-                                ],
-                              ),
-                            ),
-                          ],
+                             PopupMenuItem<String>(
+                               value: 'totalPrice_desc',
+                               child: Row(
+                                 children: [
+                                   Icon(
+                                     Icons.money,
+                                     size: 20,
+                                     color:
+                                         provider.sortField == 'totalPrice' &&
+                                             !provider.sortAscending
+                                         ? Theme.of(context).colorScheme.primary
+                                         : null,
+                                   ),
+                                   const SizedBox(width: 8),
+                                   Text(l10n.total_price_desc),
+                                   if (provider.sortField == 'totalPrice' &&
+                                       !provider.sortAscending)
+                                     Icon(
+                                       Icons.check,
+                                       size: 16,
+                                       color: Theme.of(
+                                         context,
+                                       ).colorScheme.primary,
+                                     ),
+                                 ],
+                               ),
+                             ),
+                             const PopupMenuDivider(),
+                             PopupMenuItem<String>(
+                               value: 'createdAt_asc',
+                               child: Row(
+                                 children: [
+                                   Icon(
+                                     Icons.access_time,
+                                     size: 20,
+                                     color:
+                                         provider.sortField == 'createdAt' &&
+                                             provider.sortAscending
+                                         ? Theme.of(context).colorScheme.primary
+                                         : null,
+                                   ),
+                                   const SizedBox(width: 8),
+                                   Text(l10n.created_at_asc),
+                                   if (provider.sortField == 'createdAt' &&
+                                       provider.sortAscending)
+                                     Icon(
+                                       Icons.check,
+                                       size: 16,
+                                       color: Theme.of(
+                                         context,
+                                       ).colorScheme.primary,
+                                     ),
+                                 ],
+                               ),
+                             ),
+                             PopupMenuItem<String>(
+                               value: 'createdAt_desc',
+                               child: Row(
+                                 children: [
+                                   Icon(
+                                     Icons.access_time,
+                                     size: 20,
+                                     color:
+                                         provider.sortField == 'createdAt' &&
+                                             !provider.sortAscending
+                                         ? Theme.of(context).colorScheme.primary
+                                         : null,
+                                   ),
+                                   const SizedBox(width: 8),
+                                   Text(l10n.created_at_desc),
+                                   if (provider.sortField == 'createdAt' &&
+                                       !provider.sortAscending)
+                                     Icon(
+                                       Icons.check,
+                                       size: 16,
+                                       color: Theme.of(
+                                         context,
+                                       ).colorScheme.primary,
+                                     ),
+                                 ],
+                               ),
+                             ),
+                           ],
                         );
                       },
                     ),
@@ -1201,6 +1258,36 @@ class _ItemListScreenState extends State<ItemListScreen> {
                       Navigator.pop(context);
                     },
                   ),
+                  ListTile(
+                    leading: Icon(
+                      Icons.label_outline,
+                      color: currentCategoryFilter == ''
+                          ? Theme.of(context).colorScheme.primary
+                          : Theme.of(context).colorScheme.onSurfaceVariant,
+                    ),
+                    title: Text(
+                      l10n.uncategorized,
+                      style: TextStyle(
+                        fontWeight: currentCategoryFilter == ''
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                        color: currentCategoryFilter == ''
+                            ? Theme.of(context).colorScheme.primary
+                            : null,
+                      ),
+                    ),
+                    trailing: currentCategoryFilter == ''
+                        ? Icon(
+                            Icons.check,
+                            color: Theme.of(context).colorScheme.primary,
+                          )
+                        : null,
+                    selected: currentCategoryFilter == '',
+                    onTap: () {
+                      provider.setFilterCategory('');
+                      Navigator.pop(context);
+                    },
+                  ),
                   ...categories.map(
                     (category) => ListTile(
                       leading: Icon(
@@ -1316,6 +1403,36 @@ class _ItemListScreenState extends State<ItemListScreen> {
                     selected: currentLocationFilter == null,
                     onTap: () {
                       provider.setFilterLocation(null);
+                      Navigator.pop(context);
+                    },
+                  ),
+                  ListTile(
+                    leading: Icon(
+                      Icons.location_off,
+                      color: currentLocationFilter == ''
+                          ? Theme.of(context).colorScheme.primary
+                          : Theme.of(context).colorScheme.onSurfaceVariant,
+                    ),
+                    title: Text(
+                      l10n.no_location,
+                      style: TextStyle(
+                        fontWeight: currentLocationFilter == ''
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                        color: currentLocationFilter == ''
+                            ? Theme.of(context).colorScheme.primary
+                            : null,
+                      ),
+                    ),
+                    trailing: currentLocationFilter == ''
+                        ? Icon(
+                            Icons.check,
+                            color: Theme.of(context).colorScheme.primary,
+                          )
+                        : null,
+                    selected: currentLocationFilter == '',
+                    onTap: () {
+                      provider.setFilterLocation('');
                       Navigator.pop(context);
                     },
                   ),

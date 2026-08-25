@@ -15,7 +15,7 @@ class ItemFormProvider extends ChangeNotifier {
 
   String? _editingId;
   String name = '';
-  String category = '其他';
+  String category = '';
   ItemType itemType = ItemType.consumable;
   int quantity = 1;
   String unit = '个';
@@ -392,7 +392,7 @@ class ItemFormProvider extends ChangeNotifier {
   void reset() {
     _editingId = null;
     name = '';
-    category = '其他';
+    category = '';
     itemType = ItemType.consumable;
     quantity = 1;
     unit = '个';
@@ -474,6 +474,16 @@ class ItemFormProvider extends ChangeNotifier {
       isValid = false;
     }
 
+    if (category.trim().isEmpty) {
+      nameError = AppLocalizations.of(context).item_category_cannot_be_empty;
+      isValid = false;
+    }
+
+    if (storageLocation.trim().isEmpty) {
+      nameError = AppLocalizations.of(context).storage_location_cannot_be_empty;
+      isValid = false;
+    }
+
     if (itemType == ItemType.consumable) {
       // 总是自动计算模式：检查是否有足够的计算信息
       if (expiryDate == null && !_canCalculateExpiryDate()) {
@@ -507,7 +517,7 @@ class ItemFormProvider extends ChangeNotifier {
       final item = Item(
         id: _editingId,
         name: name.trim(),
-        category: category,
+        category: category.trim().isEmpty ? '其他' : category.trim(),
         itemType: itemType,
         quantity: quantity,
         unit: unit,
@@ -521,7 +531,7 @@ class ItemFormProvider extends ChangeNotifier {
         shelfLifeDays: noShelfLife ? null : shelfLifeDays,
         usePurchaseDateForCalculation: usePurchaseDateForCalculation,
         useProductionDateForCalculation: useProductionDateForCalculation,
-        storageLocation: storageLocation,
+        storageLocation: storageLocation.trim().isEmpty ? '未设置' : storageLocation.trim(),
         barcode: barcode.trim().isNotEmpty ? barcode.trim() : null,
         imagePaths: imagePaths,
         notes: notes?.trim().isNotEmpty == true ? notes!.trim() : null,

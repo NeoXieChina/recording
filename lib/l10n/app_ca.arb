@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Data d'operació:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Sense classificar",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Sense lloc",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "La classificació de l'ítem no pot estar buida",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "El lloc d'emmagatzematge no pot estar buit",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Afegir ordre ascendent de temps",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Afegir ordre descendent de temps",
+  "@created_at_desc": {
+    "description": ""
   }
 }

@@ -1471,4 +1471,24 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'Ημερομηνία λειτουργίας:';
+
+  @override
+  String get uncategorized => 'Ακατάτακτο';
+
+  @override
+  String get no_location => 'Χωρίς τόπο';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'Η κατηγορία αντικειμένου δεν μπορεί να είναι κενή';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'Η τοποθεσία αποθήκευσης δεν μπορεί να είναι κενή';
+
+  @override
+  String get created_at_asc => 'Προσθήκη κατά αύξουσα σειρά χρόνου';
+
+  @override
+  String get created_at_desc => 'Προσθήκη κατά φθίνουσα χρονολογία';
 }

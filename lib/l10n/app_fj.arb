@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "Siga ni cakacaka:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "Sega ni vakadewataki",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "Sega ni vanua",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "Na vakadewataki ni iyaya e sega ni rawa ni vakacavari",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "Veivanua ni volitaki e sega ni rawa ni buli vakadua",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "Tani gauna me sivia",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "Veisautaka na gauna me vaka na ilavelave sa rui lailai",
+  "@created_at_desc": {
+    "description": ""
   }
 }

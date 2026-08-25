@@ -2078,5 +2078,29 @@
   "log_operation_date_label": "কাৰ্য্যৰ তাৰিখ:",
   "@log_operation_date_label": {
     "description": ""
+  },
+  "uncategorized": "শ্রেণীবিন্যাস কৰা হোৱা নাই",
+  "@uncategorized": {
+    "description": ""
+  },
+  "no_location": "স্থানবিহীন",
+  "@no_location": {
+    "description": ""
+  },
+  "item_category_cannot_be_empty": "বস্তুৰ শ্ৰেণীবিভাজন খালী হোৱা নাযাব",
+  "@item_category_cannot_be_empty": {
+    "description": ""
+  },
+  "storage_location_cannot_be_empty": "সংগ্ৰহ স্থান খালী নহ’ব পাৰে",
+  "@storage_location_cannot_be_empty": {
+    "description": ""
+  },
+  "created_at_asc": "যোগ কৰাৰ সময়ৰ বৃদ্ধিমূলক",
+  "@created_at_asc": {
+    "description": ""
+  },
+  "created_at_desc": "সময় অনুসৰি অৱনমিত",
+  "@created_at_desc": {
+    "description": ""
   }
 }

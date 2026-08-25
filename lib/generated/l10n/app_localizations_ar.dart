@@ -1449,4 +1449,24 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get log_operation_date_label => 'تاريخ العملية:';
+
+  @override
+  String get uncategorized => 'غير مصنف';
+
+  @override
+  String get no_location => 'بلا مكان';
+
+  @override
+  String get item_category_cannot_be_empty =>
+      'تصنيف العنصر لا يمكن أن يكون فارغًا';
+
+  @override
+  String get storage_location_cannot_be_empty =>
+      'لا يمكن أن يكون موقع التخزين فارغًا';
+
+  @override
+  String get created_at_asc => 'ترتيب حسب وقت الإضافة تصاعدياً';
+
+  @override
+  String get created_at_desc => 'إضافة ترتيب زمني تنازلي';
 }
